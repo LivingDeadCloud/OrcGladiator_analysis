@@ -1,26 +1,26 @@
 classe,ruolo,oggetto,costo_netto,primo_round_con_oggetto,metrica,media_3_round_prima,media_3_round_dopo,differenza,n_prima,n_dopo
-War Hammer,Tank,Heartstone,400,6,tank_quota_round,14.9,14.9,0.0,3,3
+War Hammer,Tank,Heartstone,400,6,colpi_eroe_quota_round,14.9,14.9,0.0,3,3
 Double Blade,DPS mischia,Ethereal Armour,850,7,danni_quota_round,1.9,9.5,7.6,3,3
 Claws,DPS mischia,Ring of Superiority,700,8,danni_quota_round,10.8,14.2,3.5,3,3
-Runeblade,Tank,Heartstone,400,8,tank_quota_round,21.0,12.5,-8.5,3,3
-War Hammer,Tank,Petrified Bark,700,10,tank_quota_round,9.3,11.5,2.2,3,3
+Runeblade,Tank,Heartstone,400,8,colpi_eroe_quota_round,21.0,12.5,-8.5,3,3
+War Hammer,Tank,Petrified Bark,700,10,colpi_eroe_quota_round,9.3,11.5,2.2,3,3
 Pickaxe,DPS mischia,Refresh Stone,425,11,danni_quota_round,16.1,12.7,-3.4,3,3
 Wizard Staff,DPS distanza,Ring of Superiority,700,11,danni_quota_round,12.8,9.9,-2.8,3,3
 Naga Trident,DPS distanza,Purchase Warp Treads,513,11,danni_quota_round,16.2,10.7,-5.5,3,3
 Druid Staff,Healer,Pipe of Insight,750,12,cure_quota_round,32.8,41.8,9.0,3,3
 Double Blade,DPS mischia,Petrified Bark,700,12,danni_quota_round,9.7,6.7,-3.1,3,3
-Runeblade,Tank,Illuminators,1000,13,tank_quota_round,13.1,4.6,-8.5,3,3
+Runeblade,Tank,Illuminators,1000,13,colpi_eroe_quota_round,13.1,4.6,-8.5,3,3
 Claws,DPS mischia,Shard of the Revenant,1000,13,danni_quota_round,23.1,40.4,17.3,3,3
 Bow,DPS distanza,Purchase Windwalkers,438,13,danni_quota_round,13.9,17.3,3.4,3,3
 Bow,DPS distanza,Hex of Augmentation III,750,14,danni_quota_round,12.0,18.3,6.3,3,3
 Naga Trident,DPS distanza,Mask of Death,700,14,danni_quota_round,10.7,7.6,-3.1,3,3
 War Drums,Support,Purchase Warp Treads,513,15,cure_quota_round,9.2,17.4,8.1,3,3
-War Hammer,Tank,Purchase Imbued Greaves,563,15,tank_quota_round,7.3,7.5,0.2,3,3
+War Hammer,Tank,Purchase Imbued Greaves,563,15,colpi_eroe_quota_round,7.3,7.5,0.2,3,3
 Double Blade,DPS mischia,Purchase Imbued Greaves,563,15,danni_quota_round,6.7,2.3,-4.4,3,3
 Wizard Staff,DPS distanza,Shard of the Revenant,1000,16,danni_quota_round,11.7,13.8,2.1,3,3
 Pickaxe,DPS mischia,Warrior's Spirit,1250,16,danni_quota_round,10.8,21.7,10.9,3,3
 Druid Staff,Healer,Flag of Victory,1250,16,cure_quota_round,38.9,36.7,-2.2,3,3
-Runeblade,Tank,Purchase Imbued Greaves,525,17,tank_quota_round,7.0,14.4,7.4,3,3
+Runeblade,Tank,Purchase Imbued Greaves,525,17,colpi_eroe_quota_round,7.0,11.5,4.5,3,3
 Claws,DPS mischia,Purchase Warp Treads,513,17,danni_quota_round,37.4,35.8,-1.6,3,3
 Naga Trident,DPS distanza,Bonecarver Necklace,1000,17,danni_quota_round,7.6,9.2,1.6,3,3
 Wizard Staff,DPS distanza,Purchase Slippers of Focus,463,18,danni_quota_round,12.9,16.5,3.6,3,2

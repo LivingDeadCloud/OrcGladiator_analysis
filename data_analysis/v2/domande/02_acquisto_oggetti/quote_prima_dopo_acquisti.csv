@@ -1,70 +1,70 @@
 classe,ruolo,oggetto,costo_oro,tempo_s,fase,metrica,challenge_prima,challenge_dopo,quota_media_prima,quota_media_dopo,differenza_punti,metrica_del_ruolo
 Double Blade,DPS mischia,Ethereal Armour,850,1517.6,pausa dopo challenge 6,danni,"6,5,4","7,8,9",1.87,9.47,7.6,si
-Double Blade,DPS mischia,Ethereal Armour,850,1517.6,pausa dopo challenge 6,tank,"6,5,4","7,8,9",9.97,30.47,20.5,no
+Double Blade,DPS mischia,Ethereal Armour,850,1517.6,pausa dopo challenge 6,colpi_eroe,"6,5,4","7,8,9",9.97,28.23,18.27,no
 Double Blade,DPS mischia,Ethereal Armour,850,1517.6,pausa dopo challenge 6,cure,"6,5,4","7,8,9",8.7,9.13,0.43,no
 Claws,DPS mischia,Ring of Superiority,700,1800.9,pausa dopo challenge 7,danni,"7,6,5","8,9,10",10.77,14.23,3.47,si
-Claws,DPS mischia,Ring of Superiority,700,1800.9,pausa dopo challenge 7,tank,"7,6,5","8,9,10",24.4,20.07,-4.33,no
+Claws,DPS mischia,Ring of Superiority,700,1800.9,pausa dopo challenge 7,colpi_eroe,"7,6,5","8,9,10",18.07,15.7,-2.37,no
 Claws,DPS mischia,Ring of Superiority,700,1800.9,pausa dopo challenge 7,cure,"7,6,5","8,9,10",6.57,2.73,-3.83,no
 Druid Staff,Healer,Purchase Slippers of Focus,500,2637.3,pausa dopo challenge 9,danni,"9,8,7","10,11,12",1.17,0.63,-0.53,no
-Druid Staff,Healer,Purchase Slippers of Focus,500,2637.3,pausa dopo challenge 9,tank,"9,8,7","10,11,12",7.93,3.37,-4.57,no
+Druid Staff,Healer,Purchase Slippers of Focus,500,2637.3,pausa dopo challenge 9,colpi_eroe,"9,8,7","10,11,12",1.97,0.07,-1.9,no
 Druid Staff,Healer,Purchase Slippers of Focus,500,2637.3,pausa dopo challenge 9,cure,"9,8,7","10,11,12",28.8,40.83,12.03,si
 War Hammer,Tank,Petrified Bark,700,2655.8,pausa dopo challenge 9,danni,"9,8,7","10,11,12",6.67,8.57,1.9,no
-War Hammer,Tank,Petrified Bark,700,2655.8,pausa dopo challenge 9,tank,"9,8,7","10,11,12",9.27,11.5,2.23,si
+War Hammer,Tank,Petrified Bark,700,2655.8,pausa dopo challenge 9,colpi_eroe,"9,8,7","10,11,12",9.27,11.5,2.23,si
 War Hammer,Tank,Petrified Bark,700,2655.8,pausa dopo challenge 9,cure,"9,8,7","10,11,12",18.93,16.33,-2.6,no
 Wizard Staff,DPS distanza,Ring of Superiority,700,2939.2,pausa dopo challenge 10,danni,"10,9,8","11,12,13",12.77,9.93,-2.83,si
-Wizard Staff,DPS distanza,Ring of Superiority,700,2939.2,pausa dopo challenge 10,tank,"10,9,8","11,12,13",11.87,7.93,-3.93,no
+Wizard Staff,DPS distanza,Ring of Superiority,700,2939.2,pausa dopo challenge 10,colpi_eroe,"10,9,8","11,12,13",5.2,1.07,-4.13,no
 Wizard Staff,DPS distanza,Ring of Superiority,700,2939.2,pausa dopo challenge 10,cure,"10,9,8","11,12,13",1.93,5.67,3.73,no
 Naga Trident,DPS distanza,Purchase Warp Treads,550,2947.0,pausa dopo challenge 10,danni,"10,9,8","11,12,13",16.17,10.7,-5.47,si
-Naga Trident,DPS distanza,Purchase Warp Treads,550,2947.0,pausa dopo challenge 10,tank,"10,9,8","11,12,13",1.1,1.53,0.43,no
+Naga Trident,DPS distanza,Purchase Warp Treads,550,2947.0,pausa dopo challenge 10,colpi_eroe,"10,9,8","11,12,13",1.1,1.53,0.43,no
 Naga Trident,DPS distanza,Purchase Warp Treads,550,2947.0,pausa dopo challenge 10,cure,"10,9,8","11,12,13",0.9,1.6,0.7,no
 Druid Staff,Healer,Pipe of Insight,750,3200.8,pausa dopo challenge 11,danni,"11,10,9","12,13,14",0.93,0.2,-0.73,no
-Druid Staff,Healer,Pipe of Insight,750,3200.8,pausa dopo challenge 11,tank,"11,10,9","12,13,14",2.87,2.97,0.1,no
+Druid Staff,Healer,Pipe of Insight,750,3200.8,pausa dopo challenge 11,colpi_eroe,"11,10,9","12,13,14",0.27,0.53,0.27,no
 Druid Staff,Healer,Pipe of Insight,750,3200.8,pausa dopo challenge 11,cure,"11,10,9","12,13,14",32.77,41.8,9.03,si
 Double Blade,DPS mischia,Petrified Bark,700,3213.0,pausa dopo challenge 11,danni,"11,10,9","12,13,14",9.73,6.67,-3.07,si
-Double Blade,DPS mischia,Petrified Bark,700,3213.0,pausa dopo challenge 11,tank,"11,10,9","12,13,14",41.83,44.43,2.6,no
+Double Blade,DPS mischia,Petrified Bark,700,3213.0,pausa dopo challenge 11,colpi_eroe,"11,10,9","12,13,14",41.1,42.47,1.37,no
 Double Blade,DPS mischia,Petrified Bark,700,3213.0,pausa dopo challenge 11,cure,"11,10,9","12,13,14",5.1,8.27,3.17,no
 Runeblade,Tank,Illuminators,1000,3425.1,pausa dopo challenge 12,danni,"12,11,10","13,14,15",5.97,2.0,-3.97,no
-Runeblade,Tank,Illuminators,1000,3425.1,pausa dopo challenge 12,tank,"12,11,10","13,14,15",13.07,4.57,-8.5,si
+Runeblade,Tank,Illuminators,1000,3425.1,pausa dopo challenge 12,colpi_eroe,"12,11,10","13,14,15",13.07,4.57,-8.5,si
 Runeblade,Tank,Illuminators,1000,3425.1,pausa dopo challenge 12,cure,"12,11,10","13,14,15",10.17,14.97,4.8,no
 Claws,DPS mischia,Shard of the Revenant,1000,3436.1,pausa dopo challenge 12,danni,"12,11,10","13,14,15",23.13,40.4,17.27,si
-Claws,DPS mischia,Shard of the Revenant,1000,3436.1,pausa dopo challenge 12,tank,"12,11,10","13,14,15",21.57,26.07,4.5,no
+Claws,DPS mischia,Shard of the Revenant,1000,3436.1,pausa dopo challenge 12,colpi_eroe,"12,11,10","13,14,15",17.47,22.17,4.7,no
 Claws,DPS mischia,Shard of the Revenant,1000,3436.1,pausa dopo challenge 12,cure,"12,11,10","13,14,15",5.27,8.87,3.6,no
 Bow,DPS distanza,Hex of Augmentation III,750,3700.3,pausa dopo challenge 13,danni,"13,12,11","14,15,16",12.0,18.27,6.27,si
-Bow,DPS distanza,Hex of Augmentation III,750,3700.3,pausa dopo challenge 13,tank,"13,12,11","14,15,16",1.07,1.67,0.6,no
+Bow,DPS distanza,Hex of Augmentation III,750,3700.3,pausa dopo challenge 13,colpi_eroe,"13,12,11","14,15,16",1.07,1.67,0.6,no
 Bow,DPS distanza,Hex of Augmentation III,750,3700.3,pausa dopo challenge 13,cure,"13,12,11","14,15,16",2.6,4.37,1.77,no
 Naga Trident,DPS distanza,Mask of Death,700,3705.3,pausa dopo challenge 13,danni,"13,12,11","14,15,16",10.7,7.57,-3.13,si
-Naga Trident,DPS distanza,Mask of Death,700,3705.3,pausa dopo challenge 13,tank,"13,12,11","14,15,16",1.53,1.47,-0.07,no
+Naga Trident,DPS distanza,Mask of Death,700,3705.3,pausa dopo challenge 13,colpi_eroe,"13,12,11","14,15,16",1.53,1.47,-0.07,no
 Naga Trident,DPS distanza,Mask of Death,700,3705.3,pausa dopo challenge 13,cure,"13,12,11","14,15,16",1.6,1.03,-0.57,no
 War Drums,Support,Purchase Warp Treads,550,3919.4,pausa dopo challenge 14,danni,"14,13,12","15,16,17",0.23,0.93,0.7,no
-War Drums,Support,Purchase Warp Treads,550,3919.4,pausa dopo challenge 14,tank,"14,13,12","15,16,17",2.4,0.77,-1.63,no
+War Drums,Support,Purchase Warp Treads,550,3919.4,pausa dopo challenge 14,colpi_eroe,"14,13,12","15,16,17",2.4,0.77,-1.63,no
 War Drums,Support,Purchase Warp Treads,550,3919.4,pausa dopo challenge 14,cure,"14,13,12","15,16,17",9.23,17.37,8.13,si
 War Hammer,Tank,Purchase Imbued Greaves,600,3935.4,pausa dopo challenge 14,danni,"14,13,12","15,16,17",4.63,4.27,-0.37,no
-War Hammer,Tank,Purchase Imbued Greaves,600,3935.4,pausa dopo challenge 14,tank,"14,13,12","15,16,17",7.3,7.47,0.17,si
+War Hammer,Tank,Purchase Imbued Greaves,600,3935.4,pausa dopo challenge 14,colpi_eroe,"14,13,12","15,16,17",7.3,7.47,0.17,si
 War Hammer,Tank,Purchase Imbued Greaves,600,3935.4,pausa dopo challenge 14,cure,"14,13,12","15,16,17",9.33,9.2,-0.13,no
 Double Blade,DPS mischia,Purchase Imbued Greaves,600,3948.4,pausa dopo challenge 14,danni,"14,13,12","15,16,17",6.67,2.27,-4.4,si
-Double Blade,DPS mischia,Purchase Imbued Greaves,600,3948.4,pausa dopo challenge 14,tank,"14,13,12","15,16,17",44.43,33.83,-10.6,no
+Double Blade,DPS mischia,Purchase Imbued Greaves,600,3948.4,pausa dopo challenge 14,colpi_eroe,"14,13,12","15,16,17",42.47,33.83,-8.63,no
 Double Blade,DPS mischia,Purchase Imbued Greaves,600,3948.4,pausa dopo challenge 14,cure,"14,13,12","15,16,17",8.27,4.17,-4.1,no
 Wizard Staff,DPS distanza,Shard of the Revenant,1000,4293.5,pausa dopo challenge 15,danni,"15,14,13","16,17,18",11.73,13.83,2.1,si
-Wizard Staff,DPS distanza,Shard of the Revenant,1000,4293.5,pausa dopo challenge 15,tank,"15,14,13","16,17,18",8.63,8.9,0.27,no
+Wizard Staff,DPS distanza,Shard of the Revenant,1000,4293.5,pausa dopo challenge 15,colpi_eroe,"15,14,13","16,17,18",1.9,1.83,-0.07,no
 Wizard Staff,DPS distanza,Shard of the Revenant,1000,4293.5,pausa dopo challenge 15,cure,"15,14,13","16,17,18",3.23,0.43,-2.8,no
 Pickaxe,DPS mischia,Warrior's Spirit,1250,4300.6,pausa dopo challenge 15,danni,"15,14,13","16,17,18",10.77,21.7,10.93,si
-Pickaxe,DPS mischia,Warrior's Spirit,1250,4300.6,pausa dopo challenge 15,tank,"15,14,13","16,17,18",2.83,2.43,-0.4,no
+Pickaxe,DPS mischia,Warrior's Spirit,1250,4300.6,pausa dopo challenge 15,colpi_eroe,"15,14,13","16,17,18",0.93,0.37,-0.57,no
 Pickaxe,DPS mischia,Warrior's Spirit,1250,4300.6,pausa dopo challenge 15,cure,"15,14,13","16,17,18",2.0,2.23,0.23,no
 Druid Staff,Healer,Flag of Victory,1250,4322.9,pausa dopo challenge 15,danni,"15,14,13","16,17,18",0.13,1.0,0.87,no
-Druid Staff,Healer,Flag of Victory,1250,4322.9,pausa dopo challenge 15,tank,"15,14,13","16,17,18",3.13,4.47,1.33,no
+Druid Staff,Healer,Flag of Victory,1250,4322.9,pausa dopo challenge 15,colpi_eroe,"15,14,13","16,17,18",0.87,0.37,-0.5,no
 Druid Staff,Healer,Flag of Victory,1250,4322.9,pausa dopo challenge 15,cure,"15,14,13","16,17,18",38.9,36.7,-2.2,si
 Runeblade,Tank,Purchase Imbued Greaves,600,4617.6,pausa dopo challenge 16,danni,"16,15,14","17,18,19",1.6,3.13,1.53,no
-Runeblade,Tank,Purchase Imbued Greaves,600,4617.6,pausa dopo challenge 16,tank,"16,15,14","17,18,19",7.0,14.43,7.43,si
+Runeblade,Tank,Purchase Imbued Greaves,600,4617.6,pausa dopo challenge 16,colpi_eroe,"16,15,14","17,18,19",7.0,11.53,4.53,si
 Runeblade,Tank,Purchase Imbued Greaves,600,4617.6,pausa dopo challenge 16,cure,"16,15,14","17,18,19",13.37,15.6,2.23,no
 Claws,DPS mischia,Purchase Warp Treads,550,4639.7,pausa dopo challenge 16,danni,"16,15,14","17,18,19",37.43,35.83,-1.6,si
-Claws,DPS mischia,Purchase Warp Treads,550,4639.7,pausa dopo challenge 16,tank,"16,15,14","17,18,19",24.63,33.17,8.53,no
+Claws,DPS mischia,Purchase Warp Treads,550,4639.7,pausa dopo challenge 16,colpi_eroe,"16,15,14","17,18,19",20.3,29.07,8.77,no
 Claws,DPS mischia,Purchase Warp Treads,550,4639.7,pausa dopo challenge 16,cure,"16,15,14","17,18,19",6.8,10.33,3.53,no
 Naga Trident,DPS distanza,Bonecarver Necklace,1000,4647.9,pausa dopo challenge 16,danni,"16,15,14","17,18,19",7.57,9.17,1.6,si
-Naga Trident,DPS distanza,Bonecarver Necklace,1000,4647.9,pausa dopo challenge 16,tank,"16,15,14","17,18,19",1.47,0.83,-0.63,no
+Naga Trident,DPS distanza,Bonecarver Necklace,1000,4647.9,pausa dopo challenge 16,colpi_eroe,"16,15,14","17,18,19",1.47,0.83,-0.63,no
 Naga Trident,DPS distanza,Bonecarver Necklace,1000,4647.9,pausa dopo challenge 16,cure,"16,15,14","17,18,19",1.03,1.07,0.03,no
 Wizard Staff,DPS distanza,Purchase Slippers of Focus,500,4848.8,pausa dopo challenge 17,danni,"17,16,15","18,19",12.9,16.55,3.65,si
-Wizard Staff,DPS distanza,Purchase Slippers of Focus,500,4848.8,pausa dopo challenge 17,tank,"17,16,15","18,19",8.77,8.6,-0.17,no
+Wizard Staff,DPS distanza,Purchase Slippers of Focus,500,4848.8,pausa dopo challenge 17,colpi_eroe,"17,16,15","18,19",2.5,2.2,-0.3,no
 Wizard Staff,DPS distanza,Purchase Slippers of Focus,500,4848.8,pausa dopo challenge 17,cure,"17,16,15","18,19",1.23,0.15,-1.08,no
 Bow,DPS distanza,Feral Visage,900,4856.1,pausa dopo challenge 17,danni,"17,16,15","18,19",15.67,7.1,-8.57,si
-Bow,DPS distanza,Feral Visage,900,4856.1,pausa dopo challenge 17,tank,"17,16,15","18,19",1.7,0.15,-1.55,no
+Bow,DPS distanza,Feral Visage,900,4856.1,pausa dopo challenge 17,colpi_eroe,"17,16,15","18,19",1.7,0.15,-1.55,no
 Bow,DPS distanza,Feral Visage,900,4856.1,pausa dopo challenge 17,cure,"17,16,15","18,19",3.4,1.65,-1.75,no

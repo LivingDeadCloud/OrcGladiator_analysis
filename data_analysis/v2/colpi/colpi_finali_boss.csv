@@ -1,0 +1,17 @@
+voce,tipo,classe,ruolo,colpi_quota_centrale,colpi_quota_min,colpi_quota_max,colpi_quota_totale_classe_misurata,limitata_dal_pavimento
+Runeblade,eroe,Runeblade,Tank,13.21,12.36,13.86,14.8,
+War Hammer,eroe,War Hammer,Tank,13.6,13.6,13.6,13.6,
+Druid Staff,eroe,Druid Staff,Healer,0.9,0.9,0.9,4.5,
+War Drums,eroe,War Drums,Support,0.9,0.9,0.9,0.9,
+Claws,eroe,Claws,DPS mischia,20.02,17.85,21.68,24.1,
+Double Blade,eroe,Double Blade,DPS mischia,27.62,27.1,28.02,28.6,
+Pickaxe,eroe,Pickaxe,DPS mischia,0.9,0.9,0.9,3.5,
+Bow,eroe,Bow,DPS distanza,0.9,0.9,0.9,0.9,
+Naga Trident,eroe,Naga Trident,DPS distanza,1.1,1.1,1.1,1.1,
+Wizard Staff,eroe,Wizard Staff,DPS distanza,1.64,0.9,4.23,8.0,
+Lupi (Claws),evocazione,Claws,DPS mischia,4.08,2.42,6.25,24.1,no
+Treant (Druid Staff),evocazione,Druid Staff,Healer,3.6,3.6,3.6,4.5,si
+Elementale (Wizard Staff),evocazione,Wizard Staff,DPS distanza,6.36,3.77,7.1,8.0,si
+Portali (Double Blade),evocazione,Double Blade,DPS mischia,0.98,0.58,1.5,28.6,no
+Torre (Pickaxe),evocazione,Pickaxe,DPS mischia,2.6,2.6,2.6,3.5,si
+Compagno (Runeblade),evocazione,Runeblade,Tank,1.59,0.94,2.44,14.8,no

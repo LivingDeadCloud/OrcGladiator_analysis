@@ -97,13 +97,14 @@ Ordinare gli acquisti per etichetta di ruolo ("prima l'healer", "prima i tank") 
 - **Probabili rianimazioni** (HP ≤ 25% e mana ≤ 125, cioè i valori di ripristino del trigger) [S]: il **Bow in 8 round** e il Naga Trident in 5. Il Bow è anche la classe che ha speso meno (2.618) e ha comprato più tardi il primo oggetto grande.
 - **Non si può dire** se il round è lento perché gli eroi muoiono o se gli eroi muoiono perché il round dura troppo.
 
-**I tank non tankano [M].**
-- La quota di danni subiti dal ruolo Tank scende così:
+**I tank non tankano [M, scorporo S].**
+La colonna "tank" della multiboard conta i **colpi presi**, non i danni, e include i colpi presi dalle unità evocate (`colpi/NOTE.md`). Qui si usano i colpi del solo eroe.
+- La quota di colpi degli eroi Tank scende così:
   - 57% nelle challenge 1–2;
   - 1,5–8,5% nelle challenge 13–14;
-  - 27,9% in media.
-- Nello stesso periodo il ruolo DPS mischia ne prende il 56,5% in media (fino al 79%). Claws e Double Blade prendono più colpi dei due Tank: 24% e 28,5% al boss finale.
-- I Tank hanno speso come gli altri, soprattutto in oggetti difensivi. Più equipaggiamento difensivo ai Tank **non** ha spostato i danni su di loro.
+  - 26,5% sul totale della partita.
+- Gli eroi DPS mischia ne prendono il 48,6% (fino al 70% in un round). Claws e Double Blade, al netto di lupi e portali, prendono più colpi dei due Tank: 20% e 27,6% al boss finale, contro il 13–14% di ciascun Tank.
+- I Tank hanno speso come gli altri, soprattutto in oggetti difensivi. Più equipaggiamento difensivo ai Tank **non** ha spostato i colpi su di loro.
 
 **Mana dell'Healer [M, rapporto S].**
 - Mana a fine round nelle challenge 1–9: mediana **76** (circa l'11% del massimo stimato).
@@ -111,7 +112,7 @@ Ordinare gli acquisti per etichetta di ruolo ("prima l'healer", "prima i tank") 
 - Nello stesso passaggio la quota di cure del round sale in media da 33% (ch. 1–9) a 39% (ch. 10–19) [S, con altri fattori in gioco: livello, oggetti degli altri].
 
 **Sconfitta al boss finale.**
-- Allo snapshot a metà boss, il ruolo Tank prende il 28% dei danni e il ruolo DPS mischia il 56%.
+- Allo snapshot a metà boss, gli eroi Tank hanno preso il 27% dei colpi e gli eroi DPS mischia il 48%.
 - Gli HP del boss e la causa della sconfitta **non** sono nei dati.
 
 ### 2.5 Quote prima e dopo gli acquisti grandi (`effetto_acquisti_grandi.csv`, [S] molto incerta)
@@ -123,11 +124,11 @@ Per ciascuno dei 26 acquisti ≥400 ho confrontato la media dei 3 round prima co
 | Warrior's Spirit (Pickaxe) | danni | 11% → 22% |
 | Pipe of Insight (Healer) | cure | 33% → 42% |
 | Ethereal Armour (Double Blade) | danni | 2% → 10% |
-| Illuminators (Runeblade) | danni subiti | 13% → 5% |
-| Heartstone (Runeblade) | danni subiti | 21% → 13% |
+| Illuminators (Runeblade) | colpi presi (eroe) | 13% → 5% |
+| Heartstone (Runeblade) | colpi presi (eroe) | 21% → 12,5% |
 
 - Le variazioni maggiori riguardano oggetti da danni o da cura.
-- Gli oggetti difensivi dei Tank non aumentano la loro quota di danni subiti.
+- Gli oggetti difensivi dei Tank non aumentano la loro quota di colpi presi.
 - Sono quote a somma 100: ogni acquisto degli altri le modifica. **Non sono effetti causali.**
 
 ## 3. Cosa non si può dire, e perché

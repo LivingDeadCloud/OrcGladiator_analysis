@@ -7,7 +7,7 @@ Script: `analisi_scelta_classi.py` (da lanciare nella cartella principale del pr
 
 **Verdetto: non determinabile come "ottimale"; in parte adeguata.** La composizione copre tutti i ruoli e il team ha
 preso le uniche due classi "Melee Tank" che la mappa offre. In gioco però i ruoli non sono stati svolti come previsto:
-i danni subiti li hanno presi soprattutto due DPS mischia (Double Blade e Claws). I danni dipendono molto da una sola
+i colpi li hanno presi soprattutto due DPS mischia (Double Blade e Claws), anche togliendo quelli presi dai lupi di Claws. I danni dipendono molto da una sola
 classe (Claws). Nelle wave difficili i DPS a distanza sono finiti spesso sotto il 20% di HP. Dire se un'altra
 composizione avrebbe fatto meglio, e in particolare se avrebbe battuto il boss finale, **non è possibile**: le 6 classi
 non giocate non hanno dati, c'è una sola partita e ogni classe è stata giocata da una sola persona. L'effetto della
@@ -39,25 +39,37 @@ classe e quello del giocatore non si possono separare.
   (`data_replay/chat.csv`). Non ho verificato se due giocatori possano scegliere la stessa arma.
 
 ### 2b. Chi ha svolto davvero i ruoli
-MISURATO: multiboard dopo la challenge 19 (`scheda_classi.csv`, `coerenza_ruoli.csv`).
+Multiboard dopo la challenge 19 (`scheda_classi.csv`, `coerenza_ruoli.csv`).
 
-| Classe (ruolo) | Danni | Tank | Cure (multiboard) | Boss | Ruolo osservato |
-|---|---|---|---|---|---|
-| Runeblade (Tank) | 5,6 | 14,7 | 16,3 | 3,9 | Healer (no) |
-| War Hammer (Tank) | 7,1 | 13,2 | 12,9 | 8,9 | Tank (parziale) |
-| Druid Staff (Healer) | 1,0 | 4,5 | 36,0 | 0,8 | Healer (sì) |
-| War Drums (Support) | 1,7 | 1,0 | 13,8 | 2,2 | n.d. |
-| Claws (DPS mischia) | **26,9** | 24,5 | 7,3 | **33,2** | DPS (parziale) |
-| Double Blade (DPS mischia) | 5,5 | **28,3** | 5,7 | 8,1 | Tank (no) |
-| Pickaxe (DPS mischia) | 15,3 | 3,7 | 3,1 | 8,9 | DPS (sì) |
-| Bow (DPS distanza) | 12,7 | 1,0 | 2,3 | 14,3 | DPS (sì) |
-| Naga Trident (DPS distanza) | 11,3 | 1,0 | 1,2 | 6,7 | DPS (sì) |
-| Wizard Staff (DPS distanza) | 12,9 | 8,1 | 1,5 | 12,9 | DPS (sì) |
+**Attenzione: la colonna "tank" della multiboard conta i colpi presi, non i danni** (`colpi/NOTE.md`). Ogni colpo vale 1,
+qualunque sia il danno, e i colpi presi dalle unità evocate (lupi, Treant, elementali, torre, compagno) vanno al padrone.
+Per questo la tabella riporta due colonne: il totale misurato e i colpi del solo eroe, STIMATI togliendo le evocazioni
+(scenario centrale, forbice in `colpi/colpi_finali_dopo_challenge_19.csv`). Il danno ricevuto in HP la mappa non lo registra.
+
+| Classe (ruolo) | Danni | Colpi (misurati) | Colpi eroe (stima) | Cure (multiboard) | Boss | Ruolo osservato |
+|---|---|---|---|---|---|---|
+| Runeblade (Tank) | 5,6 | 14,7 | 13,3 | 16,3 | 3,9 | Healer (no) |
+| War Hammer (Tank) | 7,1 | 13,2 | 13,2 | 12,9 | 8,9 | Tank (parziale) |
+| Druid Staff (Healer) | 1,0 | 4,5 | 1,0 | 36,0 | 0,8 | Healer (sì) |
+| War Drums (Support) | 1,7 | 1,0 | 1,0 | 13,8 | 2,2 | n.d. |
+| Claws (DPS mischia) | **26,9** | 24,5 | 20,4 (18,1–22,1) | 7,3 | **33,2** | DPS (parziale) |
+| Double Blade (DPS mischia) | 5,5 | **28,3** | **27,3** | 5,7 | 8,1 | Tank (no) |
+| Pickaxe (DPS mischia) | 15,3 | 3,7 | 1,0 | 3,1 | 8,9 | DPS (sì) |
+| Bow (DPS distanza) | 12,7 | 1,0 | 1,0 | 2,3 | 14,3 | DPS (sì) |
+| Naga Trident (DPS distanza) | 11,3 | 1,0 | 1,0 | 1,2 | 6,7 | DPS (sì) |
+| Wizard Staff (DPS distanza) | 12,9 | 8,1 | 1,8 (1,0–4,4) | 1,5 | 12,9 | DPS (sì) |
+
+Le unità evocate prendono il **19%** dei colpi: elementale del Wizard Staff 6,3; lupi di Claws 4,1; Treant del Druid
+Staff 3,5; torre del Pickaxe 2,7; compagno del Runeblade 1,4 (solo dalla challenge 18); portali del Double Blade 1,0.
 
 - **Tank: copertura nominale sì, effettiva no.**
-  - Le classi non-Tank hanno subito il **72,1%** dei danni; Double Blade e Claws insieme il **52,8%**.
-  - I due Tank, insieme, hanno subito il 27,9%.
-  - I premi "migliore tank" dei Tank sono 5, tutti entro la challenge 7. Il Double Blade ne prende 7 (challenge 9–16).
+  - Gli eroi non-Tank hanno preso il **54,4%** dei colpi (stima). Double Blade e Claws insieme il **47,6%** (forbice 44,9–49,7).
+  - I due Tank insieme il 26,5%: ciascuno meno della metà del Double Blade.
+  - **Il dubbio "i Tank prendono pochi danni perché hanno tanta armatura" non si applica:** la colonna conta già i colpi, non
+    i danni. Anche in numero di colpi i Tank sono dietro Double Blade e Claws. Il confronto colpi/danni ("il Tank prende tanti
+    colpi e pochi danni, l'offtank pochi colpi ma tanti danni") non si può fare: il danno in HP non è registrato.
+  - I premi "migliore tank" (anche questi a colpi, evocazioni comprese) dei Tank sono 5, tutti entro la challenge 7.
+    Il Double Blade ne prende 7 (challenge 9–16).
 - **Cure: ridondanza.** Quattro classi superano il 10% delle cure della multiboard (Druid Staff, Runeblade, War Drums,
   War Hammer). La % della multiboard però include rigenerazione, pozioni e lifesteal.
 
@@ -65,10 +77,12 @@ MISURATO: multiboard dopo la challenge 19 (`scheda_classi.csv`, `coerenza_ruoli.
 
   | Classe | Quota |
   |---|---|
-  | Druid Staff | 60,9% |
-  | War Drums | 28,6% |
-  | Runeblade | 10,5% |
+  | Druid Staff | 67,6% |
+  | War Drums | 28,9% |
+  | Runeblade | 3,5% |
   | War Hammer | 0% |
+
+  Il modello stima l'autocura in proporzione ai colpi presi dall'**eroe**: rigenerazione, pozioni e lifesteal non curano le evocazioni.
 
   Le cure da abilità sono quindi concentrate su Healer e Support. Le cure dei Tank sono in buona parte autocura.
 - **Danni: concentrazione su una classe.**
@@ -81,9 +95,10 @@ MISURATO: multiboard dopo la challenge 19 (`scheda_classi.csv`, `coerenza_ruoli.
 Quote del round STIMATE, già in `aggregato/classe_tipo_wave.csv` e `ruolo_tipo_wave.csv`. n = 5 wave da mischia,
 4 a distanza, 10 ibride.
 
-- **Contro le wave a distanza:**
-  - la quota tank dei Tank scende (somma 24,8 contro 31,2 in mischia; War Hammer 7,6);
-  - il Double Blade sale a 36,0;
+- **Contro le wave a distanza** (colpi dell'eroe, stima):
+  - la quota dei Tank scende (somma 24,8 contro 31,2 in mischia; War Hammer 7,6);
+  - il Double Blade sale a 35,5;
+  - Claws scende a 15,1 (22,7 in mischia);
   - il voto medio è il peggiore (4,5 contro 3,0 in mischia), ma la media pesa molto sulla wave 9 (G).
 - **Danni per ruolo:** le differenze tra tipi sono piccole (DPS mischia 41,8 / 44,0 / 47,3; DPS distanza 40,8 / 35,0 /
   36,2 su mischia / distanza / ibrida), entro il rumore di ±1–2 punti dichiarato.
@@ -110,8 +125,8 @@ Escluse la 8 e la 12 (senza voto).
   Nelle challenge facili i casi sono 1 in tutto. In pratica **le retrovie (tiratori, Healer, Support) finiscono in rosso
   più dei Tank**. È coerente con Tank che non trattengono i nemici, ma il replay non contiene posizioni né bersagli dei
   nemici: è un'**ipotesi**.
-- **Quota tank del round, difficili contro facili** (STIMATA): Tank 24,4 contro 37,3; DPS mischia 58,0 contro 52,8;
-  Double Blade 30,8 contro 21,0. Nelle challenge difficili il carico si sposta ancora di più dai Tank ai DPS mischia.
+- **Colpi dell'eroe nel round, difficili contro facili** (STIMATA): Tank 23,5 contro 37,3; DPS mischia 50,1 contro 43,7;
+  Double Blade 29,0 contro 21,0. Nelle challenge difficili il carico si sposta ancora di più dai Tank ai DPS mischia.
 - **Quota boss del round** (STIMATA, poco significativa fuori dai round con boss): DPS mischia 48,8 nelle difficili
   contro 29,4 nelle facili; Claws 31,7 contro 12,2. Nelle challenge difficili il boss lo abbatte soprattutto Claws.
 - **Boss finale** (challenge 20, persa). Le quote sono dallo snapshot parziale a 5987 s: STIMA del round, ±1–2 punti.
@@ -119,7 +134,7 @@ Escluse la 8 e la 12 (senza voto).
   | Metrica | Classi principali |
   |---|---|
   | Danni | Claws 31,4; Wizard Staff 26,4; Pickaxe 15,3 |
-  | Danni subiti | Double Blade 33,3; War Hammer 20,3; Runeblade 16,3 |
+  | Colpi presi (eroe) | Double Blade 33,3; War Hammer 20,3; Claws 14,0; Runeblade 9,9 (più 6,4 al compagno) |
   | Cure | War Drums 32,3; Druid Staff 21,1 |
 
   Alla sconfitta (snapshot a 6158 s) tutti i 9 eroi presenti sono a 0 HP tranne il War Hammer (60%); il Double Blade
@@ -148,7 +163,7 @@ chi l'aveva.
 - **Classe contro giocatore.** Una persona per classe: le due cose sono confuse al 100%. Il "Double Blade che tanka"
   può dipendere dal kit (HP, armatura, lifesteal) o da come l'ha giocato quella persona.
 - **Il valore del Support.** Aure e buff (Embolden, Rally, War Drums…) non compaiono nella multiboard. Si vedono solo le
-  sue cure, stimate al 28,6% delle cure da abilità.
+  sue cure, stimate al 28,9% delle cure da abilità.
 - **Perché si è perso il boss finale.** Non ci sono danni, morti, posizioni né ordine delle morti. Ci sono solo due
   snapshot parziali e uno di sconfitta, con un giocatore uscito.
 - **Danni assoluti.** Le quote sono relative al team: non dicono se il team nel complesso facesse abbastanza danni.
@@ -168,12 +183,12 @@ Sono supportate solo in parte: sono indizi da una partita, non prove.
 
 1. **Ridefinire chi tanka, invece di cambiare classi alla cieca.** In pratica il tank principale è stato il Double
    Blade, e il suo kit lo consente: o lo si dichiara tank, o i Tank devono mettersi davanti, soprattutto nelle wave a
-   distanza, dove il War Hammer scende al 7,6% dei danni subiti.
+   distanza, dove il War Hammer scende al 7,6% dei colpi presi.
 2. **Proteggere le retrovie nelle wave difficili.** I DPS a distanza sono a HP ≤20% nel 48% dei casi (il Bow nel 78%).
    Conviene un posizionamento più arretrato dei tiratori, oppure cure e pozioni dirette a loro. Il Bow è l'unico ad
    avere una pozione di cura (Rage Potion); gli altri DPS a distanza hanno solo pozioni di mana.
 3. **Ridurre la dipendenza da Claws.** Fa un terzo dei danni al boss. Un secondo DPS mischia che faccia danni conta più
-   di un terzo personaggio che subisce danni. Se il gruppo vuole provare un cambio, il candidato naturale (sulla carta) è
+   di un terzo personaggio che prende colpi. Se il gruppo vuole provare un cambio, il candidato naturale (sulla carta) è
    un Melee DPS puro, Katana o Great Axe, al posto di uno dei DPS mischia poco offensivi. È **da testare**, non dimostrato.
 4. **La ridondanza nelle cure è più apparente che reale.** Le cure da abilità sono di Druid Staff e War Drums; quelle
    dei Tank sono soprattutto autocura. Non risulta un eccesso di guaritori da tagliare.
@@ -181,7 +196,8 @@ Sono supportate solo in parte: sono indizi da una partita, non prove.
 ## 5) Grado di fiducia
 
 - **Alto** sui fatti descrittivi: le classi disponibili lette dalla mappa, le quote cumulative della multiboard, chi ha
-  subito i danni, la concentrazione dei danni su Claws, gli eroi a HP ≤20%.
+  preso i colpi, la concentrazione dei danni su Claws, gli eroi a HP ≤20%.
+- **Medio** sullo scorporo eroe / evocazioni: è un modello con due verifiche coerenti (`colpi/NOTE.md`).
 - **Medio** sulle quote per round e per tipo di wave: sono stime con ±1–2 punti e n di 4–10 wave.
 - **Basso / nullo** sul giudizio "ottimale o no" e sulle alternative: una sola partita, una persona per classe, nessun
   dato sulle classi non giocate e nessun dato sulla causa della sconfitta.

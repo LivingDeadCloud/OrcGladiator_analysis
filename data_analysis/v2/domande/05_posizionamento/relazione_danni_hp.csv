@@ -1,8 +1,8 @@
 confronto,n,spearman,mediana_gruppo_a,mediana_gruppo_b
-classe: dist. mediana dal fronte vs quota_tank finale,10,-0.264,,
+classe: dist. mediana dal fronte vs quota_colpi_eroe finale,10,-0.42,,
 classe: dist. mediana dal fronte vs round_sotto_20hp,10,0.13,,
-classe x challenge (>=20 campioni): dist. dal fronte vs tank_quota_round,195,-0.242,,
+classe x challenge (>=20 campioni): dist. dal fronte vs colpi_eroe_quota_round,195,-0.288,,
 dist. mediana dal fronte: casi HP<=20% a fine round (n=30) vs altri (n=165),195,,542.044,508.355
-classe: dist. mediana dal nemico piu vicino vs quota_tank finale,10,-0.288,,
-classe x challenge (>=20 campioni): dist. nemico piu vicino vs tank_quota_round,195,-0.236,,
+classe: dist. mediana dal nemico piu vicino vs quota_colpi_eroe finale,10,-0.369,,
+classe x challenge (>=20 campioni): dist. nemico piu vicino vs colpi_eroe_quota_round,195,-0.271,,
 dist. mediana nemico piu vicino: casi HP<=20% a fine round (n=30) vs altri (n=165),195,,438.278,388.902

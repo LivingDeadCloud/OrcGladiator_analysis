@@ -6,6 +6,15 @@ Lo script verifica l'anonimato alla fine (si ferma se trova un nome, anche l'abb
 
 ## Metodo
 
+**Nota importante sul "tank".** La colonna `tank_pct` della multiboard conta i **colpi presi** (ogni evento di danno vale 1), non i
+danni, e comprende i colpi presi dalle unità evocate del giocatore (lupi, Treant, elementali, torre, portali, compagno). Vedi
+`colpi/NOTE.md`. In questa cartella:
+- `tank` = colpi presi dalla classe, evocazioni comprese (misurato);
+- `colpi_eroe` = colpi del solo eroe (stima, scenario centrale di `analisi_colpi.py`; forbice in `quota_colpi_eroe_min/_max`);
+- `quota_colpi_evocazioni` = differenza tra i due.
+La quota di colpi dell'eroe per round = quota `tank` stimata del round − quota delle evocazioni prevista dal modello per quella
+challenge, con l'eroe mai sotto il meno colpito tra le classi senza evocazioni. La coerenza dei ruoli usa i colpi dell'eroe.
+
 - **Classe e ruolo**: unica fonte `data_map/class_roles.csv` (giocatore → classe, ruolo, distanza). Ogni giocatore ha una classe diversa,
   quindi la conversione giocatore → classe è 1:1. Ruoli: Tank (2 classi), Healer (1), Support (1), DPS mischia (3), DPS distanza (3).
 - **Quote cumulative** (danni, boss, cure, tank): da `multiboard_snapshots.csv`. Challenge 1–19 = snapshot `post` con
@@ -24,9 +33,9 @@ Lo script verifica l'anonimato alla fine (si ferma se trova un nome, anche l'abb
 - **Aggregazione per ruolo**: le quote (cumulative e del round) sono **sommate** tra le classi del ruolo (quota del ruolo sul team);
   `*_per_classe` = somma / n classi, confrontabile con la quota "equa" del 10%. Le metriche di attività (APM, abilità/min, click, oro,
   HP, livello) sono **medie** tra le classi del ruolo. Premi e round sotto 20% HP sono **somme**.
-- **Coerenza ruoli**: indice = quota / 10 (1 = quota equa). `ruolo_osservato` = metrica dominante tra danni, tank e cure se il suo
-  indice è ≥ 1, altrimenti "contributo sotto la media". Regole di segnalazione nella colonna `nota`: Tank che subisce meno danni di una
-  classe non-Tank; non-Tank che subisce più di almeno un Tank; non-Healer con cure > 10%; Healer non primo per cure; DPS sotto il 10% di
+- **Coerenza ruoli**: indice = quota / 10 (1 = quota equa). `ruolo_osservato` = metrica dominante tra danni, colpi dell'eroe e cure se il suo
+  indice è ≥ 1, altrimenti "contributo sotto la media". Regole di segnalazione nella colonna `nota`: Tank il cui eroe prende meno colpi di una
+  classe non-Tank; non-Tank il cui eroe prende più colpi di almeno un Tank; non-Healer con cure > 10%; Healer non primo per cure; DPS sotto il 10% di
   danni; non-DPS con più danni del DPS più basso. `coerente` = si / parziale (ruolo osservato giusto ma con segnalazioni) / no.
   Per il Support non esiste una metrica diretta (buff/aure non compaiono nella multiboard): `n.d.`.
 - Attività da `data_replay/player_summary.csv` e `player_round.csv`; abilità da `data_replay/player_abilities.csv` (oggetti esclusi).
@@ -35,8 +44,8 @@ Lo script verifica l'anonimato alla fine (si ferma se trova un nome, anche l'abb
 
 | File | Righe | Colonne |
 |---|---|---|
-| `profilo_classi.csv` | 10 classi | classe, ruolo, distanza, tipo_mappa, attributo, quota_danni, quota_boss, quota_cure, quota_tank (dopo ch. 19), quota_danni_boss_finale, quota_tank_boss_finale, quota_cure_boss_finale, minuti_giocati, apm, abilita_min, click_movimento_min, click_bersaglio_min, distanza_movimento_min, hold_position, oggetti_usati, acquisti, comandi_prestito, oro_medio_fine_round, oro_max, round_sotto_20hp, premi_danni, premi_tank, premi_boss, premi_cure, premi_totali, abilita_principale, abilita_principale_usi |
-| `andamento_classi.csv` | classe × challenge 1–20 | classe, ruolo, challenge, fase, danni_cum, boss_cum, cure_cum, tank_cum, danni_round_stima, boss_round_stima, cure_round_stima, tank_round_stima, oro, hp_fine_round, livello |
+| `profilo_classi.csv` | 10 classi | classe, ruolo, distanza, tipo_mappa, attributo, quota_danni, quota_boss, quota_cure, quota_tank (colpi, dopo ch. 19), quota_colpi_eroe (+ _min, _max), quota_colpi_evocazioni, quota_danni_boss_finale, quota_tank_boss_finale, quota_colpi_eroe_boss_finale, quota_cure_boss_finale, minuti_giocati, apm, abilita_min, click_movimento_min, click_bersaglio_min, distanza_movimento_min, hold_position, oggetti_usati, acquisti, comandi_prestito, oro_medio_fine_round, oro_max, round_sotto_20hp, premi_danni, premi_tank, premi_boss, premi_cure, premi_totali, abilita_principale, abilita_principale_usi |
+| `andamento_classi.csv` | classe × challenge 1–20 | classe, ruolo, challenge, fase, danni_cum, boss_cum, cure_cum, tank_cum, colpi_eroe_cum, danni_round_stima, boss_round_stima, cure_round_stima, tank_round_stima, colpi_eroe_round_stima, oro, hp_fine_round, livello |
 | `attivita_classi.csv` | classe × challenge 1–20 | classe, ruolo, challenge, minuti, apm, abilita, abilita_min, click_movimento_min, oggetti_usati, acquisti |
 | `abilita_classi.csv` | classe × abilità | classe, ruolo, abilita, usi, usi_min, quota_usi_classe |
 | `round_classi.csv` | 20 challenge | challenge, ondata, secondi, voto, eroi_sotto_20hp, migliore_danni, migliore_danni_ruolo, migliore_tank, migliore_tank_ruolo, migliore_boss, migliore_boss_ruolo, migliore_cure, migliore_cure_ruolo, note (anonimizzate) |
@@ -51,27 +60,29 @@ Valori vuoti = dato non disponibile (es. secondi delle challenge 8, 12, 19; prem
 
 ## Risultati principali
 
-1. **I DPS mischia tankano più dei Tank**: quota tank finale DPS mischia 56,5% (3 classi, 18,8% a classe) contro Tank 27,9% (2 classi,
-   13,9% a classe). Double Blade (DPS mischia) è la classe che subisce più danni in assoluto (28,3%), Claws seconda (24,5%); i due Tank
-   sono 3° e 4° (Runeblade 14,7%, War Hammer 13,2%).
-2. **Il ruolo di tank si sposta nel tempo**: la quota tank del round dei Tank scende dal 57% (challenge 1–2) a 1,5% (ch. 13) e 8,5%
-   (ch. 14); nello stesso periodo i DPS mischia arrivano al 79% (ch. 13). Double Blade assorbe il 35–52% dei danni subiti in ogni round
-   dalla 9 alla 16 (tranne la 10: 26,9%) e prende 7 premi "migliore tank" (ch. 9–16), i Tank solo 5 in tutto (tutti entro la ch. 7).
+1. **Gli eroi DPS mischia prendono più colpi dei Tank**, anche al netto delle evocazioni: colpi dell'eroe dopo la challenge 19
+   DPS mischia 48,6% (3 classi, 16,2% a classe) contro Tank 26,5% (2 classi, 13,2% a classe). Con le evocazioni i DPS mischia arrivano
+   al 56,5%. Double Blade è l'eroe più colpito (27,3%; 28,3% con i portali), Claws secondo (20,4%; 24,5% con i lupi); i due Tank sono
+   3° e 4° (Runeblade 13,3% più 1,4% del compagno, War Hammer 13,2%). Le evocazioni di tutto il team prendono il 19% dei colpi.
+2. **Il ruolo di tank si sposta nel tempo**: la quota di colpi del round degli eroi Tank scende dal 57% (challenge 1–2) a 1,5% (ch. 13)
+   e 8,5% (ch. 14); nello stesso periodo gli eroi DPS mischia arrivano al 70% (ch. 14). L'eroe Double Blade prende il 35–50% dei colpi
+   in ogni round dalla 9 alla 16 (tranne la 10: 26,9%) e prende 7 premi "migliore tank" (ch. 9–16), i Tank solo 5 in tutto (tutti entro
+   la ch. 7). I premi della mappa contano i colpi evocazioni comprese.
 3. **Danni: mischia sopra distanza, e in crescita**. Quota danni cumulativa DPS mischia da 32,1% (ch. 1) a 47,7% (ch. 19); DPS distanza
    stabile 36–40% (36,9% finale). Nella stima del round i DPS mischia superano il 55% nelle challenge 12, 13, 14, 16 e 17 (picco 67,4% nella 13). Ma è quasi tutto merito di
    Claws (26,9% dei danni, 1° anche per boss con 33,2%, 19 premi): Double Blade è al 5,5%, sotto entrambi i Tank.
-4. **I DPS distanza sono equilibrati**: Wizard Staff 12,9%, Bow 12,7%, Naga Trident 11,3% di danni, tutti sopra la quota equa, quasi
-   nessun danno subito (1–8%). Però hanno 13 round sotto il 20% di HP a fine round (Bow da solo 7), contro 8 dei DPS mischia.
+4. **I DPS distanza sono equilibrati**: Wizard Staff 12,9%, Bow 12,7%, Naga Trident 11,3% di danni, tutti sopra la quota equa, eroi quasi
+   mai colpiti (1–2%; il Wizard Staff arriva all'8% con l'elementale). Però hanno 13 round sotto il 20% di HP a fine round (Bow da solo 7), contro 8 dei DPS mischia.
 5. **I Tank curano**: 29,2% delle cure del team (Runeblade 16,3%, War Hammer 12,9%), più dei DPS mischia (16,1%) e del Support (13,8%).
-   Runeblade ha più cure che danni subiti: il comportamento osservato è da Healer secondario (anche premio "migliore cure" nella ch. 9).
+   Runeblade ha più cure che colpi presi: il comportamento osservato è da Healer secondario (anche premio "migliore cure" nella ch. 9).
 6. **Healer coerente**: Druid Staff 36,0% delle cure, primo in 16 round su 17 con premio (e anche nella stima del round), quasi zero
    danni (1,0%).
-7. **Support (War Drums)**: 13,8% delle cure, 1,7% danni, 1,0% tank, APM più bassa del team (32,4) e 1,1 abilità/min. Nelle ultime
+7. **Support (War Drums)**: 13,8% delle cure, 1,7% danni, 1,0% colpi, APM più bassa del team (32,4) e 1,1 abilità/min. Nelle ultime
    challenge la sua quota di cure del round sale (21,7% ch. 19, 32,3% nel boss finale parziale).
 8. **Attività**: APM media DPS mischia 72,8, Tank 65,4, Healer 56,4, DPS distanza 47,3, Support 32,4. Abilità/min più alte: Wizard
    Staff 9,07, Druid Staff 7,01, War Hammer 6,41; più basse War Drums 1,10 e Double Blade 1,75.
 9. **Coerenza** (`coerenza_ruoli.csv`): coerenti Druid Staff, Pickaxe, Bow, Naga Trident, Wizard Staff; parziali War Hammer (tank ma
-   superato da due DPS) e Claws (DPS che tanka 24,5%); **non coerenti Double Blade** (DPS mischia → comportamento da Tank, 5,5% danni)
+   superato da due DPS) e Claws (DPS il cui eroe prende il 20,4% dei colpi); **non coerenti Double Blade** (DPS mischia → comportamento da Tank, 5,5% danni)
    e **Runeblade** (Tank → comportamento da Healer).
 
 ## Limiti

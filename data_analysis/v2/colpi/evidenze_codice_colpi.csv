@@ -1,0 +1,12 @@
+elemento,trovato_nel_codice,codice,significato
+contatore colpi,si,set udg_DamageTakenCount[udg_DamageMeter_Player]=(udg_DamageTakenCount[udg_DamageMeter_Player]+1.),"Ogni evento di danno aggiunge 1, non l'importo del danno: la colonna 'tank' conta i colpi."
+a chi va il colpo,si,set udg_DamageMeter_Player=(1+GetPlayerId(GetOwningPlayer(udg_DamageEventTarget))),"Il colpo va al proprietario dell'unita' colpita: eroe, unita' evocate, torri, compagni e illusioni."
+nessun filtro sul bersaglio,si,if(Trig_DamageMeterCount_Func002C())then,Il controllo 'non illusione' (Func002C) racchiude solo il conteggio dei danni FATTI; i colpi presi si contano sempre.
+quota in multiboard,si,set udg_StatisticsPercentageHits[udg_StatisticsInteger]=(udg_DamageTakenCount[udg_StatisticsInteger]/ udg_StatisticsTotals[2]),La percentuale mostrata e' la quota di colpi sul totale del team (la variabile si chiama proprio 'Hits').
+comando in partita,si,"""'s hits tanked: """,La mappa stessa chiama questo valore 'hits tanked' (colpi incassati).
+"danno fatto, per confronto",si,set udg_DamageCountTotal[udg_DamageMeter_Player]=(udg_DamageCountTotal[udg_DamageMeter_Player]+udg_DamageEventAmount),Per i danni fatti invece si somma l'importo: le due colonne non sono omogenee.
+evocazione Claws,si,"call UnitApplyTimedLifeBJ(18.,'BTLF',bj_lastCreatedUnit)","Feral Spirit: 2 lupi 'o00A' al livello 1, 1 Spirit Guardian 'o00D' al livello 2, durata 18 s."
+evocazione Druid Staff,si,set udg_TEMP_REAL_ay[2]=70.,"Force of Nature: 3 Treant 'e002' ai livelli 1 e 3 (1 Treant Protector 'e003' ai livelli 2 e 4), durata 70 s."
+evocazione Wizard Staff,si,"call UnitApplyTimedLifeBJ(60.,'BTLF',bj_lastCreatedUnit)","Water Elemental: 1 elementale 'h011', durata 60 s (cooldown 40 s: ne possono esistere due)."
+compagno Runeblade,si,"call CreateNUnitsAtLoc(1,'U00C',GetOwningPlayer(GetTriggerUnit()),udg_TEMP_POINT,GetUnitFacing(GetTriggerUnit()))","Undead Companion (Banshee, 'U00C'): unita' eroe permanente, rianimabile."
+torre Pickaxe,si,call KillUnit(udg_Abil_ConstructTower[(1+GetPlayerId(GetOwningPlayer(GetTriggerUnit())))]),"Construct Tower: una torre per volta, la nuova distrugge la vecchia; resta finche' non viene distrutta."

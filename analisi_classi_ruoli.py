@@ -4,6 +4,11 @@ Da eseguire nella cartella principale del progetto:
     python analisi_classi_ruoli.py
 Output in data_analysis/v2/classi_ruoli/ (vedi NOTE.md nella stessa cartella).
 Fonte di verita' per classe/ruolo: data_map/class_roles.csv.
+Richiede prima: python analisi_colpi.py (colpi dell'eroe al netto delle unita' evocate, stima).
+
+Nota sui nomi: la metrica 'tank' (colonna tank_pct della multiboard) e' la quota di COLPI presi dalla classe,
+evocazioni comprese, non di danni (vedi data_analysis/v2/colpi/NOTE.md). 'colpi_eroe' e' la stessa quota per il solo
+eroe, al netto delle unita' evocate (stima, scenario centrale).
 """
 import csv, os, statistics as st
 from collections import Counter, defaultdict
@@ -66,6 +71,18 @@ for s in snaps:
     cum[(CL[s['player']], c)] = s
     tempo[c] = int(s['game_time_s'])
 CHALL = sorted(tempo)
+
+# colpi dell'eroe al netto delle evocazioni (analisi_colpi.py): si aggiungono come colonna degli snapshot
+COLPI = {(r['screenshot'], r['classe']): r for r in load('data_analysis/v2/colpi/colpi_snapshot.csv')}
+for key in list(cum):
+    s = dict(cum[key]); cp = COLPI[(s['screenshot'], key[0])]
+    s['colpi_eroe_pct'] = cp['colpi_quota_eroe_centrale']
+    s['colpi_eroe_min'] = min(float(cp[f'colpi_quota_eroe_{x}']) for x in ('basso', 'centrale', 'alto'))
+    s['colpi_eroe_max'] = max(float(cp[f'colpi_quota_eroe_{x}']) for x in ('basso', 'centrale', 'alto'))
+    cum[key] = s
+EVOC_MOD = {(r['classe'], int(r['challenge'])): float(r['quota_evocazioni_modello_centrale'])
+            for r in load('data_analysis/v2/colpi/evocazioni_quota_modello_challenge.csv')}
+SENZA_EVOC = [k for k in CLASSI if all(EVOC_MOD.get((k, c), 0) == 0 for c in range(1, 21))]
 FINALE = 19   # profilo complessivo: quote cumulative dopo la challenge 19 (ultimo snapshot 'post', 10/10 presenti)
 
 # ---------------------------------------------------------------- stima quota del singolo round
@@ -99,6 +116,19 @@ for i, c in enumerate(CHALL):
                       'r_usato': round(r, 4), 'peso_round_stimato_pct': round(100 * (1 - r), 1),
                       'vincolo_attivo': 'si' if r < r_t else 'no',
                       'classi_con_stima_negativa': len(neg), 'somma_negativi_azzerati': round(sum(neg.values()), 1)})
+
+# colpi dell'eroe nel round: quota totale stimata del round meno la quota delle evocazioni prevista dal modello
+# per quella challenge; l'eroe non scende sotto il meno colpito tra le classi senza evocazioni (pavimento).
+for c in CHALL:
+    pav = min(stima[(k, c, 'tank')] or 0 for k in SENZA_EVOC)
+    for k in CLASSI:
+        tot = stima[(k, c, 'tank')]
+        if tot is None:
+            stima[(k, c, 'colpi_eroe')] = None
+            continue
+        ev = min(EVOC_MOD.get((k, c), 0.0), max(0.0, tot - pav))
+        stima[(k, c, 'colpi_eroe')] = tot - ev
+METRICHE_OUT = METRICHE + [('colpi_eroe', 'colpi_eroe_pct')]
 
 # ---------------------------------------------------------------- attivita' per challenge
 att = {}
@@ -138,7 +168,11 @@ for k in CLASSI:
         'classe': k, 'ruolo': RUOLO[k], 'distanza': DIST[k], 'tipo_mappa': TIPO[k], 'attributo': ATTR[k],
         'quota_danni': float(f['dmg_pct']), 'quota_boss': float(f['boss_dmg_pct']),
         'quota_cure': float(f['heal_pct']), 'quota_tank': float(f['tank_pct']),
+        'quota_colpi_eroe': float(f['colpi_eroe_pct']), 'quota_colpi_eroe_min': f['colpi_eroe_min'],
+        'quota_colpi_eroe_max': f['colpi_eroe_max'],
+        'quota_colpi_evocazioni': round(float(f['tank_pct']) - float(f['colpi_eroe_pct']), 2),
         'quota_danni_boss_finale': float(cum[(k, 20)]['dmg_pct']), 'quota_tank_boss_finale': float(cum[(k, 20)]['tank_pct']),
+        'quota_colpi_eroe_boss_finale': float(cum[(k, 20)]['colpi_eroe_pct']),
         'quota_cure_boss_finale': float(cum[(k, 20)]['heal_pct']),
         'minuti_giocati': mins, 'apm': float(s['apm']),
         'abilita_min': round(int(s['ability']) / mins, 2),
@@ -162,9 +196,9 @@ for k in CLASSI:
         s = cum[(k, c)]
         row = {'classe': k, 'ruolo': RUOLO[k], 'challenge': c,
                'fase': 'boss_finale_parziale' if c == 20 else 'fine_round'}
-        for m, col in METRICHE:
+        for m, col in METRICHE_OUT:
             row[f'{m}_cum'] = float(s[col])
-        for m, _ in METRICHE:
+        for m, _ in METRICHE_OUT:
             row[f'{m}_round_stima'] = r1(stima[(k, c, m)])
         row.update({'oro': int(s['gold']), 'hp_fine_round': int(s['hp_pct']), 'livello': int(s['level'])})
         andamento.append(row)
@@ -228,8 +262,8 @@ def per_ruolo(righe, somme, medie):
     return out
 
 
-Q = ['quota_danni', 'quota_boss', 'quota_cure', 'quota_tank',
-     'quota_danni_boss_finale', 'quota_tank_boss_finale', 'quota_cure_boss_finale']
+Q = ['quota_danni', 'quota_boss', 'quota_cure', 'quota_tank', 'quota_colpi_eroe', 'quota_colpi_evocazioni',
+     'quota_danni_boss_finale', 'quota_tank_boss_finale', 'quota_colpi_eroe_boss_finale', 'quota_cure_boss_finale']
 PR = ['premi_danni', 'premi_tank', 'premi_boss', 'premi_cure', 'premi_totali', 'round_sotto_20hp']
 ATT = ['apm', 'abilita_min', 'click_movimento_min', 'click_bersaglio_min', 'distanza_movimento_min',
        'oggetti_usati', 'acquisti', 'oro_medio_fine_round']
@@ -241,7 +275,7 @@ for ru in ORDINE_RUOLI:
     row = {'ruolo': ru, 'n_classi': n, 'classi': d['classi']}
     for c in Q:
         row[c] = d[c]
-    for c in ('quota_danni', 'quota_cure', 'quota_tank'):
+    for c in ('quota_danni', 'quota_cure', 'quota_tank', 'quota_colpi_eroe'):
         row[c + '_per_classe'] = round(d[c] / n, 1)          # confrontabile con la quota "equa" 10
     for c in PR:
         row[c] = d[c]
@@ -260,7 +294,7 @@ for c in CHALL:
         x['_apm'] = a.get('apm', '')
         x['_abmin'] = a.get('abilita_min', '')
         x['_mov'] = a.get('click_movimento_min', '')
-    somme = [f'{m}_cum' for m, _ in METRICHE] + [f'{m}_round_stima' for m, _ in METRICHE]
+    somme = [f'{m}_cum' for m, _ in METRICHE_OUT] + [f'{m}_round_stima' for m, _ in METRICHE_OUT]
     g = per_ruolo(righe, somme, ['hp_fine_round', 'livello', '_apm', '_abmin', '_mov'])
     for ru in ORDINE_RUOLI:
         d = g[ru]
@@ -296,34 +330,34 @@ def rango(col):
     return {x['classe']: i + 1 for i, x in enumerate(ordine)}
 
 
-rk = {m: rango('quota_' + m) for m in ('danni', 'tank', 'cure', 'boss')}
+rk = {m: rango('quota_' + m) for m in ('danni', 'tank', 'colpi_eroe', 'cure', 'boss')}
 top_round = defaultdict(Counter)   # classe -> metrica -> n challenge (1..19) in cui e' 1a nella stima del round
 for c in CHALL:
     if c > 19:
         continue
-    for m, _ in METRICHE:
+    for m, _ in METRICHE_OUT:
         vals = {k: stima[(k, c, m)] for k in CLASSI if stima[(k, c, m)] is not None}
         if vals:
             top_round[max(vals, key=vals.get)][m] += 1
-tank_tank = [x['quota_tank'] for x in profilo if x['ruolo'] == 'Tank']
+tank_tank = [x['quota_colpi_eroe'] for x in profilo if x['ruolo'] == 'Tank']
 heal_heal = [x['quota_cure'] for x in profilo if x['ruolo'] == 'Healer']
 dps_min = min(x['quota_danni'] for x in profilo if x['ruolo'].startswith('DPS'))
 coer = []
 for x in profilo:
     k, ru = x['classe'], x['ruolo']
-    idx = {'danni': x['quota_danni'] / 10, 'tank': x['quota_tank'] / 10, 'cure': x['quota_cure'] / 10}
+    idx = {'danni': x['quota_danni'] / 10, 'tank': x['quota_colpi_eroe'] / 10, 'cure': x['quota_cure'] / 10}
     dom = max(idx, key=idx.get)
     osservato = {'danni': 'DPS', 'tank': 'Tank', 'cure': 'Healer'}[dom] if idx[dom] >= 1 else 'contributo sotto la media'
     note = []
     if ru == 'Tank':
-        if x['quota_tank'] < max(p['quota_tank'] for p in profilo if p['ruolo'] != 'Tank'):
-            altri = [p['classe'] for p in profilo if p['ruolo'] != 'Tank' and p['quota_tank'] > x['quota_tank']]
-            note.append(f"Tank che subisce meno danni di {', '.join(altri)}")
+        if x['quota_colpi_eroe'] < max(p['quota_colpi_eroe'] for p in profilo if p['ruolo'] != 'Tank'):
+            altri = [p['classe'] for p in profilo if p['ruolo'] != 'Tank' and p['quota_colpi_eroe'] > x['quota_colpi_eroe']]
+            note.append(f"Tank il cui eroe prende meno colpi di {', '.join(altri)}")
         if x['quota_cure'] > 10:
             note.append(f"cura molto ({x['quota_cure']}%, sopra la quota equa 10%)")
     else:
-        if x['quota_tank'] > min(tank_tank):
-            note.append(f"non-Tank che subisce piu' danni di almeno un Tank ({x['quota_tank']}% vs min Tank {min(tank_tank)}%)")
+        if x['quota_colpi_eroe'] > min(tank_tank):
+            note.append(f"non-Tank il cui eroe prende piu' colpi di almeno un Tank ({x['quota_colpi_eroe']}% vs min Tank {min(tank_tank)}%)")
     if ru != 'Healer' and x['quota_cure'] > 10:
         note.append(f"non-Healer con quota cure {x['quota_cure']}% (> 10%)")
     if ru == 'Healer' and x['quota_cure'] < max(p['quota_cure'] for p in profilo if p['ruolo'] != 'Healer'):
@@ -344,12 +378,15 @@ for x in profilo:
     coer.append({'classe': k, 'ruolo': ru, 'distanza': x['distanza'],
                  'quota_danni': x['quota_danni'], 'rango_danni': rk['danni'][k],
                  'quota_tank': x['quota_tank'], 'rango_tank': rk['tank'][k],
+                 'quota_colpi_eroe': x['quota_colpi_eroe'], 'rango_colpi_eroe': rk['colpi_eroe'][k],
+                 'quota_colpi_evocazioni': x['quota_colpi_evocazioni'],
                  'quota_cure': x['quota_cure'], 'rango_cure': rk['cure'][k],
                  'quota_boss': x['quota_boss'], 'rango_boss': rk['boss'][k],
                  'indice_danni': round(idx['danni'], 2), 'indice_tank': round(idx['tank'], 2),
                  'indice_cure': round(idx['cure'], 2),
                  'premi_danni': x['premi_danni'], 'premi_tank': x['premi_tank'], 'premi_cure': x['premi_cure'],
                  'round_primo_danni_stima': top_round[k]['danni'], 'round_primo_tank_stima': top_round[k]['tank'],
+                 'round_primo_colpi_eroe_stima': top_round[k]['colpi_eroe'],
                  'round_primo_cure_stima': top_round[k]['cure'],
                  'ruolo_osservato': osservato, 'coerente': coerente, 'nota': '; '.join(note)})
 files.append(write('coerenza_ruoli.csv', coer))
@@ -387,6 +424,6 @@ print('File scritti in', OUT)
 for fn in files:
     print(' -', fn)
 for x in profilo_ruoli:
-    print({k: x[k] for k in ('ruolo', 'n_classi', 'quota_danni', 'quota_tank', 'quota_cure', 'quota_boss', 'apm_media')})
+    print({k: x[k] for k in ('ruolo', 'n_classi', 'quota_danni', 'quota_tank', 'quota_colpi_eroe', 'quota_cure', 'quota_boss', 'apm_media')})
 for x in coer:
     print(x['classe'], '|', x['ruolo'], '->', x['ruolo_osservato'], '|', x['coerente'], '|', x['nota'])

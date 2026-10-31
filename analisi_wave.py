@@ -22,7 +22,10 @@ from mpq import MPQ  # noqa: E402
 
 RAW = os.path.join(ROOT, 'data_map', 'raw')
 OUT = os.path.join(ROOT, 'data_analysis', 'v2', 'wave')
-GAME = r"C:\Program Files (x86)\Warcraft III"
+# file del gioco (war3.mpq, War3x.mpq, War3Patch.mpq): prima nella cartella del progetto, poi nell'installazione Windows
+GAME = os.path.join(ROOT, 'replay_originali', 'gioco')
+if not os.path.isdir(GAME):
+    GAME = r"C:\Program Files (x86)\Warcraft III"
 N_PLAYERS = 10            # giocatori in partita (PLAYINGPLAYERS) durante le wave 1-20
 SOGLIA = 0.85             # quota HP (truppe) dello stesso tipo per dire "solo mischia"/"solo distanza"
 
@@ -310,8 +313,11 @@ def parte1():
 
 # ---------------------------------------------------------------- PARTE 2
 VOTI = {'A': 1, 'B': 2, 'C': 3, 'D': 4, 'E': 5, 'F': 6, 'G': 7}
-METRICHE = ['danni', 'boss', 'cure', 'tank']
-COL = {'danni': 'dmg_pct', 'boss': 'boss_dmg_pct', 'cure': 'heal_pct', 'tank': 'tank_pct'}
+# 'tank' = quota di COLPI presi dalla classe, evocazioni comprese (colonna tank_pct della multiboard);
+# 'colpi_eroe' = colpi del solo eroe, al netto delle unita' evocate (stima centrale di analisi_colpi.py).
+METRICHE_BASE = ['danni', 'boss', 'cure', 'tank']
+METRICHE = METRICHE_BASE + ['colpi_eroe']
+COL = {'danni': 'dmg_pct', 'boss': 'boss_dmg_pct', 'cure': 'heal_pct', 'tank': 'tank_pct', 'colpi_eroe': 'colpi_eroe_pct'}
 
 
 def anonimizza(testo, roles):
@@ -326,6 +332,13 @@ def parte2(tipi):
     snaps = rcsv(os.path.join(ROOT, 'data_screenshots', 'multiboard_snapshots.csv'))
     rounds = {int(r['challenge']): r for r in rcsv(os.path.join(ROOT, 'data_screenshots', 'rounds.csv'))}
     pr = rcsv(os.path.join(ROOT, 'data_replay', 'player_round.csv'))
+    colpi = {(r['screenshot'], r['classe']): r['colpi_quota_eroe_centrale']
+             for r in rcsv(os.path.join(ROOT, 'data_analysis', 'v2', 'colpi', 'colpi_snapshot.csv'))}
+    for r in snaps:
+        r['colpi_eroe_pct'] = colpi[(r['screenshot'], roles[r['player']]['classe'])]
+    evoc = {(r['classe'], int(r['challenge'])): float(r['quota_evocazioni_modello_centrale'])
+            for r in rcsv(os.path.join(ROOT, 'data_analysis', 'v2', 'colpi', 'evocazioni_quota_modello_challenge.csv'))}
+    senza_evoc = [p for p in roles if all(evoc.get((roles[p]['classe'], c), 0) == 0 for c in range(1, 21))]
 
     # snapshot di fine challenge c (c=1..19: riga "post" con challenges_completed=c; c=20: ultima riga per giocatore)
     snap = defaultdict(dict)   # snap[c][player] = row
@@ -359,7 +372,7 @@ def parte2(tipi):
     def stima_con(W):
         out = defaultdict(dict)
         for c in range(1, 21):
-            for m in METRICHE:
+            for m in METRICHE_BASE:
                 raw = {}
                 for p in players:
                     if p not in snap[c]:
@@ -370,6 +383,16 @@ def parte2(tipi):
                 tot = sum(v for v in raw.values() if v is not None)
                 for p in players:
                     out[c].setdefault(p, {})[m] = (100 * raw[p] / tot) if (raw[p] is not None and tot > 0) else None
+            # colpi dell'eroe: colpi stimati del round meno la quota delle evocazioni prevista dal modello,
+            # con l'eroe mai sotto il meno colpito tra le classi senza evocazioni
+            pav = min((out[c][p]['tank'] or 0) for p in senza_evoc if p in snap[c])
+            for p in players:
+                tot = out[c].get(p, {}).get('tank')
+                if tot is None:
+                    out[c].setdefault(p, {})['colpi_eroe'] = None
+                    continue
+                ev = min(evoc.get((roles[p]['classe'], c), 0.0), max(0.0, tot - pav))
+                out[c][p]['colpi_eroe'] = tot - ev
         return out
 
     stima = stima_con(hp_w)
@@ -515,7 +538,13 @@ def parte2(tipi):
 
 
 if __name__ == '__main__':
-    tipi = parte1()
+    if load_base_slk().get('UnitWeapons'):
+        tipi = parte1()
+    else:
+        # senza i file del gioco la composizione delle wave non si puo' ricalcolare: si riusa wave_tipo.csv
+        # (dipende solo dalla mappa e dai file del gioco, non dalle altre analisi)
+        print('File del gioco non trovati in', GAME, '-> riuso', os.path.join(OUT, 'wave_tipo.csv'))
+        tipi = {int(r['challenge']): r for r in rcsv(os.path.join(OUT, 'wave_tipo.csv'))}
     for c, t in tipi.items():
         print(c, t['ondata'], t['tipo_wave'], t['quota_hp_mischia'], t['quota_unita_mischia'], '| boss:', t['boss'],
               '|', t['confronto_etichetta'], t['note'])

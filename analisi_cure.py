@@ -230,6 +230,9 @@ def catalogo():
 # --------------------------------------------------------------------------------------------
 # 3. Quote misurate (cumulative) e per challenge (stimate)
 # --------------------------------------------------------------------------------------------
+COLPI = {(r['screenshot'], r['classe']): r for r in load(p('data_analysis', 'v2', 'colpi', 'colpi_snapshot.csv'))}
+
+
 def snapshot_series():
     rows = load(p('data_screenshots', 'multiboard_snapshots.csv'))
     rounds = {int(r['challenge']): r for r in load(p('data_screenshots', 'rounds.csv'))}
@@ -244,9 +247,18 @@ def snapshot_series():
         else:
             continue
         cl, _ = ROLES[r['player']]
-        by[k][cl] = {'heal': float(r['heal_pct']), 'tank': float(r['tank_pct'])}
+        # 'tank' del modello = colpi presi dal solo EROE (al netto delle evocazioni, stima centrale di
+        # analisi_colpi.py): rigenerazione, pozioni e lifesteal curano solo l'eroe, non le unita' evocate.
+        # 'tank_tot' = colonna tank_pct della multiboard (colpi presi, evocazioni comprese).
+        by[k][cl] = {'heal': float(r['heal_pct']), 'tank_tot': float(r['tank_pct']),
+                     'tank': float(COLPI[(r['screenshot'], cl)]['colpi_quota_eroe_centrale'])}
         meta[k] = (r['screenshot'], int(r['game_time_s']))
     ks = sorted(by)
+    # i colpi degli eroi si riportano a 100 tra i soli eroi, come le altre quote del modello
+    for k in ks:
+        tot = sum(v['tank'] for v in by[k].values()) or 1.0
+        for v in by[k].values():
+            v['tank'] = 100.0 * v['tank'] / tot
     # pesi: secondi impiegati (rounds.csv); se mancanti, tempo tra screenshot x rapporto mediano
     dt = {k: meta[k][1] - (meta[k - 1][1] if k - 1 in meta else 0) for k in ks}
     ratio = sorted(float(rounds[k]['clear_seconds']) / dt[k] for k in ks
@@ -418,7 +430,7 @@ def main():
     rows = []
     for k in ks:
         for c in CLASSI:
-            prev = by[k - 1][c] if k - 1 in by else {'heal': 0.0, 'tank': 0.0}
+            prev = by[k - 1][c] if k - 1 in by else {'heal': 0.0, 'tank': 0.0, 'tank_tot': 0.0}
             rows.append({'classe': c, 'ruolo': RUOLO[c], 'challenge': k if k < 20 else '20 (boss)',
                          'screenshot': meta[k][0], 'tempo_gioco_s': meta[k][1],
                          'peso_challenge_s': r1(peso[k], 0), 'fonte_peso': fonte_peso[k],
@@ -426,8 +438,9 @@ def main():
                          'cure_variazione_quota_pp_misurata': r1(by[k][c]['heal'] - prev['heal']),
                          'cure_quota_challenge_grezza_stimata': r1(heal_raw[k][c]),
                          'cure_quota_challenge_stimata': r1(heal_ch[k][c]),
-                         'tank_quota_cumulativa_misurata': by[k][c]['tank'],
-                         'tank_quota_challenge_stimata': r1(tank_ch[k][c])})
+                         'colpi_quota_cumulativa_misurata': by[k][c]['tank_tot'],
+                         'colpi_eroe_quota_tra_eroi_cumulativa_stimata': r1(by[k][c]['tank']),
+                         'colpi_eroe_quota_tra_eroi_challenge_stimata': r1(tank_ch[k][c])})
     write('quota_cure_per_challenge.csv', list(rows[0].keys()), rows)
 
     print('Stima solo abilita...')
@@ -452,8 +465,9 @@ def main():
                 'ha_cure_da_abilita': 'no' if c in CLASSI_SENZA_CURE_ABILITA else
                 ('solo con Runed Bracers (da 5431 s)' if c == 'War Hammer' else 'si'),
                 'cure_quota_cumulativa_misurata': hc[c],
-                'tank_quota_cumulativa_misurata': tc[c],
-                'r_cure_su_tank_riferimento': round(r_c, 3), 'r_min_individuale': round(r_lo, 3),
+                'colpi_quota_cumulativa_misurata': by[k][c]['tank_tot'],
+                'colpi_eroe_quota_tra_eroi_stimata': r1(tc[c]),
+                'r_cure_su_colpi_eroe_riferimento': round(r_c, 3), 'r_min_individuale': round(r_lo, 3),
                 'r_max_individuale': round(r_hi, 3),
                 'cure_abilita_stimate_pp_centrale': r1(ab_cen[c]),
                 'cure_non_abilita_stimate_pp_centrale': r1(hc[c] - ab_cen[c]),
@@ -500,7 +514,8 @@ def main():
                 dett[ab] += n
         rie.append({'classe': c, 'ruolo': RUOLO[c],
                     'cure_quota_finale_misurata': fin[c]['cure_quota_cumulativa_misurata'],
-                    'tank_quota_finale_misurata': fin[c]['tank_quota_cumulativa_misurata'],
+                    'colpi_quota_finale_misurata': fin[c]['colpi_quota_cumulativa_misurata'],
+                    'colpi_eroe_quota_tra_eroi_finale_stimata': fin[c]['colpi_eroe_quota_tra_eroi_stimata'],
                     'ha_cure_da_abilita': fin[c]['ha_cure_da_abilita'],
                     'frazione_proprie_cure_da_abilita_b': fin[c]['frazione_proprie_cure_da_abilita_b'],
                     'quota_solo_abilita_stimata_a': fin[c]['quota_solo_abilita_cumulativa_a'],
@@ -513,7 +528,9 @@ def main():
                     'cura_pozioni_nominale_hp_max': r1(sum(float(e['cura_pozioni_nominale_hp_max'] or 0)
                                                            for e in ev if e['classe'] == c), 2)})
     write('riepilogo_classi.csv', list(rie[0].keys()), rie)
-    print(f'Valori negativi azzerati nelle quote per challenge: cure {neg_h}, tank {neg_t}; rapporto mediano pesi {med:.2f}')
+    print(f'Valori negativi azzerati nelle quote per challenge: cure {neg_h}, colpi eroe {neg_t}; rapporto mediano pesi {med:.2f}')
+    for x in rie:
+        print(x['classe'], x['cure_quota_finale_misurata'], 'solo abilita a/b/c', x['quota_solo_abilita_stimata_a'], x['quota_solo_abilita_stimata_b'], x['quota_solo_abilita_stimata_c'])
 
 
 if __name__ == '__main__':

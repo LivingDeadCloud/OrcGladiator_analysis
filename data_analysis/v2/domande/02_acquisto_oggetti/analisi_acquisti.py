@@ -388,7 +388,7 @@ for r in acq:
     # acquisto nella pausa dopo la challenge N -> effetto dalla N+1; durante la N -> dalla N+1 (prudenza)
     after = [nchal + k for k in (1, 2, 3)]
     before = [nchal - k for k in (0, 1, 2)]
-    for col, lab in (('danni_quota_round', 'danni'), ('tank_quota_round', 'tank'), ('cure_quota_round', 'cure')):
+    for col, lab in (('danni_quota_round', 'danni'), ('colpi_eroe_quota_round', 'colpi_eroe'), ('cure_quota_round', 'cure')):
         b = [qround(c, x, col) for x in before]; b = [x for x in b if x is not None]
         a_ = [qround(c, x, col) for x in after if x <= 19]; a_ = [qround(c, x, col) for x in after if x <= 19]
         a_ = [x for x in a_ if x is not None]
@@ -400,13 +400,13 @@ for r in acq:
                    'challenge_dopo': ','.join(map(str, [x for x in after if x <= 19 and qround(c, x, col) is not None])),
                    'quota_media_prima': round(statistics.mean(b), 2), 'quota_media_dopo': round(statistics.mean(a_), 2),
                    'differenza_punti': round(statistics.mean(a_) - statistics.mean(b), 2),
-                   'metrica_del_ruolo': 'si' if lab == {'Tank': 'tank', 'Healer': 'cure', 'Support': 'cure'}.get(RUOLO[c], 'danni') else 'no'})
+                   'metrica_del_ruolo': 'si' if lab == {'Tank': 'colpi_eroe', 'Healer': 'cure', 'Support': 'cure'}.get(RUOLO[c], 'danni') else 'no'})
 wr('quote_prima_dopo_acquisti.csv', pp)
 
 # riferimento ("placebo"): stessa differenza dopo-prima calcolata in OGNI pausa, con o senza acquisti importanti
 base = []
 for c in SNAP:
-    col = {'Tank': 'tank_quota_round', 'Healer': 'cure_quota_round', 'Support': 'cure_quota_round'}.get(RUOLO[c], 'danni_quota_round')
+    col = {'Tank': 'colpi_eroe_quota_round', 'Healer': 'cure_quota_round', 'Support': 'cure_quota_round'}.get(RUOLO[c], 'danni_quota_round')
     for n in range(2, 19):
         b = [qround(c, x, col) for x in (n, n - 1, n - 2)]; b = [x for x in b if x is not None]
         a_ = [qround(c, x, col) for x in (n + 1, n + 2, n + 3) if x <= 19]; a_ = [x for x in a_ if x is not None]

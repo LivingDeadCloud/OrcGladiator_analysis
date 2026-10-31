@@ -7,7 +7,7 @@ Obiettivo: capire chi fa pochi danni o poche cure, chi tanka, chi si muove molto
 
 | Cartella | Contenuto |
 |---|---|
-| `replay_originali/` | File originali della partita: replay `orcgladiatorsbutei.w3g`, archivio `files orc gladiators.rar` e, in `screenshots/`, i 23 screenshot `.tga` della multiboard. |
+| `replay_originali/` | File originali della partita: replay `orcgladiatorsbutei.w3g`, archivio `files orc gladiators.rar` e, in `screenshots/`, i 23 screenshot `.tga` della multiboard. In `gioco/` i file di Warcraft III `war3.mpq`, `War3x.mpq`, `War3Patch.mpq` (servono per wave, mana, domanda 4 e icone). Non è su GitHub. |
 | `data_replay/` | Dati estratti dal replay (solo i **comandi** dei giocatori). |
 | `data_screenshots/` | Multiboard "Gladiator Statistics" trascritta a mano dagli screenshot (danni, cure, tank). |
 | `data_map/` | Dati letti dal file della mappa: abilità e classi degli eroi. |
@@ -35,11 +35,21 @@ Analisi v2 (per classe e ruolo, senza nomi dei giocatori), dopo i passi sopra:
 
 ```
 python extract_map.py "C:/Program Files (x86)/Warcraft III/Maps/Download/Orc Gladiators Revenge 1.29fc.w3x"
+python analisi_abilita_mana.py
+python analisi_colpi.py
 python analisi_classi_ruoli.py
 python analisi_cure.py
 python analisi_wave.py
-python analisi_abilita_mana.py
 python aggrega.py
+python data_analysis/v2/domande/0N_.../analisi_*.py   (le sette domande, in ordine)
+```
+
+Presentazione (dopo le analisi):
+
+```
+python estrai_icone.py          # icone delle classi da mappa e file del gioco -> presentazione/sorgente/icone/
+python build_slide_grafici.py   # slide con i grafici, colori per ruolo, rettangoli rispetto alla media
+python build_presentazione.py   # presentazione/presentazione.html
 ```
 
 | Script | Cosa fa | Output |
@@ -76,7 +86,8 @@ Questi file estratti non sono salvati nel progetto. Per rilanciare lo script van
 - `chat.csv`, `leaves.csv`, `players.csv`.
 
 ### data_screenshots/ (multiboard trascritta a mano)
-- `multiboard_snapshots.csv`: una riga per giocatore per screenshot: livello, %HP, mana, **% danni, % danni al boss, % cure, % danni subiti (tank)**, oro.
+- `multiboard_snapshots.csv`: una riga per giocatore per screenshot: livello, %HP, mana, **% danni, % danni al boss, % cure, % colpi presi (tank)**, oro.
+  Attenzione: la colonna "tank" conta i **colpi presi** (ogni colpo vale 1, qualunque sia il danno), non il danno subito, e comprende i colpi presi dalle unità evocate del giocatore. Vedi `data_analysis/v2/colpi/NOTE.md`.
   Le percentuali sono **cumulative** dall'inizio della partita e sono quote del totale del team: ogni colonna somma a circa 100 (verificato).
   `challenges_completed` = challenge appena completate. Le righe `boss`/`sconfitta` si riferiscono al boss finale, durante e alla fine.
 - `rounds.csv`: per challenge: ondata, secondi impiegati, voto, migliori del round (danni, tank, boss, cure), oro.
@@ -103,6 +114,7 @@ Ruoli: Tank (War Hammer, Runeblade), Healer (Druid Staff), Support (War Drums), 
 
 | Cartella | Script | Contenuto |
 |---|---|---|
+| `colpi/` | `analisi_colpi.py` | Cosa misura la colonna "tank" (colpi, non danni) e scorporo dei colpi tra eroe e unità evocate (stima con forbice). |
 | `classi_ruoli/` | `analisi_classi_ruoli.py` | Profilo, andamento e attività per classe e per ruolo; coerenza tra ruolo assegnato e comportamento. |
 | `cure/` | `analisi_cure.py` | Cosa conta la mappa come "cura" (dal codice) e stima della quota da sole abilità (scenari a/b/c). |
 | `wave/` | `analisi_wave.py` | Composizione delle wave dalla mappa, tipo (solo mischia / solo distanza / ibrida), sottoanalisi per tipo. |
@@ -112,6 +124,7 @@ Ruoli: Tank (War Hammer, Runeblade), Healer (Druid Staff), Support (War Drums), 
 Ogni cartella ha un `NOTE.md` con metodo, colonne, risultati e limiti. `aggregato/dizionario_metriche.csv` dice per ogni metrica se è misurata o stimata e quanto è affidabile.
 
 Avvertenze principali:
+- La colonna "tank" della multiboard conta i **colpi presi**, non i danni, e include le unità evocate. Le analisi usano i colpi del solo eroe, stimati in `colpi/`. Il danno ricevuto in HP non è registrato.
 - La "% cure" della multiboard include pozioni, rigenerazione e lifesteal (Vampiric Aura): la quota "solo abilità" è una stima.
 - La quota del singolo round è stimata per differenza tra quote cumulative (concorda con i premi del round in 59 casi su 64).
 - La simulazione del mana è affidabile solo per Wizard Staff; non affidabile per War Drums, Double Blade, Bow e Naga Trident.

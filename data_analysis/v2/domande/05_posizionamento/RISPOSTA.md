@@ -8,7 +8,7 @@ Mappa: `posizioni.svg`. Le distanze sono in unità di gioco di WC3. Per confront
 ## 1) Risposta breve
 
 **Verdetto: in parte.** La disposizione di base è quella giusta. I Tank sono i più vicini ai nemici. L'Healer resta dietro i Tank per il 90% del tempo. Il gruppo è compatto e combatte nella parte sud-centrale dell'arena, la più lontana dai tre punti di spawn (Est, Nord, Ovest).
-**Se però sia "ottimale" non si può stabilire.** Il replay non contiene le posizioni reali dei nemici, il terreno non è stato analizzato e con questi dati non c'è un legame chiaro tra posizione e danni subiti.
+**Se però sia "ottimale" non si può stabilire.** Il replay non contiene le posizioni reali dei nemici, il terreno non è stato analizzato e con questi dati il legame tra posizione e colpi presi è solo moderato.
 Due segnali parziali suggeriscono dei margini di miglioramento:
 - i due Tank stanno entro la gittata delle cure dell'Healer (700) solo per circa il 57% del tempo;
 - nelle wave ibride il gruppo è più disperso e l'Healer più lontano dai Tank.
@@ -95,11 +95,14 @@ Le ancore misurate coprono solo il 6-15% del tempo, a seconda della classe.
 | distanza | 375 | 492 | 75% | +193 / -149 |
 | ibrida | 455 | 523 | 70% | +169 / -161 |
 
-### e) Relazione con danni subiti e HP < 20% (STIMATO, `relazione_danni_hp.csv`)
-- **Distanza dal nemico più vicino e quota tank:** correlazione di Spearman **-0,29** tra le classi (n = 10) e **-0,24** per classe × challenge (n = 195). La relazione è debole e nella direzione attesa: chi sta più vicino ai nemici incassa un po' di più.
+### e) Relazione con colpi presi e HP < 20% (STIMATO, `relazione_danni_hp.csv`)
+La colonna "tank" della multiboard conta i **colpi presi**, non i danni, e include i colpi delle unità evocate (`colpi/NOTE.md`). Qui si usano i colpi del solo **eroe**, perché è l'eroe che si posiziona.
+- **Distanza dal nemico più vicino e colpi dell'eroe:** correlazione di Spearman **-0,37** tra le classi (n = 10) e **-0,27** per classe × challenge (n = 195). Dal fronte: **-0,42** e **-0,29**. La relazione è moderata e nella direzione attesa: chi sta più vicino ai nemici prende più colpi.
+  Con i colpi totali (evocazioni comprese) era più debole (-0,29 / -0,24): le evocazioni prendono colpi lontano dal loro padrone.
 - **HP sotto il 20% a fine round:** questi 30 casi avevano in mediana il nemico più vicino a **438**, contro 389 negli altri 165. Non c'è segno che chi finisce sotto il 20% fosse più esposto. Il numero è piccolo e lo snapshot è un solo istante.
 
 ## 3) Cosa non si può dire e perché
+- **Nota sul ricalcolo.** Le correlazioni con i colpi dell'eroe sono state ricalcolate dai CSV di posizione già salvati. Lo script le rigenera da solo, ma per rilanciarlo serve il replay (`replay_originali/orcgladiatorsbutei.w3g`).
 - **La posizione dei nemici è nota solo nei punti cliccati.** Il "fronte" è un indicatore approssimativo:
   - i nemici non cliccati e quelli che attaccano da altri lati non si vedono;
   - le distanze dal nemico sono quindi sovrastimate. Per esempio i DPS mischia risultano a circa 400 dal nemico, ma la loro gittata è 100-140.
@@ -110,12 +113,12 @@ Le ancore misurate coprono solo il 6-15% del tempo, a seconda della classe.
   - le abilità di spostamento (Leap, teletrasporti);
   - la morte dell'eroe.
 - **Il terreno non è stato analizzato** (`war3map.w3e`, `.doo`: alture, strettoie, ostacoli). Quindi non si può dire se esistesse un punto migliore.
-- **"Ottimale" richiede un termine di paragone** (altre partite o altre disposizioni) e il danno subito momento per momento. Con una sola partita e la multiboard cumulativa questo non c'è.
+- **"Ottimale" richiede un termine di paragone** (altre partite o altre disposizioni) e i colpi presi momento per momento. Con una sola partita e la multiboard cumulativa questo non c'è.
 - **Confini delle challenge 8, 12, 19 e 20 stimati.** Il loro inizio e la loro fine sono stimati (`finestre_combattimento.csv`), quindi i campioni ai bordi di queste finestre possono includere momenti fuori combattimento.
 
 **Cosa servirebbe nella prossima partita:**
 - uno strumento che esporti le posizioni reali di eroi e nemici dal replay osservato (per esempio un tracciamento delle unità durante la riproduzione), oppure registrazioni o screenshot della minimappa a intervalli fissi (per esempio ogni 5 s);
-- la multiboard (danni subiti e HP) a ogni wave, o meglio più volte per wave;
+- la multiboard (colpi presi e HP) a ogni wave, o meglio più volte per wave;
 - in alternativa, un trigger di debug nella mappa che scriva periodicamente le coordinate degli eroi nel log o nella chat.
 
 ## 4) Raccomandazioni (solo quelle supportate dai dati)

@@ -333,8 +333,8 @@ for n in range(1, 21):
                eroi_hp_le20=len(sotto[n]),
                ruoli_hp_le20=' + '.join(f'{k} x{v}' for k, v in collections.Counter(sotto[n]).items()),
                healer_hp_fine=by[n]['Healer']['hp_fine_round_medio'],
-               tank_quota_danni_subiti_ruolo_Tank=t['tank_quota_round'],
-               tank_quota_danni_subiti_DPS_mischia=by[n]['DPS mischia']['tank_quota_round'],
+               colpi_eroe_quota_ruolo_Tank=t['colpi_eroe_quota_round'],
+               colpi_eroe_quota_DPS_mischia=by[n]['DPS mischia']['colpi_eroe_quota_round'],
                cure_quota_Healer=by[n]['Healer']['cure_quota_round'],
                danni_quota_DPS_totale=round((num(by[n]['DPS mischia']['danni_quota_round']) or 0) +
                                             (num(by[n]['DPS distanza']['danni_quota_round']) or 0), 1),
@@ -344,7 +344,7 @@ for n in range(1, 21):
 wcsv('colli_bottiglia_challenge.csv', out, list(out[0].keys()))
 
 # ---------------------------------------------------------------- 6. quote prima/dopo acquisti grandi (stima)
-METR = {'Tank': 'tank_quota_round', 'Healer': 'cure_quota_round', 'Support': 'cure_quota_round',
+METR = {'Tank': 'colpi_eroe_quota_round', 'Healer': 'cure_quota_round', 'Support': 'cure_quota_round',
         'DPS mischia': 'danni_quota_round', 'DPS distanza': 'danni_quota_round'}
 qc = collections.defaultdict(dict)
 for r in cc:

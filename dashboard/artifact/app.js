@@ -10,7 +10,7 @@
     danni: { label: 'Danni', fmt: F.pct, color: 0 },
     boss: { label: 'Danni al boss', fmt: F.pct, color: 1 },
     cure: { label: 'Cure', fmt: F.pct, color: 2 },
-    tank: { label: 'Danni subiti', fmt: F.pct, color: 3 },
+    tank: { label: 'Colpi presi', fmt: F.pct, color: 3 },
     oro: { label: 'Oro in tasca', fmt: F.int, color: 4 },
   };
   const state = window.ogState || (window.ogState = { metric: 'danni', player: 'Orange Jews' });

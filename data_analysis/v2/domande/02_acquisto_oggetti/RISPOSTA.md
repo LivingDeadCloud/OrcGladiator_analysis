@@ -74,7 +74,7 @@ Costi da `war3map.w3t` (campo `igol`). Per Charm of Protection e Corrosive Oil l
   - Support (War Drums): Charm of Protection, Mysterious Figurine e I093. Sono oggetti di squadra, e I093 potenzia anche Embolden.
   - Bow: solo danno (Hood of Cunning, Corrosive Oil, Hex of Augmentation III, che trasforma proprio la Corrosive Oil, Windwalkers, Feral Visage).
   - Wizard Staff: Mysterious Codex (le ultimate rimborsano 200 mana), Ring, Shard (bonus alle evocazioni: Water Elementals).
-- **Double Blade.** È classificato DPS mischia, ma ha una build **da tank**: Tank's Potion, Ethereal Armour, Petrified Bark, Imbued Greaves, 5 tomi +160 HP. Questo è coerente con il ruolo che ha svolto davvero: è primo per quota tank, 28,3%, in `scheda_classi.csv`.
+- **Double Blade.** È classificato DPS mischia, ma ha una build **da tank**: Tank's Potion, Ethereal Armour, Petrified Bark, Imbued Greaves, 5 tomi +160 HP. Questo è coerente con il ruolo che ha svolto davvero: è primo per colpi presi, 28,3% (27,3% il solo eroe, senza i portali), in `scheda_classi.csv`. La colonna "tank" della multiboard conta i colpi, non i danni (`colpi/NOTE.md`).
 
 ### 2.4 Oggetti attivabili e pozioni (`uso_oggetti_attivabili.csv`)
 Il replay dà solo `useslotN`, quindi lo slot → oggetto è un'attribuzione. Le pozioni sono oggetti permanenti con 40 s di cooldown: si comprano una volta sola.
@@ -112,11 +112,11 @@ Il replay dà solo `useslotN`, quindi lo slot → oggetto è un'attribuzione. Le
   - Resta però un'ipotesi che quei talenti fossero disponibili: il trigger `R_Master_Spells` aggiunge talenti allo stock durante la partita.
 
 ### 2.6 Quote prima/dopo gli acquisti importanti (`quote_prima_dopo_acquisti.csv`, `quote_confronto_riferimento.csv`, STIMATO)
-- Considerati 23 acquisti da almeno 500 oro. Per ciascuno si confronta la quota per round della metrica del ruolo (danni per i DPS, tank per i tank, cure per Healer e Support): media delle 3 challenge successive contro media delle 3 precedenti.
-- Risultato: mediana **+2,1 punti**, 61% di casi positivi. Su tutte le pause della partita lo stesso calcolo dà mediana −0,9 e 47% positivi.
+- Considerati 23 acquisti da almeno 500 oro. Per ciascuno si confronta la quota per round della metrica del ruolo (danni per i DPS, colpi presi dall'eroe per i tank, cure per Healer e Support): media delle 3 challenge successive contro media delle 3 precedenti.
+- Risultato: mediana **+2,1 punti**, 61% di casi positivi. Su tutte le pause della partita lo stesso calcolo dà mediana −1,0 e 46% positivi.
 - Esempi:
   - in salita: Claws +17 dopo Shard of the Revenant, Pickaxe +11 dopo Warrior's Spirit, Druid Staff +12 e +9 dopo Slippers of Focus e Pipe of Insight;
-  - in discesa: Bow −8,6 dopo Feral Visage, Runeblade −8,5 (tank) dopo Illuminators, Naga Trident −5,5 dopo le Warp Treads.
+  - in discesa: Bow −8,6 dopo Feral Visage, Runeblade −8,5 (colpi presi) dopo Illuminators, Naga Trident −5,5 dopo le Warp Treads.
 - Le quote sono a somma 100: crescono anche quando sono gli altri a calare. Inoltre il tipo di wave, le morti e gli acquisti degli altri cambiano insieme. **La differenza non si può attribuire agli oggetti.**
 
 ## 3) Cosa non si può dire e perché

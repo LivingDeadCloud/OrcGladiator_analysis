@@ -9,7 +9,7 @@ War Hammer,Tank,I00R,Wizard's Potion,685.4,100,40,useslot3,alta,25,25,3372,85,29
 Naga Trident,DPS distanza,I00R,Wizard's Potion,943.9,100,40,useslot3,alta,11,11,3218,81,13.6,pozione solo mana
 Bow,DPS distanza,I00W,Rage Potion,957.8,250,40,useslot3,alta,67,67,3218,81,82.7,pozione cura+mana+vel. attacco
 Double Blade,DPS mischia,I00Q,Tank's Potion,972.2,100,40,useslot5,media,43,40,3218,81,49.4,pozione cura 40% HP
-War Drums,Support,I08F,Charm of Protection,2075.1,400,180,useslot4,media (unico oggetto attivabile comprato prima del 1o uso dello slot 4),7,6,2589,15,40.0,Charm of Protection: +100 armatura agli alleati vicini
+War Drums,Support,I08F,Charm of Protection,2075.1,,180,useslot4,media (unico oggetto attivabile comprato prima del 1o uso dello slot 4),7,6,2589,15,40.0,Charm of Protection: +100 armatura agli alleati vicini
 Double Blade,DPS mischia,I05S,I05S (base fgfh = Spiked Collar: evoca 2 Felhound),2109.3,25,0,useslot3,"bassa (slot 3 usato anche a 486 s, prima dell acquisto)",7,7,2589,,,Spiked Collar con talento Houndmaster (cariche illimitate)
 Naga Trident,DPS distanza,I070,Purchase Warp Treads,2947.0,550,15,useslot2,media (unici ordini useslot a bersaglio punto = blink),3,3,2000,134,2.2,Warp Treads: blink
 War Drums,Support,I070,Purchase Warp Treads,3919.4,550,15,-,alta: nessun useslot a bersaglio punto,0,0,1484,99,0.0,Warp Treads: blink

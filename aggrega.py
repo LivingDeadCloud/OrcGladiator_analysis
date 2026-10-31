@@ -70,7 +70,8 @@ CLASSI = list(prof)
 RUOLO = {c: prof[c]['ruolo'] for c in CLASSI}
 RUOLI = ['Tank', 'Healer', 'Support', 'DPS mischia', 'DPS distanza']
 CHALL = range(1, 21)
-METRICHE = ['danni', 'boss', 'cure', 'tank']
+# 'tank' = quota di COLPI presi (evocazioni comprese); 'colpi_eroe' = colpi del solo eroe (stima, analisi_colpi.py)
+METRICHE = ['danni', 'boss', 'cure', 'tank', 'colpi_eroe']
 
 # ---------- 1. scelta del metodo per la quota del singolo round ----------
 metodi = {
@@ -83,7 +84,7 @@ confronto = []
 for nome, get in metodi.items():
     ok = tot = 0
     for ch in range(2, 20):  # la challenge 1 e' identica in tutti i metodi
-        for m in METRICHE:
+        for m in PREMIO_COL:
             vinc = premi.get(ch, {}).get(PREMIO_COL[m])
             if not vinc:
                 continue
@@ -125,7 +126,7 @@ for c in CLASSI:
             'cast_effettivi': sum(int(x['cast_effettivi_stimati']) for x in cds) if cds else None,
             'ordini_sprecati_cooldown': sum(int(x['ordini_sprecati']) for x in cds) if cds else None,
             'cooldown_occupato_medio_pct': mean([f(x['cooldown_occupato_pct']) for x in cds]),
-            'premi_round': ', '.join(m for m in METRICHE if premi.get(ch, {}).get(PREMIO_COL[m]) == c),
+            'premi_round': ', '.join(m for m in PREMIO_COL if premi.get(ch, {}).get(PREMIO_COL[m]) == c),
         })
         rows_cc.append(row)
 write('classe_challenge.csv', rows_cc)
@@ -188,15 +189,19 @@ for c in CLASSI:
     row = {'classe': c, 'ruolo': p['ruolo'], 'distanza': p['distanza'], 'attributo': p['attributo'],
            'tipo_mappa': p['tipo_mappa'], 'ruolo_osservato': co['ruolo_osservato'], 'ruolo_coerente': co['coerente'],
            'quota_danni': p['quota_danni'], 'quota_boss': p['quota_boss'], 'quota_tank': p['quota_tank'],
+           'quota_colpi_eroe': p['quota_colpi_eroe'], 'quota_colpi_eroe_min': p['quota_colpi_eroe_min'],
+           'quota_colpi_eroe_max': p['quota_colpi_eroe_max'], 'quota_colpi_evocazioni': p['quota_colpi_evocazioni'],
            'quota_cure_multiboard': p['quota_cure'],
            'quota_cure_solo_abilita_a': cu['quota_solo_abilita_stimata_a'],
            'quota_cure_solo_abilita_b': cu['quota_solo_abilita_stimata_b'],
            'quota_cure_solo_abilita_c': cu['quota_solo_abilita_stimata_c'],
            'quota_danni_boss_finale': p['quota_danni_boss_finale'], 'quota_tank_boss_finale': p['quota_tank_boss_finale'],
+           'quota_colpi_eroe_boss_finale': p['quota_colpi_eroe_boss_finale'],
            'quota_cure_boss_finale': p['quota_cure_boss_finale']}
     for t in ['mischia', 'distanza', 'ibrida']:
         row[f'danni_round_wave_{t}'] = tipo_media(c, t, 'danni')
         row[f'tank_round_wave_{t}'] = tipo_media(c, t, 'tank')
+        row[f'colpi_eroe_round_wave_{t}'] = tipo_media(c, t, 'colpi_eroe')
     row.update({
         'apm': p['apm'], 'abilita_min': p['abilita_min'], 'click_movimento_min': p['click_movimento_min'],
         'distanza_movimento_min': p['distanza_movimento_min'], 'oggetti_usati': p['oggetti_usati'],
@@ -218,7 +223,8 @@ for c in CLASSI:
     schede.append(row)
 write('scheda_classi.csv', schede)
 
-QUOTE = [k for k in schede[0] if k.startswith('quota_') or k.startswith('danni_round_') or k.startswith('tank_round_')]
+QUOTE = [k for k in schede[0] if (k.startswith('quota_') and not k.endswith(('_min', '_max')))
+         or k.startswith(('danni_round_', 'tank_round_', 'colpi_eroe_round_'))]
 MEDIE = ['apm', 'abilita_min', 'click_movimento_min', 'distanza_movimento_min', 'oggetti_usati', 'oro_medio_fine_round',
          'cast_al_minuto_combattimento', 'cooldown_occupato_medio_pct', 'ordini_sprecati_cooldown_pct']
 CONTEGGI = ['round_sotto_20hp', 'premi_totali', 'premi_danni', 'premi_tank', 'premi_boss', 'premi_cure',
@@ -231,7 +237,7 @@ for ruolo in RUOLI:
     for k in QUOTE:
         vals = [f(s[k]) for s in g]
         row[k] = round(sum(vals), 2) if all(v is not None for v in vals) else None
-        if k in ('quota_danni', 'quota_tank', 'quota_cure_multiboard'):
+        if k in ('quota_danni', 'quota_tank', 'quota_colpi_eroe', 'quota_cure_multiboard'):
             row[k + '_per_classe'] = round(row[k] / len(g), 2) if row[k] is not None else None
     for k in MEDIE:
         row[k + '_medio'] = mean([f(s[k]) for s in g])
@@ -246,8 +252,14 @@ write('scheda_ruoli.csv', sr)
 
 # ---------- 6. dizionario delle metriche ----------
 diz = [
-    ('quota_danni / quota_boss / quota_tank', 'multiboard (screenshot)', 'misurata', 'alta',
-     'Quota cumulativa del team dopo la challenge 19 (somma 100).'),
+    ('quota_danni / quota_boss', 'multiboard (screenshot)', 'misurata', 'alta',
+     'Quota cumulativa del team dopo la challenge 19 (somma 100). Danni = importo dei danni fatti.'),
+    ('quota_tank', 'multiboard (screenshot)', 'misurata', 'alta',
+     'Quota di COLPI presi (numero di eventi di danno, non HP persi), evocazioni comprese: la mappa assegna al '
+     'proprietario anche i colpi presi da lupi, Treant, elementali, torri, portali e compagno. Somma 100.'),
+    ('quota_colpi_eroe / quota_colpi_evocazioni', 'multiboard + replay + codice mappa', 'stimata', 'media',
+     'Colpi del solo eroe e delle sue evocazioni (scenario centrale k = 1; _min/_max = scenari k = 0,5 e 2). '
+     'Verificata su Runeblade (compagno) e Claws (lupi). Il danno ricevuto in HP non e\' registrato dalla mappa.'),
     ('quota_cure_multiboard', 'multiboard', 'misurata', 'alta',
      'Include pozioni, rigenerazione, lifesteal (Vampiric Aura) e alcuni oggetti oltre alle abilita.'),
     ('quota_cure_solo_abilita_a/b/c', 'multiboard + codice mappa', 'stimata', 'bassa-media',

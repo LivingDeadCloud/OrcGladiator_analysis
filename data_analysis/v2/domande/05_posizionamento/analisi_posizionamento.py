@@ -504,7 +504,7 @@ def main():
                        'campioni_con_fronte': len(d['fronte']), 'dist_mediana_fronte': med(d['fronte']),
                        'campioni_nemico': len(d['nemico']), 'dist_mediana_nemico_vicino': med(d['nemico']),
                        'dietro_al_tank_mediana': med(d['dietro']),
-                       'tank_quota_round': float(r['tank_quota_round']) if r['tank_quota_round'] else None,
+                       'colpi_eroe_quota_round': float(r['colpi_eroe_quota_round']) if r['colpi_eroe_quota_round'] else None,
                        'hp_fine_round': float(r['hp_fine_round']) if r['hp_fine_round'] else None})
     ccrows.sort(key=lambda r: (r['challenge'], ORDER.index(r['classe'])))
     write_csv('classe_challenge_posizione.csv', ccrows, list(ccrows[0].keys()))
@@ -513,23 +513,23 @@ def main():
     rel = []
     ok = [r for r in prow if r['dist_mediana_dal_fronte'] is not None]
     a = [r['dist_mediana_dal_fronte'] for r in ok]
-    rel.append({'confronto': 'classe: dist. mediana dal fronte vs quota_tank finale', 'n': len(ok),
-                'spearman': spearman(a, [float(sc[r['classe']]['quota_tank']) for r in ok])})
+    rel.append({'confronto': 'classe: dist. mediana dal fronte vs quota_colpi_eroe finale', 'n': len(ok),
+                'spearman': spearman(a, [float(sc[r['classe']]['quota_colpi_eroe']) for r in ok])})
     rel.append({'confronto': 'classe: dist. mediana dal fronte vs round_sotto_20hp', 'n': len(ok),
                 'spearman': spearman(a, [float(sc[r['classe']]['round_sotto_20hp']) for r in ok])})
-    good = [r for r in ccrows if r['campioni_con_fronte'] >= 20 and r['tank_quota_round'] is not None]
-    rel.append({'confronto': 'classe x challenge (>=20 campioni): dist. dal fronte vs tank_quota_round', 'n': len(good),
-                'spearman': spearman([r['dist_mediana_fronte'] for r in good], [r['tank_quota_round'] for r in good])})
+    good = [r for r in ccrows if r['campioni_con_fronte'] >= 20 and r['colpi_eroe_quota_round'] is not None]
+    rel.append({'confronto': 'classe x challenge (>=20 campioni): dist. dal fronte vs colpi_eroe_quota_round', 'n': len(good),
+                'spearman': spearman([r['dist_mediana_fronte'] for r in good], [r['colpi_eroe_quota_round'] for r in good])})
     low = [r['dist_mediana_fronte'] for r in good if r['hp_fine_round'] is not None and r['hp_fine_round'] <= 20]
     hi = [r['dist_mediana_fronte'] for r in good if r['hp_fine_round'] is not None and r['hp_fine_round'] > 20]
     rel.append({'confronto': f'dist. mediana dal fronte: casi HP<=20% a fine round (n={len(low)}) vs altri (n={len(hi)})',
                 'n': len(low) + len(hi), 'mediana_gruppo_a': med(low), 'mediana_gruppo_b': med(hi)})
     okn = [r for r in prow if r['dist_mediana_nemico_piu_vicino'] is not None]
-    rel.append({'confronto': 'classe: dist. mediana dal nemico piu vicino vs quota_tank finale', 'n': len(okn),
-                'spearman': spearman([r['dist_mediana_nemico_piu_vicino'] for r in okn], [float(sc[r['classe']]['quota_tank']) for r in okn])})
-    goodn = [r for r in ccrows if r['campioni_nemico'] >= 20 and r['tank_quota_round'] is not None]
-    rel.append({'confronto': 'classe x challenge (>=20 campioni): dist. nemico piu vicino vs tank_quota_round', 'n': len(goodn),
-                'spearman': spearman([r['dist_mediana_nemico_vicino'] for r in goodn], [r['tank_quota_round'] for r in goodn])})
+    rel.append({'confronto': 'classe: dist. mediana dal nemico piu vicino vs quota_colpi_eroe finale', 'n': len(okn),
+                'spearman': spearman([r['dist_mediana_nemico_piu_vicino'] for r in okn], [float(sc[r['classe']]['quota_colpi_eroe']) for r in okn])})
+    goodn = [r for r in ccrows if r['campioni_nemico'] >= 20 and r['colpi_eroe_quota_round'] is not None]
+    rel.append({'confronto': 'classe x challenge (>=20 campioni): dist. nemico piu vicino vs colpi_eroe_quota_round', 'n': len(goodn),
+                'spearman': spearman([r['dist_mediana_nemico_vicino'] for r in goodn], [r['colpi_eroe_quota_round'] for r in goodn])})
     lown = [r['dist_mediana_nemico_vicino'] for r in goodn if r['hp_fine_round'] is not None and r['hp_fine_round'] <= 20]
     hin = [r['dist_mediana_nemico_vicino'] for r in goodn if r['hp_fine_round'] is not None and r['hp_fine_round'] > 20]
     rel.append({'confronto': f'dist. mediana nemico piu vicino: casi HP<=20% a fine round (n={len(lown)}) vs altri (n={len(hin)})',

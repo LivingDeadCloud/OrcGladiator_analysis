@@ -21,7 +21,10 @@ from mpq import MPQ
 
 OUT = 'data_analysis/v2/abilita_mana'
 RAW = 'data_map/raw'
-WC3 = r'C:/Program Files (x86)/Warcraft III'
+# file del gioco: prima nella cartella del progetto (replay_originali/gioco), poi nell'installazione Windows
+WC3 = os.path.join('replay_originali', 'gioco')   # relativo alla cartella del progetto (da cui si lanciano gli script)
+if not os.path.isdir(WC3):
+    WC3 = r'C:/Program Files (x86)/Warcraft III'
 REPLAY = 'replay_originali/orcgladiatorsbutei.w3g'
 DT = 0.5                      # passo della simulazione (s)
 ALPHAS = [x / 4 for x in range(-24, 49)]   # regen extra calibrata: -6 .. +12 mana/s

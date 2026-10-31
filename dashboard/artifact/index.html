@@ -86,7 +86,7 @@
       <div class="og-card"><h3>Danni inflitti</h3><span class="og-sub">% dei danni totali</span><div class="og-bars og-chart short" id="b-danni" data-source="profilo"></div></div>
       <div class="og-card"><h3>Danni al boss</h3><span class="og-sub">% dei danni ai boss di fine ondata</span><div class="og-bars og-chart short" id="b-boss" data-source="profilo"></div></div>
       <div class="og-card"><h3>Cure</h3><span class="og-sub">% delle cure totali</span><div class="og-bars og-chart short" id="b-cure" data-source="profilo"></div></div>
-      <div class="og-card"><h3>Danni subiti (tank)</h3><span class="og-sub">% dei danni incassati dal team</span><div class="og-bars og-chart short" id="b-tank" data-source="profilo"></div></div>
+      <div class="og-card"><h3>Colpi presi (tank)</h3><span class="og-sub">% dei colpi presi dal team, evocazioni comprese (non danni)</span><div class="og-bars og-chart short" id="b-tank" data-source="profilo"></div></div>
     </div>
   </section>
 
@@ -177,7 +177,7 @@
 
   <section class="og-section" id="tabella">
     <h2>Profilo completo dei giocatori</h2>
-    <p class="og-sub">Clicca un'intestazione per ordinare. Danni, boss, cure e tank sono quote % dopo la challenge 19; abilità/min e APM sono sull'intera partita.</p>
+    <p class="og-sub">Clicca un'intestazione per ordinare. Danni, boss, cure e tank sono quote % dopo la challenge 19 (tank = colpi presi, evocazioni comprese); abilità/min e APM sono sull'intera partita.</p>
     <div class="og-card">
       <div class="og-table-wrap">
         <table id="t-profilo" data-source="profilo" data-row-key="giocatore">
@@ -187,7 +187,7 @@
             <th data-field="danni"><button type="button" data-k="danni">Danni %</button></th>
             <th data-field="boss"><button type="button" data-k="boss">Boss %</button></th>
             <th data-field="cure"><button type="button" data-k="cure">Cure %</button></th>
-            <th data-field="tank"><button type="button" data-k="tank">Tank %</button></th>
+            <th data-field="tank"><button type="button" data-k="tank">Colpi %</button></th>
             <th data-field="apm"><button type="button" data-k="apm">APM</button></th>
             <th data-field="abilita_min"><button type="button" data-k="abilita_min">Abilità/min</button></th>
             <th data-field="oro_medio_fine_round"><button type="button" data-k="oro_medio_fine_round">Oro medio</button></th>

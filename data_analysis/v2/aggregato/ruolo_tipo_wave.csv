@@ -1,16 +1,16 @@
-ruolo,tipo_wave,n_wave,danni_quota_round_media,boss_quota_round_media,cure_quota_round_media,tank_quota_round_media,cure_solo_abilita_round_b_media,apm_medio,abilita_min_medio,click_movimento_min_medio,hp_fine_round_medio,volte_sotto_20hp,secondi_round_medi
-Tank,mischia,5,13.82,18.5,27.9,31.16,7.44,62.66,5.57,36.13,73.9,2,148.6
-Tank,distanza,4,16.82,20.02,33.8,24.82,15.45,73.81,6.25,46.16,91.38,0,237.0
-Tank,ibrida,10,13.3,15.49,28.83,30.54,7.78,56.16,5.41,31.26,88.0,1,156.86
-Healer,mischia,5,1.44,4.26,37.66,4.68,59.86,53.94,6.9,27.82,82.4,1,148.6
-Healer,distanza,4,1.68,1.05,33.25,3.4,61.55,52.95,7.25,26.6,77.75,1,237.0
-Healer,ibrida,10,1.26,1.24,36.47,5.05,66.42,57.42,7.06,36.32,91.3,1,156.86
-Support,mischia,5,2.04,2.12,15.12,0.98,30.76,25.58,1.18,13.9,82.4,1,148.6
-Support,distanza,4,2.38,3.52,12.35,0.6,23.02,36.12,1.54,23.12,100.0,0,237.0
-Support,ibrida,10,2.05,2.46,10.9,1.05,22.47,34.86,0.95,22.06,82.1,2,156.86
-DPS mischia,mischia,5,41.84,36.6,17.18,55.28,1.96,62.74,3.52,40.61,74.73,4,148.6
-DPS mischia,distanza,4,44.02,39.0,11.18,60.25,0.0,81.12,3.45,59.71,93.0,1,237.0
-DPS mischia,ibrida,10,47.25,41.09,19.07,53.93,3.34,67.08,3.45,44.54,85.4,3,156.86
-DPS distanza,mischia,5,40.78,38.52,2.16,7.92,0.0,40.35,4.95,23.77,72.0,5,148.6
-DPS distanza,distanza,4,35.02,36.4,9.4,10.97,0.0,49.73,4.78,32.07,63.75,4,237.0
-DPS distanza,ibrida,10,36.15,39.72,4.74,9.44,0.0,45.69,4.43,26.69,84.93,4,156.86
+ruolo,tipo_wave,n_wave,danni_quota_round_media,boss_quota_round_media,cure_quota_round_media,tank_quota_round_media,colpi_eroe_quota_round_media,cure_solo_abilita_round_b_media,apm_medio,abilita_min_medio,click_movimento_min_medio,hp_fine_round_medio,volte_sotto_20hp,secondi_round_medi
+Tank,mischia,5,13.82,18.5,27.9,31.16,31.16,1.68,62.66,5.57,36.13,73.9,2,148.6
+Tank,distanza,4,16.82,20.02,33.8,24.82,24.82,7.7,73.81,6.25,46.16,91.38,0,237.0
+Tank,ibrida,10,13.3,15.49,28.83,30.54,29.67,7.16,56.16,5.41,31.26,88.0,1,156.86
+Healer,mischia,5,1.44,4.26,37.66,4.68,0.48,66.48,53.94,6.9,27.82,82.4,1,148.6
+Healer,distanza,4,1.68,1.05,33.25,3.4,0.15,68.22,52.95,7.25,26.6,77.75,1,237.0
+Healer,ibrida,10,1.26,1.24,36.47,5.05,1.14,70.36,57.42,7.06,36.32,91.3,1,156.86
+Support,mischia,5,2.04,2.12,15.12,0.98,0.98,31.54,25.58,1.18,13.9,82.4,1,148.6
+Support,distanza,4,2.38,3.52,12.35,0.6,0.6,24.07,36.12,1.54,23.12,100.0,0,237.0
+Support,ibrida,10,2.05,2.46,10.9,1.05,1.05,20.84,34.86,0.95,22.06,82.1,2,156.86
+DPS mischia,mischia,5,41.84,36.6,17.18,55.28,47.3,0.3,62.74,3.52,40.61,74.73,4,148.6
+DPS mischia,distanza,4,44.02,39.0,11.18,60.25,52.35,0.0,81.12,3.45,59.71,93.0,1,237.0
+DPS mischia,ibrida,10,47.25,41.09,19.07,53.93,45.14,1.64,67.08,3.45,44.54,85.4,3,156.86
+DPS distanza,mischia,5,40.78,38.52,2.16,7.92,3.06,0.0,40.35,4.95,23.77,72.0,5,148.6
+DPS distanza,distanza,4,35.02,36.4,9.4,10.97,5.38,0.0,49.73,4.78,32.07,63.75,4,237.0
+DPS distanza,ibrida,10,36.15,39.72,4.74,9.44,4.4,0.0,45.69,4.43,26.69,84.93,4,156.86

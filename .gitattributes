@@ -1,0 +1,2 @@
+# I CSV si confrontano senza badare al fine riga (Windows/Linux): git mostra solo le modifiche vere
+*.csv text eol=lf

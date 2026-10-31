@@ -1,0 +1,11 @@
+classe,ruolo,icona_gioco,fonte,file
+War Hammer,Tank,ReplaceableTextures\CommandButtons\BTNINV_Hammer_17.blp,mappa,war_hammer.png
+Runeblade,Tank,ReplaceableTextures\CommandButtons\BTNFrostMourne.blp,NON TROVATA,
+Druid Staff,Healer,ReplaceableTextures\CommandButtons\BTNDruid_Staff_Nature_Earth.blp,mappa,druid_staff.png
+War Drums,Support,ReplaceableTextures\CommandButtons\BTNDrum.blp,NON TROVATA,
+Claws,DPS mischia,ReplaceableTextures\CommandButtons\BTNShamanAdept.blp,NON TROVATA,
+Double Blade,DPS mischia,ReplaceableTextures\CommandButtons\BTNCleavingAttack.blp,NON TROVATA,
+Pickaxe,DPS mischia,ReplaceableTextures\CommandButtons\BTNGatherGold.blp,NON TROVATA,
+Bow,DPS distanza,ReplaceableTextures\CommandButtons\BTNImprovedBows.blp,NON TROVATA,
+Wizard Staff,DPS distanza,ReplaceableTextures\CommandButtons\BTNWandOfManaSteal.blp,NON TROVATA,
+Naga Trident,DPS distanza,ReplaceableTextures\CommandButtons\BTNNagaWeaponUp2.blp,NON TROVATA,

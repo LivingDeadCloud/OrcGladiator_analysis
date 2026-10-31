@@ -4,3 +4,7 @@ replay_originali/
 # Python
 __pycache__/
 *.pyc
+
+# file del gioco e della mappa: restano solo in locale
+*.w3x
+*.mpq

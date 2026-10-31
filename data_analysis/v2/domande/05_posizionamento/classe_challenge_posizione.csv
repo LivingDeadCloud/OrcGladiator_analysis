@@ -1,11 +1,11 @@
-classe,ruolo,challenge,tipo_wave,campioni_con_fronte,dist_mediana_fronte,campioni_nemico,dist_mediana_nemico_vicino,dietro_al_tank_mediana,tank_quota_round,hp_fine_round
+classe,ruolo,challenge,tipo_wave,campioni_con_fronte,dist_mediana_fronte,campioni_nemico,dist_mediana_nemico_vicino,dietro_al_tank_mediana,colpi_eroe_quota_round,hp_fine_round
 War Hammer,Tank,1,ibrida,22,1128.691,22,176.002,,32.5,100.0
 Runeblade,Tank,1,ibrida,45,238.04,49,229.889,,25.0,100.0
 Druid Staff,Healer,1,ibrida,39,844.941,42,286.313,467.898,0.0,100.0
 War Drums,Support,1,ibrida,46,353.219,50,331.238,138.006,0.0,100.0
 Claws,DPS mischia,1,ibrida,46,161.491,49,134.964,13.67,21.7,100.0
 Double Blade,DPS mischia,1,ibrida,13,3788.588,16,3799.768,3612.587,10.8,100.0
-Pickaxe,DPS mischia,1,ibrida,46,139.356,44,267.582,-87.788,9.6,91.0
+Pickaxe,DPS mischia,1,ibrida,46,139.356,44,267.582,-87.788,3.7,91.0
 Bow,DPS distanza,1,ibrida,36,293.401,41,260.294,116.752,0.2,100.0
 Wizard Staff,DPS distanza,1,ibrida,46,1235.171,50,388.902,1005.054,0.2,100.0
 Naga Trident,DPS distanza,1,ibrida,46,1496.715,50,105.136,1266.021,0.0,100.0
@@ -15,187 +15,187 @@ Druid Staff,Healer,2,ibrida,54,630.42,58,479.355,481.777,0.0,100.0
 War Drums,Support,2,ibrida,64,1488.685,68,835.178,953.234,0.0,100.0
 Claws,DPS mischia,2,ibrida,64,418.618,68,207.503,200.143,14.3,90.0
 Double Blade,DPS mischia,2,ibrida,61,996.579,65,1309.406,836.404,13.0,100.0
-Pickaxe,DPS mischia,2,ibrida,64,303.856,68,149.274,118.005,13.6,75.0
+Pickaxe,DPS mischia,2,ibrida,64,303.856,68,149.274,118.005,4.5,75.0
 Bow,DPS distanza,2,ibrida,42,509.184,46,470.533,448.334,0.0,100.0
 Wizard Staff,DPS distanza,2,ibrida,64,453.682,68,303.562,280.757,0.9,100.0
 Naga Trident,DPS distanza,2,ibrida,60,605.777,64,348.934,537.203,1.1,100.0
 War Hammer,Tank,3,mischia,72,595.375,75,410.37,,20.2,100.0
 Runeblade,Tank,3,mischia,43,178.896,46,136.916,,27.4,100.0
-Druid Staff,Healer,3,mischia,70,420.732,73,442.517,107.874,0.6,100.0
+Druid Staff,Healer,3,mischia,70,420.732,73,442.517,107.874,0.0,100.0
 War Drums,Support,3,mischia,28,440.464,31,440.464,292.194,0.0,100.0
-Claws,DPS mischia,3,mischia,66,179.928,63,157.977,30.117,26.7,100.0
+Claws,DPS mischia,3,mischia,66,179.928,63,157.977,30.117,23.0,100.0
 Double Blade,DPS mischia,3,mischia,12,1407.675,15,2058.092,1079.637,14.3,100.0
-Pickaxe,DPS mischia,3,mischia,72,100.0,60,285.049,-42.329,10.4,100.0
+Pickaxe,DPS mischia,3,mischia,72,100.0,60,285.049,-42.329,2.7,100.0
 Bow,DPS distanza,3,mischia,43,348.093,46,348.093,93.761,0.1,100.0
-Wizard Staff,DPS distanza,3,mischia,60,599.685,63,596.84,242.865,0.2,100.0
+Wizard Staff,DPS distanza,3,mischia,60,599.685,63,596.84,242.865,0.0,100.0
 Naga Trident,DPS distanza,3,mischia,42,832.223,45,829.349,357.104,0.2,100.0
 War Hammer,Tank,4,distanza,122,148.039,136,127.198,,12.4,100.0
 Runeblade,Tank,4,distanza,107,217.537,116,178.289,,31.6,100.0
-Druid Staff,Healer,4,distanza,122,490.46,136,424.013,367.52,6.5,100.0
+Druid Staff,Healer,4,distanza,122,490.46,136,424.013,367.52,0.0,100.0
 War Drums,Support,4,distanza,84,392.542,90,304.519,308.078,0.0,100.0
-Claws,DPS mischia,4,distanza,122,475.539,130,361.912,327.884,25.8,100.0
+Claws,DPS mischia,4,distanza,122,475.539,130,361.912,327.884,18.9,100.0
 Double Blade,DPS mischia,4,distanza,34,425.628,40,502.127,178.124,5.0,100.0
-Pickaxe,DPS mischia,4,distanza,122,226.556,117,153.532,34.878,13.8,100.0
+Pickaxe,DPS mischia,4,distanza,122,226.556,117,153.532,34.878,6.5,100.0
 Bow,DPS distanza,4,distanza,14,440.482,19,440.482,132.253,1.4,21.0
-Wizard Staff,DPS distanza,4,distanza,122,730.207,136,500.0,635.8,1.4,100.0
+Wizard Staff,DPS distanza,4,distanza,122,730.207,136,500.0,635.8,0.0,100.0
 Naga Trident,DPS distanza,4,distanza,104,472.541,116,398.947,289.784,2.1,100.0
 War Hammer,Tank,5,mischia,159,419.275,158,311.055,,12.1,100.0
 Runeblade,Tank,5,mischia,159,418.958,166,270.58,,17.7,74.0
-Druid Staff,Healer,5,mischia,159,558.387,151,500.0,372.0,7.6,100.0
+Druid Staff,Healer,5,mischia,159,558.387,151,500.0,372.0,0.1,100.0
 War Drums,Support,5,mischia,130,536.096,142,500.0,372.0,2.0,100.0
-Claws,DPS mischia,5,mischia,49,264.47,50,181.895,88.523,27.0,17.0
+Claws,DPS mischia,5,mischia,49,264.47,50,181.895,88.523,25.6,17.0
 Double Blade,DPS mischia,5,mischia,35,448.978,35,302.993,190.563,15.7,17.0
-Pickaxe,DPS mischia,5,mischia,37,151.756,37,155.84,-121.972,6.0,17.0
+Pickaxe,DPS mischia,5,mischia,37,151.756,37,155.84,-121.972,0.1,17.0
 Bow,DPS distanza,5,mischia,32,415.97,33,142.586,169.925,2.9,17.0
-Wizard Staff,DPS distanza,5,mischia,157,500.0,166,480.75,293.049,8.9,100.0
+Wizard Staff,DPS distanza,5,mischia,157,500.0,166,480.75,293.049,3.1,100.0
 Naga Trident,DPS distanza,5,mischia,151,555.006,158,461.527,322.796,0.1,100.0
 War Hammer,Tank,6,ibrida,105,114.944,105,93.137,,21.5,100.0
 Runeblade,Tank,6,ibrida,97,316.983,97,214.148,,17.5,100.0
-Druid Staff,Healer,6,ibrida,105,882.67,105,635.39,669.585,13.1,100.0
+Druid Staff,Healer,6,ibrida,105,882.67,105,635.39,669.585,4.2,100.0
 War Drums,Support,6,ibrida,99,522.014,99,457.242,390.7,0.0,100.0
-Claws,DPS mischia,6,ibrida,105,602.513,102,259.335,285.629,19.8,100.0
+Claws,DPS mischia,6,ibrida,105,602.513,102,259.335,285.629,10.4,100.0
 Double Blade,DPS mischia,6,ibrida,87,235.06,88,208.146,151.848,9.2,100.0
-Pickaxe,DPS mischia,6,ibrida,105,571.825,104,336.969,392.489,9.2,98.0
+Pickaxe,DPS mischia,6,ibrida,105,571.825,104,336.969,392.489,2.2,98.0
 Bow,DPS distanza,6,ibrida,75,446.219,75,446.219,416.131,0.5,100.0
-Wizard Staff,DPS distanza,6,ibrida,105,449.884,103,240.815,256.211,9.2,100.0
+Wizard Staff,DPS distanza,6,ibrida,105,449.884,103,240.815,256.211,4.7,100.0
 Naga Trident,DPS distanza,6,ibrida,101,376.597,101,306.564,254.378,0.1,100.0
 War Hammer,Tank,7,ibrida,159,374.679,162,213.88,,5.0,100.0
 Runeblade,Tank,7,ibrida,160,439.37,161,178.633,,27.8,70.0
-Druid Staff,Healer,7,ibrida,164,490.254,167,355.124,200.273,11.2,100.0
+Druid Staff,Healer,7,ibrida,164,490.254,167,355.124,200.273,3.1,100.0
 War Drums,Support,7,ibrida,160,513.441,163,376.586,162.174,1.0,100.0
-Claws,DPS mischia,7,ibrida,164,479.729,155,276.906,212.899,26.4,100.0
-Double Blade,DPS mischia,7,ibrida,145,372.549,148,276.29,34.077,20.9,49.0
+Claws,DPS mischia,7,ibrida,164,479.729,155,276.906,212.899,18.2,100.0
+Double Blade,DPS mischia,7,ibrida,145,372.549,148,276.29,34.077,16.4,49.0
 Pickaxe,DPS mischia,7,ibrida,163,354.191,164,260.027,102.63,0.0,100.0
 Bow,DPS distanza,7,ibrida,115,329.12,115,294.183,19.613,0.4,15.0
-Wizard Staff,DPS distanza,7,ibrida,131,642.605,134,308.232,339.587,6.6,100.0
+Wizard Staff,DPS distanza,7,ibrida,131,642.605,134,308.232,339.587,0.6,100.0
 Naga Trident,DPS distanza,7,ibrida,162,416.034,165,337.384,157.445,0.6,100.0
 War Hammer,Tank,8,ibrida,159,1117.471,159,444.41,,18.3,100.0
 Runeblade,Tank,8,ibrida,150,302.779,151,191.777,,4.7,100.0
-Druid Staff,Healer,8,ibrida,159,993.369,159,598.321,623.085,8.9,100.0
+Druid Staff,Healer,8,ibrida,159,993.369,159,598.321,623.085,2.2,100.0
 War Drums,Support,8,ibrida,110,733.127,106,500.0,377.871,1.2,100.0
-Claws,DPS mischia,8,ibrida,150,729.513,148,418.374,264.746,28.5,100.0
+Claws,DPS mischia,8,ibrida,150,729.513,148,418.374,264.746,20.3,100.0
 Double Blade,DPS mischia,8,ibrida,104,530.472,103,286.878,154.413,18.6,100.0
 Pickaxe,DPS mischia,8,ibrida,142,365.759,143,174.144,55.788,0.0,100.0
 Bow,DPS distanza,8,ibrida,143,603.524,143,470.872,348.538,2.3,100.0
-Wizard Staff,DPS distanza,8,ibrida,159,978.486,158,515.49,626.629,16.2,100.0
+Wizard Staff,DPS distanza,8,ibrida,159,978.486,158,515.49,626.629,11.6,100.0
 Naga Trident,DPS distanza,8,ibrida,148,570.687,141,514.606,240.504,1.3,100.0
 War Hammer,Tank,9,distanza,219,508.355,244,406.042,,4.5,100.0
 Runeblade,Tank,9,distanza,210,430.932,236,375.95,,15.1,59.0
-Druid Staff,Healer,9,distanza,66,439.16,80,439.16,169.161,3.7,11.0
+Druid Staff,Healer,9,distanza,66,439.16,80,439.16,169.161,0.6,11.0
 War Drums,Support,9,distanza,184,587.681,211,571.917,317.826,0.6,100.0
-Claws,DPS mischia,9,distanza,99,365.735,108,353.68,83.223,7.9,100.0
-Double Blade,DPS mischia,9,distanza,199,426.742,219,430.266,92.0,51.9,100.0
-Pickaxe,DPS mischia,9,distanza,214,539.07,232,496.255,129.222,1.6,100.0
+Claws,DPS mischia,9,distanza,99,365.735,108,353.68,83.223,6.9,100.0
+Double Blade,DPS mischia,9,distanza,199,426.742,219,430.266,92.0,49.7,100.0
+Pickaxe,DPS mischia,9,distanza,214,539.07,232,496.255,129.222,0.6,100.0
 Bow,DPS distanza,9,distanza,123,426.243,140,460.888,191.416,1.6,15.0
-Wizard Staff,DPS distanza,9,distanza,219,541.021,245,500.0,217.722,12.1,100.0
+Wizard Staff,DPS distanza,9,distanza,219,541.021,245,500.0,217.722,3.8,100.0
 Naga Trident,DPS distanza,9,distanza,63,415.784,72,434.755,149.595,1.2,15.0
 War Hammer,Tank,10,mischia,158,231.7,151,164.475,,13.9,41.0
 Runeblade,Tank,10,mischia,158,405.574,157,268.837,,17.6,100.0
-Druid Staff,Healer,10,mischia,158,652.242,153,462.624,438.148,4.9,100.0
+Druid Staff,Healer,10,mischia,158,652.242,153,462.624,438.148,0.2,100.0
 War Drums,Support,10,mischia,102,500.0,101,303.927,278.176,0.6,100.0
-Claws,DPS mischia,10,mischia,158,668.51,156,479.658,460.004,23.8,100.0
+Claws,DPS mischia,10,mischia,158,668.51,156,479.658,460.004,19.9,100.0
 Double Blade,DPS mischia,10,mischia,86,227.62,85,169.348,66.211,26.9,100.0
-Pickaxe,DPS mischia,10,mischia,158,467.949,156,244.637,245.655,4.0,100.0
+Pickaxe,DPS mischia,10,mischia,158,467.949,156,244.637,245.655,0.2,100.0
 Bow,DPS distanza,10,mischia,117,408.637,116,194.575,209.131,0.2,100.0
-Wizard Staff,DPS distanza,10,mischia,134,373.744,133,271.779,173.791,7.3,100.0
+Wizard Staff,DPS distanza,10,mischia,134,373.744,133,271.779,173.791,0.2,100.0
 Naga Trident,DPS distanza,10,mischia,154,470.434,153,344.517,265.475,0.8,19.0
 War Hammer,Tank,11,distanza,145,390.018,145,212.219,,8.0,91.0
 Runeblade,Tank,11,distanza,146,320.776,141,243.973,,14.8,83.0
 Druid Staff,Healer,11,distanza,146,633.156,147,571.104,441.797,0.0,100.0
 War Drums,Support,11,distanza,113,472.038,114,376.532,229.41,1.8,100.0
-Claws,DPS mischia,11,distanza,146,351.691,142,309.017,179.062,21.6,100.0
+Claws,DPS mischia,11,distanza,146,351.691,142,309.017,179.062,16.5,100.0
 Double Blade,DPS mischia,11,distanza,44,1948.372,46,1863.605,1127.201,46.7,100.0
 Pickaxe,DPS mischia,11,distanza,54,408.034,51,353.502,232.051,0.0,16.0
 Bow,DPS distanza,11,distanza,121,522.222,121,296.928,277.285,0.0,100.0
-Wizard Staff,DPS distanza,11,distanza,145,582.885,146,396.243,307.976,5.1,100.0
+Wizard Staff,DPS distanza,11,distanza,145,582.885,146,396.243,307.976,0.0,100.0
 Naga Trident,DPS distanza,11,distanza,129,470.602,130,415.364,287.364,2.0,100.0
 War Hammer,Tank,12,ibrida,98,151.808,98,256.542,,12.6,100.0
 Runeblade,Tank,12,ibrida,94,535.663,99,350.993,,6.8,100.0
-Druid Staff,Healer,12,ibrida,98,666.659,103,563.673,443.017,5.2,100.0
+Druid Staff,Healer,12,ibrida,98,666.659,103,563.673,443.017,0.0,100.0
 War Drums,Support,12,ibrida,90,798.368,95,643.986,464.013,0.7,100.0
-Claws,DPS mischia,12,ibrida,97,402.032,97,301.186,74.105,19.3,100.0
+Claws,DPS mischia,12,ibrida,97,402.032,97,301.186,74.105,16.0,100.0
 Double Blade,DPS mischia,12,ibrida,61,445.239,66,326.853,192.242,42.3,100.0
-Pickaxe,DPS mischia,12,ibrida,97,521.435,96,374.307,24.84,3.8,100.0
+Pickaxe,DPS mischia,12,ibrida,97,521.435,96,374.307,24.84,0.0,100.0
 Bow,DPS distanza,12,ibrida,75,765.722,80,614.549,529.612,0.0,100.0
-Wizard Staff,DPS distanza,12,ibrida,98,476.63,99,467.667,348.63,8.4,100.0
+Wizard Staff,DPS distanza,12,ibrida,98,476.63,99,467.667,348.63,1.7,100.0
 Naga Trident,DPS distanza,12,ibrida,78,475.69,83,407.895,314.338,0.9,100.0
 War Hammer,Tank,13,ibrida,112,590.996,114,576.258,,1.5,82.0
 Runeblade,Tank,13,ibrida,112,969.895,111,771.009,,0.0,79.0
 Druid Staff,Healer,13,ibrida,63,683.845,59,621.297,325.013,0.6,13.0
 War Drums,Support,13,ibrida,86,647.654,80,583.92,231.061,3.8,5.0
-Claws,DPS mischia,13,ibrida,103,558.135,105,589.939,21.35,27.1,3.0
-Double Blade,DPS mischia,13,ibrida,98,1012.877,106,1095.602,64.778,48.2,92.0
-Pickaxe,DPS mischia,13,ibrida,64,632.283,59,567.491,271.629,3.6,19.0
+Claws,DPS mischia,13,ibrida,103,558.135,105,589.939,21.35,23.7,3.0
+Double Blade,DPS mischia,13,ibrida,98,1012.877,106,1095.602,64.778,42.3,92.0
+Pickaxe,DPS mischia,13,ibrida,64,632.283,59,567.491,271.629,1.5,19.0
 Bow,DPS distanza,13,ibrida,58,530.758,54,478.723,198.954,3.2,13.0
-Wizard Staff,DPS distanza,13,ibrida,103,1025.722,106,1033.823,651.027,10.3,70.0
+Wizard Staff,DPS distanza,13,ibrida,103,1025.722,106,1033.823,651.027,1.5,70.0
 Naga Trident,DPS distanza,13,ibrida,45,672.58,34,347.896,342.102,1.7,13.0
 War Hammer,Tank,14,ibrida,116,257.853,116,187.374,,7.8,100.0
 Runeblade,Tank,14,ibrida,116,516.18,116,303.11,,0.7,100.0
-Druid Staff,Healer,14,ibrida,122,606.702,122,425.33,435.483,3.1,100.0
+Druid Staff,Healer,14,ibrida,122,606.702,122,425.33,435.483,1.0,100.0
 War Drums,Support,14,ibrida,110,551.061,110,440.279,372.0,2.7,100.0
-Claws,DPS mischia,14,ibrida,122,354.763,119,221.547,133.511,31.3,100.0
+Claws,DPS mischia,14,ibrida,122,354.763,119,221.547,133.511,26.7,100.0
 Double Blade,DPS mischia,14,ibrida,39,363.254,39,272.954,182.887,42.8,100.0
 Pickaxe,DPS mischia,14,ibrida,103,516.195,103,228.813,305.048,0.3,100.0
 Bow,DPS distanza,14,ibrida,78,489.737,78,207.395,197.403,1.2,100.0
-Wizard Staff,DPS distanza,14,ibrida,122,424.833,122,288.934,226.671,9.2,100.0
+Wizard Staff,DPS distanza,14,ibrida,122,424.833,122,288.934,226.671,2.2,100.0
 Naga Trident,DPS distanza,14,ibrida,121,439.365,121,361.608,273.248,1.0,100.0
 War Hammer,Tank,15,mischia,121,553.329,119,437.396,,12.1,12.0
 Runeblade,Tank,15,mischia,121,454.41,125,318.334,,13.0,12.0
-Druid Staff,Healer,15,mischia,99,618.794,115,513.937,315.861,5.7,12.0
+Druid Staff,Healer,15,mischia,99,618.794,115,513.937,315.861,1.0,12.0
 War Drums,Support,15,mischia,52,671.06,56,409.474,387.673,1.2,12.0
-Claws,DPS mischia,15,mischia,198,651.103,207,593.295,270.726,19.8,100.0
+Claws,DPS mischia,15,mischia,198,651.103,207,593.295,270.726,16.1,100.0
 Double Blade,DPS mischia,15,mischia,186,1013.294,186,952.198,699.919,35.0,52.0
-Pickaxe,DPS mischia,15,mischia,188,664.672,200,672.969,253.428,4.6,18.0
+Pickaxe,DPS mischia,15,mischia,188,664.672,200,672.969,253.428,1.0,18.0
 Bow,DPS distanza,15,mischia,155,881.284,159,660.586,518.387,1.2,12.0
-Wizard Staff,DPS distanza,15,mischia,188,1418.156,192,1428.684,1167.859,6.4,20.0
+Wizard Staff,DPS distanza,15,mischia,188,1418.156,192,1428.684,1167.859,2.0,20.0
 Naga Trident,DPS distanza,15,mischia,41,1049.571,44,502.538,485.979,1.0,12.0
 War Hammer,Tank,16,distanza,201,383.761,203,339.411,,5.6,100.0
 Runeblade,Tank,16,distanza,172,458.321,179,352.585,,7.3,98.0
-Druid Staff,Healer,16,distanza,201,807.762,209,674.426,513.667,3.4,100.0
+Druid Staff,Healer,16,distanza,201,807.762,209,674.426,513.667,0.0,100.0
 War Drums,Support,16,distanza,198,840.358,199,625.617,494.882,0.0,100.0
-Claws,DPS mischia,16,distanza,201,680.263,204,538.818,389.468,22.8,100.0
+Claws,DPS mischia,16,distanza,201,680.263,204,538.818,389.468,18.1,100.0
 Double Blade,DPS mischia,16,distanza,185,482.98,191,372.662,219.835,40.5,100.0
-Pickaxe,DPS mischia,16,distanza,201,906.18,210,694.311,580.211,3.4,100.0
+Pickaxe,DPS mischia,16,distanza,201,906.18,210,694.311,580.211,0.0,100.0
 Bow,DPS distanza,16,distanza,138,672.534,137,520.751,372.52,2.6,12.0
-Wizard Staff,DPS distanza,16,distanza,201,586.936,210,468.23,312.68,12.0,90.0
+Wizard Staff,DPS distanza,16,distanza,201,586.936,210,468.23,312.68,4.4,90.0
 Naga Trident,DPS distanza,16,distanza,134,529.199,131,430.41,317.23,2.4,12.0
 War Hammer,Tank,17,mischia,40,289.834,39,348.834,,4.7,100.0
 Runeblade,Tank,17,mischia,81,197.284,81,143.843,,17.1,100.0
-Druid Staff,Healer,17,mischia,11,410.754,11,375.009,331.432,4.6,100.0
+Druid Staff,Healer,17,mischia,11,410.754,11,375.009,331.432,1.1,100.0
 War Drums,Support,17,mischia,42,650.32,42,461.983,255.177,1.1,100.0
-Claws,DPS mischia,17,mischia,27,180.545,27,161.142,28.144,33.9,100.0
+Claws,DPS mischia,17,mischia,27,180.545,27,161.142,28.144,28.9,100.0
 Double Blade,DPS mischia,17,mischia,21,478.334,21,311.546,258.371,26.0,100.0
-Pickaxe,DPS mischia,17,mischia,21,536.351,21,543.715,-205.74,2.3,100.0
+Pickaxe,DPS mischia,17,mischia,21,536.351,21,543.715,-205.74,1.1,100.0
 Bow,DPS distanza,17,mischia,21,757.865,21,757.865,92.453,1.3,100.0
-Wizard Staff,DPS distanza,17,mischia,19,551.982,19,486.369,434.66,7.9,100.0
+Wizard Staff,DPS distanza,17,mischia,19,551.982,19,486.369,434.66,1.1,100.0
 Naga Trident,DPS distanza,17,mischia,20,480.949,20,466.762,358.925,1.1,100.0
 War Hammer,Tank,18,ibrida,216,291.771,194,263.023,,24.1,23.0
-Runeblade,Tank,18,ibrida,85,393.723,82,182.722,,2.4,16.0
-Druid Staff,Healer,18,ibrida,195,696.356,199,539.838,471.082,5.4,100.0
+Runeblade,Tank,18,ibrida,85,393.723,82,182.722,,0.0,16.0
+Druid Staff,Healer,18,ibrida,195,696.356,199,539.838,471.082,0.0,100.0
 War Drums,Support,18,ibrida,84,625.185,81,499.494,354.856,0.1,16.0
-Claws,DPS mischia,18,ibrida,218,567.466,232,544.845,287.989,49.9,100.0
+Claws,DPS mischia,18,ibrida,218,567.466,232,544.845,287.989,45.8,100.0
 Double Blade,DPS mischia,18,ibrida,67,511.567,61,476.132,207.514,8.5,16.0
-Pickaxe,DPS mischia,18,ibrida,75,510.47,72,350.693,310.53,1.6,29.0
+Pickaxe,DPS mischia,18,ibrida,75,510.47,72,350.693,310.53,0.0,29.0
 Bow,DPS distanza,18,ibrida,77,573.721,74,386.987,171.074,0.0,16.0
-Wizard Staff,DPS distanza,18,ibrida,189,533.424,190,492.45,283.184,6.8,100.0
+Wizard Staff,DPS distanza,18,ibrida,189,533.424,190,492.45,283.184,0.0,100.0
 Naga Trident,DPS distanza,18,ibrida,42,535.071,42,393.968,282.104,1.1,21.0
 War Hammer,Tank,19,ibrida,200,477.42,190,391.34,,16.3,100.0
-Runeblade,Tank,19,ibrida,200,994.198,194,593.924,,23.8,100.0
-Druid Staff,Healer,19,ibrida,195,930.306,189,618.823,499.779,3.0,100.0
+Runeblade,Tank,19,ibrida,200,994.198,194,593.924,,17.5,100.0
+Druid Staff,Healer,19,ibrida,195,930.306,189,618.823,499.779,0.3,100.0
 War Drums,Support,19,ibrida,193,751.952,187,532.057,358.043,1.0,100.0
-Claws,DPS mischia,19,ibrida,199,1010.89,191,534.982,357.182,15.7,100.0
-Double Blade,DPS mischia,19,ibrida,168,885.587,162,644.073,209.342,29.3,100.0
+Claws,DPS mischia,19,ibrida,199,1010.89,191,534.982,357.182,12.5,100.0
+Double Blade,DPS mischia,19,ibrida,168,885.587,162,644.073,209.342,25.7,100.0
 Pickaxe,DPS mischia,19,ibrida,193,781.888,188,606.499,402.894,0.0,100.0
 Bow,DPS distanza,19,ibrida,129,887.965,123,549.215,423.941,0.3,100.0
-Wizard Staff,DPS distanza,19,ibrida,177,678.79,171,497.707,336.265,10.4,100.0
+Wizard Staff,DPS distanza,19,ibrida,177,678.79,171,497.707,336.265,4.4,100.0
 Naga Trident,DPS distanza,19,ibrida,195,551.389,188,500.0,246.888,0.3,100.0
 War Hammer,Tank,20,ibrida,246,323.043,242,192.983,,20.3,100.0
-Runeblade,Tank,20,ibrida,238,369.762,234,269.734,,16.3,100.0
-Druid Staff,Healer,20,ibrida,238,817.078,237,506.745,531.538,4.4,100.0
+Runeblade,Tank,20,ibrida,238,369.762,234,269.734,,9.9,100.0
+Druid Staff,Healer,20,ibrida,238,817.078,237,506.745,531.538,0.0,100.0
 War Drums,Support,20,ibrida,216,671.674,215,484.844,462.273,0.0,100.0
-Claws,DPS mischia,20,ibrida,234,670.357,235,524.083,440.601,16.8,100.0
+Claws,DPS mischia,20,ibrida,234,670.357,235,524.083,440.601,14.0,100.0
 Double Blade,DPS mischia,20,ibrida,212,319.771,208,211.102,53.994,33.3,96.0
 Pickaxe,DPS mischia,20,ibrida,216,897.585,211,635.622,687.981,0.0,100.0
 Bow,DPS distanza,20,ibrida,192,509.923,189,395.338,294.867,0.0,100.0
-Wizard Staff,DPS distanza,20,ibrida,226,505.804,223,396.474,328.395,6.1,100.0
+Wizard Staff,DPS distanza,20,ibrida,226,505.804,223,396.474,328.395,0.0,100.0
 Naga Trident,DPS distanza,20,ibrida,242,550.772,239,458.032,372.0,2.8,100.0

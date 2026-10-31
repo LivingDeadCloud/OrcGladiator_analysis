@@ -28,7 +28,8 @@ AGG = os.path.join(ROOT, 'data_analysis', 'v2', 'aggregato')
 RAW = os.path.join(ROOT, 'data_map', 'raw')
 
 RUOLI = ['Tank', 'Healer', 'Support', 'DPS mischia', 'DPS distanza']
-METRICHE = ['danni', 'tank', 'cure', 'boss']
+# 'tank' = colpi presi dalla classe, evocazioni comprese (multiboard); 'colpi_eroe' = solo l'eroe (stima)
+METRICHE = ['danni', 'tank', 'colpi_eroe', 'cure', 'boss']
 LETTERE_DIFFICILI = {'D', 'E', 'F', 'G'}
 
 
@@ -138,8 +139,12 @@ def main():
         d['premi_totali'] = s['premi_totali']
         d['quota_danni_boss_finale_parziale'] = s['quota_danni_boss_finale']
         d['quota_tank_boss_finale_parziale'] = s['quota_tank_boss_finale']
+        d['quota_colpi_eroe_boss_finale_parziale'] = s['quota_colpi_eroe_boss_finale']
+        d['quota_colpi_evocazioni_cum_ch19'] = s['quota_colpi_evocazioni']
+        d['quota_colpi_eroe_min_ch19'] = s['quota_colpi_eroe_min']
+        d['quota_colpi_eroe_max_ch19'] = s['quota_colpi_eroe_max']
         d['quota_cure_boss_finale_parziale'] = s['quota_cure_boss_finale']
-        for m in ['danni', 'tank', 'cure', 'boss']:
+        for m in METRICHE:
             d[f'{m}_round_ch20_stima'] = rr[20][f'{m}_quota_round'] if 20 in rr else ''
         righe.append(d)
     scrivi('contributo_classi.csv', righe, list(righe[0].keys()))
@@ -190,16 +195,24 @@ def main():
         round(100 * f('Claws', 'quota_danni') / sum(f(c, 'quota_danni') for c in q if q[c]['ruolo'] == 'DPS mischia'), 1),
         'misurato (rapporto)', 'multiboard ch.19')
     add('quota_boss_da_Claws', f('Claws', 'quota_boss'), 'misurato', 'multiboard ch.19')
-    add('quota_tank_classi_non_Tank', round(sum(f(c, 'quota_tank') for c in q if q[c]['ruolo'] != 'Tank'), 1),
-        'misurato', 'multiboard ch.19')
-    add('quota_tank_Double_Blade_piu_Claws', round(f('Double Blade', 'quota_tank') + f('Claws', 'quota_tank'), 1),
-        'misurato', 'multiboard ch.19')
+    add('quota_colpi_classi_non_Tank', round(sum(f(c, 'quota_tank') for c in q if q[c]['ruolo'] != 'Tank'), 1),
+        'misurato', 'multiboard ch.19', 'colpi presi, evocazioni comprese')
+    add('quota_colpi_eroi_non_Tank', round(sum(f(c, 'quota_colpi_eroe') for c in q if q[c]['ruolo'] != 'Tank'), 1),
+        'stimato', 'colpi/NOTE.md', 'solo eroi, senza evocazioni (scenario centrale)')
+    add('quota_colpi_eroi_Tank', round(sum(f(c, 'quota_colpi_eroe') for c in q if q[c]['ruolo'] == 'Tank'), 1),
+        'stimato', 'colpi/NOTE.md')
+    add('quota_colpi_evocazioni_totale', round(sum(f(c, 'quota_colpi_evocazioni') for c in q), 1),
+        'stimato', 'colpi/NOTE.md', 'lupi, Treant, elementali, torre, portali, compagno')
+    add('quota_colpi_eroi_Double_Blade_piu_Claws', round(f('Double Blade', 'quota_colpi_eroe') + f('Claws', 'quota_colpi_eroe'), 1),
+        'stimato', 'colpi/NOTE.md',
+        f"forbice {round(float(q['Double Blade']['quota_colpi_eroe_min']) + float(q['Claws']['quota_colpi_eroe_min']), 1)}"
+        f"-{round(float(q['Double Blade']['quota_colpi_eroe_max']) + float(q['Claws']['quota_colpi_eroe_max']), 1)}")
     add('classi_con_cure_multiboard_sopra_10pct', '; '.join(c for c in q if f(c, 'quota_cure_multiboard') > 10),
         'misurato', 'multiboard ch.19', 'include pozioni/rigenerazione/lifesteal')
     add('cure_solo_abilita_scenario_b', '; '.join(f"{c} {q[c]['quota_cure_solo_abilita_b']}" for c in q
                                                if f(c, 'quota_cure_solo_abilita_b') > 0), 'stimato', 'cure/NOTE.md')
     add('classi_sotto_quota_equa_su_tutte_le_metriche',
-        '; '.join(c for c in q if max(f(c, 'quota_danni'), f(c, 'quota_tank'), f(c, 'quota_cure_multiboard')) < 10),
+        '; '.join(c for c in q if max(f(c, 'quota_danni'), f(c, 'quota_colpi_eroe'), f(c, 'quota_cure_multiboard')) < 10),
         'misurato', 'multiboard ch.19', 'quota equa = 10%')
     add('DPS_sotto_quota_equa_danni', '; '.join(c for c in dps if f(c, 'quota_danni') < 10), 'misurato', 'multiboard ch.19')
     add('challenge_difficili', ' '.join(map(str, diff)), 'misurato', 'round_classi.csv', 'voto D-G oppure >=3 eroi a HP<=20%')

@@ -1,11 +1,11 @@
-classe,ruolo,cure_quota_finale_misurata,tank_quota_finale_misurata,ha_cure_da_abilita,frazione_proprie_cure_da_abilita_b,quota_solo_abilita_stimata_a,quota_solo_abilita_stimata_b,quota_solo_abilita_stimata_c,comandi_abilita_curative,dettaglio_comandi,usi_pozione_cura,usi_pozione_solo_mana,cura_pozioni_nominale_hp_max
-Druid Staff,Healer,34.7,4.5,si,90.4,43.4,60.9,64.5,684,Rejuvenation=543; Innervate=111; Tranquility=30,0,74,0.0
-Runeblade,Tank,16.4,14.8,si,33.1,20.5,10.5,0.0,249,Death Coil (alleato o nemico)=178; Death Pact=71,0,34,0.0
-War Drums,Support,15.4,0.9,si,95.7,19.3,28.6,35.5,46,Rally=43; War Drums (Bestow Aura)=3,0,26,0.0
-War Hammer,Tank,12.5,13.6,solo con Runed Bracers (da 5431 s),0.0,0.0,0.0,0.0,21,Avatar=21,0,25,0.0
-Claws,DPS mischia,6.7,24.1,si,0.0,8.4,0.0,0.0,32,Rock Shield=26; Mana Tide Totem=6,0,45,0.0
-Double Blade,DPS mischia,6.7,28.6,si,0.0,8.4,0.0,0.0,44,Demon Skin=44,40,0,16.0
-Pickaxe,DPS mischia,3.1,3.5,no,0.0,0.0,0.0,0.0,0,,0,61,0.0
-Bow,DPS distanza,2.1,0.9,no,0.0,0.0,0.0,0.0,0,,67,0,16.75
-Wizard Staff,DPS distanza,1.3,8.0,no,0.0,0.0,0.0,0.0,0,,0,63,0.0
-Naga Trident,DPS distanza,1.1,1.1,no,0.0,0.0,0.0,0.0,0,,0,11,0.0
+classe,ruolo,cure_quota_finale_misurata,colpi_quota_finale_misurata,colpi_eroe_quota_tra_eroi_finale_stimata,ha_cure_da_abilita,frazione_proprie_cure_da_abilita_b,quota_solo_abilita_stimata_a,quota_solo_abilita_stimata_b,quota_solo_abilita_stimata_c,comandi_abilita_curative,dettaglio_comandi,usi_pozione_cura,usi_pozione_solo_mana,cura_pozioni_nominale_hp_max
+Druid Staff,Healer,34.7,4.5,1.1,si,97.1,43.4,67.6,72.0,684,Rejuvenation=543; Innervate=111; Tranquility=30,0,74,0.0
+Runeblade,Tank,16.4,14.8,16.4,si,10.7,20.5,3.5,0.0,249,Death Coil (alleato o nemico)=178; Death Pact=71,0,34,0.0
+War Drums,Support,15.4,0.9,1.1,si,93.5,19.3,28.9,28.0,46,Rally=43; War Drums (Bestow Aura)=3,0,26,0.0
+War Hammer,Tank,12.5,13.6,16.8,solo con Runed Bracers (da 5431 s),0.0,0.0,0.0,0.0,21,Avatar=21,0,25,0.0
+Claws,DPS mischia,6.7,24.1,24.8,si,0.0,8.4,0.0,0.0,32,Rock Shield=26; Mana Tide Totem=6,0,45,0.0
+Double Blade,DPS mischia,6.7,28.6,34.2,si,0.0,8.4,0.0,0.0,44,Demon Skin=44,40,0,16.0
+Pickaxe,DPS mischia,3.1,3.5,1.1,no,0.0,0.0,0.0,0.0,0,,0,61,0.0
+Bow,DPS distanza,2.1,0.9,1.1,no,0.0,0.0,0.0,0.0,0,,67,0,16.75
+Wizard Staff,DPS distanza,1.3,8.0,2.0,no,0.0,0.0,0.0,0.0,0,,0,63,0.0
+Naga Trident,DPS distanza,1.1,1.1,1.4,no,0.0,0.0,0.0,0.0,0,,0,11,0.0

@@ -1,0 +1,7 @@
+voce,classe,ruolo,abilita,comandi_nel_replay,lanci_stimati,unita_per_lancio,durata_s,hp_base,nota
+Lupi (Claws),Claws,DPS mischia,Feral Spirit,140,136,"2, poi 1",18,100,"2 lupi da 100 HP base, poi 1 Spirit Guardian dal secondo 2060; HP in piu' con l'Agilita'"
+Treant (Druid Staff),Druid Staff,Healer,Force of Nature,36,33,3,70,100,3 Treant (livello 1 per tutta la partita); HP in piu' con l'Agilita'
+Elementale (Wizard Staff),Wizard Staff,DPS distanza,Water Elemental,94,83,1,60,100,"1 elementale per lancio, durata 60 s"
+Portali (Double Blade),Double Blade,DPS mischia,Dimensional Gate,5,5,2,60,250,"2 portali di tipo ""ward"": di solito i nemici li attaccano poco"
+Torre (Pickaxe),Pickaxe,DPS mischia,Construct Tower,32,25,1,fino alla torre successiva,250,resta finche' non ne viene costruita un'altra (o viene distrutta)
+Compagno (Runeblade),Runeblade,Tank,Undead Companion (Banshee),1,1,1,permanente,,"Banshee scelta al secondo 4925 (challenge 18); permanente, rianimabile"

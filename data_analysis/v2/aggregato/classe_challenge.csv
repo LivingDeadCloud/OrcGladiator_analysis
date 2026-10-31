@@ -1,201 +1,201 @@
-classe,ruolo,distanza,challenge,ondata,tipo_wave,tipo_boss,secondi_round,voto_round,danni_quota_cum,danni_quota_round,boss_quota_cum,boss_quota_round,cure_quota_cum,cure_quota_round,tank_quota_cum,tank_quota_round,cure_solo_abilita_round_a,cure_solo_abilita_round_b,cure_solo_abilita_round_c,hp_fine_round,livello,oro,apm,abilita_min,click_movimento_min,oggetti_usati,mana_pct_sotto_20,mana_pct_20_80,mana_pct_sopra_80,mana_affidabilita,cast_effettivi,ordini_sprecati_cooldown,cooldown_occupato_medio_pct,premi_round
-Runeblade,Tank,Mischia,1,Prisoners,ibrida,mischia,61,A,9.8,9.8,7.9,7.9,11.6,11.6,25.0,25.0,14.6,0.0,0.0,100,2,17,24.0,1.21,13.6,0,0.0,100.0,0.0,indicativa,3,0,11.48,
-Runeblade,Tank,Mischia,2,Machines,ibrida,distanza,73,A,6.4,2.2,3.8,1.7,18.2,26.4,26.9,29.3,31.3,16.1,0.0,90,3,57,42.8,3.92,22.9,0,67.808,32.192,0.0,indicativa,8,0,23.07,tank
-Runeblade,Tank,Mischia,3,Combatants (Melee),mischia,mischia,77,A,5.7,4.1,2.8,1.4,13.8,3.9,27.1,27.4,7.9,0.0,0.0,100,4,34,12.1,1.2,3.6,0,0.0,100.0,0.0,indicativa,2,0,13.09,
-Runeblade,Tank,Mischia,4,Voidwalkers (Ranged),distanza,mischia,154,C,7.4,11.3,9.3,15.5,17.7,25.0,28.4,31.6,27.6,12.3,0.0,100,4,125,46.0,3.44,28.4,0,44.481,55.519,0.0,indicativa,11,0,28.48,tank
-Runeblade,Tank,Mischia,5,Sasquatches (Melee),mischia,mischia,189,D,8.5,11.8,10.7,14.9,18.7,21.5,25.7,17.7,25.9,17.8,0.0,74,5,100,72.2,3.62,47.8,1,99.735,0.265,0.0,indicativa,14,0,27.7,
-Runeblade,Tank,Mischia,6,Boars,ibrida,distanza,105,B,9.6,15.4,9.1,1.7,17.2,9.1,24.4,17.5,14.9,0.0,0.0,100,6,100,30.5,3.39,13.3,1,98.571,1.429,0.0,indicativa,7,0,39.16,
-Runeblade,Tank,Mischia,7,Goblins,ibrida,distanza,174,D,10.2,13.3,7.9,2.5,16.5,13.1,25.0,27.8,19.5,0.0,0.0,70,7,256,42.4,3.76,22.6,3,0.0,100.0,0.0,indicativa,13,0,31.79,tank
-Runeblade,Tank,Mischia,8,Mur'guls,ibrida,distanza,,,9.5,5.1,7.6,6.6,16.4,15.7,22.1,4.7,21.3,21.2,9.6,100,8,96,38.7,4.81,20.1,1,19.876,80.124,0.0,indicativa,16,2,37.23,
-Runeblade,Tank,Mischia,9,Water Elementals (Ranged),distanza,distanza,428,G,10.1,12.3,8.4,11.1,19.9,33.1,20.6,15.1,41.1,33.2,9.6,59,9,202,78.3,5.93,58.9,4,32.243,67.757,0.0,indicativa,46,0,22.37,cure
-Runeblade,Tank,Mischia,10,Mammoths (Melee),mischia,mischia,161,D,9.9,9.2,7.2,4.8,19.4,14.6,20.3,17.6,17.8,0.0,0.0,100,10,377,58.8,6.02,36.3,2,65.528,34.472,0.0,indicativa,22,0,35.19,
-Runeblade,Tank,Mischia,11,Nether Drakes (Ranged),distanza,distanza,150,C,9.8,8.7,6.5,0.5,18.5,8.9,19.8,14.8,13.6,0.0,0.0,83,10,509,46.4,7.47,21.1,3,97.333,2.667,0.0,indicativa,25,0,41.53,
-Runeblade,Tank,Mischia,12,Giant Spiders,ibrida,distanza,,,8.5,0.0,6.6,7.9,17.5,7.0,18.9,6.8,5.6,0.0,0.0,100,11,832,32.4,5.53,15.1,1,0.0,100.0,0.0,indicativa,11,1,28.83,
-Runeblade,Tank,Mischia,13,Revenants,ibrida,mischia,132,C,7.9,3.7,5.9,0.2,18.1,22.5,16.5,0.0,27.8,36.5,36.5,79,12,40,68.7,7.44,47.1,2,0.0,100.0,0.0,indicativa,21,0,32.45,
-Runeblade,Tank,Mischia,14,Faceless Ones,ibrida,mischia,121,C,7.0,0.0,5.4,2.1,16.7,5.5,15.5,0.7,0.0,0.0,0.0,100,13,168,54.0,6.3,29.5,3,24.793,75.207,0.0,indicativa,16,0,33.65,
-Runeblade,Tank,Mischia,15,War Golems (Melee),mischia,mischia,236,E,6.6,2.3,4.4,1.2,16.7,16.9,15.3,13.0,22.1,10.3,0.0,12,14,499,41.2,4.3,24.8,1,0.212,87.712,12.076,indicativa,16,0,18.06,
-Runeblade,Tank,Mischia,16,Salamanders (Ranged),distanza,distanza,216,E,6.3,2.5,4.2,3.5,16.8,17.7,14.7,7.3,21.7,16.3,0.0,98,15,716,70.6,6.88,43.0,2,70.833,29.167,0.0,indicativa,28,0,35.35,
-Runeblade,Tank,Mischia,17,Greater Demons (Melee),mischia,distanza,80,A,5.9,0.0,4.0,2.3,17.2,20.3,14.8,17.1,20.6,9.1,0.0,100,15,427,49.8,8.16,17.8,2,25.625,74.375,0.0,indicativa,14,0,47.28,
-Runeblade,Tank,Mischia,18,Enslaved Orcs,ibrida,distanza/mischia,432,G,5.5,2.1,3.8,2.5,15.3,4.6,13.5,2.4,5.1,0.0,0.0,16,17,795,20.8,2.74,5.2,1,26.852,33.912,39.236,indicativa,10,1,6.54,
-Runeblade,Tank,Mischia,19,Night Elf Hunters,ibrida,mischia,,D,5.6,7.3,3.9,5.0,16.3,21.9,14.7,23.8,30.1,4.0,0.0,100,17,310,64.0,7.18,41.3,3,83.894,16.106,0.0,indicativa,25,0,32.59,
-Runeblade,Tank,Mischia,20,Arena Organisers,ibrida,mischia,,SCONFITTA,5.5,3.4,3.7,1.7,16.4,17.5,14.8,16.3,17.9,8.6,0.0,100,18,90,46.0,5.87,22.9,4,1.282,63.942,34.776,indicativa,34,1,33.06,
-War Hammer,Tank,Mischia,1,Prisoners,ibrida,mischia,61,A,10.4,10.4,9.9,9.9,12.9,12.9,32.5,32.5,0.0,0.0,0.0,100,2,19,59.5,0.97,51.6,0,0.0,100.0,0.0,indicativa,3,0,6.15,tank
-War Hammer,Tank,Mischia,2,Machines,ibrida,distanza,73,A,10.5,10.6,15.8,18.7,16.0,19.8,30.4,27.8,0.0,0.0,0.0,100,3,29,33.8,5.42,8.1,0,0.0,100.0,0.0,indicativa,8,1,15.26,
-War Hammer,Tank,Mischia,3,Combatants (Melee),mischia,mischia,77,A,10.4,10.2,21.9,30.4,15.4,14.0,27.3,20.2,0.0,0.0,0.0,100,4,88,29.2,5.42,13.6,0,38.961,61.039,0.0,indicativa,11,0,19.71,boss
-War Hammer,Tank,Mischia,4,Voidwalkers (Ranged),distanza,mischia,154,C,9.9,8.7,16.4,11.1,10.7,2.0,22.8,12.4,0.0,0.0,0.0,100,5,44,37.8,6.67,15.9,1,66.883,33.117,0.0,indicativa,23,0,19.82,
-War Hammer,Tank,Mischia,5,Sasquatches (Melee),mischia,mischia,189,D,11.4,15.9,16.7,17.7,11.6,14.1,20.1,12.1,0.0,0.0,0.0,100,5,94,119.2,6.86,90.1,2,67.196,32.804,0.0,indicativa,25,0,17.86,
-War Hammer,Tank,Mischia,6,Boars,ibrida,distanza,105,B,11.9,14.5,15.6,10.5,14.0,26.8,20.3,21.5,0.0,0.0,0.0,100,6,75,69.7,7.31,30.3,1,54.762,45.238,0.0,indicativa,17,0,47.01,tank
-War Hammer,Tank,Mischia,7,Goblins,ibrida,distanza,174,D,11.2,7.9,16.7,21.6,15.1,20.4,17.6,5.0,0.0,0.0,0.0,100,7,84,67.1,6.53,34.5,2,13.793,86.207,0.0,indicativa,24,0,37.51,
-War Hammer,Tank,Mischia,8,Mur'guls,ibrida,distanza,,,10.0,2.6,13.2,1.0,15.1,15.0,17.7,18.3,0.0,0.0,0.0,100,8,96,75.3,7.11,41.4,2,0.0,100.0,0.0,indicativa,24,0,34.42,
-War Hammer,Tank,Mischia,9,Water Elementals (Ranged),distanza,distanza,428,G,9.9,9.5,12.4,9.7,16.4,21.4,14.9,4.5,0.0,0.0,0.0,100,9,133,120.3,5.71,95.2,0,0.0,24.883,75.117,indicativa,43,1,20.32,
-War Hammer,Tank,Mischia,10,Mammoths (Melee),mischia,mischia,161,D,9.4,7.7,12.1,11.5,16.3,15.1,14.8,13.9,0.0,0.0,0.0,41,10,0,90.3,6.64,49.2,1,0.0,100.0,0.0,indicativa,23,0,20.72,
-War Hammer,Tank,Mischia,11,Nether Drakes (Ranged),distanza,distanza,150,C,9.4,9.4,13.3,23.4,16.5,18.6,14.2,8.0,0.0,0.0,0.0,91,11,132,59.1,6.37,21.1,1,0.0,29.333,70.667,indicativa,20,0,37.13,
-War Hammer,Tank,Mischia,12,Giant Spiders,ibrida,distanza,,,9.3,8.6,13.2,11.9,16.4,15.3,14.1,12.6,0.0,0.0,0.0,100,12,0,52.2,7.04,18.1,2,15.044,75.664,9.292,indicativa,20,0,46.63,
-War Hammer,Tank,Mischia,13,Revenants,ibrida,mischia,132,C,8.5,2.9,14.2,22.0,14.9,3.2,12.5,1.5,0.0,0.0,0.0,82,12,185,88.8,5.71,66.3,0,0.0,0.379,99.621,indicativa,13,0,32.47,
-War Hammer,Tank,Mischia,14,Faceless Ones,ibrida,mischia,121,C,7.8,2.4,12.9,4.3,14.3,9.5,12.2,7.8,0.0,0.0,0.0,100,13,168,57.8,6.78,17.9,1,0.0,81.405,18.595,indicativa,18,0,42.64,
-War Hammer,Tank,Mischia,15,War Golems (Melee),mischia,mischia,236,E,7.7,6.7,11.8,8.3,14.3,14.4,12.2,12.1,0.0,0.0,0.0,12,14,56,65.0,6.45,36.7,1,0.212,49.153,50.636,indicativa,25,1,27.74,
-War Hammer,Tank,Mischia,16,Salamanders (Ranged),distanza,distanza,216,E,7.5,4.9,10.3,5.3,13.5,8.5,11.7,5.6,0.0,0.0,0.0,100,15,248,132.0,7.58,85.7,2,0.0,100.0,0.0,indicativa,32,1,27.34,
-War Hammer,Tank,Mischia,17,Greater Demons (Melee),mischia,distanza,80,A,7.1,1.2,9.2,0.0,12.6,4.7,11.4,4.7,0.0,0.0,0.0,100,16,484,88.8,7.0,41.4,2,20.0,80.0,0.0,indicativa,10,0,43.94,
-War Hammer,Tank,Mischia,18,Enslaved Orcs,ibrida,distanza/mischia,432,G,7.1,7.0,8.6,4.7,13.4,18.0,12.8,24.1,0.0,0.0,0.0,23,17,827,108.7,8.54,77.3,7,45.255,54.745,0.0,indicativa,61,6,43.53,
-War Hammer,Tank,Mischia,19,Night Elf Hunters,ibrida,mischia,,D,7.1,7.2,8.9,12.2,12.9,10.0,13.2,16.3,0.0,0.0,0.0,100,18,912,92.0,6.46,49.0,0,0.0,100.0,0.0,indicativa,24,0,39.89,
-War Hammer,Tank,Mischia,20,Arena Organisers,ibrida,mischia,,SCONFITTA,7.0,4.9,9.2,12.1,12.5,8.3,13.6,20.3,0.0,0.0,0.0,100,19,0,86.9,5.64,49.0,0,0.16,62.34,37.5,indicativa,34,1,33.36,
-Druid Staff,Healer,Distanza,1,Prisoners,ibrida,mischia,61,A,3.9,3.9,4.8,4.8,52.7,52.6,0.0,0.0,66.5,85.1,90.4,100,2,19,66.3,1.94,54.7,0,93.443,6.557,0.0,indicativa,4,0,2.62,cure
-Druid Staff,Healer,Distanza,2,Machines,ibrida,distanza,73,A,3.7,3.5,4.4,4.2,39.9,23.9,0.0,0.0,38.5,54.4,64.8,100,3,59,53.7,3.31,40.7,0,100.0,0.0,0.0,indicativa,7,0,14.06,cure
-Druid Staff,Healer,Distanza,3,Combatants (Melee),mischia,mischia,77,A,3.5,3.1,4.6,4.9,41.8,45.8,0.2,0.6,57.7,77.0,77.0,100,4,18,21.7,6.02,5.4,2,100.0,0.0,0.0,indicativa,11,0,23.94,cure
-Druid Staff,Healer,Distanza,4,Voidwalkers (Ranged),distanza,mischia,154,C,3.3,2.8,3.7,2.8,40.2,37.3,2.1,6.5,45.5,63.2,68.7,100,5,109,61.3,7.74,15.9,6,89.935,10.065,0.0,indicativa,27,1,31.04,cure
-Druid Staff,Healer,Distanza,5,Sasquatches (Melee),mischia,mischia,189,D,3.5,4.1,6.7,15.5,37.2,28.2,3.5,7.6,39.4,55.2,68.9,100,6,196,83.8,6.48,50.5,5,62.698,37.302,0.0,indicativa,23,0,30.5,cure
-Druid Staff,Healer,Distanza,6,Boars,ibrida,distanza,105,B,3.0,0.3,5.5,0.0,35.4,25.6,5.0,13.1,41.5,52.0,46.6,100,6,265,64.2,6.53,45.2,5,99.524,0.476,0.0,indicativa,13,1,27.54,cure
-Druid Staff,Healer,Distanza,7,Goblins,ibrida,distanza,174,D,2.9,2.4,4.5,0.0,33.4,23.7,6.1,11.2,36.4,64.0,17.6,100,7,467,65.7,7.72,38.8,5,34.195,65.805,0.0,indicativa,27,0,45.09,cure
-Druid Staff,Healer,Distanza,8,Mur'guls,ibrida,distanza,,,2.5,0.0,3.5,0.0,34.8,42.3,6.5,8.9,56.5,70.7,81.5,100,8,466,60.0,8.58,43.7,4,99.379,0.621,0.0,indicativa,28,1,43.66,cure
-Druid Staff,Healer,Distanza,9,Water Elementals (Ranged),distanza,distanza,428,G,2.2,1.1,2.7,0.0,31.7,20.4,5.9,3.7,36.0,52.3,69.6,11,9,612,27.5,2.37,16.6,3,5.841,38.551,55.607,indicativa,14,0,15.33,
-Druid Staff,Healer,Distanza,10,Mammoths (Melee),mischia,mischia,161,D,1.7,0.0,1.8,0.0,33.0,43.8,5.8,4.9,52.8,75.0,73.9,100,10,424,49.8,7.88,25.9,5,49.689,50.311,0.0,indicativa,28,0,35.8,cure
-Druid Staff,Healer,Distanza,11,Nether Drakes (Ranged),distanza,distanza,150,C,1.7,1.7,1.7,0.8,33.1,34.1,5.3,0.0,51.4,68.2,70.4,100,11,530,50.1,9.89,22.4,4,25.667,72.333,2.0,indicativa,32,2,53.9,cure
-Druid Staff,Healer,Distanza,12,Giant Spiders,ibrida,distanza,,,1.5,0.2,1.7,1.7,34.1,44.6,5.3,5.2,60.5,79.4,78.4,100,12,166,31.4,8.04,11.1,3,0.0,80.531,19.469,indicativa,20,0,43.18,
-Druid Staff,Healer,Distanza,13,Revenants,ibrida,mischia,132,C,1.3,0.0,1.6,0.8,34.9,40.6,4.7,0.6,48.3,63.5,63.5,13,12,406,33.5,5.71,16.1,2,0.379,14.394,85.227,indicativa,12,3,37.81,cure
-Druid Staff,Healer,Distanza,14,Faceless Ones,ibrida,mischia,121,C,1.2,0.4,1.3,0.0,35.5,40.2,4.6,3.1,44.9,77.8,80.9,100,13,609,78.4,9.69,36.1,4,0.0,100.0,0.0,indicativa,25,0,51.01,cure
-Druid Staff,Healer,Distanza,15,War Golems (Melee),mischia,mischia,236,E,1.1,0.0,1.0,0.0,35.5,35.9,4.7,5.7,47.0,63.2,68.6,12,14,937,49.4,4.79,29.3,2,0.212,27.754,72.034,indicativa,14,0,33.7,cure
-Druid Staff,Healer,Distanza,16,Salamanders (Ranged),distanza,distanza,216,E,1.1,1.1,0.9,0.6,36.2,41.2,4.6,3.4,53.2,62.5,72.1,100,15,232,72.9,8.99,51.5,4,0.0,77.315,22.685,indicativa,40,1,45.5,cure
-Druid Staff,Healer,Distanza,17,Greater Demons (Melee),mischia,distanza,80,A,1.0,0.0,0.9,0.9,36.1,34.6,4.6,4.6,22.6,28.9,25.5,100,16,246,65.0,9.33,28.0,3,0.0,98.125,1.875,indicativa,17,2,52.82,cure
-Druid Staff,Healer,Distanza,18,Enslaved Orcs,ibrida,distanza/mischia,432,G,1.1,1.9,0.9,0.9,35.8,34.3,4.7,5.4,47.5,68.0,61.4,100,17,448,61.2,8.12,40.2,8,0.0,39.352,60.648,indicativa,57,2,43.6,cure
-Druid Staff,Healer,Distanza,19,Night Elf Hunters,ibrida,mischia,,D,1.0,0.0,0.8,0.0,36.0,36.9,4.5,3.0,35.9,49.3,51.2,100,18,172,59.8,10.95,36.6,5,0.0,85.096,14.904,indicativa,42,1,46.92,
-Druid Staff,Healer,Distanza,20,Arena Organisers,ibrida,mischia,,SCONFITTA,1.1,3.2,0.7,0.0,34.7,21.1,4.5,4.4,5.7,4.0,0.0,100,19,0,68.7,7.45,44.4,6,0.0,62.019,37.981,indicativa,45,2,42.39,
-War Drums,Support,Distanza,1,Prisoners,ibrida,mischia,61,A,6.3,6.3,3.0,3.0,3.4,3.4,0.0,0.0,4.3,5.5,5.8,100,2,17,37.3,0.24,28.3,0,99.18,0.82,0.0,non affidabile,0,0,0.0,
-War Drums,Support,Distanza,2,Machines,ibrida,distanza,73,A,5.2,3.8,1.0,0.0,10.2,18.7,0.0,0.0,20.9,29.6,35.2,100,3,52,31.4,0.0,14.5,0,0.0,100.0,0.0,non affidabile,0,0,0.0,
-War Drums,Support,Distanza,3,Combatants (Melee),mischia,mischia,77,A,4.5,2.9,0.8,0.5,10.2,10.1,0.0,0.0,13.0,17.5,17.5,100,4,79,14.5,0.6,7.2,0,0.0,100.0,0.0,non affidabile,1,0,18.42,
-War Drums,Support,Distanza,4,Voidwalkers (Ranged),distanza,mischia,154,C,4.9,5.8,3.3,5.7,11.7,14.5,0.0,0.0,16.4,24.5,31.3,100,4,35,23.7,2.15,13.3,4,99.675,0.325,0.0,non affidabile,8,0,42.81,
-War Drums,Support,Distanza,5,Sasquatches (Melee),mischia,mischia,189,D,4.3,2.5,3.5,4.1,11.9,12.4,0.5,2.0,15.4,22.7,31.1,100,5,50,35.2,2.1,25.5,3,100.0,0.0,0.0,non affidabile,8,0,34.39,
-War Drums,Support,Distanza,6,Boars,ibrida,distanza,105,B,4.1,3.0,3.3,2.4,11.3,8.0,0.4,0.0,13.0,24.0,44.4,100,6,69,23.7,1.04,13.8,1,99.524,0.476,0.0,non affidabile,2,0,21.21,
-War Drums,Support,Distanza,7,Goblins,ibrida,distanza,174,D,3.5,0.6,3.0,1.6,11.2,10.7,0.5,1.0,15.2,36.0,82.4,100,7,92,50.5,1.78,33.5,2,31.034,68.966,0.0,non affidabile,6,0,31.4,
-War Drums,Support,Distanza,8,Mur'guls,ibrida,distanza,,,3.4,2.7,4.0,7.5,10.2,4.6,0.6,1.2,6.6,8.1,8.9,100,8,277,26.8,0.63,16.9,2,0.0,100.0,0.0,non affidabile,2,0,17.12,
-War Drums,Support,Distanza,9,Water Elementals (Ranged),distanza,distanza,428,G,2.8,0.6,3.6,2.2,9.0,4.6,0.6,0.6,9.1,14.5,20.8,100,9,127,42.5,1.29,32.2,3,0.0,79.673,20.327,non affidabile,9,0,22.75,
-War Drums,Support,Distanza,10,Mammoths (Melee),mischia,mischia,161,D,2.7,2.4,3.6,3.6,9.5,13.7,0.6,0.6,16.5,25.0,26.1,100,10,298,23.3,0.83,13.7,0,0.0,67.391,32.609,non affidabile,4,0,18.23,
-War Drums,Support,Distanza,11,Nether Drakes (Ranged),distanza,distanza,150,C,2.7,2.7,3.7,4.5,10.2,17.6,0.7,1.8,26.5,31.8,29.6,100,10,230,25.5,1.32,10.5,3,0.0,100.0,0.0,non affidabile,3,0,40.48,
-War Drums,Support,Distanza,12,Giant Spiders,ibrida,distanza,,,2.4,0.4,3.6,2.3,10.3,11.3,0.7,0.7,14.9,20.6,21.6,100,11,328,44.7,1.01,29.1,0,0.0,82.743,17.257,non affidabile,4,0,44.92,
-War Drums,Support,Distanza,13,Revenants,ibrida,mischia,132,C,2.1,0.0,3.4,1.7,9.6,4.1,1.1,3.8,0.0,0.0,0.0,5,12,536,40.2,1.49,30.8,1,0.0,94.697,5.303,non affidabile,4,0,22.78,
-War Drums,Support,Distanza,14,Faceless Ones,ibrida,mischia,121,C,1.9,0.3,3.4,3.4,9.9,12.3,1.2,2.7,14.7,22.2,19.1,100,13,693,40.9,1.45,24.2,2,0.0,100.0,0.0,non affidabile,5,0,35.79,
-War Drums,Support,Distanza,15,War Golems (Melee),mischia,mischia,236,E,1.8,0.7,2.6,0.0,10.3,14.8,1.2,1.2,18.4,26.5,31.4,12,14,457,18.8,0.33,7.6,0,0.212,12.924,86.864,non affidabile,1,0,5.88,
-War Drums,Support,Distanza,16,Salamanders (Ranged),distanza,distanza,216,E,1.7,0.4,2.4,1.7,10.6,12.7,1.1,0.0,16.8,21.3,27.9,100,15,347,52.8,1.41,36.5,2,1.62,98.38,0.0,non affidabile,6,0,40.41,
-War Drums,Support,Distanza,17,Greater Demons (Melee),mischia,distanza,80,A,1.7,1.7,2.4,2.4,12.1,24.6,1.1,1.1,41.4,62.1,74.5,100,16,501,36.1,2.04,15.5,3,0.0,100.0,0.0,non affidabile,4,0,51.06,
-War Drums,Support,Distanza,18,Enslaved Orcs,ibrida,distanza/mischia,432,G,1.7,1.7,2.3,1.6,12.4,14.2,1.0,0.1,19.9,32.0,38.6,16,17,1228,14.3,0.42,9.8,0,0.116,29.167,70.718,non affidabile,2,0,11.55,
-War Drums,Support,Distanza,19,Night Elf Hunters,ibrida,mischia,,D,1.7,1.7,2.2,1.1,13.8,21.7,1.0,1.0,33.9,46.7,48.8,100,18,303,38.8,1.44,19.7,3,74.519,25.481,0.0,non affidabile,6,0,40.26,
-War Drums,Support,Distanza,20,Arena Organisers,ibrida,mischia,,SCONFITTA,1.7,1.7,2.4,4.4,15.4,32.3,0.9,0.0,48.8,86.0,100.0,100,18,75,32.2,0.9,21.6,4,0.0,86.218,13.782,non affidabile,6,0,31.83,
-Claws,DPS mischia,Mischia,1,Prisoners,ibrida,mischia,61,A,17.1,17.1,4.3,4.3,0.5,0.5,21.7,21.7,0.6,0.0,0.0,100,2,19,40.2,0.97,28.3,0,0.0,50.82,49.18,indicativa,3,0,6.56,danni
-Claws,DPS mischia,Mischia,2,Machines,ibrida,distanza,73,A,17.3,17.6,2.3,1.3,2.4,4.8,18.4,14.3,5.3,0.0,0.0,90,3,84,51.0,2.71,38.0,0,100.0,0.0,0.0,indicativa,5,0,9.13,danni
-Claws,DPS mischia,Mischia,3,Combatants (Melee),mischia,mischia,77,A,14.8,9.2,2.5,2.8,3.6,6.3,21.0,26.7,7.3,0.0,0.0,100,4,118,25.9,2.11,11.4,0,61.688,38.312,0.0,indicativa,5,0,12.19,tank
-Claws,DPS mischia,Mischia,4,Voidwalkers (Ranged),distanza,mischia,154,C,13.3,9.8,3.6,4.6,5.2,8.2,22.4,25.8,8.8,0.0,0.0,100,4,99,67.7,4.09,55.1,4,92.208,7.792,0.0,indicativa,16,0,26.09,
-Claws,DPS mischia,Mischia,5,Sasquatches (Melee),mischia,mischia,189,D,12.5,10.2,2.7,0.1,5.1,4.8,23.6,27.0,6.2,0.0,0.0,17,5,186,42.3,2.48,28.0,2,34.656,58.201,7.143,indicativa,6,0,8.29,tank
-Claws,DPS mischia,Mischia,6,Boars,ibrida,distanza,105,B,12.1,9.9,5.0,15.4,5.1,5.1,23.0,19.8,8.2,0.0,0.0,100,6,286,73.6,4.96,50.1,3,100.0,0.0,0.0,indicativa,11,0,31.56,
-Claws,DPS mischia,Mischia,7,Goblins,ibrida,distanza,174,D,12.1,12.2,5.0,5.0,5.9,9.8,23.6,26.4,12.6,0.0,0.0,100,7,450,72.5,3.76,51.5,5,27.586,72.414,0.0,indicativa,13,0,54.94,
-Claws,DPS mischia,Mischia,8,Mur'guls,ibrida,distanza,,,13.8,24.0,8.9,22.6,5.0,0.0,24.3,28.5,0.4,0.0,0.0,100,8,116,69.4,4.18,55.9,3,34.783,65.217,0.0,indicativa,13,2,39.03,tank
-Claws,DPS mischia,Mischia,9,Water Elementals (Ranged),distanza,distanza,428,G,12.3,6.8,12.9,26.4,4.7,3.6,20.8,7.9,5.9,0.0,0.0,100,9,130,40.9,1.72,30.5,2,0.117,27.804,72.079,indicativa,12,0,9.61,boss
-Claws,DPS mischia,Mischia,10,Mammoths (Melee),mischia,mischia,161,D,12.2,11.9,11.9,9.9,4.7,4.6,21.1,23.8,5.6,0.0,0.0,100,10,216,76.6,4.36,58.5,4,86.335,13.665,0.0,indicativa,14,0,23.54,
-Claws,DPS mischia,Mischia,11,Nether Drakes (Ranged),distanza,distanza,150,C,12.7,18.0,11.3,6.1,4.3,0.0,21.1,21.6,0.1,0.0,0.0,100,11,348,71.0,4.84,49.5,2,66.667,33.333,0.0,indicativa,18,0,42.72,
-Claws,DPS mischia,Mischia,12,Giant Spiders,ibrida,distanza,,,16.3,39.5,11.9,19.9,4.9,11.2,21.0,19.3,16.4,0.0,0.0,100,11,676,53.2,5.03,36.7,1,73.894,25.664,0.442,indicativa,13,0,45.35,
-Claws,DPS mischia,Mischia,13,Revenants,ibrida,mischia,132,C,20.0,45.4,17.4,61.2,5.6,10.9,21.8,27.1,16.2,0.0,0.0,3,12,0,106.1,6.2,84.6,0,0.379,99.621,0.0,indicativa,16,0,57.93,"danni, boss"
-Claws,DPS mischia,Mischia,14,Faceless Ones,ibrida,mischia,121,C,22.4,41.3,18.3,24.2,6.4,12.8,22.4,31.3,19.4,0.0,0.0,100,13,203,79.1,4.84,54.2,3,32.645,67.355,0.0,indicativa,14,0,40.91,danni
-Claws,DPS mischia,Mischia,15,War Golems (Melee),mischia,mischia,236,E,23.4,34.5,23.7,41.4,6.1,2.9,22.2,19.8,4.5,0.0,0.0,100,14,491,110.6,5.12,91.9,1,15.042,84.958,0.0,indicativa,23,0,26.37,"danni, boss"
-Claws,DPS mischia,Mischia,16,Salamanders (Ranged),distanza,distanza,216,E,24.4,36.5,27.9,42.0,5.9,4.7,22.2,22.8,4.5,0.0,0.0,100,15,756,106.6,5.82,88.9,4,98.611,1.389,0.0,indicativa,25,0,57.27,"danni, boss"
-Claws,DPS mischia,Mischia,17,Greater Demons (Melee),mischia,distanza,80,A,24.9,33.1,29.0,38.6,6.4,10.5,22.7,33.9,15.4,0.0,0.0,100,16,637,73.1,6.71,43.1,1,100.0,0.0,0.0,indicativa,12,0,55.45,"danni, boss, tank"
-Claws,DPS mischia,Mischia,18,Enslaved Orcs,ibrida,distanza/mischia,432,G,26.3,37.5,31.6,48.6,8.1,17.8,25.7,49.9,25.9,0.0,0.0,100,17,590,116.6,6.22,97.3,6,87.5,12.5,0.0,indicativa,49,0,50.72,"danni, boss, tank"
-Claws,DPS mischia,Mischia,19,Night Elf Hunters,ibrida,mischia,,D,26.9,36.9,33.2,50.9,7.3,2.7,24.5,15.7,0.0,0.0,0.0,100,17,419,87.5,4.49,61.9,2,81.25,18.75,0.0,indicativa,16,0,32.07,
-Claws,DPS mischia,Mischia,20,Arena Organisers,ibrida,mischia,,SCONFITTA,27.1,31.4,33.4,35.0,6.7,0.4,24.1,16.8,0.0,0.0,0.0,100,18,89,79.4,4.29,63.2,3,4.327,95.673,0.0,indicativa,27,1,38.55,
-Double Blade,DPS mischia,Mischia,1,Prisoners,ibrida,mischia,61,A,9.5,9.5,10.4,10.4,11.1,11.1,10.8,10.8,14.0,9.4,3.8,100,2,17,22.7,0.73,16.2,0,99.18,0.82,0.0,non affidabile,2,0,4.92,
-Double Blade,DPS mischia,Mischia,2,Machines,ibrida,distanza,73,A,8.2,6.6,8.4,7.4,6.7,1.2,11.8,13.0,4.0,0.0,0.0,100,3,52,26.8,0.3,11.7,0,99.315,0.685,0.0,non affidabile,1,0,2.74,
-Double Blade,DPS mischia,Mischia,3,Combatants (Melee),mischia,mischia,77,A,7.1,4.6,4.9,0.0,8.3,11.8,12.6,14.3,14.2,5.5,5.5,100,4,54,30.2,2.11,16.6,1,90.26,9.74,0.0,non affidabile,3,2,21.95,
-Double Blade,DPS mischia,Mischia,4,Voidwalkers (Ranged),distanza,mischia,154,C,5.0,0.1,3.9,2.9,5.4,0.0,10.3,5.0,1.7,0.0,0.0,100,4,110,25.6,1.94,15.3,0,0.0,100.0,0.0,non affidabile,4,3,18.38,
-Double Blade,DPS mischia,Mischia,5,Sasquatches (Melee),mischia,mischia,189,D,5.0,5.0,2.9,0.0,7.1,12.0,11.7,15.7,13.0,4.3,0.0,17,5,85,32.0,1.9,18.7,0,100.0,0.0,0.0,non affidabile,4,2,6.8,
-Double Blade,DPS mischia,Mischia,6,Boars,ibrida,distanza,105,B,4.3,0.5,2.9,2.9,8.2,14.1,11.3,9.2,22.4,24.0,9.0,100,6,160,34.4,1.04,21.7,0,99.524,0.476,0.0,non affidabile,2,0,15.01,
-Double Blade,DPS mischia,Mischia,7,Goblins,ibrida,distanza,174,D,5.7,12.6,3.2,4.5,8.9,12.3,13.0,20.9,16.3,0.0,0.0,49,7,84,59.0,2.77,36.2,0,36.782,63.218,0.0,non affidabile,8,3,32.06,
-Double Blade,DPS mischia,Mischia,8,Mur'guls,ibrida,distanza,,,5.2,2.1,2.5,0.1,9.3,11.4,13.8,18.6,15.3,0.0,0.0,100,8,96,52.7,2.72,36.0,0,83.23,16.77,0.0,non affidabile,8,0,27.82,
-Double Blade,DPS mischia,Mischia,9,Water Elementals (Ranged),distanza,distanza,428,G,7.0,13.7,6.0,17.8,8.1,3.7,21.9,51.9,7.8,0.0,0.0,100,9,130,122.2,1.72,100.5,7,45.093,54.907,0.0,non affidabile,14,0,19.9,tank
-Double Blade,DPS mischia,Mischia,10,Mammoths (Melee),mischia,mischia,161,D,7.7,10.1,11.5,22.6,7.9,6.0,22.4,26.9,7.3,0.0,0.0,100,10,0,39.2,2.28,24.5,3,13.975,86.025,0.0,non affidabile,8,0,26.1,"boss, tank"
-Double Blade,DPS mischia,Mischia,11,Nether Drakes (Ranged),distanza,distanza,150,C,7.5,5.4,10.3,0.0,7.7,5.6,24.4,46.7,8.4,0.0,0.0,100,10,159,34.7,3.08,11.4,3,0.0,100.0,0.0,non affidabile,8,0,31.77,tank
-Double Blade,DPS mischia,Mischia,12,Giant Spiders,ibrida,distanza,,,7.8,9.7,10.2,8.9,7.3,3.1,25.7,42.3,2.6,0.0,0.0,100,11,0,38.9,2.51,20.6,2,1.77,98.23,0.0,non affidabile,6,0,21.56,
-Double Blade,DPS mischia,Mischia,13,Revenants,ibrida,mischia,132,C,7.8,7.7,9.9,7.3,7.3,7.2,28.6,48.2,7.6,0.0,0.0,92,12,0,69.7,3.72,54.8,4,9.47,90.53,0.0,non affidabile,9,2,45.98,tank
-Double Blade,DPS mischia,Mischia,14,Faceless Ones,ibrida,mischia,121,C,7.2,2.6,8.6,0.0,8.1,14.5,29.5,42.8,21.1,0.0,0.0,100,13,203,20.1,3.87,6.3,4,0.0,100.0,0.0,non affidabile,6,2,30.49,tank
-Double Blade,DPS mischia,Mischia,15,War Golems (Melee),mischia,mischia,236,E,6.8,2.5,9.9,14.2,7.9,5.8,30.0,35.0,8.1,0.0,0.0,52,14,0,106.3,1.49,88.3,4,0.0,87.5,12.5,non affidabile,6,0,11.01,tank
-Double Blade,DPS mischia,Mischia,16,Salamanders (Ranged),distanza,distanza,216,E,6.6,4.0,10.9,14.3,7.5,5.0,30.7,40.5,3.8,0.0,0.0,100,15,232,93.7,0.88,74.3,5,31.944,68.056,0.0,non affidabile,3,0,9.58,tank
-Double Blade,DPS mischia,Mischia,17,Greater Demons (Melee),mischia,distanza,80,A,6.2,0.3,9.8,0.6,6.9,1.7,30.5,26.0,0.0,0.0,0.0,100,15,358,25.9,1.17,12.2,1,0.0,100.0,0.0,non affidabile,3,0,25.0,
-Double Blade,DPS mischia,Mischia,18,Enslaved Orcs,ibrida,distanza/mischia,432,G,5.8,2.4,8.5,0.0,6.1,1.6,28.2,8.5,1.7,0.0,0.0,16,17,701,22.9,0.53,11.0,4,0.116,54.977,44.907,non affidabile,3,0,1.13,
-Double Blade,DPS mischia,Mischia,19,Night Elf Hunters,ibrida,mischia,,D,5.5,0.7,8.1,3.6,5.7,3.4,28.3,29.3,0.0,0.0,0.0,100,17,373,65.0,1.08,49.4,4,0.0,100.0,0.0,non affidabile,4,0,25.92,
-Double Blade,DPS mischia,Mischia,20,Arena Organisers,ibrida,mischia,,SCONFITTA,5.3,1.0,7.7,3.6,6.7,17.2,28.6,33.3,27.7,1.4,0.0,96,18,0,73.0,0.9,51.7,9,0.0,100.0,0.0,non affidabile,7,0,6.0,
-Pickaxe,DPS mischia,Mischia,1,Prisoners,ibrida,mischia,61,A,5.5,5.5,7.1,7.1,7.9,7.9,9.6,9.6,0.0,0.0,0.0,91,2,17,77.2,0.48,49.9,0,0.0,63.934,36.066,indicativa,1,0,10.47,
-Pickaxe,DPS mischia,Mischia,2,Machines,ibrida,distanza,73,A,12.7,21.7,16.9,21.8,4.9,1.2,11.4,13.6,0.0,0.0,0.0,75,3,52,62.7,0.0,35.5,0,0.0,62.329,37.671,indicativa,0,0,0.0,
-Pickaxe,DPS mischia,Mischia,3,Combatants (Melee),mischia,mischia,77,A,16.9,26.3,18.5,20.7,5.9,8.1,11.1,10.4,0.0,0.0,0.0,100,4,61,53.4,2.41,17.8,0,20.13,79.87,0.0,indicativa,4,0,20.99,danni
-Pickaxe,DPS mischia,Mischia,4,Voidwalkers (Ranged),distanza,mischia,154,C,19.2,24.5,18.3,18.1,6.9,8.8,11.9,13.8,0.0,0.0,0.0,100,5,77,98.9,3.66,61.7,3,99.351,0.649,0.0,indicativa,11,3,24.54,danni
-Pickaxe,DPS mischia,Mischia,5,Sasquatches (Melee),mischia,mischia,189,D,17.9,14.1,13.6,0.0,6.2,4.1,10.4,6.0,0.0,0.0,0.0,17,5,152,58.7,1.9,24.0,1,18.783,79.365,1.852,indicativa,2,0,4.55,
-Pickaxe,DPS mischia,Mischia,6,Boars,ibrida,distanza,105,B,17.9,17.8,14.6,19.0,6.8,10.0,10.2,9.2,0.0,0.0,0.0,98,6,92,96.5,2.87,54.0,4,59.048,40.952,0.0,indicativa,6,0,32.83,danni
-Pickaxe,DPS mischia,Mischia,7,Goblins,ibrida,distanza,174,D,16.8,11.6,16.9,27.2,5.9,1.5,8.4,0.0,0.0,0.0,0.0,100,7,101,97.8,3.76,52.3,5,78.161,21.839,0.0,indicativa,9,1,41.54,boss
-Pickaxe,DPS mischia,Mischia,8,Mur'guls,ibrida,distanza,,,16.8,16.6,17.9,21.5,5.4,2.6,7.2,0.0,0.0,0.0,0.0,100,8,108,73.0,5.23,43.9,4,81.366,18.634,0.0,indicativa,9,10,38.33,
-Pickaxe,DPS mischia,Mischia,9,Water Elementals (Ranged),distanza,distanza,428,G,17.0,17.7,15.9,9.2,5.3,5.0,6.0,1.6,0.0,0.0,0.0,100,9,151,125.0,3.34,100.4,7,23.248,76.752,0.0,indicativa,18,4,32.24,
-Pickaxe,DPS mischia,Mischia,10,Mammoths (Melee),mischia,mischia,161,D,16.3,13.9,14.4,11.4,4.8,0.3,5.8,4.0,0.0,0.0,0.0,100,10,392,92.8,8.09,60.2,8,98.447,1.553,0.0,indicativa,13,16,43.53,
-Pickaxe,DPS mischia,Mischia,11,Nether Drakes (Ranged),distanza,distanza,150,C,16.2,15.1,13.1,1.9,4.4,0.1,5.3,0.0,0.0,0.0,0.0,16,11,203,56.0,4.18,30.5,2,38.0,62.0,0.0,indicativa,4,3,27.79,danni
-Pickaxe,DPS mischia,Mischia,12,Giant Spiders,ibrida,distanza,,,15.2,8.6,12.4,3.1,4.4,4.4,5.2,3.8,0.0,0.0,0.0,100,12,538,81.3,6.28,49.0,3,92.92,7.08,0.0,indicativa,7,5,40.53,
-Pickaxe,DPS mischia,Mischia,13,Revenants,ibrida,mischia,132,C,15.1,14.3,11.2,1.4,3.9,0.0,5.0,3.6,0.0,0.0,0.0,19,12,757,97.2,4.96,66.7,4,0.379,70.076,29.545,indicativa,4,2,12.4,
-Pickaxe,DPS mischia,Mischia,14,Faceless Ones,ibrida,mischia,121,C,14.8,12.6,10.8,8.1,3.6,1.2,4.7,0.3,0.0,0.0,0.0,100,13,975,115.4,7.02,71.2,4,94.215,5.785,0.0,indicativa,6,10,35.29,
-Pickaxe,DPS mischia,Mischia,15,War Golems (Melee),mischia,mischia,236,E,14.0,5.4,9.2,4.0,3.7,4.8,4.7,4.6,0.0,0.0,0.0,18,14,1261,99.2,3.97,63.6,4,59.322,40.678,0.0,indicativa,10,4,37.95,
-Pickaxe,DPS mischia,Mischia,16,Salamanders (Ranged),distanza,distanza,216,E,14.8,24.5,10.0,12.7,3.2,0.0,4.6,3.4,0.0,0.0,0.0,100,15,192,131.1,6.17,98.4,5,72.222,27.778,0.0,indicativa,15,8,45.14,
-Pickaxe,DPS mischia,Mischia,17,Greater Demons (Melee),mischia,distanza,80,A,15.6,28.1,10.7,16.7,3.1,2.2,4.5,2.3,0.0,0.0,0.0,100,16,538,74.9,6.71,50.4,3,99.375,0.625,0.0,indicativa,7,6,47.1,
-Pickaxe,DPS mischia,Mischia,18,Enslaved Orcs,ibrida,distanza/mischia,432,G,15.3,12.5,9.7,3.2,3.3,4.5,4.2,1.6,0.0,0.0,0.0,29,17,892,39.8,3.16,18.1,3,0.231,43.981,55.787,indicativa,5,6,6.47,
-Pickaxe,DPS mischia,Mischia,19,Night Elf Hunters,ibrida,mischia,,D,15.3,15.5,8.9,0.0,3.1,1.9,3.7,0.0,0.0,0.0,0.0,100,18,322,110.1,7.18,73.2,5,66.587,33.413,0.0,indicativa,10,12,33.86,
-Pickaxe,DPS mischia,Mischia,20,Arena Organisers,ibrida,mischia,,SCONFITTA,15.3,15.3,8.1,0.0,3.1,3.1,3.5,0.0,0.0,0.0,0.0,100,19,0,76.7,4.63,53.8,4,0.0,88.141,11.859,indicativa,11,12,25.53,
-Bow,DPS distanza,Distanza,1,Prisoners,ibrida,mischia,61,A,16.5,16.5,4.2,4.2,0.0,0.0,0.2,0.2,0.0,0.0,0.0,100,2,17,24.4,0.97,14.0,0,100.0,0.0,0.0,non affidabile,0,0,0.0,
-Bow,DPS distanza,Distanza,2,Machines,ibrida,distanza,73,A,13.0,8.6,1.5,0.2,0.0,0.0,0.1,0.0,0.0,0.0,0.0,100,3,22,26.2,1.2,14.8,0,100.0,0.0,0.0,non affidabile,0,0,0.0,
-Bow,DPS distanza,Distanza,3,Combatants (Melee),mischia,mischia,77,A,13.6,14.9,4.5,8.7,0.0,0.0,0.1,0.1,0.0,0.0,0.0,100,4,84,20.5,2.71,5.1,0,100.0,0.0,0.0,non affidabile,4,1,18.7,
-Bow,DPS distanza,Distanza,4,Voidwalkers (Ranged),distanza,mischia,154,C,10.5,3.3,2.2,0.0,0.2,0.6,0.5,1.4,0.0,0.0,0.0,21,5,165,14.2,1.08,4.1,0,100.0,0.0,0.0,non affidabile,0,0,3.21,
-Bow,DPS distanza,Distanza,5,Sasquatches (Melee),mischia,mischia,189,D,9.5,6.6,1.7,0.3,0.5,1.4,1.1,2.9,0.0,0.0,0.0,17,6,50,20.2,1.14,5.1,2,100.0,0.0,0.0,non affidabile,1,0,1.26,
-Bow,DPS distanza,Distanza,6,Boars,ibrida,distanza,105,B,10.4,15.2,3.4,11.1,0.4,0.0,1.0,0.5,0.0,0.0,0.0,100,6,65,18.3,1.83,5.2,4,100.0,0.0,0.0,non affidabile,3,0,11.52,
-Bow,DPS distanza,Distanza,7,Goblins,ibrida,distanza,174,D,10.1,8.7,3.8,5.6,0.5,1.0,0.9,0.4,0.0,0.0,0.0,15,7,204,25.0,2.57,12.7,4,98.563,1.437,0.0,non affidabile,8,0,31.83,
-Bow,DPS distanza,Distanza,8,Mur'guls,ibrida,distanza,,,10.7,14.2,9.0,27.3,1.2,5.1,1.1,2.3,0.0,0.0,0.0,100,8,141,37.8,3.14,25.1,5,100.0,0.0,0.0,non affidabile,8,0,37.73,boss
-Bow,DPS distanza,Distanza,9,Water Elementals (Ranged),distanza,distanza,428,G,10.8,11.2,9.9,12.9,1.8,4.1,1.2,1.6,0.0,0.0,0.0,15,9,108,41.5,1.83,23.8,6,52.687,47.313,0.0,non affidabile,12,0,22.19,
-Bow,DPS distanza,Distanza,10,Mammoths (Melee),mischia,mischia,161,D,12.4,17.8,13.8,21.7,1.7,0.8,1.1,0.2,0.0,0.0,0.0,100,10,0,24.5,4.15,9.8,6,99.068,0.932,0.0,non affidabile,14,0,47.3,danni
-Bow,DPS distanza,Distanza,11,Nether Drakes (Ranged),distanza,distanza,150,C,12.7,15.9,14.7,22.2,1.8,2.9,1.0,0.0,0.0,0.0,0.0,100,11,155,29.5,3.52,14.7,5,93.667,6.333,0.0,non affidabile,11,0,41.98,
-Bow,DPS distanza,Distanza,12,Giant Spiders,ibrida,distanza,,,12.1,8.1,14.9,17.6,1.7,0.6,0.9,0.0,0.0,0.0,0.0,100,12,428,29.6,3.27,13.8,4,88.938,11.062,0.0,non affidabile,6,0,35.87,
-Bow,DPS distanza,Distanza,13,Revenants,ibrida,mischia,132,C,12.1,12.0,13.6,2.9,2.0,4.3,1.2,3.2,0.0,0.0,0.0,13,12,198,33.2,1.99,8.4,3,2.652,97.348,0.0,non affidabile,3,0,17.87,
-Bow,DPS distanza,Distanza,14,Faceless Ones,ibrida,mischia,121,C,13.2,21.9,18.1,47.8,2.1,2.9,1.2,1.2,0.0,0.0,0.0,100,13,203,23.5,1.21,14.3,4,0.413,99.587,0.0,non affidabile,2,0,23.72,boss
-Bow,DPS distanza,Distanza,15,War Golems (Melee),mischia,mischia,236,E,13.6,18.1,20.3,27.5,2.1,2.1,1.2,1.2,0.0,0.0,0.0,12,14,0,44.3,2.48,26.1,5,74.788,25.212,0.0,non affidabile,7,0,24.25,
-Bow,DPS distanza,Distanza,16,Salamanders (Ranged),distanza,distanza,216,E,13.7,14.8,16.2,2.5,2.9,8.1,1.3,2.6,0.0,0.0,0.0,12,15,192,28.8,1.76,14.6,4,43.981,56.019,0.0,non affidabile,6,0,22.28,
-Bow,DPS distanza,Distanza,17,Greater Demons (Melee),mischia,distanza,80,A,13.7,14.1,16.0,14.5,2.6,0.0,1.3,1.3,0.0,0.0,0.0,100,16,395,36.1,2.92,20.1,3,81.25,18.75,0.0,non affidabile,3,0,25.74,
-Bow,DPS distanza,Distanza,18,Enslaved Orcs,ibrida,distanza/mischia,432,G,13.1,7.9,15.3,10.7,2.7,3.3,1.1,0.0,0.0,0.0,0.0,16,17,0,41.2,1.05,8.2,4,24.421,38.31,37.269,non affidabile,4,0,5.41,
-Bow,DPS distanza,Distanza,19,Night Elf Hunters,ibrida,mischia,,D,12.7,6.3,14.3,3.2,2.3,0.0,1.0,0.3,0.0,0.0,0.0,100,18,148,32.7,2.51,16.5,4,21.875,78.125,0.0,non affidabile,6,0,19.4,
-Bow,DPS distanza,Distanza,20,Arena Organisers,ibrida,mischia,,SCONFITTA,12.4,6.0,14.3,14.1,2.1,0.0,0.9,0.0,0.0,0.0,0.0,100,19,365,32.3,2.14,14.7,5,9.776,84.295,5.929,non affidabile,11,0,25.76,
-Naga Trident,DPS distanza,Distanza,1,Prisoners,ibrida,mischia,61,A,14.6,14.6,40.0,40.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100,2,19,80.6,2.91,66.6,0,85.246,14.754,0.0,non affidabile,7,0,14.43,boss
-Naga Trident,DPS distanza,Distanza,2,Machines,ibrida,distanza,73,A,11.9,8.5,36.1,34.2,0.7,1.6,0.5,1.1,0.0,0.0,0.0,100,3,84,63.0,2.11,51.2,0,99.315,0.685,0.0,non affidabile,4,0,11.7,boss
-Naga Trident,DPS distanza,Distanza,3,Combatants (Melee),mischia,mischia,77,A,12.7,14.5,27.9,16.4,0.4,0.0,0.4,0.2,0.0,0.0,0.0,100,4,86,30.8,2.71,18.4,0,100.0,0.0,0.0,non affidabile,6,0,18.2,
-Naga Trident,DPS distanza,Distanza,4,Voidwalkers (Ranged),distanza,mischia,154,C,13.4,15.0,24.0,20.2,1.5,3.6,0.9,2.1,0.0,0.0,0.0,100,5,152,38.5,2.8,29.5,0,95.13,4.87,0.0,non affidabile,12,0,20.0,boss
-Naga Trident,DPS distanza,Distanza,5,Sasquatches (Melee),mischia,mischia,189,D,14.3,17.0,22.7,19.1,1.0,0.0,0.7,0.1,0.0,0.0,0.0,100,5,114,113.1,2.48,97.9,1,76.72,23.28,0.0,non affidabile,9,0,13.03,danni
-Naga Trident,DPS distanza,Distanza,6,Boars,ibrida,distanza,105,B,13.6,9.8,21.4,15.3,0.8,0.0,0.6,0.1,0.0,0.0,0.0,100,6,60,77.5,2.61,53.5,1,99.524,0.476,0.0,non affidabile,7,0,16.41,
-Naga Trident,DPS distanza,Distanza,7,Goblins,ibrida,distanza,174,D,14.7,20.3,19.3,9.8,1.4,4.3,0.6,0.6,0.0,0.0,0.0,100,7,145,78.8,2.77,55.6,0,9.483,90.517,0.0,non affidabile,10,0,18.48,danni
-Naga Trident,DPS distanza,Distanza,8,Mur'guls,ibrida,distanza,,,16.1,24.4,17.8,12.6,1.3,0.7,0.7,1.3,0.0,0.0,0.0,100,8,282,63.3,3.56,35.6,1,98.758,1.242,0.0,non affidabile,13,0,21.05,danni
-Naga Trident,DPS distanza,Distanza,9,Water Elementals (Ranged),distanza,distanza,428,G,14.6,9.1,14.6,3.8,1.2,0.8,0.8,1.2,0.0,0.0,0.0,15,9,414,32.0,0.65,24.8,0,9.112,53.505,37.383,non affidabile,3,0,3.24,
-Naga Trident,DPS distanza,Distanza,10,Mammoths (Melee),mischia,mischia,161,D,14.7,15.0,11.6,5.6,1.2,1.2,0.8,0.8,0.0,0.0,0.0,19,10,589,38.8,3.73,20.5,1,81.366,18.634,0.0,non affidabile,12,0,27.92,
-Naga Trident,DPS distanza,Distanza,11,Nether Drakes (Ranged),distanza,distanza,150,C,14.6,13.5,11.7,12.5,1.3,2.4,0.9,2.0,0.0,0.0,0.0,100,11,208,59.1,3.74,38.9,1,40.0,60.0,0.0,non affidabile,11,1,18.99,
-Naga Trident,DPS distanza,Distanza,12,Giant Spiders,ibrida,distanza,,,14.5,13.7,11.0,1.7,1.4,2.4,0.9,0.9,0.0,0.0,0.0,100,12,481,44.9,3.52,23.9,1,83.186,16.814,0.0,non affidabile,5,0,18.93,
-Naga Trident,DPS distanza,Distanza,13,Revenants,ibrida,mischia,132,C,13.3,4.9,9.8,0.0,1.2,0.0,1.0,1.7,0.0,0.0,0.0,13,13,689,53.6,1.99,35.2,0,0.379,55.682,43.939,non affidabile,2,0,5.79,
-Naga Trident,DPS distanza,Distanza,14,Faceless Ones,ibrida,mischia,121,C,12.7,8.1,9.5,7.5,1.2,1.2,1.0,1.0,0.0,0.0,0.0,100,13,168,66.8,3.39,31.5,1,33.884,66.116,0.0,non affidabile,8,0,17.14,
-Naga Trident,DPS distanza,Distanza,15,War Golems (Melee),mischia,mischia,236,E,12.8,14.0,7.4,0.6,1.1,0.0,1.0,1.0,0.0,0.0,0.0,12,14,423,29.3,1.65,18.0,1,15.254,66.102,18.644,non affidabile,1,0,2.97,
-Naga Trident,DPS distanza,Distanza,16,Salamanders (Ranged),distanza,distanza,216,E,11.9,0.6,5.7,0.0,1.2,1.9,1.1,2.4,0.0,0.0,0.0,12,15,615,95.5,1.94,68.1,2,27.315,68.981,3.704,non affidabile,5,0,7.06,
-Naga Trident,DPS distanza,Distanza,17,Greater Demons (Melee),mischia,distanza,80,A,11.7,9.0,6.5,13.3,1.1,0.2,1.1,1.1,0.0,0.0,0.0,100,16,204,58.3,3.5,39.1,0,1.875,98.125,0.0,non affidabile,6,0,22.75,
-Naga Trident,DPS distanza,Distanza,18,Enslaved Orcs,ibrida,distanza/mischia,432,G,11.4,8.7,6.4,5.8,1.2,1.8,1.1,1.1,0.0,0.0,0.0,21,17,194,15.3,1.16,5.7,1,12.384,38.773,48.843,non affidabile,4,0,5.59,
-Naga Trident,DPS distanza,Distanza,19,Night Elf Hunters,ibrida,mischia,,D,11.3,9.8,6.7,10.0,1.2,1.2,1.0,0.3,0.0,0.0,0.0,100,18,419,90.2,3.23,61.2,0,0.0,100.0,0.0,non affidabile,9,3,20.02,
-Naga Trident,DPS distanza,Distanza,20,Arena Organisers,ibrida,mischia,,SCONFITTA,11.1,6.8,6.5,4.4,1.1,0.1,1.1,2.8,0.0,0.0,0.0,100,19,0,83.3,1.81,62.5,3,0.0,86.218,13.782,non affidabile,8,0,14.2,
-Wizard Staff,DPS distanza,Distanza,1,Prisoners,ibrida,mischia,61,A,6.5,6.5,8.4,8.4,0.0,0.0,0.2,0.2,0.0,0.0,0.0,100,2,17,16.2,0.48,7.0,0,0.0,100.0,0.0,affidabile,0,0,0.0,
-Wizard Staff,DPS distanza,Distanza,2,Machines,ibrida,distanza,73,A,11.1,16.9,9.8,10.5,1.1,2.5,0.5,0.9,0.0,0.0,0.0,100,3,27,19.9,9.94,4.8,0,99.315,0.685,0.0,affidabile,14,0,6.39,
-Wizard Staff,DPS distanza,Distanza,3,Combatants (Melee),mischia,mischia,77,A,10.8,10.1,11.6,14.1,0.6,0.0,0.4,0.2,0.0,0.0,0.0,100,4,79,15.4,7.83,3.6,0,99.351,0.649,0.0,affidabile,12,0,14.89,
-Wizard Staff,DPS distanza,Distanza,4,Voidwalkers (Ranged),distanza,mischia,154,C,13.1,18.4,15.4,19.0,0.4,0.0,0.7,1.4,0.0,0.0,0.0,100,5,35,25.2,12.47,5.4,4,99.675,0.325,0.0,affidabile,40,0,14.51,
-Wizard Staff,DPS distanza,Distanza,5,Sasquatches (Melee),mischia,mischia,189,D,13.0,12.8,18.7,28.4,0.7,1.6,2.8,8.9,0.0,0.0,0.0,100,6,72,76.2,7.05,56.4,5,99.735,0.265,0.0,affidabile,19,0,17.72,boss
-Wizard Staff,DPS distanza,Distanza,6,Boars,ibrida,distanza,105,B,13.1,13.6,19.3,21.8,0.8,1.3,3.8,9.2,0.0,0.0,0.0,100,7,212,40.4,9.4,18.5,4,100.0,0.0,0.0,affidabile,14,1,26.43,boss
-Wizard Staff,DPS distanza,Distanza,7,Goblins,ibrida,distanza,174,D,12.6,10.3,19.8,22.0,1.2,3.1,4.3,6.6,0.0,0.0,0.0,100,7,84,36.0,7.72,16.2,3,79.885,20.115,0.0,affidabile,21,0,23.46,
-Wizard Staff,DPS distanza,Distanza,8,Mur'guls,ibrida,distanza,,,12.0,8.2,15.6,0.9,1.4,2.5,6.0,16.2,0.0,0.0,0.0,100,8,201,39.3,10.04,18.0,4,100.0,0.0,0.0,affidabile,33,0,25.48,
-Wizard Staff,DPS distanza,Distanza,9,Water Elementals (Ranged),distanza,distanza,428,G,13.3,18.1,13.6,6.9,1.8,3.3,7.3,12.1,0.0,0.0,0.0,100,9,355,89.2,5.6,69.8,9,84.346,15.654,0.0,affidabile,35,2,33.16,danni
-Wizard Staff,DPS distanza,Distanza,10,Mammoths (Melee),mischia,mischia,161,D,13.0,12.0,12.0,8.8,1.6,0.0,7.3,7.3,0.0,0.0,0.0,100,10,622,30.1,8.71,11.2,4,97.205,2.795,0.0,affidabile,27,0,26.59,
-Wizard Staff,DPS distanza,Distanza,11,Nether Drakes (Ranged),distanza,distanza,150,C,12.7,9.5,13.7,28.1,2.3,9.7,7.1,5.1,0.0,0.0,0.0,100,11,159,60.4,11.43,35.4,3,100.0,0.0,0.0,affidabile,35,1,42.86,boss
-Wizard Staff,DPS distanza,Distanza,12,Giant Spiders,ibrida,distanza,,,12.5,11.1,14.5,25.1,2.1,0.0,7.2,8.4,0.0,0.0,0.0,100,12,409,34.1,12.31,10.3,3,89.381,10.619,0.0,affidabile,28,3,43.96,
-Wizard Staff,DPS distanza,Distanza,13,Revenants,ibrida,mischia,132,C,12.1,9.2,13.2,2.5,2.7,7.3,7.6,10.3,0.0,0.0,0.0,70,13,617,63.0,9.43,41.2,4,89.773,10.227,0.0,affidabile,19,0,29.91,
-Wizard Staff,DPS distanza,Distanza,14,Faceless Ones,ibrida,mischia,121,C,11.9,10.4,11.8,2.5,2.4,0.0,7.7,9.2,0.0,0.0,0.0,100,13,458,53.0,10.17,30.5,3,100.0,0.0,0.0,affidabile,18,4,39.42,
-Wizard Staff,DPS distanza,Distanza,15,War Golems (Melee),mischia,mischia,236,E,12.2,15.6,9.7,2.9,2.4,2.4,7.6,6.4,0.0,0.0,0.0,20,14,993,34.2,12.07,13.6,6,97.246,2.754,0.0,affidabile,52,0,19.61,
-Wizard Staff,DPS distanza,Distanza,16,Salamanders (Ranged),distanza,distanza,216,E,12.1,10.7,11.5,17.5,2.1,0.2,7.9,12.0,0.0,0.0,0.0,90,15,192,82.8,10.58,55.7,3,99.074,0.926,0.0,affidabile,44,1,41.84,
-Wizard Staff,DPS distanza,Distanza,17,Greater Demons (Melee),mischia,distanza,80,A,12.1,12.4,11.4,10.7,2.0,1.1,7.9,7.9,0.0,0.0,0.0,100,16,472,33.5,11.08,11.7,3,90.0,10.0,0.0,affidabile,10,3,38.26,
-Wizard Staff,DPS distanza,Distanza,18,Enslaved Orcs,ibrida,distanza/mischia,432,G,12.8,18.4,12.8,22.0,1.7,0.0,7.8,6.8,0.0,0.0,0.0,100,17,359,86.9,8.76,66.5,2,10.417,89.583,0.0,affidabile,56,3,42.25,
-Wizard Staff,DPS distanza,Distanza,19,Night Elf Hunters,ibrida,mischia,,D,12.9,14.7,12.9,14.0,1.5,0.3,8.1,10.4,0.0,0.0,0.0,100,18,314,55.9,7.72,34.8,2,8.654,91.346,0.0,affidabile,20,2,35.28,
-Wizard Staff,DPS distanza,Distanza,20,Arena Organisers,ibrida,mischia,,SCONFITTA,13.5,26.4,14.0,24.8,1.3,0.0,8.0,6.1,0.0,0.0,0.0,100,19,93,40.3,9.03,23.5,3,5.609,94.391,0.0,affidabile,46,5,34.57,
+classe,ruolo,distanza,challenge,ondata,tipo_wave,tipo_boss,secondi_round,voto_round,danni_quota_cum,danni_quota_round,boss_quota_cum,boss_quota_round,cure_quota_cum,cure_quota_round,tank_quota_cum,tank_quota_round,colpi_eroe_quota_cum,colpi_eroe_quota_round,cure_solo_abilita_round_a,cure_solo_abilita_round_b,cure_solo_abilita_round_c,hp_fine_round,livello,oro,apm,abilita_min,click_movimento_min,oggetti_usati,mana_pct_sotto_20,mana_pct_20_80,mana_pct_sopra_80,mana_affidabilita,cast_effettivi,ordini_sprecati_cooldown,cooldown_occupato_medio_pct,premi_round
+Runeblade,Tank,Mischia,1,Prisoners,ibrida,mischia,61,A,9.8,9.8,7.9,7.9,11.6,11.6,25.0,25.0,25.0,25.0,14.6,0.0,0.0,100,2,17,24.0,1.21,13.6,0,0.0,100.0,0.0,indicativa,3,0,11.48,
+Runeblade,Tank,Mischia,2,Machines,ibrida,distanza,73,A,6.4,2.2,3.8,1.7,18.2,26.4,26.9,29.3,26.9,29.3,31.3,10.1,0.0,90,3,57,42.8,3.92,22.9,0,67.808,32.192,0.0,indicativa,8,0,23.07,tank
+Runeblade,Tank,Mischia,3,Combatants (Melee),mischia,mischia,77,A,5.7,4.1,2.8,1.4,13.8,3.9,27.1,27.4,27.1,27.4,7.9,0.0,0.0,100,4,34,12.1,1.2,3.6,0,0.0,100.0,0.0,indicativa,2,0,13.09,
+Runeblade,Tank,Mischia,4,Voidwalkers (Ranged),distanza,mischia,154,C,7.4,11.3,9.3,15.5,17.7,25.0,28.4,31.6,28.4,31.6,27.6,1.9,0.0,100,4,125,46.0,3.44,28.4,0,44.481,55.519,0.0,indicativa,11,0,28.48,tank
+Runeblade,Tank,Mischia,5,Sasquatches (Melee),mischia,mischia,189,D,8.5,11.8,10.7,14.9,18.7,21.5,25.7,17.7,25.7,17.7,25.9,8.4,0.0,74,5,100,72.2,3.62,47.8,1,99.735,0.265,0.0,indicativa,14,0,27.7,
+Runeblade,Tank,Mischia,6,Boars,ibrida,distanza,105,B,9.6,15.4,9.1,1.7,17.2,9.1,24.4,17.5,24.4,17.5,14.9,0.0,0.0,100,6,100,30.5,3.39,13.3,1,98.571,1.429,0.0,indicativa,7,0,39.16,
+Runeblade,Tank,Mischia,7,Goblins,ibrida,distanza,174,D,10.2,13.3,7.9,2.5,16.5,13.1,25.0,27.8,25.0,27.8,19.5,0.0,0.0,70,7,256,42.4,3.76,22.6,3,0.0,100.0,0.0,indicativa,13,0,31.79,tank
+Runeblade,Tank,Mischia,8,Mur'guls,ibrida,distanza,,,9.5,5.1,7.6,6.6,16.4,15.7,22.1,4.7,22.1,4.7,21.3,14.6,0.0,100,8,96,38.7,4.81,20.1,1,19.876,80.124,0.0,indicativa,16,2,37.23,
+Runeblade,Tank,Mischia,9,Water Elementals (Ranged),distanza,distanza,428,G,10.1,12.3,8.4,11.1,19.9,33.1,20.6,15.1,20.6,15.1,41.1,17.5,0.0,59,9,202,78.3,5.93,58.9,4,32.243,67.757,0.0,indicativa,46,0,22.37,cure
+Runeblade,Tank,Mischia,10,Mammoths (Melee),mischia,mischia,161,D,9.9,9.2,7.2,4.8,19.4,14.6,20.3,17.6,20.3,17.6,17.8,0.0,0.0,100,10,377,58.8,6.02,36.3,2,65.528,34.472,0.0,indicativa,22,0,35.19,
+Runeblade,Tank,Mischia,11,Nether Drakes (Ranged),distanza,distanza,150,C,9.8,8.7,6.5,0.5,18.5,8.9,19.8,14.8,19.8,14.8,13.6,0.0,0.0,83,10,509,46.4,7.47,21.1,3,97.333,2.667,0.0,indicativa,25,0,41.53,
+Runeblade,Tank,Mischia,12,Giant Spiders,ibrida,distanza,,,8.5,0.0,6.6,7.9,17.5,7.0,18.9,6.8,18.9,6.8,5.6,0.0,0.0,100,11,832,32.4,5.53,15.1,1,0.0,100.0,0.0,indicativa,11,1,28.83,
+Runeblade,Tank,Mischia,13,Revenants,ibrida,mischia,132,C,7.9,3.7,5.9,0.2,18.1,22.5,16.5,0.0,16.5,0.0,27.8,39.7,46.8,79,12,40,68.7,7.44,47.1,2,0.0,100.0,0.0,indicativa,21,0,32.45,
+Runeblade,Tank,Mischia,14,Faceless Ones,ibrida,mischia,121,C,7.0,0.0,5.4,2.1,16.7,5.5,15.5,0.7,15.5,0.7,0.0,0.0,0.0,100,13,168,54.0,6.3,29.5,3,24.793,75.207,0.0,indicativa,16,0,33.65,
+Runeblade,Tank,Mischia,15,War Golems (Melee),mischia,mischia,236,E,6.6,2.3,4.4,1.2,16.7,16.9,15.3,13.0,15.3,13.0,22.1,0.0,0.0,12,14,499,41.2,4.3,24.8,1,0.212,87.712,12.076,indicativa,16,0,18.06,
+Runeblade,Tank,Mischia,16,Salamanders (Ranged),distanza,distanza,216,E,6.3,2.5,4.2,3.5,16.8,17.7,14.7,7.3,14.7,7.3,21.7,11.4,0.0,98,15,716,70.6,6.88,43.0,2,70.833,29.167,0.0,indicativa,28,0,35.35,
+Runeblade,Tank,Mischia,17,Greater Demons (Melee),mischia,distanza,80,A,5.9,0.0,4.0,2.3,17.2,20.3,14.8,17.1,14.8,17.1,20.6,0.0,0.0,100,15,427,49.8,8.16,17.8,2,25.625,74.375,0.0,indicativa,14,0,47.28,
+Runeblade,Tank,Mischia,18,Enslaved Orcs,ibrida,distanza/mischia,432,G,5.5,2.1,3.8,2.5,15.3,4.6,13.5,2.4,12.51,0.0,5.1,7.2,7.5,16,17,795,20.8,2.74,5.2,1,26.852,33.912,39.236,indicativa,10,1,6.54,
+Runeblade,Tank,Mischia,19,Night Elf Hunters,ibrida,mischia,,D,5.6,7.3,3.9,5.0,16.3,21.9,14.7,23.8,13.33,17.5,30.1,0.0,0.0,100,17,310,64.0,7.18,41.3,3,83.894,16.106,0.0,indicativa,25,0,32.59,
+Runeblade,Tank,Mischia,20,Arena Organisers,ibrida,mischia,,SCONFITTA,5.5,3.4,3.7,1.7,16.4,17.5,14.8,16.3,13.21,9.9,17.9,9.5,0.0,100,18,90,46.0,5.87,22.9,4,1.282,63.942,34.776,indicativa,34,1,33.06,
+War Hammer,Tank,Mischia,1,Prisoners,ibrida,mischia,61,A,10.4,10.4,9.9,9.9,12.9,12.9,32.5,32.5,32.5,32.5,0.0,0.0,0.0,100,2,19,59.5,0.97,51.6,0,0.0,100.0,0.0,indicativa,3,0,6.15,tank
+War Hammer,Tank,Mischia,2,Machines,ibrida,distanza,73,A,10.5,10.6,15.8,18.7,16.0,19.8,30.4,27.8,30.4,27.8,0.0,0.0,0.0,100,3,29,33.8,5.42,8.1,0,0.0,100.0,0.0,indicativa,8,1,15.26,
+War Hammer,Tank,Mischia,3,Combatants (Melee),mischia,mischia,77,A,10.4,10.2,21.9,30.4,15.4,14.0,27.3,20.2,27.3,20.2,0.0,0.0,0.0,100,4,88,29.2,5.42,13.6,0,38.961,61.039,0.0,indicativa,11,0,19.71,boss
+War Hammer,Tank,Mischia,4,Voidwalkers (Ranged),distanza,mischia,154,C,9.9,8.7,16.4,11.1,10.7,2.0,22.8,12.4,22.8,12.4,0.0,0.0,0.0,100,5,44,37.8,6.67,15.9,1,66.883,33.117,0.0,indicativa,23,0,19.82,
+War Hammer,Tank,Mischia,5,Sasquatches (Melee),mischia,mischia,189,D,11.4,15.9,16.7,17.7,11.6,14.1,20.1,12.1,20.1,12.1,0.0,0.0,0.0,100,5,94,119.2,6.86,90.1,2,67.196,32.804,0.0,indicativa,25,0,17.86,
+War Hammer,Tank,Mischia,6,Boars,ibrida,distanza,105,B,11.9,14.5,15.6,10.5,14.0,26.8,20.3,21.5,20.3,21.5,0.0,0.0,0.0,100,6,75,69.7,7.31,30.3,1,54.762,45.238,0.0,indicativa,17,0,47.01,tank
+War Hammer,Tank,Mischia,7,Goblins,ibrida,distanza,174,D,11.2,7.9,16.7,21.6,15.1,20.4,17.6,5.0,17.6,5.0,0.0,0.0,0.0,100,7,84,67.1,6.53,34.5,2,13.793,86.207,0.0,indicativa,24,0,37.51,
+War Hammer,Tank,Mischia,8,Mur'guls,ibrida,distanza,,,10.0,2.6,13.2,1.0,15.1,15.0,17.7,18.3,17.7,18.3,0.0,0.0,0.0,100,8,96,75.3,7.11,41.4,2,0.0,100.0,0.0,indicativa,24,0,34.42,
+War Hammer,Tank,Mischia,9,Water Elementals (Ranged),distanza,distanza,428,G,9.9,9.5,12.4,9.7,16.4,21.4,14.9,4.5,14.9,4.5,0.0,0.0,0.0,100,9,133,120.3,5.71,95.2,0,0.0,24.883,75.117,indicativa,43,1,20.32,
+War Hammer,Tank,Mischia,10,Mammoths (Melee),mischia,mischia,161,D,9.4,7.7,12.1,11.5,16.3,15.1,14.8,13.9,14.8,13.9,0.0,0.0,0.0,41,10,0,90.3,6.64,49.2,1,0.0,100.0,0.0,indicativa,23,0,20.72,
+War Hammer,Tank,Mischia,11,Nether Drakes (Ranged),distanza,distanza,150,C,9.4,9.4,13.3,23.4,16.5,18.6,14.2,8.0,14.2,8.0,0.0,0.0,0.0,91,11,132,59.1,6.37,21.1,1,0.0,29.333,70.667,indicativa,20,0,37.13,
+War Hammer,Tank,Mischia,12,Giant Spiders,ibrida,distanza,,,9.3,8.6,13.2,11.9,16.4,15.3,14.1,12.6,14.1,12.6,0.0,0.0,0.0,100,12,0,52.2,7.04,18.1,2,15.044,75.664,9.292,indicativa,20,0,46.63,
+War Hammer,Tank,Mischia,13,Revenants,ibrida,mischia,132,C,8.5,2.9,14.2,22.0,14.9,3.2,12.5,1.5,12.5,1.5,0.0,0.0,0.0,82,12,185,88.8,5.71,66.3,0,0.0,0.379,99.621,indicativa,13,0,32.47,
+War Hammer,Tank,Mischia,14,Faceless Ones,ibrida,mischia,121,C,7.8,2.4,12.9,4.3,14.3,9.5,12.2,7.8,12.2,7.8,0.0,0.0,0.0,100,13,168,57.8,6.78,17.9,1,0.0,81.405,18.595,indicativa,18,0,42.64,
+War Hammer,Tank,Mischia,15,War Golems (Melee),mischia,mischia,236,E,7.7,6.7,11.8,8.3,14.3,14.4,12.2,12.1,12.2,12.1,0.0,0.0,0.0,12,14,56,65.0,6.45,36.7,1,0.212,49.153,50.636,indicativa,25,1,27.74,
+War Hammer,Tank,Mischia,16,Salamanders (Ranged),distanza,distanza,216,E,7.5,4.9,10.3,5.3,13.5,8.5,11.7,5.6,11.7,5.6,0.0,0.0,0.0,100,15,248,132.0,7.58,85.7,2,0.0,100.0,0.0,indicativa,32,1,27.34,
+War Hammer,Tank,Mischia,17,Greater Demons (Melee),mischia,distanza,80,A,7.1,1.2,9.2,0.0,12.6,4.7,11.4,4.7,11.4,4.7,0.0,0.0,0.0,100,16,484,88.8,7.0,41.4,2,20.0,80.0,0.0,indicativa,10,0,43.94,
+War Hammer,Tank,Mischia,18,Enslaved Orcs,ibrida,distanza/mischia,432,G,7.1,7.0,8.6,4.7,13.4,18.0,12.8,24.1,12.8,24.1,0.0,0.0,0.0,23,17,827,108.7,8.54,77.3,7,45.255,54.745,0.0,indicativa,61,6,43.53,
+War Hammer,Tank,Mischia,19,Night Elf Hunters,ibrida,mischia,,D,7.1,7.2,8.9,12.2,12.9,10.0,13.2,16.3,13.2,16.3,0.0,0.0,0.0,100,18,912,92.0,6.46,49.0,0,0.0,100.0,0.0,indicativa,24,0,39.89,
+War Hammer,Tank,Mischia,20,Arena Organisers,ibrida,mischia,,SCONFITTA,7.0,4.9,9.2,12.1,12.5,8.3,13.6,20.3,13.6,20.3,0.0,0.0,0.0,100,19,0,86.9,5.64,49.0,0,0.16,62.34,37.5,indicativa,34,1,33.36,
+Druid Staff,Healer,Distanza,1,Prisoners,ibrida,mischia,61,A,3.9,3.9,4.8,4.8,52.7,52.6,0.0,0.0,0.0,0.0,66.5,86.3,93.9,100,2,19,66.3,1.94,54.7,0,93.443,6.557,0.0,indicativa,4,0,2.62,cure
+Druid Staff,Healer,Distanza,2,Machines,ibrida,distanza,73,A,3.7,3.5,4.4,4.2,39.9,23.9,0.0,0.0,0.0,0.0,38.5,58.2,64.8,100,3,59,53.7,3.31,40.7,0,100.0,0.0,0.0,indicativa,7,0,14.06,cure
+Druid Staff,Healer,Distanza,3,Combatants (Melee),mischia,mischia,77,A,3.5,3.1,4.6,4.9,41.8,45.8,0.2,0.6,0.0,0.0,57.7,80.3,81.6,100,4,18,21.7,6.02,5.4,2,100.0,0.0,0.0,indicativa,11,0,23.94,cure
+Druid Staff,Healer,Distanza,4,Voidwalkers (Ranged),distanza,mischia,154,C,3.3,2.8,3.7,2.8,40.2,37.3,2.1,6.5,0.0,0.0,45.5,72.1,73.4,100,5,109,61.3,7.74,15.9,6,89.935,10.065,0.0,indicativa,27,1,31.04,cure
+Druid Staff,Healer,Distanza,5,Sasquatches (Melee),mischia,mischia,189,D,3.5,4.1,6.7,15.5,37.2,28.2,3.5,7.6,0.5,0.1,39.4,67.0,75.4,100,6,196,83.8,6.48,50.5,5,62.698,37.302,0.0,indicativa,23,0,30.5,cure
+Druid Staff,Healer,Distanza,6,Boars,ibrida,distanza,105,B,3.0,0.3,5.5,0.0,35.4,25.6,5.0,13.1,0.4,4.2,41.5,69.8,76.1,100,6,265,64.2,6.53,45.2,5,99.524,0.476,0.0,indicativa,13,1,27.54,cure
+Druid Staff,Healer,Distanza,7,Goblins,ibrida,distanza,174,D,2.9,2.4,4.5,0.0,33.4,23.7,6.1,11.2,0.5,3.1,36.4,71.7,76.7,100,7,467,65.7,7.72,38.8,5,34.195,65.805,0.0,indicativa,27,0,45.09,cure
+Druid Staff,Healer,Distanza,8,Mur'guls,ibrida,distanza,,,2.5,0.0,3.5,0.0,34.8,42.3,6.5,8.9,0.6,2.2,56.5,78.3,100.0,100,8,466,60.0,8.58,43.7,4,99.379,0.621,0.0,indicativa,28,1,43.66,cure
+Druid Staff,Healer,Distanza,9,Water Elementals (Ranged),distanza,distanza,428,G,2.2,1.1,2.7,0.0,31.7,20.4,5.9,3.7,0.6,0.6,36.0,67.1,94.2,11,9,612,27.5,2.37,16.6,3,5.841,38.551,55.607,indicativa,14,0,15.33,
+Druid Staff,Healer,Distanza,10,Mammoths (Melee),mischia,mischia,161,D,1.7,0.0,1.8,0.0,33.0,43.8,5.8,4.9,0.6,0.2,52.8,76.9,81.2,100,10,424,49.8,7.88,25.9,5,49.689,50.311,0.0,indicativa,28,0,35.8,cure
+Druid Staff,Healer,Distanza,11,Nether Drakes (Ranged),distanza,distanza,150,C,1.7,1.7,1.7,0.8,33.1,34.1,5.3,0.0,0.7,0.0,51.4,67.6,76.5,100,11,530,50.1,9.89,22.4,4,25.667,72.333,2.0,indicativa,32,2,53.9,cure
+Druid Staff,Healer,Distanza,12,Giant Spiders,ibrida,distanza,,,1.5,0.2,1.7,1.7,34.1,44.6,5.3,5.2,0.7,0.0,60.5,81.3,85.3,100,12,166,31.4,8.04,11.1,3,0.0,80.531,19.469,indicativa,20,0,43.18,
+Druid Staff,Healer,Distanza,13,Revenants,ibrida,mischia,132,C,1.3,0.0,1.6,0.8,34.9,40.6,4.7,0.6,1.0,0.6,48.3,60.3,53.2,13,12,406,33.5,5.71,16.1,2,0.379,14.394,85.227,indicativa,12,3,37.81,cure
+Druid Staff,Healer,Distanza,14,Faceless Ones,ibrida,mischia,121,C,1.2,0.4,1.3,0.0,35.5,40.2,4.6,3.1,1.0,1.0,44.9,80.4,90.9,100,13,609,78.4,9.69,36.1,4,0.0,100.0,0.0,indicativa,25,0,51.01,cure
+Druid Staff,Healer,Distanza,15,War Golems (Melee),mischia,mischia,236,E,1.1,0.0,1.0,0.0,35.5,35.9,4.7,5.7,1.0,1.0,47.0,73.5,76.8,12,14,937,49.4,4.79,29.3,2,0.212,27.754,72.034,indicativa,14,0,33.7,cure
+Druid Staff,Healer,Distanza,16,Salamanders (Ranged),distanza,distanza,216,E,1.1,1.1,0.9,0.6,36.2,41.2,4.6,3.4,1.1,0.0,53.2,66.1,73.0,100,15,232,72.9,8.99,51.5,4,0.0,77.315,22.685,indicativa,40,1,45.5,cure
+Druid Staff,Healer,Distanza,17,Greater Demons (Melee),mischia,distanza,80,A,1.0,0.0,0.9,0.9,36.1,34.6,4.6,4.6,1.1,1.1,22.6,34.7,33.8,100,16,246,65.0,9.33,28.0,3,0.0,98.125,1.875,indicativa,17,2,52.82,cure
+Druid Staff,Healer,Distanza,18,Enslaved Orcs,ibrida,distanza/mischia,432,G,1.1,1.9,0.9,0.9,35.8,34.3,4.7,5.4,1.0,0.0,47.5,65.8,66.4,100,17,448,61.2,8.12,40.2,8,0.0,39.352,60.648,indicativa,57,2,43.6,cure
+Druid Staff,Healer,Distanza,19,Night Elf Hunters,ibrida,mischia,,D,1.0,0.0,0.8,0.0,36.0,36.9,4.5,3.0,1.0,0.3,35.9,51.5,51.5,100,18,172,59.8,10.95,36.6,5,0.0,85.096,14.904,indicativa,42,1,46.92,
+Druid Staff,Healer,Distanza,20,Arena Organisers,ibrida,mischia,,SCONFITTA,1.1,3.2,0.7,0.0,34.7,21.1,4.5,4.4,0.9,0.0,5.7,9.4,10.4,100,19,0,68.7,7.45,44.4,6,0.0,62.019,37.981,indicativa,45,2,42.39,
+War Drums,Support,Distanza,1,Prisoners,ibrida,mischia,61,A,6.3,6.3,3.0,3.0,3.4,3.4,0.0,0.0,0.0,0.0,4.3,5.6,6.1,100,2,17,37.3,0.24,28.3,0,99.18,0.82,0.0,non affidabile,0,0,0.0,
+War Drums,Support,Distanza,2,Machines,ibrida,distanza,73,A,5.2,3.8,1.0,0.0,10.2,18.7,0.0,0.0,0.0,0.0,20.9,31.7,35.2,100,3,52,31.4,0.0,14.5,0,0.0,100.0,0.0,non affidabile,0,0,0.0,
+War Drums,Support,Distanza,3,Combatants (Melee),mischia,mischia,77,A,4.5,2.9,0.8,0.5,10.2,10.1,0.0,0.0,0.0,0.0,13.0,18.2,18.4,100,4,79,14.5,0.6,7.2,0,0.0,100.0,0.0,non affidabile,1,0,18.42,
+War Drums,Support,Distanza,4,Voidwalkers (Ranged),distanza,mischia,154,C,4.9,5.8,3.3,5.7,11.7,14.5,0.0,0.0,0.0,0.0,16.4,26.1,26.6,100,4,35,23.7,2.15,13.3,4,99.675,0.325,0.0,non affidabile,8,0,42.81,
+War Drums,Support,Distanza,5,Sasquatches (Melee),mischia,mischia,189,D,4.3,2.5,3.5,4.1,11.9,12.4,0.5,2.0,0.5,2.0,15.4,24.6,24.6,100,5,50,35.2,2.1,25.5,3,100.0,0.0,0.0,non affidabile,8,0,34.39,
+War Drums,Support,Distanza,6,Boars,ibrida,distanza,105,B,4.1,3.0,3.3,2.4,11.3,8.0,0.4,0.0,0.4,0.0,13.0,21.9,23.9,100,6,69,23.7,1.04,13.8,1,99.524,0.476,0.0,non affidabile,2,0,21.21,
+War Drums,Support,Distanza,7,Goblins,ibrida,distanza,174,D,3.5,0.6,3.0,1.6,11.2,10.7,0.5,1.0,0.5,1.0,15.2,28.3,23.3,100,7,92,50.5,1.78,33.5,2,31.034,68.966,0.0,non affidabile,6,0,31.4,
+War Drums,Support,Distanza,8,Mur'guls,ibrida,distanza,,,3.4,2.7,4.0,7.5,10.2,4.6,0.6,1.2,0.6,1.2,6.6,7.1,0.0,100,8,277,26.8,0.63,16.9,2,0.0,100.0,0.0,non affidabile,2,0,17.12,
+War Drums,Support,Distanza,9,Water Elementals (Ranged),distanza,distanza,428,G,2.8,0.6,3.6,2.2,9.0,4.6,0.6,0.6,0.6,0.6,9.1,15.4,5.8,100,9,127,42.5,1.29,32.2,3,0.0,79.673,20.327,non affidabile,9,0,22.75,
+War Drums,Support,Distanza,10,Mammoths (Melee),mischia,mischia,161,D,2.7,2.4,3.6,3.6,9.5,13.7,0.6,0.6,0.6,0.6,16.5,23.1,18.8,100,10,298,23.3,0.83,13.7,0,0.0,67.391,32.609,non affidabile,4,0,18.23,
+War Drums,Support,Distanza,11,Nether Drakes (Ranged),distanza,distanza,150,C,2.7,2.7,3.7,4.5,10.2,17.6,0.7,1.8,0.7,1.8,26.5,32.4,23.5,100,10,230,25.5,1.32,10.5,3,0.0,100.0,0.0,non affidabile,3,0,40.48,
+War Drums,Support,Distanza,12,Giant Spiders,ibrida,distanza,,,2.4,0.4,3.6,2.3,10.3,11.3,0.7,0.7,0.7,0.7,14.9,18.7,14.7,100,11,328,44.7,1.01,29.1,0,0.0,82.743,17.257,non affidabile,4,0,44.92,
+War Drums,Support,Distanza,13,Revenants,ibrida,mischia,132,C,2.1,0.0,3.4,1.7,9.6,4.1,1.1,3.8,1.1,3.8,0.0,0.0,0.0,5,12,536,40.2,1.49,30.8,1,0.0,94.697,5.303,non affidabile,4,0,22.78,
+War Drums,Support,Distanza,14,Faceless Ones,ibrida,mischia,121,C,1.9,0.3,3.4,3.4,9.9,12.3,1.2,2.7,1.2,2.7,14.7,19.6,9.1,100,13,693,40.9,1.45,24.2,2,0.0,100.0,0.0,non affidabile,5,0,35.79,
+War Drums,Support,Distanza,15,War Golems (Melee),mischia,mischia,236,E,1.8,0.7,2.6,0.0,10.3,14.8,1.2,1.2,1.2,1.2,18.4,26.5,23.2,12,14,457,18.8,0.33,7.6,0,0.212,12.924,86.864,non affidabile,1,0,5.88,
+War Drums,Support,Distanza,16,Salamanders (Ranged),distanza,distanza,216,E,1.7,0.4,2.4,1.7,10.6,12.7,1.1,0.0,1.1,0.0,16.8,22.4,27.0,100,15,347,52.8,1.41,36.5,2,1.62,98.38,0.0,non affidabile,6,0,40.41,
+War Drums,Support,Distanza,17,Greater Demons (Melee),mischia,distanza,80,A,1.7,1.7,2.4,2.4,12.1,24.6,1.1,1.1,1.1,1.1,41.4,65.3,66.2,100,16,501,36.1,2.04,15.5,3,0.0,100.0,0.0,non affidabile,4,0,51.06,
+War Drums,Support,Distanza,18,Enslaved Orcs,ibrida,distanza/mischia,432,G,1.7,1.7,2.3,1.6,12.4,14.2,1.0,0.1,1.0,0.1,19.9,27.0,26.1,16,17,1228,14.3,0.42,9.8,0,0.116,29.167,70.718,non affidabile,2,0,11.55,
+War Drums,Support,Distanza,19,Night Elf Hunters,ibrida,mischia,,D,1.7,1.7,2.2,1.1,13.8,21.7,1.0,1.0,1.0,1.0,33.9,48.5,48.5,100,18,303,38.8,1.44,19.7,3,74.519,25.481,0.0,non affidabile,6,0,40.26,
+War Drums,Support,Distanza,20,Arena Organisers,ibrida,mischia,,SCONFITTA,1.7,1.7,2.4,4.4,15.4,32.3,0.9,0.0,0.9,0.0,48.8,81.0,89.6,100,18,75,32.2,0.9,21.6,4,0.0,86.218,13.782,non affidabile,6,0,31.83,
+Claws,DPS mischia,Mischia,1,Prisoners,ibrida,mischia,61,A,17.1,17.1,4.3,4.3,0.5,0.5,21.7,21.7,21.7,21.7,0.6,0.0,0.0,100,2,19,40.2,0.97,28.3,0,0.0,50.82,49.18,indicativa,3,0,6.56,danni
+Claws,DPS mischia,Mischia,2,Machines,ibrida,distanza,73,A,17.3,17.6,2.3,1.3,2.4,4.8,18.4,14.3,18.4,14.3,5.3,0.0,0.0,90,3,84,51.0,2.71,38.0,0,100.0,0.0,0.0,indicativa,5,0,9.13,danni
+Claws,DPS mischia,Mischia,3,Combatants (Melee),mischia,mischia,77,A,14.8,9.2,2.5,2.8,3.6,6.3,21.0,26.7,19.49,23.0,7.3,0.0,0.0,100,4,118,25.9,2.11,11.4,0,61.688,38.312,0.0,indicativa,5,0,12.19,tank
+Claws,DPS mischia,Mischia,4,Voidwalkers (Ranged),distanza,mischia,154,C,13.3,9.8,3.6,4.6,5.2,8.2,22.4,25.8,18.44,18.9,8.8,0.0,0.0,100,4,99,67.7,4.09,55.1,4,92.208,7.792,0.0,indicativa,16,0,26.09,
+Claws,DPS mischia,Mischia,5,Sasquatches (Melee),mischia,mischia,189,D,12.5,10.2,2.7,0.1,5.1,4.8,23.6,27.0,20.58,25.6,6.2,0.0,0.0,17,5,186,42.3,2.48,28.0,2,34.656,58.201,7.143,indicativa,6,0,8.29,tank
+Claws,DPS mischia,Mischia,6,Boars,ibrida,distanza,105,B,12.1,9.9,5.0,15.4,5.1,5.1,23.0,19.8,18.87,10.4,8.2,0.0,0.0,100,6,286,73.6,4.96,50.1,3,100.0,0.0,0.0,indicativa,11,0,31.56,
+Claws,DPS mischia,Mischia,7,Goblins,ibrida,distanza,174,D,12.1,12.2,5.0,5.0,5.9,9.8,23.6,26.4,18.52,18.2,12.6,0.0,0.0,100,7,450,72.5,3.76,51.5,5,27.586,72.414,0.0,indicativa,13,0,54.94,
+Claws,DPS mischia,Mischia,8,Mur'guls,ibrida,distanza,,,13.8,24.0,8.9,22.6,5.0,0.0,24.3,28.5,18.71,20.3,0.4,0.0,0.0,100,8,116,69.4,4.18,55.9,3,34.783,65.217,0.0,indicativa,13,2,39.03,tank
+Claws,DPS mischia,Mischia,9,Water Elementals (Ranged),distanza,distanza,428,G,12.3,6.8,12.9,26.4,4.7,3.6,20.8,7.9,16.56,6.9,5.9,0.0,0.0,100,9,130,40.9,1.72,30.5,2,0.117,27.804,72.079,indicativa,12,0,9.61,boss
+Claws,DPS mischia,Mischia,10,Mammoths (Melee),mischia,mischia,161,D,12.2,11.9,11.9,9.9,4.7,4.6,21.1,23.8,16.9,19.9,5.6,0.0,0.0,100,10,216,76.6,4.36,58.5,4,86.335,13.665,0.0,indicativa,14,0,23.54,
+Claws,DPS mischia,Mischia,11,Nether Drakes (Ranged),distanza,distanza,150,C,12.7,18.0,11.3,6.1,4.3,0.0,21.1,21.6,16.82,16.5,0.1,0.0,0.0,100,11,348,71.0,4.84,49.5,2,66.667,33.333,0.0,indicativa,18,0,42.72,
+Claws,DPS mischia,Mischia,12,Giant Spiders,ibrida,distanza,,,16.3,39.5,11.9,19.9,4.9,11.2,21.0,19.3,16.78,16.0,16.4,0.0,0.0,100,11,676,53.2,5.03,36.7,1,73.894,25.664,0.442,indicativa,13,0,45.35,
+Claws,DPS mischia,Mischia,13,Revenants,ibrida,mischia,132,C,20.0,45.4,17.4,61.2,5.6,10.9,21.8,27.1,17.64,23.7,16.2,0.0,0.0,3,12,0,106.1,6.2,84.6,0,0.379,99.621,0.0,indicativa,16,0,57.93,"danni, boss"
+Claws,DPS mischia,Mischia,14,Faceless Ones,ibrida,mischia,121,C,22.4,41.3,18.3,24.2,6.4,12.8,22.4,31.3,18.22,26.7,19.4,0.0,0.0,100,13,203,79.1,4.84,54.2,3,32.645,67.355,0.0,indicativa,14,0,40.91,danni
+Claws,DPS mischia,Mischia,15,War Golems (Melee),mischia,mischia,236,E,23.4,34.5,23.7,41.4,6.1,2.9,22.2,19.8,18.06,16.1,4.5,0.0,0.0,100,14,491,110.6,5.12,91.9,1,15.042,84.958,0.0,indicativa,23,0,26.37,"danni, boss"
+Claws,DPS mischia,Mischia,16,Salamanders (Ranged),distanza,distanza,216,E,24.4,36.5,27.9,42.0,5.9,4.7,22.2,22.8,18.01,18.1,4.5,0.0,0.0,100,15,756,106.6,5.82,88.9,4,98.611,1.389,0.0,indicativa,25,0,57.27,"danni, boss"
+Claws,DPS mischia,Mischia,17,Greater Demons (Melee),mischia,distanza,80,A,24.9,33.1,29.0,38.6,6.4,10.5,22.7,33.9,18.49,28.9,15.4,0.0,0.0,100,16,637,73.1,6.71,43.1,1,100.0,0.0,0.0,indicativa,12,0,55.45,"danni, boss, tank"
+Claws,DPS mischia,Mischia,18,Enslaved Orcs,ibrida,distanza/mischia,432,G,26.3,37.5,31.6,48.6,8.1,17.8,25.7,49.9,21.5,45.8,25.9,0.0,0.0,100,17,590,116.6,6.22,97.3,6,87.5,12.5,0.0,indicativa,49,0,50.72,"danni, boss, tank"
+Claws,DPS mischia,Mischia,19,Night Elf Hunters,ibrida,mischia,,D,26.9,36.9,33.2,50.9,7.3,2.7,24.5,15.7,20.36,12.5,0.0,0.0,0.0,100,17,419,87.5,4.49,61.9,2,81.25,18.75,0.0,indicativa,16,0,32.07,
+Claws,DPS mischia,Mischia,20,Arena Organisers,ibrida,mischia,,SCONFITTA,27.1,31.4,33.4,35.0,6.7,0.4,24.1,16.8,20.02,14.0,0.0,0.0,0.0,100,18,89,79.4,4.29,63.2,3,4.327,95.673,0.0,indicativa,27,1,38.55,
+Double Blade,DPS mischia,Mischia,1,Prisoners,ibrida,mischia,61,A,9.5,9.5,10.4,10.4,11.1,11.1,10.8,10.8,10.8,10.8,14.0,8.1,0.0,100,2,17,22.7,0.73,16.2,0,99.18,0.82,0.0,non affidabile,2,0,4.92,
+Double Blade,DPS mischia,Mischia,2,Machines,ibrida,distanza,73,A,8.2,6.6,8.4,7.4,6.7,1.2,11.8,13.0,11.8,13.0,4.0,0.0,0.0,100,3,52,26.8,0.3,11.7,0,99.315,0.685,0.0,non affidabile,1,0,2.74,
+Double Blade,DPS mischia,Mischia,3,Combatants (Melee),mischia,mischia,77,A,7.1,4.6,4.9,0.0,8.3,11.8,12.6,14.3,12.6,14.3,14.2,1.5,0.0,100,4,54,30.2,2.11,16.6,1,90.26,9.74,0.0,non affidabile,3,2,21.95,
+Double Blade,DPS mischia,Mischia,4,Voidwalkers (Ranged),distanza,mischia,154,C,5.0,0.1,3.9,2.9,5.4,0.0,10.3,5.0,10.3,5.0,1.7,0.0,0.0,100,4,110,25.6,1.94,15.3,0,0.0,100.0,0.0,non affidabile,4,3,18.38,
+Double Blade,DPS mischia,Mischia,5,Sasquatches (Melee),mischia,mischia,189,D,5.0,5.0,2.9,0.0,7.1,12.0,11.7,15.7,11.7,15.7,13.0,0.0,0.0,17,5,85,32.0,1.9,18.7,0,100.0,0.0,0.0,non affidabile,4,2,6.8,
+Double Blade,DPS mischia,Mischia,6,Boars,ibrida,distanza,105,B,4.3,0.5,2.9,2.9,8.2,14.1,11.3,9.2,11.3,9.2,22.4,8.3,0.0,100,6,160,34.4,1.04,21.7,0,99.524,0.476,0.0,non affidabile,2,0,15.01,
+Double Blade,DPS mischia,Mischia,7,Goblins,ibrida,distanza,174,D,5.7,12.6,3.2,4.5,8.9,12.3,13.0,20.9,11.94,16.4,16.3,0.0,0.0,49,7,84,59.0,2.77,36.2,0,36.782,63.218,0.0,non affidabile,8,3,32.06,
+Double Blade,DPS mischia,Mischia,8,Mur'guls,ibrida,distanza,,,5.2,2.1,2.5,0.1,9.3,11.4,13.8,18.6,12.91,18.6,15.3,0.0,0.0,100,8,96,52.7,2.72,36.0,0,83.23,16.77,0.0,non affidabile,8,0,27.82,
+Double Blade,DPS mischia,Mischia,9,Water Elementals (Ranged),distanza,distanza,428,G,7.0,13.7,6.0,17.8,8.1,3.7,21.9,51.9,20.64,49.7,7.8,0.0,0.0,100,9,130,122.2,1.72,100.5,7,45.093,54.907,0.0,non affidabile,14,0,19.9,tank
+Double Blade,DPS mischia,Mischia,10,Mammoths (Melee),mischia,mischia,161,D,7.7,10.1,11.5,22.6,7.9,6.0,22.4,26.9,21.27,26.9,7.3,0.0,0.0,100,10,0,39.2,2.28,24.5,3,13.975,86.025,0.0,non affidabile,8,0,26.1,"boss, tank"
+Double Blade,DPS mischia,Mischia,11,Nether Drakes (Ranged),distanza,distanza,150,C,7.5,5.4,10.3,0.0,7.7,5.6,24.4,46.7,23.38,46.7,8.4,0.0,0.0,100,10,159,34.7,3.08,11.4,3,0.0,100.0,0.0,non affidabile,8,0,31.77,tank
+Double Blade,DPS mischia,Mischia,12,Giant Spiders,ibrida,distanza,,,7.8,9.7,10.2,8.9,7.3,3.1,25.7,42.3,24.74,42.3,2.6,0.0,0.0,100,11,0,38.9,2.51,20.6,2,1.77,98.23,0.0,non affidabile,6,0,21.56,
+Double Blade,DPS mischia,Mischia,13,Revenants,ibrida,mischia,132,C,7.8,7.7,9.9,7.3,7.3,7.2,28.6,48.2,27.27,42.3,7.6,0.0,0.0,92,12,0,69.7,3.72,54.8,4,9.47,90.53,0.0,non affidabile,9,2,45.98,tank
+Double Blade,DPS mischia,Mischia,14,Faceless Ones,ibrida,mischia,121,C,7.2,2.6,8.6,0.0,8.1,14.5,29.5,42.8,28.25,42.8,21.1,0.0,0.0,100,13,203,20.1,3.87,6.3,4,0.0,100.0,0.0,non affidabile,6,2,30.49,tank
+Double Blade,DPS mischia,Mischia,15,War Golems (Melee),mischia,mischia,236,E,6.8,2.5,9.9,14.2,7.9,5.8,30.0,35.0,28.88,35.0,8.1,0.0,0.0,52,14,0,106.3,1.49,88.3,4,0.0,87.5,12.5,non affidabile,6,0,11.01,tank
+Double Blade,DPS mischia,Mischia,16,Salamanders (Ranged),distanza,distanza,216,E,6.6,4.0,10.9,14.3,7.5,5.0,30.7,40.5,29.68,40.5,3.8,0.0,0.0,100,15,232,93.7,0.88,74.3,5,31.944,68.056,0.0,non affidabile,3,0,9.58,tank
+Double Blade,DPS mischia,Mischia,17,Greater Demons (Melee),mischia,distanza,80,A,6.2,0.3,9.8,0.6,6.9,1.7,30.5,26.0,29.52,26.0,0.0,0.0,0.0,100,15,358,25.9,1.17,12.2,1,0.0,100.0,0.0,non affidabile,3,0,25.0,
+Double Blade,DPS mischia,Mischia,18,Enslaved Orcs,ibrida,distanza/mischia,432,G,5.8,2.4,8.5,0.0,6.1,1.6,28.2,8.5,27.37,8.5,1.7,0.0,0.0,16,17,701,22.9,0.53,11.0,4,0.116,54.977,44.907,non affidabile,3,0,1.13,
+Double Blade,DPS mischia,Mischia,19,Night Elf Hunters,ibrida,mischia,,D,5.5,0.7,8.1,3.6,5.7,3.4,28.3,29.3,27.27,25.7,0.0,0.0,0.0,100,17,373,65.0,1.08,49.4,4,0.0,100.0,0.0,non affidabile,4,0,25.92,
+Double Blade,DPS mischia,Mischia,20,Arena Organisers,ibrida,mischia,,SCONFITTA,5.3,1.0,7.7,3.6,6.7,17.2,28.6,33.3,27.62,33.3,27.7,0.0,0.0,96,18,0,73.0,0.9,51.7,9,0.0,100.0,0.0,non affidabile,7,0,6.0,
+Pickaxe,DPS mischia,Mischia,1,Prisoners,ibrida,mischia,61,A,5.5,5.5,7.1,7.1,7.9,7.9,9.6,9.6,3.69,3.7,0.0,0.0,0.0,91,2,17,77.2,0.48,49.9,0,0.0,63.934,36.066,indicativa,1,0,10.47,
+Pickaxe,DPS mischia,Mischia,2,Machines,ibrida,distanza,73,A,12.7,21.7,16.9,21.8,4.9,1.2,11.4,13.6,3.73,4.5,0.0,0.0,0.0,75,3,52,62.7,0.0,35.5,0,0.0,62.329,37.671,indicativa,0,0,0.0,
+Pickaxe,DPS mischia,Mischia,3,Combatants (Melee),mischia,mischia,77,A,16.9,26.3,18.5,20.7,5.9,8.1,11.1,10.4,3.44,2.7,0.0,0.0,0.0,100,4,61,53.4,2.41,17.8,0,20.13,79.87,0.0,indicativa,4,0,20.99,danni
+Pickaxe,DPS mischia,Mischia,4,Voidwalkers (Ranged),distanza,mischia,154,C,19.2,24.5,18.3,18.1,6.9,8.8,11.9,13.8,4.4,6.5,0.0,0.0,0.0,100,5,77,98.9,3.66,61.7,3,99.351,0.649,0.0,indicativa,11,3,24.54,danni
+Pickaxe,DPS mischia,Mischia,5,Sasquatches (Melee),mischia,mischia,189,D,17.9,14.1,13.6,0.0,6.2,4.1,10.4,6.0,3.01,0.1,0.0,0.0,0.0,17,5,152,58.7,1.9,24.0,1,18.783,79.365,1.852,indicativa,2,0,4.55,
+Pickaxe,DPS mischia,Mischia,6,Boars,ibrida,distanza,105,B,17.9,17.8,14.6,19.0,6.8,10.0,10.2,9.2,2.87,2.2,0.0,0.0,0.0,98,6,92,96.5,2.87,54.0,4,59.048,40.952,0.0,indicativa,6,0,32.83,danni
+Pickaxe,DPS mischia,Mischia,7,Goblins,ibrida,distanza,174,D,16.8,11.6,16.9,27.2,5.9,1.5,8.4,0.0,1.23,0.0,0.0,0.0,0.0,100,7,101,97.8,3.76,52.3,5,78.161,21.839,0.0,indicativa,9,1,41.54,boss
+Pickaxe,DPS mischia,Mischia,8,Mur'guls,ibrida,distanza,,,16.8,16.6,17.9,21.5,5.4,2.6,7.2,0.0,0.6,0.0,0.0,0.0,0.0,100,8,108,73.0,5.23,43.9,4,81.366,18.634,0.0,indicativa,9,10,38.33,
+Pickaxe,DPS mischia,Mischia,9,Water Elementals (Ranged),distanza,distanza,428,G,17.0,17.7,15.9,9.2,5.3,5.0,6.0,1.6,0.6,0.6,0.0,0.0,0.0,100,9,151,125.0,3.34,100.4,7,23.248,76.752,0.0,indicativa,18,4,32.24,
+Pickaxe,DPS mischia,Mischia,10,Mammoths (Melee),mischia,mischia,161,D,16.3,13.9,14.4,11.4,4.8,0.3,5.8,4.0,0.6,0.2,0.0,0.0,0.0,100,10,392,92.8,8.09,60.2,8,98.447,1.553,0.0,indicativa,13,16,43.53,
+Pickaxe,DPS mischia,Mischia,11,Nether Drakes (Ranged),distanza,distanza,150,C,16.2,15.1,13.1,1.9,4.4,0.1,5.3,0.0,0.7,0.0,0.0,0.0,0.0,16,11,203,56.0,4.18,30.5,2,38.0,62.0,0.0,indicativa,4,3,27.79,danni
+Pickaxe,DPS mischia,Mischia,12,Giant Spiders,ibrida,distanza,,,15.2,8.6,12.4,3.1,4.4,4.4,5.2,3.8,0.7,0.0,0.0,0.0,0.0,100,12,538,81.3,6.28,49.0,3,92.92,7.08,0.0,indicativa,7,5,40.53,
+Pickaxe,DPS mischia,Mischia,13,Revenants,ibrida,mischia,132,C,15.1,14.3,11.2,1.4,3.9,0.0,5.0,3.6,1.0,1.5,0.0,0.0,0.0,19,12,757,97.2,4.96,66.7,4,0.379,70.076,29.545,indicativa,4,2,12.4,
+Pickaxe,DPS mischia,Mischia,14,Faceless Ones,ibrida,mischia,121,C,14.8,12.6,10.8,8.1,3.6,1.2,4.7,0.3,1.0,0.3,0.0,0.0,0.0,100,13,975,115.4,7.02,71.2,4,94.215,5.785,0.0,indicativa,6,10,35.29,
+Pickaxe,DPS mischia,Mischia,15,War Golems (Melee),mischia,mischia,236,E,14.0,5.4,9.2,4.0,3.7,4.8,4.7,4.6,1.0,1.0,0.0,0.0,0.0,18,14,1261,99.2,3.97,63.6,4,59.322,40.678,0.0,indicativa,10,4,37.95,
+Pickaxe,DPS mischia,Mischia,16,Salamanders (Ranged),distanza,distanza,216,E,14.8,24.5,10.0,12.7,3.2,0.0,4.6,3.4,1.1,0.0,0.0,0.0,0.0,100,15,192,131.1,6.17,98.4,5,72.222,27.778,0.0,indicativa,15,8,45.14,
+Pickaxe,DPS mischia,Mischia,17,Greater Demons (Melee),mischia,distanza,80,A,15.6,28.1,10.7,16.7,3.1,2.2,4.5,2.3,1.1,1.1,0.0,0.0,0.0,100,16,538,74.9,6.71,50.4,3,99.375,0.625,0.0,indicativa,7,6,47.1,
+Pickaxe,DPS mischia,Mischia,18,Enslaved Orcs,ibrida,distanza/mischia,432,G,15.3,12.5,9.7,3.2,3.3,4.5,4.2,1.6,1.0,0.0,0.0,0.0,0.0,29,17,892,39.8,3.16,18.1,3,0.231,43.981,55.787,indicativa,5,6,6.47,
+Pickaxe,DPS mischia,Mischia,19,Night Elf Hunters,ibrida,mischia,,D,15.3,15.5,8.9,0.0,3.1,1.9,3.7,0.0,1.0,0.0,0.0,0.0,0.0,100,18,322,110.1,7.18,73.2,5,66.587,33.413,0.0,indicativa,10,12,33.86,
+Pickaxe,DPS mischia,Mischia,20,Arena Organisers,ibrida,mischia,,SCONFITTA,15.3,15.3,8.1,0.0,3.1,3.1,3.5,0.0,0.9,0.0,0.0,0.0,0.0,100,19,0,76.7,4.63,53.8,4,0.0,88.141,11.859,indicativa,11,12,25.53,
+Bow,DPS distanza,Distanza,1,Prisoners,ibrida,mischia,61,A,16.5,16.5,4.2,4.2,0.0,0.0,0.2,0.2,0.2,0.2,0.0,0.0,0.0,100,2,17,24.4,0.97,14.0,0,100.0,0.0,0.0,non affidabile,0,0,0.0,
+Bow,DPS distanza,Distanza,2,Machines,ibrida,distanza,73,A,13.0,8.6,1.5,0.2,0.0,0.0,0.1,0.0,0.1,0.0,0.0,0.0,0.0,100,3,22,26.2,1.2,14.8,0,100.0,0.0,0.0,non affidabile,0,0,0.0,
+Bow,DPS distanza,Distanza,3,Combatants (Melee),mischia,mischia,77,A,13.6,14.9,4.5,8.7,0.0,0.0,0.1,0.1,0.1,0.1,0.0,0.0,0.0,100,4,84,20.5,2.71,5.1,0,100.0,0.0,0.0,non affidabile,4,1,18.7,
+Bow,DPS distanza,Distanza,4,Voidwalkers (Ranged),distanza,mischia,154,C,10.5,3.3,2.2,0.0,0.2,0.6,0.5,1.4,0.5,1.4,0.0,0.0,0.0,21,5,165,14.2,1.08,4.1,0,100.0,0.0,0.0,non affidabile,0,0,3.21,
+Bow,DPS distanza,Distanza,5,Sasquatches (Melee),mischia,mischia,189,D,9.5,6.6,1.7,0.3,0.5,1.4,1.1,2.9,1.1,2.9,0.0,0.0,0.0,17,6,50,20.2,1.14,5.1,2,100.0,0.0,0.0,non affidabile,1,0,1.26,
+Bow,DPS distanza,Distanza,6,Boars,ibrida,distanza,105,B,10.4,15.2,3.4,11.1,0.4,0.0,1.0,0.5,1.0,0.5,0.0,0.0,0.0,100,6,65,18.3,1.83,5.2,4,100.0,0.0,0.0,non affidabile,3,0,11.52,
+Bow,DPS distanza,Distanza,7,Goblins,ibrida,distanza,174,D,10.1,8.7,3.8,5.6,0.5,1.0,0.9,0.4,0.9,0.4,0.0,0.0,0.0,15,7,204,25.0,2.57,12.7,4,98.563,1.437,0.0,non affidabile,8,0,31.83,
+Bow,DPS distanza,Distanza,8,Mur'guls,ibrida,distanza,,,10.7,14.2,9.0,27.3,1.2,5.1,1.1,2.3,1.1,2.3,0.0,0.0,0.0,100,8,141,37.8,3.14,25.1,5,100.0,0.0,0.0,non affidabile,8,0,37.73,boss
+Bow,DPS distanza,Distanza,9,Water Elementals (Ranged),distanza,distanza,428,G,10.8,11.2,9.9,12.9,1.8,4.1,1.2,1.6,1.2,1.6,0.0,0.0,0.0,15,9,108,41.5,1.83,23.8,6,52.687,47.313,0.0,non affidabile,12,0,22.19,
+Bow,DPS distanza,Distanza,10,Mammoths (Melee),mischia,mischia,161,D,12.4,17.8,13.8,21.7,1.7,0.8,1.1,0.2,1.1,0.2,0.0,0.0,0.0,100,10,0,24.5,4.15,9.8,6,99.068,0.932,0.0,non affidabile,14,0,47.3,danni
+Bow,DPS distanza,Distanza,11,Nether Drakes (Ranged),distanza,distanza,150,C,12.7,15.9,14.7,22.2,1.8,2.9,1.0,0.0,1.0,0.0,0.0,0.0,0.0,100,11,155,29.5,3.52,14.7,5,93.667,6.333,0.0,non affidabile,11,0,41.98,
+Bow,DPS distanza,Distanza,12,Giant Spiders,ibrida,distanza,,,12.1,8.1,14.9,17.6,1.7,0.6,0.9,0.0,0.9,0.0,0.0,0.0,0.0,100,12,428,29.6,3.27,13.8,4,88.938,11.062,0.0,non affidabile,6,0,35.87,
+Bow,DPS distanza,Distanza,13,Revenants,ibrida,mischia,132,C,12.1,12.0,13.6,2.9,2.0,4.3,1.2,3.2,1.2,3.2,0.0,0.0,0.0,13,12,198,33.2,1.99,8.4,3,2.652,97.348,0.0,non affidabile,3,0,17.87,
+Bow,DPS distanza,Distanza,14,Faceless Ones,ibrida,mischia,121,C,13.2,21.9,18.1,47.8,2.1,2.9,1.2,1.2,1.2,1.2,0.0,0.0,0.0,100,13,203,23.5,1.21,14.3,4,0.413,99.587,0.0,non affidabile,2,0,23.72,boss
+Bow,DPS distanza,Distanza,15,War Golems (Melee),mischia,mischia,236,E,13.6,18.1,20.3,27.5,2.1,2.1,1.2,1.2,1.2,1.2,0.0,0.0,0.0,12,14,0,44.3,2.48,26.1,5,74.788,25.212,0.0,non affidabile,7,0,24.25,
+Bow,DPS distanza,Distanza,16,Salamanders (Ranged),distanza,distanza,216,E,13.7,14.8,16.2,2.5,2.9,8.1,1.3,2.6,1.3,2.6,0.0,0.0,0.0,12,15,192,28.8,1.76,14.6,4,43.981,56.019,0.0,non affidabile,6,0,22.28,
+Bow,DPS distanza,Distanza,17,Greater Demons (Melee),mischia,distanza,80,A,13.7,14.1,16.0,14.5,2.6,0.0,1.3,1.3,1.3,1.3,0.0,0.0,0.0,100,16,395,36.1,2.92,20.1,3,81.25,18.75,0.0,non affidabile,3,0,25.74,
+Bow,DPS distanza,Distanza,18,Enslaved Orcs,ibrida,distanza/mischia,432,G,13.1,7.9,15.3,10.7,2.7,3.3,1.1,0.0,1.1,0.0,0.0,0.0,0.0,16,17,0,41.2,1.05,8.2,4,24.421,38.31,37.269,non affidabile,4,0,5.41,
+Bow,DPS distanza,Distanza,19,Night Elf Hunters,ibrida,mischia,,D,12.7,6.3,14.3,3.2,2.3,0.0,1.0,0.3,1.0,0.3,0.0,0.0,0.0,100,18,148,32.7,2.51,16.5,4,21.875,78.125,0.0,non affidabile,6,0,19.4,
+Bow,DPS distanza,Distanza,20,Arena Organisers,ibrida,mischia,,SCONFITTA,12.4,6.0,14.3,14.1,2.1,0.0,0.9,0.0,0.9,0.0,0.0,0.0,0.0,100,19,365,32.3,2.14,14.7,5,9.776,84.295,5.929,non affidabile,11,0,25.76,
+Naga Trident,DPS distanza,Distanza,1,Prisoners,ibrida,mischia,61,A,14.6,14.6,40.0,40.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100,2,19,80.6,2.91,66.6,0,85.246,14.754,0.0,non affidabile,7,0,14.43,boss
+Naga Trident,DPS distanza,Distanza,2,Machines,ibrida,distanza,73,A,11.9,8.5,36.1,34.2,0.7,1.6,0.5,1.1,0.5,1.1,0.0,0.0,0.0,100,3,84,63.0,2.11,51.2,0,99.315,0.685,0.0,non affidabile,4,0,11.7,boss
+Naga Trident,DPS distanza,Distanza,3,Combatants (Melee),mischia,mischia,77,A,12.7,14.5,27.9,16.4,0.4,0.0,0.4,0.2,0.4,0.2,0.0,0.0,0.0,100,4,86,30.8,2.71,18.4,0,100.0,0.0,0.0,non affidabile,6,0,18.2,
+Naga Trident,DPS distanza,Distanza,4,Voidwalkers (Ranged),distanza,mischia,154,C,13.4,15.0,24.0,20.2,1.5,3.6,0.9,2.1,0.9,2.1,0.0,0.0,0.0,100,5,152,38.5,2.8,29.5,0,95.13,4.87,0.0,non affidabile,12,0,20.0,boss
+Naga Trident,DPS distanza,Distanza,5,Sasquatches (Melee),mischia,mischia,189,D,14.3,17.0,22.7,19.1,1.0,0.0,0.7,0.1,0.7,0.1,0.0,0.0,0.0,100,5,114,113.1,2.48,97.9,1,76.72,23.28,0.0,non affidabile,9,0,13.03,danni
+Naga Trident,DPS distanza,Distanza,6,Boars,ibrida,distanza,105,B,13.6,9.8,21.4,15.3,0.8,0.0,0.6,0.1,0.6,0.1,0.0,0.0,0.0,100,6,60,77.5,2.61,53.5,1,99.524,0.476,0.0,non affidabile,7,0,16.41,
+Naga Trident,DPS distanza,Distanza,7,Goblins,ibrida,distanza,174,D,14.7,20.3,19.3,9.8,1.4,4.3,0.6,0.6,0.6,0.6,0.0,0.0,0.0,100,7,145,78.8,2.77,55.6,0,9.483,90.517,0.0,non affidabile,10,0,18.48,danni
+Naga Trident,DPS distanza,Distanza,8,Mur'guls,ibrida,distanza,,,16.1,24.4,17.8,12.6,1.3,0.7,0.7,1.3,0.7,1.3,0.0,0.0,0.0,100,8,282,63.3,3.56,35.6,1,98.758,1.242,0.0,non affidabile,13,0,21.05,danni
+Naga Trident,DPS distanza,Distanza,9,Water Elementals (Ranged),distanza,distanza,428,G,14.6,9.1,14.6,3.8,1.2,0.8,0.8,1.2,0.8,1.2,0.0,0.0,0.0,15,9,414,32.0,0.65,24.8,0,9.112,53.505,37.383,non affidabile,3,0,3.24,
+Naga Trident,DPS distanza,Distanza,10,Mammoths (Melee),mischia,mischia,161,D,14.7,15.0,11.6,5.6,1.2,1.2,0.8,0.8,0.8,0.8,0.0,0.0,0.0,19,10,589,38.8,3.73,20.5,1,81.366,18.634,0.0,non affidabile,12,0,27.92,
+Naga Trident,DPS distanza,Distanza,11,Nether Drakes (Ranged),distanza,distanza,150,C,14.6,13.5,11.7,12.5,1.3,2.4,0.9,2.0,0.9,2.0,0.0,0.0,0.0,100,11,208,59.1,3.74,38.9,1,40.0,60.0,0.0,non affidabile,11,1,18.99,
+Naga Trident,DPS distanza,Distanza,12,Giant Spiders,ibrida,distanza,,,14.5,13.7,11.0,1.7,1.4,2.4,0.9,0.9,0.9,0.9,0.0,0.0,0.0,100,12,481,44.9,3.52,23.9,1,83.186,16.814,0.0,non affidabile,5,0,18.93,
+Naga Trident,DPS distanza,Distanza,13,Revenants,ibrida,mischia,132,C,13.3,4.9,9.8,0.0,1.2,0.0,1.0,1.7,1.0,1.7,0.0,0.0,0.0,13,13,689,53.6,1.99,35.2,0,0.379,55.682,43.939,non affidabile,2,0,5.79,
+Naga Trident,DPS distanza,Distanza,14,Faceless Ones,ibrida,mischia,121,C,12.7,8.1,9.5,7.5,1.2,1.2,1.0,1.0,1.0,1.0,0.0,0.0,0.0,100,13,168,66.8,3.39,31.5,1,33.884,66.116,0.0,non affidabile,8,0,17.14,
+Naga Trident,DPS distanza,Distanza,15,War Golems (Melee),mischia,mischia,236,E,12.8,14.0,7.4,0.6,1.1,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,12,14,423,29.3,1.65,18.0,1,15.254,66.102,18.644,non affidabile,1,0,2.97,
+Naga Trident,DPS distanza,Distanza,16,Salamanders (Ranged),distanza,distanza,216,E,11.9,0.6,5.7,0.0,1.2,1.9,1.1,2.4,1.1,2.4,0.0,0.0,0.0,12,15,615,95.5,1.94,68.1,2,27.315,68.981,3.704,non affidabile,5,0,7.06,
+Naga Trident,DPS distanza,Distanza,17,Greater Demons (Melee),mischia,distanza,80,A,11.7,9.0,6.5,13.3,1.1,0.2,1.1,1.1,1.1,1.1,0.0,0.0,0.0,100,16,204,58.3,3.5,39.1,0,1.875,98.125,0.0,non affidabile,6,0,22.75,
+Naga Trident,DPS distanza,Distanza,18,Enslaved Orcs,ibrida,distanza/mischia,432,G,11.4,8.7,6.4,5.8,1.2,1.8,1.1,1.1,1.1,1.1,0.0,0.0,0.0,21,17,194,15.3,1.16,5.7,1,12.384,38.773,48.843,non affidabile,4,0,5.59,
+Naga Trident,DPS distanza,Distanza,19,Night Elf Hunters,ibrida,mischia,,D,11.3,9.8,6.7,10.0,1.2,1.2,1.0,0.3,1.0,0.3,0.0,0.0,0.0,100,18,419,90.2,3.23,61.2,0,0.0,100.0,0.0,non affidabile,9,3,20.02,
+Naga Trident,DPS distanza,Distanza,20,Arena Organisers,ibrida,mischia,,SCONFITTA,11.1,6.8,6.5,4.4,1.1,0.1,1.1,2.8,1.1,2.8,0.0,0.0,0.0,100,19,0,83.3,1.81,62.5,3,0.0,86.218,13.782,non affidabile,8,0,14.2,
+Wizard Staff,DPS distanza,Distanza,1,Prisoners,ibrida,mischia,61,A,6.5,6.5,8.4,8.4,0.0,0.0,0.2,0.2,0.2,0.2,0.0,0.0,0.0,100,2,17,16.2,0.48,7.0,0,0.0,100.0,0.0,affidabile,0,0,0.0,
+Wizard Staff,DPS distanza,Distanza,2,Machines,ibrida,distanza,73,A,11.1,16.9,9.8,10.5,1.1,2.5,0.5,0.9,0.5,0.9,0.0,0.0,0.0,100,3,27,19.9,9.94,4.8,0,99.315,0.685,0.0,affidabile,14,0,6.39,
+Wizard Staff,DPS distanza,Distanza,3,Combatants (Melee),mischia,mischia,77,A,10.8,10.1,11.6,14.1,0.6,0.0,0.4,0.2,0.0,0.0,0.0,0.0,0.0,100,4,79,15.4,7.83,3.6,0,99.351,0.649,0.0,affidabile,12,0,14.89,
+Wizard Staff,DPS distanza,Distanza,4,Voidwalkers (Ranged),distanza,mischia,154,C,13.1,18.4,15.4,19.0,0.4,0.0,0.7,1.4,0.0,0.0,0.0,0.0,0.0,100,5,35,25.2,12.47,5.4,4,99.675,0.325,0.0,affidabile,40,0,14.51,
+Wizard Staff,DPS distanza,Distanza,5,Sasquatches (Melee),mischia,mischia,189,D,13.0,12.8,18.7,28.4,0.7,1.6,2.8,8.9,0.5,3.1,0.0,0.0,0.0,100,6,72,76.2,7.05,56.4,5,99.735,0.265,0.0,affidabile,19,0,17.72,boss
+Wizard Staff,DPS distanza,Distanza,6,Boars,ibrida,distanza,105,B,13.1,13.6,19.3,21.8,0.8,1.3,3.8,9.2,0.4,4.7,0.0,0.0,0.0,100,7,212,40.4,9.4,18.5,4,100.0,0.0,0.0,affidabile,14,1,26.43,boss
+Wizard Staff,DPS distanza,Distanza,7,Goblins,ibrida,distanza,174,D,12.6,10.3,19.8,22.0,1.2,3.1,4.3,6.6,0.5,0.6,0.0,0.0,0.0,100,7,84,36.0,7.72,16.2,3,79.885,20.115,0.0,affidabile,21,0,23.46,
+Wizard Staff,DPS distanza,Distanza,8,Mur'guls,ibrida,distanza,,,12.0,8.2,15.6,0.9,1.4,2.5,6.0,16.2,1.83,11.6,0.0,0.0,0.0,100,8,201,39.3,10.04,18.0,4,100.0,0.0,0.0,affidabile,33,0,25.48,
+Wizard Staff,DPS distanza,Distanza,9,Water Elementals (Ranged),distanza,distanza,428,G,13.3,18.1,13.6,6.9,1.8,3.3,7.3,12.1,1.93,3.8,0.0,0.0,0.0,100,9,355,89.2,5.6,69.8,9,84.346,15.654,0.0,affidabile,35,2,33.16,danni
+Wizard Staff,DPS distanza,Distanza,10,Mammoths (Melee),mischia,mischia,161,D,13.0,12.0,12.0,8.8,1.6,0.0,7.3,7.3,1.55,0.2,0.0,0.0,0.0,100,10,622,30.1,8.71,11.2,4,97.205,2.795,0.0,affidabile,27,0,26.59,
+Wizard Staff,DPS distanza,Distanza,11,Nether Drakes (Ranged),distanza,distanza,150,C,12.7,9.5,13.7,28.1,2.3,9.7,7.1,5.1,1.2,0.0,0.0,0.0,0.0,100,11,159,60.4,11.43,35.4,3,100.0,0.0,0.0,affidabile,35,1,42.86,boss
+Wizard Staff,DPS distanza,Distanza,12,Giant Spiders,ibrida,distanza,,,12.5,11.1,14.5,25.1,2.1,0.0,7.2,8.4,1.25,1.7,0.0,0.0,0.0,100,12,409,34.1,12.31,10.3,3,89.381,10.619,0.0,affidabile,28,3,43.96,
+Wizard Staff,DPS distanza,Distanza,13,Revenants,ibrida,mischia,132,C,12.1,9.2,13.2,2.5,2.7,7.3,7.6,10.3,1.44,1.5,0.0,0.0,0.0,70,13,617,63.0,9.43,41.2,4,89.773,10.227,0.0,affidabile,19,0,29.91,
+Wizard Staff,DPS distanza,Distanza,14,Faceless Ones,ibrida,mischia,121,C,11.9,10.4,11.8,2.5,2.4,0.0,7.7,9.2,1.49,2.2,0.0,0.0,0.0,100,13,458,53.0,10.17,30.5,3,100.0,0.0,0.0,affidabile,18,4,39.42,
+Wizard Staff,DPS distanza,Distanza,15,War Golems (Melee),mischia,mischia,236,E,12.2,15.6,9.7,2.9,2.4,2.4,7.6,6.4,1.57,2.0,0.0,0.0,0.0,20,14,993,34.2,12.07,13.6,6,97.246,2.754,0.0,affidabile,52,0,19.61,
+Wizard Staff,DPS distanza,Distanza,16,Salamanders (Ranged),distanza,distanza,216,E,12.1,10.7,11.5,17.5,2.1,0.2,7.9,12.0,1.74,4.4,0.0,0.0,0.0,90,15,192,82.8,10.58,55.7,3,99.074,0.926,0.0,affidabile,44,1,41.84,
+Wizard Staff,DPS distanza,Distanza,17,Greater Demons (Melee),mischia,distanza,80,A,12.1,12.4,11.4,10.7,2.0,1.1,7.9,7.9,1.71,1.1,0.0,0.0,0.0,100,16,472,33.5,11.08,11.7,3,90.0,10.0,0.0,affidabile,10,3,38.26,
+Wizard Staff,DPS distanza,Distanza,18,Enslaved Orcs,ibrida,distanza/mischia,432,G,12.8,18.4,12.8,22.0,1.7,0.0,7.8,6.8,1.46,0.0,0.0,0.0,0.0,100,17,359,86.9,8.76,66.5,2,10.417,89.583,0.0,affidabile,56,3,42.25,
+Wizard Staff,DPS distanza,Distanza,19,Night Elf Hunters,ibrida,mischia,,D,12.9,14.7,12.9,14.0,1.5,0.3,8.1,10.4,1.78,4.4,0.0,0.0,0.0,100,18,314,55.9,7.72,34.8,2,8.654,91.346,0.0,affidabile,20,2,35.28,
+Wizard Staff,DPS distanza,Distanza,20,Arena Organisers,ibrida,mischia,,SCONFITTA,13.5,26.4,14.0,24.8,1.3,0.0,8.0,6.1,1.64,0.0,0.0,0.0,0.0,100,19,93,40.3,9.03,23.5,3,5.609,94.391,0.0,affidabile,46,5,34.57,

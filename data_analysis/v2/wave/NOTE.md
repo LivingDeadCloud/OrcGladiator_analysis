@@ -40,7 +40,11 @@ A_p(c) = S_p(c)·W(c) − S_p(c−1)·W(c−1). I valori negativi diventano 0, p
 
 - **Proxy principale (`*_quota_round_stimata`)**: W = somma cumulata degli HP delle truppe delle wave.
   Il danno del team in un round è circa uguale agli HP dei nemici uccisi.
-  Per cure e danni subiti si assume che crescano allo stesso modo con la forza della wave.
+  Per cure e colpi presi si assume che crescano allo stesso modo con la forza della wave.
+- **Colpi presi**: la colonna "tank" della multiboard conta i colpi (non i danni) ed è comprensiva delle unità evocate (`colpi/NOTE.md`).
+  `tank_*` = colpi della classe, evocazioni comprese; `colpi_eroe_*` = colpi del solo eroe: quota `tank` stimata del round meno la
+  quota delle evocazioni prevista dal modello per quella challenge (scenario centrale), con l'eroe mai sotto il meno colpito tra le
+  classi senza evocazioni.
   Il proxy cresce di circa 50 volte dalla wave 1 alla 19.
 - **Proxy alternativo (`*_quota_round_tempo`)**: W = tempo di gioco cumulato allo screenshot.
   Suppone un ritmo costante e quindi esagera gli scarti nei round avanzati. Serve solo come controllo di robustezza.
@@ -132,21 +136,23 @@ La 20 è ibrida.
 - Le wave da mischia mettono più eroi in rosso a fine round: 13 eroi ≤20% HP in 5 wave, ma quasi tutti in due wave. La 5 ne ha 4 a 17%, la 15 ne ha 8 al 12-20%.
 - Contro le wave a distanza tutti cliccano di più: +22% di APM e +36% di click di movimento per giocatore rispetto alle wave da mischia. È coerente con l'inseguire i tiratori.
 
-### Chi tanka contro le wave a distanza (`ruolo_per_tipo.csv`, `classe_per_tipo.csv`; quota dei danni subiti, proxy HP)
+### Chi tanka contro le wave a distanza (`ruolo_per_tipo.csv`, `classe_per_tipo.csv`; quota dei colpi presi dall'eroe, proxy HP)
 
 | | mischia (n=5) | distanza (n=4) | ibrida (n=10) |
 |---|---|---|---|
-| Ruolo Tank (2 giocatori) | 34,0% | **28,5%** | 35,2% |
-| Ruolo DPS mischia (3) | 52,8% | **56,4%** | 51,3% |
-| Ruolo DPS distanza (3) | 7,8% | **10,2%** | 8,1% |
-| Double Blade (DPS mischia) | 22,8% | **31,7%** (5-53 per wave) | 21,8% |
-| Claws (DPS mischia) | 23,7% | 19,1% | 24,1% |
-| Runeblade (Tank) | 19,1% | 18,9% | 17,6% |
+| Eroi Tank (2 giocatori) | 34,0% | **28,5%** | 33,9% |
+| Eroi DPS mischia (3) | 44,2% | **47,9%** | 41,5% |
+| Eroi DPS distanza (3) | 3,0% | **4,5%** | 3,2% |
+| Double Blade (DPS mischia) | 22,8% | **31,2%** (5-51 per wave) | 20,4% |
+| Claws (DPS mischia) | 20,2% | 14,7% | 19,6% |
+| Runeblade (Tank) | 19,1% | 18,9% | 16,4% |
 | War Hammer (Tank) | 14,9% | **9,6%** | 17,5% |
 
-- Contro le wave a distanza i due Tank assorbono meno, soprattutto il War Hammer. Il carico passa al Double Blade: 53% nella wave 9, 34% nella 11 e 35% nella 16.
-- Nella wave 4 invece hanno tankato Runeblade (31%) e Claws (25%), con il Double Blade al 5%. Il tank "di fatto" contro i tiratori non è sempre lo stesso.
-- Anche i DPS a distanza subiscono un po' di più: Naga Trident 1,5% contro 0,7% (rapporto 1,7), Wizard Staff 7,4% contro 6,0%. Restano comunque quote basse.
+Con le evocazioni (colonne `tank_*`) i DPS mischia salgono a 52,8 / 56,4 / 51,3% e i DPS distanza a 7,8 / 10,2 / 8,1%: la differenza sono lupi, torre ed elementale.
+
+- Contro le wave a distanza i due Tank prendono meno colpi, soprattutto il War Hammer. Il carico passa al Double Blade: 51% nella wave 9, 34% nella 11 e 35% nella 16.
+- Nella wave 4 invece i colpi li hanno presi Runeblade (31%) e Claws (19%, 25% con i lupi), con il Double Blade al 5%. Il tank "di fatto" contro i tiratori non è sempre lo stesso.
+- Anche gli eroi DPS a distanza vengono colpiti un po' di più: Naga Trident 1,5% contro 0,7% (rapporto 1,7), Wizard Staff 1,6% contro 1,2% (con l'elementale 7,4% contro 6,0%). Restano comunque quote basse.
 - Il ruolo Tank, invece, contro i tiratori fa più danni (18,0% contro 15,6%) e più cure: il Runeblade sale al 22,9% delle cure contro il 16,7%.
 
 ### Danni (proxy HP) per classe

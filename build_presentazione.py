@@ -12,7 +12,7 @@ Ctrl+P stampa una slide per pagina, senza animazioni. Serve internet solo per i 
 Uso: python build_presentazione.py
 La versione online (modificabile, esportabile in PDF/PowerPoint) e' su claude.ai: li' le animazioni non ci sono.
 """
-import html, json, os, re
+import base64, html, json, os, re
 
 SRC = os.path.join('presentazione', 'sorgente')
 OUT = os.path.join('presentazione', 'presentazione.html')
@@ -250,6 +250,10 @@ for i, sid in enumerate(deck['order'], 1):
     m = re.search(r'<aside>(.*?)</aside>', s, re.S)
     note = m.group(1).strip() if m else ''
     s = re.sub(r'<aside>.*?</aside>', '', s, flags=re.S)
+    # icone delle classi (presentazione/sorgente/icone/*.png) incorporate nel file, cosi' resta apribile offline
+    s = re.sub(r'src="(icone/[a-z_]+\.png)"',
+               lambda m: 'src="data:image/png;base64,' +
+               base64.b64encode(open(os.path.join(SRC, m.group(1)), 'rb').read()).decode() + '"', s)
     blocks.append(f'<div class="slide" id="s{i}"><div class="canvas">{s}</div>'
                   f'<template>{html.escape(note)}</template></div>')
 

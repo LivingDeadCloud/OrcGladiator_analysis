@@ -6,10 +6,13 @@ melee_tank_disponibili_e_giocati,2 / 2,misurato,war3map.w3u,
 quota_danni_classe_top,26.9 (Claws),misurato,multiboard ch.19,
 quota_danni_DPS_mischia_da_Claws_pct,56.4,misurato (rapporto),multiboard ch.19,
 quota_boss_da_Claws,33.2,misurato,multiboard ch.19,
-quota_tank_classi_non_Tank,72.1,misurato,multiboard ch.19,
-quota_tank_Double_Blade_piu_Claws,52.8,misurato,multiboard ch.19,
+quota_colpi_classi_non_Tank,72.1,misurato,multiboard ch.19,"colpi presi, evocazioni comprese"
+quota_colpi_eroi_non_Tank,54.4,stimato,colpi/NOTE.md,"solo eroi, senza evocazioni (scenario centrale)"
+quota_colpi_eroi_Tank,26.5,stimato,colpi/NOTE.md,
+quota_colpi_evocazioni_totale,19.1,stimato,colpi/NOTE.md,"lupi, Treant, elementali, torre, portali, compagno"
+quota_colpi_eroi_Double_Blade_piu_Claws,47.6,stimato,colpi/NOTE.md,forbice 44.9-49.7
 classi_con_cure_multiboard_sopra_10pct,Runeblade; War Hammer; Druid Staff; War Drums,misurato,multiboard ch.19,include pozioni/rigenerazione/lifesteal
-cure_solo_abilita_scenario_b,Runeblade 10.5; Druid Staff 60.9; War Drums 28.6,stimato,cure/NOTE.md,
+cure_solo_abilita_scenario_b,Runeblade 3.5; Druid Staff 67.6; War Drums 28.9,stimato,cure/NOTE.md,
 classi_sotto_quota_equa_su_tutte_le_metriche,,misurato,multiboard ch.19,quota equa = 10%
 DPS_sotto_quota_equa_danni,Double Blade,misurato,multiboard ch.19,
 challenge_difficili,5 7 9 10 13 15 16 18 19,misurato,round_classi.csv,voto D-G oppure >=3 eroi a HP<=20%

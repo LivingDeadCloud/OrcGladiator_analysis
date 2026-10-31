@@ -1,0 +1,201 @@
+challenge,classe,ruolo,quota_evocazioni_modello_basso,quota_evocazioni_modello_centrale,quota_evocazioni_modello_alto
+1,Runeblade,Tank,0.0,0.0,0.0
+1,War Hammer,Tank,0,0,0
+1,Druid Staff,Healer,0.0,0.0,0.0
+1,War Drums,Support,0,0,0
+1,Claws,DPS mischia,0.0,0.0,0.0
+1,Double Blade,DPS mischia,0.0,0.0,0.0
+1,Pickaxe,DPS mischia,3.047,5.913,11.166
+1,Bow,DPS distanza,0,0,0
+1,Naga Trident,DPS distanza,0,0,0
+1,Wizard Staff,DPS distanza,0.0,0.0,0.0
+2,Runeblade,Tank,0.0,0.0,0.0
+2,War Hammer,Tank,0,0,0
+2,Druid Staff,Healer,0.0,0.0,0.0
+2,War Drums,Support,0,0,0
+2,Claws,DPS mischia,0.0,0.0,0.0
+2,Double Blade,DPS mischia,0.0,0.0,0.0
+2,Pickaxe,DPS mischia,0.0,9.091,16.667
+2,Bow,DPS distanza,0,0,0
+2,Naga Trident,DPS distanza,0,0,0
+2,Wizard Staff,DPS distanza,0.0,0.0,0.0
+3,Runeblade,Tank,0.0,0.0,0.0
+3,War Hammer,Tank,0,0,0
+3,Druid Staff,Healer,5.217,9.203,14.893
+3,War Drums,Support,0,0,0
+3,Claws,DPS mischia,2.093,3.691,5.973
+3,Double Blade,DPS mischia,0.0,0.0,0.0
+3,Pickaxe,DPS mischia,4.331,7.641,12.364
+3,Bow,DPS distanza,0,0,0
+3,Naga Trident,DPS distanza,0,0,0
+3,Wizard Staff,DPS distanza,1.733,3.057,4.947
+4,Runeblade,Tank,0.0,0.0,0.0
+4,War Hammer,Tank,0,0,0
+4,Druid Staff,Healer,6.02,9.988,15.76
+4,War Drums,Support,0,0,0
+4,Claws,DPS mischia,4.115,6.828,10.773
+4,Double Blade,DPS mischia,0.0,0.0,0.0
+4,Pickaxe,DPS mischia,0.0,7.325,11.557
+4,Bow,DPS distanza,0,0,0
+4,Naga Trident,DPS distanza,0,0,0
+4,Wizard Staff,DPS distanza,1.575,2.613,4.122
+5,Runeblade,Tank,0.0,0.0,0.0
+5,War Hammer,Tank,0,0,0
+5,Druid Staff,Healer,7.906,13.6,21.256
+5,War Drums,Support,0,0,0
+5,Claws,DPS mischia,0.799,1.374,2.147
+5,Double Blade,DPS mischia,0.0,0.0,0.0
+5,Pickaxe,DPS mischia,4.187,7.203,11.258
+5,Bow,DPS distanza,0,0,0
+5,Naga Trident,DPS distanza,0,0,0
+5,Wizard Staff,DPS distanza,3.365,5.788,9.047
+6,Runeblade,Tank,0.0,0.0,0.0
+6,War Hammer,Tank,0,0,0
+6,Druid Staff,Healer,5.26,8.947,13.772
+6,War Drums,Support,0,0,0
+6,Claws,DPS mischia,5.552,9.442,14.534
+6,Double Blade,DPS mischia,0.0,0.0,0.0
+6,Pickaxe,DPS mischia,4.12,7.007,10.786
+6,Bow,DPS distanza,0,0,0
+6,Naga Trident,DPS distanza,0,0,0
+6,Wizard Staff,DPS distanza,2.665,4.533,6.977
+7,Runeblade,Tank,0.0,0.0,0.0
+7,War Hammer,Tank,0,0,0
+7,Druid Staff,Healer,4.874,8.111,12.143
+7,War Drums,Support,0,0,0
+7,Claws,DPS mischia,4.954,8.245,12.344
+7,Double Blade,DPS mischia,2.752,4.581,6.858
+7,Pickaxe,DPS mischia,3.991,6.642,9.944
+7,Bow,DPS distanza,0,0,0
+7,Naga Trident,DPS distanza,0,0,0
+7,Wizard Staff,DPS distanza,3.608,6.005,8.99
+8,Runeblade,Tank,0.0,0.0,0.0
+8,War Hammer,Tank,0,0,0
+8,Druid Staff,Healer,3.865,6.696,10.564
+8,War Drums,Support,0,0,0
+8,Claws,DPS mischia,4.726,8.187,12.917
+8,Double Blade,DPS mischia,0.0,0.0,0.0
+8,Pickaxe,DPS mischia,4.227,7.323,11.553
+8,Bow,DPS distanza,0,0,0
+8,Naga Trident,DPS distanza,0,0,0
+8,Wizard Staff,DPS distanza,2.634,4.564,7.2
+9,Runeblade,Tank,0.0,0.0,0.0
+9,War Hammer,Tank,0,0,0
+9,Druid Staff,Healer,2.136,3.783,6.155
+9,War Drums,Support,0,0,0
+9,Claws,DPS mischia,0.549,0.973,1.583
+9,Double Blade,DPS mischia,1.221,2.162,3.517
+9,Pickaxe,DPS mischia,4.353,7.709,12.545
+9,Bow,DPS distanza,0,0,0
+9,Naga Trident,DPS distanza,0,0,0
+9,Wizard Staff,DPS distanza,4.675,8.28,13.474
+10,Runeblade,Tank,0.0,0.0,0.0
+10,War Hammer,Tank,0,0,0
+10,Druid Staff,Healer,5.41,9.244,14.317
+10,War Drums,Support,0,0,0
+10,Claws,DPS mischia,2.271,3.881,6.011
+10,Double Blade,DPS mischia,0.0,0.0,0.0
+10,Pickaxe,DPS mischia,4.148,7.087,10.977
+10,Bow,DPS distanza,0,0,0
+10,Naga Trident,DPS distanza,0,0,0
+10,Wizard Staff,DPS distanza,5.219,8.918,13.812
+11,Runeblade,Tank,0.0,0.0,0.0
+11,War Hammer,Tank,0,0,0
+11,Druid Staff,Healer,5.795,9.887,15.285
+11,War Drums,Support,0,0,0
+11,Claws,DPS mischia,2.952,5.038,7.788
+11,Double Blade,DPS mischia,0.0,0.0,0.0
+11,Pickaxe,DPS mischia,4.139,7.062,10.918
+11,Bow,DPS distanza,0,0,0
+11,Naga Trident,DPS distanza,0,0,0
+11,Wizard Staff,DPS distanza,4.33,7.388,11.421
+12,Runeblade,Tank,0.0,0.0,0.0
+12,War Hammer,Tank,0,0,0
+12,Druid Staff,Healer,7.65,13.003,20.0
+12,War Drums,Support,0,0,0
+12,Claws,DPS mischia,1.967,3.344,5.143
+12,Double Blade,DPS mischia,0.0,0.0,0.0
+12,Pickaxe,DPS mischia,4.117,6.997,10.762
+12,Bow,DPS distanza,0,0,0
+12,Naga Trident,DPS distanza,0,0,0
+12,Wizard Staff,DPS distanza,3.934,6.686,10.284
+13,Runeblade,Tank,0.0,0.0,0.0
+13,War Hammer,Tank,0,0,0
+13,Druid Staff,Healer,6.27,10.35,15.339
+13,War Drums,Support,0,0,0
+13,Claws,DPS mischia,2.082,3.436,5.093
+13,Double Blade,DPS mischia,3.583,5.914,8.765
+13,Pickaxe,DPS mischia,3.941,6.506,9.642
+13,Bow,DPS distanza,0,0,0
+13,Naga Trident,DPS distanza,0,0,0
+13,Wizard Staff,DPS distanza,5.294,8.739,12.952
+14,Runeblade,Tank,0.0,0.0,0.0
+14,War Hammer,Tank,0,0,0
+14,Druid Staff,Healer,8.318,13.427,20.379
+14,War Drums,Support,0,0,0
+14,Claws,DPS mischia,2.804,4.526,6.87
+14,Double Blade,DPS mischia,0.0,0.0,0.0
+14,Pickaxe,DPS mischia,0.0,6.823,10.356
+14,Bow,DPS distanza,0,0,0
+14,Naga Trident,DPS distanza,0,0,0
+14,Wizard Staff,DPS distanza,4.332,6.992,10.613
+15,Runeblade,Tank,0.0,0.0,0.0
+15,War Hammer,Tank,0,0,0
+15,Druid Staff,Healer,7.512,12.787,19.957
+15,War Drums,Support,0,0,0
+15,Claws,DPS mischia,2.192,3.731,5.823
+15,Double Blade,DPS mischia,0.0,0.0,0.0
+15,Pickaxe,DPS mischia,3.262,7.185,11.214
+15,Bow,DPS distanza,0,0,0
+15,Naga Trident,DPS distanza,0,0,0
+15,Wizard Staff,DPS distanza,2.611,4.444,6.936
+16,Runeblade,Tank,0.0,0.0,0.0
+16,War Hammer,Tank,0,0,0
+16,Druid Staff,Healer,7.856,13.183,19.944
+16,War Drums,Support,0,0,0
+16,Claws,DPS mischia,2.807,4.709,7.125
+16,Double Blade,DPS mischia,0.0,0.0,0.0
+16,Pickaxe,DPS mischia,4.04,6.78,10.257
+16,Bow,DPS distanza,0,0,0
+16,Naga Trident,DPS distanza,0,0,0
+16,Wizard Staff,DPS distanza,4.487,7.529,11.39
+17,Runeblade,Tank,0.0,0.0,0.0
+17,War Hammer,Tank,0,0,0
+17,Druid Staff,Healer,9.852,16.287,24.186
+17,War Drums,Support,0,0,0
+17,Claws,DPS mischia,3.016,4.986,7.404
+17,Double Blade,DPS mischia,0.0,0.0,0.0
+17,Pickaxe,DPS mischia,3.951,6.531,9.698
+17,Bow,DPS distanza,0,0,0
+17,Naga Trident,DPS distanza,0,0,0
+17,Wizard Staff,DPS distanza,4.163,6.883,10.22
+18,Runeblade,Tank,3.878,6.266,9.125
+18,War Hammer,Tank,0,0,0
+18,Druid Staff,Healer,8.35,13.492,19.648
+18,War Drums,Support,0,0,0
+18,Claws,DPS mischia,2.565,4.145,6.036
+18,Double Blade,DPS mischia,0.0,0.0,0.0
+18,Pickaxe,DPS mischia,3.209,6.266,9.125
+18,Bow,DPS distanza,0,0,0
+18,Naga Trident,DPS distanza,0,0,0
+18,Wizard Staff,DPS distanza,4.438,7.17,10.442
+19,Runeblade,Tank,3.833,6.214,9.015
+19,War Hammer,Tank,0,0,0
+19,Druid Staff,Healer,7.739,12.548,18.203
+19,War Drums,Support,0,0,0
+19,Claws,DPS mischia,2.011,3.26,4.729
+19,Double Blade,DPS mischia,2.211,3.585,5.201
+19,Pickaxe,DPS mischia,3.833,6.214,9.015
+19,Bow,DPS distanza,0,0,0
+19,Naga Trident,DPS distanza,0,0,0
+19,Wizard Staff,DPS distanza,3.724,6.039,8.761
+20,Runeblade,Tank,3.876,6.33,9.26
+20,War Hammer,Tank,0,0,0
+20,Druid Staff,Healer,8.548,13.958,20.421
+20,War Drums,Support,0,0,0
+20,Claws,DPS mischia,1.714,2.798,4.094
+20,Double Blade,DPS mischia,0.0,0.0,0.0
+20,Pickaxe,DPS mischia,3.876,6.33,9.26
+20,Bow,DPS distanza,0,0,0
+20,Naga Trident,DPS distanza,0,0,0
+20,Wizard Staff,DPS distanza,4.463,7.289,10.663

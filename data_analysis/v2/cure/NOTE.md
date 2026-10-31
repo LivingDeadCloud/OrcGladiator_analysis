@@ -50,7 +50,10 @@ Come funziona nel `war3map.j` (le citazioni sono verificate dallo script e ripor
 ## 2. Metodo
 
 ### 2a. Quote misurate e per challenge (`quota_cure_per_challenge.csv`)
-- `cure_quota_cumulativa_misurata` e `tank_quota_cumulativa_misurata` sono i valori della multiboard (cumulativi, somma ≈ 100).
+- `cure_quota_cumulativa_misurata` e `colpi_quota_cumulativa_misurata` sono i valori della multiboard (cumulativi, somma ≈ 100).
+  La colonna "tank" della multiboard conta i **colpi presi** (non i danni), evocazioni comprese: vedi `colpi/NOTE.md`.
+- `colpi_eroe_quota_tra_eroi_*` = colpi del solo eroe (stima centrale di `analisi_colpi.py`), riportati a 100 tra i soli eroi.
+  È questa la grandezza usata nel modello: rigenerazione, pozioni e lifesteal curano l'eroe, non le sue evocazioni.
   La challenge k è lo screenshot `post` con `challenges_completed = k`. La challenge 20 (boss) è lo screenshot `031526_03`,
   l'ultimo con tutti i 10 eroi: in `040526_23` (sconfitta) manca il Double Blade.
 - `cure_variazione_quota_pp_misurata` = S(k) − S(k−1), in punti percentuali. È misurata, ma **non** è la quota della challenge.
@@ -61,7 +64,7 @@ Come funziona nel `war3map.j` (le citazioni sono verificate dallo script e ripor
   - dove mancano (challenge 8, 12, 19 e boss) si usa il tempo tra screenshot × 0,55, il rapporto mediano clear/tempo tra screenshot.
 
   I valori negativi, dovuti all'arrotondamento a 0,1 della trascrizione e all'ipotesi sul peso, vengono azzerati e la riga viene
-  rinormalizzata a 100: è successo 31 volte su 200 per le cure e 15 per il tank. Il valore prima di questa correzione è in
+  rinormalizzata a 100: è successo 31 volte su 200 per le cure e 23 per i colpi dell'eroe. Il valore prima di questa correzione è in
   `cure_quota_challenge_grezza_stimata`. Nelle ultime challenge una variazione di 0,1 punti nella quota cumulativa sposta la quota
   della challenge di circa 1–2 punti: questi valori vanno letti come indicativi.
 
@@ -70,12 +73,14 @@ Come funziona nel `war3map.j` (le citazioni sono verificate dallo script e ripor
    `heal_pct` viene da rigenerazione, pozioni, lifesteal e oggetti. Il War Hammer ha come unica cura da abilità Avatar, che cura solo con i
    Runed Bracers, comprati a 5431 s (challenge 19): fino a lì la sua cura è da Heartstone, rigenerazione e lifesteal.
    Queste 5 classi fanno da **riferimento** e la loro quota "solo abilità" è 0.
-2. **Modello.** Le cure su sé stessi (rigenerazione, pozioni, lifesteal) possono solo recuperare danno subito, quindi la parte
-   non-abilità di ogni classe si stima come `r × tank_pct`, con `r` = Σ cure / Σ tank delle classi di riferimento
-   (cumulativo, ricalcolato a ogni snapshot; al boss r = 0,74). Per le classi con abilità:
-   `cure_abilità = max(0, heal_pct − r·tank_pct)`. La quota "solo abilità" è la loro rinormalizzazione a 100.
-3. **Scenari** (il rapporto r varia molto da classe a classe: da 0,16 per il Wizard Staff a 2,33 per il Bow):
-   - `_a`: r = 0, cioè tutta la cura delle classi con abilità viene trattata come da abilità. È il massimo per le classi con molto tank;
+2. **Modello.** Le cure su sé stessi (rigenerazione, pozioni, lifesteal) possono solo recuperare danno preso dall'eroe, quindi la parte
+   non-abilità di ogni classe si stima come `r × colpi_eroe`, con `r` = Σ cure / Σ colpi dell'eroe delle classi di riferimento
+   (cumulativo, ricalcolato a ogni snapshot; al boss r = 0,90). Per le classi con abilità:
+   `cure_abilità = max(0, heal_pct − r·colpi_eroe)`. La quota "solo abilità" è la loro rinormalizzazione a 100.
+   Fino alla versione precedente si usava la colonna "tank" intera, che comprende i colpi delle evocazioni: il Runeblade risultava
+   più "colpito" per via del compagno, e il Wizard Staff per via dell'elementale.
+3. **Scenari** (il rapporto r varia molto da classe a classe: da 0,64 a 2,78):
+   - `_a`: r = 0, cioè tutta la cura delle classi con abilità viene trattata come da abilità. È il massimo per le classi molto colpite;
    - `_b`: r = rapporto aggregato delle classi di riferimento (**scenario centrale**);
    - `_c`: r = rapporto individuale massimo, cioè una forte componente non-abilità.
    Per la stima per challenge si applica lo stesso modello alle quote per challenge stimate, con l'r cumulativo.
@@ -103,28 +108,28 @@ Come funziona nel `war3map.j` (le citazioni sono verificate dallo script e ripor
 
 ## 3. Risultati principali (snapshot del boss, cumulativo)
 
-| classe | ruolo | % cure misurata | % tank misurata | cure da abilità? | quota solo abilità a / **b** / c | comandi cura | usi pozione cura | usi pozione mana |
-|---|---|---|---|---|---|---|---|---|
-| Druid Staff | Healer | 34,7 | 4,5 | sì | 43,4 / **60,9** / 64,5 | 684 | 0 | 74 |
-| Runeblade | Tank | 16,4 | 14,8 | sì | 20,5 / **10,5** / 0 | 249 | 0 | 34 |
-| War Drums | Support | 15,4 | 0,9 | sì | 19,3 / **28,6** / 35,5 | 46 (+ Motivate passiva) | 0 | 26 |
-| War Hammer | Tank | 12,5 | 13,6 | solo da 5431 s | 0 / **0** / 0 | 21 (Avatar) | 0 | 25 |
-| Claws | DPS mischia | 6,7 | 24,1 | sì | 8,4 / **0** / 0 | 32 | 0 | 45 |
-| Double Blade | DPS mischia | 6,7 | 28,6 | sì | 8,4 / **0** / 0 | 44 | 40 | 0 |
-| Pickaxe | DPS mischia | 3,1 | 3,5 | no | 0 | 0 | 0 | 61 |
-| Bow | DPS distanza | 2,1 | 0,9 | no | 0 | 0 | 67 | 0 |
-| Wizard Staff | DPS distanza | 1,3 | 8,0 | no | 0 | 0 | 0 | 63 |
-| Naga Trident | DPS distanza | 1,1 | 1,1 | no | 0 | 0 | 0 | 11 |
+| classe | ruolo | % cure misurata | % colpi misurata | % colpi eroe (tra eroi, stima) | cure da abilità? | quota solo abilità a / **b** / c | comandi cura | usi pozione cura | usi pozione mana |
+|---|---|---|---|---|---|---|---|---|---|
+| Druid Staff | Healer | 34,7 | 4,5 | 1,1 | sì | 43,4 / **67,6** / 72,0 | 684 | 0 | 74 |
+| Runeblade | Tank | 16,4 | 14,8 | 16,4 | sì | 20,5 / **3,5** / 0 | 249 | 0 | 34 |
+| War Drums | Support | 15,4 | 0,9 | 1,1 | sì | 19,3 / **28,9** / 28,0 | 46 (+ Motivate passiva) | 0 | 26 |
+| War Hammer | Tank | 12,5 | 13,6 | 16,8 | solo da 5431 s | 0 / **0** / 0 | 21 (Avatar) | 0 | 25 |
+| Claws | DPS mischia | 6,7 | 24,1 | 24,8 | sì | 8,4 / **0** / 0 | 32 | 0 | 45 |
+| Double Blade | DPS mischia | 6,7 | 28,6 | 34,2 | sì | 8,4 / **0** / 0 | 44 | 40 | 0 |
+| Pickaxe | DPS mischia | 3,1 | 3,5 | 1,1 | no | 0 | 0 | 0 | 61 |
+| Bow | DPS distanza | 2,1 | 0,9 | 1,1 | no | 0 | 0 | 67 | 0 |
+| Wizard Staff | DPS distanza | 1,3 | 8,0 | 2,0 | no | 0 | 0 | 0 | 63 |
+| Naga Trident | DPS distanza | 1,1 | 1,1 | 1,4 | no | 0 | 0 | 0 | 11 |
 
 - **Misurato.** Almeno il **7,6%** delle cure del team è sicuramente non da abilità: è la quota delle 4 classi senza alcuna cura
   da abilità. Con il War Hammer, che fino alla challenge 18 non ha cure da abilità, si arriva al **20,1%**.
-- **Stimato (scenario b).** Circa il **48%** della `heal_pct` del team viene da rigenerazione, pozioni, lifesteal e oggetti.
+- **Stimato (scenario b).** Circa il **50%** della `heal_pct` del team viene da rigenerazione, pozioni, lifesteal e oggetti.
   Al netto di questa parte:
-  - il **Druid Staff** sale da 34,7% a circa **61%** delle cure da abilità (circa il 90% della sua cura è da abilità);
-  - il **War Drums** sale da 15,4% a circa **29%** (circa il 96%);
-  - il **Runeblade** scende da 16,4% a circa **10%** (circa un terzo della sua cura è da abilità; il resto è rigenerazione,
+  - il **Druid Staff** sale da 34,7% a circa **68%** delle cure da abilità (circa il 97% della sua cura è da abilità);
+  - il **War Drums** sale da 15,4% a circa **29%** (circa il 94%);
+  - il **Runeblade** scende da 16,4% a circa **3,5%** (circa un decimo della sua cura è da abilità; il resto è rigenerazione,
     Heartstone e lifesteal da tank);
-  - **War Hammer, Claws e Double Blade** scendono a circa 0: le loro cure sono spiegate da danno subito, rigenerazione,
+  - **War Hammer, Claws e Double Blade** scendono a circa 0: le loro cure sono spiegate da colpi presi, rigenerazione,
     Heartstone (War Hammer), lifesteal della Vampiric Aura e Tank's Potion (Double Blade).
 - **Per challenge** (quota cure stimata): il Druid oscilla tra 23% e 53% nelle challenge 1–19. Nel boss crolla a circa 5%,
   perché la sua quota cumulativa scende da 36,0 a 34,7 nonostante 62 comandi di cura. Il War Drums sale nelle fasi finali:
@@ -147,12 +152,12 @@ Come funziona nel `war3map.j` (le citazioni sono verificate dallo script e ripor
 
 ## 5. Limiti
 - Il replay contiene solo comandi. Le quantità di cura reali, gli HP max e gli attributi degli eroi non sono noti, quindi non si può fare una stima
-  "dal basso" in HP. La stima "solo abilità" è un modello dall'alto (`r × tank_pct`) con un'ipotesi forte: la parte non-abilità è
-  proporzionale al danno subito. Il lifesteal dipende invece dal danno fatto, e la rigenerazione dagli HP max e dal tempo passato ferito.
+  "dal basso" in HP. La stima "solo abilità" è un modello dall'alto (`r × colpi_eroe`) con un'ipotesi forte: la parte non-abilità è
+  proporzionale ai colpi presi dall'eroe. Ma i colpi non sono danni: un eroe con molta armatura recupera meno HP per colpo. Il lifesteal dipende invece dal danno fatto, e la rigenerazione dagli HP max e dal tempo passato ferito.
   Il ventaglio a–c ne mostra la sensibilità.
 - Le quote per challenge dipendono dall'ipotesi "totale cure del team ∝ tempo di combattimento" e dall'arrotondamento della trascrizione.
 - La mappa slot → pozione è un'inferenza. Il Double Blade ha confidenza media; gli slot non attribuiti sono contati a parte.
 - I comandi di abilità non sono lanci riusciti. Il bersaglio di Death Coil (alleato o nemico) non è noto.
-- Le classi di riferimento non sono omogenee: il rapporto cure/tank va da 0,16 (Wizard Staff, che subisce danni ma ha poca rigenerazione e nessuna pozione di cura)
-  a 2,33 (Bow, che ha la Rage Potion e subisce pochissimo).
+- Le classi di riferimento non sono omogenee: il rapporto cure/colpi dell'eroe va da 0,64 a 2,78 (Bow, che ha la Rage Potion e viene colpito pochissimo).
+- I colpi dell'eroe sono una stima (`colpi/NOTE.md`): l'incertezza dello scorporo si somma a quella di questo modello.
 - Il War Hammer è trattato come classe senza cure da abilità per tutta la partita. Avatar cura solo con i Runed Bracers, presenti solo dalla challenge 19.
