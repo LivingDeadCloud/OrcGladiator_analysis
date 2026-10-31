@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Orc Gladiators – Analisi della partita</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&amp;display=swap">
+<style>
+body { margin:0; background:#2b2622; font-family:'Rubik', Arial, sans-serif; color:#e6dfd3; }
+main { max-width:1600px; margin:0 auto; padding:24px 16px 64px; }
+.slide-wrap { margin-bottom:40px; }
+.frame { position:relative; width:100%; aspect-ratio:16/9; overflow:hidden; border-radius:8px; box-shadow:0 8px 32px rgba(0,0,0,.4); }
+.canvas { position:absolute; left:0; top:0; width:1920px; height:1080px; transform-origin:0 0; }
+.canvas section { width:1920px; height:1080px; box-sizing:border-box; position:relative; overflow:hidden; }
+.canvas h1, .canvas h2, .canvas h3, .canvas p, .canvas ul, .canvas ol { margin:0; }
+.canvas ul, .canvas ol { padding-left:1.3em; }
+.canvas div { box-sizing:border-box; }
+.canvas table { border-collapse:collapse; width:100%; }
+.canvas th, .canvas td { padding:.35em .6em; border-bottom:1px solid #d3c8b8; vertical-align:top; }
+.canvas th { font-weight:600; }
+.meta { display:flex; gap:24px; align-items:baseline; padding:10px 4px; font-size:15px; color:#b8ada0; }
+.meta details { flex:1; } .meta summary { cursor:pointer; } .meta p { margin:8px 0 0; line-height:1.5; color:#e6dfd3; }
+</style>
+</head>
+<body>
+<main>
+<div class="slide-wrap" id="s1">
+<div class="frame"><div class="canvas"><section id="cover" data-transition="fade" style="background:#1c1917;color:#f3eee4;font-family:'Rubik', Arial, sans-serif;padding:128px;display:flex;flex-direction:column;justify-content:center;gap:40px">
+<p style="font-size:28px;color:#e8894f;letter-spacing:4px;text-transform:uppercase">Replay · Screenshot · File della mappa</p>
+<h1 style="font-family:'Oswald', Arial, sans-serif;font-size:140px;font-weight:600;line-height:1.05;text-transform:uppercase">Orc Gladiators<br>Revenge</h1>
+<p style="font-size:40px;color:#d6cfc3;line-height:1.35">Analisi della partita del 15/03/2026: 20 challenge, boss finale perso.<br>Sette domande da analista, per classe e per ruolo.</p>
+<div style="width:160px;height:8px;background:#d9622b"></div>
+
+</section></div></div>
+<div class="meta"><span>1 / 12</span><details><summary>Note per chi presenta</summary><p>Presentazione delle risposte alle sette domande. Tutti i dati sono per classe e ruolo, mai per nome del giocatore. Ogni risposta indica se il dato è misurato o stimato.</p></details></div>
+</div>
+<div class="slide-wrap" id="s2">
+<div class="frame"><div class="canvas"><section id="metodo" data-transition="fade" style="background:#f3eee4;color:#2a2522;font-family:'Rubik', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:36px">
+<p style="font-size:24px;color:#a4471a;letter-spacing:3px;text-transform:uppercase">Come leggere i dati</p>
+<h2 style="font-family:'Oswald', Arial, sans-serif;font-size:64px;font-weight:500;line-height:1.1;color:#1c1917">Tre fonti, una sola partita</h2>
+<div style="display:flex;flex-direction:row;gap:64px;flex:1">
+<div style="flex:1;display:flex;flex-direction:column;gap:20px">
+<div style="background:#fbf8f2;border:1px solid #ddd3c4;border-radius:12px;padding:28px;display:flex;flex-direction:column;gap:8px">
+<h3 style="font-size:32px;font-weight:600;color:#1c1917">Replay</h3>
+<p style="font-size:26px;line-height:1.35;color:#4a4440">60.156 comandi dei giocatori. Non contiene danni, morti, oro né posizioni reali.</p>
+</div>
+<div style="background:#fbf8f2;border:1px solid #ddd3c4;border-radius:12px;padding:28px;display:flex;flex-direction:column;gap:8px">
+<h3 style="font-size:32px;font-weight:600;color:#1c1917">Screenshot della multiboard</h3>
+<p style="font-size:26px;line-height:1.35;color:#4a4440">20 momenti: quote cumulative di danni, cure e tank, HP, mana e oro.</p>
+</div>
+<div style="background:#fbf8f2;border:1px solid #ddd3c4;border-radius:12px;padding:28px;display:flex;flex-direction:column;gap:8px">
+<h3 style="font-size:32px;font-weight:600;color:#1c1917">Codice della mappa</h3>
+<p style="font-size:26px;line-height:1.35;color:#4a4440">Regole di oro, cure, morti e composizione delle wave.</p>
+</div>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:20px">
+<h3 style="font-size:32px;font-weight:600;color:#1c1917">Ruoli usati nell’analisi</h3>
+<table style="font-size:26px;color:#2a2522">
+<tr><th style="width:34%;text-align:left">Ruolo</th><th style="width:66%;text-align:left">Classi</th></tr>
+<tr><td>Tank</td><td>War Hammer, Runeblade</td></tr>
+<tr><td>Healer</td><td>Druid Staff</td></tr>
+<tr><td>Support</td><td>War Drums</td></tr>
+<tr><td>DPS mischia</td><td>Claws, Double Blade, Pickaxe</td></tr>
+<tr><td>DPS distanza</td><td>Bow, Wizard Staff, Naga Trident</td></tr>
+</table>
+<p style="font-size:26px;line-height:1.4;color:#4a4440">Un giocatore per classe: l’effetto della classe e quello di chi la gioca non si separano. Ogni numero è <b>misurato</b> o <b>stimato</b>, e lo diciamo.</p>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#6b625b">Fonti: replay del 15/03/2026, 23 screenshot, Orc Gladiators Revenge 1.29fc.w3x · 2</p>
+
+</section></div></div>
+<div class="meta"><span>2 / 12</span><details><summary>Note per chi presenta</summary><p>Il replay registra solo i comandi. Danni, cure e tank vengono dagli screenshot della multiboard, come quote del totale del team. Le regole del gioco sono lette direttamente dal codice della mappa.</p></details></div>
+</div>
+<div class="slide-wrap" id="s3">
+<div class="frame"><div class="canvas"><section id="verdetti" data-transition="fade" style="background:#f3eee4;color:#2a2522;font-family:'Rubik', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:36px">
+<p style="font-size:24px;color:#a4471a;letter-spacing:3px;text-transform:uppercase">Quadro d’insieme</p>
+<h2 style="font-family:'Oswald', Arial, sans-serif;font-size:64px;font-weight:500;line-height:1.1;color:#1c1917">Sette domande, quasi tutte «in parte»</h2>
+<table style="font-size:26px;color:#2a2522">
+<tr><th style="width:5%;text-align:left">#</th><th style="width:33%;text-align:left">Domanda</th><th style="width:44%;text-align:left">Verdetto</th><th style="width:18%;text-align:left">Fiducia</th></tr>
+<tr><td>1</td><td>Scelta delle classi</td><td>Non determinabile; adeguata in parte</td><td>Bassa</td></tr>
+<tr style="background:#ebe4d7"><td>2</td><td>Acquisto oggetti</td><td>In parte: talenti e attivi sprecati</td><td>Alta sui fatti</td></tr>
+<tr><td>3</td><td>Chi compra per primo</td><td>Non dimostrabile; ipotesi ragionata</td><td>Bassa</td></tr>
+<tr style="background:#ebe4d7"><td>4</td><td>Uso delle abilità</td><td>In parte: molti tempi morti</td><td>Alta / media</td></tr>
+<tr><td>5</td><td>Posizionamento</td><td>In parte: base corretta, Tank lontani dalle cure</td><td>Media</td></tr>
+<tr style="background:#ebe4d7"><td>6</td><td>Spesa dell’oro</td><td>In parte: oro speso, ma tardi</td><td>Media</td></tr>
+<tr><td>7</td><td>Morti</td><td>Sì: Bow, poi Naga Trident e Druid Staff</td><td>Alta sulla classifica</td></tr>
+</table>
+<p style="font-size:26px;line-height:1.4;color:#4a4440">«In parte» perché una sola partita mostra cosa è successo, ma non può dimostrare cosa sarebbe andato meglio.</p>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#6b625b">Fonte: data_analysis/v2/domande/INDICE.md · 3</p>
+
+</section></div></div>
+<div class="meta"><span>3 / 12</span><details><summary>Note per chi presenta</summary><p>Una slide per domanda segue. La fiducia è alta sui fatti misurati (conteggi, regole della mappa) e bassa su ogni giudizio di &quot;ottimale&quot; o di causa ed effetto.</p></details></div>
+</div>
+<div class="slide-wrap" id="s4">
+<div class="frame"><div class="canvas"><section id="q1" data-transition="fade" style="background:#f3eee4;color:#2a2522;font-family:'Rubik', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:28px">
+<p style="font-size:24px;color:#a4471a;letter-spacing:3px;text-transform:uppercase">1 · La scelta delle classi è ottimale?</p>
+<h2 style="font-family:'Oswald', Arial, sans-serif;font-size:64px;font-weight:500;line-height:1.1;color:#1c1917">Il tank lo fanno i DPS mischia, i danni li fa Claws</h2>
+<div style="display:flex;flex-direction:row;gap:64px">
+<div style="flex:1;display:flex;flex-direction:column;gap:12px">
+<h3 style="font-size:28px;font-weight:600;color:#1c1917">Quota dei danni del team (%)</h3>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:300px;font-size:24px;text-align:right">War Hammer · Tank</p><div style="width:99px;height:28px;background:#d9622b;border-radius:4px"></div><p style="font-size:24px">7,1</p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:300px;font-size:24px;text-align:right">Runeblade · Tank</p><div style="width:78px;height:28px;background:#d9622b;border-radius:4px"></div><p style="font-size:24px">5,6</p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:300px;font-size:24px;text-align:right">Druid Staff · Healer</p><div style="width:14px;height:28px;background:#d9622b;border-radius:4px"></div><p style="font-size:24px">1,0</p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:300px;font-size:24px;text-align:right">War Drums · Support</p><div style="width:24px;height:28px;background:#d9622b;border-radius:4px"></div><p style="font-size:24px">1,7</p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:300px;font-size:24px;text-align:right">Claws · DPS mischia</p><div style="width:377px;height:28px;background:#d9622b;border-radius:4px"></div><p style="font-size:24px"><b>26,9</b></p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:300px;font-size:24px;text-align:right">Double Blade · DPS m.</p><div style="width:77px;height:28px;background:#d9622b;border-radius:4px"></div><p style="font-size:24px">5,5</p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:300px;font-size:24px;text-align:right">Pickaxe · DPS mischia</p><div style="width:214px;height:28px;background:#d9622b;border-radius:4px"></div><p style="font-size:24px">15,3</p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:300px;font-size:24px;text-align:right">Bow · DPS distanza</p><div style="width:178px;height:28px;background:#d9622b;border-radius:4px"></div><p style="font-size:24px">12,7</p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:300px;font-size:24px;text-align:right">Naga Trident · DPS d.</p><div style="width:158px;height:28px;background:#d9622b;border-radius:4px"></div><p style="font-size:24px">11,3</p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:300px;font-size:24px;text-align:right">Wizard Staff · DPS d.</p><div style="width:181px;height:28px;background:#d9622b;border-radius:4px"></div><p style="font-size:24px">12,9</p></div>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:12px">
+<h3 style="font-size:28px;font-weight:600;color:#1c1917">Quota dei danni subiti, cioè tank (%)</h3>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:300px;font-size:24px;text-align:right">War Hammer · Tank</p><div style="width:185px;height:28px;background:#2f6da3;border-radius:4px"></div><p style="font-size:24px">13,2</p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:300px;font-size:24px;text-align:right">Runeblade · Tank</p><div style="width:206px;height:28px;background:#2f6da3;border-radius:4px"></div><p style="font-size:24px">14,7</p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:300px;font-size:24px;text-align:right">Druid Staff · Healer</p><div style="width:63px;height:28px;background:#2f6da3;border-radius:4px"></div><p style="font-size:24px">4,5</p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:300px;font-size:24px;text-align:right">War Drums · Support</p><div style="width:14px;height:28px;background:#2f6da3;border-radius:4px"></div><p style="font-size:24px">1,0</p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:300px;font-size:24px;text-align:right">Claws · DPS mischia</p><div style="width:343px;height:28px;background:#2f6da3;border-radius:4px"></div><p style="font-size:24px"><b>24,5</b></p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:300px;font-size:24px;text-align:right">Double Blade · DPS m.</p><div style="width:396px;height:28px;background:#2f6da3;border-radius:4px"></div><p style="font-size:24px"><b>28,3</b></p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:300px;font-size:24px;text-align:right">Pickaxe · DPS mischia</p><div style="width:52px;height:28px;background:#2f6da3;border-radius:4px"></div><p style="font-size:24px">3,7</p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:300px;font-size:24px;text-align:right">Bow · DPS distanza</p><div style="width:14px;height:28px;background:#2f6da3;border-radius:4px"></div><p style="font-size:24px">1,0</p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:300px;font-size:24px;text-align:right">Naga Trident · DPS d.</p><div style="width:14px;height:28px;background:#2f6da3;border-radius:4px"></div><p style="font-size:24px">1,0</p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:300px;font-size:24px;text-align:right">Wizard Staff · DPS d.</p><div style="width:113px;height:28px;background:#2f6da3;border-radius:4px"></div><p style="font-size:24px">8,1</p></div>
+</div>
+</div>
+<p style="font-size:26px;line-height:1.4;color:#4a4440">I due Tank subiscono il 27,9% dei danni, i DPS mischia il 56,5%. Delle 16 classi della mappa ne sono state giocate 10: le altre 6 non si possono valutare.</p>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#6b625b">Misurato: quote cumulative della multiboard dopo la challenge 19 · 4</p>
+
+</section></div></div>
+<div class="meta"><span>4 / 12</span><details><summary>Note per chi presenta</summary><p>Verdetto: non determinabile se ottimale, adeguata in parte. Tutti i ruoli sono coperti, ma i ruoli non sono stati svolti come previsto. Double Blade è il vero tank; Claws regge da sola un quarto dei danni. Ipotesi da provare: un DPS mischia puro (Katana o Great Axe) al posto di un DPS mischia che fa pochi danni.</p></details></div>
+</div>
+<div class="slide-wrap" id="s5">
+<div class="frame"><div class="canvas"><section id="q2" data-transition="fade" style="background:#f3eee4;color:#2a2522;font-family:'Rubik', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:36px">
+<p style="font-size:24px;color:#a4471a;letter-spacing:3px;text-transform:uppercase">2 · L’acquisto degli oggetti è ottimale?</p>
+<h2 style="font-family:'Oswald', Arial, sans-serif;font-size:64px;font-weight:500;line-height:1.1;color:#1c1917">Build coerenti col ruolo, ma risorse lasciate ferme</h2>
+<div style="display:flex;flex-direction:row;gap:64px">
+<div style="width:640px;display:flex;flex-direction:column;gap:20px">
+<div style="background:#fbf8f2;border:1px solid #ddd3c4;border-radius:12px;padding:24px 28px;display:flex;flex-direction:column;gap:4px">
+<p style="font-family:'Oswald', Arial, sans-serif;font-size:64px;font-weight:600;color:#a4471a;line-height:1.1">2 su 6</p>
+<p style="font-size:26px;line-height:1.35;color:#4a4440">punti talento spesi dal Druid Staff; quattro classi lasciano fermi i punti per 3–4 challenge</p>
+</div>
+<div style="background:#fbf8f2;border:1px solid #ddd3c4;border-radius:12px;padding:24px 28px;display:flex;flex-direction:column;gap:4px">
+<p style="font-family:'Oswald', Arial, sans-serif;font-size:64px;font-weight:600;color:#a4471a;line-height:1.1">0 attivazioni</p>
+<p style="font-size:26px;line-height:1.35;color:#4a4440">di Warrior’s Spirit (1.250 oro) e del taunt del Defender’s Buckler</p>
+</div>
+<div style="background:#fbf8f2;border:1px solid #ddd3c4;border-radius:12px;padding:24px 28px;display:flex;flex-direction:column;gap:4px">
+<p style="font-family:'Oswald', Arial, sans-serif;font-size:64px;font-weight:600;color:#a4471a;line-height:1.1">8 su 10</p>
+<p style="font-size:26px;line-height:1.35;color:#4a4440">classi con la Wizard’s Potion, che dà solo mana: anche i Tank</p>
+</div>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:14px">
+<h3 style="font-size:28px;font-weight:600;color:#1c1917">Uso della pozione rispetto al massimo possibile in combattimento (%)</h3>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:240px;font-size:24px;text-align:right">Druid Staff</p><div style="width:510px;height:32px;background:#2f6da3;border-radius:4px"></div><p style="font-size:24px">85</p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:240px;font-size:24px;text-align:right">Bow</p><div style="width:498px;height:32px;background:#2f6da3;border-radius:4px"></div><p style="font-size:24px">83</p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:240px;font-size:24px;text-align:right">Wizard Staff</p><div style="width:444px;height:32px;background:#2f6da3;border-radius:4px"></div><p style="font-size:24px">74</p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:240px;font-size:24px;text-align:right">War Drums</p><div style="width:186px;height:32px;background:#d9622b;border-radius:4px"></div><p style="font-size:24px">31 · bassa</p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:240px;font-size:24px;text-align:right">War Hammer</p><div style="width:174px;height:32px;background:#d9622b;border-radius:4px"></div><p style="font-size:24px">29 · bassa</p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:240px;font-size:24px;text-align:right">Naga Trident</p><div style="width:84px;height:32px;background:#d9622b;border-radius:4px"></div><p style="font-size:24px">14 · bassa</p></div>
+<p style="font-size:26px;line-height:1.4;color:#4a4440">Le pozioni sono permanenti con 40 s di ricarica: comprata una volta, conviene usarla ogni volta che serve.</p>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#6b625b">Misurato: ordini di acquisto e d’uso dal replay; oggetto nello slot stimato · 5</p>
+
+</section></div></div>
+<div class="meta"><span>5 / 12</span><details><summary>Note per chi presenta</summary><p>Verdetto: in parte. Le build seguono il ruolo e l’oro viene speso. Le inefficienze misurabili sono punti talento non spesi, oggetti attivabili mai attivati e pozioni comprate ma usate poco. Non esiste una build di riferimento, quindi «ottimale» in senso stretto non si può dire.</p></details></div>
+</div>
+<div class="slide-wrap" id="s6">
+<div class="frame"><div class="canvas"><section id="q3" data-transition="fade" style="background:#f3eee4;color:#2a2522;font-family:'Rubik', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:36px">
+<p style="font-size:24px;color:#a4471a;letter-spacing:3px;text-transform:uppercase">3 · Prima gli oggetti a healer, tank o DPS?</p>
+<h2 style="font-family:'Oswald', Arial, sans-serif;font-size:64px;font-weight:500;line-height:1.1;color:#1c1917">L’oro arriva uguale a tutti: conta la velocità</h2>
+<div style="display:flex;flex-direction:row;gap:64px">
+<div style="flex:1;display:flex;flex-direction:column;gap:20px">
+<div style="background:#1c1917;border-radius:12px;padding:32px;display:flex;flex-direction:column;gap:8px">
+<p style="font-family:'Oswald', Arial, sans-serif;font-size:96px;font-weight:600;color:#e8894f;line-height:1.05">≈12.600 oro</p>
+<p style="font-size:28px;line-height:1.35;color:#e6dfd3">persi per i voti bassi dei round lenti: il 40% di quanto il team ha speso (stima)</p>
+</div>
+<h3 style="font-size:28px;font-weight:600;color:#1c1917">Primo oggetto da almeno 400 oro</h3>
+<table style="font-size:26px;color:#2a2522">
+<tr><th style="width:55%;text-align:left">Ruolo</th><th style="width:45%;text-align:left">Challenge</th></tr>
+<tr><td>Tank, DPS mischia</td><td>6–8</td></tr>
+<tr><td>Healer</td><td>10–12</td></tr>
+<tr><td>DPS distanza</td><td>11</td></tr>
+<tr><td>Support</td><td>15</td></tr>
+</table>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:20px">
+<h3 style="font-size:28px;font-weight:600;color:#1c1917">Ordine suggerito (ragionamento, non prova)</h3>
+<div style="background:#fbf8f2;border:1px solid #ddd3c4;border-radius:12px;padding:24px 28px;display:flex;flex-direction:column;gap:6px">
+<p style="font-size:30px;font-weight:600;color:#1c1917">1 · Mana all’Healer, presto</p>
+<p style="font-size:26px;line-height:1.35;color:#4a4440">Fino alla challenge 9 finiva i round all’11% di mana; dopo due oggetti economici, circa al 70%.</p>
+</div>
+<div style="background:#fbf8f2;border:1px solid #ddd3c4;border-radius:12px;padding:24px 28px;display:flex;flex-direction:column;gap:6px">
+<p style="font-size:30px;font-weight:600;color:#1c1917">2 · Difesa a chi tanka davvero</p>
+<p style="font-size:26px;line-height:1.35;color:#4a4440">In questa partita Double Blade e Claws, non i due Tank.</p>
+</div>
+<div style="background:#fbf8f2;border:1px solid #ddd3c4;border-radius:12px;padding:24px 28px;display:flex;flex-direction:column;gap:6px">
+<p style="font-size:30px;font-weight:600;color:#1c1917">3 · Poi i danni</p>
+<p style="font-size:26px;line-height:1.35;color:#4a4440">Round più veloci significano voti migliori, cioè più oro per tutti.</p>
+</div>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#6b625b">Regole dell’oro misurate nel codice della mappa; oro perso e ordine suggerito sono stime · 6</p>
+
+</section></div></div>
+<div class="meta"><span>6 / 12</span><details><summary>Note per chi presenta</summary><p>Domanda controfattuale: una sola partita non può dimostrare che un ordine diverso avrebbe cambiato l’esito. Fatti: a fine round ognuno riceve lo stesso oro, più un bonus che dipende solo dalla velocità; i mostri uccisi non danno oro. Ordinare gli acquisti per etichetta di ruolo non trova sostegno nei dati.</p></details></div>
+</div>
+<div class="slide-wrap" id="s7">
+<div class="frame"><div class="canvas"><section id="q4" data-transition="fade" style="background:#f3eee4;color:#2a2522;font-family:'Rubik', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:28px">
+<p style="font-size:24px;color:#a4471a;letter-spacing:3px;text-transform:uppercase">4 · Le abilità sono usate bene?</p>
+<h2 style="font-family:'Oswald', Arial, sans-serif;font-size:64px;font-weight:500;line-height:1.1;color:#1c1917">Le abilità restano pronte troppo a lungo</h2>
+<div style="display:flex;flex-direction:row;gap:64px">
+<div style="flex:1;display:flex;flex-direction:column;gap:12px">
+<h3 style="font-size:28px;font-weight:600;color:#1c1917">Attesa mediana tra «pronta» e riuso (secondi)</h3>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:220px;font-size:24px;text-align:right">War Hammer</p><div style="width:53px;height:28px;background:#2f6da3;border-radius:4px"></div><p style="font-size:24px">2,4</p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:220px;font-size:24px;text-align:right">Wizard Staff</p><div style="width:62px;height:28px;background:#2f6da3;border-radius:4px"></div><p style="font-size:24px">2,8</p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:220px;font-size:24px;text-align:right">Druid Staff</p><div style="width:88px;height:28px;background:#d9622b;border-radius:4px"></div><p style="font-size:24px">4,0</p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:220px;font-size:24px;text-align:right">Pickaxe</p><div style="width:110px;height:28px;background:#d9622b;border-radius:4px"></div><p style="font-size:24px">5,0</p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:220px;font-size:24px;text-align:right">Claws</p><div style="width:112px;height:28px;background:#d9622b;border-radius:4px"></div><p style="font-size:24px">5,1</p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:220px;font-size:24px;text-align:right">Runeblade</p><div style="width:163px;height:28px;background:#d9622b;border-radius:4px"></div><p style="font-size:24px">7,4</p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:220px;font-size:24px;text-align:right">Bow</p><div style="width:165px;height:28px;background:#d9622b;border-radius:4px"></div><p style="font-size:24px">7,5</p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:220px;font-size:24px;text-align:right">Double Blade</p><div style="width:178px;height:28px;background:#d9622b;border-radius:4px"></div><p style="font-size:24px">8,1</p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:220px;font-size:24px;text-align:right">Naga Trident</p><div style="width:363px;height:28px;background:#d9622b;border-radius:4px"></div><p style="font-size:24px">16,5</p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:220px;font-size:24px;text-align:right">War Drums</p><div style="width:407px;height:28px;background:#d9622b;border-radius:4px"></div><p style="font-size:24px">18,5</p></div>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:12px">
+<h3 style="font-size:28px;font-weight:600;color:#1c1917">Tempo in pause oltre 10 s senza comandi (%)</h3>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:220px;font-size:24px;text-align:right">War Hammer</p><div style="width:56px;height:28px;background:#2f6da3;border-radius:4px"></div><p style="font-size:24px">8</p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:220px;font-size:24px;text-align:right">Wizard Staff</p><div style="width:71px;height:28px;background:#2f6da3;border-radius:4px"></div><p style="font-size:24px">10</p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:220px;font-size:24px;text-align:right">Druid Staff</p><div style="width:174px;height:28px;background:#d9622b;border-radius:4px"></div><p style="font-size:24px">25</p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:220px;font-size:24px;text-align:right">Pickaxe</p><div style="width:146px;height:28px;background:#d9622b;border-radius:4px"></div><p style="font-size:24px">21</p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:220px;font-size:24px;text-align:right">Claws</p><div style="width:122px;height:28px;background:#d9622b;border-radius:4px"></div><p style="font-size:24px">17</p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:220px;font-size:24px;text-align:right">Runeblade</p><div style="width:172px;height:28px;background:#d9622b;border-radius:4px"></div><p style="font-size:24px">25</p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:220px;font-size:24px;text-align:right">Bow</p><div style="width:393px;height:28px;background:#d9622b;border-radius:4px"></div><p style="font-size:24px"><b>56</b></p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:220px;font-size:24px;text-align:right">Double Blade</p><div style="width:280px;height:28px;background:#d9622b;border-radius:4px"></div><p style="font-size:24px">40</p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:220px;font-size:24px;text-align:right">Naga Trident</p><div style="width:313px;height:28px;background:#d9622b;border-radius:4px"></div><p style="font-size:24px">45</p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:220px;font-size:24px;text-align:right">War Drums</p><div style="width:286px;height:28px;background:#d9622b;border-radius:4px"></div><p style="font-size:24px">41</p></div>
+</div>
+</div>
+<p style="font-size:26px;line-height:1.4;color:#4a4440">In blu i due riferimenti della partita. Mai usate: Demonic Circle (Double Blade) ed Entangle (Druid Staff). Le pause includono anche il tempo da morti.</p>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#6b625b">Stimato: ordini del replay e cooldown della mappa, abilità di rotazione · 7</p>
+
+</section></div></div>
+<div class="meta"><span>7 / 12</span><details><summary>Note per chi presenta</summary><p>Verdetto: in parte, molti tempi morti. Solo War Hammer e Wizard Staff riusano le abilità quasi appena tornano disponibili (circa 4 riusi su 10 entro 2 secondi). Wizard Staff è frenato dal mana, non dai cooldown. Per il Bow una parte delle pause è normale: l’attacco base è automatico.</p></details></div>
+</div>
+<div class="slide-wrap" id="s8">
+<div class="frame"><div class="canvas"><section id="q5" data-transition="fade" style="background:#f3eee4;color:#2a2522;font-family:'Rubik', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:36px">
+<p style="font-size:24px;color:#a4471a;letter-spacing:3px;text-transform:uppercase">5 · Il posizionamento è ottimale?</p>
+<h2 style="font-family:'Oswald', Arial, sans-serif;font-size:64px;font-weight:500;line-height:1.1;color:#1c1917">Disposizione giusta, ma Tank spesso lontani dalle cure</h2>
+<div style="display:flex;flex-direction:row;gap:64px">
+<div style="flex:1;display:flex;flex-direction:column;gap:16px">
+<h3 style="font-size:28px;font-weight:600;color:#1c1917">Distanza mediana dal nemico più vicino (unità di gioco)</h3>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:200px;font-size:24px;text-align:right">Tank</p><div style="width:266px;height:36px;background:#2f6da3;border-radius:4px"></div><p style="font-size:24px">266</p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:200px;font-size:24px;text-align:right">DPS mischia</p><div style="width:400px;height:36px;background:#d9622b;border-radius:4px"></div><p style="font-size:24px">400</p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:200px;font-size:24px;text-align:right">DPS distanza</p><div style="width:421px;height:36px;background:#d9622b;border-radius:4px"></div><p style="font-size:24px">421</p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:200px;font-size:24px;text-align:right">Support</p><div style="width:500px;height:36px;background:#d9622b;border-radius:4px"></div><p style="font-size:24px">500</p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:200px;font-size:24px;text-align:right">Healer</p><div style="width:504px;height:36px;background:#d9622b;border-radius:4px"></div><p style="font-size:24px">504</p></div>
+<p style="font-size:26px;line-height:1.4;color:#4a4440">Tank davanti, Healer dietro per il 90% del tempo. Il gruppo combatte nel sud-centro dell’arena, il punto più lontano dai tre spawn.</p>
+</div>
+<div style="width:700px;display:flex;flex-direction:column;gap:20px">
+<div style="background:#1c1917;border-radius:12px;padding:28px;display:flex;flex-direction:column;gap:6px">
+<p style="font-family:'Oswald', Arial, sans-serif;font-size:80px;font-weight:600;color:#e8894f;line-height:1.05">56–58%</p>
+<p style="font-size:26px;line-height:1.35;color:#e6dfd3">del tempo i due Tank hanno l’Healer entro la gittata delle cure (700)</p>
+</div>
+<h3 style="font-size:28px;font-weight:600;color:#1c1917">Per tipo di wave</h3>
+<table style="font-size:26px;color:#2a2522">
+<tr><th style="width:28%;text-align:left">Wave</th><th style="width:24%;text-align:right">Dispersione</th><th style="width:24%;text-align:right">Healer–Tank</th><th style="width:24%;text-align:right">Healer in gittata</th></tr>
+<tr><td>Mischia</td><td style="text-align:right">378</td><td style="text-align:right">391</td><td style="text-align:right">86%</td></tr>
+<tr><td>Distanza</td><td style="text-align:right">375</td><td style="text-align:right">492</td><td style="text-align:right">75%</td></tr>
+<tr style="background:#ebe4d7"><td>Ibrida</td><td style="text-align:right">455</td><td style="text-align:right">523</td><td style="text-align:right">70% · peggiore</td></tr>
+</table>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#6b625b">Stimato: posizioni ricostruite dagli ordini del replay, errore tipico circa 130 unità · 8</p>
+
+</section></div></div>
+<div class="meta"><span>8 / 12</span><details><summary>Note per chi presenta</summary><p>Verdetto: in parte. L’impostazione di base è corretta. I Tank però stanno a 622 l’uno dall’altro e hanno l’Healer a portata di cura poco più di metà del tempo. Nelle wave ibride il gruppo si disperde. Differenze di 100-200 unità sono vicine all’errore della stima. Suggerimento: Healer tra i due Tank o fronte più stretto.</p></details></div>
+</div>
+<div class="slide-wrap" id="s9">
+<div class="frame"><div class="canvas"><section id="q6" data-transition="fade" style="background:#f3eee4;color:#2a2522;font-family:'Rubik', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:32px">
+<p style="font-size:24px;color:#a4471a;letter-spacing:3px;text-transform:uppercase">6 · I soldi sono spesi in modo efficiente?</p>
+<h2 style="font-family:'Oswald', Arial, sans-serif;font-size:64px;font-weight:500;line-height:1.1;color:#1c1917">Oro speso quasi tutto, ma in ritardo</h2>
+<div style="display:grid;grid-template-columns:repeat(4, 1fr);gap:24px">
+<div style="background:#fbf8f2;border:1px solid #ddd3c4;border-radius:12px;padding:24px;display:flex;flex-direction:column;gap:6px">
+<p style="font-family:'Oswald', Arial, sans-serif;font-size:72px;font-weight:600;color:#a4471a;line-height:1.1">712</p>
+<p style="font-size:26px;line-height:1.35;color:#4a4440">oro avanzati alla sconfitta, su circa 31.600 guadagnati</p>
+</div>
+<div style="background:#fbf8f2;border:1px solid #ddd3c4;border-radius:12px;padding:24px;display:flex;flex-direction:column;gap:6px">
+<p style="font-family:'Oswald', Arial, sans-serif;font-size:72px;font-weight:600;color:#a4471a;line-height:1.1">≈270</p>
+<p style="font-size:26px;line-height:1.35;color:#4a4440">oro fermi a fine round per classe; un round ne vale circa 165</p>
+</div>
+<div style="background:#fbf8f2;border:1px solid #ddd3c4;border-radius:12px;padding:24px;display:flex;flex-direction:column;gap:6px">
+<p style="font-family:'Oswald', Arial, sans-serif;font-size:72px;font-weight:600;color:#a4471a;line-height:1.1">20–38 min</p>
+<p style="font-size:26px;line-height:1.35;color:#4a4440">tra lo sblocco dei tomi e il primo acquisto</p>
+</div>
+<div style="background:#fbf8f2;border:1px solid #ddd3c4;border-radius:12px;padding:24px;display:flex;flex-direction:column;gap:6px">
+<p style="font-family:'Oswald', Arial, sans-serif;font-size:72px;font-weight:600;color:#a4471a;line-height:1.1">0</p>
+<p style="font-size:26px;line-height:1.35;color:#4a4440">Goldstrike comprati: preso dopo la challenge 8 rendeva ≈1.540</p>
+</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:14px">
+<h3 style="font-size:28px;font-weight:600;color:#1c1917">Come sono stati spesi 26.032 oro (stima)</h3>
+<div style="display:flex;flex-direction:row;height:72px">
+<div style="flex:47;background:#2f6da3;display:flex;align-items:center;padding:0 20px"><p style="font-size:26px;color:#f3eee4;font-weight:600">Reliquie 47%</p></div>
+<div style="flex:33;background:#d9622b;display:flex;align-items:center;padding:0 20px"><p style="font-size:26px;color:#1c1917;font-weight:600">Tomi 33%</p></div>
+<div style="flex:15;background:#3a2f28;display:flex;align-items:center;padding:0 20px"><p style="font-size:26px;color:#f3eee4;font-weight:600">Stivali 15%</p></div>
+<div style="flex:4.5;background:#c9bba6"></div>
+</div>
+<p style="font-size:26px;line-height:1.4;color:#4a4440">Ultima fascia: pozioni e altro, 4,5%. I 101 prestiti tra giocatori (circa 8.000 oro) risultano tutti rimborsati.</p>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#6b625b">Oro misurato negli screenshot; bilancio ricostruito con scarto mediano di 42 oro · 9</p>
+
+</section></div></div>
+<div class="meta"><span>9 / 12</span><details><summary>Note per chi presenta</summary><p>Verdetto: in parte. Quasi tutto l’oro è stato speso e i prestiti hanno funzionato, ma l’oro resta fermo circa un round e i tomi sono arrivati molto tardi: prima del boss la squadra aveva 3.692 oro, spesi in tomi all’ultimo momento. Non ci sono interessi: tenere l’oro non rende nulla.</p></details></div>
+</div>
+<div class="slide-wrap" id="s10">
+<div class="frame"><div class="canvas"><section id="q7" data-transition="fade" style="background:#f3eee4;color:#2a2522;font-family:'Rubik', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:32px">
+<p style="font-size:24px;color:#a4471a;letter-spacing:3px;text-transform:uppercase">7 · Ci sono giocatori che muoiono troppo?</p>
+<h2 style="font-family:'Oswald', Arial, sans-serif;font-size:64px;font-weight:500;line-height:1.1;color:#1c1917">Il Bow muore più del doppio della media</h2>
+<div style="display:flex;flex-direction:row;gap:64px">
+<div style="flex:1;display:flex;flex-direction:column;gap:12px">
+<h3 style="font-size:28px;font-weight:600;color:#1c1917">Morti stimate nelle challenge 1–19 (media del team: 3,9)</h3>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:220px;font-size:24px;text-align:right">Bow</p><div style="width:630px;height:28px;background:#d9622b;border-radius:4px"></div><p style="font-size:24px"><b>9 · ×2,3</b></p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:220px;font-size:24px;text-align:right">Naga Trident</p><div style="width:490px;height:28px;background:#d9622b;border-radius:4px"></div><p style="font-size:24px">7</p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:220px;font-size:24px;text-align:right">Druid Staff</p><div style="width:420px;height:28px;background:#d9622b;border-radius:4px"></div><p style="font-size:24px">6</p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:220px;font-size:24px;text-align:right">Pickaxe</p><div style="width:350px;height:28px;background:#d9622b;border-radius:4px"></div><p style="font-size:24px">5</p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:220px;font-size:24px;text-align:right">War Drums</p><div style="width:210px;height:28px;background:#2f6da3;border-radius:4px"></div><p style="font-size:24px">3</p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:220px;font-size:24px;text-align:right">Claws</p><div style="width:140px;height:28px;background:#2f6da3;border-radius:4px"></div><p style="font-size:24px">2</p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:220px;font-size:24px;text-align:right">Double Blade</p><div style="width:140px;height:28px;background:#2f6da3;border-radius:4px"></div><p style="font-size:24px">2</p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:220px;font-size:24px;text-align:right">Runeblade</p><div style="width:140px;height:28px;background:#2f6da3;border-radius:4px"></div><p style="font-size:24px">2</p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:220px;font-size:24px;text-align:right">Wizard Staff</p><div style="width:140px;height:28px;background:#2f6da3;border-radius:4px"></div><p style="font-size:24px">2</p></div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:16px"><p style="width:220px;font-size:24px;text-align:right">War Hammer</p><div style="width:70px;height:28px;background:#2f6da3;border-radius:4px"></div><p style="font-size:24px">1</p></div>
+<p style="font-size:24px;color:#4a4440">Arancione: sopra la media del team · blu: sotto</p>
+</div>
+<div style="width:560px;display:flex;flex-direction:column;gap:20px">
+<h3 style="font-size:28px;font-weight:600;color:#1c1917">Morti medie per classe, per ruolo</h3>
+<table style="font-size:26px;color:#2a2522">
+<tr><th style="width:62%;text-align:left">Ruolo</th><th style="width:38%;text-align:right">Morti</th></tr>
+<tr><td>DPS distanza</td><td style="text-align:right">6,0</td></tr>
+<tr><td>Healer</td><td style="text-align:right">6,0</td></tr>
+<tr><td>Support</td><td style="text-align:right">3,0</td></tr>
+<tr><td>DPS mischia</td><td style="text-align:right">3,0</td></tr>
+<tr><td>Tank</td><td style="text-align:right">1,5</td></tr>
+</table>
+<div style="background:#1c1917;border-radius:12px;padding:24px 28px;display:flex;flex-direction:column;gap:6px">
+<p style="font-family:'Oswald', Arial, sans-serif;font-size:56px;font-weight:600;color:#e8894f;line-height:1.1">13 su 23</p>
+<p style="font-size:26px;line-height:1.35;color:#e6dfd3">attivazioni della Pietra Ancestrale andate a vuoto: troppo presto o troppo ravvicinate</p>
+</div>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#6b625b">Stimato: il replay non registra le morti; conteggi minimi da screenshot, silenzi e regole della mappa · 10</p>
+
+</section></div></div>
+<div class="meta"><span>10 / 12</span><details><summary>Note per chi presenta</summary><p>Verdetto: sì, in parte. La classifica è solida, i numeri esatti no: sono un minimo. Bow e Naga Trident hanno passato da morti più di un terzo del combattimento. Le wave a distanza sono le più letali per i DPS distanza. La Pietra va attivata solo dopo 100 secondi di round e poi ogni 100 secondi.</p></details></div>
+</div>
+<div class="slide-wrap" id="s11">
+<div class="frame"><div class="canvas"><section id="filo" data-transition="fade" style="background:#1c1917;color:#f3eee4;font-family:'Rubik', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;justify-content:center;gap:56px">
+<p style="font-size:24px;color:#e8894f;letter-spacing:3px;text-transform:uppercase">Il filo comune</p>
+<h2 style="font-family:'Oswald', Arial, sans-serif;font-size:96px;font-weight:600;line-height:1.05;text-transform:uppercase">I DPS a distanza sono<br>il punto debole del team</h2>
+<div style="display:flex;flex-direction:row;gap:48px">
+<div style="flex:1;display:flex;flex-direction:column;gap:8px;border-top:4px solid #d9622b;padding:24px 0 0 0">
+<p style="font-family:'Oswald', Arial, sans-serif;font-size:72px;font-weight:600;color:#e8894f;line-height:1.1">6 morti</p>
+<p style="font-size:28px;line-height:1.35;color:#d6cfc3">in media per classe DPS distanza, contro 1,5 dei Tank</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:8px;border-top:4px solid #d9622b;padding:24px 0 0 0">
+<p style="font-family:'Oswald', Arial, sans-serif;font-size:72px;font-weight:600;color:#e8894f;line-height:1.1">56%</p>
+<p style="font-size:28px;line-height:1.35;color:#d6cfc3">del combattimento del Bow in pause oltre 10 s senza comandi</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:8px;border-top:4px solid #d9622b;padding:24px 0 0 0">
+<p style="font-family:'Oswald', Arial, sans-serif;font-size:72px;font-weight:600;color:#e8894f;line-height:1.1">48%</p>
+<p style="font-size:28px;line-height:1.35;color:#d6cfc3">dei loro round difficili finiti sotto il 20% di HP</p>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#a89f94">Dalle domande 1, 4 e 7 · 11</p>
+
+</section></div></div>
+<div class="meta"><span>11 / 12</span><details><summary>Note per chi presenta</summary><p>I tre indizi arrivano da analisi indipendenti e puntano nella stessa direzione. Le pause del Bow includono il tempo da morto, quindi i due fenomeni sono legati. Gli altri temi ricorrenti: il tank reale è Double Blade, e i round lenti costano oro a tutti.</p></details></div>
+</div>
+<div class="slide-wrap" id="s12">
+<div class="frame"><div class="canvas"><section id="prossimi" data-transition="fade" style="background:#f3eee4;color:#2a2522;font-family:'Rubik', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:36px">
+<p style="font-size:24px;color:#a4471a;letter-spacing:3px;text-transform:uppercase">Prossima partita</p>
+<h2 style="font-family:'Oswald', Arial, sans-serif;font-size:64px;font-weight:500;line-height:1.1;color:#1c1917">Cosa provare e cosa registrare</h2>
+<div style="display:flex;flex-direction:row;gap:64px">
+<div style="flex:1;display:flex;flex-direction:column;gap:16px">
+<h3 style="font-size:32px;font-weight:600;color:#1c1917">Da provare</h3>
+<ol style="font-size:28px;line-height:1.4;color:#2a2522">
+<li>Bow e Naga Trident sempre dietro i Tank, soprattutto nelle wave a distanza</li>
+<li>Decidere chi tanka (oggi Double Blade) e dargli gli oggetti difensivi</li>
+<li>Un oggetto di mana economico all’Healer, presto</li>
+<li>Spendere subito oro e punti talento; tomi appena sbloccati</li>
+<li>Pietra Ancestrale dopo 100 s di round, poi ogni 100 s</li>
+<li>Usare le abilità appena pronte: Demonic Circle ed Entangle esistono</li>
+</ol>
+</div>
+<div style="width:700px;display:flex;flex-direction:column;gap:16px;background:#fbf8f2;border:1px solid #ddd3c4;border-radius:12px;padding:32px">
+<h3 style="font-size:32px;font-weight:600;color:#1c1917">Da registrare</h3>
+<ul style="font-size:28px;line-height:1.4;color:#2a2522">
+<li>Screenshot della multiboard a fine di ogni round, anche a metà boss</li>
+<li>Inventario e oro di ogni eroe a fine round</li>
+<li>Le morti: chi muore e quando</li>
+<li>Più partite, anche scambiando le classi tra giocatori</li>
+</ul>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#6b625b">Dettagli e limiti in data_analysis/v2/domande/*/RISPOSTA.md · 12</p>
+
+</section></div></div>
+<div class="meta"><span>12 / 12</span><details><summary>Note per chi presenta</summary><p>Le prove sono indicazioni da verificare: una sola partita non dimostra cause ed effetti. Con screenshot regolari e più partite si potranno confrontare scelte diverse e passare da ipotesi a risposte.</p></details></div>
+</div>
+</main>
+<script>
+function fit() {
+  document.querySelectorAll('.frame').forEach(f => {
+    f.querySelector('.canvas').style.transform = 'scale(' + (f.clientWidth / 1920) + ')';
+  });
+}
+window.addEventListener('resize', fit); fit();
+</script>
+</body>
+</html>

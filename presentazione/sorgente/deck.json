@@ -1,0 +1,17 @@
+{
+  "v": 4,
+  "createdOnFiles": {"v": 1, "at": "2026-10-31T10:00:00Z"},
+  "lists": "css",
+  "title": "Orc Gladiators – Analisi della partita",
+  "cover": "cover",
+  "order": ["cover", "metodo", "verdetti", "q1", "q2", "q3", "q4", "q5", "q6", "q7", "filo", "prossimi"],
+  "sections": {
+    "s1": {"description": "Cosa abbiamo analizzato e con quale affidabilità", "start": "cover"},
+    "s2": {"description": "Le sette domande, una slide ciascuna", "start": "verdetti"},
+    "s3": {"description": "Cosa ne esce e cosa fare la prossima volta", "start": "filo"}
+  },
+  "faces": {
+    "oswald": {"family": "Oswald", "href": "https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&display=swap"},
+    "rubik": {"family": "Rubik", "href": "https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap"}
+  }
+}
