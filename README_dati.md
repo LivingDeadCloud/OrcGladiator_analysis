@@ -13,7 +13,7 @@ Obiettivo: capire chi fa pochi danni o poche cure, chi tanka, chi si muove molto
 | `data_map/` | Dati letti dal file della mappa: abilità e classi degli eroi. |
 | `data_analysis/` | Dataset finali, già pronti per grafici e analisi (li usa la dashboard). |
 | `dashboard/` | Report: `index.html` si apre con doppio click; `artifact/` contiene i file della dashboard online. |
-| `presentazione/` | Presentazione dei risultati (12 slide): `presentazione.html` si apre con doppio click (rigenerabile con `python build_presentazione.py`); `presentazione.pdf` è la versione in PDF, una slide per pagina; `sorgente/` contiene i file delle slide. Versione online, esportabile in PDF/PowerPoint: https://claude.ai/artifact/TZPQS75DakUAXvXtn5jU9d |
+| `presentazione/` | Presentazione dei risultati (12 slide): `presentazione.html` si apre con doppio click ed è animata (frecce o spazio per avanzare, F schermo intero, N note, R ripete le animazioni; rigenerabile con `python build_presentazione.py`); `presentazione.pdf` è la versione in PDF, una slide per pagina; `sorgente/` contiene i file delle slide. Versione online, esportabile in PDF/PowerPoint: https://claude.ai/artifact/TZPQS75DakUAXvXtn5jU9d |
 | (cartella principale) | Script Python e `order_ids.csv`. |
 
 Dashboard online: https://claude.ai/artifact/Dhe1AzMmSoEBYaWzMrudtL

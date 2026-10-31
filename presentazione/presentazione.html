@@ -7,11 +7,11 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&amp;display=swap">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&amp;display=swap">
 <style>
-body { margin:0; background:#2b2622; font-family:'Rubik', Arial, sans-serif; color:#e6dfd3; }
-main { max-width:1600px; margin:0 auto; padding:24px 16px 64px; }
-.slide-wrap { margin-bottom:40px; }
-.frame { position:relative; width:100%; aspect-ratio:16/9; overflow:hidden; border-radius:8px; box-shadow:0 8px 32px rgba(0,0,0,.4); }
-.canvas { position:absolute; left:0; top:0; width:1920px; height:1080px; transform-origin:0 0; }
+html, body { margin:0; height:100%; background:#141210; overflow:hidden; font-family:'Rubik', Arial, sans-serif; }
+#deck { position:fixed; inset:0; }
+.slide { position:absolute; inset:0; opacity:0; visibility:hidden; transition:opacity .5s ease, visibility .5s; }
+.slide.on { opacity:1; visibility:visible; }
+.canvas { position:absolute; left:50%; top:50%; width:1920px; height:1080px; transform:translate(-50%,-50%) scale(var(--s,1)); }
 .canvas section { width:1920px; height:1080px; box-sizing:border-box; position:relative; overflow:hidden; }
 .canvas h1, .canvas h2, .canvas h3, .canvas p, .canvas ul, .canvas ol { margin:0; }
 .canvas ul, .canvas ol { padding-left:1.3em; }
@@ -19,24 +19,40 @@ main { max-width:1600px; margin:0 auto; padding:24px 16px 64px; }
 .canvas table { border-collapse:collapse; width:100%; }
 .canvas th, .canvas td { padding:.35em .6em; border-bottom:1px solid #d3c8b8; vertical-align:top; }
 .canvas th { font-weight:600; }
-.meta { display:flex; gap:24px; align-items:baseline; padding:10px 4px; font-size:15px; color:#b8ada0; }
-.meta details { flex:1; } .meta summary { cursor:pointer; } .meta p { margin:8px 0 0; line-height:1.5; color:#e6dfd3; }
+.count { font-variant-numeric:tabular-nums; }
+#hud { position:fixed; right:16px; bottom:16px; display:flex; gap:6px; align-items:center; padding:6px; border-radius:10px;
+  background:rgba(20,18,16,.75); color:#e6dfd3; font-size:14px; transition:opacity .4s; z-index:3; }
+#hud.idle { opacity:0; }
+#hud button { background:none; border:1px solid #5a514a; color:#e6dfd3; border-radius:6px; min-width:34px; height:30px;
+  font:inherit; cursor:pointer; padding:0 8px; }
+#hud button:hover { background:#3a332e; }
+#hud span { min-width:56px; text-align:center; font-variant-numeric:tabular-nums; }
+#notes { position:fixed; left:16px; right:16px; bottom:60px; max-height:35vh; overflow:auto; padding:16px 20px;
+  border-radius:10px; background:rgba(20,18,16,.92); color:#e6dfd3; font-size:17px; line-height:1.5; z-index:2; }
+#notes[hidden] { display:none; }
+#progress { position:fixed; left:0; top:0; height:3px; background:#d9622b; transition:width .4s ease; z-index:3; }
+@media print {
+  @page { size:1920px 1080px; margin:0; }
+  html, body { height:auto; overflow:visible; background:none; }
+  #deck { position:static; }
+  .slide { position:relative; width:1920px; height:1080px; opacity:1; visibility:visible; transition:none; break-after:page; }
+  .slide:last-child { break-after:auto; }
+  .canvas { position:static; transform:none; }
+  #hud, #notes, #progress { display:none; }
+}
 </style>
 </head>
 <body>
-<main>
-<div class="slide-wrap" id="s1">
-<div class="frame"><div class="canvas"><section id="cover" data-transition="fade" style="background:#1c1917;color:#f3eee4;font-family:'Rubik', Arial, sans-serif;padding:128px;display:flex;flex-direction:column;justify-content:center;gap:40px">
+<div id="progress"></div>
+<div id="deck">
+<div class="slide" id="s1"><div class="canvas"><section id="cover" data-transition="fade" style="background:#1c1917;color:#f3eee4;font-family:'Rubik', Arial, sans-serif;padding:128px;display:flex;flex-direction:column;justify-content:center;gap:40px">
 <p style="font-size:28px;color:#e8894f;letter-spacing:4px;text-transform:uppercase">Replay · Screenshot · File della mappa</p>
 <h1 style="font-family:'Oswald', Arial, sans-serif;font-size:140px;font-weight:600;line-height:1.05;text-transform:uppercase">Orc Gladiators<br>Revenge</h1>
 <p style="font-size:40px;color:#d6cfc3;line-height:1.35">Analisi della partita del 15/03/2026: 20 challenge, boss finale perso.<br>Sette domande da analista, per classe e per ruolo.</p>
 <div style="width:160px;height:8px;background:#d9622b"></div>
 
-</section></div></div>
-<div class="meta"><span>1 / 12</span><details><summary>Note per chi presenta</summary><p>Presentazione delle risposte alle sette domande. Tutti i dati sono per classe e ruolo, mai per nome del giocatore. Ogni risposta indica se il dato è misurato o stimato.</p></details></div>
-</div>
-<div class="slide-wrap" id="s2">
-<div class="frame"><div class="canvas"><section id="metodo" data-transition="fade" style="background:#f3eee4;color:#2a2522;font-family:'Rubik', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:36px">
+</section></div><template>Presentazione delle risposte alle sette domande. Tutti i dati sono per classe e ruolo, mai per nome del giocatore. Ogni risposta indica se il dato è misurato o stimato.</template></div>
+<div class="slide" id="s2"><div class="canvas"><section id="metodo" data-transition="fade" style="background:#f3eee4;color:#2a2522;font-family:'Rubik', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:36px">
 <p style="font-size:24px;color:#a4471a;letter-spacing:3px;text-transform:uppercase">Come leggere i dati</p>
 <h2 style="font-family:'Oswald', Arial, sans-serif;font-size:64px;font-weight:500;line-height:1.1;color:#1c1917">Tre fonti, una sola partita</h2>
 <div style="display:flex;flex-direction:row;gap:64px;flex:1">
@@ -69,11 +85,8 @@ main { max-width:1600px; margin:0 auto; padding:24px 16px 64px; }
 </div>
 <p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#6b625b">Fonti: replay del 15/03/2026, 23 screenshot, Orc Gladiators Revenge 1.29fc.w3x · 2</p>
 
-</section></div></div>
-<div class="meta"><span>2 / 12</span><details><summary>Note per chi presenta</summary><p>Il replay registra solo i comandi. Danni, cure e tank vengono dagli screenshot della multiboard, come quote del totale del team. Le regole del gioco sono lette direttamente dal codice della mappa.</p></details></div>
-</div>
-<div class="slide-wrap" id="s3">
-<div class="frame"><div class="canvas"><section id="verdetti" data-transition="fade" style="background:#f3eee4;color:#2a2522;font-family:'Rubik', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:36px">
+</section></div><template>Il replay registra solo i comandi. Danni, cure e tank vengono dagli screenshot della multiboard, come quote del totale del team. Le regole del gioco sono lette direttamente dal codice della mappa.</template></div>
+<div class="slide" id="s3"><div class="canvas"><section id="verdetti" data-transition="fade" style="background:#f3eee4;color:#2a2522;font-family:'Rubik', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:36px">
 <p style="font-size:24px;color:#a4471a;letter-spacing:3px;text-transform:uppercase">Quadro d’insieme</p>
 <h2 style="font-family:'Oswald', Arial, sans-serif;font-size:64px;font-weight:500;line-height:1.1;color:#1c1917">Sette domande, quasi tutte «in parte»</h2>
 <table style="font-size:26px;color:#2a2522">
@@ -89,11 +102,8 @@ main { max-width:1600px; margin:0 auto; padding:24px 16px 64px; }
 <p style="font-size:26px;line-height:1.4;color:#4a4440">«In parte» perché una sola partita mostra cosa è successo, ma non può dimostrare cosa sarebbe andato meglio.</p>
 <p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#6b625b">Fonte: data_analysis/v2/domande/INDICE.md · 3</p>
 
-</section></div></div>
-<div class="meta"><span>3 / 12</span><details><summary>Note per chi presenta</summary><p>Una slide per domanda segue. La fiducia è alta sui fatti misurati (conteggi, regole della mappa) e bassa su ogni giudizio di &quot;ottimale&quot; o di causa ed effetto.</p></details></div>
-</div>
-<div class="slide-wrap" id="s4">
-<div class="frame"><div class="canvas"><section id="q1" data-transition="fade" style="background:#f3eee4;color:#2a2522;font-family:'Rubik', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:28px">
+</section></div><template>Una slide per domanda segue. La fiducia è alta sui fatti misurati (conteggi, regole della mappa) e bassa su ogni giudizio di &quot;ottimale&quot; o di causa ed effetto.</template></div>
+<div class="slide" id="s4"><div class="canvas"><section id="q1" data-transition="fade" style="background:#f3eee4;color:#2a2522;font-family:'Rubik', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:28px">
 <p style="font-size:24px;color:#a4471a;letter-spacing:3px;text-transform:uppercase">1 · La scelta delle classi è ottimale?</p>
 <h2 style="font-family:'Oswald', Arial, sans-serif;font-size:64px;font-weight:500;line-height:1.1;color:#1c1917">Il tank lo fanno i DPS mischia, i danni li fa Claws</h2>
 <div style="display:flex;flex-direction:row;gap:64px">
@@ -127,11 +137,8 @@ main { max-width:1600px; margin:0 auto; padding:24px 16px 64px; }
 <p style="font-size:26px;line-height:1.4;color:#4a4440">I due Tank subiscono il 27,9% dei danni, i DPS mischia il 56,5%. Delle 16 classi della mappa ne sono state giocate 10: le altre 6 non si possono valutare.</p>
 <p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#6b625b">Misurato: quote cumulative della multiboard dopo la challenge 19 · 4</p>
 
-</section></div></div>
-<div class="meta"><span>4 / 12</span><details><summary>Note per chi presenta</summary><p>Verdetto: non determinabile se ottimale, adeguata in parte. Tutti i ruoli sono coperti, ma i ruoli non sono stati svolti come previsto. Double Blade è il vero tank; Claws regge da sola un quarto dei danni. Ipotesi da provare: un DPS mischia puro (Katana o Great Axe) al posto di un DPS mischia che fa pochi danni.</p></details></div>
-</div>
-<div class="slide-wrap" id="s5">
-<div class="frame"><div class="canvas"><section id="q2" data-transition="fade" style="background:#f3eee4;color:#2a2522;font-family:'Rubik', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:36px">
+</section></div><template>Verdetto: non determinabile se ottimale, adeguata in parte. Tutti i ruoli sono coperti, ma i ruoli non sono stati svolti come previsto. Double Blade è il vero tank; Claws regge da sola un quarto dei danni. Ipotesi da provare: un DPS mischia puro (Katana o Great Axe) al posto di un DPS mischia che fa pochi danni.</template></div>
+<div class="slide" id="s5"><div class="canvas"><section id="q2" data-transition="fade" style="background:#f3eee4;color:#2a2522;font-family:'Rubik', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:36px">
 <p style="font-size:24px;color:#a4471a;letter-spacing:3px;text-transform:uppercase">2 · L’acquisto degli oggetti è ottimale?</p>
 <h2 style="font-family:'Oswald', Arial, sans-serif;font-size:64px;font-weight:500;line-height:1.1;color:#1c1917">Build coerenti col ruolo, ma risorse lasciate ferme</h2>
 <div style="display:flex;flex-direction:row;gap:64px">
@@ -162,11 +169,8 @@ main { max-width:1600px; margin:0 auto; padding:24px 16px 64px; }
 </div>
 <p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#6b625b">Misurato: ordini di acquisto e d’uso dal replay; oggetto nello slot stimato · 5</p>
 
-</section></div></div>
-<div class="meta"><span>5 / 12</span><details><summary>Note per chi presenta</summary><p>Verdetto: in parte. Le build seguono il ruolo e l’oro viene speso. Le inefficienze misurabili sono punti talento non spesi, oggetti attivabili mai attivati e pozioni comprate ma usate poco. Non esiste una build di riferimento, quindi «ottimale» in senso stretto non si può dire.</p></details></div>
-</div>
-<div class="slide-wrap" id="s6">
-<div class="frame"><div class="canvas"><section id="q3" data-transition="fade" style="background:#f3eee4;color:#2a2522;font-family:'Rubik', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:36px">
+</section></div><template>Verdetto: in parte. Le build seguono il ruolo e l’oro viene speso. Le inefficienze misurabili sono punti talento non spesi, oggetti attivabili mai attivati e pozioni comprate ma usate poco. Non esiste una build di riferimento, quindi «ottimale» in senso stretto non si può dire.</template></div>
+<div class="slide" id="s6"><div class="canvas"><section id="q3" data-transition="fade" style="background:#f3eee4;color:#2a2522;font-family:'Rubik', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:36px">
 <p style="font-size:24px;color:#a4471a;letter-spacing:3px;text-transform:uppercase">3 · Prima gli oggetti a healer, tank o DPS?</p>
 <h2 style="font-family:'Oswald', Arial, sans-serif;font-size:64px;font-weight:500;line-height:1.1;color:#1c1917">L’oro arriva uguale a tutti: conta la velocità</h2>
 <div style="display:flex;flex-direction:row;gap:64px">
@@ -202,11 +206,8 @@ main { max-width:1600px; margin:0 auto; padding:24px 16px 64px; }
 </div>
 <p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#6b625b">Regole dell’oro misurate nel codice della mappa; oro perso e ordine suggerito sono stime · 6</p>
 
-</section></div></div>
-<div class="meta"><span>6 / 12</span><details><summary>Note per chi presenta</summary><p>Domanda controfattuale: una sola partita non può dimostrare che un ordine diverso avrebbe cambiato l’esito. Fatti: a fine round ognuno riceve lo stesso oro, più un bonus che dipende solo dalla velocità; i mostri uccisi non danno oro. Ordinare gli acquisti per etichetta di ruolo non trova sostegno nei dati.</p></details></div>
-</div>
-<div class="slide-wrap" id="s7">
-<div class="frame"><div class="canvas"><section id="q4" data-transition="fade" style="background:#f3eee4;color:#2a2522;font-family:'Rubik', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:28px">
+</section></div><template>Domanda controfattuale: una sola partita non può dimostrare che un ordine diverso avrebbe cambiato l’esito. Fatti: a fine round ognuno riceve lo stesso oro, più un bonus che dipende solo dalla velocità; i mostri uccisi non danno oro. Ordinare gli acquisti per etichetta di ruolo non trova sostegno nei dati.</template></div>
+<div class="slide" id="s7"><div class="canvas"><section id="q4" data-transition="fade" style="background:#f3eee4;color:#2a2522;font-family:'Rubik', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:28px">
 <p style="font-size:24px;color:#a4471a;letter-spacing:3px;text-transform:uppercase">4 · Le abilità sono usate bene?</p>
 <h2 style="font-family:'Oswald', Arial, sans-serif;font-size:64px;font-weight:500;line-height:1.1;color:#1c1917">Le abilità restano pronte troppo a lungo</h2>
 <div style="display:flex;flex-direction:row;gap:64px">
@@ -240,11 +241,8 @@ main { max-width:1600px; margin:0 auto; padding:24px 16px 64px; }
 <p style="font-size:26px;line-height:1.4;color:#4a4440">In blu i due riferimenti della partita. Mai usate: Demonic Circle (Double Blade) ed Entangle (Druid Staff). Le pause includono anche il tempo da morti.</p>
 <p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#6b625b">Stimato: ordini del replay e cooldown della mappa, abilità di rotazione · 7</p>
 
-</section></div></div>
-<div class="meta"><span>7 / 12</span><details><summary>Note per chi presenta</summary><p>Verdetto: in parte, molti tempi morti. Solo War Hammer e Wizard Staff riusano le abilità quasi appena tornano disponibili (circa 4 riusi su 10 entro 2 secondi). Wizard Staff è frenato dal mana, non dai cooldown. Per il Bow una parte delle pause è normale: l’attacco base è automatico.</p></details></div>
-</div>
-<div class="slide-wrap" id="s8">
-<div class="frame"><div class="canvas"><section id="q5" data-transition="fade" style="background:#f3eee4;color:#2a2522;font-family:'Rubik', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:36px">
+</section></div><template>Verdetto: in parte, molti tempi morti. Solo War Hammer e Wizard Staff riusano le abilità quasi appena tornano disponibili (circa 4 riusi su 10 entro 2 secondi). Wizard Staff è frenato dal mana, non dai cooldown. Per il Bow una parte delle pause è normale: l’attacco base è automatico.</template></div>
+<div class="slide" id="s8"><div class="canvas"><section id="q5" data-transition="fade" style="background:#f3eee4;color:#2a2522;font-family:'Rubik', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:36px">
 <p style="font-size:24px;color:#a4471a;letter-spacing:3px;text-transform:uppercase">5 · Il posizionamento è ottimale?</p>
 <h2 style="font-family:'Oswald', Arial, sans-serif;font-size:64px;font-weight:500;line-height:1.1;color:#1c1917">Disposizione giusta, ma Tank spesso lontani dalle cure</h2>
 <div style="display:flex;flex-direction:row;gap:64px">
@@ -273,11 +271,8 @@ main { max-width:1600px; margin:0 auto; padding:24px 16px 64px; }
 </div>
 <p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#6b625b">Stimato: posizioni ricostruite dagli ordini del replay, errore tipico circa 130 unità · 8</p>
 
-</section></div></div>
-<div class="meta"><span>8 / 12</span><details><summary>Note per chi presenta</summary><p>Verdetto: in parte. L’impostazione di base è corretta. I Tank però stanno a 622 l’uno dall’altro e hanno l’Healer a portata di cura poco più di metà del tempo. Nelle wave ibride il gruppo si disperde. Differenze di 100-200 unità sono vicine all’errore della stima. Suggerimento: Healer tra i due Tank o fronte più stretto.</p></details></div>
-</div>
-<div class="slide-wrap" id="s9">
-<div class="frame"><div class="canvas"><section id="q6" data-transition="fade" style="background:#f3eee4;color:#2a2522;font-family:'Rubik', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:32px">
+</section></div><template>Verdetto: in parte. L’impostazione di base è corretta. I Tank però stanno a 622 l’uno dall’altro e hanno l’Healer a portata di cura poco più di metà del tempo. Nelle wave ibride il gruppo si disperde. Differenze di 100-200 unità sono vicine all’errore della stima. Suggerimento: Healer tra i due Tank o fronte più stretto.</template></div>
+<div class="slide" id="s9"><div class="canvas"><section id="q6" data-transition="fade" style="background:#f3eee4;color:#2a2522;font-family:'Rubik', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:32px">
 <p style="font-size:24px;color:#a4471a;letter-spacing:3px;text-transform:uppercase">6 · I soldi sono spesi in modo efficiente?</p>
 <h2 style="font-family:'Oswald', Arial, sans-serif;font-size:64px;font-weight:500;line-height:1.1;color:#1c1917">Oro speso quasi tutto, ma in ritardo</h2>
 <div style="display:grid;grid-template-columns:repeat(4, 1fr);gap:24px">
@@ -310,11 +305,8 @@ main { max-width:1600px; margin:0 auto; padding:24px 16px 64px; }
 </div>
 <p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#6b625b">Oro misurato negli screenshot; bilancio ricostruito con scarto mediano di 42 oro · 9</p>
 
-</section></div></div>
-<div class="meta"><span>9 / 12</span><details><summary>Note per chi presenta</summary><p>Verdetto: in parte. Quasi tutto l’oro è stato speso e i prestiti hanno funzionato, ma l’oro resta fermo circa un round e i tomi sono arrivati molto tardi: prima del boss la squadra aveva 3.692 oro, spesi in tomi all’ultimo momento. Non ci sono interessi: tenere l’oro non rende nulla.</p></details></div>
-</div>
-<div class="slide-wrap" id="s10">
-<div class="frame"><div class="canvas"><section id="q7" data-transition="fade" style="background:#f3eee4;color:#2a2522;font-family:'Rubik', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:32px">
+</section></div><template>Verdetto: in parte. Quasi tutto l’oro è stato speso e i prestiti hanno funzionato, ma l’oro resta fermo circa un round e i tomi sono arrivati molto tardi: prima del boss la squadra aveva 3.692 oro, spesi in tomi all’ultimo momento. Non ci sono interessi: tenere l’oro non rende nulla.</template></div>
+<div class="slide" id="s10"><div class="canvas"><section id="q7" data-transition="fade" style="background:#f3eee4;color:#2a2522;font-family:'Rubik', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:32px">
 <p style="font-size:24px;color:#a4471a;letter-spacing:3px;text-transform:uppercase">7 · Ci sono giocatori che muoiono troppo?</p>
 <h2 style="font-family:'Oswald', Arial, sans-serif;font-size:64px;font-weight:500;line-height:1.1;color:#1c1917">Il Bow muore più del doppio della media</h2>
 <div style="display:flex;flex-direction:row;gap:64px">
@@ -350,11 +342,8 @@ main { max-width:1600px; margin:0 auto; padding:24px 16px 64px; }
 </div>
 <p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#6b625b">Stimato: il replay non registra le morti; conteggi minimi da screenshot, silenzi e regole della mappa · 10</p>
 
-</section></div></div>
-<div class="meta"><span>10 / 12</span><details><summary>Note per chi presenta</summary><p>Verdetto: sì, in parte. La classifica è solida, i numeri esatti no: sono un minimo. Bow e Naga Trident hanno passato da morti più di un terzo del combattimento. Le wave a distanza sono le più letali per i DPS distanza. La Pietra va attivata solo dopo 100 secondi di round e poi ogni 100 secondi.</p></details></div>
-</div>
-<div class="slide-wrap" id="s11">
-<div class="frame"><div class="canvas"><section id="filo" data-transition="fade" style="background:#1c1917;color:#f3eee4;font-family:'Rubik', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;justify-content:center;gap:56px">
+</section></div><template>Verdetto: sì, in parte. La classifica è solida, i numeri esatti no: sono un minimo. Bow e Naga Trident hanno passato da morti più di un terzo del combattimento. Le wave a distanza sono le più letali per i DPS distanza. La Pietra va attivata solo dopo 100 secondi di round e poi ogni 100 secondi.</template></div>
+<div class="slide" id="s11"><div class="canvas"><section id="filo" data-transition="fade" style="background:#1c1917;color:#f3eee4;font-family:'Rubik', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;justify-content:center;gap:56px">
 <p style="font-size:24px;color:#e8894f;letter-spacing:3px;text-transform:uppercase">Il filo comune</p>
 <h2 style="font-family:'Oswald', Arial, sans-serif;font-size:96px;font-weight:600;line-height:1.05;text-transform:uppercase">I DPS a distanza sono<br>il punto debole del team</h2>
 <div style="display:flex;flex-direction:row;gap:48px">
@@ -373,11 +362,8 @@ main { max-width:1600px; margin:0 auto; padding:24px 16px 64px; }
 </div>
 <p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#a89f94">Dalle domande 1, 4 e 7 · 11</p>
 
-</section></div></div>
-<div class="meta"><span>11 / 12</span><details><summary>Note per chi presenta</summary><p>I tre indizi arrivano da analisi indipendenti e puntano nella stessa direzione. Le pause del Bow includono il tempo da morto, quindi i due fenomeni sono legati. Gli altri temi ricorrenti: il tank reale è Double Blade, e i round lenti costano oro a tutti.</p></details></div>
-</div>
-<div class="slide-wrap" id="s12">
-<div class="frame"><div class="canvas"><section id="prossimi" data-transition="fade" style="background:#f3eee4;color:#2a2522;font-family:'Rubik', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:36px">
+</section></div><template>I tre indizi arrivano da analisi indipendenti e puntano nella stessa direzione. Le pause del Bow includono il tempo da morto, quindi i due fenomeni sono legati. Gli altri temi ricorrenti: il tank reale è Double Blade, e i round lenti costano oro a tutti.</template></div>
+<div class="slide" id="s12"><div class="canvas"><section id="prossimi" data-transition="fade" style="background:#f3eee4;color:#2a2522;font-family:'Rubik', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:36px">
 <p style="font-size:24px;color:#a4471a;letter-spacing:3px;text-transform:uppercase">Prossima partita</p>
 <h2 style="font-family:'Oswald', Arial, sans-serif;font-size:64px;font-weight:500;line-height:1.1;color:#1c1917">Cosa provare e cosa registrare</h2>
 <div style="display:flex;flex-direction:row;gap:64px">
@@ -404,17 +390,201 @@ main { max-width:1600px; margin:0 auto; padding:24px 16px 64px; }
 </div>
 <p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#6b625b">Dettagli e limiti in data_analysis/v2/domande/*/RISPOSTA.md · 12</p>
 
-</section></div></div>
-<div class="meta"><span>12 / 12</span><details><summary>Note per chi presenta</summary><p>Le prove sono indicazioni da verificare: una sola partita non dimostra cause ed effetti. Con screenshot regolari e più partite si potranno confrontare scelte diverse e passare da ipotesi a risposte.</p></details></div>
+</section></div><template>Le prove sono indicazioni da verificare: una sola partita non dimostra cause ed effetti. Con screenshot regolari e più partite si potranno confrontare scelte diverse e passare da ipotesi a risposte.</template></div>
 </div>
-</main>
+<div id="notes" hidden></div>
+<div id="hud">
+<button id="b-prev" title="Slide precedente (freccia sinistra)">&#8249;</button>
+<span id="counter"></span>
+<button id="b-next" title="Slide successiva (freccia destra o spazio)">&#8250;</button>
+<button id="b-notes" title="Note per chi presenta (N)">Note</button>
+<button id="b-full" title="Schermo intero (F)">&#x26F6;</button>
+</div>
 <script>
-function fit() {
-  document.querySelectorAll('.frame').forEach(f => {
-    f.querySelector('.canvas').style.transform = 'scale(' + (f.clientWidth / 1920) + ')';
+(function () {
+  const slides = [...document.querySelectorAll('.slide')];
+  const notes = document.getElementById('notes');
+  const counter = document.getElementById('counter');
+  const progress = document.getElementById('progress');
+  const calm = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let cur = -1, running = [], timers = [];
+
+  // --- adattamento alla finestra ---
+  function fit() {
+    const s = Math.min(innerWidth / 1920, innerHeight / 1080);
+    document.documentElement.style.setProperty('--s', s);
+  }
+  addEventListener('resize', fit); fit();
+
+  // --- numeri: formato italiano (1.540; 2,3) ---
+  const NUM = /\d{1,3}(?:\.\d{3})+(?:,\d+)?|\d+(?:,\d+)?/g;
+  function fmt(v, dec, thousands) {
+    let s = v.toFixed(dec).replace('.', ',');
+    if (thousands) s = s.replace(/^(\d+)/, d => d.replace(/\B(?=(\d{3})+(?!\d))/g, '.'));
+    return s;
+  }
+  function prepareCount(el) {
+    // ogni nodo di testo con numeri diventa una sequenza di pezzi fissi e numeri da animare
+    const parts = [];
+    const walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
+    const nodes = []; while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(n => {
+      const text = n.nodeValue; if (!NUM.test(text)) return; NUM.lastIndex = 0;
+      const tokens = []; let last = 0, m;
+      while ((m = NUM.exec(text))) {
+        const raw = m[0], dec = (raw.split(',')[1] || '').length;
+        tokens.push({ pre: text.slice(last, m.index), val: parseFloat(raw.replace(/\./g, '').replace(',', '.')), dec, th: raw.includes('.') });
+        last = m.index + raw.length;
+      }
+      parts.push({ node: n, tokens, tail: text.slice(last), orig: text });
+    });
+    el.classList.add('count');
+    return parts;
+  }
+  function render(parts, k) {
+    parts.forEach(p => {
+      p.node.nodeValue = k >= 1 ? p.orig : p.tokens.map(t => t.pre + fmt(t.val * k, t.dec, t.th)).join('') + p.tail;
+    });
+  }
+  function countUp(el, delay, dur) {
+    if (!el._parts) el._parts = prepareCount(el);
+    const parts = el._parts; if (!parts.length) return;
+    render(parts, 0);
+    const t = setTimeout(() => {
+      const t0 = performance.now();
+      (function step(now) {
+        const x = Math.min(1, (now - t0) / dur), k = 1 - Math.pow(1 - x, 3);
+        render(parts, k);
+        if (x < 1 && el._run === run) requestAnimationFrame(step); else render(parts, 1);
+      })(t0);
+    }, delay);
+    const run = el._run = {}; timers.push(t); counted.push(el);
+  }
+  let counted = [];
+
+  // --- cosa animare in una slide ---
+  const px = (el, prop) => parseFloat(el.style[prop]) || 0;
+  const isBar = el => el.tagName === 'DIV' && !el.children.length && el.style.width.endsWith('px') &&
+    px(el, 'height') >= 16 && px(el, 'height') <= 48 && el.style.background;
+  const isStack = el => el.tagName === 'DIV' && el.style.display === 'flex' && px(el, 'height') >= 40 &&
+    el.children.length >= 2 && [...el.children].every(c => c.style.flex);
+  const isBig = el => el.tagName === 'P' && /Oswald/.test(el.style.fontFamily) && px(el, 'fontSize') >= 56 && /\d/.test(el.textContent);
+
+  function units(section) {
+    // blocchi che compaiono uno dopo l'altro, in ordine di lettura; il pie' di pagina fisso per ultimo
+    const out = [], pinned = [];
+    function add(el) {
+      const st = el.style, kids = [...el.children];
+      if (el.tagName === 'TABLE') { el.querySelectorAll('tr').forEach(r => out.push(r)); return; }
+      if (el.tagName === 'UL' || el.tagName === 'OL') { kids.forEach(k => out.push(k)); return; }
+      if (el.tagName === 'DIV' && kids.length >= 2 && !isStack(el) && !isBar(el) &&
+          (st.display === 'grid' || (st.display === 'flex' && st.flexDirection !== 'column') ||
+           (st.display === 'flex' && st.flexDirection === 'column' && !st.background && !st.border && !st.borderTop))) {
+        kids.forEach(add); return;
+      }
+      out.push(el);
+    }
+    [...section.children].forEach(el => {
+      if (el.tagName === 'ASIDE') return;
+      if (el.style.position === 'absolute') pinned.push(el); else add(el);
+    });
+    return out.concat(pinned);
+  }
+
+  function play(slide) {
+    stop();
+    const section = slide.querySelector('section');
+    if (calm) return;
+    const list = units(section);
+    const step = Math.max(45, Math.min(110, 1100 / list.length));
+    list.forEach((el, i) => {
+      const d = 120 + i * step;
+      running.push(el.animate([{ opacity: 0, transform: 'translateY(26px)' }, { opacity: 1, transform: 'none' }],
+        { duration: 650, delay: d, easing: 'cubic-bezier(.2,.7,.2,1)', fill: 'backwards' }));
+      // barre, barre impilate e numeri dentro questo blocco partono con lui
+      const inner = [el, ...el.querySelectorAll('*')];
+      let b = 0;
+      inner.forEach(x => {
+        if (isBar(x)) {
+          // si anima la larghezza (non una scala) cosi' il numero accanto segue la barra
+          const bd = d + 200 + b++ * 40;
+          running.push(x.animate([{ width: '0px', minWidth: '0px' }, { width: x.style.width }],
+            { duration: 1000, delay: bd, easing: 'cubic-bezier(.25,.8,.25,1)', fill: 'backwards' }));
+          const label = x.nextElementSibling;
+          if (label && label.tagName === 'P' && /\d/.test(label.textContent)) countUp(label, bd, 1000);
+        } else if (isStack(x)) {
+          running.push(x.animate([{ clipPath: 'inset(0 100% 0 0)' }, { clipPath: 'inset(0 0 0 0)' }],
+            { duration: 1300, delay: d + 200, easing: 'cubic-bezier(.45,.05,.25,1)', fill: 'backwards' }));
+        } else if (isBig(x)) {
+          countUp(x, d + 150, 1300);
+        }
+      });
+    });
+  }
+  function stop() {
+    running.forEach(a => a.cancel()); running = [];
+    timers.forEach(clearTimeout); timers = [];
+    counted.forEach(el => { el._run = null; render(el._parts, 1); }); counted = [];
+  }
+
+  // --- navigazione ---
+  function go(n, replay) {
+    n = Math.max(0, Math.min(slides.length - 1, n));
+    if (n === cur && !replay) return;
+    if (cur >= 0) slides[cur].classList.remove('on');
+    cur = n; slides[cur].classList.add('on');
+    counter.textContent = (cur + 1) + ' / ' + slides.length;
+    progress.style.width = ((cur + 1) / slides.length * 100) + '%';
+    const aside = slides[cur].querySelector('template');
+    notes.textContent = aside ? aside.content.textContent.trim() : 'Nessuna nota per questa slide.';
+    history.replaceState(null, '', '#' + (cur + 1));
+    play(slides[cur]);
+  }
+  const next = () => go(cur + 1), prev = () => go(cur - 1);
+  function full() {
+    if (document.fullscreenElement) document.exitFullscreen(); else document.documentElement.requestFullscreen().catch(() => {});
+  }
+  const toggleNotes = () => { notes.hidden = !notes.hidden; };
+
+  addEventListener('keydown', e => {
+    if (e.ctrlKey || e.metaKey || e.altKey) return;
+    const k = e.key;
+    if (['ArrowRight', 'ArrowDown', 'PageDown', ' ', 'Enter'].includes(k)) { e.preventDefault(); next(); }
+    else if (['ArrowLeft', 'ArrowUp', 'PageUp', 'Backspace'].includes(k)) { e.preventDefault(); prev(); }
+    else if (k === 'Home') go(0);
+    else if (k === 'End') go(slides.length - 1);
+    else if (k === 'f' || k === 'F') full();
+    else if (k === 'n' || k === 'N') toggleNotes();
+    else if (k === 'r' || k === 'R') go(cur, true);
   });
-}
-window.addEventListener('resize', fit); fit();
+  document.getElementById('deck').addEventListener('click', e => {
+    if (e.target.closest('a')) return;
+    (e.clientX < innerWidth / 3 ? prev : next)();
+  });
+  let tx = null;
+  addEventListener('touchstart', e => { tx = e.touches[0].clientX; }, { passive: true });
+  addEventListener('touchend', e => {
+    if (tx === null) return; const dx = e.changedTouches[0].clientX - tx; tx = null;
+    if (Math.abs(dx) > 50) (dx < 0 ? next : prev)();
+  });
+  document.getElementById('b-prev').onclick = prev;
+  document.getElementById('b-next').onclick = next;
+  document.getElementById('b-notes').onclick = toggleNotes;
+  document.getElementById('b-full').onclick = full;
+
+  // la barra dei comandi sparisce quando il mouse sta fermo
+  const hud = document.getElementById('hud'); let idle;
+  function wake() { hud.classList.remove('idle'); clearTimeout(idle); idle = setTimeout(() => hud.classList.add('idle'), 2500); }
+  addEventListener('mousemove', wake); wake();
+
+  // in stampa tutto al valore finale
+  addEventListener('beforeprint', stop);
+
+  const start = parseInt(location.hash.slice(1), 10);
+  const begin = () => go(Number.isFinite(start) ? start - 1 : 0);
+  // le animazioni partono quando i font sono pronti, cosi' le misure non cambiano a meta'
+  (document.fonts ? Promise.race([document.fonts.ready, new Promise(r => setTimeout(r, 1500))]) : Promise.resolve()).then(begin);
+})();
 </script>
 </body>
 </html>
