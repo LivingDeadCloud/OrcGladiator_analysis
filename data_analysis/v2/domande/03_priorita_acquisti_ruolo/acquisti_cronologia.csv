@@ -1,0 +1,418 @@
+tempo_s,challenge_rif,momento,classe,ruolo,codice,oggetto,categoria,costo_oro,costo_netto_stimato,punti_talento,livello_stimato,nota,effetto_sintetico
+42.6,1,prima,Pickaxe,DPS mischia,I08H,Arena Teleport: Rocks,teletrasporto (gratis),0,0,0,2.0,,Teleports the buyer and their nearby units to the fountain location (top right) in the arena.
+42.6,1,prima,Druid Staff,Healer,I08H,Arena Teleport: Rocks,teletrasporto (gratis),0,0,0,2.0,,Teleports the buyer and their nearby units to the fountain location (top right) in the arena.
+42.7,1,prima,Pickaxe,DPS mischia,I08H,Arena Teleport: Rocks,teletrasporto (gratis),0,0,0,2.0,,Teleports the buyer and their nearby units to the fountain location (top right) in the arena.
+42.9,1,prima,Pickaxe,DPS mischia,I08H,Arena Teleport: Rocks,teletrasporto (gratis),0,0,0,2.0,,Teleports the buyer and their nearby units to the fountain location (top right) in the arena.
+43.0,1,prima,Pickaxe,DPS mischia,I08H,Arena Teleport: Rocks,teletrasporto (gratis),0,0,0,2.0,,Teleports the buyer and their nearby units to the fountain location (top right) in the arena.
+44.1,1,prima,Druid Staff,Healer,I08H,Arena Teleport: Rocks,teletrasporto (gratis),0,0,0,2.0,,Teleports the buyer and their nearby units to the fountain location (top right) in the arena.
+45.6,1,prima,Double Blade,DPS mischia,I08H,Arena Teleport: Rocks,teletrasporto (gratis),0,0,0,2.0,,Teleports the buyer and their nearby units to the fountain location (top right) in the arena.
+46.9,1,prima,Wizard Staff,DPS distanza,I08H,Arena Teleport: Rocks,teletrasporto (gratis),0,0,0,2.0,,Teleports the buyer and their nearby units to the fountain location (top right) in the arena.
+47.1,1,prima,War Drums,Support,I08H,Arena Teleport: Rocks,teletrasporto (gratis),0,0,0,2.0,,Teleports the buyer and their nearby units to the fountain location (top right) in the arena.
+47.3,1,prima,Bow,DPS distanza,I08H,Arena Teleport: Rocks,teletrasporto (gratis),0,0,0,2.0,,Teleports the buyer and their nearby units to the fountain location (top right) in the arena.
+47.3,1,prima,Claws,DPS mischia,I08H,Arena Teleport: Rocks,teletrasporto (gratis),0,0,0,2.0,,Teleports the buyer and their nearby units to the fountain location (top right) in the arena.
+49.5,1,prima,Naga Trident,DPS distanza,I08H,Arena Teleport: Rocks,teletrasporto (gratis),0,0,0,2.0,,Teleports the buyer and their nearby units to the fountain location (top right) in the arena.
+50.0,1,prima,Claws,DPS mischia,I08H,Arena Teleport: Rocks,teletrasporto (gratis),0,0,0,2.0,,Teleports the buyer and their nearby units to the fountain location (top right) in the arena.
+52.6,1,prima,War Hammer,Tank,I08H,Arena Teleport: Rocks,teletrasporto (gratis),0,0,0,2.0,,Teleports the buyer and their nearby units to the fountain location (top right) in the arena.
+56.7,1,prima,Runeblade,Tank,I08H,Arena Teleport: Rocks,teletrasporto (gratis),0,0,0,2.0,,Teleports the buyer and their nearby units to the fountain location (top right) in the arena.
+259.0,2,prima,Claws,DPS mischia,I08H,Arena Teleport: Rocks,teletrasporto (gratis),0,0,0,2.1,,Teleports the buyer and their nearby units to the fountain location (top right) in the arena.
+262.9,2,prima,Druid Staff,Healer,I08H,Arena Teleport: Rocks,teletrasporto (gratis),0,0,0,2.1,,Teleports the buyer and their nearby units to the fountain location (top right) in the arena.
+264.2,2,prima,Pickaxe,DPS mischia,I05U,Arena Teleport: Fountain,teletrasporto (gratis),0,0,0,2.1,,Teleports the buyer and their nearby units to the fountain location (top left) in the arena.
+265.6,2,prima,War Drums,Support,I08H,Arena Teleport: Rocks,teletrasporto (gratis),0,0,0,2.1,,Teleports the buyer and their nearby units to the fountain location (top right) in the arena.
+267.5,2,prima,Naga Trident,DPS distanza,I08H,Arena Teleport: Rocks,teletrasporto (gratis),0,0,0,2.1,,Teleports the buyer and their nearby units to the fountain location (top right) in the arena.
+268.4,2,prima,Runeblade,Tank,I08H,Arena Teleport: Rocks,teletrasporto (gratis),0,0,0,2.1,,Teleports the buyer and their nearby units to the fountain location (top right) in the arena.
+269.6,2,prima,Wizard Staff,DPS distanza,I06Z,Purchase Survival Treads,stivali,50,50,0,2.1,,"Boots   Cheap boots that increase the wearer's regen. Movement speed increased by 50, +1.0% hit point regeneration and +50% mana regeneration.     Note: you can"
+273.1,2,prima,Wizard Staff,DPS distanza,I08H,Arena Teleport: Rocks,teletrasporto (gratis),0,0,0,2.1,,Teleports the buyer and their nearby units to the fountain location (top right) in the arena.
+276.6,2,prima,Bow,DPS distanza,I056,Contender's Token,oggetto permanente,30,30,0,2.1,,"Unique ,  Undroppable ,  Gamble   An official gamble purchased by those who are sure of their abilities. A risk like this is unwise for the overconfident.     P"
+279.7,2,prima,Bow,DPS distanza,I08H,Arena Teleport: Rocks,teletrasporto (gratis),0,0,0,2.2,,Teleports the buyer and their nearby units to the fountain location (top right) in the arena.
+280.6,2,prima,Double Blade,DPS mischia,I08H,Arena Teleport: Rocks,teletrasporto (gratis),0,0,0,2.2,,Teleports the buyer and their nearby units to the fountain location (top right) in the arena.
+287.8,2,prima,War Hammer,Tank,I06Z,Purchase Survival Treads,stivali,50,50,0,2.2,,"Boots   Cheap boots that increase the wearer's regen. Movement speed increased by 50, +1.0% hit point regeneration and +50% mana regeneration.     Note: you can"
+290.9,2,prima,War Hammer,Tank,I08H,Arena Teleport: Rocks,teletrasporto (gratis),0,0,0,2.2,,Teleports the buyer and their nearby units to the fountain location (top right) in the arena.
+451.7,3,prima,Druid Staff,Healer,I06Z,Purchase Survival Treads,stivali,50,50,0,3.0,,"Boots   Cheap boots that increase the wearer's regen. Movement speed increased by 50, +1.0% hit point regeneration and +50% mana regeneration.     Note: you can"
+453.5,3,prima,Naga Trident,DPS distanza,I06Z,Purchase Survival Treads,stivali,50,50,0,3.0,,"Boots   Cheap boots that increase the wearer's regen. Movement speed increased by 50, +1.0% hit point regeneration and +50% mana regeneration.     Note: you can"
+459.1,3,prima,War Drums,Support,I06Z,Purchase Survival Treads,stivali,50,50,0,3.1,,"Boots   Cheap boots that increase the wearer's regen. Movement speed increased by 50, +1.0% hit point regeneration and +50% mana regeneration.     Note: you can"
+462.1,3,prima,Claws,DPS mischia,I06Z,Purchase Survival Treads,stivali,50,50,0,3.1,,"Boots   Cheap boots that increase the wearer's regen. Movement speed increased by 50, +1.0% hit point regeneration and +50% mana regeneration.     Note: you can"
+467.7,3,prima,Double Blade,DPS mischia,I06Z,Purchase Survival Treads,stivali,50,50,0,3.1,,"Boots   Cheap boots that increase the wearer's regen. Movement speed increased by 50, +1.0% hit point regeneration and +50% mana regeneration.     Note: you can"
+468.6,3,prima,Druid Staff,Healer,I00R,Wizard's Potion,pozione,100,100,0,3.1,,Potion   Restores 160 mana over 6 seconds.    Cooldown : 40 seconds
+469.4,3,prima,Pickaxe,DPS mischia,I06Z,Purchase Survival Treads,stivali,50,50,0,3.1,,"Boots   Cheap boots that increase the wearer's regen. Movement speed increased by 50, +1.0% hit point regeneration and +50% mana regeneration.     Note: you can"
+476.0,3,prima,Runeblade,Tank,I00N,Purchase Royal Greaves,stivali,100,100,0,3.1,,"Boots   Probably belonged to a noble who fell from grace. Increases movement speed by 50, armour by 5 and all attributes by 6.    Passive Effect : Changes your "
+477.4,3,prima,Claws,DPS mischia,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,3.2,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+477.9,3,prima,War Hammer,Tank,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,3.2,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+479.9,3,prima,Druid Staff,Healer,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,3.2,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+480.2,3,prima,War Drums,Support,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,3.2,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+480.2,3,prima,Double Blade,DPS mischia,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,3.2,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+483.7,3,prima,Pickaxe,DPS mischia,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,3.2,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+484.8,3,prima,Wizard Staff,DPS distanza,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,3.2,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+489.0,3,prima,Runeblade,Tank,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,3.2,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+490.2,3,prima,Double Blade,DPS mischia,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,3.2,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+490.4,3,prima,Double Blade,DPS mischia,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,3.2,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+492.1,3,prima,Bow,DPS distanza,I06Z,Purchase Survival Treads,stivali,50,50,0,3.2,,"Boots   Cheap boots that increase the wearer's regen. Movement speed increased by 50, +1.0% hit point regeneration and +50% mana regeneration.     Note: you can"
+495.3,3,prima,Bow,DPS distanza,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,3.2,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+654.5,4,prima,Claws,DPS mischia,I00R,Wizard's Potion,pozione,100,100,0,4.0,,Potion   Restores 160 mana over 6 seconds.    Cooldown : 40 seconds
+661.3,4,prima,Pickaxe,DPS mischia,I00R,Wizard's Potion,pozione,100,100,0,4.1,,Potion   Restores 160 mana over 6 seconds.    Cooldown : 40 seconds
+666.9,4,prima,Wizard Staff,DPS distanza,I00R,Wizard's Potion,pozione,100,100,0,4.1,,Potion   Restores 160 mana over 6 seconds.    Cooldown : 40 seconds
+668.8,4,prima,Claws,DPS mischia,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,4.0,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+670.3,4,prima,Wizard Staff,DPS distanza,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,4.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+671.1,4,prima,Double Blade,DPS mischia,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,4.0,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+673.2,4,prima,Runeblade,Tank,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,4.0,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+673.6,4,prima,Pickaxe,DPS mischia,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,4.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+675.7,4,prima,War Drums,Support,I00R,Wizard's Potion,pozione,100,100,0,4.0,,Potion   Restores 160 mana over 6 seconds.    Cooldown : 40 seconds
+678.0,4,prima,Druid Staff,Healer,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,4.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+682.7,4,prima,War Drums,Support,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,4.0,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+685.0,4,prima,Bow,DPS distanza,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,4.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+685.4,4,prima,War Hammer,Tank,I00R,Wizard's Potion,pozione,100,100,0,4.1,,Potion   Restores 160 mana over 6 seconds.    Cooldown : 40 seconds
+686.2,4,prima,Naga Trident,DPS distanza,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,4.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+689.7,4,prima,War Hammer,Tank,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,4.2,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+939.9,5,prima,Runeblade,Tank,I00R,Wizard's Potion,pozione,100,100,0,4.0,,Potion   Restores 160 mana over 6 seconds.    Cooldown : 40 seconds
+943.9,5,prima,Naga Trident,DPS distanza,I00R,Wizard's Potion,pozione,100,100,0,5.0,,Potion   Restores 160 mana over 6 seconds.    Cooldown : 40 seconds
+944.7,5,prima,War Hammer,Tank,I05U,Arena Teleport: Fountain,teletrasporto (gratis),0,0,0,5.0,,Teleports the buyer and their nearby units to the fountain location (top left) in the arena.
+945.1,5,prima,War Drums,Support,I05U,Arena Teleport: Fountain,teletrasporto (gratis),0,0,0,4.1,,Teleports the buyer and their nearby units to the fountain location (top left) in the arena.
+946.8,5,prima,Double Blade,DPS mischia,I05U,Arena Teleport: Fountain,teletrasporto (gratis),0,0,0,4.1,,Teleports the buyer and their nearby units to the fountain location (top left) in the arena.
+947.1,5,prima,Claws,DPS mischia,I05U,Arena Teleport: Fountain,teletrasporto (gratis),0,0,0,4.1,,Teleports the buyer and their nearby units to the fountain location (top left) in the arena.
+947.4,5,prima,Pickaxe,DPS mischia,I05U,Arena Teleport: Fountain,teletrasporto (gratis),0,0,0,5.0,,Teleports the buyer and their nearby units to the fountain location (top left) in the arena.
+947.6,5,prima,Wizard Staff,DPS distanza,I05U,Arena Teleport: Fountain,teletrasporto (gratis),0,0,0,5.1,,Teleports the buyer and their nearby units to the fountain location (top left) in the arena.
+948.5,5,prima,Naga Trident,DPS distanza,I05U,Arena Teleport: Fountain,teletrasporto (gratis),0,0,0,5.0,,Teleports the buyer and their nearby units to the fountain location (top left) in the arena.
+952.4,5,prima,Runeblade,Tank,I05U,Arena Teleport: Fountain,teletrasporto (gratis),0,0,0,4.1,,Teleports the buyer and their nearby units to the fountain location (top left) in the arena.
+957.8,5,prima,Bow,DPS distanza,I00W,Rage Potion,pozione,250,250,0,5.1,,Epic Potion   Heals 25% health and 100 mana over 8 seconds and increases your attack speed by 150% whilst active.    Cooldown : 40 seconds
+961.5,5,prima,Bow,DPS distanza,I05U,Arena Teleport: Fountain,teletrasporto (gratis),0,0,0,5.1,,Teleports the buyer and their nearby units to the fountain location (top left) in the arena.
+963.3,5,prima,Druid Staff,Healer,I05U,Arena Teleport: Fountain,teletrasporto (gratis),0,0,0,5.1,,Teleports the buyer and their nearby units to the fountain location (top left) in the arena.
+972.2,5,prima,Double Blade,DPS mischia,I00Q,Tank's Potion,pozione,100,100,0,4.1,,Potion   Heals 40% health over 6 seconds.    Cooldown : 40 seconds
+972.3,5,prima,Double Blade,DPS mischia,I00Q,Tank's Potion,pozione,100,100,0,4.2,,Potion   Heals 40% health over 6 seconds.    Cooldown : 40 seconds
+974.7,5,prima,Double Blade,DPS mischia,I05U,Arena Teleport: Fountain,teletrasporto (gratis),0,0,0,4.2,,Teleports the buyer and their nearby units to the fountain location (top left) in the arena.
+974.9,5,prima,Double Blade,DPS mischia,I05U,Arena Teleport: Fountain,teletrasporto (gratis),0,0,0,4.2,,Teleports the buyer and their nearby units to the fountain location (top left) in the arena.
+1120.7,5,durante,Wizard Staff,DPS distanza,I06J,Ancestral Strength,"pietra ancestrale (gratis, rianima)",0,0,0,5.6,,"Using this ability will revive a random fallen player in the Arena with full hit points and mana, however it costs the Ancestral Stone 100 mana.    Mana Regener"
+1274.2,6,prima,War Hammer,Tank,I096,Heartstone,oggetto permanente,400,400,0,5.1,,"Unique ,  Augmentable   Increases Strength by 6 and mana points by 100.     Passive Effect : Casting a spell restores 4% of your max hit points."
+1274.9,6,prima,War Drums,Support,I08H,Arena Teleport: Rocks,teletrasporto (gratis),0,0,0,5.2,,Teleports the buyer and their nearby units to the fountain location (top right) in the arena.
+1276.1,6,prima,Claws,DPS mischia,I08H,Arena Teleport: Rocks,teletrasporto (gratis),0,0,0,5.2,,Teleports the buyer and their nearby units to the fountain location (top right) in the arena.
+1278.2,6,prima,Wizard Staff,DPS distanza,I08H,Arena Teleport: Rocks,teletrasporto (gratis),0,0,0,6.2,,Teleports the buyer and their nearby units to the fountain location (top right) in the arena.
+1278.4,6,prima,Pickaxe,DPS mischia,I08H,Arena Teleport: Rocks,teletrasporto (gratis),0,0,0,5.2,,Teleports the buyer and their nearby units to the fountain location (top right) in the arena.
+1279.1,6,prima,Druid Staff,Healer,I08H,Arena Teleport: Rocks,teletrasporto (gratis),0,0,0,6.0,,Teleports the buyer and their nearby units to the fountain location (top right) in the arena.
+1279.3,6,prima,Double Blade,DPS mischia,I08H,Arena Teleport: Rocks,teletrasporto (gratis),0,0,0,5.2,,Teleports the buyer and their nearby units to the fountain location (top right) in the arena.
+1279.8,6,prima,War Hammer,Tank,I08H,Arena Teleport: Rocks,teletrasporto (gratis),0,0,0,5.2,,Teleports the buyer and their nearby units to the fountain location (top right) in the arena.
+1285.4,6,prima,Bow,DPS distanza,I08H,Arena Teleport: Rocks,teletrasporto (gratis),0,0,0,6.0,,Teleports the buyer and their nearby units to the fountain location (top right) in the arena.
+1285.5,6,prima,Runeblade,Tank,I09A,Defender's Buckler,oggetto permanente,100,100,0,5.2,,"Unique   Increases armour by 5.     Active Effect : Taunt nearby enemies (450 Area of Effect, 20 sec CD).    Passive Effect : Gives a 40% chance to Block physic"
+1288.5,6,prima,Naga Trident,DPS distanza,I093,I093,oggetto permanente,175,175,0,5.2,,"Unique ,  Augmentable   Increases Agility and Intelligence by 4 when held.     Passive Effect : Empowers the following abilities:    -  Embolden : +25% duration"
+1290.8,6,prima,Runeblade,Tank,I08H,Arena Teleport: Rocks,teletrasporto (gratis),0,0,0,5.2,,Teleports the buyer and their nearby units to the fountain location (top right) in the arena.
+1517.6,7,prima,Double Blade,DPS mischia,I088,Ethereal Armour,oggetto permanente,850,850,0,6.2,,Unique   A peculiar armour piece that protects the wearer from all harm. Grants +25 armour and +33% resistance.
+1518.4,7,prima,Claws,DPS mischia,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,6.2,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+1520.4,7,prima,Wizard Staff,DPS distanza,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,7.0,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+1520.7,7,prima,War Drums,Support,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,6.2,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+1521.0,7,prima,Pickaxe,DPS mischia,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,6.2,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+1522.3,7,prima,Naga Trident,DPS distanza,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,6.2,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+1522.6,7,prima,Druid Staff,Healer,I05U,Arena Teleport: Fountain,teletrasporto (gratis),0,0,0,6.2,,Teleports the buyer and their nearby units to the fountain location (top left) in the arena.
+1523.1,7,prima,War Hammer,Tank,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,6.2,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+1523.8,7,prima,Double Blade,DPS mischia,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,6.2,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+1523.9,7,prima,Double Blade,DPS mischia,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,6.2,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+1670.8,7,durante,Pickaxe,DPS mischia,I06J,Ancestral Strength,"pietra ancestrale (gratis, rianima)",0,0,0,6.7,,"Using this ability will revive a random fallen player in the Arena with full hit points and mana, however it costs the Ancestral Stone 100 mana.    Mana Regener"
+1800.9,8,prima,Claws,DPS mischia,I02W,Ring of Superiority,oggetto permanente,700,700,0,7.1,,Unique   A ring once worn by a powerful sorceror. Grants +10 to all attributes.     Passive Effect : At the end of a round gain +1 to all attributes (or +2 to a
+1811.6,8,prima,Runeblade,Tank,I096,Heartstone,oggetto permanente,400,400,0,7.1,,"Unique ,  Augmentable   Increases Strength by 6 and mana points by 100.     Passive Effect : Casting a spell restores 4% of your max hit points."
+1813.4,8,prima,Druid Staff,Healer,I06T,Purchase Thinking Sandals,stivali,175,138,0,7.1,rimborso 75% stivali precedenti (37) dal trigger Boots_Upgrade,"Boots   Helps the wearer with concentration. Movement speed increased by 50, maximum mana by 150 and mana regeneration by 50%.    Note: you can only wear one pa"
+1815.2,8,prima,Bow,DPS distanza,I09O,Hood of Cunning,oggetto permanente,200,200,0,7.1,,"Unique   Worn by hunters of giants and beasts. Grants +25 attack damage, +3.0% crit chance and +200 hit points.     Passive Effect : Bosses deal 30% less physic"
+1818.6,8,prima,Claws,DPS mischia,I0BX,Arena Teleport: Pits,teletrasporto (gratis),0,0,0,7.2,,Teleports the buyer and their nearby units to the pits location (bottom right) in the arena.
+1819.7,8,prima,Runeblade,Tank,I0BX,Arena Teleport: Pits,teletrasporto (gratis),0,0,0,7.2,,Teleports the buyer and their nearby units to the pits location (bottom right) in the arena.
+1819.7,8,prima,Pickaxe,DPS mischia,I0BX,Arena Teleport: Pits,teletrasporto (gratis),0,0,0,7.2,,Teleports the buyer and their nearby units to the pits location (bottom right) in the arena.
+1820.0,8,prima,Double Blade,DPS mischia,I0BX,Arena Teleport: Pits,teletrasporto (gratis),0,0,0,7.2,,Teleports the buyer and their nearby units to the pits location (bottom right) in the arena.
+1820.3,8,prima,War Hammer,Tank,I0BX,Arena Teleport: Pits,teletrasporto (gratis),0,0,0,7.2,,Teleports the buyer and their nearby units to the pits location (bottom right) in the arena.
+1820.5,8,prima,Druid Staff,Healer,I0BX,Arena Teleport: Pits,teletrasporto (gratis),0,0,0,7.2,,Teleports the buyer and their nearby units to the pits location (bottom right) in the arena.
+1821.6,8,prima,Naga Trident,DPS distanza,I0BX,Arena Teleport: Pits,teletrasporto (gratis),0,0,0,7.2,,Teleports the buyer and their nearby units to the pits location (bottom right) in the arena.
+1822.4,8,prima,Bow,DPS distanza,I0BX,Arena Teleport: Pits,teletrasporto (gratis),0,0,0,7.2,,Teleports the buyer and their nearby units to the pits location (bottom right) in the arena.
+1822.9,8,prima,Pickaxe,DPS mischia,I0BX,Arena Teleport: Pits,teletrasporto (gratis),0,0,0,7.2,,Teleports the buyer and their nearby units to the pits location (bottom right) in the arena.
+1823.9,8,prima,Wizard Staff,DPS distanza,I0BX,Arena Teleport: Pits,teletrasporto (gratis),0,0,0,7.2,,Teleports the buyer and their nearby units to the pits location (bottom right) in the arena.
+1825.0,8,prima,War Drums,Support,I0BX,Arena Teleport: Pits,teletrasporto (gratis),0,0,0,7.2,,Teleports the buyer and their nearby units to the pits location (bottom right) in the arena.
+2060.2,9,prima,Claws,DPS mischia,I01H,(Claws) Guardian,"talento (punti talento, non oro)",0,0,1,8.0,,Feral Spirit now summons a single Guardian that has roughly 3 times as much stats as a single Feral Spirit. Also increases the mana cost by 30.
+2066.6,9,prima,Wizard Staff,DPS distanza,I08M,(Wizard Staff) Temporal Mastery,"talento (punti talento, non oro)",0,0,1,8.0,,Time Stop now affects all units within 3000 units of the caster but its cooldown is now 3 minutes.
+2068.1,9,prima,Bow,DPS distanza,I02A,(Bow) Refined Technique,"talento (punti talento, non oro)",0,0,1,8.0,,Increases your attack range by 250 and your attack speed by 12%.
+2075.1,9,prima,War Drums,Support,I08F,Charm of Protection,oggetto permanente,,,0,8.0,costo non presente nella mappa (campo igol assente): non determinabile,"Unique ,  Augmentable   A charm taken by those who embark on long and dangerous adventures.    Passive Effect : Bestow a Devotion Aura (900 area) that grants +5"
+2079.8,9,prima,Double Blade,DPS mischia,I060,(Double Edge) Houndmaster,"talento (punti talento, non oro)",0,0,1,8.0,,Picking up a Spiked Collar (from the cheap shop) after acquiring this talent will transform it into an Augmented Spiked Collar which has unlimited charges and s
+2085.8,9,prima,Runeblade,Tank,I0BB,(Runeblade) Incite,"talento (punti talento, non oro)",0,0,1,8.0,,Reduces the cooldown of Unholy Frenzy by 20 seconds.
+2087.1,9,prima,Pickaxe,DPS mischia,I06P,(Pickaxe) Supercharge,"talento (punti talento, non oro)",0,0,1,8.0,,Overdrive's duration is increased by 5 seconds and grants 25% more attack speed.
+2089.9,9,prima,Naga Trident,DPS distanza,I0AF,(Trident) Thunder,"talento (punti talento, non oro)",0,0,1,8.1,,"Increases Forked Lightning's targets by 2, damage by 10% and its mana cost by 15.     Repeatable Talent : this upgrade can be selected up to 3 times."
+2091.2,9,prima,Claws,DPS mischia,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,8.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+2092.7,9,prima,War Drums,Support,I07C,(War Drums) Eminence,"talento (punti talento, non oro)",0,0,1,8.1,,You can bestow 2 auras at once. The oldest aura is hidden and has no visible icon or tooltip (but still displays visually).
+2095.1,9,prima,Naga Trident,DPS distanza,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,8.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+2099.4,9,prima,Bow,DPS distanza,I09N,Corrosive Oil,oggetto permanente,,,0,8.1,costo non presente nella mappa (campo igol assente): non determinabile,"Unique ,  Augmentable   Increases your attack damage by 30.     Passive Effect : Your attacks have 35% chance to permanently reduce the target's armour by 1, st"
+2101.8,9,prima,Pickaxe,DPS mischia,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,8.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+2103.3,9,prima,Druid Staff,Healer,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,8.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+2104.6,9,prima,Wizard Staff,DPS distanza,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,8.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+2105.3,9,prima,Runeblade,Tank,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,8.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+2106.1,9,prima,War Drums,Support,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,8.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+2106.7,9,prima,Bow,DPS distanza,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,8.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+2109.3,9,prima,Double Blade,DPS mischia,I05S,I05S,oggetto permanente,25,25,0,8.1,,Common   Summons 2 Felhounds to fight for you that have 2000 health and 60 attack damage. These Felhounds do not benefit from stats and last 3 minutes.
+2109.4,9,prima,Double Blade,DPS mischia,I05S,I05S,oggetto permanente,25,25,0,8.1,,Common   Summons 2 Felhounds to fight for you that have 2000 health and 60 attack damage. These Felhounds do not benefit from stats and last 3 minutes.
+2111.4,9,prima,War Hammer,Tank,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,8.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+2111.7,9,prima,Double Blade,DPS mischia,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,8.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+2128.9,9,prima,Druid Staff,Healer,I049,(Druid Staff) Brambles,"talento (punti talento, non oro)",0,0,1,8.1,,"Thorns Aura now grants +8 armour, reflects 33% more damage and is global."
+2248.1,9,durante,Pickaxe,DPS mischia,I06J,Ancestral Strength,"pietra ancestrale (gratis, rianima)",0,0,0,8.3,,"Using this ability will revive a random fallen player in the Arena with full hit points and mana, however it costs the Ancestral Stone 100 mana.    Mana Regener"
+2345.3,9,durante,Wizard Staff,DPS distanza,I06J,Ancestral Strength,"pietra ancestrale (gratis, rianima)",0,0,0,8.5,,"Using this ability will revive a random fallen player in the Arena with full hit points and mana, however it costs the Ancestral Stone 100 mana.    Mana Regener"
+2435.4,9,durante,Wizard Staff,DPS distanza,I06J,Ancestral Strength,"pietra ancestrale (gratis, rianima)",0,0,0,8.7,,"Using this ability will revive a random fallen player in the Arena with full hit points and mana, however it costs the Ancestral Stone 100 mana.    Mana Regener"
+2555.2,9,durante,Wizard Staff,DPS distanza,I06J,Ancestral Strength,"pietra ancestrale (gratis, rianima)",0,0,0,8.9,,"Using this ability will revive a random fallen player in the Arena with full hit points and mana, however it costs the Ancestral Stone 100 mana.    Mana Regener"
+2637.3,10,prima,Druid Staff,Healer,I00K,Purchase Slippers of Focus,stivali,500,369,0,9.1,rimborso 75% stivali precedenti (131) dal trigger Boots_Upgrade,"Epic Boots   The material is soothing and enchanted. Movement speed increased by 50, maximum mana by 300, mana regeneration by 100% and gives the wearer Spell S"
+2644.5,10,prima,Wizard Staff,DPS distanza,I094,Mysterious Codex,oggetto permanente,150,150,0,9.1,,"Unique ,  Augmentable   Increases Strength and Intelligence by 4 when held.     Passive Effect : Empowers the following abilities:    -  Golems : Lasts 10 secon"
+2655.8,10,prima,War Hammer,Tank,I05H,Petrified Bark,oggetto permanente,700,700,0,9.1,,"Unique ,  Augmentable   A prehistoric artefact that was once a part of some kind of plant life. It makes a good armour-enhancement. Increases armour by 10.     "
+2657.6,10,prima,Pickaxe,DPS mischia,I0BX,Arena Teleport: Pits,teletrasporto (gratis),0,0,0,9.1,,Teleports the buyer and their nearby units to the pits location (bottom right) in the arena.
+2658.4,10,prima,Naga Trident,DPS distanza,I0BX,Arena Teleport: Pits,teletrasporto (gratis),0,0,0,9.1,,Teleports the buyer and their nearby units to the pits location (bottom right) in the arena.
+2658.5,10,prima,Claws,DPS mischia,I0BX,Arena Teleport: Pits,teletrasporto (gratis),0,0,0,9.1,,Teleports the buyer and their nearby units to the pits location (bottom right) in the arena.
+2660.2,10,prima,Runeblade,Tank,I0BX,Arena Teleport: Pits,teletrasporto (gratis),0,0,0,9.1,,Teleports the buyer and their nearby units to the pits location (bottom right) in the arena.
+2661.6,10,prima,Bow,DPS distanza,I0BX,Arena Teleport: Pits,teletrasporto (gratis),0,0,0,9.2,,Teleports the buyer and their nearby units to the pits location (bottom right) in the arena.
+2661.8,10,prima,War Hammer,Tank,I0BX,Arena Teleport: Pits,teletrasporto (gratis),0,0,0,9.2,,Teleports the buyer and their nearby units to the pits location (bottom right) in the arena.
+2662.4,10,prima,Druid Staff,Healer,I0BX,Arena Teleport: Pits,teletrasporto (gratis),0,0,0,9.2,,Teleports the buyer and their nearby units to the pits location (bottom right) in the arena.
+2662.6,10,prima,Wizard Staff,DPS distanza,I0BX,Arena Teleport: Pits,teletrasporto (gratis),0,0,0,9.2,,Teleports the buyer and their nearby units to the pits location (bottom right) in the arena.
+2663.7,10,prima,Double Blade,DPS mischia,I0BX,Arena Teleport: Pits,teletrasporto (gratis),0,0,0,9.2,,Teleports the buyer and their nearby units to the pits location (bottom right) in the arena.
+2666.2,10,prima,War Drums,Support,I0BX,Arena Teleport: Pits,teletrasporto (gratis),0,0,0,9.2,,Teleports the buyer and their nearby units to the pits location (bottom right) in the arena.
+2694.9,10,prima,War Hammer,Tank,I02C,(War Hammer) Obliterate,"talento (punti talento, non oro)",0,0,1,9.3,,Storm Bolt does 50% more damage.
+2907.4,11,prima,Wizard Staff,DPS distanza,I08U,(Wizard Staff) Genius,"talento (punti talento, non oro)",0,0,1,10.0,,Brilliance grants 0.5 more mana per second and is now has a global area of effect.
+2907.4,11,prima,Claws,DPS mischia,I01E,(Claws) Energize,"talento (punti talento, non oro)",0,0,1,10.0,,Lightning Bolt refunds 7 mana for every target it hits. Its cast range is also doubled.
+2911.2,11,prima,War Hammer,Tank,I02G,(War Hammer) Acrobatics,"talento (punti talento, non oro)",0,0,1,10.0,,"Leap has 400 more range, costs no mana and its cooldown is reduced by 3 seconds."
+2912.4,11,prima,Pickaxe,DPS mischia,I06Q,(Pickaxe) Imbuement,"talento (punti talento, non oro)",0,0,1,10.0,,Casting Overdrive whilst Hydra Arrows is active will extend the duration of Hydra Arrows by 5 seconds.
+2921.6,11,prima,War Drums,Support,I09I,Mysterious Figurine,oggetto permanente,200,200,0,10.0,,"Unique ,  Undroppable ,  Augmentable   A strange and occult figurine. Holding it bolsters your allies, but for some bizarre reason, you cannot drop it.    Allie"
+2928.9,11,prima,Runeblade,Tank,I0AY,(Runeblade) Darkmend,"talento (punti talento, non oro)",0,0,1,10.0,,"Death Coil does 50% more healing, and heals your Undead Companion for 50% more."
+2929.5,11,prima,Naga Trident,DPS distanza,I0AF,(Trident) Thunder,"talento (punti talento, non oro)",0,0,1,10.1,,"Increases Forked Lightning's targets by 2, damage by 10% and its mana cost by 15.     Repeatable Talent : this upgrade can be selected up to 3 times."
+2930.6,11,prima,Druid Staff,Healer,I04I,(Druid Staff) Nourish,"talento (punti talento, non oro)",0,0,1,10.1,,Rejuvenation's effects are accelerated by 200% on targets that are below 35% hit points.
+2931.7,11,prima,Pickaxe,DPS mischia,I00X,Refresh Stone,oggetto permanente,425,425,0,10.1,,"Unique ,  Augmentable   An unsual stone that helps the holder to relax and rest well after battle.    Passive Effect : Your cooldowns are refreshed at the end o"
+2937.9,11,prima,Bow,DPS distanza,I029,(Bow) Hunting Party,"talento (punti talento, non oro)",0,0,1,10.1,,Trueshot Aura now increases the ranged damage of nearby allies by 40%.
+2939.2,11,prima,Wizard Staff,DPS distanza,I02W,Ring of Superiority,oggetto permanente,700,700,0,10.1,,Unique   A ring once worn by a powerful sorceror. Grants +10 to all attributes.     Passive Effect : At the end of a round gain +1 to all attributes (or +2 to a
+2945.8,11,prima,War Drums,Support,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,10.0,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+2947.0,11,prima,Naga Trident,DPS distanza,I070,Purchase Warp Treads,stivali,550,513,0,10.2,rimborso 75% stivali precedenti (37) dal trigger Boots_Upgrade,"Epic Boots   The boots seem to bend time and space around them. The wearer has 100 increased movement speed, +10 armour, +10 all stats and can blink once every "
+2948.9,11,prima,Pickaxe,DPS mischia,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,10.2,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+2949.8,11,prima,War Hammer,Tank,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,10.2,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+2950.5,11,prima,Bow,DPS distanza,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,10.2,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+2951.3,11,prima,Naga Trident,DPS distanza,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,10.2,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+2952.6,11,prima,Claws,DPS mischia,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,10.2,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+2952.7,11,prima,Wizard Staff,DPS distanza,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,10.2,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+2953.4,11,prima,Runeblade,Tank,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,10.0,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+2954.7,11,prima,Double Blade,DPS mischia,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,10.0,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+2954.8,11,prima,Druid Staff,Healer,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,10.2,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+2954.8,11,prima,Double Blade,DPS mischia,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,10.0,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+2966.4,11,prima,War Drums,Support,I07J,(War Drums) Exhiliration,"talento (punti talento, non oro)",0,0,1,10.0,,"Motivate now grants 8 armour, increases attack speed by 50% and also increases movement speed by 25%."
+2967.5,11,prima,Double Blade,DPS mischia,I01V,(Double Edge) Horror,"talento (punti talento, non oro)",0,0,1,10.0,,Terror has a global area of effect and restores 25 more mana.    Combo : makes the Presence talent have global area of effect and reduce damage by an extra 3%.
+3198.1,12,prima,War Drums,Support,I093,I093,oggetto permanente,175,175,0,10.1,,"Unique ,  Augmentable   Increases Agility and Intelligence by 4 when held.     Passive Effect : Empowers the following abilities:    -  Embolden : +25% duration"
+3200.8,12,prima,Druid Staff,Healer,I02S,Pipe of Insight,oggetto permanente,750,750,0,11.1,,Unique   Helps ensure the holder can continually use their abilities. Increases mana regeneration by 250%.
+3213.0,12,prima,Double Blade,DPS mischia,I05H,Petrified Bark,oggetto permanente,700,700,0,10.1,,"Unique ,  Augmentable   A prehistoric artefact that was once a part of some kind of plant life. It makes a good armour-enhancement. Increases armour by 10.     "
+3231.6,12,prima,Claws,DPS mischia,I0BX,Arena Teleport: Pits,teletrasporto (gratis),0,0,0,11.0,,Teleports the buyer and their nearby units to the pits location (bottom right) in the arena.
+3232.3,12,prima,Pickaxe,DPS mischia,I0BX,Arena Teleport: Pits,teletrasporto (gratis),0,0,0,11.2,,Teleports the buyer and their nearby units to the pits location (bottom right) in the arena.
+3232.4,12,prima,Pickaxe,DPS mischia,I0BX,Arena Teleport: Pits,teletrasporto (gratis),0,0,0,11.2,,Teleports the buyer and their nearby units to the pits location (bottom right) in the arena.
+3417.8,12,durante,Pickaxe,DPS mischia,I095,Runed Bracers,oggetto permanente,200,200,0,12.0,,"Unique ,  Augmentable   Increases Strength and Agility by 4 when held.     Passive Effect : Empowers the following abilities:    -  Windwalk : Cleave area incre"
+3425.1,13,prima,Runeblade,Tank,I05V,Illuminators,oggetto permanente,1000,1000,0,11.0,,Unique   Shoulderpads forged in pure moonlight by the Druids of Moonglade. Grants true-sight and increases armour by 12.     Passive Effect : Reduces the armour
+3436.1,13,prima,Claws,DPS mischia,I09T,Shard of the Revenant,oggetto permanente,1000,1000,0,11.1,,"Unique   Increases your intelligence and agility by 15 and armour by 12.     Passive Effect : When you summon a unit, give it +100 armour and +100% damage for 1"
+3444.6,13,prima,Bow,DPS distanza,I072,Purchase Windwalkers,stivali,475,438,0,12.0,rimborso 75% stivali precedenti (37) dal trigger Boots_Upgrade,"Epic Boots   The wearer moves like the wind. Movement speed increased by 100, attack speed increased by 60%, grants 15% evasion and increases attack damage by 5"
+3450.3,13,prima,Pickaxe,DPS mischia,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,12.0,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+3450.6,13,prima,Naga Trident,DPS distanza,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,12.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+3450.6,13,prima,War Drums,Support,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,11.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+3451.2,13,prima,Claws,DPS mischia,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,11.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+3451.6,13,prima,War Hammer,Tank,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,12.0,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+3452.2,13,prima,Druid Staff,Healer,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,12.0,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+3463.9,13,prima,Bow,DPS distanza,I026,(Bow) Hunter's Sight,"talento (punti talento, non oro)",0,0,1,12.0,,Eagle Eye is now always passive and increases your critical strike chance by 20% at all times.
+3618.4,13,durante,Wizard Staff,DPS distanza,I06J,Ancestral Strength,"pietra ancestrale (gratis, rianima)",0,0,0,12.8,,"Using this ability will revive a random fallen player in the Arena with full hit points and mana, however it costs the Ancestral Stone 100 mana.    Mana Regener"
+3673.8,14,prima,Claws,DPS mischia,I01B,(Claws) Windfury,"talento (punti talento, non oro)",0,0,1,12.1,,Flurry's chance to activate is now 30% and it now lasts 5 seconds.
+3678.8,14,prima,War Drums,Support,I07K,(War Drums) Persevere,"talento (punti talento, non oro)",0,0,1,12.1,,Motivate heals targets for an extra 2.0x Agility over its duration and restores 5 more mana.
+3678.9,14,prima,War Drums,Support,I07K,(War Drums) Persevere,"talento (punti talento, non oro)",0,0,1,12.1,,Motivate heals targets for an extra 2.0x Agility over its duration and restores 5 more mana.
+3686.8,14,prima,Naga Trident,DPS distanza,I0AF,(Trident) Thunder,"talento (punti talento, non oro)",0,0,1,13.0,,"Increases Forked Lightning's targets by 2, damage by 10% and its mana cost by 15.     Repeatable Talent : this upgrade can be selected up to 3 times."
+3700.3,14,prima,Bow,DPS distanza,I04Z,Hex of Augmentation III,oggetto permanente,750,750,0,12.2,,Transforms certain items into more powerful versions of themselves. Affects the first item held by you in the following list:    Items Affected :   - Charm of P
+3700.8,14,prima,Claws,DPS mischia,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,12.2,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+3705.3,14,prima,Naga Trident,DPS distanza,I05X,Mask of Death,oggetto permanente,700,700,0,13.0,,"Unique ,  Augmentable   A gruesome mask once worn by madmen who were also cannibals. Grants +10 armour and +30% attack speed.     Passive Effect : Whilst below "
+3707.7,14,prima,Wizard Staff,DPS distanza,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,13.0,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+3708.5,14,prima,War Drums,Support,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,12.2,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+3708.6,14,prima,Runeblade,Tank,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,12.2,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+3709.9,14,prima,Double Blade,DPS mischia,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,12.2,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+3711.7,14,prima,War Hammer,Tank,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,12.2,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+3919.4,15,prima,War Drums,Support,I070,Purchase Warp Treads,stivali,550,513,0,13.0,rimborso 75% stivali precedenti (37) dal trigger Boots_Upgrade,"Epic Boots   The boots seem to bend time and space around them. The wearer has 100 increased movement speed, +10 armour, +10 all stats and can blink once every "
+3935.4,15,prima,War Hammer,Tank,I071,Purchase Imbued Greaves,stivali,600,563,0,13.1,rimborso 75% stivali precedenti (37) dal trigger Boots_Upgrade,"Epic Boots   For those who are pursuing indestructibility. Increases movement speed by 50, armour by 25, hit points by 500 and Spell Shield (4 second cooldown)."
+3948.4,15,prima,Double Blade,DPS mischia,I071,Purchase Imbued Greaves,stivali,600,563,0,13.1,rimborso 75% stivali precedenti (37) dal trigger Boots_Upgrade,"Epic Boots   For those who are pursuing indestructibility. Increases movement speed by 50, armour by 25, hit points by 500 and Spell Shield (4 second cooldown)."
+3952.6,15,prima,Claws,DPS mischia,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,13.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+3952.6,15,prima,War Drums,Support,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,13.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+3954.1,15,prima,Naga Trident,DPS distanza,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,13.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+3954.2,15,prima,Pickaxe,DPS mischia,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,13.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+3954.8,15,prima,War Hammer,Tank,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,13.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+3954.9,15,prima,Runeblade,Tank,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,13.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+3955.1,15,prima,Druid Staff,Healer,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,13.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+3956.6,15,prima,War Drums,Support,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,13.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+3957.4,15,prima,Wizard Staff,DPS distanza,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,13.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+3957.8,15,prima,Double Blade,DPS mischia,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,13.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+3961.2,15,prima,Bow,DPS distanza,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,13.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+4028.6,15,prima,Double Blade,DPS mischia,I01W,(Double Edge) Presence,"talento (punti talento, non oro)",0,0,1,13.3,,Terror no longer restores mana but is now a passive aura; reducing the attack damage of all nearby enemies by 15%.     Combo : has global area of effect with th
+4152.5,15,durante,Pickaxe,DPS mischia,I06J,Ancestral Strength,"pietra ancestrale (gratis, rianima)",0,0,0,13.7,,"Using this ability will revive a random fallen player in the Arena with full hit points and mana, however it costs the Ancestral Stone 100 mana.    Mana Regener"
+4161.9,15,durante,Pickaxe,DPS mischia,I06J,Ancestral Strength,"pietra ancestrale (gratis, rianima)",0,0,0,13.7,,"Using this ability will revive a random fallen player in the Arena with full hit points and mana, however it costs the Ancestral Stone 100 mana.    Mana Regener"
+4162.0,15,durante,Pickaxe,DPS mischia,I06J,Ancestral Strength,"pietra ancestrale (gratis, rianima)",0,0,0,13.7,,"Using this ability will revive a random fallen player in the Arena with full hit points and mana, however it costs the Ancestral Stone 100 mana.    Mana Regener"
+4289.9,16,prima,Naga Trident,DPS distanza,I0AI,(Trident) Zephyr,"talento (punti talento, non oro)",0,0,1,14.1,,Windward Aura now reduces the damage of all ranged enemies by 15% and your attack speed is permanently increased by 30%.
+4293.5,16,prima,Wizard Staff,DPS distanza,I09T,Shard of the Revenant,oggetto permanente,1000,1000,0,14.1,,"Unique   Increases your intelligence and agility by 15 and armour by 12.     Passive Effect : When you summon a unit, give it +100 armour and +100% damage for 1"
+4296.0,16,prima,Claws,DPS mischia,I01G,(Claws) Shock,"talento (punti talento, non oro)",0,0,1,14.1,,Lightning Bolt's area is increased by 75 and its cooldown is reduced by 1 second.
+4300.6,16,prima,Pickaxe,DPS mischia,I09F,Warrior's Spirit,oggetto permanente,1250,1250,0,14.1,,"Unique   Increases strength by 25.     Active Effect : Increase your maximum hit points by 10,000 for 30 seconds. When the effect ends, the bonus health is lost"
+4304.4,16,prima,Naga Trident,DPS distanza,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,14.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+4306.3,16,prima,War Hammer,Tank,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,14.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+4308.1,16,prima,Pickaxe,DPS mischia,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,14.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+4310.2,16,prima,Claws,DPS mischia,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,14.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+4312.4,16,prima,Double Blade,DPS mischia,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,14.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+4312.8,16,prima,Bow,DPS distanza,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,14.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+4314.4,16,prima,War Drums,Support,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,14.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+4318.9,16,prima,Wizard Staff,DPS distanza,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,14.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+4322.1,16,prima,Runeblade,Tank,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,14.2,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+4322.9,16,prima,Druid Staff,Healer,I08B,Flag of Victory,oggetto permanente,1250,1250,0,14.2,,Unique   Increases the attack damage of all allies by 50%.
+4325.6,16,prima,Bow,DPS distanza,I027,(Bow) Rapid Fire,"talento (punti talento, non oro)",0,0,1,14.2,,Take Aim increases your attack speed by 100% whilst it is active and it no longer slows your movement speed.
+4509.0,16,durante,Wizard Staff,DPS distanza,I06J,Ancestral Strength,"pietra ancestrale (gratis, rianima)",0,0,0,14.7,,"Using this ability will revive a random fallen player in the Arena with full hit points and mana, however it costs the Ancestral Stone 100 mana.    Mana Regener"
+4572.2,16,durante,Pickaxe,DPS mischia,I06J,Ancestral Strength,"pietra ancestrale (gratis, rianima)",0,0,0,14.9,,"Using this ability will revive a random fallen player in the Arena with full hit points and mana, however it costs the Ancestral Stone 100 mana.    Mana Regener"
+4611.5,17,prima,War Hammer,Tank,I02I,(War Hammer) Crush,"talento (punti talento, non oro)",0,0,1,15.0,,"Your attack damage is increased by 80% at all times. In addition, your attacks Bash the target, stunning them for 2 seconds."
+4614.2,17,prima,Pickaxe,DPS mischia,I06O,(Pickaxe) Barrage,"talento (punti talento, non oro)",0,0,1,15.0,,Hydra Arrows now hits 4 targets instead of 3.
+4614.8,17,prima,War Hammer,Tank,I04D,(War Hammer) Unbreakable,"talento (punti talento, non oro)",0,0,1,15.0,,Increases the amount of armour you gain from strength by 5%.
+4617.6,17,prima,Runeblade,Tank,I071,Purchase Imbued Greaves,stivali,600,525,0,15.0,rimborso 75% stivali precedenti (75) dal trigger Boots_Upgrade,"Epic Boots   For those who are pursuing indestructibility. Increases movement speed by 50, armour by 25, hit points by 500 and Spell Shield (4 second cooldown)."
+4620.7,17,prima,Wizard Staff,DPS distanza,I091,(Wizard Staff) Glass Cannon,"talento (punti talento, non oro)",0,0,1,15.0,,"Increases your Intelligence gain per level by 1.0 point, but decreases your Strength gain per level by 1.0 point and your base Strength by 10. This effect is re"
+4633.8,17,prima,War Drums,Support,I07H,(War Drums) Courage,"talento (punti talento, non oro)",0,0,1,15.1,,Embolden grants the target +15 armour and +1000 hit points whilst active.
+4634.5,17,prima,Pickaxe,DPS mischia,I06H,(Pickaxe) Optics,"talento (punti talento, non oro)",0,0,1,15.1,,Increases the attack and true-sight range of your Watch Tower by 400 and its attack speed by 20%.
+4635.5,17,prima,Runeblade,Tank,I0BI,(Runeblade) Death Ward,"talento (punti talento, non oro)",0,0,1,15.0,,Surrender Soul no longer kills you but instead reduces your current hit points by 75%. Its cooldown is also increased to 180 seconds.
+4639.3,17,prima,Wizard Staff,DPS distanza,I08J,(Wizard Staff) Explosion,"talento (punti talento, non oro)",0,0,1,15.1,,Pyroblast's area of effect is increased by 50 and the primary target takes 25% more damage.
+4639.7,17,prima,Claws,DPS mischia,I070,Purchase Warp Treads,stivali,550,513,0,15.1,rimborso 75% stivali precedenti (37) dal trigger Boots_Upgrade,"Epic Boots   The boots seem to bend time and space around them. The wearer has 100 increased movement speed, +10 armour, +10 all stats and can blink once every "
+4640.7,17,prima,Runeblade,Tank,I0BD,(Runeblade) Death Presence,"talento (punti talento, non oro)",0,0,1,15.0,,Unholy Presence now reduces armour by 30% and your Undead Companion also gains the aura.
+4647.9,17,prima,Naga Trident,DPS distanza,I09L,Bonecarver Necklace,oggetto permanente,1000,1000,0,15.2,,"Unique   When a round starts, gain 30 damage every 15 seconds (up to 900). The effect resets at the end of each round."
+4648.3,17,prima,Double Blade,DPS mischia,I0AN,(Double Edge) Shimmering,"talento (punti talento, non oro)",0,0,1,15.0,,Your Dimensional Portals last indefinitely and are now invulnerable to enemy damage (but still lose hit points when used).
+4648.3,17,prima,Druid Staff,Healer,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,15.2,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+4649.3,17,prima,Claws,DPS mischia,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,15.2,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+4649.6,17,prima,Wizard Staff,DPS distanza,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,15.2,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+4650.0,17,prima,War Hammer,Tank,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,15.2,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+4651.0,17,prima,War Drums,Support,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,15.2,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+4651.2,17,prima,Runeblade,Tank,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,15.0,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+4651.8,17,prima,Pickaxe,DPS mischia,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,15.2,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+4652.9,17,prima,Naga Trident,DPS distanza,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,15.2,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+4654.6,17,prima,Double Blade,DPS mischia,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,15.0,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+4796.5,17,durante,War Hammer,Tank,I06J,Ancestral Strength,"pietra ancestrale (gratis, rianima)",0,0,0,15.9,,"Using this ability will revive a random fallen player in the Arena with full hit points and mana, however it costs the Ancestral Stone 100 mana.    Mana Regener"
+4830.7,18,prima,Claws,DPS mischia,I063,(Claws) Magma,"talento (punti talento, non oro)",0,0,1,16.0,,"When Molten Boulder explodes, a Magma Spirit is summoned for 30 seconds to attack your enemies. It cannot be attacked or controlled, but gains 30 damage for eve"
+4833.1,18,prima,Naga Trident,DPS distanza,I0AM,(Trident) Conduit,"talento (punti talento, non oro)",0,0,1,16.0,,Maelstrom now gives a total of 30% splash damage.
+4834.4,18,prima,War Drums,Support,I07I,(War Drums) Mastery,"talento (punti talento, non oro)",0,0,1,16.0,,Embolden now increases the attributes of the target by 30%.
+4837.6,18,prima,Pickaxe,DPS mischia,I06K,(Pickaxe) Demolitionist,"talento (punti talento, non oro)",0,0,1,16.0,,Reduces the cooldown of Unstable Concoction by 8 seconds and increases its damage by 25%.
+4839.6,18,prima,Naga Trident,DPS distanza,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,16.0,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+4839.6,18,prima,War Hammer,Tank,I02E,(War Hammer) Onslaught,"talento (punti talento, non oro)",0,0,1,16.0,,Might Aura provides an extra 10% attack damage to nearby friendly melee units.
+4843.5,18,prima,Pickaxe,DPS mischia,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,16.0,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+4846.8,18,prima,Druid Staff,Healer,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,16.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+4848.8,18,prima,Wizard Staff,DPS distanza,I00K,Purchase Slippers of Focus,stivali,500,463,0,16.1,rimborso 75% stivali precedenti (37) dal trigger Boots_Upgrade,"Epic Boots   The material is soothing and enchanted. Movement speed increased by 50, maximum mana by 300, mana regeneration by 100% and gives the wearer Spell S"
+4854.6,18,prima,War Hammer,Tank,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,16.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+4856.1,18,prima,Bow,DPS distanza,I02X,Feral Visage,oggetto permanente,900,900,0,16.1,,Unique   The wearer becomes more savage. Increases attack damage by 90 and attack speed by 20%.
+4860.0,18,prima,Double Blade,DPS mischia,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,15.2,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+4860.9,18,prima,Claws,DPS mischia,I03H,Tome: +2 Agility,tomo statistiche,110,110,0,16.1,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+4861.0,18,prima,Claws,DPS mischia,I03H,Tome: +2 Agility,tomo statistiche,110,110,0,16.1,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+4861.2,18,prima,Claws,DPS mischia,I03H,Tome: +2 Agility,tomo statistiche,110,110,0,16.1,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+4861.4,18,prima,Claws,DPS mischia,I03H,Tome: +2 Agility,tomo statistiche,110,110,0,16.1,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+4861.6,18,prima,Claws,DPS mischia,I03H,Tome: +2 Agility,tomo statistiche,110,110,0,16.1,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+4861.7,18,prima,Claws,DPS mischia,I03H,Tome: +2 Agility,tomo statistiche,110,110,0,16.1,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+4862.0,18,prima,Wizard Staff,DPS distanza,I08N,(Wizard Staff) Frigid Defender,"talento (punti talento, non oro)",0,0,1,16.1,,"Water Elementals gain the Frost Shield ability, allowing them to increase their armour by 100 temporarily."
+4862.8,18,prima,War Drums,Support,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,16.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+4862.9,18,prima,Bow,DPS distanza,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,16.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+4863.5,18,prima,Runeblade,Tank,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,15.2,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+4864.6,18,prima,Wizard Staff,DPS distanza,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,16.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+4864.7,18,prima,Claws,DPS mischia,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,16.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+4887.6,18,prima,Bow,DPS distanza,I028,(Bow) Readiness,"talento (punti talento, non oro)",0,0,1,16.1,,"Take Aim resets your other cooldowns, refreshes your mana and has no mana cost."
+4899.9,18,prima,Double Blade,DPS mischia,I01T,(Double Edge) Infusion,"talento (punti talento, non oro)",0,0,1,15.3,,Demon Skin's duration and cooldown are increased by 2 seconds.
+5011.6,18,durante,Wizard Staff,DPS distanza,I06J,Ancestral Strength,"pietra ancestrale (gratis, rianima)",0,0,0,16.3,,"Using this ability will revive a random fallen player in the Arena with full hit points and mana, however it costs the Ancestral Stone 100 mana.    Mana Regener"
+5117.4,18,durante,Druid Staff,Healer,I06J,Ancestral Strength,"pietra ancestrale (gratis, rianima)",0,0,0,16.5,,"Using this ability will revive a random fallen player in the Arena with full hit points and mana, however it costs the Ancestral Stone 100 mana.    Mana Regener"
+5182.7,18,durante,Wizard Staff,DPS distanza,I06J,Ancestral Strength,"pietra ancestrale (gratis, rianima)",0,0,0,16.6,,"Using this ability will revive a random fallen player in the Arena with full hit points and mana, however it costs the Ancestral Stone 100 mana.    Mana Regener"
+5328.5,18,durante,Claws,DPS mischia,I06J,Ancestral Strength,"pietra ancestrale (gratis, rianima)",0,0,0,16.9,,"Using this ability will revive a random fallen player in the Arena with full hit points and mana, however it costs the Ancestral Stone 100 mana.    Mana Regener"
+5396.3,19,prima,Pickaxe,DPS mischia,I03I,Tome: +2 Strength,tomo statistiche,110,110,0,17.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5396.4,19,prima,Pickaxe,DPS mischia,I03I,Tome: +2 Strength,tomo statistiche,110,110,0,17.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5396.5,19,prima,Pickaxe,DPS mischia,I03I,Tome: +2 Strength,tomo statistiche,110,110,0,17.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5396.8,19,prima,Pickaxe,DPS mischia,I03I,Tome: +2 Strength,tomo statistiche,110,110,0,17.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5396.9,19,prima,Pickaxe,DPS mischia,I03I,Tome: +2 Strength,tomo statistiche,110,110,0,17.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5397.1,19,prima,Pickaxe,DPS mischia,I03I,Tome: +2 Strength,tomo statistiche,110,110,0,17.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5397.2,19,prima,Pickaxe,DPS mischia,I03I,Tome: +2 Strength,tomo statistiche,110,110,0,17.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5397.4,19,prima,Pickaxe,DPS mischia,I03I,Tome: +2 Strength,tomo statistiche,110,110,0,17.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5397.6,19,prima,Pickaxe,DPS mischia,I03I,Tome: +2 Strength,tomo statistiche,110,110,0,17.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5397.8,19,prima,Wizard Staff,DPS distanza,I03J,Tome: +2 Intelligence,tomo statistiche,110,110,0,17.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5397.9,19,prima,Runeblade,Tank,I03I,Tome: +2 Strength,tomo statistiche,110,110,0,17.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5399.0,19,prima,Runeblade,Tank,I03I,Tome: +2 Strength,tomo statistiche,110,110,0,17.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5399.3,19,prima,Wizard Staff,DPS distanza,I03J,Tome: +2 Intelligence,tomo statistiche,110,110,0,17.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5400.1,19,prima,Claws,DPS mischia,I03H,Tome: +2 Agility,tomo statistiche,110,110,0,17.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5400.3,19,prima,Claws,DPS mischia,I03H,Tome: +2 Agility,tomo statistiche,110,110,0,17.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5400.6,19,prima,Claws,DPS mischia,I03H,Tome: +2 Agility,tomo statistiche,110,110,0,17.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5400.8,19,prima,Claws,DPS mischia,I03H,Tome: +2 Agility,tomo statistiche,110,110,0,17.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5401.0,19,prima,Claws,DPS mischia,I03H,Tome: +2 Agility,tomo statistiche,110,110,0,17.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5401.8,19,prima,Runeblade,Tank,I03I,Tome: +2 Strength,tomo statistiche,110,110,0,17.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5402.3,19,prima,Wizard Staff,DPS distanza,I03J,Tome: +2 Intelligence,tomo statistiche,110,110,0,17.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5404.4,19,prima,War Drums,Support,I03H,Tome: +2 Agility,tomo statistiche,110,110,0,17.1,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5405.9,19,prima,War Drums,Support,I03H,Tome: +2 Agility,tomo statistiche,110,110,0,17.1,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5407.1,19,prima,War Drums,Support,I03H,Tome: +2 Agility,tomo statistiche,110,110,0,17.1,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5407.2,19,prima,Naga Trident,DPS distanza,I03H,Tome: +2 Agility,tomo statistiche,110,110,0,17.1,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5407.8,19,prima,War Drums,Support,I03H,Tome: +2 Agility,tomo statistiche,110,110,0,17.1,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5409.0,19,prima,War Drums,Support,I03K,Tome: +1 Stats,tomo statistiche,110,110,0,17.1,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5410.6,19,prima,Runeblade,Tank,I03I,Tome: +2 Strength,tomo statistiche,110,110,0,17.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5411.4,19,prima,Double Blade,DPS mischia,I03I,Tome: +2 Strength,tomo statistiche,110,110,0,17.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5411.9,19,prima,Runeblade,Tank,I03I,Tome: +2 Strength,tomo statistiche,110,110,0,17.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5412.2,19,prima,Double Blade,DPS mischia,I03I,Tome: +2 Strength,tomo statistiche,110,110,0,17.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5412.4,19,prima,War Drums,Support,I03M,Tome: +160 HP,tomo statistiche,110,110,0,17.1,,Requires Hero Level : 12   Maximum uses (per Gladiator): 25
+5412.5,19,prima,Runeblade,Tank,I03I,Tome: +2 Strength,tomo statistiche,110,110,0,17.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5412.6,19,prima,Double Blade,DPS mischia,I03I,Tome: +2 Strength,tomo statistiche,110,110,0,17.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5412.7,19,prima,Runeblade,Tank,I03I,Tome: +2 Strength,tomo statistiche,110,110,0,17.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5412.8,19,prima,Runeblade,Tank,I03I,Tome: +2 Strength,tomo statistiche,110,110,0,17.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5413.4,19,prima,War Drums,Support,I03H,Tome: +2 Agility,tomo statistiche,110,110,0,17.1,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5413.9,19,prima,War Drums,Support,I03H,Tome: +2 Agility,tomo statistiche,110,110,0,17.1,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5414.7,19,prima,War Drums,Support,I03H,Tome: +2 Agility,tomo statistiche,110,110,0,17.1,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5414.7,19,prima,Double Blade,DPS mischia,I03M,Tome: +160 HP,tomo statistiche,110,110,0,17.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 25
+5416.2,19,prima,War Drums,Support,I03H,Tome: +2 Agility,tomo statistiche,110,110,0,17.1,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5416.6,19,prima,War Drums,Support,I03H,Tome: +2 Agility,tomo statistiche,110,110,0,17.1,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5418.3,19,prima,Claws,DPS mischia,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,17.0,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+5420.1,19,prima,Druid Staff,Healer,I03J,Tome: +2 Intelligence,tomo statistiche,110,110,0,17.1,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5420.9,19,prima,Druid Staff,Healer,I03J,Tome: +2 Intelligence,tomo statistiche,110,110,0,17.1,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5421.1,19,prima,Druid Staff,Healer,I03J,Tome: +2 Intelligence,tomo statistiche,110,110,0,17.1,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5421.2,19,prima,Druid Staff,Healer,I03J,Tome: +2 Intelligence,tomo statistiche,110,110,0,17.1,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5421.5,19,prima,Druid Staff,Healer,I03J,Tome: +2 Intelligence,tomo statistiche,110,110,0,17.1,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5421.6,19,prima,Double Blade,DPS mischia,I03M,Tome: +160 HP,tomo statistiche,110,110,0,17.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 25
+5421.6,19,prima,Naga Trident,DPS distanza,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,17.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+5421.9,19,prima,Pickaxe,DPS mischia,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,17.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+5421.9,19,prima,Runeblade,Tank,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,17.0,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+5422.3,19,prima,Double Blade,DPS mischia,I03I,Tome: +2 Strength,tomo statistiche,110,110,0,17.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5423.5,19,prima,Runeblade,Tank,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,17.0,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+5425.6,19,prima,Wizard Staff,DPS distanza,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,17.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+5425.8,19,prima,Druid Staff,Healer,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,17.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+5426.3,19,prima,War Drums,Support,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,17.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+5426.8,19,prima,Double Blade,DPS mischia,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,17.0,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+5431.2,19,prima,War Hammer,Tank,I095,Runed Bracers,oggetto permanente,200,200,0,17.1,,"Unique ,  Augmentable   Increases Strength and Agility by 4 when held.     Passive Effect : Empowers the following abilities:    -  Windwalk : Cleave area incre"
+5537.6,19,durante,Pickaxe,DPS mischia,I06I,(Pickaxe) Reinforced Spikes,"talento (punti talento, non oro)",0,0,1,17.5,,"Your Watch Tower now has a thorns-effect, causing attackers to suffer 0.5x strength as damage. Its armour is also increased by 1.0x your hero level."
+5558.5,19,durante,Wizard Staff,DPS distanza,I092,(Wizard Staff) Staff Proficiency,"talento (punti talento, non oro)",0,0,1,17.5,,Increases your attack range by 200 and your attack speed by 15%.
+5596.9,19,durante,Pickaxe,DPS mischia,I06J,Ancestral Strength,"pietra ancestrale (gratis, rianima)",0,0,0,17.6,,"Using this ability will revive a random fallen player in the Arena with full hit points and mana, however it costs the Ancestral Stone 100 mana.    Mana Regener"
+5717.0,19,durante,Druid Staff,Healer,I03J,Tome: +2 Intelligence,tomo statistiche,110,110,0,18.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5717.6,19,durante,Naga Trident,DPS distanza,I0AJ,(Trident) Undertow,"talento (punti talento, non oro)",0,0,1,18.0,,Increases the area of effect of Vortex by 50%.
+5717.7,19,durante,Druid Staff,Healer,I03J,Tome: +2 Intelligence,tomo statistiche,110,110,0,18.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5718.9,19,durante,Druid Staff,Healer,I03J,Tome: +2 Intelligence,tomo statistiche,110,110,0,18.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5719.7,19,durante,Druid Staff,Healer,I03J,Tome: +2 Intelligence,tomo statistiche,110,110,0,18.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5720.6,20,prima,Pickaxe,DPS mischia,I03I,Tome: +2 Strength,tomo statistiche,110,110,0,18.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5720.8,20,prima,Pickaxe,DPS mischia,I03I,Tome: +2 Strength,tomo statistiche,110,110,0,18.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5721.8,20,prima,Runeblade,Tank,I0BH,(Runeblade) Essence,"talento (punti talento, non oro)",0,0,1,17.0,,Death Pact no longer costs mana and instead restores 150 mana.
+5722.9,20,prima,War Drums,Support,I07E,(War Drums) Comradeship,"talento (punti talento, non oro)",0,0,1,18.0,,Inspire also affects yourself (but does not reset Inspire's cooldown) and its cooldown is reduced by 30 seconds.   Comradeship will not occur when cast on a War
+5723.0,20,prima,Claws,DPS mischia,I03H,Tome: +2 Agility,tomo statistiche,110,110,0,17.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5723.2,20,prima,Claws,DPS mischia,I03H,Tome: +2 Agility,tomo statistiche,110,110,0,17.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5723.5,20,prima,Claws,DPS mischia,I03H,Tome: +2 Agility,tomo statistiche,110,110,0,17.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5723.6,20,prima,Claws,DPS mischia,I03H,Tome: +2 Agility,tomo statistiche,110,110,0,17.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5725.4,20,prima,Double Blade,DPS mischia,I03M,Tome: +160 HP,tomo statistiche,110,110,0,17.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 25
+5725.6,20,prima,Naga Trident,DPS distanza,I03H,Tome: +2 Agility,tomo statistiche,110,110,0,18.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5727.1,20,prima,Naga Trident,DPS distanza,I03H,Tome: +2 Agility,tomo statistiche,110,110,0,18.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5727.4,20,prima,Double Blade,DPS mischia,I03M,Tome: +160 HP,tomo statistiche,110,110,0,17.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 25
+5727.9,20,prima,Naga Trident,DPS distanza,I03H,Tome: +2 Agility,tomo statistiche,110,110,0,18.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5729.0,20,prima,Double Blade,DPS mischia,I03M,Tome: +160 HP,tomo statistiche,110,110,0,17.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 25
+5730.0,20,prima,Pickaxe,DPS mischia,I03I,Tome: +2 Strength,tomo statistiche,110,110,0,18.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5730.1,20,prima,Wizard Staff,DPS distanza,I03J,Tome: +2 Intelligence,tomo statistiche,110,110,0,18.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5730.1,20,prima,Pickaxe,DPS mischia,I03I,Tome: +2 Strength,tomo statistiche,110,110,0,18.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5730.7,20,prima,Wizard Staff,DPS distanza,I03J,Tome: +2 Intelligence,tomo statistiche,110,110,0,18.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5731.1,20,prima,Runeblade,Tank,I03I,Tome: +2 Strength,tomo statistiche,110,110,0,17.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5731.5,20,prima,Runeblade,Tank,I03I,Tome: +2 Strength,tomo statistiche,110,110,0,17.1,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5734.7,20,prima,War Hammer,Tank,I03K,Tome: +1 Stats,tomo statistiche,110,110,0,18.1,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5734.9,20,prima,Claws,DPS mischia,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,17.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+5736.7,20,prima,War Hammer,Tank,I03K,Tome: +1 Stats,tomo statistiche,110,110,0,18.1,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5737.6,20,prima,War Hammer,Tank,I03K,Tome: +1 Stats,tomo statistiche,110,110,0,18.1,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5738.0,20,prima,War Drums,Support,I03H,Tome: +2 Agility,tomo statistiche,110,110,0,18.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5738.2,20,prima,War Hammer,Tank,I03K,Tome: +1 Stats,tomo statistiche,110,110,0,18.1,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5738.8,20,prima,War Drums,Support,I03H,Tome: +2 Agility,tomo statistiche,110,110,0,18.0,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5738.9,20,prima,War Hammer,Tank,I03K,Tome: +1 Stats,tomo statistiche,110,110,0,18.1,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5739.1,20,prima,Runeblade,Tank,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,17.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+5739.2,20,prima,Wizard Staff,DPS distanza,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,18.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+5739.5,20,prima,Double Blade,DPS mischia,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,17.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+5739.6,20,prima,War Hammer,Tank,I03K,Tome: +1 Stats,tomo statistiche,110,110,0,18.1,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5740.1,20,prima,War Hammer,Tank,I03K,Tome: +1 Stats,tomo statistiche,110,110,0,18.1,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5740.7,20,prima,War Hammer,Tank,I03K,Tome: +1 Stats,tomo statistiche,110,110,0,18.1,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5743.8,20,prima,Naga Trident,DPS distanza,I03H,Tome: +2 Agility,tomo statistiche,110,110,0,18.1,,Requires Hero Level : 12   Maximum uses (per Gladiator): 50
+5744.4,20,prima,Druid Staff,Healer,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,18.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+5745.3,20,prima,War Hammer,Tank,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,18.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+5746.6,20,prima,Naga Trident,DPS distanza,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,18.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+5747.7,20,prima,War Drums,Support,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,18.0,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+5749.1,20,prima,Pickaxe,DPS mischia,I05M,Arena Teleport: Castle,teletrasporto (gratis),0,0,0,18.1,,Teleports the buyer and their nearby units to the castle location (bottom left) in the arena.
+5809.1,20,prima,War Hammer,Tank,I02H,(War Hammer) Second Wind,"talento (punti talento, non oro)",0,0,1,18.4,,"When Avatar expires, you are healed to 60% of your max health if you are below that amount. Additionally, your potions do 25% more healing."
+5809.6,20,prima,Claws,DPS mischia,I01F,(Claws) Vital Earth,"talento (punti talento, non oro)",0,0,1,17.4,,"Rock Shield does 100% more healing, costs 30 less mana and has its cooldown reduced by 8 seconds."
+5821.3,20,prima,Double Blade,DPS mischia,I01Z,(Double Edge) Feast,"talento (punti talento, non oro)",0,0,1,17.4,,Vampiric Aura now heals you for 80% of all physical damage you deal.
+6082.7,20,durante,Pickaxe,DPS mischia,I06J,Ancestral Strength,"pietra ancestrale (gratis, rianima)",0,0,0,19.0,,"Using this ability will revive a random fallen player in the Arena with full hit points and mana, however it costs the Ancestral Stone 100 mana.    Mana Regener"
+6088.2,20,durante,Pickaxe,DPS mischia,I06J,Ancestral Strength,"pietra ancestrale (gratis, rianima)",0,0,0,19.0,,"Using this ability will revive a random fallen player in the Arena with full hit points and mana, however it costs the Ancestral Stone 100 mana.    Mana Regener"
+6088.3,20,durante,Pickaxe,DPS mischia,I06J,Ancestral Strength,"pietra ancestrale (gratis, rianima)",0,0,0,19.0,,"Using this ability will revive a random fallen player in the Arena with full hit points and mana, however it costs the Ancestral Stone 100 mana.    Mana Regener"
+6093.6,20,durante,Pickaxe,DPS mischia,I06J,Ancestral Strength,"pietra ancestrale (gratis, rianima)",0,0,0,19.0,,"Using this ability will revive a random fallen player in the Arena with full hit points and mana, however it costs the Ancestral Stone 100 mana.    Mana Regener"
+6093.8,20,durante,Pickaxe,DPS mischia,I06J,Ancestral Strength,"pietra ancestrale (gratis, rianima)",0,0,0,19.0,,"Using this ability will revive a random fallen player in the Arena with full hit points and mana, however it costs the Ancestral Stone 100 mana.    Mana Regener"

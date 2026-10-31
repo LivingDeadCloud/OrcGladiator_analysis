@@ -1,0 +1,28 @@
+t,classe,ruolo,codice,oggetto,prezzo,oro_simulato,uso_successivo_osservato
+269.6,Wizard Staff,DPS distanza,I06Z,Purchase Survival Treads,50,25,
+287.8,War Hammer,Tank,I06Z,Purchase Survival Treads,50,25,
+468.6,Druid Staff,Healer,I00R,Wizard's Potion,100,50,si (primo uso 533 s)
+476.0,Runeblade,Tank,I00N,Purchase Royal Greaves,100,57,
+661.3,Pickaxe,DPS mischia,I00R,Wizard's Potion,100,61,si (primo uso 807 s)
+666.9,Wizard Staff,DPS distanza,I00R,Wizard's Potion,100,97,si (primo uso 680 s)
+675.7,War Drums,Support,I00R,Wizard's Potion,100,94,si (primo uso 747 s)
+685.4,War Hammer,Tank,I00R,Wizard's Potion,100,88,si (primo uso 885 s)
+957.8,Bow,DPS distanza,I00W,Rage Potion,250,225,si (primo uso 1002 s)
+972.3,Double Blade,DPS mischia,I00Q,Tank's Potion,100,10,si (primo uso 2132 s)
+1274.2,War Hammer,Tank,I096,Heartstone,400,394,
+1517.6,Double Blade,DPS mischia,I088,Ethereal Armour,850,660,
+1811.6,Runeblade,Tank,I096,Heartstone,400,256,
+2075.1,War Drums,Support,I08F,Charm of Protection,400,277,
+3200.8,Druid Staff,Healer,I02S,Pipe of Insight,750,642,
+3935.4,War Hammer,Tank,I071,Purchase Imbued Greaves,600,368,
+4848.8,Wizard Staff,DPS distanza,I00K,Purchase Slippers of Focus,500,472,
+4856.1,Bow,DPS distanza,I02X,Feral Visage,900,895,
+4861.7,Claws,DPS mischia,I03H,Tome: +2 Agility,110,87,
+5397.6,Pickaxe,DPS mischia,I03I,Tome: +2 Strength,110,12,
+5412.8,Runeblade,Tank,I03I,Tome: +2 Strength,110,25,
+5421.5,Druid Staff,Healer,I03J,Tome: +2 Intelligence,110,8,
+5717.0,Druid Staff,Healer,I03J,Tome: +2 Intelligence,110,8,
+5717.7,Druid Staff,Healer,I03J,Tome: +2 Intelligence,110,8,
+5718.9,Druid Staff,Healer,I03J,Tome: +2 Intelligence,110,8,
+5723.6,Claws,DPS mischia,I03H,Tome: +2 Agility,110,89,
+5730.1,Pickaxe,DPS mischia,I03I,Tome: +2 Strength,110,2,

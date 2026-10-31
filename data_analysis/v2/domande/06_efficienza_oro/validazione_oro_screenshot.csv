@@ -1,0 +1,230 @@
+screenshot,t_s,challenge_completate,fase,classe,ruolo,oro_misurato,oro_simulato,scarto,oro_simulato_senza_ancoraggio,scarto_senza_ancoraggio
+040526_02,248,1,post,Bow,DPS distanza,17,17,0,17,0
+040526_02,248,1,post,Claws,DPS mischia,19,19,0,19,0
+040526_02,248,1,post,Double Blade,DPS mischia,17,17,0,17,0
+040526_02,248,1,post,Druid Staff,Healer,19,19,0,19,0
+040526_02,248,1,post,Naga Trident,DPS distanza,19,19,0,19,0
+040526_02,248,1,post,Pickaxe,DPS mischia,17,17,0,17,0
+040526_02,248,1,post,Runeblade,Tank,17,17,0,17,0
+040526_02,248,1,post,War Drums,Support,17,17,0,17,0
+040526_02,248,1,post,War Hammer,Tank,19,19,0,19,0
+040526_02,248,1,post,Wizard Staff,DPS distanza,17,17,0,17,0
+040526_03,447,2,post,Bow,DPS distanza,22,22,0,22,0
+040526_03,447,2,post,Claws,DPS mischia,84,59,25,59,25
+040526_03,447,2,post,Double Blade,DPS mischia,52,52,0,52,0
+040526_03,447,2,post,Druid Staff,Healer,59,59,0,59,0
+040526_03,447,2,post,Naga Trident,DPS distanza,84,59,25,59,25
+040526_03,447,2,post,Pickaxe,DPS mischia,52,52,0,52,0
+040526_03,447,2,post,Runeblade,Tank,57,57,0,57,0
+040526_03,447,2,post,War Drums,Support,52,52,0,52,0
+040526_03,447,2,post,War Hammer,Tank,29,54,-25,54,-25
+040526_03,447,2,post,Wizard Staff,DPS distanza,27,52,-25,52,-25
+040526_04,646,3,post,Bow,DPS distanza,84,84,0,84,0
+040526_04,646,3,post,Claws,DPS mischia,118,93,25,68,50
+040526_04,646,3,post,Double Blade,DPS mischia,54,54,0,54,0
+040526_04,646,3,post,Druid Staff,Healer,18,68,-50,68,-50
+040526_04,646,3,post,Naga Trident,DPS distanza,86,86,0,61,25
+040526_04,646,3,post,Pickaxe,DPS mischia,61,61,0,61,0
+040526_04,646,3,post,Runeblade,Tank,34,109,-75,109,-75
+040526_04,646,3,post,War Drums,Support,79,54,25,54,25
+040526_04,646,3,post,War Hammer,Tank,88,88,0,113,-25
+040526_04,646,3,post,Wizard Staff,DPS distanza,79,79,0,104,-25
+040526_05,925,4,post,Bow,DPS distanza,165,140,25,140,25
+040526_05,925,4,post,Claws,DPS mischia,99,74,25,124,-25
+040526_05,925,4,post,Double Blade,DPS mischia,110,110,0,110,0
+040526_05,925,4,post,Druid Staff,Healer,109,84,25,134,-25
+040526_05,925,4,post,Naga Trident,DPS distanza,152,152,0,127,25
+040526_05,925,4,post,Pickaxe,DPS mischia,77,127,-50,127,-50
+040526_05,925,4,post,Runeblade,Tank,125,100,25,175,-50
+040526_05,925,4,post,War Drums,Support,35,135,-100,110,-75
+040526_05,925,4,post,War Hammer,Tank,44,144,-100,69,-25
+040526_05,925,4,post,Wizard Staff,DPS distanza,35,135,-100,60,-25
+040526_06,1240,5,post,Bow,DPS distanza,50,230,-180,205,-155
+040526_06,1240,5,post,Claws,DPS mischia,186,176,10,201,-15
+040526_06,1240,5,post,Double Blade,DPS mischia,85,75,10,75,10
+040526_06,1240,5,post,Druid Staff,Healer,196,186,10,211,-15
+040526_06,1240,5,post,Naga Trident,DPS distanza,114,129,-15,104,10
+040526_06,1240,5,post,Pickaxe,DPS mischia,152,142,10,192,-40
+040526_06,1240,5,post,Runeblade,Tank,100,90,10,140,-40
+040526_06,1240,5,post,War Drums,Support,50,100,-50,175,-125
+040526_06,1240,5,post,War Hammer,Tank,94,109,-15,134,-40
+040526_06,1240,5,post,Wizard Staff,DPS distanza,72,112,-40,137,-65
+040526_07,1470,6,post,Bow,DPS distanza,65,140,-75,295,-230
+040526_07,1470,6,post,Claws,DPS mischia,286,276,10,291,-5
+040526_07,1470,6,post,Double Blade,DPS mischia,160,175,-15,165,-5
+040526_07,1470,6,post,Druid Staff,Healer,265,301,-36,316,-51
+040526_07,1470,6,post,Naga Trident,DPS distanza,60,29,31,19,41
+040526_07,1470,6,post,Pickaxe,DPS mischia,92,257,-165,297,-205
+040526_07,1470,6,post,Runeblade,Tank,100,90,10,130,-30
+040526_07,1470,6,post,War Drums,Support,69,140,-71,104,-35
+040526_07,1470,6,post,War Hammer,Tank,75,199,-124,0,75
+040526_07,1470,6,post,Wizard Staff,DPS distanza,212,177,35,242,-30
+040526_08,1773,7,post,Bow,DPS distanza,204,170,34,400,-196
+040526_08,1773,7,post,Claws,DPS mischia,450,391,59,396,54
+040526_08,1773,7,post,Double Blade,DPS mischia,84,265,-181,270,-186
+040526_08,1773,7,post,Druid Staff,Healer,467,387,80,438,29
+040526_08,1773,7,post,Naga Trident,DPS distanza,145,182,-37,141,4
+040526_08,1773,7,post,Pickaxe,DPS mischia,101,214,-113,419,-318
+040526_08,1773,7,post,Runeblade,Tank,256,222,34,252,4
+040526_08,1773,7,post,War Drums,Support,92,174,-82,314,-222
+040526_08,1773,7,post,War Hammer,Tank,84,180,-96,0,84
+040526_08,1773,7,post,Wizard Staff,DPS distanza,84,317,-233,347,-263
+040526_09,2060,8,post,Bow,DPS distanza,141,180,-39,376,-235
+040526_09,2060,8,post,Claws,DPS mischia,116,0,116,572,-456
+040526_09,2060,8,post,Double Blade,DPS mischia,96,240,-144,426,-330
+040526_09,2060,8,post,Druid Staff,Healer,466,505,-39,476,-10
+040526_09,2060,8,post,Naga Trident,DPS distanza,282,321,-39,317,-35
+040526_09,2060,8,post,Pickaxe,DPS mischia,108,257,-149,575,-467
+040526_09,2060,8,post,Runeblade,Tank,96,412,-316,408,-312
+040526_09,2060,8,post,War Drums,Support,277,248,29,526,-249
+040526_09,2060,8,post,War Hammer,Tank,96,240,-144,100,-4
+040526_09,2060,8,post,Wizard Staff,DPS distanza,201,166,35,503,-302
+040526_10,2617,9,post,Bow,DPS distanza,108,0,108,84,24
+040526_10,2617,9,post,Claws,DPS mischia,130,172,-42,702,-572
+040526_10,2617,9,post,Double Blade,DPS mischia,130,176,-46,506,-376
+040526_10,2617,9,post,Druid Staff,Healer,612,531,81,584,28
+040526_10,2617,9,post,Naga Trident,DPS distanza,414,390,24,425,-11
+040526_10,2617,9,post,Pickaxe,DPS mischia,151,108,43,683,-532
+040526_10,2617,9,post,Runeblade,Tank,202,226,-24,538,-336
+040526_10,2617,9,post,War Drums,Support,127,385,-258,234,-107
+040526_10,2617,9,post,War Hammer,Tank,133,204,-71,208,-75
+040526_10,2617,9,post,Wizard Staff,DPS distanza,355,405,-50,633,-278
+040526_11,2906,10,post,Bow,DPS distanza,0,132,-132,259,-259
+040526_11,2906,10,post,Claws,DPS mischia,216,280,-64,852,-636
+040526_11,2906,10,post,Double Blade,DPS mischia,0,330,-330,706,-706
+040526_11,2906,10,post,Druid Staff,Healer,424,400,24,390,34
+040526_11,2906,10,post,Naga Trident,DPS distanza,589,564,25,575,14
+040526_11,2906,10,post,Pickaxe,DPS mischia,392,258,134,491,-99
+040526_11,2906,10,post,Runeblade,Tank,377,352,25,688,-311
+040526_11,2906,10,post,War Drums,Support,298,277,21,384,-86
+040526_11,2906,10,post,War Hammer,Tank,0,0,0,0,0
+040526_11,2906,10,post,Wizard Staff,DPS distanza,622,150,472,633,-11
+040526_12,3179,11,post,Bow,DPS distanza,155,176,-21,435,-280
+040526_12,3179,11,post,Claws,DPS mischia,348,392,-44,1028,-680
+040526_12,3179,11,post,Double Blade,DPS mischia,159,203,-44,909,-750
+040526_12,3179,11,post,Druid Staff,Healer,530,688,-158,593,-63
+040526_12,3179,11,post,Naga Trident,DPS distanza,208,252,-44,238,-30
+040526_12,3179,11,post,Pickaxe,DPS mischia,203,285,-82,445,-242
+040526_12,3179,11,post,Runeblade,Tank,509,553,-44,864,-355
+040526_12,3179,11,post,War Drums,Support,230,274,-44,360,-130
+040526_12,3179,11,post,War Hammer,Tank,132,0,132,0,132
+040526_12,3179,11,post,Wizard Staff,DPS distanza,159,125,34,136,23
+040526_13,3418,12,post,Bow,DPS distanza,428,419,9,699,-271
+040526_13,3418,12,post,Claws,DPS mischia,676,612,64,1292,-616
+040526_13,3418,12,post,Double Blade,DPS mischia,0,0,0,473,-473
+040526_13,3418,12,post,Druid Staff,Healer,166,720,-554,857,-691
+040526_13,3418,12,post,Naga Trident,DPS distanza,481,472,9,502,-21
+040526_13,3418,12,post,Pickaxe,DPS mischia,538,100,438,675,-137
+040526_13,3418,12,post,Runeblade,Tank,832,773,59,1128,-296
+040526_13,3418,12,post,War Drums,Support,328,319,9,449,-121
+040526_13,3418,12,post,War Hammer,Tank,0,155,-155,98,-98
+040526_13,3418,12,post,Wizard Staff,DPS distanza,409,628,-219,400,9
+040526_14,3660,13,post,Bow,DPS distanza,198,223,-25,494,-296
+040526_14,3660,13,post,Claws,DPS mischia,0,0,0,564,-564
+040526_14,3660,13,post,Double Blade,DPS mischia,0,0,0,713,-713
+040526_14,3660,13,post,Druid Staff,Healer,406,480,-74,1097,-691
+040526_14,3660,13,post,Naga Trident,DPS distanza,689,714,-25,735,-46
+040526_14,3660,13,post,Pickaxe,DPS mischia,757,912,-155,883,-126
+040526_14,3660,13,post,Runeblade,Tank,40,90,-50,386,-346
+040526_14,3660,13,post,War Drums,Support,536,509,27,682,-146
+040526_14,3660,13,post,War Hammer,Tank,185,208,-23,306,-121
+040526_14,3660,13,post,Wizard Staff,DPS distanza,617,667,-50,658,-41
+040526_15,3908,14,post,Bow,DPS distanza,203,0,203,3,200
+040526_15,3908,14,post,Claws,DPS mischia,203,207,-4,823,-620
+040526_15,3908,14,post,Double Blade,DPS mischia,203,222,-19,972,-769
+040526_15,3908,14,post,Druid Staff,Healer,609,665,-56,1356,-747
+040526_15,3908,14,post,Naga Trident,DPS distanza,168,213,-45,259,-91
+040526_15,3908,14,post,Pickaxe,DPS mischia,975,1018,-43,1107,-132
+040526_15,3908,14,post,Runeblade,Tank,168,264,-96,610,-442
+040526_15,3908,14,post,War Drums,Support,693,812,-119,906,-213
+040526_15,3908,14,post,War Hammer,Tank,168,409,-241,530,-362
+040526_15,3908,14,post,Wizard Staff,DPS distanza,458,548,-90,882,-424
+040526_16,4271,15,post,Bow,DPS distanza,0,120,-120,213,-213
+040526_16,4271,15,post,Claws,DPS mischia,491,487,4,1107,-616
+040526_16,4271,15,post,Double Blade,DPS mischia,0,0,0,656,-656
+040526_16,4271,15,post,Druid Staff,Healer,937,856,81,1603,-666
+040526_16,4271,15,post,Naga Trident,DPS distanza,423,378,45,469,-46
+040526_16,4271,15,post,Pickaxe,DPS mischia,1261,1072,189,1317,-56
+040526_16,4271,15,post,Runeblade,Tank,499,378,121,820,-321
+040526_16,4271,15,post,War Drums,Support,457,390,67,603,-146
+040526_16,4271,15,post,War Hammer,Tank,56,378,-322,140,-84
+040526_16,4271,15,post,Wizard Staff,DPS distanza,993,961,32,1092,-99
+040526_17,4611,16,post,Bow,DPS distanza,192,224,-32,437,-245
+040526_17,4611,16,post,Claws,DPS mischia,756,795,-39,1411,-655
+040526_17,4611,16,post,Double Blade,DPS mischia,232,151,81,920,-688
+040526_17,4611,16,post,Druid Staff,Healer,232,7,225,617,-385
+040526_17,4611,16,post,Naga Trident,DPS distanza,615,647,-32,693,-78
+040526_17,4611,16,post,Pickaxe,DPS mischia,192,348,-156,291,-99
+040526_17,4611,16,post,Runeblade,Tank,716,723,-7,1044,-328
+040526_17,4611,16,post,War Drums,Support,347,681,-334,827,-480
+040526_17,4611,16,post,War Hammer,Tank,248,231,17,364,-116
+040526_17,4611,16,post,Wizard Staff,DPS distanza,192,210,-18,316,-124
+040526_18,4817,17,post,Bow,DPS distanza,395,523,-128,768,-373
+040526_18,4817,17,post,Claws,DPS mischia,637,700,-63,1355,-718
+040526_18,4817,17,post,Double Blade,DPS mischia,358,563,-205,1251,-893
+040526_18,4817,17,post,Druid Staff,Healer,246,549,-303,990,-744
+040526_18,4817,17,post,Naga Trident,DPS distanza,204,0,204,24,180
+040526_18,4817,17,post,Pickaxe,DPS mischia,538,523,15,622,-84
+040526_18,4817,17,post,Runeblade,Tank,427,447,-20,775,-348
+040526_18,4817,17,post,War Drums,Support,501,678,-177,1158,-657
+040526_18,4817,17,post,War Hammer,Tank,484,574,-90,695,-211
+040526_18,4817,17,post,Wizard Staff,DPS distanza,472,530,-58,647,-175
+040526_19,5386,18,post,Bow,DPS distanza,0,611,-611,84,-84
+040526_19,5386,18,post,Claws,DPS mischia,590,438,152,1046,-456
+040526_19,5386,18,post,Double Blade,DPS mischia,701,574,127,1467,-766
+040526_19,5386,18,post,Druid Staff,Healer,448,507,-59,1251,-803
+040526_19,5386,18,post,Naga Trident,DPS distanza,194,366,-172,240,-46
+040526_19,5386,18,post,Pickaxe,DPS mischia,892,754,138,838,54
+040526_19,5386,18,post,Runeblade,Tank,795,643,152,991,-196
+040526_19,5386,18,post,War Drums,Support,1228,717,511,1374,-146
+040526_19,5386,18,post,War Hammer,Tank,827,754,73,911,-84
+040526_19,5386,18,post,Wizard Staff,DPS distanza,359,688,-329,363,-4
+040526_20,5720,19,post,Bow,DPS distanza,148,285,-137,369,-221
+040526_20,5720,19,post,Claws,DPS mischia,419,325,94,781,-362
+040526_20,5720,19,post,Double Blade,DPS mischia,373,326,47,1092,-719
+040526_20,5720,19,post,Druid Staff,Healer,172,183,-11,546,-374
+040526_20,5720,19,post,Naga Trident,DPS distanza,419,369,50,415,4
+040526_20,5720,19,post,Pickaxe,DPS mischia,322,297,25,353,-31
+040526_20,5720,19,post,Runeblade,Tank,310,310,0,396,-86
+040526_20,5720,19,post,War Drums,Support,303,303,0,449,-146
+040526_20,5720,19,post,War Hammer,Tank,912,912,0,996,-84
+040526_20,5720,19,post,Wizard Staff,DPS distanza,314,314,0,318,-4
+031526_01,5948,19,boss,Bow,DPS distanza,365,173,192,394,-29
+031526_01,5948,19,boss,Claws,DPS mischia,89,89,0,341,-252
+031526_01,5948,19,boss,Double Blade,DPS mischia,0,43,-43,762,-762
+031526_01,5948,19,boss,Druid Staff,Healer,0,172,-172,546,-546
+031526_01,5948,19,boss,Naga Trident,DPS distanza,0,4,-4,0,0
+031526_01,5948,19,boss,Pickaxe,DPS mischia,0,17,-17,48,-48
+031526_01,5948,19,boss,Runeblade,Tank,90,90,0,176,-86
+031526_01,5948,19,boss,War Drums,Support,75,83,-8,229,-154
+031526_01,5948,19,boss,War Hammer,Tank,0,32,-32,116,-116
+031526_01,5948,19,boss,Wizard Staff,DPS distanza,93,94,-1,98,-5
+031526_02,5983,19,boss,Bow,DPS distanza,365,365,0,394,-29
+031526_02,5983,19,boss,Claws,DPS mischia,89,89,0,341,-252
+031526_02,5983,19,boss,Double Blade,DPS mischia,0,0,0,762,-762
+031526_02,5983,19,boss,Druid Staff,Healer,0,0,0,546,-546
+031526_02,5983,19,boss,Naga Trident,DPS distanza,0,0,0,0,0
+031526_02,5983,19,boss,Pickaxe,DPS mischia,0,0,0,48,-48
+031526_02,5983,19,boss,Runeblade,Tank,90,90,0,176,-86
+031526_02,5983,19,boss,War Drums,Support,75,75,0,229,-154
+031526_02,5983,19,boss,War Hammer,Tank,0,0,0,116,-116
+031526_02,5983,19,boss,Wizard Staff,DPS distanza,93,93,0,98,-5
+031526_03,5987,19,boss,Bow,DPS distanza,365,365,0,394,-29
+031526_03,5987,19,boss,Claws,DPS mischia,89,89,0,341,-252
+031526_03,5987,19,boss,Double Blade,DPS mischia,0,0,0,762,-762
+031526_03,5987,19,boss,Druid Staff,Healer,0,0,0,546,-546
+031526_03,5987,19,boss,Naga Trident,DPS distanza,0,0,0,0,0
+031526_03,5987,19,boss,Pickaxe,DPS mischia,0,0,0,48,-48
+031526_03,5987,19,boss,Runeblade,Tank,90,90,0,176,-86
+031526_03,5987,19,boss,War Drums,Support,75,75,0,229,-154
+031526_03,5987,19,boss,War Hammer,Tank,0,0,0,116,-116
+031526_03,5987,19,boss,Wizard Staff,DPS distanza,93,93,0,98,-5
+040526_23,6158,19,sconfitta,Bow,DPS distanza,365,365,0,394,-29
+040526_23,6158,19,sconfitta,Claws,DPS mischia,89,89,0,341,-252
+040526_23,6158,19,sconfitta,Druid Staff,Healer,0,0,0,546,-546
+040526_23,6158,19,sconfitta,Naga Trident,DPS distanza,0,0,0,0,0
+040526_23,6158,19,sconfitta,Pickaxe,DPS mischia,0,0,0,48,-48
+040526_23,6158,19,sconfitta,Runeblade,Tank,90,90,0,176,-86
+040526_23,6158,19,sconfitta,War Drums,Support,75,75,0,229,-154
+040526_23,6158,19,sconfitta,War Hammer,Tank,0,0,0,116,-116
+040526_23,6158,19,sconfitta,Wizard Staff,DPS distanza,93,93,0,98,-5

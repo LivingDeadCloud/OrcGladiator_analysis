@@ -1,0 +1,91 @@
+classe,tempo_s,challenge_in_corso,talento,ability_id,abilita,livello_da,livello_a
+Bow,492.131,3,Purchase Survival Treads,,"bonus INT +0, mana max +0, regen +50%",,
+Bow,2937.944,11,(Bow) Hunting Party,A00Z,,1,2
+Bow,4325.586,16,(Bow) Rapid Fire,A013,Take Aim,1,2
+Bow,4887.554,18,(Bow) Readiness,A013,Take Aim,2,4
+Claws,462.053,3,Purchase Survival Treads,,"bonus INT +0, mana max +0, regen +50%",,
+Claws,1800.912,8,Ring of Superiority,,"bonus INT +10, mana max +0, regen +0%",,
+Claws,2060.194,9,(Claws) Guardian,A01M,Feral Spirit,1,2
+Claws,2907.412,11,(Claws) Energize,A01C,Lightning Strike,1,2
+Claws,3436.085,13,Shard of the Revenant,,"bonus INT +15, mana max +0, regen +0%",,
+Claws,3673.819,14,(Claws) Windfury,A01F,,1,2
+Claws,4295.96,16,(Claws) Shock,A01C,Lightning Strike,2,4
+Claws,4830.679,18,(Claws) Magma,A01H,Molten Boulder,1,2
+Claws,5809.601,20,(Claws) Vital Earth,A0G6,Healing Wave,1,2
+Double Blade,467.725,3,Purchase Survival Treads,,"bonus INT +0, mana max +0, regen +50%",,
+Double Blade,2967.459,11,(Double Edge) Horror,A00U,Terror,1,2
+Double Blade,4028.585,15,(Double Edge) Presence,A03H,,1,2
+Double Blade,4648.273,17,(Double Edge) Shimmering,A00A,Dimensional Gate,1,2
+Double Blade,4899.898,18,(Double Edge) Infusion,A036,Demon Skin,1,2
+Double Blade,5821.32,20,(Double Edge) Feast,S000,,1,2
+Druid Staff,451.709,3,Purchase Survival Treads,,"bonus INT +0, mana max +0, regen +50%",,
+Druid Staff,1813.412,8,Purchase Thinking Sandals,,"bonus INT +0, mana max +0, regen +50%",,
+Druid Staff,2128.881,9,(Druid Staff) Brambles,A06U,,1,2
+Druid Staff,2637.35,10,Purchase Slippers of Focus,,"bonus INT +0, mana max +0, regen +100%",,
+Druid Staff,2930.553,11,(Druid Staff) Nourish,A05R,Rejuvenation,1,3
+Druid Staff,3200.819,12,Pipe of Insight,,"bonus INT +0, mana max +0, regen +250%",,
+Druid Staff,3418.0,13,"scelta statistiche: +1 Agi, +1 Int",,"bonus INT +1, mana max +0, regen +0%",,
+Druid Staff,5420.07,19,Tome: +2 Intelligence,,"bonus INT +2, mana max +0, regen +0%",,
+Druid Staff,5420.883,19,Tome: +2 Intelligence,,"bonus INT +2, mana max +0, regen +0%",,
+Druid Staff,5421.117,19,Tome: +2 Intelligence,,"bonus INT +2, mana max +0, regen +0%",,
+Druid Staff,5421.242,19,Tome: +2 Intelligence,,"bonus INT +2, mana max +0, regen +0%",,
+Druid Staff,5421.461,19,Tome: +2 Intelligence,,"bonus INT +2, mana max +0, regen +0%",,
+Druid Staff,5717.039,19,Tome: +2 Intelligence,,"bonus INT +2, mana max +0, regen +0%",,
+Druid Staff,5717.711,19,Tome: +2 Intelligence,,"bonus INT +2, mana max +0, regen +0%",,
+Druid Staff,5718.929,19,Tome: +2 Intelligence,,"bonus INT +2, mana max +0, regen +0%",,
+Druid Staff,5719.711,19,Tome: +2 Intelligence,,"bonus INT +2, mana max +0, regen +0%",,
+Druid Staff,5720.0,20,scelta statistiche: +1 Intelligence,,"bonus INT +1, mana max +0, regen +0%",,
+Naga Trident,453.459,3,Purchase Survival Treads,,"bonus INT +0, mana max +0, regen +50%",,
+Naga Trident,1288.491,6,,,"bonus INT +4, mana max +0, regen +0%",,
+Naga Trident,4289.882,16,(Trident) Zephyr,A0FY,,1,2
+Naga Trident,4833.133,18,(Trident) Conduit,A092,,1,2
+Naga Trident,5717.601,19,(Trident) Undertow,A0FW,Vortex,1,2
+Pickaxe,469.444,3,Purchase Survival Treads,,"bonus INT +0, mana max +0, regen +50%",,
+Pickaxe,2087.147,9,(Pickaxe) Supercharge,A08T,Overdrive,1,2
+Pickaxe,2912.412,11,(Pickaxe) Imbuement,A08T,Overdrive,2,4
+Pickaxe,4614.195,17,(Pickaxe) Barrage,A08W,Hydra Arrows,1,2
+Pickaxe,4837.586,18,(Pickaxe) Demolitionist,A0FS,Volatile Concoction,1,2
+Runeblade,476.006,3,Purchase Royal Greaves,,"bonus INT +6, mana max +0, regen +0%",,
+Runeblade,2085.819,9,(Runeblade) Incite,A0HQ,Unholy Frenzy,1,2
+Runeblade,2928.912,11,(Runeblade) Darkmend,A0HJ,Death Coil,1,3
+Runeblade,4635.508,17,(Runeblade) Death Ward,A0HN,Surrender Soul,1,3
+Runeblade,4640.695,17,(Runeblade) Death Presence,A0HM,,1,2
+Runeblade,5721.836,20,(Runeblade) Essence,A0HK,Death Pact,1,2
+War Drums,459.147,3,Purchase Survival Treads,,"bonus INT +0, mana max +0, regen +50%",,
+War Drums,2966.428,11,(War Drums) Exhiliration,A0AJ,,1,2
+War Drums,3198.053,12,,,"bonus INT +4, mana max +0, regen +0%",,
+War Drums,3678.835,14,(War Drums) Persevere,A0AJ,,2,4
+War Drums,4633.789,17,(War Drums) Courage,A09U,Embolden,1,2
+War Drums,4834.367,18,(War Drums) Mastery,A09U,Embolden,2,4
+War Drums,5408.976,19,Tome: +1 Stats,,"bonus INT +1, mana max +0, regen +0%",,
+War Drums,5722.914,20,(War Drums) Comradeship,A09W,Inspire,1,2
+War Hammer,287.803,2,Purchase Survival Treads,,"bonus INT +0, mana max +0, regen +50%",,
+War Hammer,2694.897,10,(War Hammer) Obliterate,A00L,Storm Bolt,1,2
+War Hammer,2911.209,11,(War Hammer) Acrobatics,A00P,Leap,1,2
+War Hammer,4614.773,17,(War Hammer) Unbreakable,A03P,,1,2
+War Hammer,4839.601,18,(War Hammer) Onslaught,A00O,,1,2
+War Hammer,5734.742,20,Tome: +1 Stats,,"bonus INT +1, mana max +0, regen +0%",,
+War Hammer,5736.726,20,Tome: +1 Stats,,"bonus INT +1, mana max +0, regen +0%",,
+War Hammer,5737.57,20,Tome: +1 Stats,,"bonus INT +1, mana max +0, regen +0%",,
+War Hammer,5738.242,20,Tome: +1 Stats,,"bonus INT +1, mana max +0, regen +0%",,
+War Hammer,5738.914,20,Tome: +1 Stats,,"bonus INT +1, mana max +0, regen +0%",,
+War Hammer,5739.57,20,Tome: +1 Stats,,"bonus INT +1, mana max +0, regen +0%",,
+War Hammer,5740.133,20,Tome: +1 Stats,,"bonus INT +1, mana max +0, regen +0%",,
+War Hammer,5740.695,20,Tome: +1 Stats,,"bonus INT +1, mana max +0, regen +0%",,
+War Hammer,5809.133,20,(War Hammer) Second Wind,A00Q,Avatar,1,2
+Wizard Staff,269.553,2,Purchase Survival Treads,,"bonus INT +0, mana max +0, regen +50%",,
+Wizard Staff,2066.553,9,(Wizard Staff) Temporal Mastery,A0DI,Time Stop,1,2
+Wizard Staff,2644.491,10,Mysterious Codex,,"bonus INT +4, mana max +0, regen +0%",,
+Wizard Staff,2907.412,11,(Wizard Staff) Genius,A0D0,,1,2
+Wizard Staff,2939.162,11,Ring of Superiority,,"bonus INT +10, mana max +0, regen +0%",,
+Wizard Staff,4293.522,16,Shard of the Revenant,,"bonus INT +15, mana max +0, regen +0%",,
+Wizard Staff,4620.711,17,(Wizard Staff) Glass Cannon (+INT = livello eroe),,"bonus INT +15, mana max +0, regen +0%",,
+Wizard Staff,4639.289,17,(Wizard Staff) Explosion,A0CG,Pyroblast,1,2
+Wizard Staff,4848.804,18,Purchase Slippers of Focus,,"bonus INT +0, mana max +0, regen +100%",,
+Wizard Staff,4862.023,18,(Wizard Staff) Frigid Defender,A04K,Water Elemental,1,2
+Wizard Staff,5397.804,19,Tome: +2 Intelligence,,"bonus INT +2, mana max +0, regen +0%",,
+Wizard Staff,5399.336,19,Tome: +2 Intelligence,,"bonus INT +2, mana max +0, regen +0%",,
+Wizard Staff,5402.32,19,Tome: +2 Intelligence,,"bonus INT +2, mana max +0, regen +0%",,
+Wizard Staff,5720.0,20,scelta statistiche: +1 Intelligence,,"bonus INT +1, mana max +0, regen +0%",,
+Wizard Staff,5730.133,20,Tome: +2 Intelligence,,"bonus INT +2, mana max +0, regen +0%",,
+Wizard Staff,5730.679,20,Tome: +2 Intelligence,,"bonus INT +2, mana max +0, regen +0%",,

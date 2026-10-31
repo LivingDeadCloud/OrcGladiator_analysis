@@ -1,0 +1,1021 @@
+classe,ruolo,challenge,abilita,ordini,cast_effettivi_stimati,ordini_sprecati,cooldown_occupato_pct
+War Hammer,Tank,1,Storm Bolt,3,3,0,24.59
+War Hammer,Tank,2,Storm Bolt,9,8,1,61.032
+War Hammer,Tank,3,Storm Bolt,10,10,0,69.752
+War Hammer,Tank,4,Storm Bolt,20,20,0,65.649
+War Hammer,Tank,5,Storm Bolt,23,23,0,62.453
+War Hammer,Tank,6,Storm Bolt,14,14,0,68.027
+War Hammer,Tank,7,Storm Bolt,18,18,0,51.724
+War Hammer,Tank,8,Storm Bolt,22,22,0,69.346
+War Hammer,Tank,9,Storm Bolt,35,35,0,40.888
+War Hammer,Tank,10,Storm Bolt,19,19,0,61.766
+War Hammer,Tank,11,Storm Bolt,18,18,0,60.0
+War Hammer,Tank,12,Storm Bolt,13,13,0,57.522
+War Hammer,Tank,13,Storm Bolt,11,11,0,44.667
+War Hammer,Tank,14,Storm Bolt,13,13,0,54.551
+War Hammer,Tank,15,Storm Bolt,16,15,1,33.418
+War Hammer,Tank,16,Storm Bolt,28,27,1,62.5
+War Hammer,Tank,17,Storm Bolt,5,5,0,32.021
+War Hammer,Tank,18,Storm Bolt,38,34,4,39.352
+War Hammer,Tank,19,Storm Bolt,17,17,0,42.026
+War Hammer,Tank,20,Storm Bolt,28,27,1,44.098
+War Hammer,Tank,1,Thunderclap,0,0,0,0.0
+War Hammer,Tank,2,Thunderclap,0,0,0,0.0
+War Hammer,Tank,3,Thunderclap,1,1,0,9.091
+War Hammer,Tank,4,Thunderclap,3,3,0,13.636
+War Hammer,Tank,5,Thunderclap,1,1,0,3.704
+War Hammer,Tank,6,Thunderclap,3,3,0,20.0
+War Hammer,Tank,7,Thunderclap,4,4,0,16.092
+War Hammer,Tank,8,Thunderclap,1,1,0,4.348
+War Hammer,Tank,9,Thunderclap,3,3,0,4.907
+War Hammer,Tank,10,Thunderclap,2,2,0,8.696
+War Hammer,Tank,11,Thunderclap,2,2,0,9.333
+War Hammer,Tank,12,Thunderclap,6,6,0,37.168
+War Hammer,Tank,13,Thunderclap,0,0,0,0.0
+War Hammer,Tank,14,Thunderclap,3,3,0,17.355
+War Hammer,Tank,15,Thunderclap,3,3,0,8.898
+War Hammer,Tank,16,Thunderclap,4,4,0,14.363
+War Hammer,Tank,17,Thunderclap,3,3,0,26.25
+War Hammer,Tank,18,Thunderclap,18,16,2,27.208
+War Hammer,Tank,19,Thunderclap,4,4,0,13.462
+War Hammer,Tank,20,Thunderclap,3,3,0,6.731
+War Hammer,Tank,1,Leap,0,0,0,0.0
+War Hammer,Tank,2,Leap,0,0,0,0.0
+War Hammer,Tank,3,Leap,0,0,0,0.0
+War Hammer,Tank,4,Leap,0,0,0,0.0
+War Hammer,Tank,5,Leap,1,1,0,5.291
+War Hammer,Tank,6,Leap,0,0,0,0.0
+War Hammer,Tank,7,Leap,0,0,0,0.0
+War Hammer,Tank,8,Leap,1,1,0,6.211
+War Hammer,Tank,9,Leap,5,4,1,9.346
+War Hammer,Tank,10,Leap,2,2,0,12.422
+War Hammer,Tank,11,Leap,0,0,0,0.0
+War Hammer,Tank,12,Leap,0,0,0,0.0
+War Hammer,Tank,13,Leap,1,1,0,5.303
+War Hammer,Tank,14,Leap,1,1,0,5.785
+War Hammer,Tank,15,Leap,6,6,0,17.797
+War Hammer,Tank,16,Leap,0,0,0,0.0
+War Hammer,Tank,17,Leap,2,2,0,17.5
+War Hammer,Tank,18,Leap,8,8,0,12.963
+War Hammer,Tank,19,Leap,2,2,0,6.731
+War Hammer,Tank,20,Leap,2,2,0,4.487
+War Hammer,Tank,1,Avatar,0,0,0,0.0
+War Hammer,Tank,2,Avatar,0,0,0,0.0
+War Hammer,Tank,3,Avatar,0,0,0,0.0
+War Hammer,Tank,4,Avatar,0,0,0,0.0
+War Hammer,Tank,5,Avatar,0,0,0,0.0
+War Hammer,Tank,6,Avatar,0,0,0,100.0
+War Hammer,Tank,7,Avatar,2,2,0,82.234
+War Hammer,Tank,8,Avatar,0,0,0,57.778
+War Hammer,Tank,9,Avatar,1,1,0,26.145
+War Hammer,Tank,10,Avatar,0,0,0,0.0
+War Hammer,Tank,11,Avatar,0,0,0,79.202
+War Hammer,Tank,12,Avatar,1,1,0,91.822
+War Hammer,Tank,13,Avatar,1,1,0,79.908
+War Hammer,Tank,14,Avatar,1,1,0,92.879
+War Hammer,Tank,15,Avatar,1,1,0,50.847
+War Hammer,Tank,16,Avatar,1,1,0,32.491
+War Hammer,Tank,17,Avatar,0,0,0,100.0
+War Hammer,Tank,18,Avatar,3,3,0,94.589
+War Hammer,Tank,19,Avatar,1,1,0,97.356
+War Hammer,Tank,20,Avatar,2,2,0,78.14
+Runeblade,Tank,1,Unholy Frenzy,1,1,0,40.984
+Runeblade,Tank,2,Unholy Frenzy,2,2,0,68.493
+Runeblade,Tank,3,Unholy Frenzy,1,1,0,58.977
+Runeblade,Tank,4,Unholy Frenzy,4,4,0,64.935
+Runeblade,Tank,5,Unholy Frenzy,3,3,0,51.996
+Runeblade,Tank,6,Unholy Frenzy,3,3,0,86.688
+Runeblade,Tank,7,Unholy Frenzy,3,3,0,42.768
+Runeblade,Tank,8,Unholy Frenzy,6,4,2,68.395
+Runeblade,Tank,9,Unholy Frenzy,10,10,0,11.684
+Runeblade,Tank,10,Unholy Frenzy,12,12,0,37.737
+Runeblade,Tank,11,Unholy Frenzy,11,11,0,36.667
+Runeblade,Tank,12,Unholy Frenzy,9,8,1,37.091
+Runeblade,Tank,13,Unholy Frenzy,4,4,0,17.56
+Runeblade,Tank,14,Unholy Frenzy,10,10,0,41.322
+Runeblade,Tank,15,Unholy Frenzy,7,7,0,14.831
+Runeblade,Tank,16,Unholy Frenzy,7,7,0,18.066
+Runeblade,Tank,17,Unholy Frenzy,6,6,0,37.5
+Runeblade,Tank,18,Unholy Frenzy,3,3,0,3.472
+Runeblade,Tank,19,Unholy Frenzy,6,6,0,14.423
+Runeblade,Tank,20,Unholy Frenzy,9,9,0,15.177
+Runeblade,Tank,1,Death Coil,2,2,0,16.393
+Runeblade,Tank,2,Death Coil,6,6,0,46.862
+Runeblade,Tank,3,Death Coil,1,1,0,6.494
+Runeblade,Tank,4,Death Coil,4,4,0,14.28
+Runeblade,Tank,5,Death Coil,7,7,0,18.519
+Runeblade,Tank,6,Death Coil,1,1,0,4.762
+Runeblade,Tank,7,Death Coil,6,6,0,17.241
+Runeblade,Tank,8,Death Coil,8,8,0,24.845
+Runeblade,Tank,9,Death Coil,27,27,0,31.542
+Runeblade,Tank,10,Death Coil,3,3,0,11.145
+Runeblade,Tank,11,Death Coil,7,7,0,23.333
+Runeblade,Tank,12,Death Coil,0,0,0,0.0
+Runeblade,Tank,13,Death Coil,13,13,0,49.242
+Runeblade,Tank,14,Death Coil,2,2,0,8.451
+Runeblade,Tank,15,Death Coil,5,5,0,10.593
+Runeblade,Tank,16,Death Coil,12,12,0,27.778
+Runeblade,Tank,17,Death Coil,5,5,0,31.25
+Runeblade,Tank,18,Death Coil,5,4,1,5.091
+Runeblade,Tank,19,Death Coil,12,12,0,31.178
+Runeblade,Tank,20,Death Coil,15,15,0,24.038
+Runeblade,Tank,1,Death Pact,0,0,0,0.0
+Runeblade,Tank,2,Death Pact,0,0,0,0.0
+Runeblade,Tank,3,Death Pact,0,0,0,0.0
+Runeblade,Tank,4,Death Pact,3,3,0,63.16
+Runeblade,Tank,5,Death Pact,4,4,0,67.986
+Runeblade,Tank,6,Death Pact,2,2,0,66.667
+Runeblade,Tank,7,Death Pact,3,3,0,77.698
+Runeblade,Tank,8,Death Pact,3,3,0,75.518
+Runeblade,Tank,9,Death Pact,7,7,0,55.559
+Runeblade,Tank,10,Death Pact,3,3,0,57.493
+Runeblade,Tank,11,Death Pact,3,3,0,70.0
+Runeblade,Tank,12,Death Pact,2,2,0,81.706
+Runeblade,Tank,13,Death Pact,2,2,0,53.03
+Runeblade,Tank,14,Death Pact,3,3,0,88.203
+Runeblade,Tank,15,Death Pact,2,2,0,35.192
+Runeblade,Tank,16,Death Pact,4,4,0,59.661
+Runeblade,Tank,17,Death Pact,1,1,0,87.041
+Runeblade,Tank,18,Death Pact,1,1,0,8.102
+Runeblade,Tank,19,Death Pact,3,3,0,62.609
+Runeblade,Tank,20,Death Pact,3,3,0,41.319
+Runeblade,Tank,1,Desecrate,0,0,0,0.0
+Runeblade,Tank,2,Desecrate,0,0,0,0.0
+Runeblade,Tank,3,Desecrate,0,0,0,0.0
+Runeblade,Tank,4,Desecrate,0,0,0,0.0
+Runeblade,Tank,5,Desecrate,0,0,0,0.0
+Runeblade,Tank,6,Desecrate,1,1,0,37.685
+Runeblade,Tank,7,Desecrate,1,1,0,21.25
+Runeblade,Tank,8,Desecrate,1,1,0,17.391
+Runeblade,Tank,9,Desecrate,2,2,0,13.084
+Runeblade,Tank,10,Desecrate,4,4,0,69.565
+Runeblade,Tank,11,Desecrate,4,4,0,77.639
+Runeblade,Tank,12,Desecrate,1,1,0,24.779
+Runeblade,Tank,13,Desecrate,2,2,0,42.424
+Runeblade,Tank,14,Desecrate,1,1,0,30.287
+Runeblade,Tank,15,Desecrate,2,2,0,29.69
+Runeblade,Tank,16,Desecrate,5,5,0,71.256
+Runeblade,Tank,17,Desecrate,2,2,0,80.625
+Runeblade,Tank,18,Desecrate,2,2,0,16.017
+Runeblade,Tank,19,Desecrate,4,4,0,54.744
+Runeblade,Tank,20,Desecrate,7,6,1,53.846
+Runeblade,Tank,1,Surrender Soul,0,0,0,0.0
+Runeblade,Tank,2,Surrender Soul,0,0,0,0.0
+Runeblade,Tank,3,Surrender Soul,0,0,0,0.0
+Runeblade,Tank,4,Surrender Soul,0,0,0,0.0
+Runeblade,Tank,5,Surrender Soul,0,0,0,0.0
+Runeblade,Tank,6,Surrender Soul,0,0,0,0.0
+Runeblade,Tank,7,Surrender Soul,0,0,0,0.0
+Runeblade,Tank,8,Surrender Soul,0,0,0,0.0
+Runeblade,Tank,9,Surrender Soul,0,0,0,0.0
+Runeblade,Tank,10,Surrender Soul,0,0,0,0.0
+Runeblade,Tank,11,Surrender Soul,0,0,0,0.0
+Runeblade,Tank,12,Surrender Soul,0,0,0,0.559
+Runeblade,Tank,13,Surrender Soul,0,0,0,0.0
+Runeblade,Tank,14,Surrender Soul,0,0,0,0.0
+Runeblade,Tank,15,Surrender Soul,0,0,0,0.0
+Runeblade,Tank,16,Surrender Soul,0,0,0,0.0
+Runeblade,Tank,17,Surrender Soul,0,0,0,0.0
+Runeblade,Tank,18,Surrender Soul,0,0,0,0.0
+Runeblade,Tank,19,Surrender Soul,0,0,0,0.0
+Runeblade,Tank,20,Surrender Soul,1,1,0,30.912
+Druid Staff,Healer,1,Rejuvenation,4,4,0,13.115
+Druid Staff,Healer,2,Rejuvenation,5,5,0,15.505
+Druid Staff,Healer,3,Rejuvenation,8,8,0,20.779
+Druid Staff,Healer,4,Rejuvenation,20,20,0,25.974
+Druid Staff,Healer,5,Rejuvenation,14,14,0,15.504
+Druid Staff,Healer,6,Rejuvenation,9,8,1,16.613
+Druid Staff,Healer,7,Rejuvenation,18,18,0,21.061
+Druid Staff,Healer,8,Rejuvenation,20,20,0,25.266
+Druid Staff,Healer,9,Rejuvenation,9,9,0,4.206
+Druid Staff,Healer,10,Rejuvenation,21,21,0,26.087
+Druid Staff,Healer,11,Rejuvenation,22,22,0,29.333
+Druid Staff,Healer,12,Rejuvenation,13,13,0,23.009
+Druid Staff,Healer,13,Rejuvenation,9,9,0,13.636
+Druid Staff,Healer,14,Rejuvenation,18,18,0,30.959
+Druid Staff,Healer,15,Rejuvenation,8,8,0,6.78
+Druid Staff,Healer,16,Rejuvenation,32,32,0,29.63
+Druid Staff,Healer,17,Rejuvenation,13,13,0,32.5
+Druid Staff,Healer,18,Rejuvenation,42,42,0,19.444
+Druid Staff,Healer,19,Rejuvenation,36,36,0,34.615
+Druid Staff,Healer,20,Rejuvenation,36,36,0,23.445
+Druid Staff,Healer,1,Innervate,0,0,0,0.0
+Druid Staff,Healer,2,Innervate,2,2,0,54.795
+Druid Staff,Healer,3,Innervate,2,2,0,58.755
+Druid Staff,Healer,4,Innervate,6,6,0,83.77
+Druid Staff,Healer,5,Innervate,7,7,0,74.074
+Druid Staff,Healer,6,Innervate,3,3,0,48.229
+Druid Staff,Healer,7,Innervate,6,6,0,63.892
+Druid Staff,Healer,8,Innervate,5,5,0,64.95
+Druid Staff,Healer,9,Innervate,3,3,0,14.019
+Druid Staff,Healer,10,Innervate,5,5,0,64.794
+Druid Staff,Healer,11,Innervate,6,6,0,69.621
+Druid Staff,Healer,12,Innervate,4,4,0,70.796
+Druid Staff,Healer,13,Innervate,1,1,0,23.23
+Druid Staff,Healer,14,Innervate,4,4,0,68.117
+Druid Staff,Healer,15,Innervate,3,3,0,26.148
+Druid Staff,Healer,16,Innervate,4,4,0,37.037
+Druid Staff,Healer,17,Innervate,2,2,0,50.0
+Druid Staff,Healer,18,Innervate,8,8,0,37.037
+Druid Staff,Healer,19,Innervate,3,3,0,33.875
+Druid Staff,Healer,20,Innervate,4,4,0,26.6
+Druid Staff,Healer,1,Force of Nature,0,0,0,0.0
+Druid Staff,Healer,2,Force of Nature,0,0,0,0.0
+Druid Staff,Healer,3,Force of Nature,1,1,0,40.151
+Druid Staff,Healer,4,Force of Nature,2,1,1,45.455
+Druid Staff,Healer,5,Force of Nature,2,2,0,62.935
+Druid Staff,Healer,6,Force of Nature,1,1,0,42.559
+Druid Staff,Healer,7,Force of Nature,1,1,0,40.706
+Druid Staff,Healer,8,Force of Nature,1,1,0,30.48
+Druid Staff,Healer,9,Force of Nature,1,1,0,16.355
+Druid Staff,Healer,10,Force of Nature,1,1,0,43.478
+Druid Staff,Healer,11,Force of Nature,2,1,1,46.667
+Druid Staff,Healer,12,Force of Nature,1,1,0,61.947
+Druid Staff,Healer,13,Force of Nature,1,1,0,53.03
+Druid Staff,Healer,14,Force of Nature,2,2,0,65.593
+Druid Staff,Healer,15,Force of Nature,2,2,0,59.322
+Druid Staff,Healer,16,Force of Nature,2,2,0,64.815
+Druid Staff,Healer,17,Force of Nature,1,1,0,83.125
+Druid Staff,Healer,18,Force of Nature,5,5,0,71.776
+Druid Staff,Healer,19,Force of Nature,2,2,0,67.308
+Druid Staff,Healer,20,Force of Nature,3,3,0,73.505
+Druid Staff,Healer,1,Tranquility,0,0,0,0.0
+Druid Staff,Healer,2,Tranquility,0,0,0,0.0
+Druid Staff,Healer,3,Tranquility,0,0,0,0.0
+Druid Staff,Healer,4,Tranquility,0,0,0,0.0
+Druid Staff,Healer,5,Tranquility,0,0,0,0.0
+Druid Staff,Healer,6,Tranquility,1,1,0,30.307
+Druid Staff,Healer,7,Tranquility,1,1,0,82.561
+Druid Staff,Healer,8,Tranquility,2,1,1,78.994
+Druid Staff,Healer,9,Tranquility,1,1,0,42.056
+Druid Staff,Healer,10,Tranquility,1,1,0,44.648
+Druid Staff,Healer,11,Tranquility,1,1,0,96.454
+Druid Staff,Healer,12,Tranquility,1,1,0,33.595
+Druid Staff,Healer,13,Tranquility,4,1,3,99.16
+Druid Staff,Healer,14,Tranquility,1,1,0,90.387
+Druid Staff,Healer,15,Tranquility,1,1,0,76.271
+Druid Staff,Healer,16,Tranquility,3,2,1,96.018
+Druid Staff,Healer,17,Tranquility,3,1,2,98.456
+Druid Staff,Healer,18,Tranquility,1,1,0,82.789
+Druid Staff,Healer,19,Tranquility,2,1,1,98.798
+Druid Staff,Healer,20,Tranquility,4,2,2,88.416
+Druid Staff,Healer,1,Starfall,0,0,0,0.0
+Druid Staff,Healer,2,Starfall,0,0,0,0.0
+Druid Staff,Healer,3,Starfall,0,0,0,0.0
+Druid Staff,Healer,4,Starfall,0,0,0,0.0
+Druid Staff,Healer,5,Starfall,0,0,0,0.0
+Druid Staff,Healer,6,Starfall,0,0,0,0.0
+Druid Staff,Healer,7,Starfall,1,1,0,17.241
+Druid Staff,Healer,8,Starfall,1,1,0,18.634
+Druid Staff,Healer,9,Starfall,0,0,0,0.0
+Druid Staff,Healer,10,Starfall,0,0,0,0.0
+Druid Staff,Healer,11,Starfall,3,2,1,27.433
+Druid Staff,Healer,12,Starfall,1,1,0,26.549
+Druid Staff,Healer,13,Starfall,0,0,0,0.0
+Druid Staff,Healer,14,Starfall,0,0,0,0.0
+Druid Staff,Healer,15,Starfall,0,0,0,0.0
+Druid Staff,Healer,16,Starfall,0,0,0,0.0
+Druid Staff,Healer,17,Starfall,0,0,0,0.0
+Druid Staff,Healer,18,Starfall,3,1,2,6.944
+Druid Staff,Healer,19,Starfall,0,0,0,0.0
+Druid Staff,Healer,20,Starfall,0,0,0,0.0
+War Drums,Support,1,Embolden,0,0,0,0.0
+War Drums,Support,2,Embolden,0,0,0,0.0
+War Drums,Support,3,Embolden,1,1,0,73.69
+War Drums,Support,4,Embolden,3,3,0,89.844
+War Drums,Support,5,Embolden,3,3,0,62.55
+War Drums,Support,6,Embolden,0,0,0,0.0
+War Drums,Support,7,Embolden,3,3,0,70.869
+War Drums,Support,8,Embolden,1,1,0,52.954
+War Drums,Support,9,Embolden,3,3,0,35.748
+War Drums,Support,10,Embolden,2,2,0,42.058
+War Drums,Support,11,Embolden,1,1,0,31.577
+War Drums,Support,12,Embolden,2,2,0,79.646
+War Drums,Support,13,Embolden,2,2,0,49.794
+War Drums,Support,14,Embolden,1,1,0,26.188
+War Drums,Support,15,Embolden,1,1,0,23.52
+War Drums,Support,16,Embolden,3,3,0,60.276
+War Drums,Support,17,Embolden,1,1,0,59.541
+War Drums,Support,18,Embolden,1,1,0,10.417
+War Drums,Support,19,Embolden,3,3,0,64.904
+War Drums,Support,20,Embolden,2,2,0,34.363
+War Drums,Support,1,Rally,0,0,0,0.0
+War Drums,Support,2,Rally,0,0,0,0.0
+War Drums,Support,3,Rally,0,0,0,0.0
+War Drums,Support,4,Rally,5,5,0,81.396
+War Drums,Support,5,Rally,3,3,0,44.993
+War Drums,Support,6,Rally,0,0,0,7.328
+War Drums,Support,7,Rally,3,3,0,48.468
+War Drums,Support,8,Rally,1,1,0,15.528
+War Drums,Support,9,Rally,4,4,0,23.364
+War Drums,Support,10,Rally,2,2,0,30.858
+War Drums,Support,11,Rally,1,1,0,28.421
+War Drums,Support,12,Rally,1,1,0,22.124
+War Drums,Support,13,Rally,1,1,0,22.377
+War Drums,Support,14,Rally,3,3,0,49.71
+War Drums,Support,15,Rally,0,0,0,0.0
+War Drums,Support,16,Rally,3,3,0,34.722
+War Drums,Support,17,Rally,2,2,0,56.767
+War Drums,Support,18,Rally,0,0,0,1.072
+War Drums,Support,19,Rally,2,2,0,24.038
+War Drums,Support,20,Rally,2,2,0,16.026
+War Drums,Support,1,Inspire,0,0,0,0.0
+War Drums,Support,2,Inspire,0,0,0,0.0
+War Drums,Support,3,Inspire,0,0,0,0.0
+War Drums,Support,4,Inspire,0,0,0,0.0
+War Drums,Support,5,Inspire,0,0,0,0.0
+War Drums,Support,6,Inspire,1,1,0,53.685
+War Drums,Support,7,Inspire,0,0,0,0.0
+War Drums,Support,8,Inspire,0,0,0,0.0
+War Drums,Support,9,Inspire,1,1,0,26.043
+War Drums,Support,10,Inspire,0,0,0,0.0
+War Drums,Support,11,Inspire,1,1,0,88.204
+War Drums,Support,12,Inspire,1,1,0,77.926
+War Drums,Support,13,Inspire,0,0,0,0.0
+War Drums,Support,14,Inspire,1,1,0,67.246
+War Drums,Support,15,Inspire,0,0,0,0.0
+War Drums,Support,16,Inspire,0,0,0,66.656
+War Drums,Support,17,Inspire,1,1,0,67.021
+War Drums,Support,18,Inspire,1,1,0,34.722
+War Drums,Support,19,Inspire,1,1,0,72.115
+War Drums,Support,20,Inspire,2,2,0,76.923
+War Drums,Support,1,Intimidate,0,0,0,0.0
+War Drums,Support,2,Intimidate,0,0,0,0.0
+War Drums,Support,3,Intimidate,0,0,0,0.0
+War Drums,Support,4,Intimidate,0,0,0,0.0
+War Drums,Support,5,Intimidate,2,2,0,30.019
+War Drums,Support,6,Intimidate,1,1,0,23.81
+War Drums,Support,7,Intimidate,0,0,0,6.245
+War Drums,Support,8,Intimidate,0,0,0,0.0
+War Drums,Support,9,Intimidate,1,1,0,5.841
+War Drums,Support,10,Intimidate,0,0,0,0.0
+War Drums,Support,11,Intimidate,0,0,0,13.733
+War Drums,Support,12,Intimidate,0,0,0,0.0
+War Drums,Support,13,Intimidate,1,1,0,18.939
+War Drums,Support,14,Intimidate,0,0,0,0.0
+War Drums,Support,15,Intimidate,0,0,0,0.0
+War Drums,Support,16,Intimidate,0,0,0,0.0
+War Drums,Support,17,Intimidate,0,0,0,20.928
+War Drums,Support,18,Intimidate,0,0,0,0.0
+War Drums,Support,19,Intimidate,0,0,0,0.0
+War Drums,Support,20,Intimidate,0,0,0,0.0
+Claws,DPS mischia,1,Lightning Strike,3,3,0,39.344
+Claws,DPS mischia,2,Lightning Strike,5,5,0,54.795
+Claws,DPS mischia,3,Lightning Strike,4,4,0,43.778
+Claws,DPS mischia,4,Lightning Strike,10,10,0,54.082
+Claws,DPS mischia,5,Lightning Strike,4,4,0,16.931
+Claws,DPS mischia,6,Lightning Strike,6,6,0,46.137
+Claws,DPS mischia,7,Lightning Strike,4,4,0,18.391
+Claws,DPS mischia,8,Lightning Strike,7,7,0,34.783
+Claws,DPS mischia,9,Lightning Strike,5,5,0,9.457
+Claws,DPS mischia,10,Lightning Strike,9,9,0,48.073
+Claws,DPS mischia,11,Lightning Strike,11,11,0,58.667
+Claws,DPS mischia,12,Lightning Strike,7,7,0,49.558
+Claws,DPS mischia,13,Lightning Strike,7,7,0,42.424
+Claws,DPS mischia,14,Lightning Strike,7,7,0,47.642
+Claws,DPS mischia,15,Lightning Strike,15,15,0,54.042
+Claws,DPS mischia,16,Lightning Strike,13,13,0,43.175
+Claws,DPS mischia,17,Lightning Strike,7,7,0,62.178
+Claws,DPS mischia,18,Lightning Strike,21,21,0,34.028
+Claws,DPS mischia,19,Lightning Strike,9,9,0,30.288
+Claws,DPS mischia,20,Lightning Strike,16,16,0,35.897
+Claws,DPS mischia,1,Feral Spirit,0,0,0,0.0
+Claws,DPS mischia,2,Feral Spirit,0,0,0,0.0
+Claws,DPS mischia,3,Feral Spirit,1,1,0,29.351
+Claws,DPS mischia,4,Feral Spirit,4,4,0,50.503
+Claws,DPS mischia,5,Feral Spirit,1,1,0,11.652
+Claws,DPS mischia,6,Feral Spirit,3,3,0,74.991
+Claws,DPS mischia,7,Feral Spirit,6,6,0,68.966
+Claws,DPS mischia,8,Feral Spirit,7,5,2,62.112
+Claws,DPS mischia,9,Feral Spirit,3,3,0,14.019
+Claws,DPS mischia,10,Feral Spirit,4,4,0,60.97
+Claws,DPS mischia,11,Feral Spirit,6,6,0,77.996
+Claws,DPS mischia,12,Feral Spirit,3,3,0,54.5
+Claws,DPS mischia,13,Feral Spirit,3,3,0,57.362
+Claws,DPS mischia,14,Feral Spirit,4,4,0,72.947
+Claws,DPS mischia,15,Feral Spirit,6,6,0,57.862
+Claws,DPS mischia,16,Feral Spirit,8,8,0,77.796
+Claws,DPS mischia,17,Feral Spirit,3,3,0,85.039
+Claws,DPS mischia,18,Feral Spirit,15,15,0,73.559
+Claws,DPS mischia,19,Feral Spirit,6,6,0,59.191
+Claws,DPS mischia,20,Feral Spirit,7,7,0,49.336
+Claws,DPS mischia,1,Healing Wave,0,0,0,0.0
+Claws,DPS mischia,2,Healing Wave,0,0,0,0.0
+Claws,DPS mischia,3,Healing Wave,0,0,0,0.0
+Claws,DPS mischia,4,Healing Wave,2,2,0,51.948
+Claws,DPS mischia,5,Healing Wave,1,1,0,21.164
+Claws,DPS mischia,6,Healing Wave,1,1,0,36.437
+Claws,DPS mischia,7,Healing Wave,1,1,0,36.084
+Claws,DPS mischia,8,Healing Wave,0,0,0,0.0
+Claws,DPS mischia,9,Healing Wave,1,1,0,9.346
+Claws,DPS mischia,10,Healing Wave,0,0,0,0.0
+Claws,DPS mischia,11,Healing Wave,0,0,0,0.0
+Claws,DPS mischia,12,Healing Wave,1,1,0,35.398
+Claws,DPS mischia,13,Healing Wave,2,2,0,73.473
+Claws,DPS mischia,14,Healing Wave,1,1,0,45.816
+Claws,DPS mischia,15,Healing Wave,0,0,0,4.511
+Claws,DPS mischia,16,Healing Wave,1,1,0,18.519
+Claws,DPS mischia,17,Healing Wave,1,1,0,57.48
+Claws,DPS mischia,18,Healing Wave,7,7,0,64.815
+Claws,DPS mischia,19,Healing Wave,0,0,0,0.0
+Claws,DPS mischia,20,Healing Wave,1,1,0,10.256
+Claws,DPS mischia,1,Hex,0,0,0,0.0
+Claws,DPS mischia,2,Hex,0,0,0,0.0
+Claws,DPS mischia,3,Hex,0,0,0,0.0
+Claws,DPS mischia,4,Hex,0,0,0,0.0
+Claws,DPS mischia,5,Hex,0,0,0,0.0
+Claws,DPS mischia,6,Hex,1,1,0,31.794
+Claws,DPS mischia,7,Hex,1,1,0,34.483
+Claws,DPS mischia,8,Hex,1,1,0,37.267
+Claws,DPS mischia,9,Hex,1,1,0,6.285
+Claws,DPS mischia,10,Hex,1,1,0,27.995
+Claws,DPS mischia,11,Hex,1,1,0,19.631
+Claws,DPS mischia,12,Hex,1,1,0,47.312
+Claws,DPS mischia,13,Hex,2,2,0,63.276
+Claws,DPS mischia,14,Hex,1,1,0,15.051
+Claws,DPS mischia,15,Hex,2,2,0,41.787
+Claws,DPS mischia,16,Hex,2,2,0,55.556
+Claws,DPS mischia,17,Hex,1,1,0,27.999
+Claws,DPS mischia,18,Hex,4,4,0,55.556
+Claws,DPS mischia,19,Hex,1,1,0,28.846
+Claws,DPS mischia,20,Hex,2,1,1,19.231
+Claws,DPS mischia,1,Molten Boulder,0,0,0,0.0
+Claws,DPS mischia,2,Molten Boulder,0,0,0,0.0
+Claws,DPS mischia,3,Molten Boulder,0,0,0,0.0
+Claws,DPS mischia,4,Molten Boulder,0,0,0,0.0
+Claws,DPS mischia,5,Molten Boulder,0,0,0,0.0
+Claws,DPS mischia,6,Molten Boulder,0,0,0,0.0
+Claws,DPS mischia,7,Molten Boulder,0,0,0,85.483
+Claws,DPS mischia,8,Molten Boulder,0,0,0,100.0
+Claws,DPS mischia,9,Molten Boulder,1,1,0,10.571
+Claws,DPS mischia,10,Molten Boulder,0,0,0,4.196
+Claws,DPS mischia,11,Molten Boulder,0,0,0,100.0
+Claws,DPS mischia,12,Molten Boulder,1,1,0,85.337
+Claws,DPS mischia,13,Molten Boulder,1,1,0,59.725
+Claws,DPS mischia,14,Molten Boulder,1,1,0,63.979
+Claws,DPS mischia,15,Molten Boulder,0,0,0,0.0
+Claws,DPS mischia,16,Molten Boulder,0,0,0,79.105
+Claws,DPS mischia,17,Molten Boulder,0,0,0,100.0
+Claws,DPS mischia,18,Molten Boulder,1,1,0,41.667
+Claws,DPS mischia,19,Molten Boulder,0,0,0,74.08
+Claws,DPS mischia,20,Molten Boulder,1,1,0,75.851
+Claws,DPS mischia,1,Mana Tide Totem,0,0,0,0.0
+Claws,DPS mischia,2,Mana Tide Totem,0,0,0,0.0
+Claws,DPS mischia,3,Mana Tide Totem,0,0,0,0.0
+Claws,DPS mischia,4,Mana Tide Totem,0,0,0,0.0
+Claws,DPS mischia,5,Mana Tide Totem,0,0,0,0.0
+Claws,DPS mischia,6,Mana Tide Totem,0,0,0,0.0
+Claws,DPS mischia,7,Mana Tide Totem,1,1,0,86.207
+Claws,DPS mischia,8,Mana Tide Totem,0,0,0,0.0
+Claws,DPS mischia,9,Mana Tide Totem,1,1,0,7.954
+Claws,DPS mischia,10,Mana Tide Totem,0,0,0,0.0
+Claws,DPS mischia,11,Mana Tide Totem,0,0,0,0.0
+Claws,DPS mischia,12,Mana Tide Totem,0,0,0,0.0
+Claws,DPS mischia,13,Mana Tide Totem,1,1,0,51.32
+Claws,DPS mischia,14,Mana Tide Totem,0,0,0,0.0
+Claws,DPS mischia,15,Mana Tide Totem,0,0,0,0.0
+Claws,DPS mischia,16,Mana Tide Totem,1,1,0,69.444
+Claws,DPS mischia,17,Mana Tide Totem,0,0,0,0.0
+Claws,DPS mischia,18,Mana Tide Totem,1,1,0,34.722
+Claws,DPS mischia,19,Mana Tide Totem,0,0,0,0.0
+Claws,DPS mischia,20,Mana Tide Totem,1,1,0,40.738
+Double Blade,DPS mischia,1,Terror,0,0,0,0.0
+Double Blade,DPS mischia,2,Terror,0,0,0,0.0
+Double Blade,DPS mischia,3,Terror,4,2,2,96.753
+Double Blade,DPS mischia,4,Terror,7,4,3,91.914
+Double Blade,DPS mischia,5,Terror,3,1,2,23.424
+Double Blade,DPS mischia,6,Terror,2,2,0,75.06
+Double Blade,DPS mischia,7,Terror,7,4,3,68.966
+Double Blade,DPS mischia,8,Terror,3,3,0,72.452
+Double Blade,DPS mischia,9,Terror,6,6,0,39.977
+Double Blade,DPS mischia,10,Terror,3,3,0,66.227
+Double Blade,DPS mischia,11,Terror,4,4,0,92.01
+Double Blade,DPS mischia,12,Terror,2,2,0,76.804
+Double Blade,DPS mischia,13,Terror,4,3,1,65.672
+Double Blade,DPS mischia,14,Terror,4,3,1,91.309
+Double Blade,DPS mischia,15,Terror,0,0,0,5.386
+Double Blade,DPS mischia,16,Terror,0,0,0,0.0
+Double Blade,DPS mischia,17,Terror,0,0,0,0.0
+Double Blade,DPS mischia,18,Terror,0,0,0,0.0
+Double Blade,DPS mischia,19,Terror,0,0,0,0.0
+Double Blade,DPS mischia,20,Terror,0,0,0,0.0
+Double Blade,DPS mischia,1,Demon Skin,1,1,0,8.197
+Double Blade,DPS mischia,2,Demon Skin,0,0,0,0.0
+Double Blade,DPS mischia,3,Demon Skin,0,0,0,0.0
+Double Blade,DPS mischia,4,Demon Skin,0,0,0,0.0
+Double Blade,DPS mischia,5,Demon Skin,2,2,0,5.291
+Double Blade,DPS mischia,6,Demon Skin,0,0,0,0.0
+Double Blade,DPS mischia,7,Demon Skin,1,1,0,2.874
+Double Blade,DPS mischia,8,Demon Skin,1,1,0,3.106
+Double Blade,DPS mischia,9,Demon Skin,1,1,0,1.168
+Double Blade,DPS mischia,10,Demon Skin,4,4,0,12.422
+Double Blade,DPS mischia,11,Demon Skin,2,2,0,6.667
+Double Blade,DPS mischia,12,Demon Skin,1,1,0,4.425
+Double Blade,DPS mischia,13,Demon Skin,5,4,1,15.152
+Double Blade,DPS mischia,14,Demon Skin,4,3,1,12.397
+Double Blade,DPS mischia,15,Demon Skin,1,1,0,2.119
+Double Blade,DPS mischia,16,Demon Skin,1,1,0,2.315
+Double Blade,DPS mischia,17,Demon Skin,2,2,0,12.5
+Double Blade,DPS mischia,18,Demon Skin,2,2,0,3.326
+Double Blade,DPS mischia,19,Demon Skin,2,2,0,6.731
+Double Blade,DPS mischia,20,Demon Skin,7,7,0,15.705
+Double Blade,DPS mischia,1,Firestorm,1,1,0,16.393
+Double Blade,DPS mischia,2,Firestorm,1,1,0,13.699
+Double Blade,DPS mischia,3,Firestorm,1,1,0,12.987
+Double Blade,DPS mischia,4,Firestorm,0,0,0,0.0
+Double Blade,DPS mischia,5,Firestorm,1,1,0,5.291
+Double Blade,DPS mischia,6,Firestorm,0,0,0,0.0
+Double Blade,DPS mischia,7,Firestorm,2,2,0,12.818
+Double Blade,DPS mischia,8,Firestorm,4,4,0,24.845
+Double Blade,DPS mischia,9,Firestorm,6,6,0,16.316
+Double Blade,DPS mischia,10,Firestorm,1,1,0,6.211
+Double Blade,DPS mischia,11,Firestorm,2,2,0,13.333
+Double Blade,DPS mischia,12,Firestorm,3,3,0,26.549
+Double Blade,DPS mischia,13,Firestorm,1,1,0,7.711
+Double Blade,DPS mischia,14,Firestorm,0,0,0,0.0
+Double Blade,DPS mischia,15,Firestorm,5,5,0,21.186
+Double Blade,DPS mischia,16,Firestorm,2,2,0,9.259
+Double Blade,DPS mischia,17,Firestorm,1,1,0,12.5
+Double Blade,DPS mischia,18,Firestorm,1,1,0,2.315
+Double Blade,DPS mischia,19,Firestorm,0,0,0,0.0
+Double Blade,DPS mischia,20,Firestorm,0,0,0,0.0
+Double Blade,DPS mischia,1,Conjure Soulstone,0,0,0,0.0
+Double Blade,DPS mischia,2,Conjure Soulstone,0,0,0,0.0
+Double Blade,DPS mischia,3,Conjure Soulstone,0,0,0,0.0
+Double Blade,DPS mischia,4,Conjure Soulstone,0,0,0,0.0
+Double Blade,DPS mischia,5,Conjure Soulstone,0,0,0,0.0
+Double Blade,DPS mischia,6,Conjure Soulstone,0,0,0,0.0
+Double Blade,DPS mischia,7,Conjure Soulstone,0,0,0,0.0
+Double Blade,DPS mischia,8,Conjure Soulstone,0,0,0,38.698
+Double Blade,DPS mischia,9,Conjure Soulstone,0,0,0,0.0
+Double Blade,DPS mischia,10,Conjure Soulstone,0,0,0,45.637
+Double Blade,DPS mischia,11,Conjure Soulstone,0,0,0,46.848
+Double Blade,DPS mischia,12,Conjure Soulstone,0,0,0,0.0
+Double Blade,DPS mischia,13,Conjure Soulstone,0,0,0,71.039
+Double Blade,DPS mischia,14,Conjure Soulstone,0,0,0,48.766
+Double Blade,DPS mischia,15,Conjure Soulstone,0,0,0,26.373
+Double Blade,DPS mischia,16,Conjure Soulstone,0,0,0,36.302
+Double Blade,DPS mischia,17,Conjure Soulstone,0,0,0,0.0
+Double Blade,DPS mischia,18,Conjure Soulstone,0,0,0,0.0
+Double Blade,DPS mischia,19,Conjure Soulstone,1,1,0,36.35
+Double Blade,DPS mischia,20,Conjure Soulstone,0,0,0,14.3
+Double Blade,DPS mischia,1,Dimensional Gate,0,0,0,0.0
+Double Blade,DPS mischia,2,Dimensional Gate,0,0,0,0.0
+Double Blade,DPS mischia,3,Dimensional Gate,0,0,0,0.0
+Double Blade,DPS mischia,4,Dimensional Gate,0,0,0,0.0
+Double Blade,DPS mischia,5,Dimensional Gate,0,0,0,0.0
+Double Blade,DPS mischia,6,Dimensional Gate,0,0,0,0.0
+Double Blade,DPS mischia,7,Dimensional Gate,1,1,0,75.643
+Double Blade,DPS mischia,8,Dimensional Gate,0,0,0,0.0
+Double Blade,DPS mischia,9,Dimensional Gate,1,1,0,42.056
+Double Blade,DPS mischia,10,Dimensional Gate,0,0,0,0.0
+Double Blade,DPS mischia,11,Dimensional Gate,0,0,0,0.0
+Double Blade,DPS mischia,12,Dimensional Gate,0,0,0,0.0
+Double Blade,DPS mischia,13,Dimensional Gate,1,1,0,70.308
+Double Blade,DPS mischia,14,Dimensional Gate,0,0,0,0.0
+Double Blade,DPS mischia,15,Dimensional Gate,0,0,0,0.0
+Double Blade,DPS mischia,16,Dimensional Gate,0,0,0,0.0
+Double Blade,DPS mischia,17,Dimensional Gate,0,0,0,100.0
+Double Blade,DPS mischia,18,Dimensional Gate,0,0,0,0.0
+Double Blade,DPS mischia,19,Dimensional Gate,1,1,0,86.538
+Double Blade,DPS mischia,20,Dimensional Gate,0,0,0,0.0
+Pickaxe,DPS mischia,1,Overdrive,0,0,0,0.0
+Pickaxe,DPS mischia,2,Overdrive,0,0,0,0.0
+Pickaxe,DPS mischia,3,Overdrive,1,1,0,25.974
+Pickaxe,DPS mischia,4,Overdrive,9,6,3,77.922
+Pickaxe,DPS mischia,5,Overdrive,1,1,0,10.582
+Pickaxe,DPS mischia,6,Overdrive,3,3,0,55.812
+Pickaxe,DPS mischia,7,Overdrive,3,3,0,37.926
+Pickaxe,DPS mischia,8,Overdrive,15,5,10,71.656
+Pickaxe,DPS mischia,9,Overdrive,11,7,4,35.238
+Pickaxe,DPS mischia,10,Overdrive,22,6,16,84.457
+Pickaxe,DPS mischia,11,Overdrive,5,2,3,34.494
+Pickaxe,DPS mischia,12,Overdrive,8,3,5,67.871
+Pickaxe,DPS mischia,13,Overdrive,4,2,2,34.25
+Pickaxe,DPS mischia,14,Overdrive,15,5,10,85.284
+Pickaxe,DPS mischia,15,Overdrive,7,4,3,35.848
+Pickaxe,DPS mischia,16,Overdrive,13,6,7,59.95
+Pickaxe,DPS mischia,17,Overdrive,10,4,6,88.35
+Pickaxe,DPS mischia,18,Overdrive,8,2,6,13.344
+Pickaxe,DPS mischia,19,Overdrive,17,5,12,54.676
+Pickaxe,DPS mischia,20,Overdrive,12,3,9,20.916
+Pickaxe,DPS mischia,1,Volatile Concoction,0,0,0,0.0
+Pickaxe,DPS mischia,2,Volatile Concoction,0,0,0,0.0
+Pickaxe,DPS mischia,3,Volatile Concoction,3,3,0,78.816
+Pickaxe,DPS mischia,4,Volatile Concoction,5,5,0,69.312
+Pickaxe,DPS mischia,5,Volatile Concoction,1,1,0,16.703
+Pickaxe,DPS mischia,6,Volatile Concoction,2,2,0,42.291
+Pickaxe,DPS mischia,7,Volatile Concoction,4,4,0,51.333
+Pickaxe,DPS mischia,8,Volatile Concoction,4,4,0,44.72
+Pickaxe,DPS mischia,9,Volatile Concoction,8,8,0,32.519
+Pickaxe,DPS mischia,10,Volatile Concoction,6,6,0,65.223
+Pickaxe,DPS mischia,11,Volatile Concoction,2,2,0,24.0
+Pickaxe,DPS mischia,12,Volatile Concoction,3,3,0,49.937
+Pickaxe,DPS mischia,13,Volatile Concoction,2,2,0,28.107
+Pickaxe,DPS mischia,14,Volatile Concoction,1,1,0,26.452
+Pickaxe,DPS mischia,15,Volatile Concoction,4,4,0,35.556
+Pickaxe,DPS mischia,16,Volatile Concoction,4,4,0,39.724
+Pickaxe,DPS mischia,17,Volatile Concoction,3,3,0,82.021
+Pickaxe,DPS mischia,18,Volatile Concoction,2,2,0,4.63
+Pickaxe,DPS mischia,19,Volatile Concoction,4,4,0,23.065
+Pickaxe,DPS mischia,20,Volatile Concoction,6,6,0,19.231
+Pickaxe,DPS mischia,1,Construct Tower (probabile),1,1,0,62.849
+Pickaxe,DPS mischia,2,Construct Tower (probabile),0,0,0,0.0
+Pickaxe,DPS mischia,3,Construct Tower (probabile),0,0,0,21.152
+Pickaxe,DPS mischia,4,Construct Tower (probabile),0,0,0,0.0
+Pickaxe,DPS mischia,5,Construct Tower (probabile),0,0,0,0.0
+Pickaxe,DPS mischia,6,Construct Tower (probabile),0,0,0,13.518
+Pickaxe,DPS mischia,7,Construct Tower (probabile),1,1,0,60.528
+Pickaxe,DPS mischia,8,Construct Tower (probabile),0,0,0,13.61
+Pickaxe,DPS mischia,9,Construct Tower (probabile),1,1,0,25.64
+Pickaxe,DPS mischia,10,Construct Tower (probabile),0,0,0,6.506
+Pickaxe,DPS mischia,11,Construct Tower (probabile),0,0,0,8.254
+Pickaxe,DPS mischia,12,Construct Tower (probabile),0,0,0,18.286
+Pickaxe,DPS mischia,13,Construct Tower (probabile),0,0,0,12.032
+Pickaxe,DPS mischia,14,Construct Tower (probabile),0,0,0,0.0
+Pickaxe,DPS mischia,15,Construct Tower (probabile),3,2,1,75.136
+Pickaxe,DPS mischia,16,Construct Tower (probabile),3,2,1,82.769
+Pickaxe,DPS mischia,17,Construct Tower (probabile),0,0,0,12.236
+Pickaxe,DPS mischia,18,Construct Tower (probabile),1,1,0,20.833
+Pickaxe,DPS mischia,19,Construct Tower (probabile),1,1,0,40.069
+Pickaxe,DPS mischia,20,Construct Tower (probabile),5,2,3,57.692
+Pickaxe,DPS mischia,1,Hydra Arrows,0,0,0,0.0
+Pickaxe,DPS mischia,2,Hydra Arrows,0,0,0,0.0
+Pickaxe,DPS mischia,3,Hydra Arrows,0,0,0,0.0
+Pickaxe,DPS mischia,4,Hydra Arrows,0,0,0,0.0
+Pickaxe,DPS mischia,5,Hydra Arrows,0,0,0,0.0
+Pickaxe,DPS mischia,6,Hydra Arrows,1,1,0,85.336
+Pickaxe,DPS mischia,7,Hydra Arrows,2,1,1,99.434
+Pickaxe,DPS mischia,8,Hydra Arrows,0,0,0,100.0
+Pickaxe,DPS mischia,9,Hydra Arrows,1,1,0,99.821
+Pickaxe,DPS mischia,10,Hydra Arrows,0,0,0,100.0
+Pickaxe,DPS mischia,11,Hydra Arrows,0,0,0,100.0
+Pickaxe,DPS mischia,12,Hydra Arrows,0,0,0,100.0
+Pickaxe,DPS mischia,13,Hydra Arrows,0,0,0,0.0
+Pickaxe,DPS mischia,14,Hydra Arrows,0,0,0,100.0
+Pickaxe,DPS mischia,15,Hydra Arrows,0,0,0,81.167
+Pickaxe,DPS mischia,16,Hydra Arrows,0,0,0,87.019
+Pickaxe,DPS mischia,17,Hydra Arrows,0,0,0,100.0
+Pickaxe,DPS mischia,18,Hydra Arrows,0,0,0,0.0
+Pickaxe,DPS mischia,19,Hydra Arrows,0,0,0,85.355
+Pickaxe,DPS mischia,20,Hydra Arrows,0,0,0,55.316
+Pickaxe,DPS mischia,1,Repair,0,0,0,0.0
+Pickaxe,DPS mischia,2,Repair,0,0,0,0.0
+Pickaxe,DPS mischia,3,Repair,0,0,0,0.0
+Pickaxe,DPS mischia,4,Repair,0,0,0,0.0
+Pickaxe,DPS mischia,5,Repair,0,0,0,0.0
+Pickaxe,DPS mischia,6,Repair,0,0,0,0.0
+Pickaxe,DPS mischia,7,Repair,0,0,0,0.0
+Pickaxe,DPS mischia,8,Repair,0,0,0,0.0
+Pickaxe,DPS mischia,9,Repair,1,1,0,0.234
+Pickaxe,DPS mischia,10,Repair,0,0,0,0.0
+Pickaxe,DPS mischia,11,Repair,0,0,0,0.0
+Pickaxe,DPS mischia,12,Repair,0,0,0,0.0
+Pickaxe,DPS mischia,13,Repair,0,0,0,0.0
+Pickaxe,DPS mischia,14,Repair,0,0,0,0.0
+Pickaxe,DPS mischia,15,Repair,0,0,0,0.0
+Pickaxe,DPS mischia,16,Repair,3,3,0,1.389
+Pickaxe,DPS mischia,17,Repair,0,0,0,0.0
+Pickaxe,DPS mischia,18,Repair,0,0,0,0.0
+Pickaxe,DPS mischia,19,Repair,0,0,0,0.0
+Pickaxe,DPS mischia,20,Repair,0,0,0,0.0
+Pickaxe,DPS mischia,1,Mark Target,0,0,0,0.0
+Pickaxe,DPS mischia,2,Mark Target,0,0,0,0.0
+Pickaxe,DPS mischia,3,Mark Target,0,0,0,0.0
+Pickaxe,DPS mischia,4,Mark Target,0,0,0,0.0
+Pickaxe,DPS mischia,5,Mark Target,0,0,0,0.0
+Pickaxe,DPS mischia,6,Mark Target,0,0,0,0.0
+Pickaxe,DPS mischia,7,Mark Target,0,0,0,0.0
+Pickaxe,DPS mischia,8,Mark Target,0,0,0,0.0
+Pickaxe,DPS mischia,9,Mark Target,0,0,0,0.0
+Pickaxe,DPS mischia,10,Mark Target,1,1,0,4.969
+Pickaxe,DPS mischia,11,Mark Target,0,0,0,0.0
+Pickaxe,DPS mischia,12,Mark Target,1,1,0,7.08
+Pickaxe,DPS mischia,13,Mark Target,0,0,0,0.0
+Pickaxe,DPS mischia,14,Mark Target,0,0,0,0.0
+Pickaxe,DPS mischia,15,Mark Target,0,0,0,0.0
+Pickaxe,DPS mischia,16,Mark Target,0,0,0,0.0
+Pickaxe,DPS mischia,17,Mark Target,0,0,0,0.0
+Pickaxe,DPS mischia,18,Mark Target,0,0,0,0.0
+Pickaxe,DPS mischia,19,Mark Target,0,0,0,0.0
+Pickaxe,DPS mischia,20,Mark Target,0,0,0,0.0
+Bow,DPS distanza,1,Volley,0,0,0,0.0
+Bow,DPS distanza,2,Volley,0,0,0,0.0
+Bow,DPS distanza,3,Volley,2,1,1,9.091
+Bow,DPS distanza,4,Volley,0,0,0,0.0
+Bow,DPS distanza,5,Volley,1,1,0,3.704
+Bow,DPS distanza,6,Volley,1,1,0,6.667
+Bow,DPS distanza,7,Volley,3,3,0,12.934
+Bow,DPS distanza,8,Volley,2,2,0,8.696
+Bow,DPS distanza,9,Volley,5,5,0,9.307
+Bow,DPS distanza,10,Volley,5,5,0,21.739
+Bow,DPS distanza,11,Volley,6,6,0,28.0
+Bow,DPS distanza,12,Volley,4,4,0,24.779
+Bow,DPS distanza,13,Volley,3,3,0,15.909
+Bow,DPS distanza,14,Volley,1,1,0,5.785
+Bow,DPS distanza,15,Volley,4,4,0,12.556
+Bow,DPS distanza,16,Volley,5,5,0,16.204
+Bow,DPS distanza,17,Volley,3,3,0,28.72
+Bow,DPS distanza,18,Volley,3,3,0,4.861
+Bow,DPS distanza,19,Volley,5,5,0,16.827
+Bow,DPS distanza,20,Volley,4,4,0,8.974
+Bow,DPS distanza,1,Eagle Eye,0,0,0,0.0
+Bow,DPS distanza,2,Eagle Eye,0,0,0,0.0
+Bow,DPS distanza,3,Eagle Eye,2,2,0,63.629
+Bow,DPS distanza,4,Eagle Eye,0,0,0,16.045
+Bow,DPS distanza,5,Eagle Eye,0,0,0,2.575
+Bow,DPS distanza,6,Eagle Eye,1,1,0,35.72
+Bow,DPS distanza,7,Eagle Eye,2,2,0,34.483
+Bow,DPS distanza,8,Eagle Eye,3,3,0,72.937
+Bow,DPS distanza,9,Eagle Eye,3,3,0,23.224
+Bow,DPS distanza,10,Eagle Eye,5,5,0,87.05
+Bow,DPS distanza,11,Eagle Eye,4,4,0,87.515
+Bow,DPS distanza,12,Eagle Eye,2,2,0,69.599
+Bow,DPS distanza,13,Eagle Eye,0,0,0,0.0
+Bow,DPS distanza,14,Eagle Eye,0,0,0,0.0
+Bow,DPS distanza,15,Eagle Eye,0,0,0,0.0
+Bow,DPS distanza,16,Eagle Eye,0,0,0,0.0
+Bow,DPS distanza,17,Eagle Eye,0,0,0,0.0
+Bow,DPS distanza,18,Eagle Eye,0,0,0,0.0
+Bow,DPS distanza,19,Eagle Eye,0,0,0,0.0
+Bow,DPS distanza,20,Eagle Eye,0,0,0,0.0
+Bow,DPS distanza,1,Piercing Shot,0,0,0,0.0
+Bow,DPS distanza,2,Piercing Shot,0,0,0,0.0
+Bow,DPS distanza,3,Piercing Shot,1,1,0,20.779
+Bow,DPS distanza,4,Piercing Shot,0,0,0,0.0
+Bow,DPS distanza,5,Piercing Shot,0,0,0,0.0
+Bow,DPS distanza,6,Piercing Shot,1,1,0,15.188
+Bow,DPS distanza,7,Piercing Shot,1,1,0,9.195
+Bow,DPS distanza,8,Piercing Shot,3,3,0,29.814
+Bow,DPS distanza,9,Piercing Shot,1,1,0,3.738
+Bow,DPS distanza,10,Piercing Shot,3,3,0,29.814
+Bow,DPS distanza,11,Piercing Shot,0,0,0,0.0
+Bow,DPS distanza,12,Piercing Shot,0,0,0,0.0
+Bow,DPS distanza,13,Piercing Shot,0,0,0,0.0
+Bow,DPS distanza,14,Piercing Shot,1,1,0,13.223
+Bow,DPS distanza,15,Piercing Shot,2,2,0,13.559
+Bow,DPS distanza,16,Piercing Shot,0,0,0,0.0
+Bow,DPS distanza,17,Piercing Shot,0,0,0,0.0
+Bow,DPS distanza,18,Piercing Shot,1,1,0,3.704
+Bow,DPS distanza,19,Piercing Shot,0,0,0,0.0
+Bow,DPS distanza,20,Piercing Shot,4,4,0,20.513
+Bow,DPS distanza,1,Take Aim,0,0,0,0.0
+Bow,DPS distanza,2,Take Aim,0,0,0,0.0
+Bow,DPS distanza,3,Take Aim,0,0,0,0.0
+Bow,DPS distanza,4,Take Aim,0,0,0,0.0
+Bow,DPS distanza,5,Take Aim,0,0,0,0.0
+Bow,DPS distanza,6,Take Aim,0,0,0,0.0
+Bow,DPS distanza,7,Take Aim,0,0,0,62.288
+Bow,DPS distanza,8,Take Aim,0,0,0,77.226
+Bow,DPS distanza,9,Take Aim,1,1,0,58.313
+Bow,DPS distanza,10,Take Aim,1,1,0,97.884
+Bow,DPS distanza,11,Take Aim,1,1,0,94.395
+Bow,DPS distanza,12,Take Aim,0,0,0,84.975
+Bow,DPS distanza,13,Take Aim,0,0,0,73.442
+Bow,DPS distanza,14,Take Aim,0,0,0,99.605
+Bow,DPS distanza,15,Take Aim,1,1,0,95.114
+Bow,DPS distanza,16,Take Aim,1,1,0,95.197
+Bow,DPS distanza,17,Take Aim,0,0,0,100.0
+Bow,DPS distanza,18,Take Aim,0,0,0,18.502
+Bow,DPS distanza,19,Take Aim,1,1,0,80.183
+Bow,DPS distanza,20,Take Aim,1,1,0,76.855
+Bow,DPS distanza,1,Binding Trap,0,0,0,0.0
+Bow,DPS distanza,2,Binding Trap,0,0,0,0.0
+Bow,DPS distanza,3,Binding Trap,0,0,0,0.0
+Bow,DPS distanza,4,Binding Trap,0,0,0,0.0
+Bow,DPS distanza,5,Binding Trap,0,0,0,0.0
+Bow,DPS distanza,6,Binding Trap,0,0,0,0.0
+Bow,DPS distanza,7,Binding Trap,2,2,0,40.23
+Bow,DPS distanza,8,Binding Trap,0,0,0,0.0
+Bow,DPS distanza,9,Binding Trap,2,2,0,16.355
+Bow,DPS distanza,10,Binding Trap,0,0,0,0.0
+Bow,DPS distanza,11,Binding Trap,0,0,0,0.0
+Bow,DPS distanza,12,Binding Trap,0,0,0,0.0
+Bow,DPS distanza,13,Binding Trap,0,0,0,0.0
+Bow,DPS distanza,14,Binding Trap,0,0,0,0.0
+Bow,DPS distanza,15,Binding Trap,0,0,0,0.0
+Bow,DPS distanza,16,Binding Trap,0,0,0,0.0
+Bow,DPS distanza,17,Binding Trap,0,0,0,0.0
+Bow,DPS distanza,18,Binding Trap,0,0,0,0.0
+Bow,DPS distanza,19,Binding Trap,0,0,0,0.0
+Bow,DPS distanza,20,Binding Trap,2,2,0,22.436
+Wizard Staff,DPS distanza,1,Fire/Frost/Magic Bolt,0,0,0,0.0
+Wizard Staff,DPS distanza,2,Fire/Frost/Magic Bolt,14,14,0,38.356
+Wizard Staff,DPS distanza,3,Fire/Frost/Magic Bolt,10,10,0,25.974
+Wizard Staff,DPS distanza,4,Fire/Frost/Magic Bolt,38,38,0,49.385
+Wizard Staff,DPS distanza,5,Fire/Frost/Magic Bolt,12,12,0,12.698
+Wizard Staff,DPS distanza,6,Fire/Frost/Magic Bolt,11,11,0,21.211
+Wizard Staff,DPS distanza,7,Fire/Frost/Magic Bolt,15,15,0,17.928
+Wizard Staff,DPS distanza,8,Fire/Frost/Magic Bolt,30,30,0,37.756
+Wizard Staff,DPS distanza,9,Fire/Frost/Magic Bolt,13,13,0,6.087
+Wizard Staff,DPS distanza,10,Fire/Frost/Magic Bolt,20,20,0,24.845
+Wizard Staff,DPS distanza,11,Fire/Frost/Magic Bolt,27,27,0,36.754
+Wizard Staff,DPS distanza,12,Fire/Frost/Magic Bolt,22,22,0,38.938
+Wizard Staff,DPS distanza,13,Fire/Frost/Magic Bolt,10,10,0,15.152
+Wizard Staff,DPS distanza,14,Fire/Frost/Magic Bolt,11,11,0,18.182
+Wizard Staff,DPS distanza,15,Fire/Frost/Magic Bolt,45,45,0,38.136
+Wizard Staff,DPS distanza,16,Fire/Frost/Magic Bolt,32,32,0,29.63
+Wizard Staff,DPS distanza,17,Fire/Frost/Magic Bolt,5,5,0,12.587
+Wizard Staff,DPS distanza,18,Fire/Frost/Magic Bolt,27,27,0,12.5
+Wizard Staff,DPS distanza,19,Fire/Frost/Magic Bolt,9,9,0,8.654
+Wizard Staff,DPS distanza,20,Fire/Frost/Magic Bolt,30,30,0,19.629
+Wizard Staff,DPS distanza,1,Pyroblast,0,0,0,0.0
+Wizard Staff,DPS distanza,2,Pyroblast,0,0,0,0.0
+Wizard Staff,DPS distanza,3,Pyroblast,1,1,0,23.377
+Wizard Staff,DPS distanza,4,Pyroblast,1,1,0,11.688
+Wizard Staff,DPS distanza,5,Pyroblast,3,3,0,28.571
+Wizard Staff,DPS distanza,6,Pyroblast,1,1,0,24.895
+Wizard Staff,DPS distanza,7,Pyroblast,2,2,0,20.69
+Wizard Staff,DPS distanza,8,Pyroblast,2,2,0,22.36
+Wizard Staff,DPS distanza,9,Pyroblast,10,9,1,37.85
+Wizard Staff,DPS distanza,10,Pyroblast,4,4,0,49.136
+Wizard Staff,DPS distanza,11,Pyroblast,4,4,0,48.0
+Wizard Staff,DPS distanza,12,Pyroblast,4,4,0,72.227
+Wizard Staff,DPS distanza,13,Pyroblast,4,4,0,57.249
+Wizard Staff,DPS distanza,14,Pyroblast,6,4,2,72.371
+Wizard Staff,DPS distanza,15,Pyroblast,4,4,0,38.026
+Wizard Staff,DPS distanza,16,Pyroblast,7,7,0,66.598
+Wizard Staff,DPS distanza,17,Pyroblast,3,2,1,62.021
+Wizard Staff,DPS distanza,18,Pyroblast,16,15,1,62.5
+Wizard Staff,DPS distanza,19,Pyroblast,6,5,1,47.172
+Wizard Staff,DPS distanza,20,Pyroblast,12,9,3,52.562
+Wizard Staff,DPS distanza,1,Water Elemental,0,0,0,0.0
+Wizard Staff,DPS distanza,2,Water Elemental,0,0,0,0.0
+Wizard Staff,DPS distanza,3,Water Elemental,1,1,0,40.008
+Wizard Staff,DPS distanza,4,Water Elemental,1,1,0,25.974
+Wizard Staff,DPS distanza,5,Water Elemental,2,2,0,52.376
+Wizard Staff,DPS distanza,6,Water Elemental,1,1,0,45.64
+Wizard Staff,DPS distanza,7,Water Elemental,3,3,0,67.417
+Wizard Staff,DPS distanza,8,Water Elemental,1,1,0,37.475
+Wizard Staff,DPS distanza,9,Water Elemental,7,7,0,73.881
+Wizard Staff,DPS distanza,10,Water Elemental,3,3,0,85.573
+Wizard Staff,DPS distanza,11,Water Elemental,3,3,0,77.944
+Wizard Staff,DPS distanza,12,Water Elemental,4,1,3,59.824
+Wizard Staff,DPS distanza,13,Water Elemental,3,3,0,88.873
+Wizard Staff,DPS distanza,14,Water Elemental,4,2,2,69.421
+Wizard Staff,DPS distanza,15,Water Elemental,2,2,0,36.424
+Wizard Staff,DPS distanza,16,Water Elemental,4,4,0,74.009
+Wizard Staff,DPS distanza,17,Water Elemental,2,1,1,55.38
+Wizard Staff,DPS distanza,18,Water Elemental,9,8,1,74.074
+Wizard Staff,DPS distanza,19,Water Elemental,3,3,0,58.718
+Wizard Staff,DPS distanza,20,Water Elemental,5,5,0,73.695
+Wizard Staff,DPS distanza,1,Time Stop,0,0,0,0.0
+Wizard Staff,DPS distanza,2,Time Stop,0,0,0,0.0
+Wizard Staff,DPS distanza,3,Time Stop,0,0,0,0.0
+Wizard Staff,DPS distanza,4,Time Stop,0,0,0,0.0
+Wizard Staff,DPS distanza,5,Time Stop,0,0,0,0.0
+Wizard Staff,DPS distanza,6,Time Stop,2,1,1,66.825
+Wizard Staff,DPS distanza,7,Time Stop,1,1,0,34.703
+Wizard Staff,DPS distanza,8,Time Stop,0,0,0,55.293
+Wizard Staff,DPS distanza,9,Time Stop,3,2,1,69.935
+Wizard Staff,DPS distanza,10,Time Stop,0,0,0,0.0
+Wizard Staff,DPS distanza,11,Time Stop,2,1,1,94.465
+Wizard Staff,DPS distanza,12,Time Stop,1,1,0,92.762
+Wizard Staff,DPS distanza,13,Time Stop,0,0,0,0.0
+Wizard Staff,DPS distanza,14,Time Stop,1,1,0,76.544
+Wizard Staff,DPS distanza,15,Time Stop,0,0,0,0.0
+Wizard Staff,DPS distanza,16,Time Stop,1,0,1,75.242
+Wizard Staff,DPS distanza,17,Time Stop,2,1,1,84.6
+Wizard Staff,DPS distanza,18,Time Stop,2,1,1,82.292
+Wizard Staff,DPS distanza,19,Time Stop,2,1,1,85.588
+Wizard Staff,DPS distanza,20,Time Stop,3,1,2,57.692
+Wizard Staff,DPS distanza,1,Blink,0,0,0,0.0
+Wizard Staff,DPS distanza,2,Blink,0,0,0,0.0
+Wizard Staff,DPS distanza,3,Blink,0,0,0,0.0
+Wizard Staff,DPS distanza,4,Blink,0,0,0,0.0
+Wizard Staff,DPS distanza,5,Blink,2,2,0,12.698
+Wizard Staff,DPS distanza,6,Blink,0,0,0,0.0
+Wizard Staff,DPS distanza,7,Blink,0,0,0,0.0
+Wizard Staff,DPS distanza,8,Blink,0,0,0,0.0
+Wizard Staff,DPS distanza,9,Blink,4,4,0,11.215
+Wizard Staff,DPS distanza,10,Blink,0,0,0,0.0
+Wizard Staff,DPS distanza,11,Blink,0,0,0,0.0
+Wizard Staff,DPS distanza,12,Blink,0,0,0,0.0
+Wizard Staff,DPS distanza,13,Blink,2,2,0,18.182
+Wizard Staff,DPS distanza,14,Blink,0,0,0,0.0
+Wizard Staff,DPS distanza,15,Blink,1,1,0,5.085
+Wizard Staff,DPS distanza,16,Blink,1,1,0,5.556
+Wizard Staff,DPS distanza,17,Blink,1,1,0,15.0
+Wizard Staff,DPS distanza,18,Blink,5,5,0,13.889
+Wizard Staff,DPS distanza,19,Blink,2,2,0,11.538
+Wizard Staff,DPS distanza,20,Blink,1,1,0,3.846
+Wizard Staff,DPS distanza,1,Frost Shield,0,0,0,0.0
+Wizard Staff,DPS distanza,2,Frost Shield,0,0,0,0.0
+Wizard Staff,DPS distanza,3,Frost Shield,0,0,0,0.0
+Wizard Staff,DPS distanza,4,Frost Shield,0,0,0,0.0
+Wizard Staff,DPS distanza,5,Frost Shield,0,0,0,0.0
+Wizard Staff,DPS distanza,6,Frost Shield,0,0,0,0.0
+Wizard Staff,DPS distanza,7,Frost Shield,0,0,0,0.0
+Wizard Staff,DPS distanza,8,Frost Shield,0,0,0,0.0
+Wizard Staff,DPS distanza,9,Frost Shield,0,0,0,0.0
+Wizard Staff,DPS distanza,10,Frost Shield,0,0,0,0.0
+Wizard Staff,DPS distanza,11,Frost Shield,0,0,0,0.0
+Wizard Staff,DPS distanza,12,Frost Shield,0,0,0,0.0
+Wizard Staff,DPS distanza,13,Frost Shield,0,0,0,0.0
+Wizard Staff,DPS distanza,14,Frost Shield,0,0,0,0.0
+Wizard Staff,DPS distanza,15,Frost Shield,0,0,0,0.0
+Wizard Staff,DPS distanza,16,Frost Shield,0,0,0,0.0
+Wizard Staff,DPS distanza,17,Frost Shield,0,0,0,0.0
+Wizard Staff,DPS distanza,18,Frost Shield,0,0,0,8.27
+Wizard Staff,DPS distanza,19,Frost Shield,0,0,0,0.0
+Wizard Staff,DPS distanza,20,Frost Shield,0,0,0,0.0
+Naga Trident,DPS distanza,1,Forked Lightning,3,3,0,39.344
+Naga Trident,DPS distanza,2,Forked Lightning,1,1,0,10.959
+Naga Trident,DPS distanza,3,Forked Lightning,1,1,0,10.39
+Naga Trident,DPS distanza,4,Forked Lightning,2,2,0,10.39
+Naga Trident,DPS distanza,5,Forked Lightning,2,2,0,8.466
+Naga Trident,DPS distanza,6,Forked Lightning,2,2,0,15.238
+Naga Trident,DPS distanza,7,Forked Lightning,2,2,0,9.195
+Naga Trident,DPS distanza,8,Forked Lightning,5,5,0,24.845
+Naga Trident,DPS distanza,9,Forked Lightning,1,1,0,3.564
+Naga Trident,DPS distanza,10,Forked Lightning,3,3,0,14.907
+Naga Trident,DPS distanza,11,Forked Lightning,8,7,1,37.333
+Naga Trident,DPS distanza,12,Forked Lightning,3,3,0,27.647
+Naga Trident,DPS distanza,13,Forked Lightning,2,2,0,16.388
+Naga Trident,DPS distanza,14,Forked Lightning,3,3,0,24.618
+Naga Trident,DPS distanza,15,Forked Lightning,1,1,0,3.39
+Naga Trident,DPS distanza,16,Forked Lightning,2,2,0,10.775
+Naga Trident,DPS distanza,17,Forked Lightning,2,2,0,20.0
+Naga Trident,DPS distanza,18,Forked Lightning,2,2,0,3.704
+Naga Trident,DPS distanza,19,Forked Lightning,5,5,0,19.231
+Naga Trident,DPS distanza,20,Forked Lightning,4,4,0,10.256
+Naga Trident,DPS distanza,1,Crushing Wave,0,0,0,0.0
+Naga Trident,DPS distanza,2,Crushing Wave,1,1,0,27.282
+Naga Trident,DPS distanza,3,Crushing Wave,1,1,0,54.614
+Naga Trident,DPS distanza,4,Crushing Wave,3,3,0,53.9
+Naga Trident,DPS distanza,5,Crushing Wave,3,3,0,40.785
+Naga Trident,DPS distanza,6,Crushing Wave,2,2,0,43.0
+Naga Trident,DPS distanza,7,Crushing Wave,4,4,0,60.21
+Naga Trident,DPS distanza,8,Crushing Wave,4,4,0,67.968
+Naga Trident,DPS distanza,9,Crushing Wave,2,2,0,12.636
+Naga Trident,DPS distanza,10,Crushing Wave,3,3,0,51.3
+Naga Trident,DPS distanza,11,Crushing Wave,2,2,0,44.275
+Naga Trident,DPS distanza,12,Crushing Wave,1,1,0,35.459
+Naga Trident,DPS distanza,13,Crushing Wave,0,0,0,12.552
+Naga Trident,DPS distanza,14,Crushing Wave,2,2,0,48.708
+Naga Trident,DPS distanza,15,Crushing Wave,0,0,0,1.718
+Naga Trident,DPS distanza,16,Crushing Wave,2,2,0,22.222
+Naga Trident,DPS distanza,17,Crushing Wave,1,1,0,17.295
+Naga Trident,DPS distanza,18,Crushing Wave,0,0,0,2.931
+Naga Trident,DPS distanza,19,Crushing Wave,2,2,0,23.077
+Naga Trident,DPS distanza,20,Crushing Wave,3,3,0,23.077
+Naga Trident,DPS distanza,1,Parasite,4,4,0,32.787
+Naga Trident,DPS distanza,2,Parasite,2,2,0,20.236
+Naga Trident,DPS distanza,3,Parasite,4,4,0,25.974
+Naga Trident,DPS distanza,4,Parasite,5,5,0,16.234
+Naga Trident,DPS distanza,5,Parasite,3,3,0,7.937
+Naga Trident,DPS distanza,6,Parasite,2,2,0,9.524
+Naga Trident,DPS distanza,7,Parasite,2,2,0,5.747
+Naga Trident,DPS distanza,8,Parasite,4,4,0,12.422
+Naga Trident,DPS distanza,9,Parasite,0,0,0,0.0
+Naga Trident,DPS distanza,10,Parasite,4,4,0,12.422
+Naga Trident,DPS distanza,11,Parasite,1,1,0,3.333
+Naga Trident,DPS distanza,12,Parasite,1,1,0,4.425
+Naga Trident,DPS distanza,13,Parasite,0,0,0,0.0
+Naga Trident,DPS distanza,14,Parasite,3,3,0,12.397
+Naga Trident,DPS distanza,15,Parasite,0,0,0,0.0
+Naga Trident,DPS distanza,16,Parasite,1,1,0,2.315
+Naga Trident,DPS distanza,17,Parasite,2,2,0,12.5
+Naga Trident,DPS distanza,18,Parasite,1,1,0,1.157
+Naga Trident,DPS distanza,19,Parasite,1,1,0,2.404
+Naga Trident,DPS distanza,20,Parasite,0,0,0,0.0
+Naga Trident,DPS distanza,1,Vortex,0,0,0,0.0
+Naga Trident,DPS distanza,2,Vortex,0,0,0,0.0
+Naga Trident,DPS distanza,3,Vortex,0,0,0,0.0
+Naga Trident,DPS distanza,4,Vortex,0,0,0,0.0
+Naga Trident,DPS distanza,5,Vortex,0,0,0,0.0
+Naga Trident,DPS distanza,6,Vortex,0,0,0,0.0
+Naga Trident,DPS distanza,7,Vortex,0,0,0,0.0
+Naga Trident,DPS distanza,8,Vortex,0,0,0,0.0
+Naga Trident,DPS distanza,9,Vortex,0,0,0,0.0
+Naga Trident,DPS distanza,10,Vortex,1,1,0,51.66
+Naga Trident,DPS distanza,11,Vortex,0,0,0,0.0
+Naga Trident,DPS distanza,12,Vortex,0,0,0,27.094
+Naga Trident,DPS distanza,13,Vortex,0,0,0,0.0
+Naga Trident,DPS distanza,14,Vortex,0,0,0,0.0
+Naga Trident,DPS distanza,15,Vortex,0,0,0,9.722
+Naga Trident,DPS distanza,16,Vortex,0,0,0,0.0
+Naga Trident,DPS distanza,17,Vortex,1,1,0,63.955
+Naga Trident,DPS distanza,18,Vortex,1,1,0,20.155
+Naga Trident,DPS distanza,19,Vortex,4,1,3,55.382
+Naga Trident,DPS distanza,20,Vortex,1,1,0,37.653
+Naga Trident,DPS distanza,1,Twister,0,0,0,0.0
+Naga Trident,DPS distanza,2,Twister,0,0,0,0.0
+Naga Trident,DPS distanza,3,Twister,0,0,0,0.0
+Naga Trident,DPS distanza,4,Twister,2,2,0,19.481
+Naga Trident,DPS distanza,5,Twister,1,1,0,7.937
+Naga Trident,DPS distanza,6,Twister,1,1,0,14.286
+Naga Trident,DPS distanza,7,Twister,2,2,0,17.241
+Naga Trident,DPS distanza,8,Twister,0,0,0,0.0
+Naga Trident,DPS distanza,9,Twister,0,0,0,0.0
+Naga Trident,DPS distanza,10,Twister,1,1,0,9.317
+Naga Trident,DPS distanza,11,Twister,1,1,0,10.0
+Naga Trident,DPS distanza,12,Twister,0,0,0,0.0
+Naga Trident,DPS distanza,13,Twister,0,0,0,0.0
+Naga Trident,DPS distanza,14,Twister,0,0,0,0.0
+Naga Trident,DPS distanza,15,Twister,0,0,0,0.0
+Naga Trident,DPS distanza,16,Twister,0,0,0,0.0
+Naga Trident,DPS distanza,17,Twister,0,0,0,0.0
+Naga Trident,DPS distanza,18,Twister,0,0,0,0.0
+Naga Trident,DPS distanza,19,Twister,0,0,0,0.0
+Naga Trident,DPS distanza,20,Twister,0,0,0,0.0

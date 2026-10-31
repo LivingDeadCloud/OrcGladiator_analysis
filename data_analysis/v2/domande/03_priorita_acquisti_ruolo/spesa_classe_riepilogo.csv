@@ -1,0 +1,11 @@
+classe,ruolo,oro_speso_netto,oro_oggetti_e_stivali,oro_tomi,oro_pozioni,n_acquisti_con_oro,challenge_meta_spesa,primo_acquisto_grande,acquisti_grandi,acquisti_costo_ignoto
+War Hammer,Tank,2893,1913,880,100,14,15,Heartstone (400) prima della ch. 6,ch6:Heartstone(400) ; ch10:Petrified Bark(700) ; ch15:Purchase Imbued Greaves(563),0
+Runeblade,Tank,3325,2125,1100,100,16,13,Heartstone (400) prima della ch. 8,ch8:Heartstone(400) ; ch13:Illuminators(1000) ; ch17:Purchase Imbued Greaves(525),0
+Druid Staff,Healer,3647,2557,990,100,15,16,Pipe of Insight (750) prima della ch. 12,ch12:Pipe of Insight(750) ; ch16:Flag of Victory(1250),0
+War Drums,Support,2468,938,1430,100,18,19,Purchase Warp Treads (513) prima della ch. 15,ch15:Purchase Warp Treads(513),1
+Claws,DPS mischia,4013,2263,1650,100,20,17,Ring of Superiority (700) prima della ch. 8,ch8:Ring of Superiority(700) ; ch13:Shard of the Revenant(1000) ; ch17:Purchase Warp Treads(513),0
+Double Blade,DPS mischia,3403,2213,990,200,17,12,Ethereal Armour (850) prima della ch. 7,ch7:Ethereal Armour(850) ; ch12:Petrified Bark(700) ; ch15:Purchase Imbued Greaves(563),0
+Pickaxe,DPS mischia,3455,1925,1430,100,18,16,Refresh Stone (425) prima della ch. 11,ch11:Refresh Stone(425) ; ch16:Warrior's Spirit(1250),0
+Bow,DPS distanza,2618,2368,0,250,7,14,Purchase Windwalkers (438) prima della ch. 13,ch13:Purchase Windwalkers(438) ; ch14:Hex of Augmentation III(750) ; ch18:Feral Visage(900),1
+Wizard Staff,DPS distanza,3013,2363,550,100,11,16,Ring of Superiority (700) prima della ch. 11,ch11:Ring of Superiority(700) ; ch16:Shard of the Revenant(1000) ; ch18:Purchase Slippers of Focus(463),0
+Naga Trident,DPS distanza,3088,2438,550,100,11,17,Purchase Warp Treads (513) prima della ch. 11,ch11:Purchase Warp Treads(513) ; ch14:Mask of Death(700) ; ch17:Bonecarver Necklace(1000),0

@@ -1,0 +1,6 @@
+ruolo,classi,pct_riuso_entro_2s_rotazione_media,ritardo_mediano_rotazione_s_media,pct_non_riusata_entro_fine_challenge_media,pct_tempo_in_pause_oltre_5s_media,pct_tempo_in_pause_oltre_10s_media,pct_tempo_in_pause_oltre_60s_media,pct_tempo_in_pause_10_60s_su_tempo_presente_media,pct_ordini_sprecati_media,giudizi_classi
+DPS distanza,Bow + Naga Trident + Wizard Staff,15.71,8.93,19.45,50.03,37.03,21.06,21.86,3.03,Bow: da migliorare + Naga Trident: migliorabile + Wizard Staff: migliorabile
+DPS mischia,Claws + Double Blade + Pickaxe,20.64,6.04,18.22,36.76,26.12,12.54,15.62,17.6,Claws: migliorabile + Double Blade: da migliorare + Pickaxe: migliorabile
+Healer,Druid Staff,17.81,3.99,8.58,32.24,24.86,16.05,10.5,3.19,Druid Staff: da migliorare
+Support,War Drums,4.41,18.47,27.94,56.49,40.75,17.36,28.31,0.0,War Drums: migliorabile
+Tank,Runeblade + War Hammer,23.5,4.88,11.88,29.31,16.29,7.93,9.31,1.89,Runeblade: migliorabile + War Hammer: migliorabile

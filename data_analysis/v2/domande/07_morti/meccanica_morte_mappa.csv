@@ -1,0 +1,16 @@
+elemento,riga_war3map_j,codice,significato
+Morte eroe: trigger Create_Corpse,3729,"call TriggerRegisterAnyUnitEventBJ(gg_trg_Create_Corpse,EVENT_PLAYER_UNIT_DEATH)","Su morte di un eroe giocatore: l'eroe viene nascosto e al suo posto compare un cadavere 'O004' in pausa (non selezionabile, Aloc)."
+Eroe nascosto alla morte,3644,call ShowUnitHide(GetTriggerUnit()),Da morto il giocatore non puo' dare ordini al proprio eroe: nel replay restano solo selezioni (verificato nei silenzi).
+Messaggio al morto,3679,"call DisplayTimedTextToForce(GetForceOfPlayer(Player(-1+((1+GetPlayerId(GetOwningPlayer(GetTriggerUnit())))))),15.,""|c00ff0000Your Gladiator is unconscious. You",Testo mostrato: rianimabile da altri gladiatori o a fine round.
+Rianimazione a fine round: valori,5285,"call SetUnitLifePercentBJ(udg_ReanimatingHero,10.)",Revive_Players: tutti i cadaveri tornano in vita al 10% HP e 75 mana (riga successiva).
+Rianimazione a fine round: quando,5125,call ConditionalTriggerExecute(gg_trg_Revive_Players),"Chiamato da Wave_Finish ~4 s dopo la fine del round (Sleep 2 + Sleep 2), da Run_Reward e prima della fase finale del boss."
+Sconfitta,3800,"call DisplayTimedTextToForce(bj_FORCE_ALL_PLAYERS,5.,(""|cffffcc00No gladiators are alive!|r (""+((I2S(udg_Defeat_Check)+"" seconds until defeat"")+"")"")))","Check_Defeat: se nessun gladiatore e' vivo parte un conto alla rovescia di 25 s, poi sconfitta."
+Pietra Ancestrale: attivazione,8571,"return(GetItemTypeId(GetManipulatedItem())=='I06J')and(GetUnitStateSwap(UNIT_STATE_MANA,gg_unit_n024_0014)>=100.)",Oggetto I06J 'Ancestral Strength' (gratis): se la pietra ha >=100 mana li toglie e rianima UN eroe caduto a caso.
+Pietra Ancestrale: valori rianimazione,8577,set udg_RevivingHealth=10000.,"HP e mana pieni (10000 / 2000, limitati al massimo)."
+Pietra Ancestrale: regen,8562,"call SetUnitManaBJ(gg_unit_n024_0014,(GetUnitStateSwap(UNIT_STATE_MANA,gg_unit_n024_0014)+1))","+1 mana/s, attiva solo durante il round (Wave_Start la abilita, Wave_Finish la disabilita e azzera il mana). Max 300 (w3u)."
+Pergamena Grand Scroll of Life (I03A),11516,return(GetItemTypeId(GetManipulatedItem())=='I03B')or(GetItemTypeId(GetManipulatedItem())=='I03D')or(GetItemTypeId(GetManipulatedItem())=='I03A')or(GetItemTypeI,Rianima tutti al 60% HP / 150 mana. Nessun acquisto nel replay.
+"Abilita' di rianimazione (A04B, A0E0, A00I)",12404,return(GetSpellAbilityId()=='A04B'),Ordine 'animatedead' (0x0D00F9): rianima al 60% HP / 150 mana (A00I liv.1: 40%/150). Nessun ordine nel replay.
+Soulstone / Revival Draught / Ancient's Sap,3748,set udg_RevivingMana=100.,Auto-rianimazione dopo 4-6 s al 60% HP / 100 mana. Nessun acquisto di I01R/I05R/I09C nel replay.
+Contatore di morti,379,real udg_DeathEvent=0,NESSUN contatore di morti per giocatore: udg_DeathEvent e' solo un evento del sistema di cure; udg_IsPlayerHeroDead non viene mai aggiornato; la multiboard non ha una colonna morti.
+Token (I056/I057/I058),3680,"call RemoveItem(GetItemOfTypeFromUnitBJ(GetDyingUnit(),'I056'))",I token-scommessa si perdono alla morte (1 solo acquisto di I056 nel replay).
+udg_IsPlayerHeroDead impostato a true,,occorrenze: 0,variabile inutilizzata come contatore

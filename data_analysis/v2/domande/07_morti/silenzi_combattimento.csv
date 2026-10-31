@@ -1,0 +1,163 @@
+challenge,classe,ruolo,inizio_s_dall_inizio_round,fine_s_dall_inizio_round,durata_s,spiegazione
+1,Double Blade,DPS mischia,65.2,89.4,24.3,sotto la soglia di 30 s: non classificato
+1,Druid Staff,Healer,40.5,57.1,16.6,sotto la soglia di 30 s: non classificato
+2,Bow,DPS distanza,13.4,41.1,27.7,sotto la soglia di 30 s: non classificato
+2,Druid Staff,Healer,8.8,30.0,21.2,sotto la soglia di 30 s: non classificato
+3,Bow,DPS distanza,37.2,55.2,18.0,sotto la soglia di 30 s: non classificato
+3,Claws,DPS mischia,44.9,60.2,15.3,sotto la soglia di 30 s: non classificato
+3,Double Blade,DPS mischia,31.2,61.8,30.6,possibile morte (bassa certezza)
+3,Double Blade,DPS mischia,61.8,78.6,16.7,sotto la soglia di 30 s: non classificato
+3,Naga Trident,DPS distanza,3.5,28.4,24.9,sotto la soglia di 30 s: non classificato
+3,Naga Trident,DPS distanza,40.9,66.9,26.0,sotto la soglia di 30 s: non classificato
+3,Runeblade,Tank,5.9,44.1,38.2,possibile morte (bassa certezza)
+3,War Drums,Support,27.9,64.6,36.7,possibile morte (bassa certezza)
+3,Wizard Staff,DPS distanza,57.6,80.0,22.4,sotto la soglia di 30 s: non classificato
+4,Bow,DPS distanza,19.7,159.0,139.3,morte (vedi eventi_morte.csv)
+4,Double Blade,DPS mischia,2.7,35.0,32.3,possibile morte (bassa certezza)
+4,Double Blade,DPS mischia,36.9,65.8,28.9,sotto la soglia di 30 s: non classificato
+4,Double Blade,DPS mischia,66.5,83.9,17.4,sotto la soglia di 30 s: non classificato
+4,Double Blade,DPS mischia,83.9,101.6,17.7,sotto la soglia di 30 s: non classificato
+4,Double Blade,DPS mischia,134.8,156.2,21.3,sotto la soglia di 30 s: non classificato
+4,Naga Trident,DPS distanza,69.5,96.4,26.8,sotto la soglia di 30 s: non classificato
+4,Pickaxe,DPS mischia,156.3,179.6,23.3,sotto la soglia di 30 s: non classificato
+4,Runeblade,Tank,115.9,139.6,23.8,sotto la soglia di 30 s: non classificato
+4,War Drums,Support,48.9,70.6,21.8,sotto la soglia di 30 s: non classificato
+4,War Drums,Support,104.9,124.0,19.1,sotto la soglia di 30 s: non classificato
+4,War Drums,Support,131.6,153.5,21.8,sotto la soglia di 30 s: non classificato
+4,Wizard Staff,DPS distanza,162.7,181.3,18.6,sotto la soglia di 30 s: non classificato
+5,Bow,DPS distanza,31.5,196.5,165.0,morte (vedi eventi_morte.csv)
+5,Claws,DPS mischia,50.0,197.0,147.0,morte (vedi eventi_morte.csv)
+5,Double Blade,DPS mischia,40.3,195.2,154.9,morte (vedi eventi_morte.csv)
+5,Double Blade,DPS mischia,195.9,214.8,18.9,sotto la soglia di 30 s: non classificato
+5,Naga Trident,DPS distanza,21.9,39.6,17.7,sotto la soglia di 30 s: non classificato
+5,Pickaxe,DPS mischia,59.0,118.5,59.6,possibile morte (bassa certezza)
+5,Pickaxe,DPS mischia,130.7,194.0,63.3,morte (vedi eventi_morte.csv)
+5,Runeblade,Tank,192.8,213.6,20.8,sotto la soglia di 30 s: non classificato
+5,War Drums,Support,41.8,84.7,42.8,possibile morte (bassa certezza)
+6,Bow,DPS distanza,20.9,36.4,15.5,sotto la soglia di 30 s: non classificato
+6,Bow,DPS distanza,57.4,79.4,22.0,sotto la soglia di 30 s: non classificato
+6,Naga Trident,DPS distanza,56.5,73.8,17.3,sotto la soglia di 30 s: non classificato
+7,Bow,DPS distanza,115.5,179.0,63.5,morte (vedi eventi_morte.csv)
+7,Double Blade,DPS mischia,4.8,20.1,15.2,sotto la soglia di 30 s: non classificato
+7,Wizard Staff,DPS distanza,30.3,77.3,47.0,possibile morte (bassa certezza)
+8,Claws,DPS mischia,101.8,121.6,19.8,sotto la soglia di 30 s: non classificato
+8,Double Blade,DPS mischia,6.1,23.3,17.2,sotto la soglia di 30 s: non classificato
+8,Double Blade,DPS mischia,89.7,116.5,26.8,sotto la soglia di 30 s: non classificato
+8,Naga Trident,DPS distanza,27.7,44.4,16.7,sotto la soglia di 30 s: non classificato
+8,Runeblade,Tank,134.2,156.8,22.6,sotto la soglia di 30 s: non classificato
+8,Runeblade,Tank,156.8,181.1,24.3,sotto la soglia di 30 s: non classificato
+8,War Drums,Support,98.3,130.9,32.6,possibile morte (bassa certezza)
+8,War Drums,Support,130.9,154.7,23.8,sotto la soglia di 30 s: non classificato
+9,Bow,DPS distanza,49.2,64.5,15.3,sotto la soglia di 30 s: non classificato
+9,Bow,DPS distanza,82.8,256.7,173.9,morte (vedi eventi_morte.csv)
+9,Bow,DPS distanza,370.2,433.8,63.6,morte (vedi eventi_morte.csv)
+9,Claws,DPS mischia,75.2,376.0,300.8,morte (vedi eventi_morte.csv)
+9,Druid Staff,Healer,101.4,437.5,336.1,morte (vedi eventi_morte.csv)
+9,Naga Trident,DPS distanza,78.8,433.0,354.2,morte (vedi eventi_morte.csv)
+9,Runeblade,Tank,34.3,66.8,32.5,possibile morte (bassa certezza)
+9,War Drums,Support,72.6,167.0,94.4,morte (vedi eventi_morte.csv)
+10,Bow,DPS distanza,103.9,119.3,15.4,sotto la soglia di 30 s: non classificato
+10,Double Blade,DPS mischia,7.3,24.7,17.4,sotto la soglia di 30 s: non classificato
+10,Double Blade,DPS mischia,35.0,54.7,19.7,sotto la soglia di 30 s: non classificato
+10,War Drums,Support,3.3,20.5,17.2,sotto la soglia di 30 s: non classificato
+10,War Drums,Support,52.7,70.2,17.4,sotto la soglia di 30 s: non classificato
+10,War Drums,Support,110.5,145.8,35.3,possibile morte (bassa certezza)
+10,Wizard Staff,DPS distanza,131.6,157.9,26.4,sotto la soglia di 30 s: non classificato
+11,Bow,DPS distanza,127.4,151.0,23.7,sotto la soglia di 30 s: non classificato
+11,Double Blade,DPS mischia,37.7,60.2,22.5,sotto la soglia di 30 s: non classificato
+11,Naga Trident,DPS distanza,45.3,63.4,18.2,sotto la soglia di 30 s: non classificato
+11,Pickaxe,DPS mischia,120.8,155.0,34.2,morte (vedi eventi_morte.csv)
+11,War Drums,Support,43.3,64.5,21.3,sotto la soglia di 30 s: non classificato
+11,War Drums,Support,123.7,149.5,25.8,sotto la soglia di 30 s: non classificato
+12,Bow,DPS distanza,65.9,84.8,18.9,sotto la soglia di 30 s: non classificato
+12,Claws,DPS mischia,109.9,138.1,28.2,sotto la soglia di 30 s: non classificato
+12,Double Blade,DPS mischia,69.2,99.6,30.3,possibile morte (bassa certezza)
+12,Double Blade,DPS mischia,111.9,129.6,17.7,sotto la soglia di 30 s: non classificato
+12,Druid Staff,Healer,109.0,138.1,29.1,sotto la soglia di 30 s: non classificato
+12,Naga Trident,DPS distanza,60.2,84.9,24.7,sotto la soglia di 30 s: non classificato
+12,Naga Trident,DPS distanza,108.8,141.5,32.7,possibile morte (bassa certezza)
+12,Runeblade,Tank,110.1,129.5,19.4,sotto la soglia di 30 s: non classificato
+12,War Drums,Support,82.0,98.9,16.9,sotto la soglia di 30 s: non classificato
+12,War Drums,Support,110.7,139.0,28.3,sotto la soglia di 30 s: non classificato
+12,Wizard Staff,DPS distanza,103.0,129.4,26.4,sotto la soglia di 30 s: non classificato
+13,Bow,DPS distanza,62.2,139.4,77.1,morte (vedi eventi_morte.csv)
+13,Druid Staff,Healer,64.1,137.0,72.9,morte (vedi eventi_morte.csv)
+13,Naga Trident,DPS distanza,41.3,137.8,96.5,morte (vedi eventi_morte.csv)
+13,Pickaxe,DPS mischia,104.3,137.0,32.7,morte (vedi eventi_morte.csv)
+13,War Drums,Support,67.8,105.1,37.3,possibile morte (bassa certezza)
+13,Wizard Staff,DPS distanza,82.9,100.0,17.1,sotto la soglia di 30 s: non classificato
+13,Wizard Staff,DPS distanza,140.9,157.9,17.0,sotto la soglia di 30 s: non classificato
+14,Bow,DPS distanza,22.2,41.1,18.9,sotto la soglia di 30 s: non classificato
+14,Bow,DPS distanza,43.0,60.6,17.6,sotto la soglia di 30 s: non classificato
+14,Bow,DPS distanza,104.2,127.2,23.0,sotto la soglia di 30 s: non classificato
+14,Double Blade,DPS mischia,15.1,36.4,21.3,sotto la soglia di 30 s: non classificato
+14,Double Blade,DPS mischia,50.9,69.1,18.2,sotto la soglia di 30 s: non classificato
+14,Double Blade,DPS mischia,75.2,98.5,23.2,sotto la soglia di 30 s: non classificato
+14,Double Blade,DPS mischia,108.3,126.7,18.4,sotto la soglia di 30 s: non classificato
+14,War Drums,Support,86.4,106.1,19.6,sotto la soglia di 30 s: non classificato
+15,Bow,DPS distanza,89.8,104.8,15.0,sotto la soglia di 30 s: non classificato
+15,Bow,DPS distanza,123.2,139.2,16.0,sotto la soglia di 30 s: non classificato
+15,Bow,DPS distanza,192.2,246.8,54.7,morte (vedi eventi_morte.csv)
+15,Druid Staff,Healer,97.6,129.8,32.1,morte (vedi eventi_morte.csv)
+15,Druid Staff,Healer,137.0,242.1,105.1,morte (vedi eventi_morte.csv)
+15,Naga Trident,DPS distanza,57.8,241.4,183.7,morte (vedi eventi_morte.csv)
+15,Pickaxe,DPS mischia,215.5,241.0,25.5,morte (vedi eventi_morte.csv)
+15,Runeblade,Tank,137.0,245.2,108.2,morte (vedi eventi_morte.csv)
+15,War Drums,Support,56.9,241.6,184.7,morte (vedi eventi_morte.csv)
+15,War Hammer,Tank,127.6,241.0,113.4,morte (vedi eventi_morte.csv)
+15,Wizard Staff,DPS distanza,215.5,241.3,25.9,morte (vedi eventi_morte.csv)
+16,Bow,DPS distanza,143.4,222.8,79.4,morte (vedi eventi_morte.csv)
+16,Bow,DPS distanza,223.9,244.6,20.7,sotto la soglia di 30 s: non classificato
+16,Double Blade,DPS mischia,167.6,184.8,17.2,sotto la soglia di 30 s: non classificato
+16,Naga Trident,DPS distanza,105.8,124.1,18.3,morte (vedi eventi_morte.csv)
+16,Naga Trident,DPS distanza,143.0,221.0,78.0,morte (vedi eventi_morte.csv)
+16,Runeblade,Tank,151.6,187.7,36.0,possibile morte (bassa certezza)
+16,Wizard Staff,DPS distanza,218.9,234.4,15.5,sotto la soglia di 30 s: non classificato
+17,Bow,DPS distanza,57.1,82.8,25.8,sotto la soglia di 30 s: non classificato
+17,Claws,DPS mischia,86.2,103.1,17.0,sotto la soglia di 30 s: non classificato
+17,Double Blade,DPS mischia,21.5,70.7,49.2,possibile morte (bassa certezza)
+18,Bow,DPS distanza,38.8,54.2,15.4,sotto la soglia di 30 s: non classificato
+18,Bow,DPS distanza,99.6,446.4,346.8,morte (vedi eventi_morte.csv)
+18,Claws,DPS mischia,437.5,458.7,21.3,sotto la soglia di 30 s: non classificato
+18,Double Blade,DPS mischia,100.9,437.8,337.0,morte (vedi eventi_morte.csv)
+18,Druid Staff,Healer,186.7,250.8,64.1,morte (vedi eventi_morte.csv)
+18,Druid Staff,Healer,333.9,393.3,59.5,morte (vedi eventi_morte.csv)
+18,Naga Trident,DPS distanza,56.4,438.8,382.4,morte (vedi eventi_morte.csv)
+18,Pickaxe,DPS mischia,66.0,83.3,17.3,sotto la soglia di 30 s: non classificato
+18,Pickaxe,DPS mischia,92.2,437.3,345.1,morte (vedi eventi_morte.csv)
+18,Runeblade,Tank,93.8,440.3,346.6,morte (vedi eventi_morte.csv)
+18,War Drums,Support,94.1,437.0,342.9,morte (vedi eventi_morte.csv)
+18,Wizard Staff,DPS distanza,153.3,182.3,29.0,morte (vedi eventi_morte.csv)
+19,Bow,DPS distanza,87.7,103.4,15.7,sotto la soglia di 30 s: non classificato
+19,Bow,DPS distanza,134.0,195.0,61.1,possibile morte (bassa certezza)
+19,Double Blade,DPS mischia,40.1,60.6,20.5,sotto la soglia di 30 s: non classificato
+19,Naga Trident,DPS distanza,193.8,215.0,21.2,sotto la soglia di 30 s: non classificato
+19,Pickaxe,DPS mischia,194.2,213.3,19.1,sotto la soglia di 30 s: non classificato
+19,Runeblade,Tank,203.9,219.3,15.4,sotto la soglia di 30 s: non classificato
+19,War Drums,Support,204.1,220.4,16.3,sotto la soglia di 30 s: non classificato
+19,War Hammer,Tank,200.7,221.8,21.2,sotto la soglia di 30 s: non classificato
+19,Wizard Staff,DPS distanza,63.4,95.7,32.3,possibile morte (bassa certezza)
+20,Bow,DPS distanza,20.1,48.8,28.8,boss finale: non classificato
+20,Bow,DPS distanza,85.9,105.3,19.5,boss finale: non classificato
+20,Bow,DPS distanza,229.7,248.1,18.4,morte (vedi eventi_morte.csv)
+20,Bow,DPS distanza,263.0,nessun ordine dopo,58.4,boss finale: non classificato
+20,Claws,DPS mischia,88.4,103.5,15.1,boss finale: non classificato
+20,Claws,DPS mischia,265.1,nessun ordine dopo,56.3,boss finale: non classificato
+20,Double Blade,DPS mischia,5.4,21.9,16.5,boss finale: non classificato
+20,Double Blade,DPS mischia,293.4,nessun ordine dopo,28.0,boss finale: non classificato
+20,Druid Staff,Healer,85.5,103.8,18.3,boss finale: non classificato
+20,Druid Staff,Healer,269.0,nessun ordine dopo,52.5,boss finale: non classificato
+20,Naga Trident,DPS distanza,88.5,104.1,15.6,boss finale: non classificato
+20,Naga Trident,DPS distanza,173.0,190.1,17.1,boss finale: non classificato
+20,Naga Trident,DPS distanza,287.9,nessun ordine dopo,33.5,boss finale: non classificato
+20,Pickaxe,DPS mischia,291.2,nessun ordine dopo,30.3,boss finale: non classificato
+20,Runeblade,Tank,267.2,nessun ordine dopo,54.3,boss finale: non classificato
+20,War Drums,Support,36.7,56.6,19.9,boss finale: non classificato
+20,War Drums,Support,87.9,103.0,15.1,boss finale: non classificato
+20,War Drums,Support,232.5,258.1,25.5,morte (vedi eventi_morte.csv)
+20,War Drums,Support,267.2,nessun ordine dopo,54.3,boss finale: non classificato
+20,War Hammer,Tank,87.9,103.0,15.1,boss finale: non classificato
+20,War Hammer,Tank,278.7,nessun ordine dopo,42.7,boss finale: non classificato
+20,Wizard Staff,DPS distanza,88.2,105.8,17.5,boss finale: non classificato
+20,Wizard Staff,DPS distanza,233.3,253.5,20.2,morte (vedi eventi_morte.csv)
+20,Wizard Staff,DPS distanza,263.1,nessun ordine dopo,58.4,boss finale: non classificato

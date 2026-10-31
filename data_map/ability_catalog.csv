@@ -1,0 +1,325 @@
+ability_id,base,name,tooltip,hotkey,order_string,order_hex
+AUls,AUls,,,,Locustswarm,
+ACmf,ACmf,,,,manashield,
+ANms,ANms,,,,manashieldon,0x0D026D
+AUcs,AUcs,,,,carrionswarm,0x0D00FA
+ANth,ANth,,,,Thornyshield,
+A002,ACfa,Anti-Magic Shell,A n ti-magic Shell,N,antimagicshell,0x0D00DA
+A008,AUcb,Raise Necroskeleton,( Q ) Raise Dead,Q,Carrionscarabs,
+A008,AUcb,Raise Necroskeleton,( Q ) Raise Dead,Q,Carrionscarabson,
+A00C,ANcl,Decrepify,( E ) Decrepify,E,cripple,0x0D00DD
+A00E,ANcl,Flesh Golem,( R ) Flesh Golem,R,waterelemental,0x0D0081
+A00I,ANcl,Revive,( G ) Revive,G,animatedead,0x0D00F9
+A00M,AHtb,Dummy - Stun (Storm Bolt),,,thunderbolt,0x0D007F
+A00N,AHtc,,( W ) Thunder Clap,W,thunderclap,0x0D0080
+A00P,ANcl,Leap,( E ) Leap,E,absorb,0x0D0231
+A00Q,AHav,,( R ) Avatar,R,avatar,0x0D0076
+A00S,ANcl,Fire Storm,( Q ) Fire Storm,Q,rainoffire,0x0D010E
+A00T,ACrg,Dummy - Firestorm,,,rainoffire,0x0D010E
+A00U,ANht,Terror,( W ) Terror,W,howlofterror,0x0D026C
+A00W,ANcl,Demonic Circle,( R ) Demonic Circle,R,deathcoil,0x0D00FE
+A00Y,ANcl,Volley,( Q ) Volley,Q,flamingarrows,0x0D00CE
+A012,Absk,Eagle Eye,( E ) Eagle Eye,E,berserk,0x0D0084
+A013,Afzy,Take Aim,( R ) Take Aim,R,frenzy,0x0D0251
+A015,AOmi,,( W ) Mirror Image,W,mirrorimage,0x0D009B
+A017,AOwk,,( Q ) Wind Walk,Q,windwalk,0x0D00A1
+A018,Absk,Killing Machine,( E ) Killing Machine,E,berserk,0x0D0084
+A019,ANcl,Bladestorm,( R ) Bladestorm,R,whirlwind,0x0D00A0
+A01C,ANcl,Lightning Bolt,( Q ) Lightning Bolt,Q,chainlightning,0x0D0097
+A01G,Ablo,Dummy - Flurry,Dummy - Flurry,,bloodlust,0x0D0085
+A01H,ANcl,Molten Boulder,( R ) Molten Boulder,R,volcano,0x0D02BD
+A01I,AHtb,Dummy - Stun (Molten Boulder),,,thunderbolt,0x0D007F
+A01J,ANcl,Mana Tide Totem,( G ) Mana Tide Totem,G,healingward,0x0D008D
+A01M,ANcl,Feral Spirit,( W ) Feral Spirit,W,spiritwolf,0x0D009E
+A01Z,AEbl,Item Escapist's Boots,,,blink,0x0D022D
+A023,ACsw,Creep - Slow,Slow,,slow,0x0D006B
+A023,ACsw,Creep - Slow,Slow,,slowon,0x0D006C
+A024,ACbh,Creep - Bash,Creep - Bash,,bash,
+A025,ACbl,Creep - Bloodlust,Bloodlust,,bloodlust,0x0D0085
+A02Q,Aroa,Fortify Summons,( F ) Fortify Summons,F,roar,0x0D00C4
+A02U,ANcl,Animation - Golem Birth,,,channel,0x0D0278
+A02V,AHtb,Dummy - Stun (Lightning Bolt),,,thunderbolt,0x0D007F
+A036,Absk,Demon Skin,( D ) Demon Skin,D,berserk,0x0D0084
+A037,ACif,Dummy - Demon Skin,,,bloodlust,0x0D0085
+A037,ACif,Dummy - Demon Skin,,,innerfireon,0x0D0063
+A038,ANcl,Conjure Soulstone,( F ) Conjure Soulstone,F,web,0x0D00F3
+A03A,ANcl,Conjure Soulstone,( F ) Conjure Soulstone,F,web,0x0D00F3
+A03B,ANcl,Conjure Health Stone,( W ) Conjure Health Stone,W,wateryminion,0x0D0276
+A03C,ANcl,Conjure Mana Stone,( E ) Conjure Mana Stone,W,ward,0x0D0218
+A03D,ANcl,Conjure Fire Stone,( E ) Conjure Fire Stone,W,waterelemental,0x0D0081
+A03K,ANcl,Animation - Snare Trap Delay,,,channel,0x0D0278
+A03L,ANcl,Binding Trap,( G ) Binding Trap,G,healingward,0x0D008D
+A03M,ACen,Dummy - Binding Trap Ensnare,,,ensnare,0x0D008A
+A03R,Ablo,Dummy - Leap (Comet),Dummy - ?,,bloodlust,0x0D0085
+A03U,ACbh,Crush,,,bash,
+A00V,AHtb,Dummy - Stun (Escape Penalty),,,thunderbolt,0x0D007F
+A04A,AHtb,Item Scroll of Disable (Stun),,,thunderbolt,0x0D007F
+A04B,ANcl,Item Revive 1 Hero,[ G ] Reanimate Hero,G,animatedead,0x0D00F9
+A04L,Ambd,Creep - Mana Burn,,,manaburn,0x0D00D3
+A04N,Acht,Boss 3 - Howl,(Q) Howl,Q,howlofterror,0x0D026C
+A04S,Anhe,Creep - Heal,Heal,,heal,0x0D005F
+A04S,Anhe,Creep - Heal,Heal,,healon,0x0D0060
+A04T,ACmp,Boss 13 - Impale,Impal e,,impale,0x0D024B
+A05P,ACds,Special - Resurrection Invulnerability,,,divineshield,0x0D007A
+A05R,ANcl,Rejuvenation,( D ) Rejuvenation,D,rejuvination,0x0D00C0
+A05T,ANcl,Entangle,( G ) Entangle,G,entangle,0x0D00B3
+A05U,Aenr,Dummy - Entangle,,,entanglingroots,0x0D00CB
+A05V,ANcl,Force of Nature,( E ) Force of Nature,E,forceofnature,0x0D00D0
+A05Y,ANcl,Tranquility,( R ) Tranquility,R,tranquility,0x0D00D8
+A060,ANcl,Innervate,( W ) Innervate,W,renew,0x0D00C1
+A065,Awrs,Boss 18(3) - War Stomp,War S t omp,,stomp,0x0D009F
+A067,AOmi,Boss 18(1) - Mirror Image,Mirror Image,,mirrorimage,0x0D009B
+A068,ACcl,Boss 18(2) - Chain Lightning,Chain Lighting,,chainlightning,0x0D0097
+A06L,ACpy,Boss 20 - Polymorph,,,polymorph,0x0D006A
+A06M,ANsi,Boss 20 - Silence,,,silence,0x0D0270
+A06N,AEbl,Boss 20 - Blink Strike,Blink,,blink,0x0D022D
+A07C,ACen,Creep - Ensnare,Ensnare,,ensnare,0x0D008A
+A07D,ACro,Creep - Roar,Roar,,roar,0x0D00C4
+A07E,ACbh,Creep - Bash,Lesser Bash,,bash,
+A07F,ANsb,Creep - Power Shot,Power Shot,,thunderbolt,0x0D007F
+A07H,ANsb,Creep - Power Shot,Power Shot,,thunderbolt,0x0D007F
+A07I,ACsf,Creep - Nature Spirit,Nature Spirit,,spiritwolf,0x0D009E
+A07M,Ambd,Creep - Mana Burn,,,manaburn,0x0D00D3
+A07N,ACfa,Creep - Frost Armor,Frost Armour,,frostarmor,0x0D0101
+A07O,ANsb,Creep - Power Shot,Power Shot,,thunderbolt,0x0D007F
+A07Q,ANsb,Creep - Power Shot,Power Shot,,thunderbolt,0x0D007F
+A07S,Afzy,Creep - Frenzy,,,frenzy,0x0D0251
+A07W,AIsw,Item Sentry Ward,,,evileye,0x0D0089
+A088,ANcl,Iron Golem,( R ) Iron Golem,R,waterelemental,0x0D0081
+A08C,ACsh,,( Q ) Shockwave,Q,shockwave,0x0D009D
+A08D,ACsw,Dummy - Slow,,,slow,0x0D006B
+A08D,ACsw,Dummy - Slow,,,slowon,0x0D006C
+A08F,Ablo,Dummy - Mortal Strike,Dummy - Mortal Strike,,bloodlust,0x0D0085
+A08G,AOws,,( W ) War Stomp,W,stomp,0x0D009F
+A08H,AOws,,( W ) War Stomp,W,stomp,0x0D009F
+A08I,Absk,Juggernaut,( R ) Juggernaut,R,berserk,0x0D0084
+A08S,Ahea,Repair,( F ) Repair,F,heal,0x0D005F
+A08S,Ahea,Repair,( F ) Repair,F,healon,0x0D0060
+A08T,Afzy,Overdrive,( W ) Overdrive,W,frenzy,0x0D0251
+A08U,Ablo,Dummy - Overdrive,Dummy - Overdrive,,bloodlust,0x0D0085
+A08W,Absk,Hydra Arrows,( R ) Hydra Arrows,R,berserk,0x0D0084
+A08Z,ANcl,Demolish,Demolish,,devourmagic,0x0D0238
+A09I,AEbl,Item Warp Treads,,,blink,0x0D022D
+A09U,ANcl,Embolden,( Q ) Embolden,Q,innerfire,0x0D0062
+A09W,ANcl,Inspire,( R ) Inspire,R,sanctuary,0x0D0259
+A09X,ANsi,Intimidate,( E ) Intimidate,,silence,0x0D0270
+A09Z,Absk,Rally,( W ) Rally,W,berserk,0x0D0084
+A0A0,ANcl,Bestow Endurance Aura,Bestow Endurance Aura,,hex,0x0D0216
+A0A1,ANcl,Bestow Vampiric Aura,Bestow Vampiric Aura,,holybolt,0x0D007C
+A0A2,ANcl,Bestow Trueshot Aura,Bestow Trueshot Aura,,howlofterror,0x0D026C
+A0A3,ANcl,Bestow Might Aura,Bestow Might Aura,,immolation,0x0D00D1
+A0A6,ANcl,Bestow Brilliance Aura,Bestow Brilliance Aura,,invisibility,0x0D0065
+A0A9,ANcl,Bestow Fortune Aura,Bestow Fortune Aura,,lightningshield,0x0D008E
+A0AA,ANcl,Bestow Thorns Aura,Bestow Thorns Aura,,locustswarm,0x0D024C
+A0AE,Ambd,Creep - Mana Burn,,,manaburn,0x0D00D3
+A0AG,AEfk,Boss 19 - Fan of Knives,F an of Knives,,fanofknives,0x0D022E
+A0AH,ANcl,Boss 20 - Punishment,Punishment,,ancestralspirit,0x0D020A
+A09S,ACds,Special - Potion of Safety,,,divineshield,0x0D007A
+A0AO,Aivs,Special - Potion of Fading,,,invisibility,0x0D0065
+A0AR,ANta,,( Q ) Taunt,Q,taunt,0x0D0228
+A079,ANcl,Item Lunar Rod,[ G ] Reanimate Hero,,animatedead,0x0D00F9
+A0BJ,ANcl,Item Scepter of Healing,( Q ) Rejuvenation,Q,heal,0x0D005F
+A0BS,ANcl,Item Jeweled Scarab,( W ) Feral Spirit,,spiritwolf,0x0D009E
+A0C4,Aenr,Boss 12 - Entangle,,,entanglingroots,0x0D00CB
+A0C6,ACsl,Boss 2 - Sleep,,,sleep,0x0D0103
+A0CA,AOws,Boss 5 - Slam,Slam,W,stomp,0x0D009F
+A0CE,ACbz,Boss 15 - Blizzard,,,blizzard,0x0D0079
+A086,ACfs,Boss 16 - Flame Strike,,,flamestrike,0x0D0208
+A01S,ANcl,Dismiss,Dismiss,,devourmagic,0x0D0238
+A04K,ANcl,Water Elemental,( E ) Water Elemental,E,waterelemental,0x0D0081
+A0CF,ANcl,Glacial Blast,( R ) Glacial Blast,W,deathcoil,0x0D00FE
+A0CG,ANcl,Pyroblast,( W ) Pyroblast,W,deathcoil,0x0D00FE
+A0CH,ANcl,Arcane Explosion,( W ) Arcane Explosion,W,deathcoil,0x0D00FE
+A0CI,ANcl,Learn Fire Bolt,Learn Fire Bolt,,wispharvest,0x0D00F6
+A0CJ,ANcl,Learn Frost Bolt,Learn Frost Bolt,,windwalk,0x0D00A1
+A0CK,ANcl,Learn Magic Bolt,Learn Magic Bolt,,whirlwind,0x0D00A0
+A0CL,AHtb,Dummy - Stun (Frost Bolt),,,thunderbolt,0x0D007F
+A0CM,ACsw,Dummy - Slow,,,slow,0x0D006B
+A0CM,ACsw,Dummy - Slow,,,slowon,0x0D006C
+A0CQ,ANcl,Learn Pyroblast,Learn Pyroblast,,webon,0x0D00F4
+A0CR,ANcl,Learn Glacial Blast,Learn Glacial Blast,,weboff,0x0D00F5
+A0CS,ANcl,Learn Arcane Explosion,Learn Arcane Explosion,,web,0x0D00F3
+A0CT,AHtb,Dummy - Freeze (Glacial Blast),,,thunderbolt,0x0D007F
+A0CV,ANcl,Fire Nova,( E ) Fire Nova,E,summonphoenix,0x0D0209
+A0CW,ANcl,Learn Fire Nova,Learn Fire Nova,,wateryminion,0x0D0276
+A0CX,ANcl,Learn Summon Water Elemental,Learn Summon Water Elemental,,waterelemental,0x0D0081
+A0CY,ANcl,Learn Replicate,Learn Replicate,,ward,0x0D0218
+A0D4,ANcl,Learn Fire Lord,Learn Fire Lord,,voodoo,0x0D0217
+A0D5,ANcl,Learn Frozen Intuition,Learn Frozen Intuition,,volcano,0x0D02BD
+A0D6,ANcl,Learn Brilliance Aura,Learn Brilliance Aura,,vengeanceon,0x0D022A
+A0D9,AEbl,,( F ) Blink,F,blink,0x0D022D
+A0DA,Absk,Frost Shield,( F ) Frost Shield,F,berserk,0x0D0084
+A0DE,ANcl,Learn Phoenix Blood,Learn Phoenix Blood,,vengeanceoff,0x0D022B
+A0DF,ANcl,Learn Frost Shield,Learn Frost Shield,,vengeanceinstant,0x0D022C
+A0DG,ANcl,Learn Blink,Learn Blink,,vengeance,0x0D0229
+A0DH,ACif,Dummy - Frost Shield,,,bloodlust,0x0D0085
+A0DH,ACif,Dummy - Frost Shield,,,innerfireon,0x0D0063
+A0DI,ANcl,Time Stop,( R ) Time Stop,R,massteleport,0x0D007D
+A0DK,ANcl,Blizzard Wave,( R ) Blizzard Wave,R,blizzard,0x0D0079
+A0DL,ANcl,Meteor,( R ) Meteor,R,inferno,0x0D0108
+A0DM,ANcl,Learn Meteor,Learn Meteor,,unwindwalk,0x0D00A2
+A0DN,ANcl,Learn Blizzard Wave,Learn Blizzard Wave,,unsummon,0x0D00F2
+A0DO,ANcl,Learn Time Stop,Learn Time Stop,,unsubmerge,0x0D027D
+A0DP,AHtb,Dummy - Stun (Time Stop),,,thunderbolt,0x0D007F
+A0DQ,ACbz,Dummy - Blizzard Wave,,,blizzard,0x0D0079
+A0DU,Ablo,Dummy - Ignite,Dummy - Ignite,,bloodlust,0x0D0085
+A0E0,ANcl,Item Scepter of Resurrection,[ G ] Reanimate Hero,,animatedead,0x0D00F9
+A0E1,ANcl,Item Cloak of Shadows,[ G ] Reanimate Hero,,windwalk,0x0D00A1
+A0E2,Aivs,Dummy - Cloak of Shadows,,,invisibility,0x0D0065
+A0E5,Atau,Item Defender's Buckler,,,taunt,0x0D0228
+A0E6,Atau,Item Skull Shield,,,taunt,0x0D0228
+A0ED,ANcl,Item Warrior's Spirit,[ G ] Reanimate Hero,,animatedead,0x0D00F9
+A0EH,ANcl,Item Staff of Sanctuary,( Q ) Rejuvenation,,heal,0x0D005F
+A0ES,ANcl,Item Headhunter's Mojo,( Q ) Rejuvenation,,heal,0x0D005F
+A0EV,ANcl,Item Magical Matrix,[ G ] Reanimate Hero,,animatedead,0x0D00F9
+A0EY,ACif,Dummy - Shard of the Revenant,,,bloodlust,0x0D0085
+A0EY,ACif,Dummy - Shard of the Revenant,,,innerfireon,0x0D0063
+A0F1,ANcl,Item Infernal Core,( W ) Feral Spirit,,spiritwolf,0x0D009E
+A0FA,Avng,Raise Necromage,( W ) Raise Necromage,W,Vengeance,
+A0FA,Avng,Raise Necromage,( W ) Raise Necromage,W,Vengeanceon,
+A0FE,ACcs,,( Q ) Curse,Q,curseon,0x0D00DF
+A0FE,ACcs,,( Q ) Curse,Q,curse,0x0D00DE
+A0FF,ACbh,Blackout,Blackout,,bash,
+A0FG,ACbh,,,,bash,
+A0FM,ACbk,Searing Arrows,( D ) Searing Arrows,D,blackarrow,0x0D0261
+A0FM,ACbk,Searing Arrows,( D ) Searing Arrows,D,blackarrowon,0x0D0262
+A0FL,ANcl,Volley,( Q ) Volley - [ Quickdraw ],Q,flamingarrows,0x0D00CE
+A0FS,ANcl,Unstable Concoction,( Q ) Unstable Concoction,Q,flamingarrows,0x0D00CE
+A0FV,ACfl,,( Q ) Forked Lightning,Q,forkedlightning,0x0D026B
+A08P,ACcv,,( W ) Crushing Wave,W,carrionswarm,0x0D00FA
+A08Q,ANpa,,( D ) Parasite,D,parasite,0x0D0279
+A08Q,ANpa,,( D ) Parasite,D,parasiteon,0x0D027A
+A08R,ANpa,Dummy - Parasite,,E,parasite,0x0D0279
+A08R,ANpa,Dummy - Parasite,,E,parasiteon,0x0D027A
+A0FW,ANcl,Vortex,( R ) Vortex,R,entangle,0x0D00B3
+A03O,ANcl,Twister,( E ) Twister,E,volcano,0x0D02BD
+A0FX,AHtb,Dummy - Stun (Twister),,,thunderbolt,0x0D007F
+A0FZ,ACcv,,,W,carrionswarm,0x0D00FA
+A00A,ANcl,Dimensional Gate,( G ) Dimensional Gate,G,volcano,0x0D02BD
+A0G1,Aivs,Dummy - Dimensional Gate Fade,,,invisibility,0x0D0065
+A0G6,ANcl,Rock Shield,( E ) Rock Shield,E,rejuvination,0x0D00C0
+A01L,AChx,,( F ) Hex,F,hex,0x0D0216
+A06D,ACds,Item Scroll of Divinity,,,divineshield,0x0D007A
+A0HG,ANcl,Shadow Golem,( R ) Flesh Golem,R,waterelemental,0x0D0081
+A0HH,ANcl,Elemental Invocation,( R ) Blizzard Wave,,blizzard,0x0D0079
+A0HJ,ANcl,Death Coil,( Q ) Death Coil,Q,deathcoil,0x0D00FE
+A0HK,ANcl,Death Pact,( E ) Death Pact,E,deathpact,0x0D00FF
+A0HL,ANcl,Desecrate,( W ) Desecrate,W,deathanddecay,0x0D00FD
+A0HN,ANbr,Surrender Soul,( R ) Soul Eclipse,,battleroar,0x0D0277
+A0HO,AUdd,Dummy - Desecrate,,,deathanddecay,0x0D00FD
+A0HQ,ACuf,,( D ) Unholy Frenzy,D,unholyfrenzy,0x0D00F1
+A0HS,ANcl,Choose Ghoul Companion,Choose Ghoul Companion,,wispharvest,0x0D00F6
+A0HT,ANcl,Choose Gargoyle Companion,Choose Gargoyle Companion,,windwalk,0x0D00A1
+A0HU,ANcl,Choose Banshee Companion,Choose Banshee Companion,,whirlwind,0x0D00A0
+A0HV,Afzy,Reconstitution,( G ) Reconstitution,G,frenzy,0x0D0251
+A0HW,Afzy,,( Q ) Frenzy,Q,frenzy,0x0D0251
+A0HY,ACcn,,( W ) Cannibalize,W,cannibalize,0x0D00DC
+A0I0,Acrs,Greater Curse,( W ) Greater Curse,W,curseon,0x0D00DF
+A0I0,Acrs,Greater Curse,( W ) Greater Curse,W,curse,0x0D00DE
+A0I1,AUcs,,( Q ) Carrion Swarm,Q,carrionswarm,0x0D00FA
+A0I5,ACif,Dummy - Death Pact Empower,,,bloodlust,0x0D0085
+A0I5,ACif,Dummy - Death Pact Empower,,,innerfireon,0x0D0063
+A0I6,AHtb,Stone Fragment,( Q ) Stone Fragment,Q,thunderbolt,0x0D007F
+A0I7,ACro,Fortify,( W ) Fortify,W,roar,0x0D00C4
+A0I9,ANta,,( Q ) Taunt,Q,taunt,0x0D0228
+A0IA,ANcl,Choose Abomination Companion,Choose Abomination Companion,,webon,0x0D00F4
+A0IB,ANcl,Item Preserver's Mark,( Q ) Rejuvenation,,heal,0x0D005F
+A04V,ACbh,Hew,Hew,,bash,
+A050,Absk,Foresight,( D ) Foresight,D,berserk,0x0D0084
+A052,ANcl,Dancing Blade,( Q ) Dancing Blade,Q,deathcoil,0x0D00FE
+A053,ANcl,Telekinesis,( W ) Telekinesis,W,deathanddecay,0x0D00FD
+A055,AHtb,Dummy - Stun (Telekinesis),,,thunderbolt,0x0D007F
+A056,ANcl,Alter Fate,( E ) Alter Fate,E,rejuvination,0x0D00C0
+A058,ANcl,Recurrence,( R ) Recurrence,R,entangle,0x0D00B3
+A05C,ANcl,Animation - Ancient Protector Birth,,,channel,0x0D0278
+A05I,ACbh,,,,bash,
+A05K,Ablo,Dummy - Promonitions,Dummy - Flurry,,bloodlust,0x0D0085
+A03Y,ACbk,Black Arrows,( D ) Black Arrows,D,blackarrow,0x0D0261
+A03Y,ACbk,Black Arrows,( D ) Black Arrows,D,blackarrowon,0x0D0262
+A06Q,ACbh,Gnarly Bark,Gnarly Bark,,bash,
+A06R,ACif,Dummy - Force of Nature Barkskin,,,innerfire,0x0D0062
+A06R,ACif,Dummy - Force of Nature Barkskin,,,innerfireon,0x0D0063
+A06S,ANcl,Starfall,( Q ) Starfall,Q,starfall,0x0D00D7
+A0AZ,AEsf,Boss 12 - Starfall,,,starfall,0x0D00D7
+A0B0,AOww,Boss 18 - Bladestorm,,,whirlwind,0x0D00A0
+A0B1,AEsh,Boss 19 - Shadowstrike,,,shadowstrike,0x0D022F
+A04U,ACcs,Creep - Curse,Curse,,curseon,0x0D00DF
+A04U,ACcs,Creep - Curse,Curse,,curse,0x0D00DE
+A07B,ACif,Creep - Inner Fire,Inner Fire,,innerfire,0x0D0062
+A07B,ACif,Creep - Inner Fire,Inner Fire,,innerfireon,0x0D0063
+A07K,ANsb,Creep - Power Shot,Power Shot,,thunderbolt,0x0D007F
+A07L,ACcl,Creep - Chain Lightning,Chain Lightning,,chainlightning,0x0D0097
+A07R,Absk,Creep - Adrenaline,Adrenaline,,berserk,0x0D0084
+A0BZ,ANth,Creep - Spiked Shell,,,Thornyshield,
+A0IS,ACbh,Creep - Bash,Lesser Bash,,bash,
+A0IT,ACen,Boss - Ensnare,Ensnare,,ensnare,0x0D008A
+A0IW,ACcv,Boss 1 - Crushing Wave,Crushing Wave,,carrionswarm,0x0D00FA
+A0J2,ACif,Boss 3 - Encourage,Encourage,,innerfire,0x0D0062
+A0J2,ACif,Boss 3 - Encourage,Encourage,,innerfireon,0x0D0063
+A0J3,ACro,Boss 3 - For Glory!,For Glory!,,roar,0x0D00C4
+A0J4,ANsb,Boss 3 - Hurl Boulder,Hurl Boulder,,thunderbolt,0x0D007F
+A0JA,ACif,Boss 6 - Coagulate,Coagulate,,innerfire,0x0D0062
+A0JA,ACif,Boss 6 - Coagulate,Coagulate,,innerfireon,0x0D0063
+A0JC,Absk,Boss X - Adrenaline,Adrenaline,,berserk,0x0D0084
+A0JH,ANst,Boss 8 - Swarm,Swarm,,stampede,0x0D0271
+A0JJ,AEsh,Boss 9 - Shadowstrike,Shadow Strike,,shadowstrike,0x0D022F
+A0JM,ANcl,Boss 10 - Groundbreaker,Groundbreaker,,stomp,0x0D009F
+A0JT,ACif,Boss 12 - Exaltation,Exaltation,,innerfire,0x0D0062
+A0JT,ACif,Boss 12 - Exaltation,Exaltation,,innerfireon,0x0D0063
+A0JU,Ambd,Boss 12 - Mana Burn,Mana Burn,,manaburn,0x0D00D3
+A0JV,ACro,Boss 13 - Endure,Endure,,roar,0x0D00C4
+A0JZ,ANcl,Boss 15 - Dragonrage,Dragonrage,,stomp,0x0D009F
+A0K4,ANst,Boss 16 - Flame Wave,Flame Wave,,stampede,0x0D0271
+A0KG,ANsb,Creep - Projectile Gunk,Projectile Gunk,,thunderbolt,0x0D007F
+A0KJ,ANcl,Flesh to Stone,( D ) Flesh to Stone,D,chainlightning,0x0D0097
+A0KK,AHtb,Dummy - Stun,,,thunderbolt,0x0D007F
+A0KL,ANcl,Healing Plume,( Q ) Healing Plume,Q,deathanddecay,0x0D00FD
+A0KM,ANcl,Fortify Armour,( W ) Fortify Armour,W,renew,0x0D00C1
+A0KP,ACbh,True-strike,,,bash,
+A0KS,ANcl,Chemical Rage,( R ) Chemical Rage,R,chemicalrage,0x0D02B7
+A0KV,ANcl,Item Transmutation I,Item Transmutation I,,invisibility,0x0D0065
+A0KW,ANcl,Item Transmutation II,Item Transmutation II,,lavamonster,0x0D02BB
+A0KX,ANcl,Item Transmutation III,Item Transmutation III,,lightningshield,0x0D008E
+A0KY,ANcl,Gold to Tribute,Gold to Tribute,,locustswarm,0x0D024C
+A0KZ,ANcl,Gold to Essence,Gold to Essence,,loadcorpse,0x0D0052
+A0L0,ANcl,Gold to Enchant,Gold to Enchant,,loadarcher,0x0D00AE
+A0L1,ANcl,Gold to Statuette,Gold to Statuette,,loadcorpseinstant,0x0D0055
+A0L2,ANcl,Scrap to Gold,Scrap to Gold,,lumber2gold,0x0D010A
+A0L7,AHtb,Dummy - Stun (Reaction),,,thunderbolt,0x0D007F
+A082,ANcl,Shapechange: Courage,( Q ) Shapechange: Courage,Q,starfall,0x0D00D7
+A0GI,AHtb,Dummy - Stun (Shapeshift Dies),,,thunderbolt,0x0D007F
+A0LE,AHtb,Maul,( Q ) Maul,Q,thunderbolt,0x0D007F
+A0LF,ACbh,Maul,,,bash,
+A0LI,ACro,,( E ) Roar,E,roar,0x0D00C4
+A0LK,ACro,Endure,( E ) Endure,E,roar,0x0D00C4
+A0LM,Awrs,Stomp,( W ) Stomp,W,stomp,0x0D009F
+A0LP,AHtb,Shell Bash,( Q ) Shell Bash,Q,thunderbolt,0x0D007F
+A0LQ,ACif,Dummy - Shell Bash Bonus,,,innerfire,0x0D0062
+A0LQ,ACif,Dummy - Shell Bash Bonus,,,innerfireon,0x0D0063
+A0LR,ACcv,,( W ) Crushing Wave,W,carrionswarm,0x0D00FA
+A0LS,ACcv,,,W,carrionswarm,0x0D00FA
+A0LT,Absk,Toughen Shell,( E ) Toughen Shell,E,berserk,0x0D0084
+A0LV,ANcl,Shapechange: Hunter,( W ) Shapechange: Hunter,W,stasistrap,0x0D0092
+A0LX,AHtb,Rabid Bite,( Q ) Rabid Bite,Q,thunderbolt,0x0D007F
+A0M0,Afzy,Fervent Rage,( E ) Fervent Rage,E,frenzy,0x0D0251
+A0M1,AHtb,Spider Bite,( Q ) Spider Bite,Q,thunderbolt,0x0D007F
+A0M2,ANcl,Tangled Web,( E ) Tangled Web,E,deathanddecay,0x0D00FD
+A0M4,AUls,Spiderling Swarm,( W ) Spiderling Swarm,W,Locustswarm,
+A0M5,AHtb,Talon Rake,( Q ) Talon Rake,Q,thunderbolt,0x0D007F
+A0M7,ACcv,Wing Buffet,( W ) Wing Buffet,W,carrionswarm,0x0D00FA
+A0M8,ACcv,Wing Buffet,,W,carrionswarm,0x0D00FA
+A0M9,Ablo,Dummy - Wing Buffet,Dummy - Wing Buffet,,bloodlust,0x0D0085
+A0MA,ANcl,Flight,( E ) Flight,E,deathanddecay,0x0D00FD
+A0MD,ANcl,Shapechange: Cunning,( E ) Shapechange: Cunning,E,steal,0x0D025E
+A0ME,ACbk,Corrosive Spit,( Q ) Corrosive Spit,Q,blackarrow,0x0D0261
+A0ME,ACbk,Corrosive Spit,( Q ) Corrosive Spit,Q,blackarrowon,0x0D0262
+A0MF,ANcl,Caustic Volley,( E ) Caustic Volley,E,deathanddecay,0x0D00FD
+A0MI,ANcs,(SFX) Corrosive Volley,,,clusterrockets,0x0D02AC
+A0MK,ACcl,,,,chainlightning,0x0D0097
+A0ML,ACcl,Focus Lightning,( W ) Focus Lightning,W,chainlightning,0x0D0097
+A0MM,ACro,Charge,( E ) Charge,E,roar,0x0D00C4
+A0MO,ACbc,,( Q ) Breath of Fire,Q,breathoffire,0x0D0264
+A0MQ,ACro,Growing Flame,( E ) Growing Flame,E,roar,0x0D00C4
+A0MS,AEfk,Primal Rage,( R ) Primal Rage,R,fanofknives,0x0D022E
+A0MX,ACro,Focused Shaping,( G ) Focused Shaping,G,roar,0x0D00C4
+A0N2,ANcl,Molt,(G) Molt,G,devourmagic,0x0D0238

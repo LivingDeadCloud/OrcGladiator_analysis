@@ -1,0 +1,287 @@
+﻿STRING 1
+{
+Player 1
+}
+STRING 35
+{
+Player 2
+}
+STRING 36
+{
+Player 3
+}
+STRING 37
+{
+Player 4
+}
+STRING 38
+{
+Player 5
+}
+STRING 39
+{
+Player 6
+}
+STRING 40
+{
+Player 7
+}
+STRING 41
+{
+Player 8
+}
+STRING 42
+{
+Player 9
+}
+STRING 43
+{
+Player 10
+}
+STRING 46
+{
+Gladiators
+}
+STRING 47
+{
+Humans
+}
+STRING 114
+{
+Orc Gladiators: Revenge 1.29fc
+}
+STRING 115
+{
+1 - 10
+}
+STRING 116
+{
+The crowds demand more entertainment after the fall of the first gladiators, and so, the jailers proudly send more Orcs onto the sands.
+}
+STRING 118
+{
+Version 1.29fc
+}
+STRING 119
+{
+Orc Gladiators: Revenge
+}
+STRING 120
+{
+|c00ffff33Plot|r: the first orc gladiators fell on the sands as they failed to overcome the challenges of the arena. But the crowd demands more, and so more orcs from the internment camp are "offered" by their captors to fight for their lives with a weapon of their choice.
+
+|c0033ff00(12/04/18) Version changes|r: This is an adjustment version for WC3 patch 1.29.
+
+Got suggestions? Found a bug? Want to arrange games with pros? 
+Join the discord at: https://discord.gg/c5rwpZX
+}
+STRING 331
+{
+|cffffcc00Difficulty|r: NIGHTMARE
+|cffffcc00Monster HP|r: +25%
+|cffffcc00Monster Speed|r: +40%
+|cffffcc00Bosses Are Protected|r: Yes
+ 
+}
+STRING 587
+{
+|cffffcc00Difficulty|r: HELL
+|cffffcc00Monster HP|r: +100%
+|cffffcc00Monster Speed|r: +40%
+|cffffcc00Monster Spell Damage|r: +50%
+|cffffcc00Monsters Enrage|r: Yes (after 180 seconds)
+|cffffcc00Bosses Are Protected|r: Yes
+|cffffcc00Grade Matters|r: No (always get A+)
+ 
+}
+STRING 660
+{
+|cffffcc00You beat the game! Congrats!
+
+Keep a screenshot and replay for the special Hell version of Hall of Fame (you know where i am).
+
+First team to beat Hell gets the slot.
+}
+STRING 1104
+{
+This is a CRASH FIX version. However, there are some more changes.
+
+Crashfix:
+ - Fixed a crash caused by Thorns Aura.
+ - Unholy Frenzy can once again be cast on Runeblades.
+ - Fixed Great Axe vitality talent.
+General:
+ - Fixed several passive abilities unintentionally giving 15% Evasion.
+ - Gladiators can no longer attack items.
+Enchants:
+ - Charge Range increased from 1600 to 1750.
+ - When the Audience are bored of your tactics, your team will lose a significant amount of upgrade points.
+ - Control Points that are fully charged (i.e. 2/2 Enchants) will lose 200 charge after each round.
+ - Enchants now have an item description.
+ - Fixed Enchant: Blood's mana-steal not working when at full hit points.
+}
+STRING 1830
+{
+To encourage fair teamplay you can request to borrow gold from teammates. To do this, type '-borrow xxxx' where xxxx is an amount from 1 to 9999. This begins a 12 second window where other players can type '-loan xxxx' to give you the gold you want. Some tips to note about this system:
+ - Payback is automatic and is done before and after rounds start
+ - Type '-debts' to show what you owe other players
+ - Type '-dues' to show what other players owe you
+ - If you type -loan without specifying an amount, you will automatically try to meet the request
+}
+STRING 2015
+{
+Test commands have been enabled.
+}
+STRING 2094
+{
+Test commands have been enabled.
+}
+STRING 2446
+{
+Defeat!
+}
+STRING 2610
+{
+Fixes:
+ - Fixed an error where +200 EXP existed twice in the possible reward pool.
+ - You can no longer pick Crystal Ball after being force randomed a hero.
+ - Fixed Enchant: Blood's mana-steal from effecting all units.
+ - Spamming -repick no longer clears the EXP -repick penalty on your next pick.
+ - The central control point (Hill: Fire) has moved location to prevent overlap with top left and top right.
+Wave Changes:
+ - Movement Speed has been normalized within waves. Wave 1 starts at 200 movement speed, and each wave thereafter gains 10 more movement speed, up to a cap of 320. This is an overall nerf to early game waves, a slight buff to mid game waves and does not effect the end game waves.
+ - Attack Range (of ranged creeps) has been normalized within and across waves. Wave 1 starts at 240 range, and each wave thereafter gains 30 more attack range. Wave 20 has the highest ranged attackers of 810. This is a nerf to early game waves but a strong buff to mid and end game waves.
+ - Above changes also applies to Bosses. Do note that some bosses/creeps have abilities that may increase their attack range or movement speed above or below the expected amount (e.g. Wildkin Boss).
+ - All bosses of the same wave share the same effective HP; this means their HP/DMG gained per player and armour type are the same. This is to ensure all boss base stats are balanced and to help avoid situations where 1 alternate wave is more powerful than the other.
+ - The armour gain of bosses has been adjusted. Bosses 1-9 gain a minor armour bonus per player in the game whilst Bosses 10-19 gain a moderate armour bonus. Boss 20's stats have been unchanged.
+ - Collision Size follows this rule for creeps: Spawn Size 1 = 16, Spawn Size 2 or 3 = 24, Spawn Size 4 = 32.
+ - To help assist with AI pathing, Player 11 (formerly Jailers) is now Monsters (identical to Player 12). Monsters that spawn on the East and West will be owned by Player 11 whilst Player 12 will own North and all bosses. Please keep an eye out for bugs as some of the creep coding was based around Player 12 and not Players 11 and 12.
+ - (REQUIRES TESTING) Monsters that spawn North will attempt to use the Fountain's right entrance when the players are based there.
+SCYTHE:
+ - Golem Stats reduced by 30%.
+ - Flesh Golem's Blood Strike area of effect reduced by 30%.
+ - Soul Harvest does 100% more damage.
+DRUID:
+ - Gnarly Bark gives +100% thorns damage instead of +300%.
+ - Wither's damage reduced by 20%.
+ - Starfall mana cost reduced by 25.
+WAR DRUMS:
+ - Comradeship now reduces Inspire's cooldown by 30 seconds instead of 60.
+HELL MODE:
+ - Hell Mode follows a preset sequence of waves to keep the difficulty balanced and predictable. 
+ - After 120 seconds all wave creeps will Enrage (down from 180 seconds).
+ - After 180 seconds the scroll shop will despawn.
+REWARDS:
+ - Added missing hybrids for +50 HP, +25 Gold, +5 Damage and +100 EXP.
+ - (Requires Testing) Fixes for +50 HP hybrid rewards.
+}
+STRING 2779
+{
+|cffffcc00Well done! You completed the game on Nightmare. Try Hell?
+
+Contact: pick-a-chew on the OG:R's Discord (https://discord.gg/bvyR4Kq)|r
+
+The game will end in 5 minutes.
+}
+STRING 2810
+{
+Map systems: Bribe (Damage Detection System & Item Clean Up), Paladon (Lightning Strike & Leap).
+Models: Tr!KzZ (Double Blades), Truth Troll UA (Druid Staff), Darkwind (GoldenClaw), Blood Raven (HammerTime, Soul Harvester Scythe),  Forgotten_Warlord (Horde Fire Bow), Kitabatake (Katana), JesusHispter (Stone Shield), Waldbaer (Bladestorm Effect), ? (HD Orc Model).
+Icons: PrinceOfFame (Ancient Katana), Ginufe (Anger), The Panda (Arrow Shower, Bash), Blizzard Entertainment (Various Icons),  PeeKay (Pathfinder01), Mr.Goblin (Rain of Fire).
+}
+STRING 3171
+{
+Player 1 only:
+-oldwaves (game will follow old wave structure)
+-waves2 (game will follow new wave structure 1)
+-waves3 (game will follow new wave structure 2)
+-normal (sets difficulty to normal)
+-nightmare (sets difficulty to nightmare)
+-hell (Hell must be enabled. Sets difficulty to hell)
+-ar (players can only random from the racks)
+-ban 'weapon name' (weapon cannot be picked or randomed)
+}
+STRING 4381
+{
+Monsters
+}
+STRING 4776
+{
+|cffffcc00Tips for beginners|r:
+ - You gain skills as you level up
+ - You get lumber on hero levels 8, 10, 12, 14 etc.
+ - EXP share is global and you still get EXP if dead
+ - Gold is gained at the end of the wave
+ - The first 10 waves are easier than the last 10
+ - If there are leavers, the game will scale accordingly.
+
+Join the https://discord.gg/c5rwpZX to meet with other players, suggest improvements, report bugs and to organise timed runs!
+}
+STRING 4861
+{
+|cffffcc00Creator|r: pick-a-chew
+
+|cffffcc00MakeMeHost.com|r: Updating/hosting map
+|cffffcc00WC3|r: Organising Discord
+|cffffcc00BaronF4|r: Map preview screen, terrain and constructive feedback/suggestions.
+|cffffcc00Sewers|r: Useful feedback, suggestions and dedication.
+|cffffcc00Bribe|r: Various systems that power the map.
+}
+STRING 7412
+{
+Welcome to |cffffcc00Orc Gladiators: Revenge|r
+
+Starting this version, Player 1 Red can set game modes.
+
+Vote will begin after 10 seconds if they do not specify difficulty.
+ 
+}
+STRING 7428
+{
+|cffffcc00Difficulty|r: NORMAL
+|cffffcc00Monster HP|r: +0%
+|cffffcc00Monster Speed|r: +0%
+|cffffcc00Bosses Are Protected|r: No
+ 
+}
+STRING 7443
+{
+|cffffcc00Well done! You completed the game on Normal. You should try Nightmare now you know how to play the game.
+
+The team with the best grade can be featured in the Hall of Fame for this particular version. Only the BEST will have the spot!
+
+Contact: pick-a-chew on OG:R's Discord (https://discord.gg/bvyR4Kq).|r
+
+The game will end in 5 minutes.
+}
+STRING 7493
+{
+pick-a-chew
+}
+STRING 8132
+{
+https://discord.gg/c5rwpZX
+
+A discord page has been set up by WC3 for Orc Gladiators: Revenge to help you find games and groups, particularly for nightmare mode. Suggestions, bug reports and Hall of Fame submissions will also take place here. Come and meet your fellow gladiators!
+}
+STRING 8769
+{
+-nospam (filters some unimportant game messages)
+-clear (clears game messages from your screen)
+-damage (reports total damage done for all players)
+-healed (reports total healing done for all players)
+-bossdmg (reports total damage done to bosses for all players)
+-tanked (reports total hits taken for all players)
+-z.far (zooms the camera out far)
+-upgrades (shows progress towards next Upgrade)
+-players (lists player name vs. player number)
+-debts (shows debts towards players)
+-dues (shows expected dues from players)
+-borrow xxxx (request to borrow gold)
+-loan xxxx (loan gold in response to -borrow)
+}
+STRING 9700
+{
+|c00ffcc66WEAPON UPGRADE AVAILABLE|r
+As a reward for your excellent performance, ONE of you gets a free weapon upgrade. Write -roll to enter for yourself and -rollsupport (player number) to support another player's roll.
+}

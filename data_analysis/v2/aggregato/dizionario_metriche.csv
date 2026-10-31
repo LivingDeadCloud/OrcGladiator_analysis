@@ -1,0 +1,10 @@
+metrica,fonte,tipo,affidabilita,nota
+quota_danni / quota_boss / quota_tank,multiboard (screenshot),misurata,alta,Quota cumulativa del team dopo la challenge 19 (somma 100).
+quota_cure_multiboard,multiboard,misurata,alta,"Include pozioni, rigenerazione, lifesteal (Vampiric Aura) e alcuni oggetti oltre alle abilita."
+quota_cure_solo_abilita_a/b/c,multiboard + codice mappa,stimata,bassa-media,"Tre scenari; b = centrale. Usare come forbice, non come valore esatto."
+*_quota_round,"multiboard, per differenza",stimata,media,"Metodo tempo_vincolato (classi_ruoli): concorda con i premi del round in 59/64 casi. Ordine tra classi affidabile, valori puntuali +-1-2 punti."
+tipo_wave,codice mappa (war3map.j + dati unita),misurata,alta,Soglia 85% degli HP delle truppe; boss escluso. Variante 3 di tutte le wave (-waves3).
+apm / abilita_min / click_movimento_min,replay,misurata,alta,"Comandi, non effetti."
+mana_pct_*,"simulazione da replay + mappa, calibrata sugli screenshot",stimata,variabile,"Affidabile solo Wizard Staff; non affidabile per War Drums, Double Blade, Bow, Naga Trident (escluse dalle medie)."
+cast_effettivi / cooldown_occupato_* / ordini_sprecati,replay + cooldown da mappa,stimata,media-alta,Cast = ordini fuori cooldown (limite superiore). Autocast non visibili.
+round_sotto_20hp / hp_fine_round,multiboard,misurata,alta,Solo istante dello screenshot.

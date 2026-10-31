@@ -1,0 +1,19 @@
+tipo_wave,challenge,ruolo,n_classi,eroi_round,morti_alta_media,morti_per_100_eroi_round,fine_round_sotto_20hp,sotto_20hp_per_100_eroi_round
+distanza,4 9 11 16,Tank,2,8,0,0.0,0,0.0
+distanza,4 9 11 16,Healer,1,4,1,25.0,1,25.0
+distanza,4 9 11 16,Support,1,4,1,25.0,0,0.0
+distanza,4 9 11 16,DPS mischia,3,12,2,16.7,1,8.3
+distanza,4 9 11 16,DPS distanza,3,12,7,58.3,4,33.3
+distanza,4 9 11 16,TEAM,10,40,11,27.5,6,15.0
+ibrida,1 2 6 7 8 12 13 14 18 19,Tank,2,20,1,5.0,1,5.0
+ibrida,1 2 6 7 8 12 13 14 18 19,Healer,1,10,3,30.0,1,10.0
+ibrida,1 2 6 7 8 12 13 14 18 19,Support,1,10,1,10.0,2,20.0
+ibrida,1 2 6 7 8 12 13 14 18 19,DPS mischia,3,30,3,10.0,3,10.0
+ibrida,1 2 6 7 8 12 13 14 18 19,DPS distanza,3,30,6,20.0,4,13.3
+ibrida,1 2 6 7 8 12 13 14 18 19,TEAM,10,100,14,14.0,11,11.0
+mischia,3 5 10 15 17,Tank,2,10,2,20.0,2,20.0
+mischia,3 5 10 15 17,Healer,1,5,2,40.0,1,20.0
+mischia,3 5 10 15 17,Support,1,5,1,20.0,1,20.0
+mischia,3 5 10 15 17,DPS mischia,3,15,4,26.7,4,26.7
+mischia,3 5 10 15 17,DPS distanza,3,15,5,33.3,4,26.7
+mischia,3 5 10 15 17,TEAM,10,50,14,28.0,12,24.0

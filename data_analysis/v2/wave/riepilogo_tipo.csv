@@ -1,0 +1,5 @@
+tipo_wave,n_wave,challenge,n_con_secondi,secondi_media,secondi_mediana,secondi_min,secondi_max,n_con_voto,voto_medio_num,voti,eroi_hp_le20_media,eroi_hp_le20_totale,round_con_almeno_1_eroe_le20,apm_team_media,click_movimento_min_team_media
+mischia,5,3 5 10 15 17,5,149.0,161,77,236,5,3,A D D E A,2.6,13,3,51.4,30.7
+distanza,4,4 9 11 16,4,237,185.0,150,428,4,4.5,C G C E,1.5,6,3,62.9,41.8
+ibrida,10,1 2 6 7 8 12 13 14 18 19,7,157.0,121,61,432,8,3.12,A A B D C C G D,1.1,11,3,54.3,33.5
+tutte,19,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19,16,174.0,152.0,61,432,17,3.41,A A A C D B D G D C C C E E A G D,1.58,30,9,55.3,34.5

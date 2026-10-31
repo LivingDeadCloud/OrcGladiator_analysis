@@ -1,0 +1,695 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Orc Gladiators: analisi partita</title>
+<style>
+:root {
+  color-scheme: light;
+  --font-anthropic-sans: "Segoe UI", system-ui, -apple-system, Roboto, sans-serif;
+  --font-anthropic-serif: Georgia, "Times New Roman", serif;
+  --color-bg: #f7f7f4; --color-panel: #ffffff; --color-fg: #1b1b18; --color-fg-muted: #6b6a64;
+  --color-border-line: #e2e1da; --color-bad: #d03b3b; --color-ok: #0a7d0a; --color-warn: #b77700;
+  --cds-chart-grid: #ecebe5; --cds-chart-axis: #c3c2b7; --cds-chart-reference: #898781;
+  --cds-chart-muted: #d3d2ca; --cds-chart-status-critical: #d03b3b;
+  --cds-surface-popover: #ffffff; --cds-border: #dcdbd3; --cds-text-secondary: #52514e;
+  --cds-shadow-popover: 0 4px 16px rgba(0,0,0,.12);
+  --og-c1: #2a78d6; --og-c2: #eb6834; --og-c3: #1baf7a; --og-c4: #4a3aa7;
+  --og-c5: #c98500; --og-c6: #e87ba4; --og-c7: #008300; --og-c8: #e34948;
+  --cds-gap-xs: 4px; --cds-gap-sm: 8px; --cds-gap-md: 16px; --cds-gap-lg: 24px; --cds-gap-xl: 40px;
+  --cds-pad-xs: 4px; --cds-pad-sm: 8px; --cds-pad-md: 12px; --cds-pad-lg: 18px; --cds-pad-xl: 28px;
+  --cds-radius: 8px;
+  --cds-font-size-caption: 12.5px; --cds-font-size-body: 15px; --cds-font-size-heading: 19px; --cds-font-size-title: 30px;
+  --cds-font-weight-medium: 600; --cds-dur-slow: .3s;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --color-bg: #121211; --color-panel: #1c1c1a; --color-fg: #f2f1ec; --color-fg-muted: #a3a29b;
+    --color-border-line: #33332f; --cds-chart-grid: #2a2a27; --cds-chart-axis: #45453f;
+    --cds-chart-reference: #8a8983; --cds-chart-muted: #4a4a45;
+    --cds-surface-popover: #262624; --cds-border: #3a3a36; --cds-text-secondary: #c3c2b7;
+    --cds-shadow-popover: 0 4px 16px rgba(0,0,0,.5);
+    --og-c1: #3987e5; --og-c2: #d95926; --og-c3: #199e70; --og-c4: #9085e9;
+    --og-c5: #c98500; --og-c6: #d55181; --og-c7: #2fa52f; --og-c8: #e66767;
+  }
+}
+html, body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-family: var(--font-anthropic-sans); font-size: 15px; }
+#dash-root { padding: 24px clamp(16px, 4vw, 48px) 48px; }
+#dash-root .dash-skeleton { min-height: 1em; background: var(--color-border-line); border-radius: 6px; }
+</style>
+<script>window.__OG_DATA = {"profilo": {"columns": ["giocatore", "classe", "arma", "danni", "boss", "cure", "tank", "apm", "abilita_min", "click_movimento_min", "click_bersaglio_min", "hold_position", "oggetti_usati", "acquisti", "oro_medio_fine_round", "oro_max", "round_sotto_20hp", "premi_round", "comandi_prestito", "abilita_principale", "abilita_principale_usi"], "rows": [{"giocatore": "Orange Jews", "classe": "Shaman (Claws)", "arma": "Agility , Melee Caster", "danni": "26.9", "boss": "33.2", "cure": "7.3", "tank": "24.5", "apm": "75.9", "abilita_min": "4.31", "click_movimento_min": "57.8", "click_bersaglio_min": "9.0", "hold_position": "7", "oggetti_usati": "46", "acquisti": "48", "oro_medio_fine_round": "307", "oro_max": "756", "round_sotto_20hp": "2", "premi_round": "19", "comandi_prestito": "15", "abilita_principale": "Lightning Strike", "abilita_principale_usi": "235"}, {"giocatore": "MountainKing", "classe": "Warlock (Double Blade)", "arma": "Strength , Melee Caster", "danni": "5.5", "boss": "8.1", "cure": "5.7", "tank": "28.3", "apm": "55.9", "abilita_min": "1.75", "click_movimento_min": "39.3", "click_bersaglio_min": "6.9", "hold_position": "126", "oggetti_usati": "51", "acquisti": "47", "oro_medio_fine_round": "148", "oro_max": "701", "round_sotto_20hp": "2", "premi_round": "8", "comandi_prestito": "21", "abilita_principale": "Terror", "abilita_principale_usi": "79"}, {"giocatore": "JesusOnlyFans", "classe": "Death Knight (Runeblade)", "arma": "Strength , Melee Tank", "danni": "5.6", "boss": "3.9", "cure": "16.3", "tank": "14.7", "apm": "48.2", "abilita_min": "4.98", "click_movimento_min": "28.0", "click_bersaglio_min": "7.1", "hold_position": "37", "oggetti_usati": "34", "acquisti": "39", "oro_medio_fine_round": "298", "oro_max": "832", "round_sotto_20hp": "2", "premi_round": "4", "comandi_prestito": "25", "abilita_principale": "Unholy Frenzy", "abilita_principale_usi": "203"}, {"giocatore": "KimberlyRimming", "classe": "Ingegnere (Pickaxe)", "arma": "Strength , Melee Specialist", "danni": "15.3", "boss": "8.9", "cure": "3.1", "tank": "3.7", "apm": "86.5", "abilita_min": "4.3", "click_movimento_min": "55.4", "click_bersaglio_min": "17.5", "hold_position": "15", "oggetti_usati": "69", "acquisti": "60", "oro_medio_fine_round": "362", "oro_max": "1261", "round_sotto_20hp": "4", "premi_round": "5", "comandi_prestito": "30", "abilita_principale": "Overdrive", "abilita_principale_usi": "281"}, {"giocatore": "Tamburello", "classe": "Tamburi (War Drums)", "arma": "Agility , Ranged Support", "danni": "1.7", "boss": "2.2", "cure": "13.8", "tank": "1.0", "apm": "32.4", "abilita_min": "1.1", "click_movimento_min": "20.5", "click_bersaglio_min": "6.0", "hold_position": "3", "oggetti_usati": "33", "acquisti": "46", "oro_medio_fine_round": "301", "oro_max": "1228", "round_sotto_20hp": "3", "premi_round": "0", "comandi_prestito": "34", "abilita_principale": "Embolden", "abilita_principale_usi": "48"}, {"giocatore": "TheCadger", "classe": "Mago (Wizard Staff)", "arma": "Intelligence , Ranged Customizable", "danni": "12.9", "boss": "12.9", "cure": "1.5", "tank": "8.1", "apm": "52.2", "abilita_min": "9.07", "click_movimento_min": "32.0", "click_bersaglio_min": "3.9", "hold_position": "34", "oggetti_usati": "65", "acquisti": "43", "oro_medio_fine_round": "299", "oro_max": "993", "round_sotto_20hp": "1", "premi_round": "4", "comandi_prestito": "28", "abilita_principale": "Fire/Frost/Magic Bolt", "abilita_principale_usi": "663"}, {"giocatore": "Focascina", "classe": "Guerriero (War Hammer)", "arma": "Strength , Melee Tank", "danni": "7.1", "boss": "8.9", "cure": "12.9", "tank": "13.2", "apm": "82.6", "abilita_min": "6.41", "click_movimento_min": "50.3", "click_bersaglio_min": "15.4", "hold_position": "494", "oggetti_usati": "25", "acquisti": "39", "oro_medio_fine_round": "193", "oro_max": "912", "round_sotto_20hp": "1", "premi_round": "3", "comandi_prestito": "27", "abilita_principale": "Storm Bolt", "abilita_principale_usi": "535"}, {"giocatore": "bombtelaviv", "classe": "Arciere (Bow)", "arma": "Agility , Ranged DPS", "danni": "12.7", "boss": "14.3", "cure": "2.3", "tank": "1.0", "apm": "30.8", "abilita_min": "2.11", "click_movimento_min": "14.1", "click_bersaglio_min": "1.0", "hold_position": "0", "oggetti_usati": "68", "acquisti": "26", "oro_medio_fine_round": "136", "oro_max": "428", "round_sotto_20hp": "7", "premi_round": "3", "comandi_prestito": "9", "abilita_principale": "Volley", "abilita_principale_usi": "121"}, {"giocatore": "IFreniiiiiiiiii", "classe": "Naga (Trident)", "arma": "Agility , Ranged Caster", "danni": "11.3", "boss": "6.7", "cure": "1.2", "tank": "1.0", "apm": "58.9", "abilita_min": "2.4", "click_movimento_min": "40.9", "click_bersaglio_min": "10.6", "hold_position": "0", "oggetti_usati": "14", "acquisti": "33", "oro_medio_fine_round": "281", "oro_max": "689", "round_sotto_20hp": "5", "premi_round": "6", "comandi_prestito": "9", "abilita_principale": "Forked Lightning", "abilita_principale_usi": "100"}, {"giocatore": "BoomKhamenei", "classe": "Druido (Druid Staff)", "arma": "Intelligence , Ranged Support", "danni": "1.0", "boss": "0.8", "cure": "36.0", "tank": "4.5", "apm": "56.4", "abilita_min": "7.01", "click_movimento_min": "33.4", "click_bersaglio_min": "2.6", "hold_position": "451", "oggetti_usati": "76", "acquisti": "36", "oro_medio_fine_round": "336", "oro_max": "937", "round_sotto_20hp": "3", "premi_round": "16", "comandi_prestito": "33", "abilita_principale": "Rejuvenation", "abilita_principale_usi": "543"}]}, "andamento": {"columns": ["player", "challenge", "danni", "boss", "cure", "tank", "oro", "hp_fine_round", "livello"], "rows": [{"player": "Orange Jews", "challenge": "1", "danni": "17.1", "boss": "4.3", "cure": "0.5", "tank": "21.7", "oro": "19", "hp_fine_round": "100", "livello": "2"}, {"player": "JesusOnlyFans", "challenge": "1", "danni": "9.8", "boss": "7.9", "cure": "11.6", "tank": "25.0", "oro": "17", "hp_fine_round": "100", "livello": "2"}, {"player": "Focascina", "challenge": "1", "danni": "10.4", "boss": "9.9", "cure": "12.9", "tank": "32.5", "oro": "19", "hp_fine_round": "100", "livello": "2"}, {"player": "bombtelaviv", "challenge": "1", "danni": "16.5", "boss": "4.2", "cure": "0.0", "tank": "0.2", "oro": "17", "hp_fine_round": "100", "livello": "2"}, {"player": "Tamburello", "challenge": "1", "danni": "6.3", "boss": "3.0", "cure": "3.4", "tank": "0.0", "oro": "17", "hp_fine_round": "100", "livello": "2"}, {"player": "MountainKing", "challenge": "1", "danni": "9.5", "boss": "10.4", "cure": "11.1", "tank": "10.8", "oro": "17", "hp_fine_round": "100", "livello": "2"}, {"player": "BoomKhamenei", "challenge": "1", "danni": "3.9", "boss": "4.8", "cure": "52.7", "tank": "0.0", "oro": "19", "hp_fine_round": "100", "livello": "2"}, {"player": "TheCadger", "challenge": "1", "danni": "6.5", "boss": "8.4", "cure": "0.0", "tank": "0.2", "oro": "17", "hp_fine_round": "100", "livello": "2"}, {"player": "KimberlyRimming", "challenge": "1", "danni": "5.5", "boss": "7.1", "cure": "7.9", "tank": "9.6", "oro": "17", "hp_fine_round": "91", "livello": "2"}, {"player": "IFreniiiiiiiiii", "challenge": "1", "danni": "14.6", "boss": "40.0", "cure": "0.0", "tank": "0.0", "oro": "19", "hp_fine_round": "100", "livello": "2"}, {"player": "Orange Jews", "challenge": "2", "danni": "17.3", "boss": "2.3", "cure": "2.4", "tank": "18.4", "oro": "84", "hp_fine_round": "90", "livello": "3"}, {"player": "JesusOnlyFans", "challenge": "2", "danni": "6.4", "boss": "3.8", "cure": "18.2", "tank": "26.9", "oro": "57", "hp_fine_round": "90", "livello": "3"}, {"player": "Focascina", "challenge": "2", "danni": "10.5", "boss": "15.8", "cure": "16.0", "tank": "30.4", "oro": "29", "hp_fine_round": "100", "livello": "3"}, {"player": "bombtelaviv", "challenge": "2", "danni": "13.0", "boss": "1.5", "cure": "0.0", "tank": "0.1", "oro": "22", "hp_fine_round": "100", "livello": "3"}, {"player": "Tamburello", "challenge": "2", "danni": "5.2", "boss": "1.0", "cure": "10.2", "tank": "0.0", "oro": "52", "hp_fine_round": "100", "livello": "3"}, {"player": "MountainKing", "challenge": "2", "danni": "8.2", "boss": "8.4", "cure": "6.7", "tank": "11.8", "oro": "52", "hp_fine_round": "100", "livello": "3"}, {"player": "BoomKhamenei", "challenge": "2", "danni": "3.7", "boss": "4.4", "cure": "39.9", "tank": "0.0", "oro": "59", "hp_fine_round": "100", "livello": "3"}, {"player": "TheCadger", "challenge": "2", "danni": "11.1", "boss": "9.8", "cure": "1.1", "tank": "0.5", "oro": "27", "hp_fine_round": "100", "livello": "3"}, {"player": "KimberlyRimming", "challenge": "2", "danni": "12.7", "boss": "16.9", "cure": "4.9", "tank": "11.4", "oro": "52", "hp_fine_round": "75", "livello": "3"}, {"player": "IFreniiiiiiiiii", "challenge": "2", "danni": "11.9", "boss": "36.1", "cure": "0.7", "tank": "0.5", "oro": "84", "hp_fine_round": "100", "livello": "3"}, {"player": "Orange Jews", "challenge": "3", "danni": "14.8", "boss": "2.5", "cure": "3.6", "tank": "21.0", "oro": "118", "hp_fine_round": "100", "livello": "4"}, {"player": "JesusOnlyFans", "challenge": "3", "danni": "5.7", "boss": "2.8", "cure": "13.8", "tank": "27.1", "oro": "34", "hp_fine_round": "100", "livello": "4"}, {"player": "Focascina", "challenge": "3", "danni": "10.4", "boss": "21.9", "cure": "15.4", "tank": "27.3", "oro": "88", "hp_fine_round": "100", "livello": "4"}, {"player": "bombtelaviv", "challenge": "3", "danni": "13.6", "boss": "4.5", "cure": "0.0", "tank": "0.1", "oro": "84", "hp_fine_round": "100", "livello": "4"}, {"player": "Tamburello", "challenge": "3", "danni": "4.5", "boss": "0.8", "cure": "10.2", "tank": "0.0", "oro": "79", "hp_fine_round": "100", "livello": "4"}, {"player": "MountainKing", "challenge": "3", "danni": "7.1", "boss": "4.9", "cure": "8.3", "tank": "12.6", "oro": "54", "hp_fine_round": "100", "livello": "4"}, {"player": "BoomKhamenei", "challenge": "3", "danni": "3.5", "boss": "4.6", "cure": "41.8", "tank": "0.2", "oro": "18", "hp_fine_round": "100", "livello": "4"}, {"player": "TheCadger", "challenge": "3", "danni": "10.8", "boss": "11.6", "cure": "0.6", "tank": "0.4", "oro": "79", "hp_fine_round": "100", "livello": "4"}, {"player": "KimberlyRimming", "challenge": "3", "danni": "16.9", "boss": "18.5", "cure": "5.9", "tank": "11.1", "oro": "61", "hp_fine_round": "100", "livello": "4"}, {"player": "IFreniiiiiiiiii", "challenge": "3", "danni": "12.7", "boss": "27.9", "cure": "0.4", "tank": "0.4", "oro": "86", "hp_fine_round": "100", "livello": "4"}, {"player": "Orange Jews", "challenge": "4", "danni": "13.3", "boss": "3.6", "cure": "5.2", "tank": "22.4", "oro": "99", "hp_fine_round": "100", "livello": "4"}, {"player": "JesusOnlyFans", "challenge": "4", "danni": "7.4", "boss": "9.3", "cure": "17.7", "tank": "28.4", "oro": "125", "hp_fine_round": "100", "livello": "4"}, {"player": "Focascina", "challenge": "4", "danni": "9.9", "boss": "16.4", "cure": "10.7", "tank": "22.8", "oro": "44", "hp_fine_round": "100", "livello": "5"}, {"player": "bombtelaviv", "challenge": "4", "danni": "10.5", "boss": "2.2", "cure": "0.2", "tank": "0.5", "oro": "165", "hp_fine_round": "21", "livello": "5"}, {"player": "Tamburello", "challenge": "4", "danni": "4.9", "boss": "3.3", "cure": "11.7", "tank": "0.0", "oro": "35", "hp_fine_round": "100", "livello": "4"}, {"player": "MountainKing", "challenge": "4", "danni": "5.0", "boss": "3.9", "cure": "5.4", "tank": "10.3", "oro": "110", "hp_fine_round": "100", "livello": "4"}, {"player": "BoomKhamenei", "challenge": "4", "danni": "3.3", "boss": "3.7", "cure": "40.2", "tank": "2.1", "oro": "109", "hp_fine_round": "100", "livello": "5"}, {"player": "TheCadger", "challenge": "4", "danni": "13.1", "boss": "15.4", "cure": "0.4", "tank": "0.7", "oro": "35", "hp_fine_round": "100", "livello": "5"}, {"player": "KimberlyRimming", "challenge": "4", "danni": "19.2", "boss": "18.3", "cure": "6.9", "tank": "11.9", "oro": "77", "hp_fine_round": "100", "livello": "5"}, {"player": "IFreniiiiiiiiii", "challenge": "4", "danni": "13.4", "boss": "24.0", "cure": "1.5", "tank": "0.9", "oro": "152", "hp_fine_round": "100", "livello": "5"}, {"player": "Orange Jews", "challenge": "5", "danni": "12.5", "boss": "2.7", "cure": "5.1", "tank": "23.6", "oro": "186", "hp_fine_round": "17", "livello": "5"}, {"player": "JesusOnlyFans", "challenge": "5", "danni": "8.5", "boss": "10.7", "cure": "18.7", "tank": "25.7", "oro": "100", "hp_fine_round": "74", "livello": "5"}, {"player": "Focascina", "challenge": "5", "danni": "11.4", "boss": "16.7", "cure": "11.6", "tank": "20.1", "oro": "94", "hp_fine_round": "100", "livello": "5"}, {"player": "bombtelaviv", "challenge": "5", "danni": "9.5", "boss": "1.7", "cure": "0.5", "tank": "1.1", "oro": "50", "hp_fine_round": "17", "livello": "6"}, {"player": "Tamburello", "challenge": "5", "danni": "4.3", "boss": "3.5", "cure": "11.9", "tank": "0.5", "oro": "50", "hp_fine_round": "100", "livello": "5"}, {"player": "MountainKing", "challenge": "5", "danni": "5.0", "boss": "2.9", "cure": "7.1", "tank": "11.7", "oro": "85", "hp_fine_round": "17", "livello": "5"}, {"player": "BoomKhamenei", "challenge": "5", "danni": "3.5", "boss": "6.7", "cure": "37.2", "tank": "3.5", "oro": "196", "hp_fine_round": "100", "livello": "6"}, {"player": "TheCadger", "challenge": "5", "danni": "13.0", "boss": "18.7", "cure": "0.7", "tank": "2.8", "oro": "72", "hp_fine_round": "100", "livello": "6"}, {"player": "KimberlyRimming", "challenge": "5", "danni": "17.9", "boss": "13.6", "cure": "6.2", "tank": "10.4", "oro": "152", "hp_fine_round": "17", "livello": "5"}, {"player": "IFreniiiiiiiiii", "challenge": "5", "danni": "14.3", "boss": "22.7", "cure": "1.0", "tank": "0.7", "oro": "114", "hp_fine_round": "100", "livello": "5"}, {"player": "Orange Jews", "challenge": "6", "danni": "12.1", "boss": "5.0", "cure": "5.1", "tank": "23.0", "oro": "286", "hp_fine_round": "100", "livello": "6"}, {"player": "JesusOnlyFans", "challenge": "6", "danni": "9.6", "boss": "9.1", "cure": "17.2", "tank": "24.4", "oro": "100", "hp_fine_round": "100", "livello": "6"}, {"player": "Focascina", "challenge": "6", "danni": "11.9", "boss": "15.6", "cure": "14.0", "tank": "20.3", "oro": "75", "hp_fine_round": "100", "livello": "6"}, {"player": "bombtelaviv", "challenge": "6", "danni": "10.4", "boss": "3.4", "cure": "0.4", "tank": "1.0", "oro": "65", "hp_fine_round": "100", "livello": "6"}, {"player": "Tamburello", "challenge": "6", "danni": "4.1", "boss": "3.3", "cure": "11.3", "tank": "0.4", "oro": "69", "hp_fine_round": "100", "livello": "6"}, {"player": "MountainKing", "challenge": "6", "danni": "4.3", "boss": "2.9", "cure": "8.2", "tank": "11.3", "oro": "160", "hp_fine_round": "100", "livello": "6"}, {"player": "BoomKhamenei", "challenge": "6", "danni": "3.0", "boss": "5.5", "cure": "35.4", "tank": "5.0", "oro": "265", "hp_fine_round": "100", "livello": "6"}, {"player": "TheCadger", "challenge": "6", "danni": "13.1", "boss": "19.3", "cure": "0.8", "tank": "3.8", "oro": "212", "hp_fine_round": "100", "livello": "7"}, {"player": "KimberlyRimming", "challenge": "6", "danni": "17.9", "boss": "14.6", "cure": "6.8", "tank": "10.2", "oro": "92", "hp_fine_round": "98", "livello": "6"}, {"player": "IFreniiiiiiiiii", "challenge": "6", "danni": "13.6", "boss": "21.4", "cure": "0.8", "tank": "0.6", "oro": "60", "hp_fine_round": "100", "livello": "6"}, {"player": "Orange Jews", "challenge": "7", "danni": "12.1", "boss": "5.0", "cure": "5.9", "tank": "23.6", "oro": "450", "hp_fine_round": "100", "livello": "7"}, {"player": "JesusOnlyFans", "challenge": "7", "danni": "10.2", "boss": "7.9", "cure": "16.5", "tank": "25.0", "oro": "256", "hp_fine_round": "70", "livello": "7"}, {"player": "Focascina", "challenge": "7", "danni": "11.2", "boss": "16.7", "cure": "15.1", "tank": "17.6", "oro": "84", "hp_fine_round": "100", "livello": "7"}, {"player": "bombtelaviv", "challenge": "7", "danni": "10.1", "boss": "3.8", "cure": "0.5", "tank": "0.9", "oro": "204", "hp_fine_round": "15", "livello": "7"}, {"player": "Tamburello", "challenge": "7", "danni": "3.5", "boss": "3.0", "cure": "11.2", "tank": "0.5", "oro": "92", "hp_fine_round": "100", "livello": "7"}, {"player": "MountainKing", "challenge": "7", "danni": "5.7", "boss": "3.2", "cure": "8.9", "tank": "13.0", "oro": "84", "hp_fine_round": "49", "livello": "7"}, {"player": "BoomKhamenei", "challenge": "7", "danni": "2.9", "boss": "4.5", "cure": "33.4", "tank": "6.1", "oro": "467", "hp_fine_round": "100", "livello": "7"}, {"player": "TheCadger", "challenge": "7", "danni": "12.6", "boss": "19.8", "cure": "1.2", "tank": "4.3", "oro": "84", "hp_fine_round": "100", "livello": "7"}, {"player": "KimberlyRimming", "challenge": "7", "danni": "16.8", "boss": "16.9", "cure": "5.9", "tank": "8.4", "oro": "101", "hp_fine_round": "100", "livello": "7"}, {"player": "IFreniiiiiiiiii", "challenge": "7", "danni": "14.7", "boss": "19.3", "cure": "1.4", "tank": "0.6", "oro": "145", "hp_fine_round": "100", "livello": "7"}, {"player": "Orange Jews", "challenge": "8", "danni": "13.8", "boss": "8.9", "cure": "5.0", "tank": "24.3", "oro": "116", "hp_fine_round": "100", "livello": "8"}, {"player": "JesusOnlyFans", "challenge": "8", "danni": "9.5", "boss": "7.6", "cure": "16.4", "tank": "22.1", "oro": "96", "hp_fine_round": "100", "livello": "8"}, {"player": "Focascina", "challenge": "8", "danni": "10.0", "boss": "13.2", "cure": "15.1", "tank": "17.7", "oro": "96", "hp_fine_round": "100", "livello": "8"}, {"player": "bombtelaviv", "challenge": "8", "danni": "10.7", "boss": "9.0", "cure": "1.2", "tank": "1.1", "oro": "141", "hp_fine_round": "100", "livello": "8"}, {"player": "Tamburello", "challenge": "8", "danni": "3.4", "boss": "4.0", "cure": "10.2", "tank": "0.6", "oro": "277", "hp_fine_round": "100", "livello": "8"}, {"player": "MountainKing", "challenge": "8", "danni": "5.2", "boss": "2.5", "cure": "9.3", "tank": "13.8", "oro": "96", "hp_fine_round": "100", "livello": "8"}, {"player": "BoomKhamenei", "challenge": "8", "danni": "2.5", "boss": "3.5", "cure": "34.8", "tank": "6.5", "oro": "466", "hp_fine_round": "100", "livello": "8"}, {"player": "TheCadger", "challenge": "8", "danni": "12.0", "boss": "15.6", "cure": "1.4", "tank": "6.0", "oro": "201", "hp_fine_round": "100", "livello": "8"}, {"player": "KimberlyRimming", "challenge": "8", "danni": "16.8", "boss": "17.9", "cure": "5.4", "tank": "7.2", "oro": "108", "hp_fine_round": "100", "livello": "8"}, {"player": "IFreniiiiiiiiii", "challenge": "8", "danni": "16.1", "boss": "17.8", "cure": "1.3", "tank": "0.7", "oro": "282", "hp_fine_round": "100", "livello": "8"}, {"player": "Orange Jews", "challenge": "9", "danni": "12.3", "boss": "12.9", "cure": "4.7", "tank": "20.8", "oro": "130", "hp_fine_round": "100", "livello": "9"}, {"player": "JesusOnlyFans", "challenge": "9", "danni": "10.1", "boss": "8.4", "cure": "19.9", "tank": "20.6", "oro": "202", "hp_fine_round": "59", "livello": "9"}, {"player": "Focascina", "challenge": "9", "danni": "9.9", "boss": "12.4", "cure": "16.4", "tank": "14.9", "oro": "133", "hp_fine_round": "100", "livello": "9"}, {"player": "bombtelaviv", "challenge": "9", "danni": "10.8", "boss": "9.9", "cure": "1.8", "tank": "1.2", "oro": "108", "hp_fine_round": "15", "livello": "9"}, {"player": "Tamburello", "challenge": "9", "danni": "2.8", "boss": "3.6", "cure": "9.0", "tank": "0.6", "oro": "127", "hp_fine_round": "100", "livello": "9"}, {"player": "MountainKing", "challenge": "9", "danni": "7.0", "boss": "6.0", "cure": "8.1", "tank": "21.9", "oro": "130", "hp_fine_round": "100", "livello": "9"}, {"player": "BoomKhamenei", "challenge": "9", "danni": "2.2", "boss": "2.7", "cure": "31.7", "tank": "5.9", "oro": "612", "hp_fine_round": "11", "livello": "9"}, {"player": "TheCadger", "challenge": "9", "danni": "13.3", "boss": "13.6", "cure": "1.8", "tank": "7.3", "oro": "355", "hp_fine_round": "100", "livello": "9"}, {"player": "KimberlyRimming", "challenge": "9", "danni": "17.0", "boss": "15.9", "cure": "5.3", "tank": "6.0", "oro": "151", "hp_fine_round": "100", "livello": "9"}, {"player": "IFreniiiiiiiiii", "challenge": "9", "danni": "14.6", "boss": "14.6", "cure": "1.2", "tank": "0.8", "oro": "414", "hp_fine_round": "15", "livello": "9"}, {"player": "Orange Jews", "challenge": "10", "danni": "12.2", "boss": "11.9", "cure": "4.7", "tank": "21.1", "oro": "216", "hp_fine_round": "100", "livello": "10"}, {"player": "JesusOnlyFans", "challenge": "10", "danni": "9.9", "boss": "7.2", "cure": "19.4", "tank": "20.3", "oro": "377", "hp_fine_round": "100", "livello": "10"}, {"player": "Focascina", "challenge": "10", "danni": "9.4", "boss": "12.1", "cure": "16.3", "tank": "14.8", "oro": "0", "hp_fine_round": "41", "livello": "10"}, {"player": "bombtelaviv", "challenge": "10", "danni": "12.4", "boss": "13.8", "cure": "1.7", "tank": "1.1", "oro": "0", "hp_fine_round": "100", "livello": "10"}, {"player": "Tamburello", "challenge": "10", "danni": "2.7", "boss": "3.6", "cure": "9.5", "tank": "0.6", "oro": "298", "hp_fine_round": "100", "livello": "10"}, {"player": "MountainKing", "challenge": "10", "danni": "7.7", "boss": "11.5", "cure": "7.9", "tank": "22.4", "oro": "0", "hp_fine_round": "100", "livello": "10"}, {"player": "BoomKhamenei", "challenge": "10", "danni": "1.7", "boss": "1.8", "cure": "33.0", "tank": "5.8", "oro": "424", "hp_fine_round": "100", "livello": "10"}, {"player": "TheCadger", "challenge": "10", "danni": "13.0", "boss": "12.0", "cure": "1.6", "tank": "7.3", "oro": "622", "hp_fine_round": "100", "livello": "10"}, {"player": "KimberlyRimming", "challenge": "10", "danni": "16.3", "boss": "14.4", "cure": "4.8", "tank": "5.8", "oro": "392", "hp_fine_round": "100", "livello": "10"}, {"player": "IFreniiiiiiiiii", "challenge": "10", "danni": "14.7", "boss": "11.6", "cure": "1.2", "tank": "0.8", "oro": "589", "hp_fine_round": "19", "livello": "10"}, {"player": "Orange Jews", "challenge": "11", "danni": "12.7", "boss": "11.3", "cure": "4.3", "tank": "21.1", "oro": "348", "hp_fine_round": "100", "livello": "11"}, {"player": "JesusOnlyFans", "challenge": "11", "danni": "9.8", "boss": "6.5", "cure": "18.5", "tank": "19.8", "oro": "509", "hp_fine_round": "83", "livello": "10"}, {"player": "Focascina", "challenge": "11", "danni": "9.4", "boss": "13.3", "cure": "16.5", "tank": "14.2", "oro": "132", "hp_fine_round": "91", "livello": "11"}, {"player": "bombtelaviv", "challenge": "11", "danni": "12.7", "boss": "14.7", "cure": "1.8", "tank": "1.0", "oro": "155", "hp_fine_round": "100", "livello": "11"}, {"player": "Tamburello", "challenge": "11", "danni": "2.7", "boss": "3.7", "cure": "10.2", "tank": "0.7", "oro": "230", "hp_fine_round": "100", "livello": "10"}, {"player": "MountainKing", "challenge": "11", "danni": "7.5", "boss": "10.3", "cure": "7.7", "tank": "24.4", "oro": "159", "hp_fine_round": "100", "livello": "10"}, {"player": "BoomKhamenei", "challenge": "11", "danni": "1.7", "boss": "1.7", "cure": "33.1", "tank": "5.3", "oro": "530", "hp_fine_round": "100", "livello": "11"}, {"player": "TheCadger", "challenge": "11", "danni": "12.7", "boss": "13.7", "cure": "2.3", "tank": "7.1", "oro": "159", "hp_fine_round": "100", "livello": "11"}, {"player": "KimberlyRimming", "challenge": "11", "danni": "16.2", "boss": "13.1", "cure": "4.4", "tank": "5.3", "oro": "203", "hp_fine_round": "16", "livello": "11"}, {"player": "IFreniiiiiiiiii", "challenge": "11", "danni": "14.6", "boss": "11.7", "cure": "1.3", "tank": "0.9", "oro": "208", "hp_fine_round": "100", "livello": "11"}, {"player": "Orange Jews", "challenge": "12", "danni": "16.3", "boss": "11.9", "cure": "4.9", "tank": "21.0", "oro": "676", "hp_fine_round": "100", "livello": "11"}, {"player": "JesusOnlyFans", "challenge": "12", "danni": "8.5", "boss": "6.6", "cure": "17.5", "tank": "18.9", "oro": "832", "hp_fine_round": "100", "livello": "11"}, {"player": "Focascina", "challenge": "12", "danni": "9.3", "boss": "13.2", "cure": "16.4", "tank": "14.1", "oro": "0", "hp_fine_round": "100", "livello": "12"}, {"player": "bombtelaviv", "challenge": "12", "danni": "12.1", "boss": "14.9", "cure": "1.7", "tank": "0.9", "oro": "428", "hp_fine_round": "100", "livello": "12"}, {"player": "Tamburello", "challenge": "12", "danni": "2.4", "boss": "3.6", "cure": "10.3", "tank": "0.7", "oro": "328", "hp_fine_round": "100", "livello": "11"}, {"player": "MountainKing", "challenge": "12", "danni": "7.8", "boss": "10.2", "cure": "7.3", "tank": "25.7", "oro": "0", "hp_fine_round": "100", "livello": "11"}, {"player": "BoomKhamenei", "challenge": "12", "danni": "1.5", "boss": "1.7", "cure": "34.1", "tank": "5.3", "oro": "166", "hp_fine_round": "100", "livello": "12"}, {"player": "TheCadger", "challenge": "12", "danni": "12.5", "boss": "14.5", "cure": "2.1", "tank": "7.2", "oro": "409", "hp_fine_round": "100", "livello": "12"}, {"player": "KimberlyRimming", "challenge": "12", "danni": "15.2", "boss": "12.4", "cure": "4.4", "tank": "5.2", "oro": "538", "hp_fine_round": "100", "livello": "12"}, {"player": "IFreniiiiiiiiii", "challenge": "12", "danni": "14.5", "boss": "11.0", "cure": "1.4", "tank": "0.9", "oro": "481", "hp_fine_round": "100", "livello": "12"}, {"player": "Orange Jews", "challenge": "13", "danni": "20.0", "boss": "17.4", "cure": "5.6", "tank": "21.8", "oro": "0", "hp_fine_round": "3", "livello": "12"}, {"player": "JesusOnlyFans", "challenge": "13", "danni": "7.9", "boss": "5.9", "cure": "18.1", "tank": "16.5", "oro": "40", "hp_fine_round": "79", "livello": "12"}, {"player": "Focascina", "challenge": "13", "danni": "8.5", "boss": "14.2", "cure": "14.9", "tank": "12.5", "oro": "185", "hp_fine_round": "82", "livello": "12"}, {"player": "bombtelaviv", "challenge": "13", "danni": "12.1", "boss": "13.6", "cure": "2.0", "tank": "1.2", "oro": "198", "hp_fine_round": "13", "livello": "12"}, {"player": "Tamburello", "challenge": "13", "danni": "2.1", "boss": "3.4", "cure": "9.6", "tank": "1.1", "oro": "536", "hp_fine_round": "5", "livello": "12"}, {"player": "MountainKing", "challenge": "13", "danni": "7.8", "boss": "9.9", "cure": "7.3", "tank": "28.6", "oro": "0", "hp_fine_round": "92", "livello": "12"}, {"player": "BoomKhamenei", "challenge": "13", "danni": "1.3", "boss": "1.6", "cure": "34.9", "tank": "4.7", "oro": "406", "hp_fine_round": "13", "livello": "12"}, {"player": "TheCadger", "challenge": "13", "danni": "12.1", "boss": "13.2", "cure": "2.7", "tank": "7.6", "oro": "617", "hp_fine_round": "70", "livello": "13"}, {"player": "KimberlyRimming", "challenge": "13", "danni": "15.1", "boss": "11.2", "cure": "3.9", "tank": "5.0", "oro": "757", "hp_fine_round": "19", "livello": "12"}, {"player": "IFreniiiiiiiiii", "challenge": "13", "danni": "13.3", "boss": "9.8", "cure": "1.2", "tank": "1.0", "oro": "689", "hp_fine_round": "13", "livello": "13"}, {"player": "Orange Jews", "challenge": "14", "danni": "22.4", "boss": "18.3", "cure": "6.4", "tank": "22.4", "oro": "203", "hp_fine_round": "100", "livello": "13"}, {"player": "JesusOnlyFans", "challenge": "14", "danni": "7.0", "boss": "5.4", "cure": "16.7", "tank": "15.5", "oro": "168", "hp_fine_round": "100", "livello": "13"}, {"player": "Focascina", "challenge": "14", "danni": "7.8", "boss": "12.9", "cure": "14.3", "tank": "12.2", "oro": "168", "hp_fine_round": "100", "livello": "13"}, {"player": "bombtelaviv", "challenge": "14", "danni": "13.2", "boss": "18.1", "cure": "2.1", "tank": "1.2", "oro": "203", "hp_fine_round": "100", "livello": "13"}, {"player": "Tamburello", "challenge": "14", "danni": "1.9", "boss": "3.4", "cure": "9.9", "tank": "1.2", "oro": "693", "hp_fine_round": "100", "livello": "13"}, {"player": "MountainKing", "challenge": "14", "danni": "7.2", "boss": "8.6", "cure": "8.1", "tank": "29.5", "oro": "203", "hp_fine_round": "100", "livello": "13"}, {"player": "BoomKhamenei", "challenge": "14", "danni": "1.2", "boss": "1.3", "cure": "35.5", "tank": "4.6", "oro": "609", "hp_fine_round": "100", "livello": "13"}, {"player": "TheCadger", "challenge": "14", "danni": "11.9", "boss": "11.8", "cure": "2.4", "tank": "7.7", "oro": "458", "hp_fine_round": "100", "livello": "13"}, {"player": "KimberlyRimming", "challenge": "14", "danni": "14.8", "boss": "10.8", "cure": "3.6", "tank": "4.7", "oro": "975", "hp_fine_round": "100", "livello": "13"}, {"player": "IFreniiiiiiiiii", "challenge": "14", "danni": "12.7", "boss": "9.5", "cure": "1.2", "tank": "1.0", "oro": "168", "hp_fine_round": "100", "livello": "13"}, {"player": "Orange Jews", "challenge": "15", "danni": "23.4", "boss": "23.7", "cure": "6.1", "tank": "22.2", "oro": "491", "hp_fine_round": "100", "livello": "14"}, {"player": "JesusOnlyFans", "challenge": "15", "danni": "6.6", "boss": "4.4", "cure": "16.7", "tank": "15.3", "oro": "499", "hp_fine_round": "12", "livello": "14"}, {"player": "Focascina", "challenge": "15", "danni": "7.7", "boss": "11.8", "cure": "14.3", "tank": "12.2", "oro": "56", "hp_fine_round": "12", "livello": "14"}, {"player": "bombtelaviv", "challenge": "15", "danni": "13.6", "boss": "20.3", "cure": "2.1", "tank": "1.2", "oro": "0", "hp_fine_round": "12", "livello": "14"}, {"player": "Tamburello", "challenge": "15", "danni": "1.8", "boss": "2.6", "cure": "10.3", "tank": "1.2", "oro": "457", "hp_fine_round": "12", "livello": "14"}, {"player": "MountainKing", "challenge": "15", "danni": "6.8", "boss": "9.9", "cure": "7.9", "tank": "30.0", "oro": "0", "hp_fine_round": "52", "livello": "14"}, {"player": "BoomKhamenei", "challenge": "15", "danni": "1.1", "boss": "1.0", "cure": "35.5", "tank": "4.7", "oro": "937", "hp_fine_round": "12", "livello": "14"}, {"player": "TheCadger", "challenge": "15", "danni": "12.2", "boss": "9.7", "cure": "2.4", "tank": "7.6", "oro": "993", "hp_fine_round": "20", "livello": "14"}, {"player": "KimberlyRimming", "challenge": "15", "danni": "14.0", "boss": "9.2", "cure": "3.7", "tank": "4.7", "oro": "1261", "hp_fine_round": "18", "livello": "14"}, {"player": "IFreniiiiiiiiii", "challenge": "15", "danni": "12.8", "boss": "7.4", "cure": "1.1", "tank": "1.0", "oro": "423", "hp_fine_round": "12", "livello": "14"}, {"player": "Orange Jews", "challenge": "16", "danni": "24.4", "boss": "27.9", "cure": "5.9", "tank": "22.2", "oro": "756", "hp_fine_round": "100", "livello": "15"}, {"player": "JesusOnlyFans", "challenge": "16", "danni": "6.3", "boss": "4.2", "cure": "16.8", "tank": "14.7", "oro": "716", "hp_fine_round": "98", "livello": "15"}, {"player": "Focascina", "challenge": "16", "danni": "7.5", "boss": "10.3", "cure": "13.5", "tank": "11.7", "oro": "248", "hp_fine_round": "100", "livello": "15"}, {"player": "bombtelaviv", "challenge": "16", "danni": "13.7", "boss": "16.2", "cure": "2.9", "tank": "1.3", "oro": "192", "hp_fine_round": "12", "livello": "15"}, {"player": "Tamburello", "challenge": "16", "danni": "1.7", "boss": "2.4", "cure": "10.6", "tank": "1.1", "oro": "347", "hp_fine_round": "100", "livello": "15"}, {"player": "MountainKing", "challenge": "16", "danni": "6.6", "boss": "10.9", "cure": "7.5", "tank": "30.7", "oro": "232", "hp_fine_round": "100", "livello": "15"}, {"player": "BoomKhamenei", "challenge": "16", "danni": "1.1", "boss": "0.9", "cure": "36.2", "tank": "4.6", "oro": "232", "hp_fine_round": "100", "livello": "15"}, {"player": "TheCadger", "challenge": "16", "danni": "12.1", "boss": "11.5", "cure": "2.1", "tank": "7.9", "oro": "192", "hp_fine_round": "90", "livello": "15"}, {"player": "KimberlyRimming", "challenge": "16", "danni": "14.8", "boss": "10.0", "cure": "3.2", "tank": "4.6", "oro": "192", "hp_fine_round": "100", "livello": "15"}, {"player": "IFreniiiiiiiiii", "challenge": "16", "danni": "11.9", "boss": "5.7", "cure": "1.2", "tank": "1.1", "oro": "615", "hp_fine_round": "12", "livello": "15"}, {"player": "Orange Jews", "challenge": "17", "danni": "24.9", "boss": "29.0", "cure": "6.4", "tank": "22.7", "oro": "637", "hp_fine_round": "100", "livello": "16"}, {"player": "JesusOnlyFans", "challenge": "17", "danni": "5.9", "boss": "4.0", "cure": "17.2", "tank": "14.8", "oro": "427", "hp_fine_round": "100", "livello": "15"}, {"player": "Focascina", "challenge": "17", "danni": "7.1", "boss": "9.2", "cure": "12.6", "tank": "11.4", "oro": "484", "hp_fine_round": "100", "livello": "16"}, {"player": "bombtelaviv", "challenge": "17", "danni": "13.7", "boss": "16.0", "cure": "2.6", "tank": "1.3", "oro": "395", "hp_fine_round": "100", "livello": "16"}, {"player": "Tamburello", "challenge": "17", "danni": "1.7", "boss": "2.4", "cure": "12.1", "tank": "1.1", "oro": "501", "hp_fine_round": "100", "livello": "16"}, {"player": "MountainKing", "challenge": "17", "danni": "6.2", "boss": "9.8", "cure": "6.9", "tank": "30.5", "oro": "358", "hp_fine_round": "100", "livello": "15"}, {"player": "BoomKhamenei", "challenge": "17", "danni": "1.0", "boss": "0.9", "cure": "36.1", "tank": "4.6", "oro": "246", "hp_fine_round": "100", "livello": "16"}, {"player": "TheCadger", "challenge": "17", "danni": "12.1", "boss": "11.4", "cure": "2.0", "tank": "7.9", "oro": "472", "hp_fine_round": "100", "livello": "16"}, {"player": "KimberlyRimming", "challenge": "17", "danni": "15.6", "boss": "10.7", "cure": "3.1", "tank": "4.5", "oro": "538", "hp_fine_round": "100", "livello": "16"}, {"player": "IFreniiiiiiiiii", "challenge": "17", "danni": "11.7", "boss": "6.5", "cure": "1.1", "tank": "1.1", "oro": "204", "hp_fine_round": "100", "livello": "16"}, {"player": "Orange Jews", "challenge": "18", "danni": "26.3", "boss": "31.6", "cure": "8.1", "tank": "25.7", "oro": "590", "hp_fine_round": "100", "livello": "17"}, {"player": "JesusOnlyFans", "challenge": "18", "danni": "5.5", "boss": "3.8", "cure": "15.3", "tank": "13.5", "oro": "795", "hp_fine_round": "16", "livello": "17"}, {"player": "Focascina", "challenge": "18", "danni": "7.1", "boss": "8.6", "cure": "13.4", "tank": "12.8", "oro": "827", "hp_fine_round": "23", "livello": "17"}, {"player": "bombtelaviv", "challenge": "18", "danni": "13.1", "boss": "15.3", "cure": "2.7", "tank": "1.1", "oro": "0", "hp_fine_round": "16", "livello": "17"}, {"player": "Tamburello", "challenge": "18", "danni": "1.7", "boss": "2.3", "cure": "12.4", "tank": "1.0", "oro": "1228", "hp_fine_round": "16", "livello": "17"}, {"player": "MountainKing", "challenge": "18", "danni": "5.8", "boss": "8.5", "cure": "6.1", "tank": "28.2", "oro": "701", "hp_fine_round": "16", "livello": "17"}, {"player": "BoomKhamenei", "challenge": "18", "danni": "1.1", "boss": "0.9", "cure": "35.8", "tank": "4.7", "oro": "448", "hp_fine_round": "100", "livello": "17"}, {"player": "TheCadger", "challenge": "18", "danni": "12.8", "boss": "12.8", "cure": "1.7", "tank": "7.8", "oro": "359", "hp_fine_round": "100", "livello": "17"}, {"player": "KimberlyRimming", "challenge": "18", "danni": "15.3", "boss": "9.7", "cure": "3.3", "tank": "4.2", "oro": "892", "hp_fine_round": "29", "livello": "17"}, {"player": "IFreniiiiiiiiii", "challenge": "18", "danni": "11.4", "boss": "6.4", "cure": "1.2", "tank": "1.1", "oro": "194", "hp_fine_round": "21", "livello": "17"}, {"player": "Orange Jews", "challenge": "19", "danni": "26.9", "boss": "33.2", "cure": "7.3", "tank": "24.5", "oro": "419", "hp_fine_round": "100", "livello": "17"}, {"player": "JesusOnlyFans", "challenge": "19", "danni": "5.6", "boss": "3.9", "cure": "16.3", "tank": "14.7", "oro": "310", "hp_fine_round": "100", "livello": "17"}, {"player": "Focascina", "challenge": "19", "danni": "7.1", "boss": "8.9", "cure": "12.9", "tank": "13.2", "oro": "912", "hp_fine_round": "100", "livello": "18"}, {"player": "bombtelaviv", "challenge": "19", "danni": "12.7", "boss": "14.3", "cure": "2.3", "tank": "1.0", "oro": "148", "hp_fine_round": "100", "livello": "18"}, {"player": "Tamburello", "challenge": "19", "danni": "1.7", "boss": "2.2", "cure": "13.8", "tank": "1.0", "oro": "303", "hp_fine_round": "100", "livello": "18"}, {"player": "MountainKing", "challenge": "19", "danni": "5.5", "boss": "8.1", "cure": "5.7", "tank": "28.3", "oro": "373", "hp_fine_round": "100", "livello": "17"}, {"player": "BoomKhamenei", "challenge": "19", "danni": "1.0", "boss": "0.8", "cure": "36.0", "tank": "4.5", "oro": "172", "hp_fine_round": "100", "livello": "18"}, {"player": "TheCadger", "challenge": "19", "danni": "12.9", "boss": "12.9", "cure": "1.5", "tank": "8.1", "oro": "314", "hp_fine_round": "100", "livello": "18"}, {"player": "KimberlyRimming", "challenge": "19", "danni": "15.3", "boss": "8.9", "cure": "3.1", "tank": "3.7", "oro": "322", "hp_fine_round": "100", "livello": "18"}, {"player": "IFreniiiiiiiiii", "challenge": "19", "danni": "11.3", "boss": "6.7", "cure": "1.2", "tank": "1.0", "oro": "419", "hp_fine_round": "100", "livello": "18"}]}, "round": {"columns": ["challenge", "ondata", "secondi", "voto", "eroi_sotto_20hp", "apm_team", "abilita_min_team", "migliore_danni", "migliore_tank", "migliore_cure"], "rows": [{"challenge": "1", "ondata": "?", "secondi": "61", "voto": "A", "eroi_sotto_20hp": "0", "apm_team": "44.9", "abilita_min_team": "10.9", "migliore_danni": "Orange Jews", "migliore_tank": "Focascina", "migliore_cure": "BoomKhamenei"}, {"challenge": "2", "ondata": "Machines", "secondi": "73", "voto": "A", "eroi_sotto_20hp": "0", "apm_team": "41.1", "abilita_min_team": "28.9", "migliore_danni": "Orange Jews", "migliore_tank": "JesusOnlyFans", "migliore_cure": "BoomKhamenei"}, {"challenge": "3", "ondata": "Combatants (Melee)", "secondi": "77", "voto": "A", "eroi_sotto_20hp": "0", "apm_team": "25.3", "abilita_min_team": "33.1", "migliore_danni": "KimberlyRimming", "migliore_tank": "Orange Jews", "migliore_cure": "BoomKhamenei"}, {"challenge": "4", "ondata": "Voidwalkers (Ranged)", "secondi": "154", "voto": "C", "eroi_sotto_20hp": "0", "apm_team": "43.9", "abilita_min_team": "46.0", "migliore_danni": "KimberlyRimming", "migliore_tank": "JesusOnlyFans", "migliore_cure": "BoomKhamenei"}, {"challenge": "5", "ondata": "Sasquatches (Melee)", "secondi": "189", "voto": "D", "eroi_sotto_20hp": "4", "apm_team": "65.3", "abilita_min_team": "36.0", "migliore_danni": "IFreniiiiiiiiii", "migliore_tank": "Orange Jews", "migliore_cure": "BoomKhamenei"}, {"challenge": "6", "ondata": "Boars", "secondi": "105", "voto": "B", "eroi_sotto_20hp": "0", "apm_team": "52.9", "abilita_min_team": "41.0", "migliore_danni": "KimberlyRimming", "migliore_tank": "Focascina", "migliore_cure": "BoomKhamenei"}, {"challenge": "7", "ondata": "Goblins", "secondi": "174", "voto": "D", "eroi_sotto_20hp": "1", "apm_team": "59.5", "abilita_min_team": "43.2", "migliore_danni": "IFreniiiiiiiiii", "migliore_tank": "JesusOnlyFans", "migliore_cure": "BoomKhamenei"}, {"challenge": "8", "ondata": "Mur'guls", "secondi": "", "voto": "", "eroi_sotto_20hp": "0", "apm_team": "53.7", "abilita_min_team": "50.0", "migliore_danni": "IFreniiiiiiiiii", "migliore_tank": "Orange Jews", "migliore_cure": "BoomKhamenei"}, {"challenge": "9", "ondata": "Water Elementals", "secondi": "428", "voto": "G", "eroi_sotto_20hp": "3", "apm_team": "72.0", "abilita_min_team": "30.2", "migliore_danni": "TheCadger", "migliore_tank": "MountainKing", "migliore_cure": "JesusOnlyFans"}, {"challenge": "10", "ondata": "Mammoths (Melee)", "secondi": "161", "voto": "D", "eroi_sotto_20hp": "1", "apm_team": "52.4", "abilita_min_team": "52.7", "migliore_danni": "bombtelaviv", "migliore_tank": "MountainKing", "migliore_cure": "BoomKhamenei"}, {"challenge": "11", "ondata": "Nether Drakes (Ranged)", "secondi": "150", "voto": "C", "eroi_sotto_20hp": "1", "apm_team": "49.2", "abilita_min_team": "55.8", "migliore_danni": "KimberlyRimming", "migliore_tank": "MountainKing", "migliore_cure": "BoomKhamenei"}, {"challenge": "12", "ondata": "Giant Spiders", "secondi": "", "voto": "", "eroi_sotto_20hp": "0", "apm_team": "44.3", "abilita_min_team": "54.5", "migliore_danni": "", "migliore_tank": "", "migliore_cure": ""}, {"challenge": "13", "ondata": "Revenants", "secondi": "132", "voto": "C", "eroi_sotto_20hp": "6", "apm_team": "65.4", "abilita_min_team": "48.6", "migliore_danni": "Orange Jews", "migliore_tank": "MountainKing", "migliore_cure": "BoomKhamenei"}, {"challenge": "14", "ondata": "Faceless Ones", "secondi": "121", "voto": "C", "eroi_sotto_20hp": "0", "apm_team": "58.9", "abilita_min_team": "54.7", "migliore_danni": "Orange Jews", "migliore_tank": "MountainKing", "migliore_cure": "BoomKhamenei"}, {"challenge": "15", "ondata": "War Golems (Melee)", "secondi": "236", "voto": "E", "eroi_sotto_20hp": "8", "apm_team": "59.8", "abilita_min_team": "42.6", "migliore_danni": "Orange Jews", "migliore_tank": "MountainKing", "migliore_cure": "BoomKhamenei"}, {"challenge": "16", "ondata": "Salamanders (Ranged)", "secondi": "216", "voto": "E", "eroi_sotto_20hp": "2", "apm_team": "86.6", "abilita_min_team": "52.0", "migliore_danni": "Orange Jews", "migliore_tank": "MountainKing", "migliore_cure": "BoomKhamenei"}, {"challenge": "17", "ondata": "Greater Demons (Melee)", "secondi": "80", "voto": "A", "eroi_sotto_20hp": "0", "apm_team": "54.2", "abilita_min_team": "58.6", "migliore_danni": "Orange Jews", "migliore_tank": "Orange Jews", "migliore_cure": "BoomKhamenei"}, {"challenge": "18", "ondata": "Enslaved Orcs", "secondi": "432", "voto": "G", "eroi_sotto_20hp": "4", "apm_team": "52.8", "abilita_min_team": "40.7", "migliore_danni": "Orange Jews", "migliore_tank": "Orange Jews", "migliore_cure": "BoomKhamenei"}, {"challenge": "19", "ondata": "Night Elf Hunters", "secondi": "", "voto": "D", "eroi_sotto_20hp": "0", "apm_team": "69.6", "abilita_min_team": "52.2", "migliore_danni": "", "migliore_tank": "", "migliore_cure": ""}, {"challenge": "20", "ondata": "Arena Organisers", "secondi": "", "voto": "SCONFITTA", "eroi_sotto_20hp": "", "apm_team": "61.9", "abilita_min_team": "42.7", "migliore_danni": "", "migliore_tank": "", "migliore_cure": ""}]}, "attivita": {"columns": ["player", "challenge", "apm", "abilita"], "rows": [{"player": "Orange Jews", "challenge": "1", "apm": "40.2", "abilita": "4"}, {"player": "Orange Jews", "challenge": "2", "apm": "51.0", "abilita": "9"}, {"player": "Orange Jews", "challenge": "3", "apm": "25.9", "abilita": "7"}, {"player": "Orange Jews", "challenge": "4", "apm": "67.7", "abilita": "19"}, {"player": "Orange Jews", "challenge": "5", "apm": "42.3", "abilita": "13"}, {"player": "Orange Jews", "challenge": "6", "apm": "73.6", "abilita": "19"}, {"player": "Orange Jews", "challenge": "7", "apm": "72.5", "abilita": "19"}, {"player": "Orange Jews", "challenge": "8", "apm": "69.4", "abilita": "20"}, {"player": "Orange Jews", "challenge": "9", "apm": "40.9", "abilita": "16"}, {"player": "Orange Jews", "challenge": "10", "apm": "76.6", "abilita": "21"}, {"player": "Orange Jews", "challenge": "11", "apm": "71.0", "abilita": "22"}, {"player": "Orange Jews", "challenge": "12", "apm": "53.2", "abilita": "20"}, {"player": "Orange Jews", "challenge": "13", "apm": "106.1", "abilita": "25"}, {"player": "Orange Jews", "challenge": "14", "apm": "79.1", "abilita": "20"}, {"player": "Orange Jews", "challenge": "15", "apm": "110.6", "abilita": "31"}, {"player": "Orange Jews", "challenge": "16", "apm": "106.6", "abilita": "33"}, {"player": "Orange Jews", "challenge": "17", "apm": "73.1", "abilita": "23"}, {"player": "Orange Jews", "challenge": "18", "apm": "116.6", "abilita": "59"}, {"player": "Orange Jews", "challenge": "19", "apm": "87.5", "abilita": "25"}, {"player": "Orange Jews", "challenge": "20", "apm": "79.4", "abilita": "38"}, {"player": "MountainKing", "challenge": "1", "apm": "22.7", "abilita": "3"}, {"player": "MountainKing", "challenge": "2", "apm": "26.8", "abilita": "1"}, {"player": "MountainKing", "challenge": "3", "apm": "30.2", "abilita": "7"}, {"player": "MountainKing", "challenge": "4", "apm": "25.6", "abilita": "9"}, {"player": "MountainKing", "challenge": "5", "apm": "32.0", "abilita": "10"}, {"player": "MountainKing", "challenge": "6", "apm": "34.4", "abilita": "4"}, {"player": "MountainKing", "challenge": "7", "apm": "59.0", "abilita": "14"}, {"player": "MountainKing", "challenge": "8", "apm": "52.7", "abilita": "13"}, {"player": "MountainKing", "challenge": "9", "apm": "122.2", "abilita": "16"}, {"player": "MountainKing", "challenge": "10", "apm": "39.2", "abilita": "11"}, {"player": "MountainKing", "challenge": "11", "apm": "34.7", "abilita": "14"}, {"player": "MountainKing", "challenge": "12", "apm": "38.9", "abilita": "10"}, {"player": "MountainKing", "challenge": "13", "apm": "69.7", "abilita": "15"}, {"player": "MountainKing", "challenge": "14", "apm": "20.1", "abilita": "16"}, {"player": "MountainKing", "challenge": "15", "apm": "106.3", "abilita": "9"}, {"player": "MountainKing", "challenge": "16", "apm": "93.7", "abilita": "5"}, {"player": "MountainKing", "challenge": "17", "apm": "25.9", "abilita": "4"}, {"player": "MountainKing", "challenge": "18", "apm": "22.9", "abilita": "5"}, {"player": "MountainKing", "challenge": "19", "apm": "65.0", "abilita": "6"}, {"player": "MountainKing", "challenge": "20", "apm": "73.0", "abilita": "8"}, {"player": "JesusOnlyFans", "challenge": "1", "apm": "24.0", "abilita": "5"}, {"player": "JesusOnlyFans", "challenge": "2", "apm": "42.8", "abilita": "13"}, {"player": "JesusOnlyFans", "challenge": "3", "apm": "12.1", "abilita": "4"}, {"player": "JesusOnlyFans", "challenge": "4", "apm": "46.0", "abilita": "16"}, {"player": "JesusOnlyFans", "challenge": "5", "apm": "72.2", "abilita": "19"}, {"player": "JesusOnlyFans", "challenge": "6", "apm": "30.5", "abilita": "13"}, {"player": "JesusOnlyFans", "challenge": "7", "apm": "42.4", "abilita": "19"}, {"player": "JesusOnlyFans", "challenge": "8", "apm": "38.7", "abilita": "23"}, {"player": "JesusOnlyFans", "challenge": "9", "apm": "78.3", "abilita": "55"}, {"player": "JesusOnlyFans", "challenge": "10", "apm": "58.8", "abilita": "29"}, {"player": "JesusOnlyFans", "challenge": "11", "apm": "46.4", "abilita": "34"}, {"player": "JesusOnlyFans", "challenge": "12", "apm": "32.4", "abilita": "22"}, {"player": "JesusOnlyFans", "challenge": "13", "apm": "68.7", "abilita": "30"}, {"player": "JesusOnlyFans", "challenge": "14", "apm": "54.0", "abilita": "26"}, {"player": "JesusOnlyFans", "challenge": "15", "apm": "41.2", "abilita": "26"}, {"player": "JesusOnlyFans", "challenge": "16", "apm": "70.6", "abilita": "39"}, {"player": "JesusOnlyFans", "challenge": "17", "apm": "49.8", "abilita": "28"}, {"player": "JesusOnlyFans", "challenge": "18", "apm": "20.8", "abilita": "26"}, {"player": "JesusOnlyFans", "challenge": "19", "apm": "64.0", "abilita": "40"}, {"player": "JesusOnlyFans", "challenge": "20", "apm": "46.0", "abilita": "52"}, {"player": "KimberlyRimming", "challenge": "1", "apm": "77.2", "abilita": "2"}, {"player": "KimberlyRimming", "challenge": "2", "apm": "62.7", "abilita": "0"}, {"player": "KimberlyRimming", "challenge": "3", "apm": "53.4", "abilita": "8"}, {"player": "KimberlyRimming", "challenge": "4", "apm": "98.9", "abilita": "17"}, {"player": "KimberlyRimming", "challenge": "5", "apm": "58.7", "abilita": "10"}, {"player": "KimberlyRimming", "challenge": "6", "apm": "96.5", "abilita": "11"}, {"player": "KimberlyRimming", "challenge": "7", "apm": "97.8", "abilita": "19"}, {"player": "KimberlyRimming", "challenge": "8", "apm": "73.0", "abilita": "25"}, {"player": "KimberlyRimming", "challenge": "9", "apm": "125.0", "abilita": "31"}, {"player": "KimberlyRimming", "challenge": "10", "apm": "92.8", "abilita": "39"}, {"player": "KimberlyRimming", "challenge": "11", "apm": "56.0", "abilita": "19"}, {"player": "KimberlyRimming", "challenge": "12", "apm": "81.3", "abilita": "25"}, {"player": "KimberlyRimming", "challenge": "13", "apm": "97.2", "abilita": "20"}, {"player": "KimberlyRimming", "challenge": "14", "apm": "115.4", "abilita": "29"}, {"player": "KimberlyRimming", "challenge": "15", "apm": "99.2", "abilita": "24"}, {"player": "KimberlyRimming", "challenge": "16", "apm": "131.1", "abilita": "35"}, {"player": "KimberlyRimming", "challenge": "17", "apm": "74.9", "abilita": "23"}, {"player": "KimberlyRimming", "challenge": "18", "apm": "39.8", "abilita": "30"}, {"player": "KimberlyRimming", "challenge": "19", "apm": "110.1", "abilita": "40"}, {"player": "KimberlyRimming", "challenge": "20", "apm": "76.7", "abilita": "41"}, {"player": "Tamburello", "challenge": "1", "apm": "37.3", "abilita": "1"}, {"player": "Tamburello", "challenge": "2", "apm": "31.4", "abilita": "0"}, {"player": "Tamburello", "challenge": "3", "apm": "14.5", "abilita": "2"}, {"player": "Tamburello", "challenge": "4", "apm": "23.7", "abilita": "10"}, {"player": "Tamburello", "challenge": "5", "apm": "35.2", "abilita": "11"}, {"player": "Tamburello", "challenge": "6", "apm": "23.7", "abilita": "4"}, {"player": "Tamburello", "challenge": "7", "apm": "50.5", "abilita": "9"}, {"player": "Tamburello", "challenge": "8", "apm": "26.8", "abilita": "3"}, {"player": "Tamburello", "challenge": "9", "apm": "42.5", "abilita": "12"}, {"player": "Tamburello", "challenge": "10", "apm": "23.3", "abilita": "4"}, {"player": "Tamburello", "challenge": "11", "apm": "25.5", "abilita": "6"}, {"player": "Tamburello", "challenge": "12", "apm": "44.7", "abilita": "4"}, {"player": "Tamburello", "challenge": "13", "apm": "40.2", "abilita": "6"}, {"player": "Tamburello", "challenge": "14", "apm": "40.9", "abilita": "6"}, {"player": "Tamburello", "challenge": "15", "apm": "18.8", "abilita": "2"}, {"player": "Tamburello", "challenge": "16", "apm": "52.8", "abilita": "8"}, {"player": "Tamburello", "challenge": "17", "apm": "36.1", "abilita": "7"}, {"player": "Tamburello", "challenge": "18", "apm": "14.3", "abilita": "4"}, {"player": "Tamburello", "challenge": "19", "apm": "38.8", "abilita": "8"}, {"player": "Tamburello", "challenge": "20", "apm": "32.2", "abilita": "8"}, {"player": "TheCadger", "challenge": "1", "apm": "16.2", "abilita": "2"}, {"player": "TheCadger", "challenge": "2", "apm": "19.9", "abilita": "33"}, {"player": "TheCadger", "challenge": "3", "apm": "15.4", "abilita": "26"}, {"player": "TheCadger", "challenge": "4", "apm": "25.2", "abilita": "58"}, {"player": "TheCadger", "challenge": "5", "apm": "76.2", "abilita": "37"}, {"player": "TheCadger", "challenge": "6", "apm": "40.4", "abilita": "36"}, {"player": "TheCadger", "challenge": "7", "apm": "36.0", "abilita": "39"}, {"player": "TheCadger", "challenge": "8", "apm": "39.3", "abilita": "48"}, {"player": "TheCadger", "challenge": "9", "apm": "89.2", "abilita": "52"}, {"player": "TheCadger", "challenge": "10", "apm": "30.1", "abilita": "42"}, {"player": "TheCadger", "challenge": "11", "apm": "60.4", "abilita": "52"}, {"player": "TheCadger", "challenge": "12", "apm": "34.1", "abilita": "49"}, {"player": "TheCadger", "challenge": "13", "apm": "63.0", "abilita": "38"}, {"player": "TheCadger", "challenge": "14", "apm": "53.0", "abilita": "42"}, {"player": "TheCadger", "challenge": "15", "apm": "34.2", "abilita": "73"}, {"player": "TheCadger", "challenge": "16", "apm": "82.8", "abilita": "60"}, {"player": "TheCadger", "challenge": "17", "apm": "33.5", "abilita": "38"}, {"player": "TheCadger", "challenge": "18", "apm": "86.9", "abilita": "83"}, {"player": "TheCadger", "challenge": "19", "apm": "55.9", "abilita": "43"}, {"player": "TheCadger", "challenge": "20", "apm": "40.3", "abilita": "80"}, {"player": "Focascina", "challenge": "1", "apm": "59.5", "abilita": "4"}, {"player": "Focascina", "challenge": "2", "apm": "33.8", "abilita": "18"}, {"player": "Focascina", "challenge": "3", "apm": "29.2", "abilita": "18"}, {"player": "Focascina", "challenge": "4", "apm": "37.8", "abilita": "31"}, {"player": "Focascina", "challenge": "5", "apm": "119.2", "abilita": "36"}, {"player": "Focascina", "challenge": "6", "apm": "69.7", "abilita": "28"}, {"player": "Focascina", "challenge": "7", "apm": "67.1", "abilita": "33"}, {"player": "Focascina", "challenge": "8", "apm": "75.3", "abilita": "34"}, {"player": "Focascina", "challenge": "9", "apm": "120.3", "abilita": "53"}, {"player": "Focascina", "challenge": "10", "apm": "90.3", "abilita": "32"}, {"player": "Focascina", "challenge": "11", "apm": "59.1", "abilita": "29"}, {"player": "Focascina", "challenge": "12", "apm": "52.2", "abilita": "28"}, {"player": "Focascina", "challenge": "13", "apm": "88.8", "abilita": "23"}, {"player": "Focascina", "challenge": "14", "apm": "57.8", "abilita": "28"}, {"player": "Focascina", "challenge": "15", "apm": "65.0", "abilita": "39"}, {"player": "Focascina", "challenge": "16", "apm": "132.0", "abilita": "43"}, {"player": "Focascina", "challenge": "17", "apm": "88.8", "abilita": "24"}, {"player": "Focascina", "challenge": "18", "apm": "108.7", "abilita": "81"}, {"player": "Focascina", "challenge": "19", "apm": "92.0", "abilita": "36"}, {"player": "Focascina", "challenge": "20", "apm": "86.9", "abilita": "50"}, {"player": "bombtelaviv", "challenge": "1", "apm": "24.4", "abilita": "4"}, {"player": "bombtelaviv", "challenge": "2", "apm": "26.2", "abilita": "4"}, {"player": "bombtelaviv", "challenge": "3", "apm": "20.5", "abilita": "9"}, {"player": "bombtelaviv", "challenge": "4", "apm": "14.2", "abilita": "5"}, {"player": "bombtelaviv", "challenge": "5", "apm": "20.2", "abilita": "6"}, {"player": "bombtelaviv", "challenge": "6", "apm": "18.3", "abilita": "7"}, {"player": "bombtelaviv", "challenge": "7", "apm": "25.0", "abilita": "13"}, {"player": "bombtelaviv", "challenge": "8", "apm": "37.8", "abilita": "15"}, {"player": "bombtelaviv", "challenge": "9", "apm": "41.5", "abilita": "17"}, {"player": "bombtelaviv", "challenge": "10", "apm": "24.5", "abilita": "20"}, {"player": "bombtelaviv", "challenge": "11", "apm": "29.5", "abilita": "16"}, {"player": "bombtelaviv", "challenge": "12", "apm": "29.6", "abilita": "13"}, {"player": "bombtelaviv", "challenge": "13", "apm": "33.2", "abilita": "8"}, {"player": "bombtelaviv", "challenge": "14", "apm": "23.5", "abilita": "5"}, {"player": "bombtelaviv", "challenge": "15", "apm": "44.3", "abilita": "15"}, {"player": "bombtelaviv", "challenge": "16", "apm": "28.8", "abilita": "10"}, {"player": "bombtelaviv", "challenge": "17", "apm": "36.1", "abilita": "10"}, {"player": "bombtelaviv", "challenge": "18", "apm": "41.2", "abilita": "10"}, {"player": "bombtelaviv", "challenge": "19", "apm": "32.7", "abilita": "14"}, {"player": "bombtelaviv", "challenge": "20", "apm": "32.3", "abilita": "19"}, {"player": "IFreniiiiiiiiii", "challenge": "1", "apm": "80.6", "abilita": "12"}, {"player": "IFreniiiiiiiiii", "challenge": "2", "apm": "63.0", "abilita": "7"}, {"player": "IFreniiiiiiiiii", "challenge": "3", "apm": "30.8", "abilita": "9"}, {"player": "IFreniiiiiiiiii", "challenge": "4", "apm": "38.5", "abilita": "13"}, {"player": "IFreniiiiiiiiii", "challenge": "5", "apm": "113.1", "abilita": "13"}, {"player": "IFreniiiiiiiiii", "challenge": "6", "apm": "77.5", "abilita": "10"}, {"player": "IFreniiiiiiiiii", "challenge": "7", "apm": "78.8", "abilita": "14"}, {"player": "IFreniiiiiiiiii", "challenge": "8", "apm": "63.3", "abilita": "17"}, {"player": "IFreniiiiiiiiii", "challenge": "9", "apm": "32.0", "abilita": "6"}, {"player": "IFreniiiiiiiiii", "challenge": "10", "apm": "38.8", "abilita": "18"}, {"player": "IFreniiiiiiiiii", "challenge": "11", "apm": "59.1", "abilita": "17"}, {"player": "IFreniiiiiiiiii", "challenge": "12", "apm": "44.9", "abilita": "14"}, {"player": "IFreniiiiiiiiii", "challenge": "13", "apm": "53.6", "abilita": "8"}, {"player": "IFreniiiiiiiiii", "challenge": "14", "apm": "66.8", "abilita": "14"}, {"player": "IFreniiiiiiiiii", "challenge": "15", "apm": "29.3", "abilita": "10"}, {"player": "IFreniiiiiiiiii", "challenge": "16", "apm": "95.5", "abilita": "11"}, {"player": "IFreniiiiiiiiii", "challenge": "17", "apm": "58.3", "abilita": "12"}, {"player": "IFreniiiiiiiiii", "challenge": "18", "apm": "15.3", "abilita": "11"}, {"player": "IFreniiiiiiiiii", "challenge": "19", "apm": "90.2", "abilita": "18"}, {"player": "IFreniiiiiiiiii", "challenge": "20", "apm": "83.3", "abilita": "16"}, {"player": "BoomKhamenei", "challenge": "1", "apm": "66.3", "abilita": "8"}, {"player": "BoomKhamenei", "challenge": "2", "apm": "53.7", "abilita": "11"}, {"player": "BoomKhamenei", "challenge": "3", "apm": "21.7", "abilita": "20"}, {"player": "BoomKhamenei", "challenge": "4", "apm": "61.3", "abilita": "36"}, {"player": "BoomKhamenei", "challenge": "5", "apm": "83.8", "abilita": "34"}, {"player": "BoomKhamenei", "challenge": "6", "apm": "64.2", "abilita": "25"}, {"player": "BoomKhamenei", "challenge": "7", "apm": "65.7", "abilita": "39"}, {"player": "BoomKhamenei", "challenge": "8", "apm": "60.0", "abilita": "41"}, {"player": "BoomKhamenei", "challenge": "9", "apm": "27.5", "abilita": "22"}, {"player": "BoomKhamenei", "challenge": "10", "apm": "49.8", "abilita": "38"}, {"player": "BoomKhamenei", "challenge": "11", "apm": "50.1", "abilita": "45"}, {"player": "BoomKhamenei", "challenge": "12", "apm": "31.4", "abilita": "32"}, {"player": "BoomKhamenei", "challenge": "13", "apm": "33.5", "abilita": "23"}, {"player": "BoomKhamenei", "challenge": "14", "apm": "78.4", "abilita": "40"}, {"player": "BoomKhamenei", "challenge": "15", "apm": "49.4", "abilita": "29"}, {"player": "BoomKhamenei", "challenge": "16", "apm": "72.9", "abilita": "51"}, {"player": "BoomKhamenei", "challenge": "17", "apm": "65.0", "abilita": "32"}, {"player": "BoomKhamenei", "challenge": "18", "apm": "61.2", "abilita": "77"}, {"player": "BoomKhamenei", "challenge": "19", "apm": "59.8", "abilita": "61"}, {"player": "BoomKhamenei", "challenge": "20", "apm": "68.7", "abilita": "66"}]}, "abilita": {"columns": ["player", "abilita", "usi"], "rows": [{"player": "BoomKhamenei", "abilita": "Rejuvenation", "usi": "543"}, {"player": "BoomKhamenei", "abilita": "Innervate", "usi": "111"}, {"player": "BoomKhamenei", "abilita": "Force of Nature", "usi": "36"}, {"player": "BoomKhamenei", "abilita": "Tranquility", "usi": "30"}, {"player": "BoomKhamenei", "abilita": "Starfall", "usi": "9"}, {"player": "Focascina", "abilita": "Storm Bolt", "usi": "535"}, {"player": "Focascina", "abilita": "Thunderclap", "usi": "80"}, {"player": "Focascina", "abilita": "Leap", "usi": "31"}, {"player": "Focascina", "abilita": "Avatar", "usi": "21"}, {"player": "IFreniiiiiiiiii", "abilita": "Forked Lightning", "usi": "100"}, {"player": "IFreniiiiiiiiii", "abilita": "Crushing Wave", "usi": "66"}, {"player": "IFreniiiiiiiiii", "abilita": "Parasite", "usi": "46"}, {"player": "IFreniiiiiiiiii", "abilita": "Vortex", "usi": "14"}, {"player": "IFreniiiiiiiiii", "abilita": "Twister", "usi": "8"}, {"player": "IFreniiiiiiiiii", "abilita": "Parasite (autocast on)", "usi": "8"}, {"player": "IFreniiiiiiiiii", "abilita": "Parasite (autocast off)", "usi": "7"}, {"player": "JesusOnlyFans", "abilita": "Unholy Frenzy", "usi": "203"}, {"player": "JesusOnlyFans", "abilita": "Death Coil", "usi": "178"}, {"player": "JesusOnlyFans", "abilita": "Death Pact", "usi": "71"}, {"player": "JesusOnlyFans", "abilita": "Desecrate", "usi": "58"}, {"player": "JesusOnlyFans", "abilita": "[frenzy]", "usi": "4"}, {"player": "JesusOnlyFans", "abilita": "Surrender Soul", "usi": "3"}, {"player": "KimberlyRimming", "abilita": "Overdrive", "usi": "281"}, {"player": "KimberlyRimming", "abilita": "Volatile Concoction", "usi": "104"}, {"player": "KimberlyRimming", "abilita": "Construct Tower (probabile)", "usi": "32"}, {"player": "KimberlyRimming", "abilita": "Hydra Arrows", "usi": "17"}, {"player": "KimberlyRimming", "abilita": "Repair", "usi": "5"}, {"player": "KimberlyRimming", "abilita": "Mark Target (autocast on)", "usi": "3"}, {"player": "KimberlyRimming", "abilita": "[faeriefireoff]", "usi": "3"}, {"player": "MountainKing", "abilita": "Terror", "usi": "79"}, {"player": "MountainKing", "abilita": "Demon Skin", "usi": "44"}, {"player": "MountainKing", "abilita": "Firestorm", "usi": "42"}, {"player": "MountainKing", "abilita": "Conjure Soulstone", "usi": "9"}, {"player": "MountainKing", "abilita": "Dimensional Gate", "usi": "5"}, {"player": "Orange Jews", "abilita": "Lightning Strike", "usi": "235"}, {"player": "Orange Jews", "abilita": "Feral Spirit", "usi": "140"}, {"player": "Orange Jews", "abilita": "Healing Wave", "usi": "26"}, {"player": "Orange Jews", "abilita": "Hex", "usi": "22"}, {"player": "Orange Jews", "abilita": "Molten Boulder", "usi": "13"}, {"player": "Orange Jews", "abilita": "Mana Tide Totem", "usi": "6"}, {"player": "Tamburello", "abilita": "Embolden", "usi": "48"}, {"player": "Tamburello", "abilita": "Rally", "usi": "43"}, {"player": "Tamburello", "abilita": "Inspire", "usi": "11"}, {"player": "Tamburello", "abilita": "Intimidate", "usi": "9"}, {"player": "TheCadger", "abilita": "Fire/Frost/Magic Bolt", "usi": "663"}, {"player": "TheCadger", "abilita": "Pyroblast", "usi": "125"}, {"player": "TheCadger", "abilita": "Water Elemental", "usi": "94"}, {"player": "TheCadger", "abilita": "Time Stop", "usi": "23"}, {"player": "TheCadger", "abilita": "Blink", "usi": "19"}, {"player": "bombtelaviv", "abilita": "Volley", "usi": "121"}, {"player": "bombtelaviv", "abilita": "Eagle Eye", "usi": "38"}, {"player": "bombtelaviv", "abilita": "Piercing Shot", "usi": "27"}, {"player": "bombtelaviv", "abilita": "Take Aim", "usi": "20"}, {"player": "bombtelaviv", "abilita": "Binding Trap", "usi": "6"}, {"player": "bombtelaviv", "abilita": "Searing Arrows", "usi": "4"}, {"player": "bombtelaviv", "abilita": "[blackarrowoff]", "usi": "3"}]}};</script>
+<script>
+(function () {
+  const RAW = window.__OG_DATA;
+  const calcs = {}, listeners = [];
+  const resolve = (id) => {
+    if (RAW[id]) return { status: 'ok', data: RAW[id].rows, rows: RAW[id].rows, columns: RAW[id].columns, refreshing: false, meta: [] };
+    const c = calcs[id];
+    if (!c) return { status: 'missing', data: [], rows: [], columns: [], meta: [] };
+    if (!c.cache) {
+      try { c.cache = { status: 'ok', data: c.fn(...c.inputs.map(i => resolve(i).data)) }; }
+      catch (e) { console.error('calc', id, e); c.cache = { status: 'error', data: [], message: String(e) }; }
+    }
+    const d = c.cache.data;
+    return { status: c.cache.status, data: d, rows: Array.isArray(d) ? d : [], columns: [], meta: [] };
+  };
+  let t;
+  window.addEventListener('resize', () => { clearTimeout(t); t = setTimeout(() => listeners.forEach(f => f()), 150); });
+  window.dash = {
+    data: resolve,
+    calc: (id, spec) => { calcs[id] = { ...spec }; },
+    loader: () => {},
+    onData: (fn) => { listeners.push(fn); fn(); },
+    colors: ['--og-c1', '--og-c2', '--og-c3', '--og-c4', '--og-c5', '--og-c6', '--og-c7', '--og-c8'].map(v => `var(${v})`),
+    refresh: () => {}, params: () => ({}), setParams: () => {}, resetParams: () => {}, setLink: () => {},
+  };
+})();
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+</head>
+<body>
+<div id="dash-root">
+<style>
+#dash-root .og { position: relative; display: flex; flex-direction: column; gap: var(--cds-gap-xl); font-family: var(--font-anthropic-sans); max-width: 76rem; margin-inline: auto; }
+#dash-root .og h1 { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); margin: 0; text-wrap: balance; }
+#dash-root .og h2 { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); margin: 0; text-wrap: balance; }
+#dash-root .og h3 { font-size: var(--cds-font-size-body); font-weight: var(--cds-font-weight-medium); margin: 0; }
+#dash-root .og p { margin: 0; line-height: 1.55; max-width: 68ch; }
+#dash-root .og-sub { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+#dash-root .og-head { display: flex; flex-direction: column; gap: var(--cds-gap-sm); }
+#dash-root .og-take { font-size: var(--cds-font-size-body); }
+#dash-root .og-take b, #dash-root .og-rec b { font-weight: 600; }
+#dash-root .og-kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 12rem), 1fr)); gap: var(--cds-gap-md); }
+#dash-root .og-kpi { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); display: flex; flex-direction: column; gap: var(--cds-gap-xs); }
+#dash-root .og-kpi .v { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); font-variant-numeric: tabular-nums; }
+#dash-root .og-kpi .l { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+#dash-root .og-section { display: flex; flex-direction: column; gap: var(--cds-gap-md); }
+#dash-root .og-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr)); gap: var(--cds-gap-md); }
+#dash-root .og-card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); display: flex; flex-direction: column; gap: var(--cds-gap-sm); min-width: 0; }
+#dash-root .og-chart { position: relative; min-height: 240px; }
+#dash-root .og-chart.short { min-height: 160px; }
+#dash-root .og-bars { display: flex; flex-direction: column; gap: 6px; }
+#dash-root .og-bar-row { display: grid; grid-template-columns: minmax(6.5rem, 9rem) 1fr 3.4rem; align-items: center; gap: var(--cds-gap-sm); font-size: var(--cds-font-size-caption); }
+#dash-root .og-bar-label { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+#dash-root .og-bar-track { height: 14px; position: relative; }
+#dash-root .og-bar { height: 100%; border-radius: 4px; min-width: 2px; }
+#dash-root .og-bar-max { position: absolute; top: -3px; width: 2px; height: 20px; background: var(--color-fg); border-radius: 1px; }
+#dash-root .og-bar-val { text-align: right; font-variant-numeric: tabular-nums; color: var(--color-fg); }
+#dash-root .og-controls { display: flex; flex-wrap: wrap; gap: var(--cds-gap-sm); align-items: center; }
+#dash-root .og-seg { display: inline-flex; border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); overflow: hidden; flex-wrap: wrap; }
+#dash-root .og-seg button { font: inherit; font-size: var(--cds-font-size-caption); padding: var(--cds-pad-xs) var(--cds-pad-sm); background: transparent; color: var(--color-fg); border: 0; cursor: pointer; }
+#dash-root .og-seg button[aria-pressed="true"] { background: var(--color-fg); color: var(--color-bg); }
+#dash-root .og-seg button:focus-visible, #dash-root .og select:focus-visible, #dash-root .og th button:focus-visible { outline: 2px solid var(--color-fg); outline-offset: 2px; }
+#dash-root .og select { font: inherit; font-size: var(--cds-font-size-caption); padding: var(--cds-pad-xs) var(--cds-pad-sm); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); background: var(--color-panel); color: var(--color-fg); }
+#dash-root .og svg text { fill: var(--color-fg-muted); font-size: 11px; font-family: var(--font-anthropic-sans); }
+#dash-root .og svg text.og-strong { fill: var(--color-fg); font-weight: 600; }
+#dash-root .og-tip { position: absolute; z-index: 5; pointer-events: none; background: var(--cds-surface-popover); border: 1px solid var(--cds-border); border-radius: var(--cds-radius); box-shadow: var(--cds-shadow-popover); padding: var(--cds-pad-xs) var(--cds-pad-sm); font-size: var(--cds-font-size-caption); max-width: 16rem; line-height: 1.45; }
+#dash-root .og-tip .t { color: var(--cds-text-secondary); }
+#dash-root .og-heat-wrap { overflow-x: auto; }
+#dash-root .og-heat { display: grid; gap: 2px; min-width: 40rem; font-size: var(--cds-font-size-caption); }
+#dash-root .og-heat .c { height: 20px; border-radius: 3px; }
+#dash-root .og-heat .n { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; padding-right: 6px; line-height: 20px; }
+#dash-root .og-heat .h { text-align: center; color: var(--color-fg-muted); }
+#dash-root .og-legend { display: flex; align-items: center; gap: var(--cds-gap-sm); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+#dash-root .og-legend .ramp { width: 8rem; height: 10px; border-radius: 3px; }
+#dash-root .og-recs { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr)); gap: var(--cds-gap-md); }
+#dash-root .og-rec { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); display: flex; flex-direction: column; gap: var(--cds-gap-sm); }
+#dash-root .og-rec .tag { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); text-transform: uppercase; letter-spacing: .06em; }
+#dash-root .og-rec .do { border-top: 1px solid var(--color-border-line); padding-top: var(--cds-pad-sm); }
+#dash-root .og-table-wrap { max-height: 28rem; overflow: auto; }
+#dash-root .og table { border-collapse: collapse; width: 100%; font-size: var(--cds-font-size-caption); font-variant-numeric: tabular-nums; }
+#dash-root .og th, #dash-root .og td { padding: 6px 8px; text-align: right; border-bottom: 1px solid var(--color-border-line); white-space: nowrap; }
+#dash-root .og th:first-child, #dash-root .og td:first-child, #dash-root .og th.txt, #dash-root .og td.txt { text-align: left; }
+#dash-root .og th { position: sticky; top: 0; background: var(--color-panel); font-weight: var(--cds-font-weight-medium); }
+#dash-root .og th button { font: inherit; background: none; border: 0; color: inherit; cursor: pointer; padding: 0; }
+#dash-root .og input[type="search"] { font: inherit; font-size: var(--cds-font-size-caption); padding: var(--cds-pad-xs) var(--cds-pad-sm); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); background: var(--color-panel); color: var(--color-fg); width: min(100%, 16rem); }
+#dash-root .og-failed { display: flex; align-items: center; justify-content: center; }
+#dash-root .og-fail { display: inline-flex; align-items: center; gap: 6px; color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+#dash-root .og-fail::before { content: ""; width: .375rem; height: .375rem; border-radius: 50%; background: var(--color-bad); }
+#dash-root [data-dash-source-state=empty] { color: transparent; }
+#dash-root [data-dash-source-state=refreshing] { opacity: .5; transition: opacity var(--cds-dur-slow); }
+#dash-root .og-note { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); line-height: 1.5; max-width: 80ch; }
+#dash-root .og-note p { max-width: 80ch; }
+</style>
+
+<div class="og">
+  <header class="og-head" id="inizio">
+    <h1>Orc Gladiators Revenge: la partita del 15 marzo</h1>
+    <p class="og-sub">10 giocatori · 20 challenge · sconfitta al boss finale (Lord of the Arena). Fonti: replay .w3g, multiboard "Gladiator Statistics" dagli screenshot, dati della mappa 1.29f.</p>
+    <p class="og-take" id="takeaway">
+      Orange Jews ha fatto da solo il <b data-source="profilo" data-field="danni" data-where="giocatore=Orange Jews" data-fill="pct">—</b> dei danni e il
+      <b data-source="profilo" data-field="boss" data-where="giocatore=Orange Jews" data-fill="pct">—</b> dei danni al boss, e incassa anche il
+      <b data-source="profilo" data-field="tank" data-where="giocatore=Orange Jews" data-fill="pct">—</b> dei colpi. Il team dipende da un solo eroe: i tank designati tankano poco e quattro giocatori sono sotto il 6% di danni.
+    </p>
+  </header>
+
+  <div class="og-kpis">
+    <div class="og-kpi"><span class="l">Danni di Orange Jews</span><span class="v" data-source="profilo" data-field="danni" data-where="giocatore=Orange Jews" data-fill="pct">—</span><span class="l">quota del totale del team</span></div>
+    <div class="og-kpi"><span class="l">Cure di BoomKhamenei</span><span class="v" data-source="profilo" data-field="cure" data-where="giocatore=BoomKhamenei" data-fill="pct">—</span><span class="l">secondo: JesusOnlyFans con <span data-source="profilo" data-field="cure" data-where="giocatore=JesusOnlyFans" data-fill="pct">—</span></span></div>
+    <div class="og-kpi"><span class="l">Round con voto E o G</span><span class="v" data-source="round_lenti" data-field="n" data-row="0" data-fill="int">—</span><span class="l">su 19 challenge completate</span></div>
+    <div class="og-kpi"><span class="l">Oro medio in tasca a fine round</span><span class="v" data-source="oro_team" data-field="oro" data-row="0" data-fill="int">—</span><span class="l">per giocatore, non speso</span></div>
+  </div>
+
+  <section class="og-section" id="ruoli">
+    <h2>Chi fa cosa</h2>
+    <p class="og-sub">Quota di ciascun giocatore sul totale del team, cumulata fino alla fine della challenge 19 (ultima tabella completa prima del boss finale). Ogni grafico somma a 100%.</p>
+    <div class="og-grid">
+      <div class="og-card"><h3>Danni inflitti</h3><span class="og-sub">% dei danni totali</span><div class="og-bars og-chart short" id="b-danni" data-source="profilo"></div></div>
+      <div class="og-card"><h3>Danni al boss</h3><span class="og-sub">% dei danni ai boss di fine ondata</span><div class="og-bars og-chart short" id="b-boss" data-source="profilo"></div></div>
+      <div class="og-card"><h3>Cure</h3><span class="og-sub">% delle cure totali</span><div class="og-bars og-chart short" id="b-cure" data-source="profilo"></div></div>
+      <div class="og-card"><h3>Danni subiti (tank)</h3><span class="og-sub">% dei danni incassati dal team</span><div class="og-bars og-chart short" id="b-tank" data-source="profilo"></div></div>
+    </div>
+  </section>
+
+  <section class="og-section" id="andamento">
+    <h2>Come cambiano i ruoli durante la partita</h2>
+    <p class="og-sub">Quota cumulata dopo ogni challenge. Scegli la statistica e il giocatore da evidenziare; gli altri restano in grigio.</p>
+    <div class="og-card">
+      <div class="og-controls">
+        <div class="og-seg" role="group" aria-label="Statistica" id="metric-seg">
+          <button type="button" data-m="danni" aria-pressed="true">Danni</button>
+          <button type="button" data-m="boss" aria-pressed="false">Boss</button>
+          <button type="button" data-m="cure" aria-pressed="false">Cure</button>
+          <button type="button" data-m="tank" aria-pressed="false">Tank</button>
+          <button type="button" data-m="oro" aria-pressed="false">Oro in tasca</button>
+        </div>
+        <label class="og-sub" for="player-sel">Giocatore</label>
+        <select id="player-sel"></select>
+      </div>
+      <div class="og-chart" id="c-trend" data-source="andamento"></div>
+    </div>
+  </section>
+
+  <section class="og-section" id="round-critici">
+    <h2>Dove si perde tempo</h2>
+    <p class="og-sub">Secondi per chiudere ogni ondata (in rosso i voti E e G) e quanti eroi finiscono il round con HP al 20% o meno. Le barre mancanti sono round senza riepilogo negli screenshot.</p>
+    <div class="og-grid">
+      <div class="og-card"><h3>Durata dell'ondata</h3><span class="og-sub">secondi, con il voto sopra la barra</span><div class="og-chart" id="c-secondi" data-source="round"></div></div>
+      <div class="og-card"><h3>Eroi a terra o quasi a fine round</h3><span class="og-sub">numero di eroi con HP ≤ 20% · correlazione con la durata: <b data-source="corr_hp_tempo" data-field="r" data-row="0" data-fill="dec2">—</b></span><div class="og-chart" id="c-hp" data-source="round"></div></div>
+    </div>
+  </section>
+
+  <section class="og-section" id="attivita">
+    <h2>Attività dei giocatori</h2>
+    <p class="og-sub">APM = azioni al minuto dal replay (click, abilità, selezioni). Più attività non vuol dire automaticamente più danni: correlazione APM–danni <b data-source="corr_apm_danni" data-field="r" data-row="0" data-fill="dec2">—</b>.</p>
+    <div class="og-grid">
+      <div class="og-card"><h3>APM e quota di danni</h3><span class="og-sub">un punto per giocatore</span><div class="og-chart" id="c-scatter" data-source="profilo"></div></div>
+      <div class="og-card"><h3>Oro tenuto in tasca</h3><span class="og-sub">media a fine round (barra) e massimo (tacca)</span><div class="og-bars og-chart short" id="b-oro" data-source="profilo"></div></div>
+    </div>
+    <div class="og-card">
+      <h3>APM per challenge</h3>
+      <span class="og-sub">più scuro = più azioni al minuto in quel tratto di partita (inclusi acquisti tra un round e l'altro)</span>
+      <div class="og-heat-wrap"><div class="og-heat og-chart short" id="c-heat" data-source="attivita"></div></div>
+      <div class="og-legend" id="heat-legend"><span>meno</span><span class="ramp" id="heat-ramp"></span><span>più</span></div>
+    </div>
+  </section>
+
+  <section class="og-section" id="consigli">
+    <h2>Cosa migliorare</h2>
+    <div class="og-recs">
+      <article class="og-rec">
+        <span class="tag">Dipendenza da un eroe</span>
+        <h3>Orange Jews regge la partita da solo</h3>
+        <p>Danni <b data-source="profilo" data-field="danni" data-where="giocatore=Orange Jews" data-fill="pct">—</b>, boss <b data-source="profilo" data-field="boss" data-where="giocatore=Orange Jews" data-fill="pct">—</b>, tank <b data-source="profilo" data-field="tank" data-where="giocatore=Orange Jews" data-fill="pct">—</b>, e <b data-source="profilo" data-field="premi_round" data-where="giocatore=Orange Jews" data-fill="int">—</b> premi "best of round". Lo Shaman è un Melee Caster: se prende colpi al posto dei tank, prima o poi cade e i danni crollano.</p>
+        <p class="do">Tenerlo dietro ai tank e dare ai tank il compito di prendere aggro per primi. Gli altri DPS devono alzare la loro quota.</p>
+      </article>
+      <article class="og-rec">
+        <span class="tag">Ruoli</span>
+        <h3>I tank designati non tankano</h3>
+        <p>Focascina (War Hammer, Melee Tank) incassa il <b data-source="profilo" data-field="tank" data-where="giocatore=Focascina" data-fill="pct">—</b> e JesusOnlyFans (Runeblade, Melee Tank) il <b data-source="profilo" data-field="tank" data-where="giocatore=JesusOnlyFans" data-fill="pct">—</b>. Il vero tank è MountainKing (Warlock) con il <b data-source="profilo" data-field="tank" data-where="giocatore=MountainKing" data-fill="pct">—</b>. Focascina usa hold position <b data-source="profilo" data-field="hold_position" data-where="giocatore=Focascina" data-fill="int">—</b> volte.</p>
+        <p class="do">Focascina e JesusOnlyFans in prima linea a inizio ondata (Thunderclap, Stone Skin, Avatar), MountainKing come terzo tank. Jesus resta utile anche come curatore secondario.</p>
+      </article>
+      <article class="og-rec">
+        <span class="tag">Danni bassi</span>
+        <h3>Quattro eroi sotto il 6% di danni</h3>
+        <p>Tamburello <b data-source="profilo" data-field="danni" data-where="giocatore=Tamburello" data-fill="pct">—</b>, BoomKhamenei <b data-source="profilo" data-field="danni" data-where="giocatore=BoomKhamenei" data-fill="pct">—</b>, MountainKing <b data-source="profilo" data-field="danni" data-where="giocatore=MountainKing" data-fill="pct">—</b>, JesusOnlyFans <b data-source="profilo" data-field="danni" data-where="giocatore=JesusOnlyFans" data-fill="pct">—</b>. Per Boom (healer) è normale. Tamburello invece ha l'APM più basso dopo bombtelaviv (<b data-source="profilo" data-field="apm" data-where="giocatore=Tamburello" data-fill="dec1">—</b>) e lancia solo <b data-source="profilo" data-field="abilita_min" data-where="giocatore=Tamburello" data-fill="dec2">—</b> abilità al minuto.</p>
+        <p class="do">Tamburello: tenere sempre attivi Embolden, Rally e Inspire nei combattimenti, sono il suo contributo. MountainKing: più Firestorm e Terror sulle ondate.</p>
+      </article>
+      <article class="og-rec">
+        <span class="tag">Posizionamento</span>
+        <h3>Gli eroi a distanza finiscono spesso a terra</h3>
+        <p>bombtelaviv (arciere) chiude <b data-source="profilo" data-field="round_sotto_20hp" data-where="giocatore=bombtelaviv" data-fill="int">—</b> round su 19 con HP ≤ 20% e IFreni <b data-source="profilo" data-field="round_sotto_20hp" data-where="giocatore=IFreniiiiiiiiii" data-fill="int">—</b>, pur incassando appena il <b data-source="profilo" data-field="tank" data-where="giocatore=bombtelaviv" data-fill="pct">—</b> e il <b data-source="profilo" data-field="tank" data-where="giocatore=IFreniiiiiiiiii" data-fill="pct">—</b> dei danni del team: muoiono per pochi colpi. bombtelaviv fa solo <b data-source="profilo" data-field="click_movimento_min" data-where="giocatore=bombtelaviv" data-fill="dec1">—</b> click di movimento al minuto, il valore più basso.</p>
+        <p class="do">Stare dietro ai tank, spostarsi quando i boss lanciano aree (Collapse, Blood Circle) e usare gli oggetti di cura.</p>
+      </article>
+      <article class="og-rec">
+        <span class="tag">Economia</span>
+        <h3>Troppo oro non speso</h3>
+        <p>In media ogni giocatore chiude il round con <b data-source="oro_team" data-field="oro" data-row="0" data-fill="int">—</b> oro in tasca. KimberlyRimming arriva a <b data-source="profilo" data-field="oro_max" data-where="giocatore=KimberlyRimming" data-fill="int">—</b> e Tamburello a <b data-source="profilo" data-field="oro_max" data-where="giocatore=Tamburello" data-fill="int">—</b>. Intanto il team usa -loan e -borrow continuamente.</p>
+        <p class="do">Spendere tutto tra un round e l'altro (tomi e oggetti) e chiedere prestiti solo a chi ha oro fermo.</p>
+      </article>
+      <article class="og-rec">
+        <span class="tag">Round critici</span>
+        <h3>Water Elementals ed Enslaved Orcs sono le ondate più lente</h3>
+        <p><b data-source="round_lenti" data-field="n" data-row="0" data-fill="int">—</b> round chiusi con voto E o G. La challenge 9 dura <b data-source="round" data-field="secondi" data-where="challenge=9" data-fill="int">—</b> secondi, la 18 <b data-source="round" data-field="secondi" data-where="challenge=18" data-fill="int">—</b>. Nella 15 (War Golems) <b data-source="round" data-field="eroi_sotto_20hp" data-where="challenge=15" data-fill="int">—</b> eroi su 10 finiscono con HP ≤ 20%: più eroi cadono, più il round si allunga.</p>
+        <p class="do">Prima di queste ondate: comprare, curarsi al 100% e concentrare i danni sui bersagli prioritari invece di sparpagliarsi.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="og-section" id="tabella">
+    <h2>Profilo completo dei giocatori</h2>
+    <p class="og-sub">Clicca un'intestazione per ordinare. Danni, boss, cure e tank sono quote % dopo la challenge 19; abilità/min e APM sono sull'intera partita.</p>
+    <div class="og-card">
+      <div class="og-table-wrap">
+        <table id="t-profilo" data-source="profilo" data-row-key="giocatore">
+          <thead><tr>
+            <th data-field="giocatore" class="txt"><button type="button" data-k="giocatore">Giocatore</button></th>
+            <th data-field="classe" class="txt"><button type="button" data-k="classe">Classe</button></th>
+            <th data-field="danni"><button type="button" data-k="danni">Danni %</button></th>
+            <th data-field="boss"><button type="button" data-k="boss">Boss %</button></th>
+            <th data-field="cure"><button type="button" data-k="cure">Cure %</button></th>
+            <th data-field="tank"><button type="button" data-k="tank">Tank %</button></th>
+            <th data-field="apm"><button type="button" data-k="apm">APM</button></th>
+            <th data-field="abilita_min"><button type="button" data-k="abilita_min">Abilità/min</button></th>
+            <th data-field="oro_medio_fine_round"><button type="button" data-k="oro_medio_fine_round">Oro medio</button></th>
+            <th data-field="round_sotto_20hp"><button type="button" data-k="round_sotto_20hp">Round ≤20% HP</button></th>
+            <th data-field="premi_round"><button type="button" data-k="premi_round">Premi round</button></th>
+            <th data-field="abilita_principale" class="txt"><button type="button" data-k="abilita_principale">Abilità più usata</button></th>
+            <th data-field="abilita_principale_usi"><button type="button" data-k="abilita_principale_usi">Usi</button></th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="og-section" id="abilita">
+    <h2>Abilità usate</h2>
+    <p class="og-sub">Lanci di ogni abilità nell'intera partita, nomi presi dalla mappa (abilità con almeno 3 usi).</p>
+    <div class="og-card">
+      <input type="search" id="ab-search" placeholder="Cerca giocatore o abilità" aria-label="Cerca giocatore o abilità">
+      <div class="og-table-wrap">
+        <table id="t-abilita" data-source="abilita" data-row-key="player,abilita">
+          <thead><tr>
+            <th data-field="player" class="txt">Giocatore</th>
+            <th data-field="abilita" class="txt">Abilità</th>
+            <th data-field="usi">Usi</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <footer class="og-note" id="metodo">
+    <p><b>Come sono fatti i dati.</b> Il replay registra solo i comandi dei giocatori, non danni e cure: quelli vengono dalla multiboard della mappa, trascritta dagli screenshot dopo ogni challenge (le colonne sommano sempre a circa 100%). Le quote sono cumulative dall'inizio della partita. L'APM conta anche i click ripetuti, quindi misura l'attività e non l'efficacia. Mancano il riepilogo della challenge 12 e la durata delle challenge 8 e 19. Con una sola partita i confronti sono tra giocatori, non tra strategie.</p>
+  </footer>
+</div>
+
+
+
+
+</div>
+<script>
+if (!window.d3) {
+  document.querySelector('#dash-root .og-head').insertAdjacentHTML('beforeend',
+    '<p style="color:var(--color-bad)">Grafici non disponibili: serve una connessione a internet per caricare la libreria d3.</p>');
+} else {
+﻿(function () {
+  const root = document.querySelector('#dash-root .og');
+  const F = {
+    pct: v => (+v).toFixed(1) + '%',
+    int: v => d3.format(',')(Math.round(+v)),
+    dec1: v => (+v).toFixed(1),
+    dec2: v => (+v).toFixed(2),
+  };
+  const METRICS = {
+    danni: { label: 'Danni', fmt: F.pct, color: 0 },
+    boss: { label: 'Danni al boss', fmt: F.pct, color: 1 },
+    cure: { label: 'Cure', fmt: F.pct, color: 2 },
+    tank: { label: 'Danni subiti', fmt: F.pct, color: 3 },
+    oro: { label: 'Oro in tasca', fmt: F.int, color: 4 },
+  };
+  const state = window.ogState || (window.ogState = { metric: 'danni', player: 'Orange Jews' });
+
+  // ---------- valori calcolati ----------
+  dash.calc('round_lenti', {
+    inputs: ['round'], title: 'Round con voto E o G',
+    description: 'Conta le challenge chiuse con voto E o G, i due voti peggiori.',
+    fn: (round) => [{ n: round.filter(r => r.voto === 'E' || r.voto === 'G').length }],
+  });
+  dash.calc('oro_team', {
+    inputs: ['profilo'], title: 'Oro medio non speso',
+    description: "Media sui 10 giocatori dell'oro in tasca a fine round.",
+    fn: (profilo) => [{ oro: Math.round(profilo.reduce((s, r) => s + Number(r.oro_medio_fine_round), 0) / profilo.length) }],
+  });
+  dash.calc('corr_hp_tempo', {
+    inputs: ['round'], title: 'Eroi a terra vs durata',
+    description: 'Correlazione di Pearson tra eroi con HP ≤ 20% a fine round e secondi per chiudere l\'ondata (round con entrambi i dati).',
+    fn: (round) => {
+      const r = round.filter(x => x.secondi !== '' && x.eroi_sotto_20hp !== '');
+      const xs = r.map(x => Number(x.eroi_sotto_20hp)), ys = r.map(x => Number(x.secondi));
+      const mx = xs.reduce((a, b) => a + b, 0) / xs.length, my = ys.reduce((a, b) => a + b, 0) / ys.length;
+      let sxy = 0, sxx = 0, syy = 0;
+      xs.forEach((x, i) => { sxy += (x - mx) * (ys[i] - my); sxx += (x - mx) ** 2; syy += (ys[i] - my) ** 2; });
+      return [{ r: Math.round(sxy / Math.sqrt(sxx * syy) * 100) / 100 }];
+    },
+  });
+  dash.calc('corr_apm_danni', {
+    inputs: ['profilo'], title: 'APM vs danni',
+    description: 'Correlazione di Pearson tra APM e quota di danni dei 10 giocatori.',
+    fn: (profilo) => {
+      const xs = profilo.map(x => Number(x.apm)), ys = profilo.map(x => Number(x.danni));
+      const mx = xs.reduce((a, b) => a + b, 0) / xs.length, my = ys.reduce((a, b) => a + b, 0) / ys.length;
+      let sxy = 0, sxx = 0, syy = 0;
+      xs.forEach((x, i) => { sxy += (x - mx) * (ys[i] - my); sxx += (x - mx) ** 2; syy += (ys[i] - my) ** 2; });
+      return [{ r: Math.round(sxy / Math.sqrt(sxx * syy) * 100) / 100 }];
+    },
+  });
+
+  // ---------- helper ----------
+  const tip = document.createElement('div');
+  tip.className = 'og-tip'; tip.hidden = true; root.append(tip);
+  function showTip(evt, title, lines) {
+    tip.textContent = '';
+    const t = document.createElement('div'); t.className = 't'; t.textContent = title; tip.append(t);
+    lines.forEach(l => { const d = document.createElement('div'); d.textContent = l; tip.append(d); });
+    tip.hidden = false;
+    const rb = root.getBoundingClientRect();
+    let x = evt.clientX - rb.left + 12, y = evt.clientY - rb.top + 12;
+    const w = tip.offsetWidth, h = tip.offsetHeight;
+    if (x + w > rb.width) x = evt.clientX - rb.left - w - 12;
+    if (x < 0) x = 0;
+    tip.style.left = x + 'px'; tip.style.top = Math.max(0, y - (y + h > rb.height ? h + 24 : 0)) + 'px';
+  }
+  const hideTip = () => { tip.hidden = true; };
+
+  function ready(el, ids) {
+    const st = ids.map(i => dash.data(i).status);
+    el.classList.remove('og-failed');
+    if (st.every(s => s === 'ok')) { el.classList.remove('dash-skeleton'); return true; }
+    el.textContent = '';
+    if (st.some(s => s === 'error' || s === 'connect' || s === 'missing' || s === 'declined')) {
+      el.classList.remove('dash-skeleton'); el.classList.add('og-failed');
+      const s = document.createElement('span'); s.className = 'og-fail'; s.textContent = 'Caricamento non riuscito'; el.append(s);
+    } else el.classList.add('dash-skeleton');
+    return false;
+  }
+  const div = (cls, text) => { const d = document.createElement('div'); d.className = cls; if (text != null) d.textContent = text; return d; };
+  const cssColor = (c) => { const p = document.createElement('span'); p.style.color = c; root.append(p); const v = getComputedStyle(p).color; p.remove(); return v; };
+
+  function fillMarks() {
+    root.querySelectorAll('[data-fill]').forEach(el => {
+      const d = dash.data(el.dataset.source);
+      if (d.status !== 'ok') { el.textContent = '—'; return; }
+      let row;
+      if (el.dataset.where) {
+        const i = el.dataset.where.indexOf('=');
+        const k = el.dataset.where.slice(0, i), v = decodeURIComponent(el.dataset.where.slice(i + 1));
+        row = d.data.find(r => String(r[k]) === v);
+      } else row = d.data[+(el.dataset.row || 0)];
+      const v = row ? row[el.dataset.field] : '';
+      el.textContent = (v === '' || v == null) ? '—' : F[el.dataset.fill](v);
+    });
+  }
+
+  // barre orizzontali in HTML
+  function hbars(el, items, { max, fmt, color, extra }) {
+    el.textContent = '';
+    items.forEach(it => {
+      const row = div('og-bar-row');
+      const track = div('og-bar-track');
+      const bar = div('og-bar'); bar.style.width = (it.value / max * 100) + '%'; bar.style.background = color;
+      track.append(bar);
+      if (it.max != null) { const m = div('og-bar-max'); m.style.left = `calc(${it.max / max * 100}% - 1px)`; track.append(m); }
+      row.append(div('og-bar-label', it.label), track, div('og-bar-val', fmt(it.value)));
+      row.addEventListener('pointermove', e => showTip(e, it.label + ' · ' + it.sub, extra(it)));
+      row.addEventListener('pointerleave', hideTip);
+      el.append(row);
+    });
+  }
+
+  function drawRoleBars(prof) {
+    ['danni', 'boss', 'cure', 'tank'].forEach(m => {
+      const el = document.getElementById('b-' + m);
+      if (!ready(el, ['profilo'])) return;
+      const items = prof.map(r => ({ label: r.giocatore, sub: r.classe, value: +r[m] })).sort((a, b) => b.value - a.value);
+      hbars(el, items, { max: 40, fmt: F.pct, color: dash.colors[METRICS[m].color], extra: it => [METRICS[m].label + ': ' + F.pct(it.value)] });
+    });
+    const el = document.getElementById('b-oro');
+    if (!ready(el, ['profilo'])) return;
+    const items = prof.map(r => ({ label: r.giocatore, sub: r.classe, value: +r.oro_medio_fine_round, max: +r.oro_max })).sort((a, b) => b.value - a.value);
+    hbars(el, items, { max: d3.max(items, d => d.max), fmt: F.int, color: dash.colors[4], extra: it => ['Media a fine round: ' + F.int(it.value), 'Massimo: ' + F.int(it.max)] });
+  }
+
+  // ---------- andamento ----------
+  function drawTrend(rows) {
+    const el = document.getElementById('c-trend');
+    if (!ready(el, ['andamento'])) return;
+    el.textContent = '';
+    const m = state.metric, sel = state.player, meta = METRICS[m];
+    const W = Math.max(280, el.clientWidth), H = 300;
+    const svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img')
+      .attr('aria-label', `${meta.label} cumulati per challenge, ${sel} evidenziato`);
+    const byP = d3.group(rows.map(r => ({ p: r.player, c: +r.challenge, v: +r[m] })), d => d.p);
+    const ymax = d3.max(rows, r => +r[m]) * 1.08;
+    // misura etichetta finale
+    const probe = svg.append('text').attr('class', 'og-strong').text(sel + ' 00.0%');
+    const endW = Math.min(probe.node().getComputedTextLength() + 10, W * 0.4); probe.remove();
+    const yTicks = d3.scaleLinear([0, ymax], [0, 1]).nice().ticks(5);
+    const probe2 = svg.append('text').text(meta.fmt(yTicks[yTicks.length - 1]));
+    const left = probe2.node().getComputedTextLength() + 10; probe2.remove();
+    const mg = { t: 10, r: endW, b: 28, l: left };
+    const x = d3.scaleLinear([1, 19], [mg.l, W - mg.r]);
+    const y = d3.scaleLinear([0, ymax], [H - mg.b, mg.t]).nice();
+    const g = svg.append('g');
+    y.ticks(5).forEach(t => {
+      g.append('line').attr('x1', mg.l).attr('x2', W - mg.r).attr('y1', y(t)).attr('y2', y(t)).attr('stroke', 'var(--cds-chart-grid)').attr('stroke-width', 1);
+      g.append('text').attr('x', mg.l - 6).attr('y', y(t) + 4).attr('text-anchor', 'end').text(meta.fmt(t));
+    });
+    const step = W < 480 ? 3 : 2;
+    for (let c = 1; c <= 19; c += step) g.append('text').attr('x', x(c)).attr('y', H - 8).attr('text-anchor', 'middle').text(c);
+    g.append('text').attr('x', W - mg.r).attr('y', H - 8).attr('text-anchor', 'end').text('challenge');
+    const line = d3.line().x(d => x(d.c)).y(d => y(d.v));
+    for (const [p, pts] of byP) if (p !== sel)
+      g.append('path').attr('d', line(pts)).attr('fill', 'none').attr('stroke', 'var(--cds-chart-muted)').attr('stroke-width', 1.5).attr('stroke-linejoin', 'round').attr('stroke-linecap', 'round');
+    const sp = byP.get(sel) || [];
+    const col = dash.colors[meta.color];
+    g.append('path').attr('d', line(sp)).attr('fill', 'none').attr('stroke', col).attr('stroke-width', 2.5).attr('stroke-linejoin', 'round').attr('stroke-linecap', 'round');
+    const last = sp[sp.length - 1];
+    if (last) {
+      g.append('circle').attr('cx', x(last.c)).attr('cy', y(last.v)).attr('r', 4).attr('fill', col);
+      g.append('text').attr('class', 'og-strong').attr('x', x(last.c) + 8).attr('y', y(last.v) + 4).text(meta.fmt(last.v));
+      g.append('text').attr('x', x(last.c) + 8).attr('y', y(last.v) + 18).text(sel.length > 14 ? sel.slice(0, 13) + '…' : sel);
+    }
+    const rule = g.append('line').attr('y1', mg.t).attr('y2', H - mg.b).attr('stroke', 'var(--cds-chart-reference)').attr('opacity', 0);
+    const dot = g.append('circle').attr('r', 5).attr('fill', col).attr('opacity', 0);
+    svg.append('rect').attr('x', mg.l).attr('y', 0).attr('width', W - mg.l - mg.r).attr('height', H).attr('fill', 'transparent')
+      .on('pointermove', (e) => {
+        const [mx] = d3.pointer(e); const c = Math.max(1, Math.min(19, Math.round(x.invert(mx))));
+        const pt = sp.find(d => d.c === c); if (!pt) return;
+        rule.attr('x1', x(c)).attr('x2', x(c)).attr('opacity', 1);
+        dot.attr('cx', x(c)).attr('cy', y(pt.v)).attr('opacity', 1);
+        const all = [...byP].map(([p, ps]) => [p, (ps.find(d => d.c === c) || {}).v]).filter(d => d[1] != null).sort((a, b) => b[1] - a[1]);
+        const rank = all.findIndex(d => d[0] === sel) + 1;
+        showTip(e, `Dopo la challenge ${c}`, [`${sel}: ${meta.fmt(pt.v)} (${rank}° su ${all.length})`, `Primo: ${all[0][0]} ${meta.fmt(all[0][1])}`]);
+      })
+      .on('pointerleave', () => { rule.attr('opacity', 0); dot.attr('opacity', 0); hideTip(); });
+  }
+
+  // ---------- round ----------
+  function roundBars(el, rows, field, { color, label, maxFixed, fmtTop }) {
+    el.textContent = '';
+    const W = Math.max(280, el.clientWidth), H = 240, mg = { t: 18, r: 6, b: 26, l: 34 };
+    const svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img').attr('aria-label', label);
+    const x = d3.scaleBand(rows.map(r => +r.challenge), [mg.l, W - mg.r]).padding(0.25);
+    const vals = rows.map(r => r[field] === '' ? null : +r[field]);
+    const y = d3.scaleLinear([0, maxFixed || d3.max(vals) * 1.1], [H - mg.b, mg.t]).nice();
+    y.ticks(4).forEach(t => {
+      svg.append('line').attr('x1', mg.l).attr('x2', W - mg.r).attr('y1', y(t)).attr('y2', y(t)).attr('stroke', 'var(--cds-chart-grid)');
+      svg.append('text').attr('x', mg.l - 6).attr('y', y(t) + 4).attr('text-anchor', 'end').text(d3.format(',')(t));
+    });
+    svg.append('line').attr('x1', mg.l).attr('x2', W - mg.r).attr('y1', y(0)).attr('y2', y(0)).attr('stroke', 'var(--cds-chart-axis)');
+    const every = W < 420 ? 3 : (W < 640 ? 2 : 1);
+    rows.forEach((r, i) => {
+      const c = +r.challenge, v = vals[i], bx = x(c), bw = x.bandwidth();
+      if (((c - 1) % every === 0 && 20 - c >= every) || c === 20) svg.append('text').attr('x', bx + bw / 2).attr('y', H - 8).attr('text-anchor', 'middle').text(c);
+      if (v == null) {
+        svg.append('text').attr('x', bx + bw / 2).attr('y', y(0) - 4).attr('text-anchor', 'middle').text(c === 20 ? '✕' : '·');
+      } else {
+        const h = Math.max(0, y(0) - y(v));
+        svg.append('rect').attr('x', bx).attr('y', y(v)).attr('width', bw).attr('height', h + 0.01).attr('rx', Math.min(4, bw / 2)).attr('fill', color(r));
+        const top = fmtTop(r); if (top && bw >= 6) svg.append('text').attr('class', 'og-strong').style('font-size', bw < 12 ? '9px' : '11px').attr('x', bx + bw / 2).attr('y', y(v) - 4).attr('text-anchor', 'middle').text(top);
+      }
+      svg.append('rect').attr('x', bx - x.step() * x.paddingInner() / 2).attr('y', mg.t).attr('width', x.step()).attr('height', H - mg.t - mg.b).attr('fill', 'transparent')
+        .on('pointermove', e => showTip(e, `Challenge ${c} · ${r.ondata}`, [
+          r.secondi !== '' ? `Durata: ${r.secondi} s` : 'Durata: non disponibile',
+          `Voto: ${r.voto || 'non disponibile'}`,
+          r.eroi_sotto_20hp !== '' ? `Eroi con HP ≤ 20%: ${r.eroi_sotto_20hp}` : 'Boss finale: sconfitta',
+          `APM medio del team: ${r.apm_team}`]))
+        .on('pointerleave', hideTip);
+    });
+  }
+  function drawRounds(rows) {
+    const e1 = document.getElementById('c-secondi');
+    if (ready(e1, ['round'])) roundBars(e1, rows, 'secondi', {
+      label: 'Secondi per chiudere ogni challenge',
+      color: r => (r.voto === 'E' || r.voto === 'G') ? 'var(--cds-chart-status-critical)' : dash.colors[0],
+      fmtTop: r => r.voto && r.voto.length === 1 ? r.voto : '',
+    });
+    const e2 = document.getElementById('c-hp');
+    if (ready(e2, ['round'])) roundBars(e2, rows, 'eroi_sotto_20hp', {
+      label: 'Eroi con HP al 20% o meno a fine round', maxFixed: 10,
+      color: r => +r.eroi_sotto_20hp >= 4 ? 'var(--cds-chart-status-critical)' : dash.colors[1],
+      fmtTop: r => r.eroi_sotto_20hp !== '' && +r.eroi_sotto_20hp > 0 ? r.eroi_sotto_20hp : '',
+    });
+  }
+
+  // ---------- scatter ----------
+  function drawScatter(prof) {
+    const el = document.getElementById('c-scatter');
+    if (!ready(el, ['profilo'])) return;
+    el.textContent = '';
+    const W = Math.max(280, el.clientWidth), H = 280, mg = { t: 12, r: 12, b: 34, l: 40 };
+    const svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img').attr('aria-label', 'APM contro quota di danni');
+    const x = d3.scaleLinear([0, 100], [mg.l, W - mg.r]);
+    const y = d3.scaleLinear([0, 30], [H - mg.b, mg.t]);
+    y.ticks(3).forEach(t => {
+      svg.append('line').attr('x1', mg.l).attr('x2', W - mg.r).attr('y1', y(t)).attr('y2', y(t)).attr('stroke', 'var(--cds-chart-grid)');
+      svg.append('text').attr('x', mg.l - 6).attr('y', y(t) + 4).attr('text-anchor', 'end').text(t + '%');
+    });
+    x.ticks(5).forEach(t => svg.append('text').attr('x', x(t)).attr('y', H - 16).attr('text-anchor', 'middle').text(t));
+    svg.append('text').attr('x', W - mg.r).attr('y', H - 2).attr('text-anchor', 'end').text('APM →');
+    svg.append('text').attr('x', mg.l).attr('y', mg.t - 2).text('danni ↑');
+    const placed = [];
+    const overlaps = (b) => placed.some(p => b.x < p.x + p.w && b.x + b.w > p.x && b.y < p.y + p.h && b.y + b.h > p.y)
+      || b.x < mg.l || b.x + b.w > W;
+    prof.forEach(r => {
+      const cx = x(+r.apm), cy = y(+r.danni);
+      svg.append('circle').attr('cx', cx).attr('cy', cy).attr('r', 6).attr('fill', dash.colors[0]).attr('stroke', 'var(--color-panel)').attr('stroke-width', 2);
+      placed.push({ x: cx - 7, y: cy - 7, w: 14, h: 14 });
+    });
+    prof.forEach(r => {
+      const cx = x(+r.apm), cy = y(+r.danni);
+      const name = r.giocatore.length > 12 ? r.giocatore.slice(0, 11) + '…' : r.giocatore;
+      const label = svg.append('text').text(name);
+      const w = label.node().getComputedTextLength(), h = 12;
+      // prova destra, sinistra, sopra, sotto; tiene la prima posizione libera
+      const tries = [[cx + 10, cy + 4, 'start'], [cx - 10, cy + 4, 'end'], [cx, cy - 11, 'middle'], [cx, cy + 19, 'middle'],
+        [cx + 10, cy - 8, 'start'], [cx + 10, cy + 16, 'start'], [cx - 10, cy - 8, 'end'], [cx - 10, cy + 16, 'end']];
+      const box = ([lx, ly, a]) => ({ x: a === 'start' ? lx : a === 'end' ? lx - w : lx - w / 2, y: ly - h + 2, w, h });
+      for (const dy of [-20, 28, -32, 40]) tries.push([cx, cy + dy, 'middle']);
+      const area = (b) => placed.reduce((s, p) => s + Math.max(0, Math.min(b.x + b.w, p.x + p.w) - Math.max(b.x, p.x)) * Math.max(0, Math.min(b.y + b.h, p.y + p.h) - Math.max(b.y, p.y)), 0)
+        + (b.x < mg.l || b.x + b.w > W || b.y < 0 || b.y + b.h > H - mg.b ? 1e6 : 0);
+      const pick = tries.find(t => !overlaps(box(t))) || tries.reduce((best, t) => area(box(t)) < area(box(best)) ? t : best, tries[0]);
+      label.attr('x', pick[0]).attr('y', pick[1]).attr('text-anchor', pick[2]);
+      placed.push(box(pick));
+    });
+    prof.forEach(r => {
+      const cx = x(+r.apm), cy = y(+r.danni);
+      svg.append('circle').attr('cx', cx).attr('cy', cy).attr('r', 14).attr('fill', 'transparent')
+        .on('pointermove', e => showTip(e, r.giocatore + ' · ' + r.classe, ['APM: ' + F.dec1(r.apm), 'Danni: ' + F.pct(r.danni), 'Abilità al minuto: ' + F.dec2(r.abilita_min)]))
+        .on('pointerleave', hideTip);
+    });
+  }
+
+  // ---------- heatmap ----------
+  function drawHeat(rows) {
+    const el = document.getElementById('c-heat');
+    if (!ready(el, ['attivita'])) return;
+    el.textContent = '';
+    const ch = [...new Set(rows.map(r => +r.challenge))].sort((a, b) => a - b);
+    el.style.gridTemplateColumns = `minmax(7rem, 9rem) repeat(${ch.length}, minmax(1.2rem, 1fr))`;
+    const lo = cssColor('var(--color-panel)'), hi = cssColor(dash.colors[0]);
+    const max = d3.max(rows, r => +r.apm);
+    const ramp = d3.interpolateRgb(lo, hi);
+    document.getElementById('heat-ramp').style.background = `linear-gradient(90deg, ${ramp(0.08)}, ${ramp(1)})`;
+    el.append(div('n h', ''));
+    ch.forEach(c => el.append(div('h', c)));
+    const players = [...new Set(rows.map(r => r.player))];
+    players.forEach(p => {
+      el.append(div('n', p));
+      ch.forEach(c => {
+        const r = rows.find(x => x.player === p && +x.challenge === c);
+        const cell = div('c'); const v = r ? +r.apm : 0;
+        cell.style.background = ramp(0.08 + 0.92 * v / max);
+        cell.addEventListener('pointermove', e => showTip(e, `${p} · challenge ${c}`, ['APM: ' + F.dec1(v), 'Abilità lanciate: ' + (r ? r.abilita : 0)]));
+        cell.addEventListener('pointerleave', hideTip);
+        el.append(cell);
+      });
+    });
+  }
+
+  // ---------- tabelle ----------
+  const sortState = { k: 'danni', dir: -1 };
+  function drawProfileTable(prof) {
+    const t = document.getElementById('t-profilo'); const tb = t.querySelector('tbody');
+    tb.textContent = '';
+    if (dash.data('profilo').status !== 'ok') return;
+    const cols = [...t.querySelectorAll('th')].map(th => th.dataset.field);
+    const isNum = k => !['giocatore', 'classe', 'abilita_principale'].includes(k);
+    const rows = [...prof].sort((a, b) => {
+      const k = sortState.k; const va = isNum(k) ? +a[k] : a[k], vb = isNum(k) ? +b[k] : b[k];
+      return (va > vb ? 1 : va < vb ? -1 : 0) * sortState.dir;
+    });
+    t.querySelectorAll('th').forEach(th => th.setAttribute('aria-sort', th.dataset.field === sortState.k ? (sortState.dir > 0 ? 'ascending' : 'descending') : 'none'));
+    rows.forEach(r => {
+      const tr = document.createElement('tr');
+      cols.forEach(k => {
+        const td = document.createElement('td'); if (!isNum(k)) td.className = 'txt';
+        td.textContent = ['danni', 'boss', 'cure', 'tank'].includes(k) ? (+r[k]).toFixed(1)
+          : k === 'apm' ? F.dec1(r[k]) : k === 'abilita_min' ? F.dec2(r[k]) : isNum(k) ? F.int(r[k]) : r[k];
+        tr.append(td);
+      });
+      tb.append(tr);
+    });
+  }
+  function drawAbilityTable(rows) {
+    const t = document.getElementById('t-abilita'); const tb = t.querySelector('tbody');
+    tb.textContent = '';
+    if (dash.data('abilita').status !== 'ok') return;
+    const q = (document.getElementById('ab-search').value || '').toLowerCase();
+    [...rows].sort((a, b) => a.player.localeCompare(b.player) || b.usi - a.usi)
+      .filter(r => !q || (r.player + ' ' + r.abilita).toLowerCase().includes(q))
+      .forEach(r => {
+        const tr = document.createElement('tr');
+        [r.player, r.abilita, F.int(r.usi)].forEach((v, i) => { const td = document.createElement('td'); if (i < 2) td.className = 'txt'; td.textContent = v; tr.append(td); });
+        tb.append(tr);
+      });
+  }
+
+  // ---------- controlli ----------
+  document.querySelectorAll('#metric-seg button').forEach(b => b.addEventListener('click', () => {
+    state.metric = b.dataset.m;
+    document.querySelectorAll('#metric-seg button').forEach(x => x.setAttribute('aria-pressed', String(x === b)));
+    const d = dash.data('andamento'); if (d.status === 'ok') drawTrend(d.data);
+  }));
+  const selEl = document.getElementById('player-sel');
+  selEl.addEventListener('change', () => { state.player = selEl.value; const d = dash.data('andamento'); if (d.status === 'ok') drawTrend(d.data); });
+  document.querySelectorAll('#t-profilo th button').forEach(b => b.addEventListener('click', () => {
+    if (sortState.k === b.dataset.k) sortState.dir *= -1; else { sortState.k = b.dataset.k; sortState.dir = ['giocatore', 'classe', 'abilita_principale'].includes(b.dataset.k) ? 1 : -1; }
+    const d = dash.data('profilo'); if (d.status === 'ok') drawProfileTable(d.data);
+  }));
+  document.getElementById('ab-search').addEventListener('input', () => { const d = dash.data('abilita'); if (d.status === 'ok') drawAbilityTable(d.data); });
+
+  let animated = false;
+  dash.onData(() => {
+    fillMarks();
+    const prof = dash.data('profilo'), and = dash.data('andamento'), rnd = dash.data('round'), att = dash.data('attivita'), ab = dash.data('abilita');
+    if (and.status === 'ok' && !selEl.options.length) {
+      [...new Set(and.data.map(r => r.player))].forEach(p => { const o = document.createElement('option'); o.value = p; o.textContent = p; selEl.append(o); });
+      selEl.value = state.player;
+    }
+    drawRoleBars(prof.status === 'ok' ? prof.data : []);
+    drawTrend(and.status === 'ok' ? and.data : []);
+    drawRounds(rnd.status === 'ok' ? rnd.data : []);
+    drawScatter(prof.status === 'ok' ? prof.data : []);
+    drawHeat(att.status === 'ok' ? att.data : []);
+    drawProfileTable(prof.status === 'ok' ? prof.data : []);
+    drawAbilityTable(ab.status === 'ok' ? ab.data : []);
+    if (!animated && prof.status === 'ok') {
+      animated = true;
+      const named = document.getElementById(location.hash.slice(1));
+      if (named) { named.scrollIntoView(); dash.setLink(named.id); }
+    }
+  });
+})();
+
+
+
+}
+</script>
+</body>
+</html>

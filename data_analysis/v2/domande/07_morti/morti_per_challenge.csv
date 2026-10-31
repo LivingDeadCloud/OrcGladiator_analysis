@@ -1,0 +1,21 @@
+challenge,ondata,tipo_wave,voto,durata_s,morti_alta,morti_media,possibili_bassa,classi_morte_alta_media,tentativi_pietra,attivazioni_pietra_riuscite_stimate,eroi_fine_sotto_20hp,eroi_con_firma_rianimazione
+1,?,ibrida,A,61.0,0,0,0,,0,0,0,0
+2,Machines,ibrida,A,73.0,0,0,0,,0,0,0,0
+3,Combatants (Melee),mischia,A,77.0,0,0,3,,0,0,0,0
+4,Voidwalkers (Ranged),distanza,C,154.0,1,0,1,Bow,0,0,0,1
+5,Sasquatches (Melee),mischia,D,189.0,4,0,2,Bow + Claws + Double Blade + Pickaxe,1,0,4,4
+6,Boars,ibrida,B,105.0,0,0,0,,0,0,0,0
+7,Goblins,ibrida,D,174.0,1,0,1,Bow,1,0,1,1
+8,Mur'guls,ibrida,,161.0,0,0,1,,0,0,0,0
+9,Water Elementals,distanza,G,428.0,6,0,1,Bow + Claws + Druid Staff + Naga Trident + War Drums,4,3,3,3
+10,Mammoths (Melee),mischia,D,161.0,0,1,1,Naga Trident,0,0,1,1
+11,Nether Drakes (Ranged),distanza,C,150.0,1,0,0,Pickaxe,0,0,1,1
+12,Giant Spiders,ibrida,,113.0,0,0,2,,0,0,0,0
+13,Revenants,ibrida,C,132.0,4,0,1,Bow + Druid Staff + Naga Trident + Pickaxe,1,0,6,4
+14,Faceless Ones,ibrida,C,121.0,0,0,0,,0,0,0,0
+15,War Golems (Melee),mischia,E,236.0,9,0,0,Bow + Druid Staff + Naga Trident + Pickaxe + Runeblade + War Drums + War Hammer + Wizard Staff,3,1,7,8
+16,Salamanders (Ranged),distanza,E,216.0,2,1,1,Bow + Naga Trident,2,1,2,2
+17,Greater Demons (Melee),mischia,A,80.0,0,0,1,,1,0,0,0
+18,Enslaved Orcs,ibrida,G,432.0,8,1,0,Bow + Double Blade + Druid Staff + Naga Trident + Pickaxe + Runeblade + War Drums + Wizard Staff,4,3,4,5
+19,Night Elf Hunters,ibrida,D,208.0,0,0,2,,1,0,0,0
+20,Arena Organisers (boss finale: Lord of the Arena lv30),ibrida,SCONFITTA,312.0,0,3,0,Bow + War Drums + Wizard Staff,5,2,0,0

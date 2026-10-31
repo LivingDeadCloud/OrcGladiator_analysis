@@ -1,0 +1,6 @@
+ruolo,n_classi,entrate_vittoria,entrate_voto,entrate_migliore_round,entrate_scavenger,entrate_token,entrate_ricompensa_statistica,entrate_totali_stimate,spesa_netta_acquisti,spesa_tomi,spesa_reliquie,spesa_stivali_netta,spesa_pozioni,spesa_altro,prestiti_dati,prestiti_ricevuti,rimborsi_ricevuti,rimborsi_pagati,correzioni_screenshot_totali,oro_medio_fine_round_misurato,oro_max_fine_round_misurato,oro_dopo_ch19_misurato,oro_durante_boss_misurato,oro_alla_sconfitta_misurato,oro_residuo_su_entrate_pct,permanenza_media_oro_s_little,ritardo_medio_fifo_s,acquisti_rifiutati_simulati
+Tank,2,1900,734,39,338,0,25,3036,2285,935,1000,300,50,0,419,808.5,419,808.5,-706,245.5,872,611,45,45,1.4,319,1277.5,3.5
+Healer,1,1900,734,371,338,0,0,3343,2357,550,1250,557,0,0,2297,606,2297,606,-986,336,937,172,0,0,0.0,343,847,6
+Support,1,1900,734,0,338,0,25,2997,2368,1430,375,563,0,0,1726,21,1726,21,-554,301,1228,303,75,75,2.5,306,1380,2
+DPS mischia,3,1900,734,300.3,338,0,8.3,3280.7,3127,1210,1425,408.7,66.7,16.7,695.7,984.7,695.7,984.7,-124,272.3,906,371.3,29.7,44.5,0.8,256,740.3,2.3
+DPS distanza,3,1900,734,74,338,20,50,3116,2452,366.7,1441.7,350.3,33.3,260,347.3,930.7,347.3,930.7,-511.3,238.7,703.3,293.7,152.7,152.7,4.8,305.7,615,1.7

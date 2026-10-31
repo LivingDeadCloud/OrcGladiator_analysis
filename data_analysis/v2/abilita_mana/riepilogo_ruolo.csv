@@ -1,0 +1,6 @@
+ruolo,classi,n_classi,classi_usate_per_mana,pct_mana_20_80_combattimento,pct_mana_sotto_20_combattimento,pct_mana_sopra_80_combattimento,classi_simulazione_affidabile,cast_in_combattimento_al_minuto,quota_ordini_sprecati_pct,cooldown_occupato_medio_pct_combattimento
+Tank,War Hammer + Runeblade,2,War Hammer + Runeblade,57.633,26.528,15.839,0,6.698,1.582,29.245
+Healer,Druid Staff,1,Druid Staff,45.855,26.026,28.119,0,8.138,2.469,36.735
+Support,War Drums,1,nessuna (simulazione non affidabile),,,,0,1.356,0.0,26.127
+DPS mischia,Claws + Double Blade + Pickaxe,3,Claws + Pickaxe,42.869,47.049,10.082,0,3.193,17.178,26.415
+DPS distanza,Bow + Wizard Staff + Naga Trident,3,Wizard Staff,30.226,69.774,0.0,1,4.432,1.965,21.425

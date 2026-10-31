@@ -1,0 +1,17 @@
+indicatore,valore,tipo,fonte,nota
+classi_selezionabili,16,misurato,war3map.j,bottoni udg_WeaponPickButton[1..16]
+classi_giocate,10,misurato,class_roles.csv,
+classi_non_giocate,Katana (Melee DPS); Scythe (Ranged Summoner); Great Axe (Melee DPS); Crystal Ball (Ranged Caster); Alchemy Flask (Ranged Support); Pelt (Melee Adaptable),misurato,war3map.w3u,
+melee_tank_disponibili_e_giocati,2 / 2,misurato,war3map.w3u,
+quota_danni_classe_top,26.9 (Claws),misurato,multiboard ch.19,
+quota_danni_DPS_mischia_da_Claws_pct,56.4,misurato (rapporto),multiboard ch.19,
+quota_boss_da_Claws,33.2,misurato,multiboard ch.19,
+quota_tank_classi_non_Tank,72.1,misurato,multiboard ch.19,
+quota_tank_Double_Blade_piu_Claws,52.8,misurato,multiboard ch.19,
+classi_con_cure_multiboard_sopra_10pct,Runeblade; War Hammer; Druid Staff; War Drums,misurato,multiboard ch.19,include pozioni/rigenerazione/lifesteal
+cure_solo_abilita_scenario_b,Runeblade 10.5; Druid Staff 60.9; War Drums 28.6,stimato,cure/NOTE.md,
+classi_sotto_quota_equa_su_tutte_le_metriche,,misurato,multiboard ch.19,quota equa = 10%
+DPS_sotto_quota_equa_danni,Double Blade,misurato,multiboard ch.19,
+challenge_difficili,5 7 9 10 13 15 16 18 19,misurato,round_classi.csv,voto D-G oppure >=3 eroi a HP<=20%
+challenge_facili,1 2 3 4 6 11 14 17,misurato,round_classi.csv,voto A-C e <3 eroi a HP<=20%
+challenge_escluse,8 12 20,misurato,round_classi.csv,"senza voto (8 e 12); la 20 e il boss finale, trattato a parte"

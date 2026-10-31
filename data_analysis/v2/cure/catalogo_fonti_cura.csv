@@ -1,0 +1,28 @@
+classe,fonte,id_mappa,order_hex,tipo,categoria,contata_dalla_mappa,attribuita_a,formula_dal_codice,note
+Druid Staff,Rejuvenation,A05R,0x0D00C0,cura nel tempo,abilita,si,lanciatore,15 x Int in 24 s su alleato (+3 x Int istantanei con I093/I079),su nemico diventa Wither (danno)
+Druid Staff,Innervate,A060,0x0D00C1,cura nel tempo (condizionale),abilita,si,lanciatore,mana; ai livelli 3-4 applica anche Rejuvenation 30 x Int in 24 s,
+Druid Staff,Tranquility,A05Y,0x0D00D8,cura ad area nel tempo,abilita,si,lanciatore,"2,25 x Int per impulso a ogni alleato (tooltip: 45 x Int in 10 s)",
+Druid Staff,Thorns Aura,,,aura,esclusa: aura,no,-,nessuna cura,
+War Drums,Motivate,A0AJ,(passiva),cura nel tempo,abilita,si,lanciatore,"0,2-0,8 x Agi al secondo per 10 s a 1 alleato entro 700, innescata dagli attacchi",nessun comando nel replay
+War Drums,Rally,A09Z,0x0D0084,potenziamento di cura,abilita,indiretta,lanciatore,+100% alla cura di Motivate mentre e attiva,
+War Drums,War Drums (Bestow Aura),A0A0-A0AA,0x0D0216/007C/026C/00D1/0065/008E/024C,cura ad area,abilita,si,lanciatore,9 x Agi ad alleati entro 600,conferisce anche un'aura (es. Vampiric)
+Runeblade,Death Coil,A0HJ,0x0D00FE,cura diretta,abilita,si,lanciatore,6 / 9 / 12 x Str su alleato,su nemico fa danno: il replay non distingue il bersaglio
+Runeblade,Death Pact,A0HK,0x0D00FF,auto-cura diretta,abilita,si,lanciatore,36 x Str su se stesso,
+Runeblade,Cannibalize,A0HY,0x0D00DC,auto-cura nel tempo,abilita,si,lanciatore,"4% HP max ogni 0,5 s",mai usata nel replay
+Runeblade,Unholy Presence,A0HM,,aura,esclusa: aura,no,-,nessuna cura,
+Claws,Rock Shield (slot Healing Wave),A0G6,0x0D00C0,cura diretta,abilita,si,lanciatore,12 o 24 x Agi + 100 armatura,"nel catalogo del replay compare come ""Healing Wave"""
+Claws,Mana Tide Totem,A01J,0x0D008D,cura ad area nel tempo (condizionale),abilita,si,lanciatore,mana; con condizione del trigger anche 2 x Agi ogni 2 s,
+Double Blade,Demon Skin,A036,0x0D0084,auto-cura nel tempo,abilita,si,lanciatore,2% HP max al secondo durante il buff; +12% HP max istantaneo dal livello 3,
+Double Blade,Vampiric Aura,S000,(passiva),aura / lifesteal,esclusa: aura,si,chi attacca (non il portatore dell'aura),"lifesteal 40% o 80% del danno fisico per il Double Blade, 8% per gli alleati",aura: conta come cura di chi colpisce
+War Hammer,Avatar,A00Q,0x0D0076,auto-cura nel tempo (condizionale),abilita,si,lanciatore,"2% HP max al secondo, solo con Runed Bracers (I095) o I077",Runed Bracers comprati a 5431 s
+War Hammer,Might Aura,,,aura,esclusa: aura,no,-,nessuna cura,
+Pickaxe,Repair,,0x0D005F,riparazione strutture,esclusa,no,-,riparazione nativa di unita meccaniche: non passa da Heal_Unit,
+Bow,(nessuna abilita curativa),,,,,,,,Trueshot Aura non cura
+Wizard Staff,(nessuna abilita curativa),,,,,,,,Brilliance Aura non cura
+Naga Trident,(nessuna abilita curativa),,,,,,,,Windward Aura non cura
+tutte,Rigenerazione % HP,Regeneration_Value,(passiva),rigenerazione,esclusa: rigenerazione,si,se stesso,"HP max x Regeneration_Value / 200 ogni 0,5 s; base 0,5 (0,25% HP/s), +1 Survival Treads, +1,5 Prayer Beads, ...","gli eroi non hanno altra rigenerazione (uhpr=0, StrRegenBonus=0)"
+tutte,Pozioni HP,"I00P,I00Q,I00T,I00V,I00U,I00W,I07P",useslotN,pozione,esclusa: pozione,si,se stesso,15-40% HP max in 6-15 s (Wizard's Potion I00R: solo mana),"riutilizzabili, ricarica 40 s"
+tutte,Lifesteal da oggetti/buff,"I05X,I04X,B002,B027,A0AW",(passiva),lifesteal,esclusa: aura/lifesteal,si,chi attacca,Mask of Death +20% sotto il 60% HP; Vampiric Aura 8%; Hunger 50%,
+tutte,Heartstone,"I096,I0AQ",(passiva),oggetto,esclusa: oggetto,si,se stesso,4% HP max a ogni incantesimo lanciato,comprato da War Hammer (1274 s) e Runeblade (1811 s)
+tutte,Scepter of Healing,A0BJ,0x0D005F,oggetto,esclusa: oggetto,si,chi lo usa,30% HP max del bersaglio,non comprato in questa partita
+tutte,"Cure native WC3 (fontana, abilita/oggetti senza trigger)",,,varie,non contata,no,-,rilevate solo da Heal_Check_Loop con sorgente null: scartate dal contatore,

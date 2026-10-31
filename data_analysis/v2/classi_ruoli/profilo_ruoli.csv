@@ -1,0 +1,6 @@
+ruolo,n_classi,classi,quota_danni,quota_boss,quota_cure,quota_tank,quota_danni_boss_finale,quota_tank_boss_finale,quota_cure_boss_finale,quota_danni_per_classe,quota_cure_per_classe,quota_tank_per_classe,premi_danni,premi_tank,premi_boss,premi_cure,premi_totali,round_sotto_20hp,apm_media,abilita_min_media,click_movimento_min_media,click_bersaglio_min_media,distanza_movimento_min_media,oggetti_usati_media,acquisti_media,oro_medio_fine_round_media
+Tank,2,Runeblade; War Hammer,12.7,12.8,29.2,27.9,12.5,28.4,28.9,6.3,14.6,13.9,0,5,1,1,7,3,65.4,5.7,39.15,11.25,10454.5,29.5,39.0,245.5
+Healer,1,Druid Staff,1.0,0.8,36.0,4.5,1.1,4.5,34.7,1.0,36.0,4.5,0,0,0,16,16,3,56.4,7.01,33.4,2.6,13059.0,76.0,36.0,336.0
+Support,1,War Drums,1.7,2.2,13.8,1.0,1.7,0.9,15.4,1.7,13.8,1.0,0,0,0,0,0,3,32.4,1.1,20.5,6.0,7837.0,33.0,46.0,301.0
+DPS mischia,3,Claws; Double Blade; Pickaxe,47.7,50.2,16.1,56.5,47.7,56.2,16.5,15.9,5.4,18.8,12,12,8,0,32,8,72.77,3.45,50.83,11.13,11290.33,55.33,51.67,272.33
+DPS distanza,3,Bow; Naga Trident; Wizard Staff,36.9,33.9,5.0,10.1,37.0,10.0,4.5,12.3,1.7,3.4,5,0,8,0,13,13,47.3,4.53,29.0,5.17,9335.67,49.0,34.0,238.67

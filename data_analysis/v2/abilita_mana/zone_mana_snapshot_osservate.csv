@@ -1,0 +1,11 @@
+classe,ruolo,snapshot_validi,pct_snapshot_sotto_20,pct_snapshot_20_80,pct_snapshot_sopra_80,mana_osservato_medio,frazione_mana_media,tipo_dato
+War Hammer,Tank,21,4.762,95.238,0.0,311.714,0.473,mana misurato (screenshot) / mana max stimato
+Runeblade,Tank,20,10.0,90.0,0.0,258.95,0.357,mana misurato (screenshot) / mana max stimato
+Druid Staff,Healer,20,35.0,60.0,5.0,420.25,0.412,mana misurato (screenshot) / mana max stimato
+War Drums,Support,20,5.0,95.0,0.0,331.25,0.493,mana misurato (screenshot) / mana max stimato
+Claws,DPS mischia,21,47.619,47.619,4.762,288.19,0.287,mana misurato (screenshot) / mana max stimato
+Double Blade,DPS mischia,20,5.0,95.0,0.0,341.2,0.432,mana misurato (screenshot) / mana max stimato
+Pickaxe,DPS mischia,18,27.778,72.222,0.0,310.0,0.359,mana misurato (screenshot) / mana max stimato
+Bow,DPS distanza,14,42.857,57.143,0.0,194.643,0.261,mana misurato (screenshot) / mana max stimato
+Wizard Staff,DPS distanza,21,47.619,52.381,0.0,318.048,0.243,mana misurato (screenshot) / mana max stimato
+Naga Trident,DPS distanza,17,52.941,47.059,0.0,239.882,0.301,mana misurato (screenshot) / mana max stimato

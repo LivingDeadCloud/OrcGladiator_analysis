@@ -1,0 +1,11 @@
+classe,ruolo,costanti_usate,snapshot_totali,snapshot_validi,mana_max_medio_modello,mae_libera,mae_libera_calibrata,mae_assimilata_alpha0,bias_assimilata_alpha0,mae_assimilata_loo,mae_loo_pct_mana_max,mae_baseline_persistenza,alpha_regen_extra_mana_s,giudizio
+War Hammer,Tank,default WC3 (MiscGame.txt),23,21,648.571,255.713,165.469,210.062,198.7,106.034,16.349,114.3,-1.5,indicativa
+Runeblade,Tank,default WC3 (MiscGame.txt),23,20,723.0,370.005,182.04,246.685,237.642,167.529,23.171,184.316,-1.75,indicativa
+Druid Staff,Healer,default WC3 (MiscGame.txt),23,20,909.5,264.804,208.433,207.277,172.71,182.378,20.053,256.421,-1.5,indicativa
+War Drums,Support,default WC3 (MiscGame.txt),23,20,679.25,295.155,188.296,251.807,240.657,151.63,22.323,112.474,-3.0,non affidabile
+Claws,DPS mischia,default WC3 (MiscGame.txt),23,21,950.714,149.843,150.538,146.15,8.695,184.052,19.359,181.8,-0.25,indicativa
+Double Blade,DPS mischia,default WC3 (MiscGame.txt),22,20,779.75,413.325,212.159,364.071,364.071,138.01,17.699,119.895,-4.0,non affidabile
+Pickaxe,DPS mischia,default WC3 (MiscGame.txt),23,18,848.333,297.239,163.912,170.933,87.134,180.752,21.307,178.941,-1.0,indicativa
+Bow,DPS distanza,default WC3 (MiscGame.txt),23,14,676.071,474.132,249.528,377.464,363.389,141.709,20.961,83.385,-3.25,non affidabile
+Wizard Staff,DPS distanza,default WC3 (MiscGame.txt),23,21,1268.571,388.567,85.841,230.723,203.802,134.788,10.625,187.7,-2.5,affidabile
+Naga Trident,DPS distanza,default WC3 (MiscGame.txt),23,17,750.588,442.969,289.688,340.746,340.746,170.811,22.757,97.438,-2.5,non affidabile

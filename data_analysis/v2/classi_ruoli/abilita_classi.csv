@@ -1,0 +1,65 @@
+classe,ruolo,abilita,usi,usi_min,quota_usi_classe
+Runeblade,Tank,Unholy Frenzy,203,1.95,39.2
+Runeblade,Tank,Death Coil,178,1.71,34.4
+Runeblade,Tank,Death Pact,71,0.68,13.7
+Runeblade,Tank,Desecrate,58,0.56,11.2
+Runeblade,Tank,[frenzy],4,0.04,0.8
+Runeblade,Tank,Surrender Soul,3,0.03,0.6
+Runeblade,Tank,[whirlwind],1,0.01,0.2
+War Hammer,Tank,Storm Bolt,535,5.13,80.2
+War Hammer,Tank,Thunderclap,80,0.77,12.0
+War Hammer,Tank,Leap,31,0.3,4.6
+War Hammer,Tank,Avatar,21,0.2,3.1
+Druid Staff,Healer,Rejuvenation,543,5.21,74.5
+Druid Staff,Healer,Innervate,111,1.07,15.2
+Druid Staff,Healer,Force of Nature,36,0.35,4.9
+Druid Staff,Healer,Tranquility,30,0.29,4.1
+Druid Staff,Healer,Starfall,9,0.09,1.2
+War Drums,Support,Embolden,48,0.46,42.5
+War Drums,Support,Rally,43,0.41,38.1
+War Drums,Support,Inspire,11,0.11,9.7
+War Drums,Support,Intimidate,9,0.09,8.0
+War Drums,Support,[holybolt],2,0.02,1.8
+Claws,DPS mischia,Lightning Strike,235,2.29,53.2
+Claws,DPS mischia,Feral Spirit,140,1.36,31.7
+Claws,DPS mischia,Healing Wave,26,0.25,5.9
+Claws,DPS mischia,Hex,22,0.21,5.0
+Claws,DPS mischia,Molten Boulder,13,0.13,2.9
+Claws,DPS mischia,Mana Tide Totem,6,0.06,1.4
+Double Blade,DPS mischia,Terror,79,0.77,44.1
+Double Blade,DPS mischia,Demon Skin,44,0.43,24.6
+Double Blade,DPS mischia,Firestorm,42,0.41,23.5
+Double Blade,DPS mischia,Conjure Soulstone,9,0.09,5.0
+Double Blade,DPS mischia,Dimensional Gate,5,0.05,2.8
+Pickaxe,DPS mischia,Overdrive,281,2.7,62.9
+Pickaxe,DPS mischia,Volatile Concoction,104,1.0,23.3
+Pickaxe,DPS mischia,Construct Tower (probabile),32,0.31,7.2
+Pickaxe,DPS mischia,Hydra Arrows,17,0.16,3.8
+Pickaxe,DPS mischia,Repair,5,0.05,1.1
+Pickaxe,DPS mischia,Mark Target (autocast on),3,0.03,0.7
+Pickaxe,DPS mischia,[faeriefireoff],3,0.03,0.7
+Pickaxe,DPS mischia,Mark Target,2,0.02,0.4
+Bow,DPS distanza,Volley,121,1.16,55.3
+Bow,DPS distanza,Eagle Eye,38,0.36,17.4
+Bow,DPS distanza,Piercing Shot,27,0.26,12.3
+Bow,DPS distanza,Take Aim,20,0.19,9.1
+Bow,DPS distanza,Binding Trap,6,0.06,2.7
+Bow,DPS distanza,Searing Arrows,4,0.04,1.8
+Bow,DPS distanza,[blackarrowoff],3,0.03,1.4
+Naga Trident,DPS distanza,Forked Lightning,100,0.96,40.2
+Naga Trident,DPS distanza,Crushing Wave,66,0.63,26.5
+Naga Trident,DPS distanza,Parasite,46,0.44,18.5
+Naga Trident,DPS distanza,Vortex,14,0.13,5.6
+Naga Trident,DPS distanza,Twister,8,0.08,3.2
+Naga Trident,DPS distanza,Parasite (autocast on),8,0.08,3.2
+Naga Trident,DPS distanza,Parasite (autocast off),7,0.07,2.8
+Wizard Staff,DPS distanza,Fire/Frost/Magic Bolt,663,6.46,71.4
+Wizard Staff,DPS distanza,Pyroblast,125,1.22,13.5
+Wizard Staff,DPS distanza,Water Elemental,94,0.92,10.1
+Wizard Staff,DPS distanza,Time Stop,23,0.22,2.5
+Wizard Staff,DPS distanza,Blink,19,0.19,2.0
+Wizard Staff,DPS distanza,Learn Pyroblast,1,0.01,0.1
+Wizard Staff,DPS distanza,Learn Blink,1,0.01,0.1
+Wizard Staff,DPS distanza,Learn Time Stop,1,0.01,0.1
+Wizard Staff,DPS distanza,Learn Brilliance Aura,1,0.01,0.1
+Wizard Staff,DPS distanza,Frost Shield,1,0.01,0.1

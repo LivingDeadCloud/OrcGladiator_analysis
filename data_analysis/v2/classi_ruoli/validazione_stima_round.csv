@@ -1,0 +1,69 @@
+challenge,metrica,premiato,primo_stima_round,primo_cumulativo,concorda_stima,concorda_cumulativo
+1,danni,Claws,Claws,Claws,si,si
+1,tank,War Hammer,War Hammer,War Hammer,si,si
+1,boss,Naga Trident,Naga Trident,Naga Trident,si,si
+1,cure,Druid Staff,Druid Staff,Druid Staff,si,si
+2,danni,Claws,Pickaxe,Claws,no,si
+2,tank,Runeblade,Runeblade,War Hammer,si,no
+2,boss,Naga Trident,Naga Trident,Naga Trident,si,si
+2,cure,Druid Staff,Runeblade,Druid Staff,no,si
+3,danni,Pickaxe,Pickaxe,Pickaxe,si,si
+3,tank,Claws,Runeblade,War Hammer,no,no
+3,boss,War Hammer,War Hammer,Naga Trident,si,no
+3,cure,Druid Staff,Druid Staff,Druid Staff,si,si
+4,danni,Pickaxe,Pickaxe,Pickaxe,si,si
+4,tank,Runeblade,Runeblade,Runeblade,si,si
+4,boss,Naga Trident,Naga Trident,Naga Trident,si,si
+4,cure,Druid Staff,Druid Staff,Druid Staff,si,si
+5,danni,Naga Trident,Naga Trident,Pickaxe,si,no
+5,tank,Claws,Claws,Runeblade,si,no
+5,boss,Wizard Staff,Wizard Staff,Naga Trident,si,no
+5,cure,Druid Staff,Druid Staff,Druid Staff,si,si
+6,danni,Pickaxe,Pickaxe,Pickaxe,si,si
+6,tank,War Hammer,War Hammer,Runeblade,si,no
+6,boss,Wizard Staff,Wizard Staff,Naga Trident,si,no
+6,cure,Druid Staff,War Hammer,Druid Staff,no,si
+7,danni,Naga Trident,Naga Trident,Pickaxe,si,no
+7,tank,Runeblade,Runeblade,Runeblade,si,si
+7,boss,Pickaxe,Pickaxe,Wizard Staff,si,no
+7,cure,Druid Staff,Druid Staff,Druid Staff,si,si
+8,danni,Naga Trident,Naga Trident,Pickaxe,si,no
+8,tank,Claws,Claws,Claws,si,si
+8,boss,Bow,Bow,Pickaxe,si,no
+8,cure,Druid Staff,Druid Staff,Druid Staff,si,si
+9,danni,Wizard Staff,Wizard Staff,Pickaxe,si,no
+9,tank,Double Blade,Double Blade,Double Blade,si,si
+9,boss,Claws,Claws,Pickaxe,si,no
+9,cure,Runeblade,Runeblade,Druid Staff,si,no
+10,danni,Bow,Bow,Pickaxe,si,no
+10,tank,Double Blade,Double Blade,Double Blade,si,si
+10,boss,Double Blade,Double Blade,Pickaxe,si,no
+10,cure,Druid Staff,Druid Staff,Druid Staff,si,si
+11,danni,Pickaxe,Claws,Pickaxe,no,si
+11,tank,Double Blade,Double Blade,Double Blade,si,si
+11,boss,Wizard Staff,Wizard Staff,Bow,si,no
+11,cure,Druid Staff,Druid Staff,Druid Staff,si,si
+13,danni,Claws,Claws,Claws,si,si
+13,tank,Double Blade,Double Blade,Double Blade,si,si
+13,boss,Claws,Claws,Claws,si,si
+13,cure,Druid Staff,Druid Staff,Druid Staff,si,si
+14,danni,Claws,Claws,Claws,si,si
+14,tank,Double Blade,Double Blade,Double Blade,si,si
+14,boss,Bow,Bow,Claws,si,no
+14,cure,Druid Staff,Druid Staff,Druid Staff,si,si
+15,danni,Claws,Claws,Claws,si,si
+15,tank,Double Blade,Double Blade,Double Blade,si,si
+15,boss,Claws,Claws,Claws,si,si
+15,cure,Druid Staff,Druid Staff,Druid Staff,si,si
+16,danni,Claws,Claws,Claws,si,si
+16,tank,Double Blade,Double Blade,Double Blade,si,si
+16,boss,Claws,Claws,Claws,si,si
+16,cure,Druid Staff,Druid Staff,Druid Staff,si,si
+17,danni,Claws,Claws,Claws,si,si
+17,tank,Claws,Claws,Double Blade,si,no
+17,boss,Claws,Claws,Claws,si,si
+17,cure,Druid Staff,Druid Staff,Druid Staff,si,si
+18,danni,Claws,Claws,Claws,si,si
+18,tank,Claws,Claws,Double Blade,si,no
+18,boss,Claws,Claws,Claws,si,si
+18,cure,Druid Staff,Druid Staff,Druid Staff,si,si

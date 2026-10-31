@@ -1,0 +1,201 @@
+classe,ruolo,challenge,screenshot,tempo_gioco_s,peso_challenge_s,fonte_peso,cure_quota_cumulativa_misurata,cure_variazione_quota_pp_misurata,cure_quota_challenge_grezza_stimata,cure_quota_challenge_stimata,tank_quota_cumulativa_misurata,tank_quota_challenge_stimata
+Bow,DPS distanza,1,040526_02,248,61.0,clear_seconds,0.0,0.0,0.0,0.0,0.2,0.2
+Claws,DPS mischia,1,040526_02,248,61.0,clear_seconds,0.5,0.5,0.5,0.5,21.7,21.7
+Double Blade,DPS mischia,1,040526_02,248,61.0,clear_seconds,11.1,11.1,11.1,11.1,10.8,10.8
+Druid Staff,Healer,1,040526_02,248,61.0,clear_seconds,52.7,52.7,52.7,52.6,0.0,0.0
+Naga Trident,DPS distanza,1,040526_02,248,61.0,clear_seconds,0.0,0.0,0.0,0.0,0.0,0.0
+Pickaxe,DPS mischia,1,040526_02,248,61.0,clear_seconds,7.9,7.9,7.9,7.9,9.6,9.6
+Runeblade,Tank,1,040526_02,248,61.0,clear_seconds,11.6,11.6,11.6,11.6,25.0,25.0
+War Drums,Support,1,040526_02,248,61.0,clear_seconds,3.4,3.4,3.4,3.4,0.0,0.0
+War Hammer,Tank,1,040526_02,248,61.0,clear_seconds,12.9,12.9,12.9,12.9,32.5,32.5
+Wizard Staff,DPS distanza,1,040526_02,248,61.0,clear_seconds,0.0,0.0,0.0,0.0,0.2,0.2
+Bow,DPS distanza,2,040526_03,447,73.0,clear_seconds,0.0,0.0,0.0,0.0,0.1,0.0
+Claws,DPS mischia,2,040526_03,447,73.0,clear_seconds,2.4,1.9,4.0,4.0,18.4,15.6
+Double Blade,DPS mischia,2,040526_03,447,73.0,clear_seconds,6.7,-4.4,3.0,3.0,11.8,12.6
+Druid Staff,Healer,2,040526_03,447,73.0,clear_seconds,39.9,-12.8,29.2,29.2,0.0,0.0
+Naga Trident,DPS distanza,2,040526_03,447,73.0,clear_seconds,0.7,0.7,1.3,1.3,0.5,0.9
+Pickaxe,DPS mischia,2,040526_03,447,73.0,clear_seconds,4.9,-3.0,2.4,2.4,11.4,12.9
+Runeblade,Tank,2,040526_03,447,73.0,clear_seconds,18.2,6.6,23.7,23.7,26.9,28.5
+War Drums,Support,2,040526_03,447,73.0,clear_seconds,10.2,6.8,15.9,15.9,0.0,0.0
+War Hammer,Tank,2,040526_03,447,73.0,clear_seconds,16.0,3.1,18.6,18.6,30.4,28.6
+Wizard Staff,DPS distanza,2,040526_03,447,73.0,clear_seconds,1.1,1.1,2.0,2.0,0.5,0.8
+Bow,DPS distanza,3,040526_04,646,77.0,clear_seconds,0.0,0.0,0.0,0.0,0.1,0.1
+Claws,DPS mischia,3,040526_04,646,77.0,clear_seconds,3.6,1.2,5.7,5.7,21.0,25.4
+Double Blade,DPS mischia,3,040526_04,646,77.0,clear_seconds,8.3,1.6,11.1,11.1,12.6,13.9
+Druid Staff,Healer,3,040526_04,646,77.0,clear_seconds,41.8,1.9,45.1,45.0,0.2,0.5
+Naga Trident,DPS distanza,3,040526_04,646,77.0,clear_seconds,0.4,-0.3,-0.1,0.0,0.4,0.2
+Pickaxe,DPS mischia,3,040526_04,646,77.0,clear_seconds,5.9,1.0,7.6,7.6,11.1,10.5
+Runeblade,Tank,3,040526_04,646,77.0,clear_seconds,13.8,-4.4,6.1,6.1,27.1,27.3
+War Drums,Support,3,040526_04,646,77.0,clear_seconds,10.2,0.0,10.2,10.2,0.0,0.0
+War Hammer,Tank,3,040526_04,646,77.0,clear_seconds,15.4,-0.6,14.4,14.3,27.3,21.8
+Wizard Staff,DPS distanza,3,040526_04,646,77.0,clear_seconds,0.6,-0.5,-0.3,0.0,0.4,0.2
+Bow,DPS distanza,4,040526_05,925,154.0,clear_seconds,0.2,0.2,0.5,0.5,0.5,1.1
+Claws,DPS mischia,4,040526_05,925,154.0,clear_seconds,5.2,1.6,7.4,7.4,22.4,24.4
+Double Blade,DPS mischia,4,040526_05,925,154.0,clear_seconds,5.4,-2.9,1.4,1.4,10.3,7.2
+Druid Staff,Healer,4,040526_05,925,154.0,clear_seconds,40.2,-1.6,38.0,38.1,2.1,4.7
+Naga Trident,DPS distanza,4,040526_05,925,154.0,clear_seconds,1.5,1.1,3.0,3.0,0.9,1.6
+Pickaxe,DPS mischia,4,040526_05,925,154.0,clear_seconds,6.9,1.0,8.3,8.3,11.9,13.0
+Runeblade,Tank,4,040526_05,925,154.0,clear_seconds,17.7,3.9,23.0,23.1,28.4,30.3
+War Drums,Support,4,040526_05,925,154.0,clear_seconds,11.7,1.5,13.8,13.8,0.0,0.0
+War Hammer,Tank,4,040526_05,925,154.0,clear_seconds,10.7,-4.7,4.3,4.3,22.8,16.7
+Wizard Staff,DPS distanza,4,040526_05,925,154.0,clear_seconds,0.4,-0.2,0.1,0.1,0.7,1.1
+Bow,DPS distanza,5,040526_06,1240,189.0,clear_seconds,0.5,0.3,1.1,1.1,1.1,2.3
+Claws,DPS mischia,5,040526_06,1240,189.0,clear_seconds,5.1,-0.1,4.9,4.9,23.6,25.8
+Double Blade,DPS mischia,5,040526_06,1240,189.0,clear_seconds,7.1,1.7,10.4,10.4,11.7,14.4
+Druid Staff,Healer,5,040526_06,1240,189.0,clear_seconds,37.2,-3.0,31.4,31.3,3.5,6.2
+Naga Trident,DPS distanza,5,040526_06,1240,189.0,clear_seconds,1.0,-0.5,0.0,0.0,0.7,0.3
+Pickaxe,DPS mischia,5,040526_06,1240,189.0,clear_seconds,6.2,-0.7,4.8,4.8,10.4,7.5
+Runeblade,Tank,5,040526_06,1240,189.0,clear_seconds,18.7,1.0,20.6,20.6,25.7,20.4
+War Drums,Support,5,040526_06,1240,189.0,clear_seconds,11.9,0.2,12.3,12.3,0.5,1.5
+War Hammer,Tank,5,040526_06,1240,189.0,clear_seconds,11.6,0.9,13.3,13.3,20.1,14.8
+Wizard Staff,DPS distanza,5,040526_06,1240,189.0,clear_seconds,0.7,0.3,1.3,1.3,2.8,6.8
+Bow,DPS distanza,6,040526_07,1470,105.0,clear_seconds,0.4,-0.1,-0.1,0.0,1.0,0.5
+Claws,DPS mischia,6,040526_07,1470,105.0,clear_seconds,5.1,0.0,5.1,5.1,23.0,19.9
+Double Blade,DPS mischia,6,040526_07,1470,105.0,clear_seconds,8.2,1.1,14.0,14.0,11.3,9.2
+Druid Staff,Healer,6,040526_07,1470,105.0,clear_seconds,35.4,-1.8,25.9,25.8,5.0,13.0
+Naga Trident,DPS distanza,6,040526_07,1470,105.0,clear_seconds,0.8,-0.2,-0.3,0.0,0.6,0.1
+Pickaxe,DPS mischia,6,040526_07,1470,105.0,clear_seconds,6.8,0.6,10.0,9.9,10.2,9.2
+Runeblade,Tank,6,040526_07,1470,105.0,clear_seconds,17.2,-1.5,9.3,9.3,24.4,17.6
+War Drums,Support,6,040526_07,1470,105.0,clear_seconds,11.3,-0.6,8.1,8.1,0.4,0.0
+War Hammer,Tank,6,040526_07,1470,105.0,clear_seconds,14.0,2.4,26.7,26.6,20.3,21.4
+Wizard Staff,DPS distanza,6,040526_07,1470,105.0,clear_seconds,0.8,0.1,1.3,1.3,3.8,9.1
+Bow,DPS distanza,7,040526_08,1773,174.0,clear_seconds,0.5,0.1,0.9,0.9,0.9,0.5
+Claws,DPS mischia,7,040526_08,1773,174.0,clear_seconds,5.9,0.8,8.9,8.9,23.6,25.9
+Double Blade,DPS mischia,7,040526_08,1773,174.0,clear_seconds,8.9,0.7,11.6,11.6,13.0,19.4
+Druid Staff,Healer,7,040526_08,1773,174.0,clear_seconds,33.4,-2.0,25.8,25.8,6.1,10.3
+Naga Trident,DPS distanza,7,040526_08,1773,174.0,clear_seconds,1.4,0.6,3.7,3.7,0.6,0.6
+Pickaxe,DPS mischia,7,040526_08,1773,174.0,clear_seconds,5.9,-0.9,2.5,2.5,8.4,1.6
+Runeblade,Tank,7,040526_08,1773,174.0,clear_seconds,16.5,-0.7,13.8,13.8,25.0,27.3
+War Drums,Support,7,040526_08,1773,174.0,clear_seconds,11.2,-0.1,10.8,10.8,0.5,0.9
+War Hammer,Tank,7,040526_08,1773,174.0,clear_seconds,15.1,1.1,19.3,19.3,17.6,7.4
+Wizard Staff,DPS distanza,7,040526_08,1773,174.0,clear_seconds,1.2,0.4,2.7,2.7,4.3,6.2
+Bow,DPS distanza,8,040526_09,2060,158.0,tempo tra screenshot x 0.55,1.2,0.7,4.9,4.9,1.1,2.2
+Claws,DPS mischia,8,040526_09,2060,158.0,tempo tra screenshot x 0.55,5.0,-0.9,0.3,0.3,24.3,28.0
+Double Blade,DPS mischia,8,040526_09,2060,158.0,tempo tra screenshot x 0.55,9.3,0.4,11.4,11.3,13.8,18.0
+Druid Staff,Healer,8,040526_09,2060,158.0,tempo tra screenshot x 0.55,34.8,1.4,42.2,41.9,6.5,8.6
+Naga Trident,DPS distanza,8,040526_09,2060,158.0,tempo tra screenshot x 0.55,1.3,-0.1,0.8,0.8,0.7,1.2
+Pickaxe,DPS mischia,8,040526_09,2060,158.0,tempo tra screenshot x 0.55,5.4,-0.5,2.8,2.8,7.2,0.9
+Runeblade,Tank,8,040526_09,2060,158.0,tempo tra screenshot x 0.55,16.4,-0.1,15.9,15.8,22.1,6.9
+War Drums,Support,8,040526_09,2060,158.0,tempo tra screenshot x 0.55,10.2,-1.0,4.9,4.9,0.6,1.1
+War Hammer,Tank,8,040526_09,2060,158.0,tempo tra screenshot x 0.55,15.1,0.0,15.1,15.0,17.7,18.2
+Wizard Staff,DPS distanza,8,040526_09,2060,158.0,tempo tra screenshot x 0.55,1.4,0.2,2.5,2.4,6.0,14.9
+Bow,DPS distanza,9,040526_10,2617,428.0,clear_seconds,1.8,0.6,3.2,3.2,1.2,1.4
+Claws,DPS mischia,9,040526_10,2617,428.0,clear_seconds,4.7,-0.3,4.0,4.0,20.8,12.7
+Double Blade,DPS mischia,9,040526_10,2617,428.0,clear_seconds,8.1,-1.2,5.3,5.4,21.9,40.7
+Druid Staff,Healer,9,040526_10,2617,428.0,clear_seconds,31.7,-3.1,24.5,24.7,5.9,4.5
+Naga Trident,DPS distanza,9,040526_10,2617,428.0,clear_seconds,1.2,-0.1,1.0,1.0,0.8,1.0
+Pickaxe,DPS mischia,9,040526_10,2617,428.0,clear_seconds,5.3,-0.1,5.1,5.1,6.0,3.2
+Runeblade,Tank,9,040526_10,2617,428.0,clear_seconds,19.9,3.5,28.0,28.2,20.6,17.1
+War Drums,Support,9,040526_10,2617,428.0,clear_seconds,9.0,-1.2,6.2,6.3,0.6,0.6
+War Hammer,Tank,9,040526_10,2617,428.0,clear_seconds,16.4,1.3,19.4,19.5,14.9,8.4
+Wizard Staff,DPS distanza,9,040526_10,2617,428.0,clear_seconds,1.8,0.4,2.7,2.7,7.3,10.3
+Bow,DPS distanza,10,040526_11,2906,161.0,clear_seconds,1.7,-0.1,0.8,0.8,1.1,0.2
+Claws,DPS mischia,10,040526_11,2906,161.0,clear_seconds,4.7,0.0,4.7,4.6,21.1,23.7
+Double Blade,DPS mischia,10,040526_11,2906,161.0,clear_seconds,7.9,-0.2,6.1,6.0,22.4,26.8
+Druid Staff,Healer,10,040526_11,2906,161.0,clear_seconds,33.0,1.3,44.5,43.6,5.8,4.9
+Naga Trident,DPS distanza,10,040526_11,2906,161.0,clear_seconds,1.2,0.0,1.2,1.2,0.8,0.8
+Pickaxe,DPS mischia,10,040526_11,2906,161.0,clear_seconds,4.8,-0.5,0.4,0.4,5.8,4.0
+Runeblade,Tank,10,040526_11,2906,161.0,clear_seconds,19.4,-0.5,15.0,14.7,20.3,17.7
+War Drums,Support,10,040526_11,2906,161.0,clear_seconds,9.5,0.5,13.9,13.6,0.6,0.6
+War Hammer,Tank,10,040526_11,2906,161.0,clear_seconds,16.3,-0.1,15.4,15.1,14.8,13.9
+Wizard Staff,DPS distanza,10,040526_11,2906,161.0,clear_seconds,1.6,-0.2,-0.2,0.0,7.3,7.3
+Bow,DPS distanza,11,040526_12,3179,150.0,clear_seconds,1.8,0.1,2.9,2.9,1.0,0.0
+Claws,DPS mischia,11,040526_12,3179,150.0,clear_seconds,4.3,-0.4,0.1,0.1,21.1,21.6
+Double Blade,DPS mischia,11,040526_12,3179,150.0,clear_seconds,7.7,-0.2,5.6,5.6,24.4,46.5
+Druid Staff,Healer,11,040526_12,3179,150.0,clear_seconds,33.1,0.1,34.2,34.1,5.3,0.0
+Naga Trident,DPS distanza,11,040526_12,3179,150.0,clear_seconds,1.3,0.1,2.4,2.4,0.9,2.0
+Pickaxe,DPS mischia,11,040526_12,3179,150.0,clear_seconds,4.4,-0.4,0.2,0.2,5.3,0.0
+Runeblade,Tank,11,040526_12,3179,150.0,clear_seconds,18.5,-0.9,9.0,9.0,19.8,14.9
+War Drums,Support,11,040526_12,3179,150.0,clear_seconds,10.2,0.7,17.6,17.6,0.7,1.8
+War Hammer,Tank,11,040526_12,3179,150.0,clear_seconds,16.5,0.2,18.6,18.6,14.2,8.1
+Wizard Staff,DPS distanza,11,040526_12,3179,150.0,clear_seconds,2.3,0.7,9.7,9.7,7.1,5.1
+Bow,DPS distanza,12,040526_13,3418,132.0,tempo tra screenshot x 0.55,1.7,-0.1,0.4,0.4,0.9,0.0
+Claws,DPS mischia,12,040526_13,3418,132.0,tempo tra screenshot x 0.55,4.9,0.6,12.8,12.7,21.0,19.4
+Double Blade,DPS mischia,12,040526_13,3418,132.0,tempo tra screenshot x 0.55,7.3,-0.4,2.1,2.0,25.7,42.1
+Druid Staff,Healer,12,040526_13,3418,132.0,tempo tra screenshot x 0.55,34.1,1.0,47.2,46.9,5.3,5.2
+Naga Trident,DPS distanza,12,040526_13,3418,132.0,tempo tra screenshot x 0.55,1.4,0.1,2.7,2.7,0.9,0.9
+Pickaxe,DPS mischia,12,040526_13,3418,132.0,tempo tra screenshot x 0.55,4.4,0.0,4.4,4.4,5.2,3.8
+Runeblade,Tank,12,040526_13,3418,132.0,tempo tra screenshot x 0.55,17.5,-1.0,4.4,4.4,18.9,7.0
+War Drums,Support,12,040526_13,3418,132.0,tempo tra screenshot x 0.55,10.3,0.1,11.6,11.5,0.7,0.7
+War Hammer,Tank,12,040526_13,3418,132.0,tempo tra screenshot x 0.55,16.4,-0.1,15.1,15.0,14.1,12.6
+Wizard Staff,DPS distanza,12,040526_13,3418,132.0,tempo tra screenshot x 0.55,2.1,-0.2,-0.5,0.0,7.2,8.4
+Bow,DPS distanza,13,040526_14,3660,132.0,clear_seconds,2.0,0.3,6.2,5.5,1.2,4.1
+Claws,DPS mischia,13,040526_14,3660,132.0,clear_seconds,5.6,0.7,15.5,13.7,21.8,25.0
+Double Blade,DPS mischia,13,040526_14,3660,132.0,clear_seconds,7.3,0.0,7.3,6.5,28.6,52.4
+Druid Staff,Healer,13,040526_14,3660,132.0,clear_seconds,34.9,0.8,46.2,40.9,4.7,0.0
+Naga Trident,DPS distanza,13,040526_14,3660,132.0,clear_seconds,1.2,-0.2,-1.6,0.0,1.0,1.8
+Pickaxe,DPS mischia,13,040526_14,3660,132.0,clear_seconds,3.9,-0.5,-3.2,0.0,5.0,1.6
+Runeblade,Tank,13,040526_14,3660,132.0,clear_seconds,18.1,0.6,26.6,23.5,16.5,0.0
+War Drums,Support,13,040526_14,3660,132.0,clear_seconds,9.6,-0.7,-0.3,0.0,1.1,5.1
+War Hammer,Tank,13,040526_14,3660,132.0,clear_seconds,14.9,-1.5,-6.3,0.0,12.5,0.0
+Wizard Staff,DPS distanza,13,040526_14,3660,132.0,clear_seconds,2.7,0.6,11.2,9.9,7.6,10.0
+Bow,DPS distanza,14,040526_15,3908,121.0,clear_seconds,2.1,0.1,3.7,3.4,1.2,1.2
+Claws,DPS mischia,14,040526_15,3908,121.0,clear_seconds,6.4,0.8,19.6,17.7,22.4,31.9
+Double Blade,DPS mischia,14,040526_15,3908,121.0,clear_seconds,8.1,0.8,21.3,19.3,29.5,43.8
+Druid Staff,Healer,14,040526_15,3908,121.0,clear_seconds,35.5,0.6,45.4,41.1,4.6,2.9
+Naga Trident,DPS distanza,14,040526_15,3908,121.0,clear_seconds,1.2,0.0,1.2,1.1,1.0,1.0
+Pickaxe,DPS mischia,14,040526_15,3908,121.0,clear_seconds,3.6,-0.3,-1.3,0.0,4.7,0.0
+Runeblade,Tank,14,040526_15,3908,121.0,clear_seconds,16.7,-1.4,-6.4,0.0,15.5,0.0
+War Drums,Support,14,040526_15,3908,121.0,clear_seconds,9.9,0.3,14.8,13.4,1.2,2.8
+War Hammer,Tank,14,040526_15,3908,121.0,clear_seconds,14.3,-0.6,4.4,4.0,12.2,7.2
+Wizard Staff,DPS distanza,14,040526_15,3908,121.0,clear_seconds,2.4,-0.3,-2.5,0.0,7.7,9.2
+Bow,DPS distanza,15,040526_16,4271,236.0,clear_seconds,2.1,0.0,2.1,2.1,1.2,1.2
+Claws,DPS mischia,15,040526_16,4271,236.0,clear_seconds,6.1,-0.3,3.4,3.4,22.2,20.2
+Double Blade,DPS mischia,15,040526_16,4271,236.0,clear_seconds,7.9,-0.2,6.1,6.2,30.0,34.1
+Druid Staff,Healer,15,040526_16,4271,236.0,clear_seconds,35.5,0.0,35.5,35.8,4.7,5.5
+Naga Trident,DPS distanza,15,040526_16,4271,236.0,clear_seconds,1.1,-0.1,0.2,0.2,1.0,1.0
+Pickaxe,DPS mischia,15,040526_16,4271,236.0,clear_seconds,3.7,0.1,4.6,4.6,4.7,4.7
+Runeblade,Tank,15,040526_16,4271,236.0,clear_seconds,16.7,0.0,16.7,16.8,15.3,13.4
+War Drums,Support,15,040526_16,4271,236.0,clear_seconds,10.3,0.4,13.9,14.0,1.2,1.2
+War Hammer,Tank,15,040526_16,4271,236.0,clear_seconds,14.3,0.0,14.3,14.4,12.2,12.1
+Wizard Staff,DPS distanza,15,040526_16,4271,236.0,clear_seconds,2.4,0.0,2.4,2.4,7.6,6.6
+Bow,DPS distanza,16,040526_17,4611,216.0,clear_seconds,2.9,0.8,11.6,11.5,1.3,2.4
+Claws,DPS mischia,16,040526_17,4611,216.0,clear_seconds,5.9,-0.2,3.7,3.7,22.2,22.7
+Double Blade,DPS mischia,16,040526_17,4611,216.0,clear_seconds,7.5,-0.4,3.1,3.1,30.7,39.2
+Druid Staff,Healer,16,040526_17,4611,216.0,clear_seconds,36.2,0.7,43.8,43.3,4.6,3.6
+Naga Trident,DPS distanza,16,040526_17,4611,216.0,clear_seconds,1.2,0.1,2.3,2.3,1.1,2.2
+Pickaxe,DPS mischia,16,040526_17,4611,216.0,clear_seconds,3.2,-0.5,-2.2,0.0,4.6,3.6
+Runeblade,Tank,16,040526_17,4611,216.0,clear_seconds,16.8,0.1,17.9,17.7,14.7,8.4
+War Drums,Support,16,040526_17,4611,216.0,clear_seconds,10.6,0.3,13.9,13.7,1.1,0.0
+War Hammer,Tank,16,040526_17,4611,216.0,clear_seconds,13.5,-0.8,4.8,4.7,11.7,6.4
+Wizard Staff,DPS distanza,16,040526_17,4611,216.0,clear_seconds,2.1,-0.3,-1.2,0.0,7.9,11.4
+Bow,DPS distanza,17,040526_18,4817,80.0,clear_seconds,2.6,-0.3,-7.0,0.0,1.3,1.3
+Claws,DPS mischia,17,040526_18,4817,80.0,clear_seconds,6.4,0.5,22.4,15.4,22.7,38.8
+Double Blade,DPS mischia,17,040526_18,4817,80.0,clear_seconds,6.9,-0.6,-12.4,0.0,30.5,24.1
+Druid Staff,Healer,17,040526_18,4817,80.0,clear_seconds,36.1,-0.1,32.9,22.6,4.6,4.6
+Naga Trident,DPS distanza,17,040526_18,4817,80.0,clear_seconds,1.1,-0.1,-2.1,0.0,1.1,1.1
+Pickaxe,DPS mischia,17,040526_18,4817,80.0,clear_seconds,3.1,-0.1,-0.1,0.0,4.5,1.3
+Runeblade,Tank,17,040526_18,4817,80.0,clear_seconds,17.2,0.4,30.0,20.6,14.8,18.0
+War Drums,Support,17,040526_18,4817,80.0,clear_seconds,12.1,1.5,60.2,41.4,1.1,1.1
+War Hammer,Tank,17,040526_18,4817,80.0,clear_seconds,12.6,-0.9,-16.3,0.0,11.4,1.8
+Wizard Staff,DPS distanza,17,040526_18,4817,80.0,clear_seconds,2.0,-0.1,-1.2,0.0,7.9,7.9
+Bow,DPS distanza,18,040526_19,5386,432.0,clear_seconds,2.7,0.1,3.3,3.3,1.1,0.0
+Claws,DPS mischia,18,040526_19,5386,432.0,clear_seconds,8.1,1.7,18.5,18.6,25.7,43.5
+Double Blade,DPS mischia,18,040526_19,5386,432.0,clear_seconds,6.1,-0.8,1.2,1.2,28.2,13.9
+Druid Staff,Healer,18,040526_19,5386,432.0,clear_seconds,35.8,-0.3,34.0,34.1,4.7,5.2
+Naga Trident,DPS distanza,18,040526_19,5386,432.0,clear_seconds,1.2,0.1,1.8,1.8,1.1,1.1
+Pickaxe,DPS mischia,18,040526_19,5386,432.0,clear_seconds,3.3,0.2,4.5,4.5,4.2,2.3
+Runeblade,Tank,18,040526_19,5386,432.0,clear_seconds,15.3,-1.9,3.7,3.7,13.5,5.5
+War Drums,Support,18,040526_19,5386,432.0,clear_seconds,12.4,0.3,14.2,14.3,1.0,0.4
+War Hammer,Tank,18,040526_19,5386,432.0,clear_seconds,13.4,0.8,18.3,18.4,12.8,21.1
+Wizard Staff,DPS distanza,18,040526_19,5386,432.0,clear_seconds,1.7,-0.3,-0.1,0.0,7.8,7.1
+Bow,DPS distanza,19,040526_20,5720,184.0,tempo tra screenshot x 0.55,2.3,-0.4,-4.4,0.0,1.0,0.0
+Claws,DPS mischia,19,040526_20,5720,184.0,tempo tra screenshot x 0.55,7.3,-0.8,-6.1,0.0,24.5,4.3
+Double Blade,DPS mischia,19,040526_20,5720,184.0,tempo tra screenshot x 0.55,5.7,-0.4,-1.0,0.0,28.3,28.7
+Druid Staff,Healer,19,040526_20,5720,184.0,tempo tra screenshot x 0.55,36.0,0.2,39.3,34.1,4.5,1.1
+Naga Trident,DPS distanza,19,040526_20,5720,184.0,tempo tra screenshot x 0.55,1.2,0.0,1.2,1.0,1.0,0.0
+Pickaxe,DPS mischia,19,040526_20,5720,184.0,tempo tra screenshot x 0.55,3.1,-0.2,-0.2,0.0,3.7,0.0
+Runeblade,Tank,19,040526_20,5720,184.0,tempo tra screenshot x 0.55,16.3,1.0,33.0,28.6,14.7,33.3
+War Drums,Support,19,040526_20,5720,184.0,tempo tra screenshot x 0.55,13.8,1.4,37.2,32.3,1.0,1.0
+War Hammer,Tank,19,040526_20,5720,184.0,tempo tra screenshot x 0.55,12.9,-0.5,4.5,3.9,13.2,19.1
+Wizard Staff,DPS distanza,19,040526_20,5720,184.0,tempo tra screenshot x 0.55,1.5,-0.2,-1.8,0.0,8.1,12.6
+Bow,DPS distanza,20 (boss),031526_03,5987,147.0,tempo tra screenshot x 0.55,2.1,-0.2,-2.3,0.0,0.9,0.0
+Claws,DPS mischia,20 (boss),031526_03,5987,147.0,tempo tra screenshot x 0.55,6.7,-0.6,-6.6,0.0,24.1,14.7
+Double Blade,DPS mischia,20 (boss),031526_03,5987,147.0,tempo tra screenshot x 0.55,6.7,1.0,28.8,26.0,28.6,34.0
+Druid Staff,Healer,20 (boss),031526_03,5987,147.0,tempo tra screenshot x 0.55,34.7,-1.3,5.9,5.3,4.5,4.3
+Naga Trident,DPS distanza,20 (boss),031526_03,5987,147.0,tempo tra screenshot x 0.55,1.1,-0.1,-1.1,0.0,1.1,3.2
+Pickaxe,DPS mischia,20 (boss),031526_03,5987,147.0,tempo tra screenshot x 0.55,3.1,0.0,3.1,2.8,3.5,0.0
+Runeblade,Tank,20 (boss),031526_03,5987,147.0,tempo tra screenshot x 0.55,16.4,0.1,18.6,16.8,14.8,16.4
+War Drums,Support,20 (boss),031526_03,5987,147.0,tempo tra screenshot x 0.55,15.4,1.6,50.8,45.8,0.9,0.0
+War Hammer,Tank,20 (boss),031526_03,5987,147.0,tempo tra screenshot x 0.55,12.5,-0.4,3.6,3.3,13.6,21.7
+Wizard Staff,DPS distanza,20 (boss),031526_03,5987,147.0,tempo tra screenshot x 0.55,1.3,-0.2,-3.1,0.0,8.0,5.6

@@ -1,0 +1,64 @@
+challenge,ondata,variante,n_varianti,categoria,unita_id,id_base,nome_unita,nome_proprio,quantita,hp_base,hp_totale,armi_attive,arma_usata,gittata,tipo_arma,tipo_attacco,mischia_distanza,fonte
+1,Prisoners,3,3,truppa,h009,hfoo,Rebellious Slave,,90,180,16200,1,1,100,normal,normal,mischia,"w3u(ua1r,uhpm)+slk"
+1,Prisoners,3,3,truppa,h00C,hmpr,Blasphemer,,30,110,3300,1,1,240,missile,normal,distanza,"w3u(ua1r,ua1t,uhpm)+slk"
+1,Prisoners,3,3,boss,O024,Otch,Traitor,Thomas the Deserter,1,,,1,1,178,normal,hero,mischia,w3u(ua1r)+slk
+2,Machines,3,3,truppa,n02U,nmrl,Clockwerk,,30,500,15000,1,1,100,normal,normal,mischia,w3u(uhpm)+slk
+2,Machines,3,3,truppa,n02T,nmrr,Contraption,,60,375,22500,1,1,270,instant,normal,distanza,"w3u(ua1r,ua1w,uhpm)+slk"
+2,Machines,3,3,boss,O026,Otch,Con Artist,Rattletrap,1,,,1,1,270,missile,hero,distanza,"w3u(ua1r,ua1w)+slk"
+3,Combatants (Melee),3,3,truppa,n030,nwlt,Combatant,,60,940,56400,1,1,100,normal,normal,mischia,w3u(uhpm)+slk
+3,Combatants (Melee),3,3,boss,O029,Otch,Drill Sergeant,Instructor Mathos,1,,,1,1,178,normal,hero,mischia,w3u(ua1r)+slk
+4,Voidwalkers (Ranged),3,3,truppa,n032,ngns,Voidwalker,,30,1782,53460,1,1,330,missile,normal,distanza,"w3u(ua1r,ua1t,uhpm)+slk"
+4,Voidwalkers (Ranged),3,3,boss,O02B,Otch,Void Bringer,Envoy Blackstar,1,,,1,1,178,normal,hero,mischia,w3u(ua1r)+slk
+5,Sasquatches (Melee),3,3,truppa,n034,nogr,Sasquatch Fighter,,60,1260,75600,1,1,100,normal,normal,mischia,w3u(uhpm)+slk
+5,Sasquatches (Melee),3,3,boss,O02D,Otch,Elder Warrior,Rendclaw the Horrid,1,,,1,1,178,normal,hero,mischia,w3u(ua1r)+slk
+6,Boars,3,3,truppa,n036,nkob,Swine,,60,1080,64800,1,1,100,normal,normal,mischia,w3u(uhpm)+slk
+6,Boars,3,3,truppa,n037,nkog,Quillbeast,,30,1580,47400,1,1,390,missile,normal,distanza,"w3u(ua1r,ua1t,uhpm)+slk"
+6,Boars,3,3,boss,O02F,Otch,Feral Quillbeast,Needler,1,,,1,1,390,missile,hero,distanza,"w3u(ua1r,ua1w)+slk"
+7,Goblins,3,3,truppa,n03A,nsty,Goblin Shredder,,60,1225,73500,1,1,100,normal,normal,mischia,w3u(uhpm)+slk
+7,Goblins,3,3,truppa,n03B,nsat,Goblin Sappers,,60,810,48600,1,1,420,missile,normal,distanza,"w3u(ua1r,ua1t,uhpm)+slk"
+7,Goblins,3,3,boss,O02H,Otch,Goblin Drone,Big Betty,1,,,1,1,630,missile,hero,distanza,"w3u(ua1r,ua1w)+slk"
+8,Mur'guls,3,3,truppa,n03E,nban,Mur'gul Reaver,,30,2250,67500,1,1,100,normal,normal,mischia,w3u(uhpm)+slk
+8,Mur'guls,3,3,truppa,n03G,nbrg,Mur'gul Snarecaster,,30,1600,48000,1,1,450,missile,normal,distanza,"w3u(ua1r,ua1t,uhpm)+slk"
+8,Mur'guls,3,3,truppa,n03F,nbrg,Mur'gul Bloodgill,,30,1600,48000,1,1,450,missile,normal,distanza,"w3u(ua1r,ua1t,uhpm)+slk"
+8,Mur'guls,3,3,boss,O02J,Otch,Ritualist,Tidecaller Rinx,1,,,1,1,450,missile,hero,distanza,"w3u(ua1r,ua1w)+slk"
+9,Water Elementals (Ranged),3,3,truppa,n03J,ncea,Water Elemental,,60,2750,165000,1,1,480,missile,normal,distanza,"w3u(ua1r,ua1t,uhpm)+slk"
+9,Water Elementals (Ranged),3,3,boss,O02L,Otch,River Elemental,Paragon Aquarius,1,,,1,1,480,missile,hero,distanza,"w3u(ua1r,ua1w)+slk"
+10,Mammoths (Melee),3,3,truppa,n03L,nowe,Mammoth,,30,7250,217500,1,1,128,normal,normal,mischia,w3u(uhpm)+slk
+10,Mammoths (Melee),3,3,boss,O02N,Otch,Patriarch,Mammoth Patriarch,1,,,1,1,178,normal,hero,mischia,w3u(ua1r)+slk
+11,Nether Drakes (Ranged),3,3,truppa,n03O,ndtr,Nether Drake,,30,3850,115500,1,1,540,missile,normal,distanza,"w3u(ua1r,ua1t,uhpm)+slk"
+11,Nether Drakes (Ranged),3,3,truppa,n03N,ndtr,Void Drake,,30,3850,115500,1,1,540,missile,normal,distanza,"w3u(ua1r,ua1t,uhpm)+slk"
+11,Nether Drakes (Ranged),3,3,boss,O02P,Otch,Dimensional Dragon,Anomaly Eraxis,1,,,1,1,540,missile,hero,distanza,"w3u(ua1r,ua1w)+slk"
+12,Giant Spiders,3,3,truppa,n03S,nfrl,Giant Stalker,,60,3700,222000,1,1,100,normal,normal,mischia,w3u(uhpm)+slk
+12,Giant Spiders,3,3,truppa,n03T,nfrs,Giant Spitter,,30,3700,111000,1,1,570,missile,normal,distanza,"w3u(ua1r,ua1t,uhpm)+slk"
+12,Giant Spiders,3,3,boss,O02Q,Otch,Broodmother,The Giant Stalker,1,,,1,1,570,missile,hero,distanza,"w3u(ua1r,ua1w)+slk"
+13,Revenants,3,3,truppa,n03X,nanw,Death Revenant,,30,4000,120000,1,1,100,normal,normal,mischia,w3u(uhpm)+slk
+13,Revenants,3,3,truppa,n03Y,nanc,Fire Revenant,,30,3000,90000,1,1,600,missile,normal,distanza,"w3u(ua1r,ua1w,uhpm)+slk"
+13,Revenants,3,3,truppa,n040,nanc,Ice Revenant,,30,3000,90000,1,1,600,missile,normal,distanza,"w3u(ua1r,ua1w,uhpm)+slk"
+13,Revenants,3,3,truppa,n03Z,nanc,Lightning Revenant,,30,3000,90000,1,1,600,missile,normal,distanza,"w3u(ua1r,ua1w,uhpm)+slk"
+13,Revenants,3,3,boss,O02T,Otch,Prime Revenant,Dethacus,1,,,1,1,178,normal,hero,mischia,w3u(ua1r)+slk
+14,Faceless Ones,3,3,truppa,n044,nrzm,Faceless One,,30,5250,157500,1,1,100,normal,normal,mischia,w3u(uhpm)+slk
+14,Faceless Ones,3,3,truppa,n045,nqbh,Twisted One,,60,5000,300000,1,1,630,missile,normal,distanza,"w3u(ua1r,ua1t,uhpm)+slk"
+14,Faceless Ones,3,3,boss,O02V,Otch,Chosen One,The Apostle,1,,,1,1,178,normal,hero,mischia,w3u(ua1r)+slk
+15,War Golems (Melee),3,3,truppa,n048,nmgw,War Golem,,60,8075,484500,1,1,100,normal,normal,mischia,w3u(uhpm)+slk
+15,War Golems (Melee),3,3,boss,O02X,Otch,Magnum Opus,Greasebeard's Magnum Opus,1,,,1,1,178,normal,hero,mischia,w3u(ua1r)+slk
+16,Salamanders (Ranged),3,3,truppa,n04A,nhyh,Salamander,,30,19800,594000,1,1,690,missile,normal,distanza,"w3u(ua1r,ua1t,uhpm)+slk"
+16,Salamanders (Ranged),3,3,boss,O02Z,Otch,Colossus,Cinderspine,1,,,1,1,690,missile,hero,distanza,"w3u(ua1r,ua1w)+slk"
+17,Greater Demons (Melee),3,3,truppa,u00K,ugho,Doom Guard,,30,9700,291000,3,1,90,normal,normal,mischia,w3u(uhpm)+slk
+17,Greater Demons (Melee),3,3,truppa,u00J,ugho,Infernal,,30,11000,330000,3,1,90,normal,normal,mischia,w3u(uhpm)+slk
+17,Greater Demons (Melee),3,3,boss,U00M,Ulic,Frostfire Comet,Annihilus,1,,,1,1,720,missile,hero,distanza,"w3u(ua1g,ua1r)+slk"
+18,Enslaved Orcs,1,1,truppa,o00J,ogru,Enslaved Grunt,,30,9000,270000,1,1,100,normal,normal,mischia,w3u(uhpm)+slk
+18,Enslaved Orcs,1,1,truppa,o00K,orai,Enslaved Raider,,30,12000,360000,1,1,100,normal,normal,mischia,"w3u(ua1t,uhpm)+slk"
+18,Enslaved Orcs,1,1,truppa,o00L,oshm,Enslaved Shaman,,30,6000,180000,1,1,750,missile,normal,distanza,"w3u(ua1r,ua1t,uhpm)+slk"
+18,Enslaved Orcs,1,1,elite,o01O,okod,Kodo Beast,,3,20000,60000,1,1,750,missile,normal,distanza,"w3u(ua1r,ua1t,uhpm)+slk"
+18,Enslaved Orcs,1,1,boss,O00N,Obla,Enslaved Blademaster,Agamando the Coward,1,,,1,1,178,normal,hero,mischia,w3u(ua1r)+slk
+18,Enslaved Orcs,1,1,boss,O00M,Ofar,Enslaved Far Seer,Kazragore the Broken,1,,,1,1,600,missile,hero,distanza,slk base
+18,Enslaved Orcs,1,1,boss,O00O,Otch,Enslaved Tauren Chieftain,Mull the Brute,1,,,1,1,178,normal,hero,mischia,w3u(ua1r)+slk
+19,Night Elf Hunters,1,1,truppa,e006,edoc,Game Hunter,,60,9000,540000,1,1,100,normal,normal,mischia,w3u(uhpm)+slk
+19,Night Elf Hunters,1,1,truppa,e004,earc,Game Hunter,,30,8000,240000,1,1,780,missile,normal,distanza,"w3u(ua1r,ua1t,uhpm)+slk"
+19,Night Elf Hunters,1,1,truppa,e005,edry,Game Hunter,,30,7000,210000,1,1,780,missile,normal,distanza,"w3u(ua1r,ua1t,uhpm)+slk"
+19,Night Elf Hunters,1,1,elite,e009,etrp,Furious Ancient,,3,10000,30000,3,2,5000,missile,normal,distanza,"w3u(ua2r,ua2t,ua2w,uhpm)+slk"
+19,Night Elf Hunters,1,1,boss,E007,Ewar,Warden,Anaya Orcslayer,1,,,1,1,100,normal,hero,mischia,slk base
+20,Arena Organisers,1,1,truppa,h00F,hfoo,Jailer,,30,16000,480000,1,1,90,normal,normal,mischia,w3u(uhpm)+slk
+20,Arena Organisers,1,1,truppa,h00H,hspt,Containment Officer,,30,14000,420000,1,1,405,missile,normal,distanza,"w3u(ua1r,uhpm)+slk"
+20,Arena Organisers,1,1,truppa,h00G,hrif,Arena Sniper,,30,10000,300000,1,1,810,instant,normal,distanza,"w3u(ua1r,ua1t,uhpm)+slk"
+20,Arena Organisers,1,1,boss,H00I,Hpal,Lord of the Arena,,1,,,1,1,200,normal,hero,mischia,w3u(ua1r)+slk

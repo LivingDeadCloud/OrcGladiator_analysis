@@ -1,0 +1,21 @@
+ruolo_creditore,ruolo_debitore,n_prestiti,oro_stimato
+DPS distanza,DPS distanza,6,353
+DPS distanza,DPS mischia,5,296
+DPS distanza,Healer,2,14
+DPS distanza,Support,1,15
+DPS distanza,Tank,3,364
+DPS mischia,DPS distanza,13,301
+DPS mischia,DPS mischia,8,1020
+DPS mischia,Healer,5,98
+DPS mischia,Tank,6,668
+Healer,DPS distanza,8,848
+Healer,DPS mischia,5,1082
+Healer,Tank,4,367
+Support,DPS distanza,9,851
+Support,DPS mischia,5,331
+Support,Healer,2,326
+Support,Tank,2,218
+Tank,DPS distanza,10,439
+Tank,DPS mischia,3,225
+Tank,Healer,3,168
+Tank,Support,1,6

@@ -1,0 +1,31 @@
+classe,tipo_wave,n_wave,ruolo,danni_quota_round_media,boss_quota_round_media,cure_quota_round_media,tank_quota_round_media,cure_solo_abilita_round_b_media,apm_medio,abilita_min_medio,click_movimento_min_medio,hp_fine_round_medio,volte_sotto_20hp,secondi_round_medi
+Runeblade,mischia,5,Tank,5.48,4.92,15.44,18.56,7.44,46.82,4.66,26.06,77.2,1,148.6
+Runeblade,distanza,4,Tank,8.7,7.65,21.18,17.2,15.45,60.32,5.93,37.85,85.0,0,237.0
+Runeblade,ibrida,10,Tank,5.89,3.81,13.74,13.8,7.78,41.83,4.63,23.07,85.5,1,156.86
+War Hammer,mischia,5,Tank,8.34,13.58,12.46,12.6,0.0,78.5,6.47,46.2,70.6,1,148.6
+War Hammer,distanza,4,Tank,8.12,12.38,12.62,7.62,0.0,87.3,6.58,54.48,97.75,0,237.0
+War Hammer,ibrida,10,Tank,7.41,11.68,15.09,16.74,0.0,70.49,6.19,39.45,90.5,0,156.86
+Druid Staff,mischia,5,Healer,1.44,4.26,37.66,4.68,59.86,53.94,6.9,27.82,82.4,1,148.6
+Druid Staff,distanza,4,Healer,1.68,1.05,33.25,3.4,61.55,52.95,7.25,26.6,77.75,1,237.0
+Druid Staff,ibrida,10,Healer,1.26,1.24,36.47,5.05,66.42,57.42,7.06,36.32,91.3,1,156.86
+War Drums,mischia,5,Support,2.04,2.12,15.12,0.98,30.76,25.58,1.18,13.9,82.4,1,148.6
+War Drums,distanza,4,Support,2.38,3.52,12.35,0.6,23.02,36.12,1.54,23.12,100.0,0,237.0
+War Drums,ibrida,10,Support,2.05,2.46,10.9,1.05,22.47,34.86,0.95,22.06,82.1,2,156.86
+Claws,mischia,5,DPS mischia,19.78,18.56,5.82,26.24,0.0,65.7,4.16,46.58,83.4,1,148.6
+Claws,distanza,4,DPS mischia,17.77,19.77,4.12,19.53,0.0,71.55,4.12,56.0,100.0,0,237.0
+Claws,ibrida,10,DPS mischia,28.14,25.34,7.56,25.4,0.0,74.92,4.34,55.85,89.3,1,156.86
+Double Blade,mischia,5,DPS mischia,4.5,7.48,7.46,23.58,1.96,46.72,1.79,32.06,73.8,1,148.6
+Double Blade,distanza,4,DPS mischia,5.8,8.75,3.58,36.02,0.0,69.05,1.91,50.38,100.0,0,237.0
+Double Blade,ibrida,10,DPS mischia,5.44,4.51,7.99,24.36,3.34,41.22,1.93,26.39,85.7,1,156.86
+Pickaxe,mischia,5,DPS mischia,17.56,10.56,3.9,5.46,0.0,75.8,4.62,43.2,67.0,2,148.6
+Pickaxe,distanza,4,DPS mischia,20.45,10.47,3.48,4.7,0.0,102.75,4.34,72.75,79.0,1,237.0
+Pickaxe,ibrida,10,DPS mischia,13.67,11.24,3.52,4.17,0.0,85.1,4.09,51.38,81.2,1,156.86
+Bow,mischia,5,DPS distanza,14.3,14.54,0.86,1.14,0.0,29.12,2.68,13.24,65.8,2,148.6
+Bow,distanza,4,DPS distanza,11.3,9.4,3.92,1.4,0.0,28.5,2.05,14.3,37.0,2,237.0
+Bow,ibrida,10,DPS distanza,11.94,13.06,1.72,0.81,0.0,29.19,1.97,13.3,74.4,3,156.86
+Naga Trident,mischia,5,DPS distanza,13.9,11.0,0.28,0.64,0.0,54.06,2.81,38.78,66.2,2,148.6
+Naga Trident,distanza,4,DPS distanza,9.55,9.12,2.17,1.93,0.0,56.27,2.28,40.32,56.75,2,237.0
+Naga Trident,ibrida,10,DPS distanza,12.28,13.69,1.32,0.81,0.0,63.4,2.73,42.0,83.4,1,156.86
+Wizard Staff,mischia,5,DPS distanza,12.58,12.98,1.02,6.14,0.0,37.88,9.35,19.3,84.0,1,148.6
+Wizard Staff,distanza,4,DPS distanza,14.18,17.88,3.3,7.65,0.0,64.4,10.02,41.58,97.5,0,237.0
+Wizard Staff,ibrida,10,DPS distanza,11.93,12.97,1.7,7.82,0.0,44.47,8.6,24.78,97.0,0,156.86

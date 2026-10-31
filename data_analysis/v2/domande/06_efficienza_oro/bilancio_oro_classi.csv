@@ -1,0 +1,11 @@
+classe,ruolo,entrate_vittoria,entrate_voto,entrate_migliore_round,entrate_scavenger,entrate_token,entrate_ricompensa_statistica,entrate_totali_stimate,spesa_netta_acquisti,spesa_tomi,spesa_reliquie,spesa_stivali_netta,spesa_pozioni,spesa_altro,prestiti_dati,prestiti_ricevuti,rimborsi_ricevuti,rimborsi_pagati,correzioni_screenshot_totali,oro_medio_fine_round_misurato,oro_max_fine_round_misurato,oro_dopo_ch19_misurato,oro_durante_boss_misurato,oro_alla_sconfitta_misurato,oro_residuo_su_entrate_pct,permanenza_media_oro_s_little,ritardo_medio_fifo_s,acquisti_rifiutati_simulati
+Bow,DPS distanza,1900,734,80,338,60,50,3162,1868,0,600,488,0,780,0,1765,0,1765,-929,136,428,148,365,365,11.5,220,404,2
+Claws,DPS mischia,1900,734,582,338,0,0,3554,3793,1430,1700,563,100,0,332,700,332,700,328,307,756,419,89,89,2.5,234,505,2
+Double Blade,DPS mischia,1900,734,243,338,0,0,3215,2453,990,700,613,100,50,299,2194,299,2194,-762,148,701,373,0,,0.0,192,938,2
+Druid Staff,Healer,1900,734,371,338,0,0,3343,2357,550,1250,557,0,0,2297,606,2297,606,-986,336,937,172,0,0,0.0,343,847,6
+Naga Trident,DPS distanza,1900,734,66,338,0,50,3088,3088,550,1875,563,100,0,15,904,15,904,0,281,689,419,0,0,0.0,337,515,0
+Pickaxe,DPS mischia,1900,734,76,338,0,25,3073,3135,1210,1875,50,0,0,1456,60,1456,60,62,362,1261,322,0,0,0.0,342,778,3
+Runeblade,Tank,1900,734,54,338,0,50,3076,2790,990,1100,600,100,0,149,512,149,512,-196,298,832,310,90,90,2.9,351,806,3
+War Drums,Support,1900,734,0,338,0,25,2997,2368,1430,375,563,0,0,1726,21,1726,21,-554,301,1228,303,75,75,2.5,306,1380,2
+War Hammer,Tank,1900,734,24,338,0,0,2996,1780,880,900,0,0,0,689,1105,689,1105,-1216,193,912,912,0,0,0.0,287,1749,4
+Wizard Staff,DPS distanza,1900,734,76,338,0,50,3098,2400,550,1850,0,0,0,1027,123,1027,123,-605,299,993,314,93,93,3.0,360,926,3

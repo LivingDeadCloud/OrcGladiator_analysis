@@ -1,0 +1,8 @@
+classe,ruolo,codice,oggetto,acquisti,tempi_s,oro_speso,nota
+Double Blade,DPS mischia,I05S,(W) Purchase Spiked Collar,2,2109 2109,50,evocazione consumabile: due copie = due evocazioni (non necessariamente ridondante)
+Bow,DPS distanza,stivali,Purchase Survival Treads -> Purchase Windwalkers,2,492 3445,13,cambio stivali: oro perso = 25% del prezzo dei vecchi
+Claws,DPS mischia,stivali,Purchase Survival Treads -> Purchase Warp Treads,2,462 4640,13,cambio stivali: oro perso = 25% del prezzo dei vecchi
+Double Blade,DPS mischia,stivali,Purchase Survival Treads -> Purchase Imbued Greaves,2,468 3948,13,cambio stivali: oro perso = 25% del prezzo dei vecchi
+Druid Staff,Healer,stivali,Purchase Survival Treads -> Purchase Thinking Sandals -> Purchase Slippers of Focus,3,452 1813 2637,57,cambio stivali: oro perso = 25% del prezzo dei vecchi
+Naga Trident,DPS distanza,stivali,Purchase Survival Treads -> Purchase Warp Treads,2,453 2947,13,cambio stivali: oro perso = 25% del prezzo dei vecchi
+War Drums,Support,stivali,Purchase Survival Treads -> Purchase Warp Treads,2,459 3919,13,cambio stivali: oro perso = 25% del prezzo dei vecchi

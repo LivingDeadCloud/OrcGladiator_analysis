@@ -1,0 +1,220 @@
+classe,ruolo,da_s,a_s,challenge_completate_a,fase_a,oro_inizio,oro_fine,spesa_ordini,rimborsi_stimati,premi_individuali_stimati,entrata_comune_implicita,richieste_borrow,comandi_loan,mediana_squadra,scarto_da_mediana,prestiti_in_gioco,segnalazione
+Claws,DPS mischia,248,447,2,post,19,84,0,0,2,63,0,1,38.0,25.0,si,
+Claws,DPS mischia,447,646,3,post,84,118,50,0,5,79,0,1,65.5,13.5,si,
+Claws,DPS mischia,646,925,4,post,118,99,100,0,0,81,0,0,59.0,22.0,si,
+Claws,DPS mischia,925,1240,5,post,99,186,0,0,10,77,0,2,63.5,13.5,si,
+Claws,DPS mischia,1240,1470,6,post,186,286,0,0,0,100,0,2,75.0,25.0,si,
+Claws,DPS mischia,1470,1773,7,post,286,450,0,0,0,164,0,1,93.0,71.0,si,
+Claws,DPS mischia,1773,2060,8,post,450,116,700,0,17,349,1,0,119.5,229.5,si,"scarto spiegabile con prestiti (-borrow/-loan, rimborso automatico a inizio wave)"
+Claws,DPS mischia,2060,2617,9,post,116,130,0,0,20,-6,0,0,98.0,-104.0,si,"scarto spiegabile con prestiti (-borrow/-loan, rimborso automatico a inizio wave)"
+Claws,DPS mischia,2617,2906,10,post,130,216,0,0,0,86,0,0,165.0,-79.0,no,
+Claws,DPS mischia,2906,3179,11,post,216,348,0,0,0,132,0,1,132.0,0.0,si,
+Claws,DPS mischia,3179,3418,12,post,348,676,0,0,0,328,0,1,285.5,42.5,si,
+Claws,DPS mischia,3418,3660,13,post,676,0,1000,0,60,264,1,0,208.0,56.0,si,
+Claws,DPS mischia,3660,3908,14,post,0,203,0,0,32,171,0,0,171.0,0.0,si,
+Claws,DPS mischia,3908,4271,15,post,203,491,0,0,70,218,0,1,289.5,-71.5,si,
+Claws,DPS mischia,4271,4611,16,post,491,756,0,0,74,191,0,1,192.0,-1.0,si,
+Claws,DPS mischia,4611,4817,17,post,756,637,550,38,120,273,0,0,223.5,49.5,si,
+Claws,DPS mischia,4817,5386,18,post,637,590,660,0,126,487,0,1,346.0,141.0,si,"scarto spiegabile con prestiti (-borrow/-loan, rimborso automatico a inizio wave)"
+Claws,DPS mischia,5386,5720,19,post,590,419,550,0,0,379,0,0,333.5,45.5,si,
+Claws,DPS mischia,5720,5948,19,boss,419,89,440,0,0,110,0,1,-0.5,110.5,si,"scarto spiegabile con prestiti (-borrow/-loan, rimborso automatico a inizio wave)"
+Claws,DPS mischia,5948,5983,19,boss,89,89,0,0,0,0,0,0,0.0,0.0,si,
+Claws,DPS mischia,5983,5987,19,boss,89,89,0,0,0,0,0,0,0.0,0.0,no,
+Claws,DPS mischia,5987,6158,19,sconfitta,89,89,0,0,0,0,0,0,0,0,no,
+Runeblade,Tank,248,447,2,post,17,57,0,0,2,38,0,1,38.0,0.0,si,
+Runeblade,Tank,447,646,3,post,57,34,100,0,0,77,1,0,65.5,11.5,si,
+Runeblade,Tank,646,925,4,post,34,125,0,0,32,59,0,2,59.0,0.0,si,
+Runeblade,Tank,925,1240,5,post,125,100,100,0,25,50,0,1,63.5,-13.5,si,
+Runeblade,Tank,1240,1470,6,post,100,100,100,0,25,75,0,0,75.0,0.0,si,
+Runeblade,Tank,1470,1773,7,post,100,256,0,0,40,116,0,1,93.0,23.0,si,
+Runeblade,Tank,1773,2060,8,post,256,96,400,0,25,215,1,0,119.5,95.5,si,
+Runeblade,Tank,2060,2617,9,post,96,202,0,0,45,61,0,2,98.0,-37.0,si,
+Runeblade,Tank,2617,2906,10,post,202,377,0,0,25,150,0,1,165.0,-15.0,si,
+Runeblade,Tank,2906,3179,11,post,377,509,0,0,25,107,0,0,132.0,-25.0,si,
+Runeblade,Tank,3179,3418,12,post,509,832,0,0,25,298,2,1,285.5,12.5,si,
+Runeblade,Tank,3418,3660,13,post,832,40,1000,0,25,183,1,0,208.0,-25.0,si,
+Runeblade,Tank,3660,3908,14,post,40,168,0,0,25,103,0,1,171.0,-68.0,si,
+Runeblade,Tank,3908,4271,15,post,168,499,0,0,25,306,0,4,289.5,16.5,si,
+Runeblade,Tank,4271,4611,16,post,499,716,0,0,25,192,3,0,192.0,0.0,si,
+Runeblade,Tank,4611,4817,17,post,716,427,600,75,25,211,0,1,223.5,-12.5,si,
+Runeblade,Tank,4817,5386,18,post,427,795,0,0,25,343,0,1,346.0,-3.0,si,
+Runeblade,Tank,5386,5720,19,post,795,310,880,0,25,370,0,0,333.5,36.5,si,
+Runeblade,Tank,5720,5948,19,boss,310,90,220,0,0,0,0,1,-0.5,0.5,si,
+Runeblade,Tank,5948,5983,19,boss,90,90,0,0,0,0,0,0,0.0,0.0,si,
+Runeblade,Tank,5983,5987,19,boss,90,90,0,0,0,0,0,0,0.0,0.0,no,
+Runeblade,Tank,5987,6158,19,sconfitta,90,90,0,0,0,0,0,0,0,0,no,
+War Hammer,Tank,248,447,2,post,19,29,50,0,0,60,1,1,38.0,22.0,si,
+War Hammer,Tank,447,646,3,post,29,88,0,0,5,54,0,2,65.5,-11.5,si,
+War Hammer,Tank,646,925,4,post,88,44,100,0,0,56,1,0,59.0,-3.0,si,
+War Hammer,Tank,925,1240,5,post,44,94,0,0,0,50,0,1,63.5,-13.5,si,
+War Hammer,Tank,1240,1470,6,post,94,75,400,0,12,369,1,0,75.0,294.0,si,"scarto spiegabile con prestiti (-borrow/-loan, rimborso automatico a inizio wave)"
+War Hammer,Tank,1470,1773,7,post,75,84,0,0,0,9,0,1,93.0,-84.0,si,
+War Hammer,Tank,1773,2060,8,post,84,96,0,0,0,12,0,1,119.5,-107.5,si,"scarto spiegabile con prestiti (-borrow/-loan, rimborso automatico a inizio wave)"
+War Hammer,Tank,2060,2617,9,post,96,133,0,0,0,37,1,1,98.0,-61.0,si,
+War Hammer,Tank,2617,2906,10,post,133,0,700,0,0,567,1,0,165.0,402.0,si,"scarto spiegabile con prestiti (-borrow/-loan, rimborso automatico a inizio wave)"
+War Hammer,Tank,2906,3179,11,post,0,132,0,0,0,132,0,1,132.0,0.0,si,
+War Hammer,Tank,3179,3418,12,post,132,0,0,0,0,-132,0,1,285.5,-417.5,si,"scarto spiegabile con prestiti (-borrow/-loan, rimborso automatico a inizio wave)"
+War Hammer,Tank,3418,3660,13,post,0,185,0,0,0,185,0,1,208.0,-23.0,si,
+War Hammer,Tank,3660,3908,14,post,185,168,0,0,0,-17,0,1,171.0,-188.0,si,"scarto spiegabile con prestiti (-borrow/-loan, rimborso automatico a inizio wave)"
+War Hammer,Tank,3908,4271,15,post,168,56,600,38,0,450,1,1,289.5,160.5,si,"scarto spiegabile con prestiti (-borrow/-loan, rimborso automatico a inizio wave)"
+War Hammer,Tank,4271,4611,16,post,56,248,0,0,0,192,0,2,192.0,0.0,si,
+War Hammer,Tank,4611,4817,17,post,248,484,0,0,0,236,0,1,223.5,12.5,si,
+War Hammer,Tank,4817,5386,18,post,484,827,0,0,0,343,0,1,346.0,-3.0,si,
+War Hammer,Tank,5386,5720,19,post,827,912,200,0,0,285,0,0,333.5,-48.5,si,
+War Hammer,Tank,5720,5948,19,boss,912,0,880,0,0,-32,0,2,-0.5,-31.5,si,
+War Hammer,Tank,5948,5983,19,boss,0,0,0,0,0,0,0,0,0.0,0.0,si,
+War Hammer,Tank,5983,5987,19,boss,0,0,0,0,0,0,0,0,0.0,0.0,no,
+War Hammer,Tank,5987,6158,19,sconfitta,0,0,0,0,0,0,0,0,0,0,no,
+Bow,DPS distanza,248,447,2,post,17,22,30,0,0,35,1,0,38.0,-3.0,si,
+Bow,DPS distanza,447,646,3,post,22,84,50,0,0,112,1,0,65.5,46.5,si,
+Bow,DPS distanza,646,925,4,post,84,165,0,0,0,81,0,0,59.0,22.0,si,
+Bow,DPS distanza,925,1240,5,post,165,50,250,0,0,135,1,0,63.5,71.5,si,
+Bow,DPS distanza,1240,1470,6,post,50,65,0,0,0,15,0,0,75.0,-60.0,si,
+Bow,DPS distanza,1470,1773,7,post,65,204,0,0,0,139,0,0,93.0,46.0,no,
+Bow,DPS distanza,1773,2060,8,post,204,141,200,0,17,120,0,0,119.5,0.5,no,
+Bow,DPS distanza,2060,2617,9,post,141,108,400,0,0,367,1,0,98.0,269.0,si,"scarto spiegabile con prestiti (-borrow/-loan, rimborso automatico a inizio wave)"
+Bow,DPS distanza,2617,2906,10,post,108,0,0,0,22,-130,0,0,165.0,-295.0,si,"scarto spiegabile con prestiti (-borrow/-loan, rimborso automatico a inizio wave)"
+Bow,DPS distanza,2906,3179,11,post,0,155,0,0,0,155,0,0,132.0,23.0,no,
+Bow,DPS distanza,3179,3418,12,post,155,428,0,0,0,273,0,1,285.5,-12.5,si,
+Bow,DPS distanza,3418,3660,13,post,428,198,475,38,0,207,1,0,208.0,-1.0,si,
+Bow,DPS distanza,3660,3908,14,post,198,203,750,0,32,723,1,0,171.0,552.0,si,"scarto spiegabile con prestiti (-borrow/-loan, rimborso automatico a inizio wave)"
+Bow,DPS distanza,3908,4271,15,post,203,0,0,0,0,-203,0,0,289.5,-492.5,si,"scarto spiegabile con prestiti (-borrow/-loan, rimborso automatico a inizio wave)"
+Bow,DPS distanza,4271,4611,16,post,0,192,0,0,0,192,0,0,192.0,0.0,no,
+Bow,DPS distanza,4611,4817,17,post,192,395,0,0,0,203,0,0,223.5,-20.5,no,
+Bow,DPS distanza,4817,5386,18,post,395,0,900,0,0,505,1,0,346.0,159.0,si,"scarto spiegabile con prestiti (-borrow/-loan, rimborso automatico a inizio wave)"
+Bow,DPS distanza,5386,5720,19,post,0,148,0,0,0,148,0,0,333.5,-185.5,si,"scarto spiegabile con prestiti (-borrow/-loan, rimborso automatico a inizio wave)"
+Bow,DPS distanza,5720,5948,19,boss,148,365,0,0,0,217,1,0,-0.5,217.5,si,"scarto spiegabile con prestiti (-borrow/-loan, rimborso automatico a inizio wave)"
+Bow,DPS distanza,5948,5983,19,boss,365,365,0,0,0,0,0,0,0.0,0.0,si,
+Bow,DPS distanza,5983,5987,19,boss,365,365,0,0,0,0,0,0,0.0,0.0,no,
+Bow,DPS distanza,5987,6158,19,sconfitta,365,365,0,0,0,0,0,0,0,0,no,
+War Drums,Support,248,447,2,post,17,52,0,0,0,35,0,2,38.0,-3.0,si,
+War Drums,Support,447,646,3,post,52,79,50,0,0,77,0,2,65.5,11.5,si,
+War Drums,Support,646,925,4,post,79,35,100,0,0,56,1,0,59.0,-3.0,si,
+War Drums,Support,925,1240,5,post,35,50,0,0,0,15,0,1,63.5,-48.5,si,
+War Drums,Support,1240,1470,6,post,50,69,0,0,0,19,0,1,75.0,-56.0,si,
+War Drums,Support,1470,1773,7,post,69,92,0,0,0,23,0,2,93.0,-70.0,si,
+War Drums,Support,1773,2060,8,post,92,277,0,0,0,185,0,2,119.5,65.5,si,
+War Drums,Support,2060,2617,9,post,277,127,400,0,0,250,0,1,98.0,152.0,si,"scarto spiegabile con prestiti (-borrow/-loan, rimborso automatico a inizio wave)"
+War Drums,Support,2617,2906,10,post,127,298,0,0,0,171,1,1,165.0,6.0,si,
+War Drums,Support,2906,3179,11,post,298,230,200,0,0,132,0,3,132.0,0.0,si,
+War Drums,Support,3179,3418,12,post,230,328,175,0,0,273,0,2,285.5,-12.5,si,
+War Drums,Support,3418,3660,13,post,328,536,0,0,0,208,0,2,208.0,0.0,si,
+War Drums,Support,3660,3908,14,post,536,693,0,0,0,157,0,1,171.0,-14.0,si,
+War Drums,Support,3908,4271,15,post,693,457,550,38,0,276,0,2,289.5,-13.5,si,
+War Drums,Support,4271,4611,16,post,457,347,0,0,0,-110,0,3,192.0,-302.0,si,"scarto spiegabile con prestiti (-borrow/-loan, rimborso automatico a inizio wave)"
+War Drums,Support,4611,4817,17,post,347,501,0,0,0,154,0,1,223.5,-69.5,si,
+War Drums,Support,4817,5386,18,post,501,1228,0,0,0,727,0,2,346.0,381.0,si,"scarto spiegabile con prestiti (-borrow/-loan, rimborso automatico a inizio wave)"
+War Drums,Support,5386,5720,19,post,1228,303,1210,0,0,285,0,0,333.5,-48.5,si,
+War Drums,Support,5720,5948,19,boss,303,75,220,0,0,-8,0,4,-0.5,-7.5,si,
+War Drums,Support,5948,5983,19,boss,75,75,0,0,0,0,0,0,0.0,0.0,si,
+War Drums,Support,5983,5987,19,boss,75,75,0,0,0,0,0,0,0.0,0.0,no,
+War Drums,Support,5987,6158,19,sconfitta,75,75,0,0,0,0,0,0,0,0,no,
+Double Blade,DPS mischia,248,447,2,post,17,52,0,0,0,35,0,0,38.0,-3.0,no,
+Double Blade,DPS mischia,447,646,3,post,52,54,50,0,0,52,0,0,65.5,-13.5,no,
+Double Blade,DPS mischia,646,925,4,post,54,110,0,0,0,56,0,0,59.0,-3.0,no,
+Double Blade,DPS mischia,925,1240,5,post,110,85,200,0,0,175,0,0,63.5,111.5,no,"oro in piu non spiegato: possibile acquisto fallito, vendita o premio non modellato"
+Double Blade,DPS mischia,1240,1470,6,post,85,160,0,0,0,75,0,1,75.0,0.0,si,
+Double Blade,DPS mischia,1470,1773,7,post,160,84,850,0,0,774,2,1,93.0,681.0,si,"scarto spiegabile con prestiti (-borrow/-loan, rimborso automatico a inizio wave)"
+Double Blade,DPS mischia,1773,2060,8,post,84,96,0,0,0,12,0,1,119.5,-107.5,si,"scarto spiegabile con prestiti (-borrow/-loan, rimborso automatico a inizio wave)"
+Double Blade,DPS mischia,2060,2617,9,post,96,130,50,0,20,64,2,0,98.0,-34.0,si,
+Double Blade,DPS mischia,2617,2906,10,post,130,0,0,0,44,-174,0,0,165.0,-339.0,si,"scarto spiegabile con prestiti (-borrow/-loan, rimborso automatico a inizio wave)"
+Double Blade,DPS mischia,2906,3179,11,post,0,159,0,0,25,134,1,0,132.0,2.0,si,
+Double Blade,DPS mischia,3179,3418,12,post,159,0,700,0,0,541,1,2,285.5,255.5,si,"scarto spiegabile con prestiti (-borrow/-loan, rimborso automatico a inizio wave)"
+Double Blade,DPS mischia,3418,3660,13,post,0,0,0,0,30,-30,0,2,208.0,-238.0,si,"scarto spiegabile con prestiti (-borrow/-loan, rimborso automatico a inizio wave)"
+Double Blade,DPS mischia,3660,3908,14,post,0,203,0,0,32,171,0,0,171.0,0.0,si,
+Double Blade,DPS mischia,3908,4271,15,post,203,0,600,38,35,324,1,1,289.5,34.5,si,
+Double Blade,DPS mischia,4271,4611,16,post,0,232,0,0,37,195,0,0,192.0,3.0,si,
+Double Blade,DPS mischia,4611,4817,17,post,232,358,0,0,0,126,0,0,223.5,-97.5,no,
+Double Blade,DPS mischia,4817,5386,18,post,358,701,0,0,0,343,0,1,346.0,-3.0,si,
+Double Blade,DPS mischia,5386,5720,19,post,701,373,660,0,0,332,0,0,333.5,-1.5,si,
+Double Blade,DPS mischia,5720,5948,19,boss,373,0,330,0,0,-43,0,3,-0.5,-42.5,si,
+Double Blade,DPS mischia,5948,5983,19,boss,0,0,0,0,0,0,0,0,0.0,0.0,si,
+Double Blade,DPS mischia,5983,5987,19,boss,0,0,0,0,0,0,0,0,0.0,0.0,no,
+Druid Staff,Healer,248,447,2,post,19,59,0,0,2,38,0,0,38.0,0.0,no,
+Druid Staff,Healer,447,646,3,post,59,18,150,0,5,104,1,0,65.5,38.5,si,
+Druid Staff,Healer,646,925,4,post,18,109,0,0,7,84,0,3,59.0,25.0,si,
+Druid Staff,Healer,925,1240,5,post,109,196,0,0,10,77,1,0,63.5,13.5,si,
+Druid Staff,Healer,1240,1470,6,post,196,265,0,0,12,57,0,3,75.0,-18.0,si,
+Druid Staff,Healer,1470,1773,7,post,265,467,0,0,15,187,0,1,93.0,94.0,si,
+Druid Staff,Healer,1773,2060,8,post,467,466,175,38,17,119,1,1,119.5,-0.5,si,
+Druid Staff,Healer,2060,2617,9,post,466,612,0,0,0,146,0,2,98.0,48.0,si,
+Druid Staff,Healer,2617,2906,10,post,612,424,500,131,22,159,0,1,165.0,-6.0,si,
+Druid Staff,Healer,2906,3179,11,post,424,530,0,0,25,81,0,2,132.0,-51.0,si,
+Druid Staff,Healer,3179,3418,12,post,530,166,750,0,0,386,1,3,285.5,100.5,si,"scarto spiegabile con prestiti (-borrow/-loan, rimborso automatico a inizio wave)"
+Druid Staff,Healer,3418,3660,13,post,166,406,0,0,30,210,0,2,208.0,2.0,si,
+Druid Staff,Healer,3660,3908,14,post,406,609,0,0,32,171,2,0,171.0,0.0,si,
+Druid Staff,Healer,3908,4271,15,post,609,937,0,0,35,293,0,0,289.5,3.5,si,
+Druid Staff,Healer,4271,4611,16,post,937,232,1250,0,37,508,2,2,192.0,316.0,si,"scarto spiegabile con prestiti (-borrow/-loan, rimborso automatico a inizio wave)"
+Druid Staff,Healer,4611,4817,17,post,232,246,0,0,40,-26,0,0,223.5,-249.5,si,"scarto spiegabile con prestiti (-borrow/-loan, rimborso automatico a inizio wave)"
+Druid Staff,Healer,4817,5386,18,post,246,448,0,0,42,160,0,1,346.0,-186.0,si,"scarto spiegabile con prestiti (-borrow/-loan, rimborso automatico a inizio wave)"
+Druid Staff,Healer,5386,5720,19,post,448,172,990,0,0,714,0,0,333.5,380.5,si,"scarto spiegabile con prestiti (-borrow/-loan, rimborso automatico a inizio wave)"
+Druid Staff,Healer,5720,5948,19,boss,172,0,0,0,0,-172,0,4,-0.5,-171.5,si,"scarto spiegabile con prestiti (-borrow/-loan, rimborso automatico a inizio wave)"
+Druid Staff,Healer,5948,5983,19,boss,0,0,0,0,0,0,0,0,0.0,0.0,si,
+Druid Staff,Healer,5983,5987,19,boss,0,0,0,0,0,0,0,0,0.0,0.0,no,
+Druid Staff,Healer,5987,6158,19,sconfitta,0,0,0,0,0,0,0,0,0,0,no,
+Wizard Staff,DPS distanza,248,447,2,post,17,27,50,0,0,60,1,0,38.0,22.0,si,
+Wizard Staff,DPS distanza,447,646,3,post,27,79,0,0,0,52,0,2,65.5,-13.5,si,
+Wizard Staff,DPS distanza,646,925,4,post,79,35,100,0,0,56,1,0,59.0,-3.0,si,
+Wizard Staff,DPS distanza,925,1240,5,post,35,72,0,0,10,27,0,1,63.5,-36.5,si,
+Wizard Staff,DPS distanza,1240,1470,6,post,72,212,0,0,12,128,1,1,75.0,53.0,si,
+Wizard Staff,DPS distanza,1470,1773,7,post,212,84,0,0,0,-128,0,2,93.0,-221.0,si,"scarto spiegabile con prestiti (-borrow/-loan, rimborso automatico a inizio wave)"
+Wizard Staff,DPS distanza,1773,2060,8,post,84,201,0,0,0,117,0,1,119.5,-2.5,si,
+Wizard Staff,DPS distanza,2060,2617,9,post,201,355,0,0,20,134,0,1,98.0,36.0,si,
+Wizard Staff,DPS distanza,2617,2906,10,post,355,622,150,0,0,417,0,1,165.0,252.0,si,"scarto spiegabile con prestiti (-borrow/-loan, rimborso automatico a inizio wave)"
+Wizard Staff,DPS distanza,2906,3179,11,post,622,159,700,0,25,212,1,0,132.0,80.0,si,
+Wizard Staff,DPS distanza,3179,3418,12,post,159,409,0,0,0,250,1,3,285.5,-35.5,si,
+Wizard Staff,DPS distanza,3418,3660,13,post,409,617,0,0,0,208,0,2,208.0,0.0,si,
+Wizard Staff,DPS distanza,3660,3908,14,post,617,458,0,0,0,-159,0,1,171.0,-330.0,si,"scarto spiegabile con prestiti (-borrow/-loan, rimborso automatico a inizio wave)"
+Wizard Staff,DPS distanza,3908,4271,15,post,458,993,0,0,0,535,0,1,289.5,245.5,si,"scarto spiegabile con prestiti (-borrow/-loan, rimborso automatico a inizio wave)"
+Wizard Staff,DPS distanza,4271,4611,16,post,993,192,1000,0,0,199,2,2,192.0,7.0,si,
+Wizard Staff,DPS distanza,4611,4817,17,post,192,472,0,0,0,280,0,1,223.5,56.5,si,
+Wizard Staff,DPS distanza,4817,5386,18,post,472,359,500,38,0,349,0,1,346.0,3.0,si,
+Wizard Staff,DPS distanza,5386,5720,19,post,359,314,330,0,0,285,0,0,333.5,-48.5,si,
+Wizard Staff,DPS distanza,5720,5948,19,boss,314,93,220,0,0,-1,0,1,-0.5,-0.5,si,
+Wizard Staff,DPS distanza,5948,5983,19,boss,93,93,0,0,0,0,0,0,0.0,0.0,si,
+Wizard Staff,DPS distanza,5983,5987,19,boss,93,93,0,0,0,0,0,0,0.0,0.0,no,
+Wizard Staff,DPS distanza,5987,6158,19,sconfitta,93,93,0,0,0,0,0,0,0,0,no,
+Pickaxe,DPS mischia,248,447,2,post,17,52,0,0,0,35,0,2,38.0,-3.0,si,
+Pickaxe,DPS mischia,447,646,3,post,52,61,50,0,5,54,0,0,65.5,-11.5,si,
+Pickaxe,DPS mischia,646,925,4,post,61,77,100,0,7,109,0,1,59.0,50.0,si,
+Pickaxe,DPS mischia,925,1240,5,post,77,152,0,0,0,75,0,2,63.5,11.5,si,
+Pickaxe,DPS mischia,1240,1470,6,post,152,92,0,0,12,-72,0,1,75.0,-147.0,si,"scarto spiegabile con prestiti (-borrow/-loan, rimborso automatico a inizio wave)"
+Pickaxe,DPS mischia,1470,1773,7,post,92,101,0,0,15,-6,0,2,93.0,-99.0,si,
+Pickaxe,DPS mischia,1773,2060,8,post,101,108,0,0,0,7,0,1,119.5,-112.5,si,"scarto spiegabile con prestiti (-borrow/-loan, rimborso automatico a inizio wave)"
+Pickaxe,DPS mischia,2060,2617,9,post,108,151,0,0,0,43,0,1,98.0,-55.0,si,
+Pickaxe,DPS mischia,2617,2906,10,post,151,392,0,0,0,241,0,1,165.0,76.0,si,
+Pickaxe,DPS mischia,2906,3179,11,post,392,203,425,0,25,211,1,1,132.0,79.0,si,
+Pickaxe,DPS mischia,3179,3418,12,post,203,538,200,0,0,535,0,1,285.5,249.5,si,"scarto spiegabile con prestiti (-borrow/-loan, rimborso automatico a inizio wave)"
+Pickaxe,DPS mischia,3418,3660,13,post,538,757,0,0,0,219,0,3,208.0,11.0,si,
+Pickaxe,DPS mischia,3660,3908,14,post,757,975,0,0,0,218,0,2,171.0,47.0,si,
+Pickaxe,DPS mischia,3908,4271,15,post,975,1261,0,0,0,286,0,2,289.5,-3.5,si,
+Pickaxe,DPS mischia,4271,4611,16,post,1261,192,1250,0,0,181,0,2,192.0,-11.0,si,
+Pickaxe,DPS mischia,4611,4817,17,post,192,538,0,0,0,346,0,1,223.5,122.5,si,"scarto spiegabile con prestiti (-borrow/-loan, rimborso automatico a inizio wave)"
+Pickaxe,DPS mischia,4817,5386,18,post,538,892,0,0,0,354,0,2,346.0,8.0,si,
+Pickaxe,DPS mischia,5386,5720,19,post,892,322,990,0,0,420,0,0,333.5,86.5,si,
+Pickaxe,DPS mischia,5720,5948,19,boss,322,0,440,0,0,118,1,3,-0.5,118.5,si,"scarto spiegabile con prestiti (-borrow/-loan, rimborso automatico a inizio wave)"
+Pickaxe,DPS mischia,5948,5983,19,boss,0,0,0,0,0,0,0,0,0.0,0.0,si,
+Pickaxe,DPS mischia,5983,5987,19,boss,0,0,0,0,0,0,0,0,0.0,0.0,no,
+Pickaxe,DPS mischia,5987,6158,19,sconfitta,0,0,0,0,0,0,0,0,0,0,no,
+Naga Trident,DPS distanza,248,447,2,post,19,84,0,0,2,63,0,0,38.0,25.0,no,
+Naga Trident,DPS distanza,447,646,3,post,84,86,50,0,0,52,0,0,65.5,-13.5,no,
+Naga Trident,DPS distanza,646,925,4,post,86,152,0,0,7,59,0,1,59.0,0.0,si,
+Naga Trident,DPS distanza,925,1240,5,post,152,114,100,0,10,52,0,1,63.5,-11.5,si,
+Naga Trident,DPS distanza,1240,1470,6,post,114,60,175,0,0,121,1,1,75.0,46.0,si,
+Naga Trident,DPS distanza,1470,1773,7,post,60,145,0,0,15,70,0,0,93.0,-23.0,si,
+Naga Trident,DPS distanza,1773,2060,8,post,145,282,0,0,17,120,0,0,119.5,0.5,no,
+Naga Trident,DPS distanza,2060,2617,9,post,282,414,0,0,0,132,0,0,98.0,34.0,no,
+Naga Trident,DPS distanza,2617,2906,10,post,414,589,0,0,0,175,1,0,165.0,10.0,si,
+Naga Trident,DPS distanza,2906,3179,11,post,589,208,550,38,0,131,0,0,132.0,-1.0,si,
+Naga Trident,DPS distanza,3179,3418,12,post,208,481,0,0,0,273,0,0,285.5,-12.5,no,
+Naga Trident,DPS distanza,3418,3660,13,post,481,689,0,0,0,208,0,0,208.0,0.0,no,
+Naga Trident,DPS distanza,3660,3908,14,post,689,168,700,0,0,179,1,0,171.0,8.0,si,
+Naga Trident,DPS distanza,3908,4271,15,post,168,423,0,0,0,255,0,0,289.5,-34.5,si,
+Naga Trident,DPS distanza,4271,4611,16,post,423,615,0,0,0,192,0,0,192.0,0.0,no,
+Naga Trident,DPS distanza,4611,4817,17,post,615,204,1000,0,0,589,1,0,223.5,365.5,si,"scarto spiegabile con prestiti (-borrow/-loan, rimborso automatico a inizio wave)"
+Naga Trident,DPS distanza,4817,5386,18,post,204,194,0,0,0,-10,0,0,346.0,-356.0,si,"scarto spiegabile con prestiti (-borrow/-loan, rimborso automatico a inizio wave)"
+Naga Trident,DPS distanza,5386,5720,19,post,194,419,110,0,0,335,0,0,333.5,1.5,no,
+Naga Trident,DPS distanza,5720,5948,19,boss,419,0,440,0,0,21,2,0,-0.5,21.5,si,
+Naga Trident,DPS distanza,5948,5983,19,boss,0,0,0,0,0,0,0,0,0.0,0.0,si,
+Naga Trident,DPS distanza,5983,5987,19,boss,0,0,0,0,0,0,0,0,0.0,0.0,no,
+Naga Trident,DPS distanza,5987,6158,19,sconfitta,0,0,0,0,0,0,0,0,0,0,no,

@@ -1,0 +1,75 @@
+classe,ruolo,abilita,ability_id,tipo,categoria,uso_atteso,livello_eroe_sblocco,cooldown_s,costo_mana,tempo_combattimento_disponibile_s,ordini_totali,cast_in_combattimento,cast_max_teorici,pct_tempo_in_cooldown,giudizio_uso
+Bow,DPS distanza,Binding Trap,A03L,attiva,situazionale,controllo (trappola),7,35,25,2017.0,6,6,57.63,10.21,poco usata (<15% del tempo in cooldown)
+Bow,DPS distanza,Eagle Eye,A012,attiva,rotazione,usare appena pronta (danno/cura/buff),4,30,50,2252.5,38,22,75.08,29.94,uso medio (15-35%)
+Bow,DPS distanza,Piercing Shot,A010,attiva,rotazione,usare appena pronta (danno/cura/buff),3,16,25,2280.5,27,18,142.53,11.91,poco usata (<15% del tempo in cooldown)
+Bow,DPS distanza,Take Aim,A013,attiva,rotazione,usare appena pronta (danno/cura/buff),6,150,100,2165.0,20,7,14.43,82.66,molto usata (>=35%)
+Bow,DPS distanza,Volley,A00Y,attiva,rotazione,usare appena pronta (danno/cura/buff),2,7,70,2353.5,121,56,336.21,16.46,uso medio (15-35%)
+Bow,DPS distanza,Searing Arrows,A0FM,autocast (uso non visibile nel replay),,,,,,,0,,,,
+Bow,DPS distanza,A00Z,A00Z,passiva / aura (non conta),,,5,,,,0,,,,
+Naga Trident,DPS distanza,Crushing Wave,A08P,attiva,rotazione,usare appena pronta (danno/cura/buff),3,24,100,2373.5,66,36,98.9,41.16,molto usata (>=35%)
+Naga Trident,DPS distanza,Forked Lightning,A0FV,attiva,rotazione,usare appena pronta (danno/cura/buff),2,8,60,2462.0,100,53,307.75,18.3,uso medio (15-35%)
+Naga Trident,DPS distanza,Twister,A03O,attiva,situazionale,controllo (stordimento),4,15,30,2277.0,8,8,151.8,5.27,poco usata (<15% del tempo in cooldown)
+Naga Trident,DPS distanza,Vortex,A0FW,attiva,situazionale,controllo + danno (Vortex),6,60,75,1829.0,14,5,30.48,24.71,uso medio (15-35%)
+Naga Trident,DPS distanza,Parasite,A08Q,autocast (uso non visibile nel replay),,,,,,,46,,,,
+Naga Trident,DPS distanza,Maelstrom,A092,passiva / aura (non conta),,,7,,,,0,,,,
+Naga Trident,DPS distanza,Trident Lightning Attack,A0FU,passiva / aura (non conta),,,,,,,0,,,,
+Naga Trident,DPS distanza,Windward Aura,A0FY,passiva / aura (non conta),,,5,,,,0,,,,
+Wizard Staff,DPS distanza,Blink,A0D9,attiva,situazionale,mobilita (blink),,12,25,3195.5,19,19,266.29,7.14,poco usata (<15% del tempo in cooldown)
+Wizard Staff,DPS distanza,Fire/Frost/Magic Bolt,A04I,attiva,rotazione,usare appena pronta (danno/cura/buff),appresa (Learn),2,20,3560.0,663,381,1780.0,21.62,uso medio (15-35%)
+Wizard Staff,DPS distanza,Frost Shield,A0DA,attiva,situazionale,difensiva (scudo),,80,25,952.0,1,0,11.9,3.78,quasi mai usata (<=3 cast in combattimento)
+Wizard Staff,DPS distanza,Pyroblast,A0CG,attiva,rotazione,usare appena pronta (danno/cura/buff),appresa (Learn),18,175,3498.0,125,81,194.33,44.71,molto usata (>=35%)
+Wizard Staff,DPS distanza,Time Stop,A0DI,attiva,situazionale,controllo (Time Stop),appresa (Learn),120/180,200,3174.5,23,11,26.45,56.73,molto usata (>=35%)
+Wizard Staff,DPS distanza,Water Elemental,A04K,attiva,rotazione,usare appena pronta (danno/cura/buff),,40,125,3402.5,94,51,85.06,64.58,molto usata (>=35%)
+Wizard Staff,DPS distanza,Learn - Adept Spells,A0CZ,menu / libro di apprendimento (non valutabile),,,4,,,,0,,,,
+Wizard Staff,DPS distanza,Learn - Defensive Spells,A0DC,menu / libro di apprendimento (non valutabile),,,5,,,,0,,,,
+Wizard Staff,DPS distanza,Learn - Initiate Spells,A0CP,menu / libro di apprendimento (non valutabile),,,3,,,,0,,,,
+Wizard Staff,DPS distanza,Learn - Innate Abilities,A0D3,menu / libro di apprendimento (non valutabile),,,7,,,,0,,,,
+Wizard Staff,DPS distanza,Learn - Master Spells,A0DJ,menu / libro di apprendimento (non valutabile),,,6,,,,0,,,,
+Wizard Staff,DPS distanza,Learn - Novice Spells,A027,menu / libro di apprendimento (non valutabile),,,2,,,,0,,,,
+Claws,DPS mischia,Feral Spirit,A01M,attiva,rotazione,usare appena pronta (danno/cura/buff),3,20,80/110,3001.0,140,88,150.05,63.05,molto usata (>=35%)
+Claws,DPS mischia,Healing Wave (= Rock Shield),A0G6,attiva,situazionale,cura + armatura mirata,4,32/40,30/60,2924.0,26,20,91.38,29.02,uso medio (15-35%)
+Claws,DPS mischia,Hex,A01L,attiva,situazionale,"controllo (Hex, utile sul boss)",5,60,25,2728.0,22,21,45.47,36.97,molto usata (>=35%)
+Claws,DPS mischia,Lightning Strike (= Lightning Bolt),A01C,attiva,rotazione,usare appena pronta (danno/cura/buff),2,7/8,70,3114.0,235,170,444.86,42.37,molto usata (>=35%)
+Claws,DPS mischia,Mana Tide Totem,A01J,attiva,situazionale,mana di gruppo,7,150,50,2612.0,6,6,17.41,25.98,uso medio (15-35%)
+Claws,DPS mischia,Molten Boulder,A01H,attiva,situazionale,"danno ad area, cooldown 180 s",6,180,200,2623.0,13,6,14.57,60.45,molto usata (>=35%)
+Claws,DPS mischia,Flurry,A01F,passiva / aura (non conta),,,,,,,0,,,,
+Double Blade,DPS mischia,Conjure Soulstone,A038,attiva,situazionale,crea pietra di resurrezione,5,180,200,2692.0,9,1,14.96,23.09,quasi mai usata (<=3 cast in combattimento)
+Double Blade,DPS mischia,Demon Skin,A036,attiva,situazionale,difensiva (pelle demoniaca),,5/7,85,3091.0,44,35,618.2,6.23,poco usata (<15% del tempo in cooldown)
+Double Blade,DPS mischia,Demonic Circle,A00W,attiva,rotazione,usare appena pronta (danno/cura/buff),6,24/24,100/100,2924.0,0,0,121.83,0,MAI USATA
+Double Blade,DPS mischia,Dimensional Gate,A00A,attiva,situazionale,portale (spostamento),7,180,125,2544.5,5,4,14.14,26.1,uso medio (15-35%)
+Double Blade,DPS mischia,Firestorm (= Fire Storm),A00S,attiva,rotazione,usare appena pronta (danno/cura/buff),2,10,125,3058.0,42,32,305.8,10.89,poco usata (<15% del tempo in cooldown)
+Double Blade,DPS mischia,Terror,A00U,attiva,rotazione,usare appena pronta (danno/cura/buff),3,30,0,2957.0,79,37,98.57,43.08,molto usata (>=35%)
+Double Blade,DPS mischia,Vampiric Aura,S000,passiva / aura (non conta),,,4,,,,0,,,,
+Pickaxe,DPS mischia,Construct Tower (probabile),A08N,attiva,situazionale,evoca torre (1 alla volta),2,90,200,3151.0,32,11,35.01,31.59,uso medio (15-35%)
+Pickaxe,DPS mischia,Hydra Arrows,A08W,attiva,rotazione,usare appena pronta (danno/cura/buff),6,240,175,2668.0,17,3,11.12,82.7,molto usata (>=35%)
+Pickaxe,DPS mischia,Overdrive,A08T,attiva,rotazione,usare appena pronta (danno/cura/buff),4,20,100,2995.0,281,68,149.75,49.67,molto usata (>=35%)
+Pickaxe,DPS mischia,Repair,A08S,attiva,situazionale,ripara la torre,2,1,15,3113.0,5,4,3113.0,0.13,poco usata (<15% del tempo in cooldown)
+Pickaxe,DPS mischia,Volatile Concoction (= Unstable Concoction),A0FS,attiva,rotazione,usare appena pronta (danno/cura/buff),3,10/18,75,3040.0,104,64,304.0,38.67,molto usata (>=35%)
+Pickaxe,DPS mischia,Mark Target,A08V,autocast (uso non visibile nel replay),,,5,,,,2,,,,
+Pickaxe,DPS mischia,Scavenger,A091,passiva / aura (non conta),,,7,,,,0,,,,
+Druid Staff,Healer,Entangle,A05T,attiva,situazionale,"controllo (radici, utile sul boss)",7,80/80,50/100,2750.0,0,0,34.38,0,MAI USATA
+Druid Staff,Healer,Force of Nature,A05V,attiva,rotazione,usare appena pronta (danno/cura/buff),4,70,150,2828.0,36,29,40.4,60.22,molto usata (>=35%)
+Druid Staff,Healer,Innervate,A060,attiva,rotazione,usare appena pronta (danno/cura/buff),3,20,20,2926.5,111,78,146.32,53.53,molto usata (>=35%)
+Druid Staff,Healer,Rejuvenation,A05R,attiva,rotazione,usare appena pronta (danno/cura/buff),,2,60,3008.5,543,356,1504.25,23.98,uso medio (15-35%)
+Druid Staff,Healer,Starfall,A06S,attiva,rotazione,usare appena pronta (danno/cura/buff),2,30,125,2947.5,9,6,98.25,5.46,poco usata (<15% del tempo in cooldown)
+Druid Staff,Healer,Tranquility,A05Y,attiva,situazionale,cura di gruppo di emergenza,6,180,100,2454.5,30,17,13.64,81.97,molto usata (>=35%)
+Druid Staff,Healer,Thorns Aura,A06U,passiva / aura (non conta),,,5,,,,0,,,,
+War Drums,Support,Embolden,A09U,attiva,rotazione,usare appena pronta (danno/cura/buff),3,45,150,2826.5,48,33,62.81,52.63,molto usata (>=35%)
+War Drums,Support,Inspire,A09W,attiva,situazionale,mana + reset cooldown a un alleato,6,120/150,150,2357.5,11,10,19.65,47.36,molto usata (>=35%)
+War Drums,Support,Intimidate,A09X,attiva,situazionale,controllo (paura),5,25,50,2595.5,9,5,103.82,6.95,poco usata (<15% del tempo in cooldown)
+War Drums,Support,Rally,A09Z,attiva,rotazione,usare appena pronta (danno/cura/buff),4,25,75,2749.5,43,33,109.98,31.31,uso medio (15-35%)
+War Drums,Support,War Drums,A09Y,menu / libro di apprendimento (non valutabile),,,7,,,,0,,,,
+War Drums,Support,Motivate,A0AJ,passiva / aura (non conta),,,2,,,,0,,,,
+Runeblade,Tank,Death Coil,A0HJ,attiva,rotazione,usare appena pronta (danno/cura/buff),2,5,30,3104.5,178,140,620.9,22.85,uso medio (15-35%)
+Runeblade,Tank,Death Pact,A0HK,attiva,rotazione,usare appena pronta (danno/cura/buff),4,35,0/50,2917.5,71,49,83.36,62.06,molto usata (>=35%)
+Runeblade,Tank,Desecrate,A0HL,attiva,rotazione,usare appena pronta (danno/cura/buff),3,28,120,2994.5,58,38,106.95,37.5,molto usata (>=35%)
+Runeblade,Tank,Surrender Soul,A0HN,attiva,situazionale,emergenza (invulnerabile poi muori),6,90/180,25,2469.5,3,1,27.44,3.93,quasi mai usata (<=3 cast in combattimento)
+Runeblade,Tank,Unholy Frenzy,A0HQ,attiva,rotazione,usare appena pronta (danno/cura/buff),,5/25,18,3128.5,203,114,625.7,34.33,uso medio (15-35%)
+Runeblade,Tank,Learn - Undead Companion,A0HR,menu / libro di apprendimento (non valutabile),,,7,,,,0,,,,
+Runeblade,Tank,Unholy Presence,A0HM,passiva / aura (non conta),,,5,,,,0,,,,
+War Hammer,Tank,Avatar,A00Q,attiva,rotazione,usare appena pronta (danno/cura/buff),6,120,100,2915.5,21,14,24.3,68.58,molto usata (>=35%)
+War Hammer,Tank,Leap,A00P,attiva,situazionale,mobilita (salto),4,7/10,0/10,3258.5,31,30,465.5,7.12,poco usata (<15% del tempo in cooldown)
+War Hammer,Tank,Storm Bolt,A00L,attiva,rotazione,usare appena pronta (danno/cura/buff),2,5,20,3446.0,535,352,689.2,52.18,molto usata (>=35%)
+War Hammer,Tank,Thunderclap,A00N,attiva,rotazione,usare appena pronta (danno/cura/buff),3,7,90,3335.5,80,62,476.5,13.3,poco usata (<15% del tempo in cooldown)
+War Hammer,Tank,Might Aura,A00O,passiva / aura (non conta),,,5,,,,0,,,,
+War Hammer,Tank,Stone Skin,A03P,passiva / aura (non conta),,,7,,,,0,,,,

@@ -1,0 +1,11 @@
+classe,ruolo,distanza_classe,campioni_con_posizione,x_mediana,y_mediana,dist_mediana_nemico_piu_vicino,campioni_nemico,dist_mediana_dal_fronte,campioni_con_fronte,proiezione_verso_fronte_mediana,pct_campioni_verso_fronte,dist_mediana_tank_piu_vicino,dietro_al_tank_mediana,pct_campioni_dietro_al_tank,dist_mediana_healer,pct_entro_700_dal_healer,dist_mediana_spawn_piu_vicino
+War Hammer,Tank,Mischia,3353,-404.173,692.787,253.147,2740,378.785,2734,215.465,67.335,622.484,,,627.317,58.088,3170.834
+Runeblade,Tank,Mischia,2980,-906.847,352.087,278.513,2607,397.817,2558,120.058,63.125,622.484,,,623.842,55.848,3485.648
+Druid Staff,Healer,Distanza,2839,-429.599,292.771,504.379,2515,684.755,2464,-150.485,29.229,494.381,420.269,89.931,,,3299.17
+War Drums,Support,Distanza,2528,-858.866,277.432,500.0,2240,573.794,2191,-66.651,41.22,431.491,356.207,86.986,518.554,63.577,3385.143
+Claws,DPS mischia,Mischia,3005,-519.307,496.379,402.436,2588,556.755,2568,50.296,55.164,385.443,250.015,75.322,575.279,59.23,3366.231
+Double Blade,DPS mischia,Mischia,2280,-142.154,665.207,399.14,1900,522.16,1857,88.317,59.214,339.083,168.985,74.072,595.734,60.304,3107.761
+Pickaxe,DPS mischia,Mischia,2742,-506.353,397.125,398.463,2336,559.373,2335,-15.034,48.826,380.151,237.134,71.416,492.969,68.683,3380.979
+Bow,DPS distanza,Distanza,2011,-572.185,304.205,394.138,1810,542.4,1784,11.41,51.475,387.222,257.492,81.405,654.729,54.355,3452.663
+Wizard Staff,DPS distanza,Distanza,3222,-916.327,439.231,452.04,2734,577.875,2665,-55.852,44.578,395.881,329.96,86.122,529.155,68.899,3144.11
+Naga Trident,DPS distanza,Distanza,2275,-994.05,460.308,415.364,2097,500.0,2078,-26.888,46.407,379.513,287.364,84.251,408.893,77.211,3265.026

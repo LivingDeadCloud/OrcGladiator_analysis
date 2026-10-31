@@ -1,0 +1,21 @@
+challenge,fine_screenshot_s,ritardo_screenshot_s,fonte,fine_round_reale_s,rianimazione_fine_round_s,inizio_round_reale_s,durata_round_s,durata_fonte
+1,248.0,9.4,mediana degli altri round (9.4 s),238.6,242.6,177.6,61.0,secondi del riepilogo round
+2,447.0,9.4,mediana degli altri round (9.4 s),437.6,441.6,364.6,73.0,secondi del riepilogo round
+3,646.0,9.4,mediana degli altri round (9.4 s),636.6,640.6,559.6,77.0,secondi del riepilogo round
+4,925.0,9.5,misurato: primo ordine dopo il silenzio di 1 eroi con firma,915.5,919.5,761.5,154.0,secondi del riepilogo round
+5,1240.0,9.5,misurato: primo ordine dopo il silenzio di 4 eroi con firma,1230.5,1234.5,1041.5,189.0,secondi del riepilogo round
+6,1470.0,9.4,mediana degli altri round (9.4 s),1460.6,1464.6,1355.6,105.0,secondi del riepilogo round
+7,1773.0,4.0,misurato: primo ordine dopo il silenzio di 1 eroi con firma,1769.0,1773.0,1595.0,174.0,secondi del riepilogo round
+8,2060.0,9.4,mediana degli altri round (9.4 s),2050.6,2054.6,1889.6,161.0,stimato: fine challenge prec. + pausa mediana 126s
+9,2617.0,6.4,misurato: primo ordine dopo il silenzio di 3 eroi con firma,2610.6,2614.6,2182.6,428.0,secondi del riepilogo round
+10,2906.0,9.4,mediana degli altri round (9.4 s),2896.6,2900.6,2735.6,161.0,secondi del riepilogo round
+11,3179.0,6.4,misurato: primo ordine dopo il silenzio di 1 eroi con firma,3172.6,3176.6,3022.6,150.0,secondi del riepilogo round
+12,3418.0,9.4,mediana degli altri round (9.4 s),3408.6,3412.6,3295.6,113.0,stimato: fine challenge prec. + pausa mediana 126s
+13,3660.0,9.6,misurato: primo ordine dopo il silenzio di 4 eroi con firma,3650.4,3654.4,3518.4,132.0,secondi del riepilogo round
+14,3908.0,9.4,mediana degli altri round (9.4 s),3898.6,3902.6,3777.6,121.0,secondi del riepilogo round
+15,4271.0,9.4,misurato: primo ordine dopo il silenzio di 8 eroi con firma,4261.6,4265.6,4025.6,236.0,secondi del riepilogo round
+16,4611.0,8.7,misurato: primo ordine dopo il silenzio di 2 eroi con firma,4602.3,4606.3,4386.3,216.0,secondi del riepilogo round
+17,4817.0,9.4,mediana degli altri round (9.4 s),4807.6,4811.6,4727.6,80.0,secondi del riepilogo round
+18,5386.0,17.8,misurato: primo ordine dopo il silenzio di 5 eroi con firma,5368.2,5372.2,4936.2,432.0,secondi del riepilogo round
+19,5720.0,9.4,mediana degli altri round (9.4 s),5710.6,5714.6,5502.6,208.0,stimato: fine challenge prec. + pausa mediana 126s
+20,6158.0,9.4,mediana degli altri round (9.4 s),6148.6,6152.6,5836.6,312.0,stimato: fine challenge prec. + pausa mediana 126s

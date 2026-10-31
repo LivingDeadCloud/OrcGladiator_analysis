@@ -1,0 +1,11 @@
+classe,ruolo,secondi_combattimento,ordini_con_coordinate_in_combattimento,pct_ordini_coord_dati_all_eroe,pct_tempo_ultimo_ordine_entro_2s,pct_tempo_ultimo_ordine_entro_5s,pct_tempo_ultimo_ordine_entro_10s,pct_tempo_ultimo_ordine_entro_30s,eta_mediana_ultimo_ordine_s,pct_tempo_con_ancora_misurata_1_5s,pct_tempo_con_posizione_usabile,pct_posizioni_dentro_arena,ancore_altri_in_combattimento,ancore_usate_validazione,errore_mediano_ultimo_click,errore_mediano_dead_reckoning,errore_p75_dead_reckoning,pct_entro_300_dead_reckoning
+War Hammer,Tank,3603.0,5699,97.437,69.803,85.762,92.784,95.837,0.696,12.184,93.061,99.284,168,165,254.77,167.1,274.231,77.576
+Runeblade,Tank,3603.0,3265,99.796,61.504,75.354,82.209,87.899,1.072,15.182,82.709,99.228,168,162,171.722,121.737,212.389,87.037
+Druid Staff,Healer,3603.0,3079,97.208,58.285,73.106,78.74,84.43,1.322,8.16,78.795,99.049,63,63,305.157,72.475,146.096,87.302
+War Drums,Support,3603.0,1920,97.067,42.187,58.007,69.054,82.154,3.196,8.104,70.164,97.429,125,106,444.206,179.476,394.722,63.208
+Claws,DPS mischia,3603.0,4910,96.596,70.747,78.351,82.737,86.706,0.572,10.158,83.403,98.802,135,125,200.859,89.492,162.251,89.6
+Double Blade,DPS mischia,3603.0,3705,96.099,41.354,52.318,61.282,73.966,4.166,6.772,63.281,94.43,96,71,186.846,75.116,238.07,78.873
+Pickaxe,DPS mischia,3603.0,4844,96.718,60.172,70.247,75.909,83.07,1.008,7.882,76.103,98.541,126,123,227.807,97.407,164.756,90.244
+Bow,DPS distanza,3603.0,1242,97.842,26.395,40.633,54.732,71.579,8.024,6.411,55.815,98.061,97,83,600.183,301.411,474.462,48.193
+Wizard Staff,DPS distanza,3603.0,3305,92.816,67.333,84.652,88.732,94.782,0.916,9.492,89.425,98.914,130,121,481.447,153.096,268.496,79.339
+Naga Trident,DPS distanza,3603.0,3507,98.502,41.132,53.289,62.614,72.273,3.978,6.384,63.142,98.374,88,81,484.393,121.076,185.978,87.654

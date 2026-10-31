@@ -1,0 +1,8 @@
+soglia_silenzio_s,morti_certe_con_firma_identica,di_cui_con_silenzio_oltre_soglia,sensibilita_pct,silenzi_non_spiegati_oltre_soglia,silenzi_non_spiegati_per_ora_eroe,prob_coincidenza_finestra_10s_pct
+10,18,18,100.0,100,10.4,24.1
+15,18,18,100.0,100,10.4,24.1
+20,18,18,100.0,55,5.7,14.1
+30,18,18,100.0,17,1.8,4.6
+45,18,18,100.0,4,0.4,1.1
+60,18,17,94.4,1,0.1,0.3
+90,18,12,66.7,0,0.0,0.0

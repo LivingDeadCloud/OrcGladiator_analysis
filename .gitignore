@@ -1,0 +1,6 @@
+# File originali della partita (replay, screenshot, archivio): troppo pesanti per GitHub
+replay_originali/
+
+# Python
+__pycache__/
+*.pyc

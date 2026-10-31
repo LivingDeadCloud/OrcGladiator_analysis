@@ -1,0 +1,158 @@
+classe,ruolo,challenge,abilita,tipo,n_comandi
+Claws,DPS mischia,4,Rock Shield,cura diretta,2
+Claws,DPS mischia,5,Rock Shield,cura diretta,1
+Claws,DPS mischia,6,Rock Shield,cura diretta,1
+Claws,DPS mischia,7,Mana Tide Totem,cura ad area nel tempo (condizionale),1
+Claws,DPS mischia,7,Rock Shield,cura diretta,2
+Claws,DPS mischia,9,Mana Tide Totem,cura ad area nel tempo (condizionale),1
+Claws,DPS mischia,9,Rock Shield,cura diretta,1
+Claws,DPS mischia,12,Rock Shield,cura diretta,1
+Claws,DPS mischia,13,Mana Tide Totem,cura ad area nel tempo (condizionale),1
+Claws,DPS mischia,13,Rock Shield,cura diretta,3
+Claws,DPS mischia,14,Rock Shield,cura diretta,2
+Claws,DPS mischia,15,Rock Shield,cura diretta,1
+Claws,DPS mischia,16,Mana Tide Totem,cura ad area nel tempo (condizionale),1
+Claws,DPS mischia,16,Rock Shield,cura diretta,1
+Claws,DPS mischia,17,Rock Shield,cura diretta,2
+Claws,DPS mischia,18,Mana Tide Totem,cura ad area nel tempo (condizionale),1
+Claws,DPS mischia,18,Rock Shield,cura diretta,8
+Claws,DPS mischia,20 (boss),Mana Tide Totem,cura ad area nel tempo (condizionale),1
+Claws,DPS mischia,20 (boss),Rock Shield,cura diretta,1
+Double Blade,DPS mischia,1,Demon Skin,auto-cura nel tempo,1
+Double Blade,DPS mischia,5,Demon Skin,auto-cura nel tempo,4
+Double Blade,DPS mischia,7,Demon Skin,auto-cura nel tempo,1
+Double Blade,DPS mischia,8,Demon Skin,auto-cura nel tempo,3
+Double Blade,DPS mischia,9,Demon Skin,auto-cura nel tempo,1
+Double Blade,DPS mischia,10,Demon Skin,auto-cura nel tempo,4
+Double Blade,DPS mischia,11,Demon Skin,auto-cura nel tempo,2
+Double Blade,DPS mischia,12,Demon Skin,auto-cura nel tempo,1
+Double Blade,DPS mischia,13,Demon Skin,auto-cura nel tempo,5
+Double Blade,DPS mischia,14,Demon Skin,auto-cura nel tempo,5
+Double Blade,DPS mischia,15,Demon Skin,auto-cura nel tempo,1
+Double Blade,DPS mischia,16,Demon Skin,auto-cura nel tempo,1
+Double Blade,DPS mischia,17,Demon Skin,auto-cura nel tempo,2
+Double Blade,DPS mischia,18,Demon Skin,auto-cura nel tempo,3
+Double Blade,DPS mischia,19,Demon Skin,auto-cura nel tempo,3
+Double Blade,DPS mischia,20 (boss),Demon Skin,auto-cura nel tempo,7
+Druid Staff,Healer,1,Rejuvenation,cura nel tempo,7
+Druid Staff,Healer,2,Innervate,cura nel tempo (condizionale),2
+Druid Staff,Healer,2,Rejuvenation,cura nel tempo,9
+Druid Staff,Healer,3,Innervate,cura nel tempo (condizionale),4
+Druid Staff,Healer,3,Rejuvenation,cura nel tempo,15
+Druid Staff,Healer,4,Innervate,cura nel tempo (condizionale),8
+Druid Staff,Healer,4,Rejuvenation,cura nel tempo,26
+Druid Staff,Healer,5,Innervate,cura nel tempo (condizionale),9
+Druid Staff,Healer,5,Rejuvenation,cura nel tempo,23
+Druid Staff,Healer,6,Innervate,cura nel tempo (condizionale),5
+Druid Staff,Healer,6,Rejuvenation,cura nel tempo,17
+Druid Staff,Healer,6,Tranquility,cura ad area nel tempo,1
+Druid Staff,Healer,7,Innervate,cura nel tempo (condizionale),9
+Druid Staff,Healer,7,Rejuvenation,cura nel tempo,25
+Druid Staff,Healer,7,Tranquility,cura ad area nel tempo,1
+Druid Staff,Healer,8,Innervate,cura nel tempo (condizionale),7
+Druid Staff,Healer,8,Rejuvenation,cura nel tempo,30
+Druid Staff,Healer,8,Tranquility,cura ad area nel tempo,2
+Druid Staff,Healer,9,Innervate,cura nel tempo (condizionale),5
+Druid Staff,Healer,9,Rejuvenation,cura nel tempo,15
+Druid Staff,Healer,9,Tranquility,cura ad area nel tempo,1
+Druid Staff,Healer,10,Innervate,cura nel tempo (condizionale),7
+Druid Staff,Healer,10,Rejuvenation,cura nel tempo,29
+Druid Staff,Healer,10,Tranquility,cura ad area nel tempo,1
+Druid Staff,Healer,11,Innervate,cura nel tempo (condizionale),8
+Druid Staff,Healer,11,Rejuvenation,cura nel tempo,31
+Druid Staff,Healer,11,Tranquility,cura ad area nel tempo,1
+Druid Staff,Healer,12,Innervate,cura nel tempo (condizionale),6
+Druid Staff,Healer,12,Rejuvenation,cura nel tempo,23
+Druid Staff,Healer,12,Tranquility,cura ad area nel tempo,1
+Druid Staff,Healer,13,Innervate,cura nel tempo (condizionale),2
+Druid Staff,Healer,13,Rejuvenation,cura nel tempo,16
+Druid Staff,Healer,13,Tranquility,cura ad area nel tempo,4
+Druid Staff,Healer,14,Innervate,cura nel tempo (condizionale),6
+Druid Staff,Healer,14,Rejuvenation,cura nel tempo,31
+Druid Staff,Healer,14,Tranquility,cura ad area nel tempo,1
+Druid Staff,Healer,15,Innervate,cura nel tempo (condizionale),5
+Druid Staff,Healer,15,Rejuvenation,cura nel tempo,21
+Druid Staff,Healer,15,Tranquility,cura ad area nel tempo,1
+Druid Staff,Healer,16,Innervate,cura nel tempo (condizionale),4
+Druid Staff,Healer,16,Rejuvenation,cura nel tempo,42
+Druid Staff,Healer,16,Tranquility,cura ad area nel tempo,3
+Druid Staff,Healer,17,Innervate,cura nel tempo (condizionale),3
+Druid Staff,Healer,17,Rejuvenation,cura nel tempo,24
+Druid Staff,Healer,17,Tranquility,cura ad area nel tempo,3
+Druid Staff,Healer,18,Innervate,cura nel tempo (condizionale),10
+Druid Staff,Healer,18,Rejuvenation,cura nel tempo,56
+Druid Staff,Healer,18,Tranquility,cura ad area nel tempo,3
+Druid Staff,Healer,19,Innervate,cura nel tempo (condizionale),5
+Druid Staff,Healer,19,Rejuvenation,cura nel tempo,51
+Druid Staff,Healer,19,Tranquility,cura ad area nel tempo,3
+Druid Staff,Healer,20 (boss),Innervate,cura nel tempo (condizionale),6
+Druid Staff,Healer,20 (boss),Rejuvenation,cura nel tempo,52
+Druid Staff,Healer,20 (boss),Tranquility,cura ad area nel tempo,4
+Runeblade,Tank,1,Death Coil (alleato o nemico),cura diretta,2
+Runeblade,Tank,2,Death Coil (alleato o nemico),cura diretta,9
+Runeblade,Tank,3,Death Coil (alleato o nemico),cura diretta,1
+Runeblade,Tank,4,Death Coil (alleato o nemico),cura diretta,6
+Runeblade,Tank,4,Death Pact,auto-cura diretta,4
+Runeblade,Tank,5,Death Coil (alleato o nemico),cura diretta,9
+Runeblade,Tank,5,Death Pact,auto-cura diretta,5
+Runeblade,Tank,6,Death Coil (alleato o nemico),cura diretta,3
+Runeblade,Tank,6,Death Pact,auto-cura diretta,3
+Runeblade,Tank,7,Death Coil (alleato o nemico),cura diretta,7
+Runeblade,Tank,7,Death Pact,auto-cura diretta,5
+Runeblade,Tank,8,Death Coil (alleato o nemico),cura diretta,9
+Runeblade,Tank,8,Death Pact,auto-cura diretta,5
+Runeblade,Tank,9,Death Coil (alleato o nemico),cura diretta,30
+Runeblade,Tank,9,Death Pact,auto-cura diretta,8
+Runeblade,Tank,10,Death Coil (alleato o nemico),cura diretta,4
+Runeblade,Tank,10,Death Pact,auto-cura diretta,4
+Runeblade,Tank,11,Death Coil (alleato o nemico),cura diretta,9
+Runeblade,Tank,11,Death Pact,auto-cura diretta,4
+Runeblade,Tank,12,Death Pact,auto-cura diretta,3
+Runeblade,Tank,13,Death Coil (alleato o nemico),cura diretta,14
+Runeblade,Tank,13,Death Pact,auto-cura diretta,3
+Runeblade,Tank,14,Death Coil (alleato o nemico),cura diretta,3
+Runeblade,Tank,14,Death Pact,auto-cura diretta,4
+Runeblade,Tank,15,Death Coil (alleato o nemico),cura diretta,5
+Runeblade,Tank,15,Death Pact,auto-cura diretta,3
+Runeblade,Tank,16,Death Coil (alleato o nemico),cura diretta,13
+Runeblade,Tank,16,Death Pact,auto-cura diretta,5
+Runeblade,Tank,17,Death Coil (alleato o nemico),cura diretta,11
+Runeblade,Tank,17,Death Pact,auto-cura diretta,3
+Runeblade,Tank,18,Death Coil (alleato o nemico),cura diretta,9
+Runeblade,Tank,18,Death Pact,auto-cura diretta,2
+Runeblade,Tank,19,Death Coil (alleato o nemico),cura diretta,14
+Runeblade,Tank,19,Death Pact,auto-cura diretta,5
+Runeblade,Tank,20 (boss),Death Coil (alleato o nemico),cura diretta,20
+Runeblade,Tank,20 (boss),Death Pact,auto-cura diretta,5
+War Drums,Support,4,Rally,potenziamento di Motivate,6
+War Drums,Support,5,Rally,potenziamento di Motivate,4
+War Drums,Support,6,Rally,potenziamento di Motivate,1
+War Drums,Support,7,Rally,potenziamento di Motivate,4
+War Drums,Support,8,Rally,potenziamento di Motivate,1
+War Drums,Support,9,Rally,potenziamento di Motivate,4
+War Drums,Support,9,War Drums (Bestow Aura),cura ad area,2
+War Drums,Support,10,Rally,potenziamento di Motivate,2
+War Drums,Support,11,Rally,potenziamento di Motivate,2
+War Drums,Support,12,Rally,potenziamento di Motivate,1
+War Drums,Support,13,Rally,potenziamento di Motivate,2
+War Drums,Support,14,Rally,potenziamento di Motivate,3
+War Drums,Support,16,Rally,potenziamento di Motivate,3
+War Drums,Support,16,War Drums (Bestow Aura),cura ad area,1
+War Drums,Support,17,Rally,potenziamento di Motivate,3
+War Drums,Support,18,Rally,potenziamento di Motivate,1
+War Drums,Support,19,Rally,potenziamento di Motivate,3
+War Drums,Support,20 (boss),Rally,potenziamento di Motivate,3
+War Hammer,Tank,6,Avatar,auto-cura nel tempo (condizionale),1
+War Hammer,Tank,7,Avatar,auto-cura nel tempo (condizionale),2
+War Hammer,Tank,8,Avatar,auto-cura nel tempo (condizionale),1
+War Hammer,Tank,9,Avatar,auto-cura nel tempo (condizionale),1
+War Hammer,Tank,11,Avatar,auto-cura nel tempo (condizionale),1
+War Hammer,Tank,12,Avatar,auto-cura nel tempo (condizionale),1
+War Hammer,Tank,13,Avatar,auto-cura nel tempo (condizionale),1
+War Hammer,Tank,14,Avatar,auto-cura nel tempo (condizionale),1
+War Hammer,Tank,15,Avatar,auto-cura nel tempo (condizionale),1
+War Hammer,Tank,16,Avatar,auto-cura nel tempo (condizionale),1
+War Hammer,Tank,17,Avatar,auto-cura nel tempo (condizionale),1
+War Hammer,Tank,18,Avatar,auto-cura nel tempo (condizionale),4
+War Hammer,Tank,19,Avatar,auto-cura nel tempo (condizionale),2
+War Hammer,Tank,20 (boss),Avatar,auto-cura nel tempo (condizionale),3

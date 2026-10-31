@@ -1,0 +1,142 @@
+classe,ruolo,abilita,nome_in_mappa,ability_id,abilita_base,livello,costo_mana,cooldown_s,fonte_valori
+War Hammer,Tank,Storm Bolt,Storm Bolt,A00L,ANab,1,20.0,5.0,mappa
+War Hammer,Tank,Storm Bolt,Storm Bolt,A00L,ANab,2,20.0,5.0,mappa
+War Hammer,Tank,Thunderclap,,A00N,AHtc,1,90.0,7.0,mappa+slk base
+War Hammer,Tank,Thunderclap,,A00N,AHtc,2,90.0,7.0,mappa+slk base
+War Hammer,Tank,Leap,Leap,A00P,ANcl,1,10.0,10.0,mappa+slk base
+War Hammer,Tank,Leap,Leap,A00P,ANcl,2,0.0,7.0,mappa+slk base
+War Hammer,Tank,Leap,Leap,A00P,ANcl,3,10.0,10.0,mappa+slk base
+War Hammer,Tank,Leap,Leap,A00P,ANcl,4,0.0,7.0,mappa+slk base
+War Hammer,Tank,Avatar,,A00Q,AHav,1,100.0,120.0,mappa
+War Hammer,Tank,Avatar,,A00Q,AHav,2,100.0,120.0,mappa
+War Hammer,Tank,Avatar,,A00Q,AHav,3,100.0,120.0,mappa
+War Hammer,Tank,Avatar,,A00Q,AHav,4,100.0,120.0,mappa
+Runeblade,Tank,Death Coil,Death Coil,A0HJ,ANcl,1,30.0,5.0,mappa
+Runeblade,Tank,Death Coil,Death Coil,A0HJ,ANcl,2,30.0,5.0,mappa
+Runeblade,Tank,Death Coil,Death Coil,A0HJ,ANcl,3,30.0,5.0,mappa
+Runeblade,Tank,Death Coil,Death Coil,A0HJ,ANcl,4,30.0,5.0,mappa
+Runeblade,Tank,Death Pact,Death Pact,A0HK,ANcl,1,50.0,35.0,mappa+slk base
+Runeblade,Tank,Death Pact,Death Pact,A0HK,ANcl,2,0.0,35.0,mappa+slk base
+Runeblade,Tank,Death Pact,Death Pact,A0HK,ANcl,3,50.0,35.0,mappa+slk base
+Runeblade,Tank,Death Pact,Death Pact,A0HK,ANcl,4,0.0,35.0,mappa+slk base
+Runeblade,Tank,Desecrate,Desecrate,A0HL,ANcl,1,120.0,28.0,mappa
+Runeblade,Tank,Desecrate,Desecrate,A0HL,ANcl,2,120.0,28.0,mappa
+Runeblade,Tank,Surrender Soul,Surrender Soul,A0HN,ANbr,1,25.0,90.0,mappa
+Runeblade,Tank,Surrender Soul,Surrender Soul,A0HN,ANbr,2,25.0,90.0,mappa
+Runeblade,Tank,Surrender Soul,Surrender Soul,A0HN,ANbr,3,25.0,180.0,mappa
+Runeblade,Tank,Surrender Soul,Surrender Soul,A0HN,ANbr,4,25.0,180.0,mappa
+Runeblade,Tank,Unholy Frenzy,,A0HQ,ACuf,1,18.0,25.0,mappa
+Runeblade,Tank,Unholy Frenzy,,A0HQ,ACuf,2,18.0,5.0,mappa
+Druid Staff,Healer,Rejuvenation,Rejuvenation,A05R,ANcl,1,60.0,2.0,mappa
+Druid Staff,Healer,Rejuvenation,Rejuvenation,A05R,ANcl,2,60.0,2.0,mappa
+Druid Staff,Healer,Rejuvenation,Rejuvenation,A05R,ANcl,3,60.0,2.0,mappa
+Druid Staff,Healer,Rejuvenation,Rejuvenation,A05R,ANcl,4,60.0,2.0,mappa
+Druid Staff,Healer,Force of Nature,Force of Nature,A05V,ANcl,1,150.0,70.0,mappa
+Druid Staff,Healer,Force of Nature,Force of Nature,A05V,ANcl,2,150.0,70.0,mappa
+Druid Staff,Healer,Force of Nature,Force of Nature,A05V,ANcl,3,150.0,70.0,mappa
+Druid Staff,Healer,Force of Nature,Force of Nature,A05V,ANcl,4,150.0,70.0,mappa
+Druid Staff,Healer,Tranquility,Tranquility,A05Y,ANcl,1,100.0,180.0,mappa
+Druid Staff,Healer,Tranquility,Tranquility,A05Y,ANcl,2,100.0,90.0,mappa
+Druid Staff,Healer,Innervate,Innervate,A060,ANcl,1,20.0,20.0,mappa
+Druid Staff,Healer,Innervate,Innervate,A060,ANcl,2,20.0,20.0,mappa
+Druid Staff,Healer,Innervate,Innervate,A060,ANcl,3,20.0,20.0,mappa
+Druid Staff,Healer,Innervate,Innervate,A060,ANcl,4,20.0,20.0,mappa
+Druid Staff,Healer,Starfall,Starfall,A06S,ANcl,1,125.0,30.0,mappa
+Druid Staff,Healer,Starfall,Starfall,A06S,ANcl,2,125.0,27.0,mappa
+War Drums,Support,Embolden,Embolden,A09U,ANcl,1,150.0,45.0,mappa
+War Drums,Support,Embolden,Embolden,A09U,ANcl,2,150.0,45.0,mappa
+War Drums,Support,Embolden,Embolden,A09U,ANcl,3,150.0,45.0,mappa
+War Drums,Support,Embolden,Embolden,A09U,ANcl,4,150.0,45.0,mappa
+War Drums,Support,Inspire,Inspire,A09W,ANcl,1,150.0,150.0,mappa
+War Drums,Support,Inspire,Inspire,A09W,ANcl,2,150.0,120.0,mappa
+War Drums,Support,Inspire,Inspire,A09W,ANcl,3,150.0,150.0,mappa
+War Drums,Support,Inspire,Inspire,A09W,ANcl,4,150.0,120.0,mappa
+War Drums,Support,Intimidate,Intimidate,A09X,ANsi,1,50.0,25.0,mappa
+War Drums,Support,Intimidate,Intimidate,A09X,ANsi,2,50.0,25.0,mappa
+War Drums,Support,Rally,Rally,A09Z,Absk,1,75.0,25.0,mappa
+War Drums,Support,Rally,Rally,A09Z,Absk,2,75.0,25.0,mappa
+War Drums,Support,Rally,Rally,A09Z,Absk,3,25.0,25.0,mappa
+War Drums,Support,Rally,Rally,A09Z,Absk,4,25.0,25.0,mappa
+Claws,DPS mischia,Lightning Strike,Lightning Bolt,A01C,ANcl,1,70.0,8.0,mappa
+Claws,DPS mischia,Lightning Strike,Lightning Bolt,A01C,ANcl,2,70.0,8.0,mappa
+Claws,DPS mischia,Lightning Strike,Lightning Bolt,A01C,ANcl,3,70.0,7.0,mappa
+Claws,DPS mischia,Lightning Strike,Lightning Bolt,A01C,ANcl,4,70.0,7.0,mappa
+Claws,DPS mischia,Molten Boulder,Molten Boulder,A01H,ANcl,1,200.0,180.0,mappa
+Claws,DPS mischia,Molten Boulder,Molten Boulder,A01H,ANcl,2,200.0,180.0,mappa
+Claws,DPS mischia,Mana Tide Totem,Mana Tide Totem,A01J,ANcl,1,50.0,150.0,mappa
+Claws,DPS mischia,Mana Tide Totem,Mana Tide Totem,A01J,ANcl,2,50.0,90.0,mappa
+Claws,DPS mischia,Hex,,A01L,AChx,1,25.0,60.0,mappa
+Claws,DPS mischia,Hex,,A01L,AChx,2,25.0,120.0,mappa
+Claws,DPS mischia,Feral Spirit,Feral Spirit,A01M,ANcl,1,80.0,20.0,mappa
+Claws,DPS mischia,Feral Spirit,Feral Spirit,A01M,ANcl,2,110.0,20.0,mappa
+Claws,DPS mischia,Healing Wave,Rock Shield,A0G6,ANcl,1,60.0,40.0,mappa
+Claws,DPS mischia,Healing Wave,Rock Shield,A0G6,ANcl,2,30.0,32.0,mappa
+Double Blade,DPS mischia,Dimensional Gate,Dimensional Gate,A00A,ANcl,1,125.0,180.0,mappa
+Double Blade,DPS mischia,Dimensional Gate,Dimensional Gate,A00A,ANcl,2,125.0,180.0,mappa
+Double Blade,DPS mischia,Firestorm,Fire Storm,A00S,ANcl,1,125.0,10.0,mappa
+Double Blade,DPS mischia,Firestorm,Fire Storm,A00S,ANcl,2,125.0,40.0,mappa
+Double Blade,DPS mischia,Terror,Terror,A00U,ANht,1,0.0,30.0,mappa
+Double Blade,DPS mischia,Terror,Terror,A00U,ANht,2,0.0,30.0,mappa
+Double Blade,DPS mischia,Demon Skin,Demon Skin,A036,Absk,1,85.0,5.0,mappa
+Double Blade,DPS mischia,Demon Skin,Demon Skin,A036,Absk,2,85.0,7.0,mappa
+Double Blade,DPS mischia,Demon Skin,Demon Skin,A036,Absk,3,85.0,5.0,mappa
+Double Blade,DPS mischia,Demon Skin,Demon Skin,A036,Absk,4,85.0,7.0,mappa
+Double Blade,DPS mischia,Conjure Soulstone,Conjure Soulstone,A038,ANcl,1,200.0,180.0,mappa
+Pickaxe,DPS mischia,Construct Tower (probabile),Construct Tower,A08N,AIbt,1,200.0,90.0,mappa
+Pickaxe,DPS mischia,Construct Tower (probabile),Construct Tower,A08N,AIbt,2,100.0,45.0,mappa
+Pickaxe,DPS mischia,Repair,Repair,A08S,Ahea,1,15.0,1.0,mappa+slk base
+Pickaxe,DPS mischia,Overdrive,Overdrive,A08T,Afzy,1,100.0,20.0,mappa
+Pickaxe,DPS mischia,Overdrive,Overdrive,A08T,Afzy,2,100.0,20.0,mappa
+Pickaxe,DPS mischia,Overdrive,Overdrive,A08T,Afzy,3,100.0,20.0,mappa
+Pickaxe,DPS mischia,Overdrive,Overdrive,A08T,Afzy,4,100.0,20.0,mappa
+Pickaxe,DPS mischia,Mark Target,Mark Target,A08V,ACff,1,25.0,8.0,mappa+slk base
+Pickaxe,DPS mischia,Mark Target,Mark Target,A08V,ACff,2,10.0,5.0,mappa+slk base
+Pickaxe,DPS mischia,Hydra Arrows,Hydra Arrows,A08W,Absk,1,175.0,240.0,mappa
+Pickaxe,DPS mischia,Hydra Arrows,Hydra Arrows,A08W,Absk,2,175.0,240.0,mappa
+Pickaxe,DPS mischia,Volatile Concoction,Unstable Concoction,A0FS,ANcl,1,75.0,18.0,mappa
+Pickaxe,DPS mischia,Volatile Concoction,Unstable Concoction,A0FS,ANcl,2,75.0,10.0,mappa
+Pickaxe,DPS mischia,Volatile Concoction,Unstable Concoction,A0FS,ANcl,3,75.0,18.0,mappa
+Pickaxe,DPS mischia,Volatile Concoction,Unstable Concoction,A0FS,ANcl,4,75.0,10.0,mappa
+Bow,DPS distanza,Volley,Volley,A00Y,ANcl,1,70.0,7.0,mappa
+Bow,DPS distanza,Volley,Volley,A00Y,ANcl,2,70.0,5.0,mappa
+Bow,DPS distanza,Piercing Shot,Piercing Shot,A010,ANab,1,25.0,16.0,mappa
+Bow,DPS distanza,Piercing Shot,Piercing Shot,A010,ANab,2,0.0,8.0,mappa
+Bow,DPS distanza,Piercing Shot,Piercing Shot,A010,ANab,3,25.0,16.0,mappa
+Bow,DPS distanza,Piercing Shot,Piercing Shot,A010,ANab,4,0.0,8.0,mappa
+Bow,DPS distanza,Eagle Eye,Eagle Eye,A012,Absk,1,50.0,30.0,mappa+slk base
+Bow,DPS distanza,Take Aim,Take Aim,A013,Afzy,1,100.0,150.0,default+mappa
+Bow,DPS distanza,Take Aim,Take Aim,A013,Afzy,2,100.0,150.0,default+mappa
+Bow,DPS distanza,Take Aim,Take Aim,A013,Afzy,3,100.0,150.0,default+mappa
+Bow,DPS distanza,Take Aim,Take Aim,A013,Afzy,4,100.0,150.0,default+mappa
+Bow,DPS distanza,Binding Trap,Binding Trap,A03L,ANcl,1,25.0,35.0,mappa
+Bow,DPS distanza,Binding Trap,Binding Trap,A03L,ANcl,2,25.0,20.0,mappa
+Wizard Staff,DPS distanza,Fire/Frost/Magic Bolt,Frost Bolt,A04I,ANab,1,20.0,2.0,mappa
+Wizard Staff,DPS distanza,Fire/Frost/Magic Bolt,Frost Bolt,A04I,ANab,2,20.0,2.0,mappa
+Wizard Staff,DPS distanza,Water Elemental,Water Elemental,A04K,ANcl,1,125.0,40.0,mappa
+Wizard Staff,DPS distanza,Water Elemental,Water Elemental,A04K,ANcl,2,125.0,40.0,mappa
+Wizard Staff,DPS distanza,Pyroblast,Pyroblast,A0CG,ANcl,1,175.0,18.0,mappa
+Wizard Staff,DPS distanza,Pyroblast,Pyroblast,A0CG,ANcl,2,175.0,18.0,mappa
+Wizard Staff,DPS distanza,Blink,,A0D9,AEbl,1,25.0,12.0,mappa
+Wizard Staff,DPS distanza,Blink,,A0D9,AEbl,2,25.0,3.0,mappa
+Wizard Staff,DPS distanza,Frost Shield,Frost Shield,A0DA,Absk,1,25.0,80.0,mappa
+Wizard Staff,DPS distanza,Frost Shield,Frost Shield,A0DA,Absk,2,25.0,80.0,mappa
+Wizard Staff,DPS distanza,Time Stop,Time Stop,A0DI,ANcl,1,200.0,120.0,mappa
+Wizard Staff,DPS distanza,Time Stop,Time Stop,A0DI,ANcl,2,200.0,180.0,mappa
+Naga Trident,DPS distanza,Twister,Twister,A03O,ANcl,1,30.0,15.0,mappa+slk base
+Naga Trident,DPS distanza,Twister,Twister,A03O,ANcl,2,0.0,15.0,mappa+slk base
+Naga Trident,DPS distanza,Twister,Twister,A03O,ANcl,3,30.0,15.0,mappa+slk base
+Naga Trident,DPS distanza,Twister,Twister,A03O,ANcl,4,0.0,15.0,mappa+slk base
+Naga Trident,DPS distanza,Crushing Wave,,A08P,ACcv,1,100.0,24.0,mappa+slk base
+Naga Trident,DPS distanza,Crushing Wave,,A08P,ACcv,2,100.0,24.0,mappa+slk base
+Naga Trident,DPS distanza,Crushing Wave,,A08P,ACcv,3,100.0,24.0,mappa+slk base
+Naga Trident,DPS distanza,Crushing Wave,,A08P,ACcv,4,100.0,24.0,mappa+slk base
+Naga Trident,DPS distanza,Parasite,,A08Q,ANpa,1,15.0,5.0,mappa+slk base
+Naga Trident,DPS distanza,Parasite,,A08Q,ANpa,2,15.0,3.0,mappa+slk base
+Naga Trident,DPS distanza,Forked Lightning,,A0FV,ACfl,1,60.0,8.0,mappa
+Naga Trident,DPS distanza,Forked Lightning,,A0FV,ACfl,2,75.0,8.0,mappa
+Naga Trident,DPS distanza,Forked Lightning,,A0FV,ACfl,3,90.0,8.0,mappa
+Naga Trident,DPS distanza,Forked Lightning,,A0FV,ACfl,4,105.0,8.0,mappa
+Naga Trident,DPS distanza,Vortex,Vortex,A0FW,ANcl,1,75.0,60.0,mappa
+Naga Trident,DPS distanza,Vortex,Vortex,A0FW,ANcl,2,75.0,60.0,mappa
+Naga Trident,DPS distanza,Vortex,Vortex,A0FW,ANcl,3,75.0,60.0,mappa
+Naga Trident,DPS distanza,Vortex,Vortex,A0FW,ANcl,4,75.0,60.0,mappa

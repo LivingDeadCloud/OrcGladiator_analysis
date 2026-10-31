@@ -1,0 +1,21 @@
+challenge,ondata,tipo_wave,tipo_boss,secondi,voto,voto_num,eroi_hp_le20_snapshot,hp_truppe_wave,peso_round_hp,amplificazione_errore,apm_team,click_movimento_min_team,note_rounds
+1,Prisoners,ibrida,mischia,61,A,1,0,19500,100.0,1.0,44.8,33.0,
+2,Machines,ibrida,distanza,73,A,1,0,37500,65.8,1.5,41.1,24.2,
+3,Combatants (Melee),mischia,mischia,77,A,1,0,56400,49.7,2.0,25.4,10.3,Boss: Instructor Mathos
+4,Voidwalkers (Ranged),distanza,mischia,154,C,3,0,53460,32.0,3.1,43.9,24.5,Boss: Envoy Blackstar (Collapse)
+5,Sasquatches (Melee),mischia,mischia,189,D,4,4,75600,31.2,3.2,65.3,44.4,Boss: Rendclaw the Horrid (Ancient Power); 4 eroi a 17% HP a fine round
+6,Boars,ibrida,distanza,105,B,2,0,112200,31.6,3.2,52.9,30.6,
+7,Goblins,ibrida,distanza,174,D,4,1,122100,25.6,3.9,59.5,35.4,
+8,Mur'guls,ibrida,distanza,,,,0,163500,25.5,3.9,53.6,33.7,Boss: Tidecaller Rinx (Blood Circle); tempo non visibile
+9,Water Elementals (Ranged),distanza,distanza,428,G,7,3,165000,20.5,4.9,71.9,55.3,round piu lento; healer migliore non Druid Staff
+10,Mammoths (Melee),mischia,mischia,161,D,4,1,217500,21.3,4.7,52.4,31.0,
+11,Nether Drakes (Ranged),distanza,distanza,150,C,3,1,231000,18.4,5.4,49.2,25.6,Boss: Anomaly Eraxis (Collapse)
+12,Giant Spiders,ibrida,distanza,,,,0,333000,21.0,4.8,44.3,22.8,riepilogo non visibile
+13,Revenants,ibrida,mischia,132,C,3,6,390000,19.7,5.1,65.4,45.1,
+14,Faceless Ones,ibrida,mischia,121,C,3,0,457500,18.8,5.3,58.9,31.6,
+15,War Golems (Melee),mischia,mischia,236,E,5,8,484500,16.6,6.0,59.8,40.0,8 eroi su 10 al 12-20% HP a fine round
+16,Salamanders (Ranged),distanza,distanza,216,E,5,2,594000,16.9,5.9,86.7,61.7,
+17,Greater Demons (Melee),mischia,distanza,80,A,1,0,621000,15.0,6.7,54.1,27.9,
+18,Enslaved Orcs,ibrida,distanza/mischia,432,G,7,4,870000,17.4,5.8,52.8,33.9,round piu lento; 6 eroi sotto 30% HP
+19,Night Elf Hunters,ibrida,mischia,,D,4,0,1020000,16.9,5.9,69.6,44.4,tempo non visibile
+20,Arena Organisers,ibrida,mischia,,SCONFITTA,,,1200000,16.6,6.0,61.9,40.7,"team sconfitto a 01:42:38, score 340; Double Blade esce"

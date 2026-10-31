@@ -1,0 +1,229 @@
+﻿<style>
+#dash-root .og { position: relative; display: flex; flex-direction: column; gap: var(--cds-gap-xl); font-family: var(--font-anthropic-sans); max-width: 76rem; margin-inline: auto; }
+#dash-root .og h1 { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); margin: 0; text-wrap: balance; }
+#dash-root .og h2 { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); margin: 0; text-wrap: balance; }
+#dash-root .og h3 { font-size: var(--cds-font-size-body); font-weight: var(--cds-font-weight-medium); margin: 0; }
+#dash-root .og p { margin: 0; line-height: 1.55; max-width: 68ch; }
+#dash-root .og-sub { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+#dash-root .og-head { display: flex; flex-direction: column; gap: var(--cds-gap-sm); }
+#dash-root .og-take { font-size: var(--cds-font-size-body); }
+#dash-root .og-take b, #dash-root .og-rec b { font-weight: 600; }
+#dash-root .og-kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 12rem), 1fr)); gap: var(--cds-gap-md); }
+#dash-root .og-kpi { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); display: flex; flex-direction: column; gap: var(--cds-gap-xs); }
+#dash-root .og-kpi .v { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); font-variant-numeric: tabular-nums; }
+#dash-root .og-kpi .l { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+#dash-root .og-section { display: flex; flex-direction: column; gap: var(--cds-gap-md); }
+#dash-root .og-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr)); gap: var(--cds-gap-md); }
+#dash-root .og-card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); display: flex; flex-direction: column; gap: var(--cds-gap-sm); min-width: 0; }
+#dash-root .og-chart { position: relative; min-height: 240px; }
+#dash-root .og-chart.short { min-height: 160px; }
+#dash-root .og-bars { display: flex; flex-direction: column; gap: 6px; }
+#dash-root .og-bar-row { display: grid; grid-template-columns: minmax(6.5rem, 9rem) 1fr 3.4rem; align-items: center; gap: var(--cds-gap-sm); font-size: var(--cds-font-size-caption); }
+#dash-root .og-bar-label { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+#dash-root .og-bar-track { height: 14px; position: relative; }
+#dash-root .og-bar { height: 100%; border-radius: 4px; min-width: 2px; }
+#dash-root .og-bar-max { position: absolute; top: -3px; width: 2px; height: 20px; background: var(--color-fg); border-radius: 1px; }
+#dash-root .og-bar-val { text-align: right; font-variant-numeric: tabular-nums; color: var(--color-fg); }
+#dash-root .og-controls { display: flex; flex-wrap: wrap; gap: var(--cds-gap-sm); align-items: center; }
+#dash-root .og-seg { display: inline-flex; border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); overflow: hidden; flex-wrap: wrap; }
+#dash-root .og-seg button { font: inherit; font-size: var(--cds-font-size-caption); padding: var(--cds-pad-xs) var(--cds-pad-sm); background: transparent; color: var(--color-fg); border: 0; cursor: pointer; }
+#dash-root .og-seg button[aria-pressed="true"] { background: var(--color-fg); color: var(--color-bg); }
+#dash-root .og-seg button:focus-visible, #dash-root .og select:focus-visible, #dash-root .og th button:focus-visible { outline: 2px solid var(--color-fg); outline-offset: 2px; }
+#dash-root .og select { font: inherit; font-size: var(--cds-font-size-caption); padding: var(--cds-pad-xs) var(--cds-pad-sm); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); background: var(--color-panel); color: var(--color-fg); }
+#dash-root .og svg text { fill: var(--color-fg-muted); font-size: 11px; font-family: var(--font-anthropic-sans); }
+#dash-root .og svg text.og-strong { fill: var(--color-fg); font-weight: 600; }
+#dash-root .og-tip { position: absolute; z-index: 5; pointer-events: none; background: var(--cds-surface-popover); border: 1px solid var(--cds-border); border-radius: var(--cds-radius); box-shadow: var(--cds-shadow-popover); padding: var(--cds-pad-xs) var(--cds-pad-sm); font-size: var(--cds-font-size-caption); max-width: 16rem; line-height: 1.45; }
+#dash-root .og-tip .t { color: var(--cds-text-secondary); }
+#dash-root .og-heat-wrap { overflow-x: auto; }
+#dash-root .og-heat { display: grid; gap: 2px; min-width: 40rem; font-size: var(--cds-font-size-caption); }
+#dash-root .og-heat .c { height: 20px; border-radius: 3px; }
+#dash-root .og-heat .n { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; padding-right: 6px; line-height: 20px; }
+#dash-root .og-heat .h { text-align: center; color: var(--color-fg-muted); }
+#dash-root .og-legend { display: flex; align-items: center; gap: var(--cds-gap-sm); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+#dash-root .og-legend .ramp { width: 8rem; height: 10px; border-radius: 3px; }
+#dash-root .og-recs { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr)); gap: var(--cds-gap-md); }
+#dash-root .og-rec { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); display: flex; flex-direction: column; gap: var(--cds-gap-sm); }
+#dash-root .og-rec .tag { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); text-transform: uppercase; letter-spacing: .06em; }
+#dash-root .og-rec .do { border-top: 1px solid var(--color-border-line); padding-top: var(--cds-pad-sm); }
+#dash-root .og-table-wrap { max-height: 28rem; overflow: auto; }
+#dash-root .og table { border-collapse: collapse; width: 100%; font-size: var(--cds-font-size-caption); font-variant-numeric: tabular-nums; }
+#dash-root .og th, #dash-root .og td { padding: 6px 8px; text-align: right; border-bottom: 1px solid var(--color-border-line); white-space: nowrap; }
+#dash-root .og th:first-child, #dash-root .og td:first-child, #dash-root .og th.txt, #dash-root .og td.txt { text-align: left; }
+#dash-root .og th { position: sticky; top: 0; background: var(--color-panel); font-weight: var(--cds-font-weight-medium); }
+#dash-root .og th button { font: inherit; background: none; border: 0; color: inherit; cursor: pointer; padding: 0; }
+#dash-root .og input[type="search"] { font: inherit; font-size: var(--cds-font-size-caption); padding: var(--cds-pad-xs) var(--cds-pad-sm); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); background: var(--color-panel); color: var(--color-fg); width: min(100%, 16rem); }
+#dash-root .og-failed { display: flex; align-items: center; justify-content: center; }
+#dash-root .og-fail { display: inline-flex; align-items: center; gap: 6px; color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+#dash-root .og-fail::before { content: ""; width: .375rem; height: .375rem; border-radius: 50%; background: var(--color-bad); }
+#dash-root [data-dash-source-state=empty] { color: transparent; }
+#dash-root [data-dash-source-state=refreshing] { opacity: .5; transition: opacity var(--cds-dur-slow); }
+#dash-root .og-note { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); line-height: 1.5; max-width: 80ch; }
+#dash-root .og-note p { max-width: 80ch; }
+</style>
+
+<div class="og">
+  <header class="og-head" id="inizio">
+    <h1>Orc Gladiators Revenge: la partita del 15 marzo</h1>
+    <p class="og-sub">10 giocatori · 20 challenge · sconfitta al boss finale (Lord of the Arena). Fonti: replay .w3g, multiboard "Gladiator Statistics" dagli screenshot, dati della mappa 1.29f.</p>
+    <p class="og-take" id="takeaway">
+      Orange Jews ha fatto da solo il <b data-source="profilo" data-field="danni" data-where="giocatore=Orange Jews" data-fill="pct">—</b> dei danni e il
+      <b data-source="profilo" data-field="boss" data-where="giocatore=Orange Jews" data-fill="pct">—</b> dei danni al boss, e incassa anche il
+      <b data-source="profilo" data-field="tank" data-where="giocatore=Orange Jews" data-fill="pct">—</b> dei colpi. Il team dipende da un solo eroe: i tank designati tankano poco e quattro giocatori sono sotto il 6% di danni.
+    </p>
+  </header>
+
+  <div class="og-kpis">
+    <div class="og-kpi"><span class="l">Danni di Orange Jews</span><span class="v" data-source="profilo" data-field="danni" data-where="giocatore=Orange Jews" data-fill="pct">—</span><span class="l">quota del totale del team</span></div>
+    <div class="og-kpi"><span class="l">Cure di BoomKhamenei</span><span class="v" data-source="profilo" data-field="cure" data-where="giocatore=BoomKhamenei" data-fill="pct">—</span><span class="l">secondo: JesusOnlyFans con <span data-source="profilo" data-field="cure" data-where="giocatore=JesusOnlyFans" data-fill="pct">—</span></span></div>
+    <div class="og-kpi"><span class="l">Round con voto E o G</span><span class="v" data-source="round_lenti" data-field="n" data-row="0" data-fill="int">—</span><span class="l">su 19 challenge completate</span></div>
+    <div class="og-kpi"><span class="l">Oro medio in tasca a fine round</span><span class="v" data-source="oro_team" data-field="oro" data-row="0" data-fill="int">—</span><span class="l">per giocatore, non speso</span></div>
+  </div>
+
+  <section class="og-section" id="ruoli">
+    <h2>Chi fa cosa</h2>
+    <p class="og-sub">Quota di ciascun giocatore sul totale del team, cumulata fino alla fine della challenge 19 (ultima tabella completa prima del boss finale). Ogni grafico somma a 100%.</p>
+    <div class="og-grid">
+      <div class="og-card"><h3>Danni inflitti</h3><span class="og-sub">% dei danni totali</span><div class="og-bars og-chart short" id="b-danni" data-source="profilo"></div></div>
+      <div class="og-card"><h3>Danni al boss</h3><span class="og-sub">% dei danni ai boss di fine ondata</span><div class="og-bars og-chart short" id="b-boss" data-source="profilo"></div></div>
+      <div class="og-card"><h3>Cure</h3><span class="og-sub">% delle cure totali</span><div class="og-bars og-chart short" id="b-cure" data-source="profilo"></div></div>
+      <div class="og-card"><h3>Danni subiti (tank)</h3><span class="og-sub">% dei danni incassati dal team</span><div class="og-bars og-chart short" id="b-tank" data-source="profilo"></div></div>
+    </div>
+  </section>
+
+  <section class="og-section" id="andamento">
+    <h2>Come cambiano i ruoli durante la partita</h2>
+    <p class="og-sub">Quota cumulata dopo ogni challenge. Scegli la statistica e il giocatore da evidenziare; gli altri restano in grigio.</p>
+    <div class="og-card">
+      <div class="og-controls">
+        <div class="og-seg" role="group" aria-label="Statistica" id="metric-seg">
+          <button type="button" data-m="danni" aria-pressed="true">Danni</button>
+          <button type="button" data-m="boss" aria-pressed="false">Boss</button>
+          <button type="button" data-m="cure" aria-pressed="false">Cure</button>
+          <button type="button" data-m="tank" aria-pressed="false">Tank</button>
+          <button type="button" data-m="oro" aria-pressed="false">Oro in tasca</button>
+        </div>
+        <label class="og-sub" for="player-sel">Giocatore</label>
+        <select id="player-sel"></select>
+      </div>
+      <div class="og-chart" id="c-trend" data-source="andamento"></div>
+    </div>
+  </section>
+
+  <section class="og-section" id="round-critici">
+    <h2>Dove si perde tempo</h2>
+    <p class="og-sub">Secondi per chiudere ogni ondata (in rosso i voti E e G) e quanti eroi finiscono il round con HP al 20% o meno. Le barre mancanti sono round senza riepilogo negli screenshot.</p>
+    <div class="og-grid">
+      <div class="og-card"><h3>Durata dell'ondata</h3><span class="og-sub">secondi, con il voto sopra la barra</span><div class="og-chart" id="c-secondi" data-source="round"></div></div>
+      <div class="og-card"><h3>Eroi a terra o quasi a fine round</h3><span class="og-sub">numero di eroi con HP ≤ 20% · correlazione con la durata: <b data-source="corr_hp_tempo" data-field="r" data-row="0" data-fill="dec2">—</b></span><div class="og-chart" id="c-hp" data-source="round"></div></div>
+    </div>
+  </section>
+
+  <section class="og-section" id="attivita">
+    <h2>Attività dei giocatori</h2>
+    <p class="og-sub">APM = azioni al minuto dal replay (click, abilità, selezioni). Più attività non vuol dire automaticamente più danni: correlazione APM–danni <b data-source="corr_apm_danni" data-field="r" data-row="0" data-fill="dec2">—</b>.</p>
+    <div class="og-grid">
+      <div class="og-card"><h3>APM e quota di danni</h3><span class="og-sub">un punto per giocatore</span><div class="og-chart" id="c-scatter" data-source="profilo"></div></div>
+      <div class="og-card"><h3>Oro tenuto in tasca</h3><span class="og-sub">media a fine round (barra) e massimo (tacca)</span><div class="og-bars og-chart short" id="b-oro" data-source="profilo"></div></div>
+    </div>
+    <div class="og-card">
+      <h3>APM per challenge</h3>
+      <span class="og-sub">più scuro = più azioni al minuto in quel tratto di partita (inclusi acquisti tra un round e l'altro)</span>
+      <div class="og-heat-wrap"><div class="og-heat og-chart short" id="c-heat" data-source="attivita"></div></div>
+      <div class="og-legend" id="heat-legend"><span>meno</span><span class="ramp" id="heat-ramp"></span><span>più</span></div>
+    </div>
+  </section>
+
+  <section class="og-section" id="consigli">
+    <h2>Cosa migliorare</h2>
+    <div class="og-recs">
+      <article class="og-rec">
+        <span class="tag">Dipendenza da un eroe</span>
+        <h3>Orange Jews regge la partita da solo</h3>
+        <p>Danni <b data-source="profilo" data-field="danni" data-where="giocatore=Orange Jews" data-fill="pct">—</b>, boss <b data-source="profilo" data-field="boss" data-where="giocatore=Orange Jews" data-fill="pct">—</b>, tank <b data-source="profilo" data-field="tank" data-where="giocatore=Orange Jews" data-fill="pct">—</b>, e <b data-source="profilo" data-field="premi_round" data-where="giocatore=Orange Jews" data-fill="int">—</b> premi "best of round". Lo Shaman è un Melee Caster: se prende colpi al posto dei tank, prima o poi cade e i danni crollano.</p>
+        <p class="do">Tenerlo dietro ai tank e dare ai tank il compito di prendere aggro per primi. Gli altri DPS devono alzare la loro quota.</p>
+      </article>
+      <article class="og-rec">
+        <span class="tag">Ruoli</span>
+        <h3>I tank designati non tankano</h3>
+        <p>Focascina (War Hammer, Melee Tank) incassa il <b data-source="profilo" data-field="tank" data-where="giocatore=Focascina" data-fill="pct">—</b> e JesusOnlyFans (Runeblade, Melee Tank) il <b data-source="profilo" data-field="tank" data-where="giocatore=JesusOnlyFans" data-fill="pct">—</b>. Il vero tank è MountainKing (Warlock) con il <b data-source="profilo" data-field="tank" data-where="giocatore=MountainKing" data-fill="pct">—</b>. Focascina usa hold position <b data-source="profilo" data-field="hold_position" data-where="giocatore=Focascina" data-fill="int">—</b> volte.</p>
+        <p class="do">Focascina e JesusOnlyFans in prima linea a inizio ondata (Thunderclap, Stone Skin, Avatar), MountainKing come terzo tank. Jesus resta utile anche come curatore secondario.</p>
+      </article>
+      <article class="og-rec">
+        <span class="tag">Danni bassi</span>
+        <h3>Quattro eroi sotto il 6% di danni</h3>
+        <p>Tamburello <b data-source="profilo" data-field="danni" data-where="giocatore=Tamburello" data-fill="pct">—</b>, BoomKhamenei <b data-source="profilo" data-field="danni" data-where="giocatore=BoomKhamenei" data-fill="pct">—</b>, MountainKing <b data-source="profilo" data-field="danni" data-where="giocatore=MountainKing" data-fill="pct">—</b>, JesusOnlyFans <b data-source="profilo" data-field="danni" data-where="giocatore=JesusOnlyFans" data-fill="pct">—</b>. Per Boom (healer) è normale. Tamburello invece ha l'APM più basso dopo bombtelaviv (<b data-source="profilo" data-field="apm" data-where="giocatore=Tamburello" data-fill="dec1">—</b>) e lancia solo <b data-source="profilo" data-field="abilita_min" data-where="giocatore=Tamburello" data-fill="dec2">—</b> abilità al minuto.</p>
+        <p class="do">Tamburello: tenere sempre attivi Embolden, Rally e Inspire nei combattimenti, sono il suo contributo. MountainKing: più Firestorm e Terror sulle ondate.</p>
+      </article>
+      <article class="og-rec">
+        <span class="tag">Posizionamento</span>
+        <h3>Gli eroi a distanza finiscono spesso a terra</h3>
+        <p>bombtelaviv (arciere) chiude <b data-source="profilo" data-field="round_sotto_20hp" data-where="giocatore=bombtelaviv" data-fill="int">—</b> round su 19 con HP ≤ 20% e IFreni <b data-source="profilo" data-field="round_sotto_20hp" data-where="giocatore=IFreniiiiiiiiii" data-fill="int">—</b>, pur incassando appena il <b data-source="profilo" data-field="tank" data-where="giocatore=bombtelaviv" data-fill="pct">—</b> e il <b data-source="profilo" data-field="tank" data-where="giocatore=IFreniiiiiiiiii" data-fill="pct">—</b> dei danni del team: muoiono per pochi colpi. bombtelaviv fa solo <b data-source="profilo" data-field="click_movimento_min" data-where="giocatore=bombtelaviv" data-fill="dec1">—</b> click di movimento al minuto, il valore più basso.</p>
+        <p class="do">Stare dietro ai tank, spostarsi quando i boss lanciano aree (Collapse, Blood Circle) e usare gli oggetti di cura.</p>
+      </article>
+      <article class="og-rec">
+        <span class="tag">Economia</span>
+        <h3>Troppo oro non speso</h3>
+        <p>In media ogni giocatore chiude il round con <b data-source="oro_team" data-field="oro" data-row="0" data-fill="int">—</b> oro in tasca. KimberlyRimming arriva a <b data-source="profilo" data-field="oro_max" data-where="giocatore=KimberlyRimming" data-fill="int">—</b> e Tamburello a <b data-source="profilo" data-field="oro_max" data-where="giocatore=Tamburello" data-fill="int">—</b>. Intanto il team usa -loan e -borrow continuamente.</p>
+        <p class="do">Spendere tutto tra un round e l'altro (tomi e oggetti) e chiedere prestiti solo a chi ha oro fermo.</p>
+      </article>
+      <article class="og-rec">
+        <span class="tag">Round critici</span>
+        <h3>Water Elementals ed Enslaved Orcs sono le ondate più lente</h3>
+        <p><b data-source="round_lenti" data-field="n" data-row="0" data-fill="int">—</b> round chiusi con voto E o G. La challenge 9 dura <b data-source="round" data-field="secondi" data-where="challenge=9" data-fill="int">—</b> secondi, la 18 <b data-source="round" data-field="secondi" data-where="challenge=18" data-fill="int">—</b>. Nella 15 (War Golems) <b data-source="round" data-field="eroi_sotto_20hp" data-where="challenge=15" data-fill="int">—</b> eroi su 10 finiscono con HP ≤ 20%: più eroi cadono, più il round si allunga.</p>
+        <p class="do">Prima di queste ondate: comprare, curarsi al 100% e concentrare i danni sui bersagli prioritari invece di sparpagliarsi.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="og-section" id="tabella">
+    <h2>Profilo completo dei giocatori</h2>
+    <p class="og-sub">Clicca un'intestazione per ordinare. Danni, boss, cure e tank sono quote % dopo la challenge 19; abilità/min e APM sono sull'intera partita.</p>
+    <div class="og-card">
+      <div class="og-table-wrap">
+        <table id="t-profilo" data-source="profilo" data-row-key="giocatore">
+          <thead><tr>
+            <th data-field="giocatore" class="txt"><button type="button" data-k="giocatore">Giocatore</button></th>
+            <th data-field="classe" class="txt"><button type="button" data-k="classe">Classe</button></th>
+            <th data-field="danni"><button type="button" data-k="danni">Danni %</button></th>
+            <th data-field="boss"><button type="button" data-k="boss">Boss %</button></th>
+            <th data-field="cure"><button type="button" data-k="cure">Cure %</button></th>
+            <th data-field="tank"><button type="button" data-k="tank">Tank %</button></th>
+            <th data-field="apm"><button type="button" data-k="apm">APM</button></th>
+            <th data-field="abilita_min"><button type="button" data-k="abilita_min">Abilità/min</button></th>
+            <th data-field="oro_medio_fine_round"><button type="button" data-k="oro_medio_fine_round">Oro medio</button></th>
+            <th data-field="round_sotto_20hp"><button type="button" data-k="round_sotto_20hp">Round ≤20% HP</button></th>
+            <th data-field="premi_round"><button type="button" data-k="premi_round">Premi round</button></th>
+            <th data-field="abilita_principale" class="txt"><button type="button" data-k="abilita_principale">Abilità più usata</button></th>
+            <th data-field="abilita_principale_usi"><button type="button" data-k="abilita_principale_usi">Usi</button></th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="og-section" id="abilita">
+    <h2>Abilità usate</h2>
+    <p class="og-sub">Lanci di ogni abilità nell'intera partita, nomi presi dalla mappa (abilità con almeno 3 usi).</p>
+    <div class="og-card">
+      <input type="search" id="ab-search" placeholder="Cerca giocatore o abilità" aria-label="Cerca giocatore o abilità">
+      <div class="og-table-wrap">
+        <table id="t-abilita" data-source="abilita" data-row-key="player,abilita">
+          <thead><tr>
+            <th data-field="player" class="txt">Giocatore</th>
+            <th data-field="abilita" class="txt">Abilità</th>
+            <th data-field="usi">Usi</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <footer class="og-note" id="metodo">
+    <p><b>Come sono fatti i dati.</b> Il replay registra solo i comandi dei giocatori, non danni e cure: quelli vengono dalla multiboard della mappa, trascritta dagli screenshot dopo ogni challenge (le colonne sommano sempre a circa 100%). Le quote sono cumulative dall'inizio della partita. L'APM conta anche i click ripetuti, quindi misura l'attività e non l'efficacia. Mancano il riepilogo della challenge 12 e la durata delle challenge 8 e 19. Con una sola partita i confronti sono tra giocatori, non tra strategie.</p>
+  </footer>
+</div>
+
+
+<script src="app.js"></script>

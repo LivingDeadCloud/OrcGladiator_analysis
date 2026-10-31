@@ -1,0 +1,201 @@
+classe,ruolo,challenge,voto_round,gruppo_difficolta,durata_s,comandi,comandi_al_minuto,pause_oltre_5s,pause_oltre_10s,pct_tempo_in_pause_oltre_5s,pct_tempo_in_pause_oltre_10s,pausa_max_s,secondi_in_pause_oltre_60s,pct_tempo_in_pause_5_60s_su_tempo_presente,pct_tempo_in_pause_10_60s_su_tempo_presente
+War Hammer,Tank,1,A,facile (A-B),61.0,35,34.43,4,1,76.19,38.23,23.32,0,76.19,38.23
+War Hammer,Tank,2,A,facile (A-B),73.0,43,35.34,7,1,69.84,14.19,10.36,0,69.84,14.19
+War Hammer,Tank,3,A,facile (A-B),77.0,43,33.51,9,0,68.39,0.0,7.07,0,68.39,0.0
+War Hammer,Tank,4,C,media (C),154.0,107,41.69,14,0,57.1,0.0,9.3,0,57.1,0.0
+War Hammer,Tank,5,D,difficile (D-G),189.0,507,160.95,0,0,0.0,0.0,4.61,0,0.0,0.0
+War Hammer,Tank,6,B,facile (A-B),105.0,139,79.43,2,0,12.68,0.0,6.88,0,12.68,0.0
+War Hammer,Tank,7,D,difficile (D-G),174.0,227,78.28,5,1,25.52,7.67,13.34,0,25.52,7.67
+War Hammer,Tank,8,,"senza voto (8, 12)",161.0,165,61.49,10,0,36.86,0.0,7.78,0,36.86,0.0
+War Hammer,Tank,9,G,difficile (D-G),428.0,1019,142.85,3,1,5.24,2.75,11.78,0,5.24,2.75
+War Hammer,Tank,10,D,difficile (D-G),161.0,279,103.98,2,0,8.44,0.0,7.36,0,8.44,0.0
+War Hammer,Tank,11,C,media (C),150.0,154,61.6,12,0,48.24,0.0,7.81,0,48.24,0.0
+War Hammer,Tank,12,,"senza voto (8, 12)",113.0,107,56.81,6,1,38.39,10.61,11.99,0,38.39,10.61
+War Hammer,Tank,13,C,media (C),132.0,297,135.0,1,0,4.51,0.0,5.95,0,4.51,0.0
+War Hammer,Tank,14,C,media (C),121.0,125,61.98,5,1,32.21,12.31,14.89,0,32.21,12.31
+War Hammer,Tank,15,E,difficile (D-G),236.0,247,62.8,3,1,53.48,48.05,113.41,113.41,10.44,0.0
+War Hammer,Tank,16,E,difficile (D-G),216.0,560,155.56,1,1,6.64,6.64,14.34,0,6.64,6.64
+War Hammer,Tank,17,A,facile (A-B),80.0,145,108.75,1,0,6.72,0.0,5.38,0,6.72,0.0
+War Hammer,Tank,18,G,difficile (D-G),432.0,917,127.36,3,0,4.82,0.0,7.58,0,4.82,0.0
+War Hammer,Tank,19,D,difficile (D-G),208.0,395,113.94,2,1,12.01,8.07,16.79,0,12.01,8.07
+War Hammer,Tank,20,,boss finale (20),312.0,613,117.88,7,2,28.17,18.53,42.71,0,28.17,18.53
+Runeblade,Tank,1,A,facile (A-B),61.0,27,26.56,4,1,55.1,19.98,12.19,0,55.1,19.98
+Runeblade,Tank,2,A,facile (A-B),73.0,80,65.75,1,0,7.87,0.0,5.74,0,7.87,0.0
+Runeblade,Tank,3,A,facile (A-B),77.0,7,5.45,4,3,90.44,82.19,34.69,0,90.44,82.19
+Runeblade,Tank,4,C,media (C),154.0,156,60.78,5,3,41.36,32.65,23.78,0,41.36,32.65
+Runeblade,Tank,5,D,difficile (D-G),189.0,257,81.59,3,0,11.7,0.0,9.56,0,11.7,0.0
+Runeblade,Tank,6,B,facile (A-B),105.0,55,31.43,6,3,57.33,36.22,13.23,0,57.33,36.22
+Runeblade,Tank,7,D,difficile (D-G),174.0,144,49.66,6,1,28.57,7.77,13.52,0,28.57,7.77
+Runeblade,Tank,8,,"senza voto (8, 12)",161.0,114,42.48,9,2,51.49,22.48,22.56,0,51.49,22.48
+Runeblade,Tank,9,G,difficile (D-G),428.0,602,84.39,5,1,15.1,7.58,32.45,0,15.1,7.58
+Runeblade,Tank,10,D,difficile (D-G),161.0,216,80.5,4,0,15.41,0.0,6.77,0,15.41,0.0
+Runeblade,Tank,11,C,media (C),150.0,115,46.0,2,0,11.86,0.0,9.69,0,11.86,0.0
+Runeblade,Tank,12,,"senza voto (8, 12)",113.0,51,27.08,7,2,49.74,23.06,13.73,0,49.74,23.06
+Runeblade,Tank,13,C,media (C),132.0,193,87.73,1,0,3.82,0.0,5.05,0,3.82,0.0
+Runeblade,Tank,14,C,media (C),121.0,115,57.02,3,1,21.95,9.36,11.33,0,21.95,9.36
+Runeblade,Tank,15,E,difficile (D-G),236.0,171,43.47,4,1,56.22,45.86,108.22,108.22,19.14,0.0
+Runeblade,Tank,16,E,difficile (D-G),216.0,289,80.28,2,2,22.69,22.69,36.03,0,22.69,22.69
+Runeblade,Tank,17,A,facile (A-B),80.0,55,41.25,3,1,27.4,12.54,10.03,0,27.4,12.54
+Runeblade,Tank,18,G,difficile (D-G),432.0,77,10.69,4,1,84.48,80.23,346.58,346.58,21.53,0.0
+Runeblade,Tank,19,D,difficile (D-G),208.0,265,76.44,5,1,20.1,6.52,13.57,0,20.1,6.52
+Runeblade,Tank,20,,boss finale (20),312.0,308,59.23,3,2,24.3,22.08,54.27,0,24.3,22.08
+Druid Staff,Healer,1,A,facile (A-B),61.0,18,17.7,4,2,66.7,47.52,16.59,0,66.7,47.52
+Druid Staff,Healer,2,A,facile (A-B),73.0,43,35.34,2,1,38.21,28.15,20.55,0,38.21,28.15
+Druid Staff,Healer,3,A,facile (A-B),77.0,22,17.14,4,1,38.6,14.85,11.44,0,38.6,14.85
+Druid Staff,Healer,4,C,media (C),154.0,119,46.36,5,1,24.5,6.9,10.62,0,24.5,6.9
+Druid Staff,Healer,5,D,difficile (D-G),189.0,291,92.38,3,0,9.47,0.0,6.42,0,9.47,0.0
+Druid Staff,Healer,6,B,facile (A-B),105.0,148,84.57,1,0,5.94,0.0,6.23,0,5.94,0.0
+Druid Staff,Healer,7,D,difficile (D-G),174.0,184,63.45,3,0,10.72,0.0,7.28,0,10.72,0.0
+Druid Staff,Healer,8,,"senza voto (8, 12)",161.0,165,61.49,5,1,19.68,6.27,10.09,0,19.68,6.27
+Druid Staff,Healer,9,G,difficile (D-G),428.0,134,18.79,2,2,80.56,80.56,332.95,332.95,12.48,12.48
+Druid Staff,Healer,10,D,difficile (D-G),161.0,104,38.76,8,0,30.05,0.0,9.0,0,30.05,0.0
+Druid Staff,Healer,11,C,media (C),150.0,122,48.8,4,0,17.55,0.0,8.14,0,17.55,0.0
+Druid Staff,Healer,12,,"senza voto (8, 12)",113.0,56,29.73,2,1,16.88,11.89,13.43,0,16.88,11.89
+Druid Staff,Healer,13,C,media (C),132.0,68,30.91,1,1,55.21,55.21,72.88,72.88,0.0,0.0
+Druid Staff,Healer,14,C,media (C),121.0,140,69.42,2,0,10.32,0.0,7.3,0,10.32,0.0
+Druid Staff,Healer,15,E,difficile (D-G),236.0,191,48.56,2,2,58.14,58.14,105.08,105.08,24.55,24.55
+Druid Staff,Healer,16,E,difficile (D-G),216.0,307,85.28,0,0,0.0,0.0,4.95,0,0.0,0.0
+Druid Staff,Healer,17,A,facile (A-B),80.0,103,77.25,2,1,20.73,13.19,10.56,0,20.73,13.19
+Druid Staff,Healer,18,G,difficile (D-G),432.0,441,61.25,3,2,30.68,28.6,64.09,64.09,18.61,16.16
+Druid Staff,Healer,19,D,difficile (D-G),208.0,238,68.65,4,2,19.61,12.1,12.75,0,19.61,12.1
+Druid Staff,Healer,20,,boss finale (20),312.0,426,81.92,5,3,30.0,26.11,52.49,0,30.0,26.11
+War Drums,Support,1,A,facile (A-B),61.0,21,20.66,5,0,45.71,0.0,6.67,0,45.71,0.0
+War Drums,Support,2,A,facile (A-B),73.0,59,48.49,2,0,20.42,0.0,8.92,0,20.42,0.0
+War Drums,Support,3,A,facile (A-B),77.0,15,11.69,3,3,86.09,86.09,36.66,0,86.09,86.09
+War Drums,Support,4,C,media (C),154.0,67,26.1,9,4,72.69,48.4,21.84,0,72.69,48.4
+War Drums,Support,5,D,difficile (D-G),189.0,131,41.59,5,1,37.59,22.67,42.84,0,37.59,22.67
+War Drums,Support,6,B,facile (A-B),105.0,64,36.57,5,2,44.14,24.36,13.39,0,44.14,24.36
+War Drums,Support,7,D,difficile (D-G),174.0,154,53.1,5,1,21.98,7.6,13.22,0,21.98,7.6
+War Drums,Support,8,,"senza voto (8, 12)",161.0,68,25.34,8,4,70.82,52.1,32.59,0,70.82,52.1
+War Drums,Support,9,G,difficile (D-G),428.0,326,45.7,9,1,35.61,22.06,94.41,94.41,17.39,0.0
+War Drums,Support,10,D,difficile (D-G),161.0,40,14.91,9,6,77.65,64.57,35.31,0,77.65,64.57
+War Drums,Support,11,C,media (C),150.0,51,20.4,9,4,68.1,46.02,25.84,0,68.1,46.02
+War Drums,Support,12,,"senza voto (8, 12)",113.0,88,46.73,6,3,56.77,35.41,16.88,0,56.77,35.41
+War Drums,Support,13,C,media (C),132.0,97,44.09,4,2,43.81,35.82,37.26,0,43.81,35.82
+War Drums,Support,14,C,media (C),121.0,80,39.67,6,1,45.32,16.23,19.64,0,45.32,16.23
+War Drums,Support,15,E,difficile (D-G),236.0,47,11.95,4,2,88.98,83.06,184.73,184.73,49.27,22.04
+War Drums,Support,16,E,difficile (D-G),216.0,235,65.28,6,2,24.32,11.4,13.34,0,24.32,11.4
+War Drums,Support,17,A,facile (A-B),80.0,43,32.25,5,1,51.66,17.67,14.14,0,51.66,17.67
+War Drums,Support,18,G,difficile (D-G),432.0,54,7.5,5,3,87.83,85.0,342.89,342.89,41.01,27.3
+War Drums,Support,19,D,difficile (D-G),208.0,130,37.5,15,3,56.87,18.99,14.19,0,56.87,18.99
+War Drums,Support,20,,boss finale (20),312.0,220,42.31,12,6,56.16,44.23,54.27,0,56.16,44.23
+Claws,DPS mischia,1,A,facile (A-B),61.0,46,45.25,3,0,40.96,0.0,8.75,0,40.96,0.0
+Claws,DPS mischia,2,A,facile (A-B),73.0,95,78.08,1,0,7.19,0.0,5.25,0,7.19,0.0
+Claws,DPS mischia,3,A,facile (A-B),77.0,38,29.61,5,2,58.97,34.7,15.33,0,58.97,34.7
+Claws,DPS mischia,4,C,media (C),154.0,209,81.43,2,0,8.96,0.0,7.7,0,8.96,0.0
+Claws,DPS mischia,5,D,difficile (D-G),189.0,69,21.9,2,1,80.48,77.76,146.97,146.97,12.23,0.0
+Claws,DPS mischia,6,B,facile (A-B),105.0,160,91.43,1,0,7.71,0.0,8.09,0,7.71,0.0
+Claws,DPS mischia,7,D,difficile (D-G),174.0,251,86.55,1,0,5.52,0.0,9.61,0,5.52,0.0
+Claws,DPS mischia,8,,"senza voto (8, 12)",161.0,187,69.69,4,2,30.37,19.12,19.81,0,30.37,19.12
+Claws,DPS mischia,9,G,difficile (D-G),428.0,250,35.05,1,1,70.29,70.29,300.83,300.83,0.0,0.0
+Claws,DPS mischia,10,D,difficile (D-G),161.0,242,90.19,3,0,12.18,0.0,8.48,0,12.18,0.0
+Claws,DPS mischia,11,C,media (C),150.0,205,82.0,1,0,3.41,0.0,5.11,0,3.41,0.0
+Claws,DPS mischia,12,,"senza voto (8, 12)",113.0,114,60.53,4,2,32.5,23.11,13.58,0,32.5,23.11
+Claws,DPS mischia,13,C,media (C),132.0,248,112.73,2,0,10.97,0.0,8.38,0,10.97,0.0
+Claws,DPS mischia,14,C,media (C),121.0,197,97.69,1,0,5.17,0.0,6.25,0,5.17,0.0
+Claws,DPS mischia,15,E,difficile (D-G),236.0,549,139.58,2,0,4.46,0.0,5.29,0,4.46,0.0
+Claws,DPS mischia,16,E,difficile (D-G),216.0,435,120.83,3,0,7.83,0.0,5.74,0,7.83,0.0
+Claws,DPS mischia,17,A,facile (A-B),80.0,119,89.25,0,0,0.0,0.0,3.27,0,0.0,0.0
+Claws,DPS mischia,18,G,difficile (D-G),432.0,950,131.94,2,1,4.33,2.84,12.29,0,4.33,2.84
+Claws,DPS mischia,19,D,difficile (D-G),208.0,363,104.71,5,1,19.44,5.27,10.95,0,19.44,5.27
+Claws,DPS mischia,20,,boss finale (20),312.0,525,100.96,5,2,28.65,22.89,56.32,0,28.65,22.89
+Double Blade,DPS mischia,1,A,facile (A-B),61.0,10,9.84,3,2,84.09,75.42,32.65,0,84.09,75.42
+Double Blade,DPS mischia,2,A,facile (A-B),73.0,39,32.05,8,1,72.14,14.58,10.64,0,72.14,14.58
+Double Blade,DPS mischia,3,A,facile (A-B),77.0,13,10.13,4,3,89.17,79.71,30.58,0,89.17,79.71
+Double Blade,DPS mischia,4,C,media (C),154.0,83,32.34,6,6,79.53,79.53,28.86,0,79.53,79.53
+Double Blade,DPS mischia,5,D,difficile (D-G),189.0,30,9.52,3,1,88.79,81.95,154.89,154.89,37.9,0.0
+Double Blade,DPS mischia,6,B,facile (A-B),105.0,100,57.14,6,2,52.92,23.9,14.64,0,52.92,23.9
+Double Blade,DPS mischia,7,D,difficile (D-G),174.0,226,77.93,5,3,28.69,21.33,15.25,0,28.69,21.33
+Double Blade,DPS mischia,8,,"senza voto (8, 12)",161.0,109,40.62,9,5,66.68,46.51,26.77,0,66.68,46.51
+Double Blade,DPS mischia,9,G,difficile (D-G),428.0,994,139.35,5,1,9.36,3.19,13.67,0,9.36,3.19
+Double Blade,DPS mischia,10,D,difficile (D-G),161.0,92,34.29,10,4,66.32,37.96,19.67,0,66.32,37.96
+Double Blade,DPS mischia,11,C,media (C),150.0,39,15.6,10,7,82.22,63.22,22.53,0,82.22,63.22
+Double Blade,DPS mischia,12,,"senza voto (8, 12)",113.0,45,23.89,8,2,72.87,36.15,30.34,0,72.87,36.15
+Double Blade,DPS mischia,13,C,media (C),132.0,236,107.27,5,1,28.46,7.68,10.14,0,28.46,7.68
+Double Blade,DPS mischia,14,C,media (C),121.0,24,11.9,8,4,88.83,67.03,23.25,0,88.83,67.03
+Double Blade,DPS mischia,15,E,difficile (D-G),236.0,534,135.76,6,1,18.88,5.85,13.81,0,18.88,5.85
+Double Blade,DPS mischia,16,E,difficile (D-G),216.0,422,117.22,5,2,23.92,14.74,17.22,0,23.92,14.74
+Double Blade,DPS mischia,17,A,facile (A-B),80.0,21,15.75,3,1,77.18,61.49,49.19,0,77.18,61.49
+Double Blade,DPS mischia,18,G,difficile (D-G),432.0,111,15.42,6,4,89.72,86.08,336.97,336.97,53.29,36.72
+Double Blade,DPS mischia,19,D,difficile (D-G),208.0,273,78.75,9,4,42.49,26.28,20.5,0,42.49,26.28
+Double Blade,DPS mischia,20,,boss finale (20),312.0,538,103.46,15,5,47.94,25.08,28.02,0,47.94,25.08
+Pickaxe,DPS mischia,1,A,facile (A-B),61.0,62,60.98,3,1,39.82,20.25,12.35,0,39.82,20.25
+Pickaxe,DPS mischia,2,A,facile (A-B),73.0,82,67.4,2,0,14.81,0.0,5.45,0,14.81,0.0
+Pickaxe,DPS mischia,3,A,facile (A-B),77.0,81,63.12,2,0,19.78,0.0,9.42,0,19.78,0.0
+Pickaxe,DPS mischia,4,C,media (C),154.0,331,128.96,4,1,19.6,8.09,12.45,0,19.6,8.09
+Pickaxe,DPS mischia,5,D,difficile (D-G),189.0,96,30.48,5,2,76.72,65.02,63.3,63.3,65.0,47.41
+Pickaxe,DPS mischia,6,B,facile (A-B),105.0,204,116.57,3,0,18.02,0.0,8.67,0,18.02,0.0
+Pickaxe,DPS mischia,7,D,difficile (D-G),174.0,301,103.79,3,1,14.64,6.27,10.91,0,14.64,6.27
+Pickaxe,DPS mischia,8,,"senza voto (8, 12)",161.0,192,71.55,6,1,28.37,8.09,13.03,0,28.37,8.09
+Pickaxe,DPS mischia,9,G,difficile (D-G),428.0,944,132.34,4,2,8.21,5.73,13.61,0,8.21,5.73
+Pickaxe,DPS mischia,10,D,difficile (D-G),161.0,280,104.35,3,0,13.06,0.0,7.41,0,13.06,0.0
+Pickaxe,DPS mischia,11,C,media (C),150.0,98,39.2,8,1,52.01,22.83,34.25,0,52.01,22.83
+Pickaxe,DPS mischia,12,,"senza voto (8, 12)",113.0,143,75.93,5,1,36.32,9.24,10.44,0,36.32,9.24
+Pickaxe,DPS mischia,13,C,media (C),132.0,180,81.82,2,1,29.62,24.75,32.67,0,29.62,24.75
+Pickaxe,DPS mischia,14,C,media (C),121.0,184,91.24,3,0,20.08,0.0,9.59,0,20.08,0.0
+Pickaxe,DPS mischia,15,E,difficile (D-G),236.0,489,124.32,2,1,14.82,10.83,25.55,0,14.82,10.83
+Pickaxe,DPS mischia,16,E,difficile (D-G),216.0,508,141.11,2,0,5.05,0.0,5.65,0,5.05,0.0
+Pickaxe,DPS mischia,17,A,facile (A-B),80.0,129,96.75,2,1,25.51,14.04,11.23,0,25.51,14.04
+Pickaxe,DPS mischia,18,G,difficile (D-G),432.0,105,14.58,5,2,88.67,83.89,345.11,345.11,43.66,19.92
+Pickaxe,DPS mischia,19,D,difficile (D-G),208.0,365,105.29,3,2,17.03,14.55,19.06,0,17.03,14.55
+Pickaxe,DPS mischia,20,,boss finale (20),312.0,478,91.92,9,2,28.43,14.44,30.26,0,28.43,14.44
+Bow,DPS distanza,1,A,facile (A-B),61.0,27,26.56,3,0,43.62,0.0,9.72,0,43.62,0.0
+Bow,DPS distanza,2,A,facile (A-B),73.0,47,38.63,3,2,61.32,53.55,27.67,0,61.32,53.55
+Bow,DPS distanza,3,A,facile (A-B),77.0,21,16.36,4,3,68.09,55.41,18.0,0,68.09,55.41
+Bow,DPS distanza,4,C,media (C),154.0,6,2.34,2,1,94.31,90.48,139.34,139.34,40.19,0.0
+Bow,DPS distanza,5,D,difficile (D-G),189.0,17,5.4,2,2,92.82,92.82,165.05,165.05,43.38,43.38
+Bow,DPS distanza,6,B,facile (A-B),105.0,21,12.0,7,3,76.03,46.0,22.03,0,76.03,46.0
+Bow,DPS distanza,7,D,difficile (D-G),174.0,50,17.24,7,1,64.67,35.92,62.49,62.49,44.87,0.0
+Bow,DPS distanza,8,,"senza voto (8, 12)",161.0,98,36.52,9,3,48.43,22.03,12.53,0,48.43,22.03
+Bow,DPS distanza,9,G,difficile (D-G),428.0,237,33.22,6,3,63.54,59.05,173.86,237.45,18.11,8.03
+Bow,DPS distanza,10,D,difficile (D-G),161.0,48,17.89,11,4,67.47,32.18,15.39,0,67.47,32.18
+Bow,DPS distanza,11,C,media (C),150.0,74,29.6,10,2,61.06,22.8,23.66,0,61.06,22.8
+Bow,DPS distanza,12,,"senza voto (8, 12)",113.0,40,21.24,8,3,73.08,35.04,18.94,0,73.08,35.04
+Bow,DPS distanza,13,C,media (C),132.0,32,14.55,4,2,80.85,66.71,77.14,77.14,53.92,19.91
+Bow,DPS distanza,14,C,media (C),121.0,35,17.36,9,4,83.76,57.5,23.05,0,83.76,57.5
+Bow,DPS distanza,15,E,difficile (D-G),236.0,175,44.49,8,4,52.55,41.26,53.29,0,52.55,41.26
+Bow,DPS distanza,16,E,difficile (D-G),216.0,93,25.83,11,4,76.25,53.8,79.39,79.39,62.45,26.95
+Bow,DPS distanza,17,A,facile (A-B),80.0,34,25.5,5,3,83.01,63.12,25.75,0,83.01,63.12
+Bow,DPS distanza,18,G,difficile (D-G),432.0,57,7.92,5,2,88.47,83.85,346.84,346.84,41.5,18.07
+Bow,DPS distanza,19,D,difficile (D-G),208.0,80,23.08,11,6,73.66,58.42,61.08,61.08,62.71,41.14
+Bow,DPS distanza,20,,boss finale (20),312.0,139,26.73,14,9,71.78,59.8,58.45,0,71.78,59.8
+Wizard Staff,DPS distanza,1,A,facile (A-B),61.0,16,15.74,6,0,65.29,0.0,7.5,0,65.29,0.0
+Wizard Staff,DPS distanza,2,A,facile (A-B),73.0,22,18.08,3,0,21.96,0.0,5.66,0,21.96,0.0
+Wizard Staff,DPS distanza,3,A,facile (A-B),77.0,20,15.58,5,1,57.0,29.14,22.44,0,57.0,29.14
+Wizard Staff,DPS distanza,4,C,media (C),154.0,67,26.1,0,0,0.0,0.0,4.33,0,0.0,0.0
+Wizard Staff,DPS distanza,5,D,difficile (D-G),189.0,304,96.51,2,1,10.28,6.35,12.0,0,10.28,6.35
+Wizard Staff,DPS distanza,6,B,facile (A-B),105.0,92,52.57,2,0,10.38,0.0,5.87,0,10.38,0.0
+Wizard Staff,DPS distanza,7,D,difficile (D-G),174.0,110,37.93,2,2,34.41,34.41,46.97,0,34.41,34.41
+Wizard Staff,DPS distanza,8,,"senza voto (8, 12)",161.0,86,32.05,3,0,12.63,0.0,8.47,0,12.63,0.0
+Wizard Staff,DPS distanza,9,G,difficile (D-G),428.0,713,99.95,5,0,7.76,0.0,9.01,0,7.76,0.0
+Wizard Staff,DPS distanza,10,D,difficile (D-G),161.0,72,26.83,4,2,32.69,24.94,26.36,0,32.69,24.94
+Wizard Staff,DPS distanza,11,C,media (C),150.0,173,69.2,2,1,13.11,7.29,10.94,0,13.11,7.29
+Wizard Staff,DPS distanza,12,,"senza voto (8, 12)",113.0,55,29.2,1,1,17.2,17.2,19.43,0,17.2,17.2
+Wizard Staff,DPS distanza,13,C,media (C),132.0,165,75.0,1,1,12.95,12.95,17.09,0,12.95,12.95
+Wizard Staff,DPS distanza,14,C,media (C),121.0,138,68.43,3,0,16.09,0.0,8.98,0,16.09,0.0
+Wizard Staff,DPS distanza,15,E,difficile (D-G),236.0,141,35.85,4,1,18.64,10.96,25.86,0,18.64,10.96
+Wizard Staff,DPS distanza,16,E,difficile (D-G),216.0,284,78.89,2,0,5.39,0.0,5.88,0,5.39,0.0
+Wizard Staff,DPS distanza,17,A,facile (A-B),80.0,49,36.75,1,0,8.81,0.0,7.05,0,8.81,0.0
+Wizard Staff,DPS distanza,18,G,difficile (D-G),432.0,709,98.47,3,1,9.3,6.72,29.03,0,9.3,6.72
+Wizard Staff,DPS distanza,19,D,difficile (D-G),208.0,201,57.98,7,1,34.67,15.51,32.27,0,34.67,15.51
+Wizard Staff,DPS distanza,20,,boss finale (20),312.0,278,53.46,3,3,30.81,30.81,58.35,0,30.81,30.81
+Naga Trident,DPS distanza,1,A,facile (A-B),61.0,36,35.41,4,0,42.21,0.0,7.62,0,42.21,0.0
+Naga Trident,DPS distanza,2,A,facile (A-B),73.0,85,69.86,3,2,39.37,31.84,12.14,0,39.37,31.84
+Naga Trident,DPS distanza,3,A,facile (A-B),77.0,16,12.47,4,2,73.26,58.43,26.05,0,73.26,58.43
+Naga Trident,DPS distanza,4,C,media (C),154.0,137,53.38,8,3,60.39,35.55,26.83,0,60.39,35.55
+Naga Trident,DPS distanza,5,D,difficile (D-G),189.0,452,143.49,5,1,23.23,9.38,17.72,0,23.23,9.38
+Naga Trident,DPS distanza,6,B,facile (A-B),105.0,163,93.14,5,1,37.76,16.49,17.31,0,37.76,16.49
+Naga Trident,DPS distanza,7,D,difficile (D-G),174.0,353,121.72,4,0,16.41,0.0,8.92,0,16.41,0.0
+Naga Trident,DPS distanza,8,,"senza voto (8, 12)",161.0,183,68.2,7,2,41.83,18.23,16.72,0,41.83,18.23
+Naga Trident,DPS distanza,9,G,difficile (D-G),428.0,202,28.32,3,1,85.17,82.77,354.25,354.25,13.92,0.0
+Naga Trident,DPS distanza,10,D,difficile (D-G),161.0,105,39.13,14,2,66.41,12.79,10.48,0,66.41,12.79
+Naga Trident,DPS distanza,11,C,media (C),150.0,156,62.4,7,3,49.98,31.34,18.16,0,49.98,31.34
+Naga Trident,DPS distanza,12,,"senza voto (8, 12)",113.0,30,15.93,7,4,77.06,55.21,24.7,0,77.06,55.21
+Naga Trident,DPS distanza,13,C,media (C),132.0,61,27.73,3,1,82.39,73.07,96.45,96.45,34.59,0.0
+Naga Trident,DPS distanza,14,C,media (C),121.0,117,58.02,10,1,61.03,9.66,11.69,0,61.03,9.66
+Naga Trident,DPS distanza,15,E,difficile (D-G),236.0,86,21.86,3,2,87.53,85.11,183.66,183.66,43.77,32.85
+Naga Trident,DPS distanza,16,E,difficile (D-G),216.0,264,73.33,3,3,50.75,50.75,77.95,77.95,22.94,22.94
+Naga Trident,DPS distanza,17,A,facile (A-B),80.0,59,44.25,6,1,63.69,18.32,14.66,0,63.69,18.32
+Naga Trident,DPS distanza,18,G,difficile (D-G),432.0,25,3.47,4,2,95.86,91.71,382.39,382.39,63.97,27.84
+Naga Trident,DPS distanza,19,D,difficile (D-G),208.0,406,117.12,7,1,30.72,10.19,21.2,0,30.72,10.19
+Naga Trident,DPS distanza,20,,boss finale (20),312.0,645,124.04,7,4,31.58,25.69,33.52,0,31.58,25.69

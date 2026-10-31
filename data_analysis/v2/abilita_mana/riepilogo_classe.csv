@@ -1,0 +1,11 @@
+classe,ruolo,attributo,pct_mana_20_80_combattimento,pct_mana_sotto_20_combattimento,pct_mana_sopra_80_combattimento,pct_mana_20_80_partita,affidabilita_simulazione,errore_loo_pct_mana_max,abilita_attive_usate,ordini_abilita,cast_effettivi_stimati,ordini_sprecati_in_cooldown,quota_ordini_sprecati_pct,cast_in_combattimento_al_minuto,cooldown_occupato_medio_pct_combattimento,cooldown_occupato_max_pct_combattimento,abilita_piu_sfruttata,mana_speso_stimato,ordini_respinti_mana_sim
+War Hammer,Tank,Strength,60.941,15.936,23.123,66.04,indicativa,16.349,4,667,655,12,1.799,7.67,31.325,56.336,Avatar,18650.0,20
+Runeblade,Tank,Strength,54.326,37.12,8.554,69.488,indicativa,23.171,5,513,506,7,1.365,5.727,27.165,51.148,Death Pact,15547.0,26
+Druid Staff,Healer,Intelligence,45.855,26.026,28.119,47.255,indicativa,20.053,5,729,711,18,2.469,8.138,36.735,63.707,Tranquility,38660.0,55
+War Drums,Support,Agility,59.796,20.123,20.081,70.716,non affidabile,22.323,4,111,111,0,0.0,1.356,26.127,41.807,Embolden,10400.0,20
+Claws,DPS mischia,Agility,40.232,49.93,9.838,56.191,indicativa,19.359,6,442,437,5,1.131,5.208,34.165,52.73,Feral Spirit,29950.0,48
+Double Blade,DPS mischia,Strength,66.034,27.728,6.238,69.766,non affidabile,17.699,5,179,159,20,11.173,1.825,17.315,35.953,Terror,9505.0,14
+Pickaxe,DPS mischia,Strength,45.507,44.167,10.327,54.266,indicativa,21.307,6,441,268,173,39.229,2.545,27.764,61.554,Hydra Arrows,22025.0,92
+Bow,DPS distanza,Agility,35.278,59.713,5.01,41.01,non affidabile,20.961,5,212,210,2,0.943,1.825,20.845,58.375,Take Aim,9275.0,59
+Wizard Staff,DPS distanza,Intelligence,30.226,69.774,0.0,40.874,affidabile,10.625,6,925,895,30,3.243,9.093,30.658,61.327,Water Elemental,32080.0,194
+Naga Trident,DPS distanza,Agility,49.414,35.961,14.625,60.864,non affidabile,22.757,5,234,230,4,1.709,2.378,12.773,27.871,Crushing Wave,11575.0,35

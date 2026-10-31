@@ -1,0 +1,102 @@
+t_s,debitore,ruolo_debitore,creditore,ruolo_creditore,importo,richiesta,stato,rimborsato_s
+266,Wizard Staff,DPS distanza,Pickaxe,DPS mischia,8,8,rimborsato,374
+272,Bow,DPS distanza,War Drums,Support,13,13,rimborsato,446
+273,Bow,DPS distanza,War Hammer,Tank,0,13,rimborsato,
+273,Bow,DPS distanza,Claws,DPS mischia,0,13,rimborsato,
+285,War Hammer,Tank,Pickaxe,DPS mischia,6,6,rimborsato,374
+466,Druid Staff,Healer,Claws,DPS mischia,34,41,rimborsato,569
+466,Druid Staff,Healer,Wizard Staff,DPS distanza,7,41,rimborsato,569
+467,Druid Staff,Healer,War Drums,Support,0,41,rimborsato,
+468,Druid Staff,Healer,War Hammer,Tank,0,41,rimborsato,
+487,Bow,DPS distanza,War Drums,Support,2,28,rimborsato,646
+487,Bow,DPS distanza,War Hammer,Tank,26,28,rimborsato,646
+488,Bow,DPS distanza,Wizard Staff,DPS distanza,0,28,rimborsato,
+664,Wizard Staff,DPS distanza,Druid Staff,Healer,18,21,rimborsato,771
+668,Wizard Staff,DPS distanza,Runeblade,Tank,3,21,rimborsato,771
+672,War Drums,Support,Naga Trident,DPS distanza,15,21,rimborsato,771
+682,War Drums,Support,Runeblade,Tank,6,21,rimborsato,771
+952,Bow,DPS distanza,War Drums,Support,35,60,rimborsato,1051
+954,Bow,DPS distanza,Wizard Staff,DPS distanza,25,60,rimborsato,1051
+955,Bow,DPS distanza,Claws,DPS mischia,0,60,rimborsato,
+955,Bow,DPS distanza,Runeblade,Tank,0,60,rimborsato,
+960,Druid Staff,Healer,Claws,DPS mischia,41,41,rimborsato,1051
+961,Druid Staff,Healer,Pickaxe,DPS mischia,0,41,rimborsato,
+1263,War Hammer,Tank,War Drums,Support,50,300,rimborsato,1365
+1264,War Hammer,Tank,Pickaxe,DPS mischia,152,300,rimborsato,1365
+1264,War Hammer,Tank,Druid Staff,Healer,98,300,rimborsato,1365
+1274,Naga Trident,DPS distanza,Druid Staff,Healer,98,1000,rimborsato,1470
+1274,Naga Trident,DPS distanza,Double Blade,DPS mischia,85,1000,rimborsato,1365
+1500,Double Blade,DPS mischia,Wizard Staff,DPS distanza,212,500,rimborsato,1599
+1500,Double Blade,DPS mischia,War Drums,Support,69,500,rimborsato,1599
+1500,Double Blade,DPS mischia,War Hammer,Tank,75,500,rimborsato,1599
+1501,Double Blade,DPS mischia,Pickaxe,DPS mischia,92,500,rimborsato,1599
+1501,Double Blade,DPS mischia,Druid Staff,Healer,52,500,rimborsato,1599
+1501,Double Blade,DPS mischia,Claws,DPS mischia,0,500,rimborsato,
+1520,Double Blade,DPS mischia,Runeblade,Tank,100,150,rimborsato,1599
+1793,Claws,DPS mischia,Pickaxe,DPS mischia,101,300,rimborsato,2060
+1794,Claws,DPS mischia,War Drums,Support,92,300,rimborsato,2060
+1796,Claws,DPS mischia,Wizard Staff,DPS distanza,84,300,rimborsato,2189
+1797,Claws,DPS mischia,Druid Staff,Healer,23,300,rimborsato,1899
+1805,Druid Staff,Healer,Double Blade,DPS mischia,12,12,rimborsato,1899
+2095,Bow,DPS distanza,Pickaxe,DPS mischia,108,335,rimborsato,2906
+2097,Bow,DPS distanza,Druid Staff,Healer,227,335,rimborsato,2745
+2097,Bow,DPS distanza,War Drums,Support,0,335,rimborsato,
+2097,Bow,DPS distanza,Runeblade,Tank,0,335,rimborsato,
+2098,Bow,DPS distanza,Wizard Staff,DPS distanza,0,335,rimborsato,
+2105,Double Blade,DPS mischia,War Hammer,Tank,50,50,rimborsato,2189
+2642,War Hammer,Tank,Pickaxe,DPS mischia,151,600,rimborsato,3305
+2650,War Hammer,Tank,Druid Staff,Healer,243,600,rimborsato,3178
+2653,War Hammer,Tank,Wizard Staff,DPS distanza,205,600,rimborsato,3418
+2928,Pickaxe,DPS mischia,Claws,DPS mischia,50,50,rimborsato,3178
+2936,Wizard Staff,DPS distanza,Druid Staff,Healer,80,80,rimborsato,3178
+2946,Double Blade,DPS mischia,Druid Staff,Healer,344,675,rimborsato,3029
+3191,Druid Staff,Healer,War Hammer,Tank,112,112,rimborsato,3305
+3202,Double Blade,DPS mischia,Pickaxe,DPS mischia,203,700,rimborsato,3908
+3211,Double Blade,DPS mischia,Druid Staff,Healer,497,700,rimborsato,3660
+3211,Double Blade,DPS mischia,Claws,DPS mischia,0,700,rimborsato,
+3211,Double Blade,DPS mischia,Wizard Staff,DPS distanza,0,700,rimborsato,
+3211,Double Blade,DPS mischia,War Drums,Support,0,700,rimborsato,
+3211,Double Blade,DPS mischia,Bow,DPS distanza,0,700,rimborsato,
+3224,Runeblade,Tank,Wizard Staff,DPS distanza,159,412,rimborsato,3305
+3230,Runeblade,Tank,Double Blade,DPS mischia,159,412,rimborsato,3305
+3421,Runeblade,Tank,War Drums,Support,168,168,rimborsato,3660
+3421,Runeblade,Tank,Pickaxe,DPS mischia,0,168,rimborsato,
+3422,Runeblade,Tank,Wizard Staff,DPS distanza,0,168,rimborsato,
+3422,Runeblade,Tank,Druid Staff,Healer,0,168,rimborsato,
+3431,Claws,DPS mischia,War Drums,Support,160,400,rimborsato,3908
+3432,Claws,DPS mischia,Druid Staff,Healer,166,400,rimborsato,3660
+3432,Claws,DPS mischia,Pickaxe,DPS mischia,74,400,rimborsato,3660
+3432,Claws,DPS mischia,Wizard Staff,DPS distanza,0,400,rimborsato,
+3442,Bow,DPS distanza,Pickaxe,DPS mischia,50,50,rimborsato,3528
+3692,Bow,DPS distanza,War Hammer,Tank,185,552,rimborsato,3908
+3696,Bow,DPS distanza,Runeblade,Tank,40,552,rimborsato,3908
+3696,Bow,DPS distanza,Wizard Staff,DPS distanza,327,552,rimborsato,4270
+3696,Bow,DPS distanza,Pickaxe,DPS mischia,0,552,rimborsato,
+3700,Naga Trident,DPS distanza,War Drums,Support,200,200,rimborsato,3908
+3929,War Hammer,Tank,Claws,DPS mischia,200,200,rimborsato,4035
+3936,Double Blade,DPS mischia,Pickaxe,DPS mischia,500,500,rimborsato,4610
+4286,Wizard Staff,DPS distanza,Claws,DPS mischia,7,7,rimborsato,4610
+4289,Wizard Staff,DPS distanza,Druid Staff,Healer,7,7,rimborsato,4610
+4289,Wizard Staff,DPS distanza,War Hammer,Tank,0,7,rimborsato,
+4289,Wizard Staff,DPS distanza,Pickaxe,DPS mischia,0,7,rimborsato,
+4289,Wizard Staff,DPS distanza,War Drums,Support,0,7,rimborsato,
+4303,Runeblade,Tank,Druid Staff,Healer,26,26,rimborsato,4395
+4314,Druid Staff,Healer,Wizard Staff,DPS distanza,7,400,rimborsato,4737
+4315,Druid Staff,Healer,War Hammer,Tank,56,400,rimborsato,4737
+4317,Druid Staff,Healer,Pickaxe,DPS mischia,11,400,rimborsato,4395
+4318,Druid Staff,Healer,War Drums,Support,326,400,rimborsato,4610
+4640,Naga Trident,DPS distanza,War Drums,Support,347,500,rimborsato,4816
+4642,Naga Trident,DPS distanza,War Hammer,Tank,153,500,rimborsato,4954
+4852,Bow,DPS distanza,Druid Staff,Healer,246,500,rimborsato,4954
+4855,Bow,DPS distanza,War Drums,Support,254,500,rimborsato,4954
+4855,Bow,DPS distanza,Pickaxe,DPS mischia,0,500,rimborsato,
+4855,Bow,DPS distanza,Claws,DPS mischia,0,500,rimborsato,
+4856,Bow,DPS distanza,Wizard Staff,DPS distanza,0,500,rimborsato,
+5729,Pickaxe,DPS mischia,War Drums,Support,10,10,rimborsato,5846
+5737,Naga Trident,DPS distanza,Druid Staff,Healer,20,20,rimborsato,5846
+5743,Naga Trident,DPS distanza,Wizard Staff,DPS distanza,1,1,rimborsato,5846
+5743,Naga Trident,DPS distanza,Pickaxe,DPS mischia,0,1,rimborsato,
+5743,Naga Trident,DPS distanza,War Drums,Support,0,1,rimborsato,
+5755,Bow,DPS distanza,Double Blade,DPS mischia,43,500,rimborsato,5846
+5757,Bow,DPS distanza,War Hammer,Tank,32,500,rimborsato,5846
+5757,Bow,DPS distanza,Druid Staff,Healer,152,500,rimborsato,5846

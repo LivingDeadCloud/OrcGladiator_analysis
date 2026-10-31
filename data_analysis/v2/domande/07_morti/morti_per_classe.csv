@@ -1,0 +1,11 @@
+classe,ruolo,morti_certezza_alta,morti_certezza_media,morti_alta_piu_media,possibili_morti_bassa,di_cui_rianimato_fine_round,di_cui_rianimato_pietra,round_con_morte_alta_media,secondi_da_morto_min_totali,round_fine_sotto_20hp_screenshot,round_sotto_20hp_scheda_classi,round_fine_hp_basso_ma_vivo_le20,round_fine_hp_21_50_vivo,attivazioni_pietra_fatte,media_team_morti,rapporto_su_media_team,p_valore_poisson_almeno_k,media_ruolo_morti,quota_round_morto_pct
+Bow,DPS distanza,9,0,9,1,8,1,8,1132.6,7,7,0,0,0,3.9,2.3,0.019,6.0,42.1
+Naga Trident,DPS distanza,5,2,7,1,6,1,6,1114.1,5,5,0,0,0,3.9,1.8,0.101,6.0,31.6
+Druid Staff,Healer,6,0,6,0,3,3,4,661.2,3,3,0,0,1,3.9,1.5,0.199,6.0,21.1
+Pickaxe,DPS mischia,5,0,5,1,5,0,5,496.8,4,4,0,1,12,3.9,1.3,0.352,3.0,26.3
+War Drums,Support,3,0,3,5,2,1,3,619.4,3,3,1,0,0,3.9,0.8,0.747,3.0,15.8
+Claws,DPS mischia,2,0,2,0,1,1,2,443.8,2,2,1,0,1,3.9,0.5,0.901,3.0,10.5
+Double Blade,DPS mischia,2,0,2,4,2,0,2,487.8,2,2,0,1,0,3.9,0.5,0.901,3.0,10.5
+Runeblade,Tank,2,0,2,3,2,0,2,445.2,2,2,0,0,0,3.9,0.5,0.901,1.5,10.5
+Wizard Staff,DPS distanza,1,1,2,2,1,1,2,53.5,0,1,0,0,8,3.9,0.5,0.901,6.0,10.5
+War Hammer,Tank,1,0,1,0,1,0,1,112.4,1,1,0,2,1,3.9,0.3,0.98,1.5,5.3

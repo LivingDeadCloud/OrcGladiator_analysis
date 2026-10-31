@@ -1,0 +1,18 @@
+classe,ruolo,codice,oggetto,acquisto_s,costo_oro,cooldown_s,slot_ipotizzato,confidenza_attribuzione,comandi_slot_dopo_acquisto,usi_contati_con_cooldown,secondi_combattimento_dopo_acquisto,max_teorico_in_combattimento,uso_pct_del_max,nota
+Druid Staff,Healer,I00R,Wizard's Potion,468.6,100,40,useslot3,alta (cure/uso_pozioni_slot.csv),76,74,3449,87,85.1,pozione solo mana
+Pickaxe,DPS mischia,I00R,Wizard's Potion,661.3,100,40,useslot3,alta,68,61,3372,85,71.8,pozione solo mana
+Wizard Staff,DPS distanza,I00R,Wizard's Potion,666.9,100,40,useslot3,alta,65,63,3372,85,74.1,pozione solo mana
+Claws,DPS mischia,I00R,Wizard's Potion,654.5,100,40,useslot3,alta,45,45,3372,85,52.9,pozione solo mana
+Runeblade,Tank,I00R,Wizard's Potion,939.9,100,40,useslot3,alta,34,34,3218,81,42.0,pozione solo mana
+War Drums,Support,I00R,Wizard's Potion,675.7,100,40,useslot3,alta,26,26,3372,85,30.6,pozione solo mana
+War Hammer,Tank,I00R,Wizard's Potion,685.4,100,40,useslot3,alta,25,25,3372,85,29.4,pozione solo mana
+Naga Trident,DPS distanza,I00R,Wizard's Potion,943.9,100,40,useslot3,alta,11,11,3218,81,13.6,pozione solo mana
+Bow,DPS distanza,I00W,Rage Potion,957.8,250,40,useslot3,alta,67,67,3218,81,82.7,pozione cura+mana+vel. attacco
+Double Blade,DPS mischia,I00Q,Tank's Potion,972.2,100,40,useslot5,media,43,40,3218,81,49.4,pozione cura 40% HP
+War Drums,Support,I08F,Charm of Protection,2075.1,400,180,useslot4,media (unico oggetto attivabile comprato prima del 1o uso dello slot 4),7,6,2589,15,40.0,Charm of Protection: +100 armatura agli alleati vicini
+Double Blade,DPS mischia,I05S,I05S (base fgfh = Spiked Collar: evoca 2 Felhound),2109.3,25,0,useslot3,"bassa (slot 3 usato anche a 486 s, prima dell acquisto)",7,7,2589,,,Spiked Collar con talento Houndmaster (cariche illimitate)
+Naga Trident,DPS distanza,I070,Purchase Warp Treads,2947.0,550,15,useslot2,media (unici ordini useslot a bersaglio punto = blink),3,3,2000,134,2.2,Warp Treads: blink
+War Drums,Support,I070,Purchase Warp Treads,3919.4,550,15,-,alta: nessun useslot a bersaglio punto,0,0,1484,99,0.0,Warp Treads: blink
+Claws,DPS mischia,I070,Purchase Warp Treads,4639.7,550,15,-,alta: nessun useslot a bersaglio punto dopo l acquisto,0,0,1032,69,0.0,Warp Treads: blink
+Runeblade,Tank,I09A,Defender's Buckler,1285.5,100,20,-,alta: unico slot usato e il 3 (pozione),0,0,3029,152,0.0,Defender's Buckler: taunt
+Pickaxe,DPS mischia,I09F,Warrior's Spirit,4300.6,1250,100,-,alta: dopo l acquisto solo lo slot 3 (pozione),0,0,1248,13,0.0,Warrior's Spirit: +10000 HP per 30 s

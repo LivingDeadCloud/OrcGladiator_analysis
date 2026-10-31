@@ -1,0 +1,21 @@
+challenge,ondata,ondata_rounds_csv,variante,etichetta_gioco,n_unita,hp_totale_truppe,quota_unita_mischia,quota_hp_mischia,quota_hp_distanza,tipo_wave,boss,tipo_boss,confronto_etichetta,note
+1,Prisoners,?,3 di 3,,120,19500,0.75,0.831,0.169,ibrida,"Thomas the Deserter (mischia, gittata 178)",mischia,nessuna etichetta,nome non leggibile nello screenshot: variante dedotta da -waves3; ibrida: mischia 83% / distanza 17% degli HP truppe
+2,Machines,Machines,3 di 3,,90,37500,0.333,0.4,0.6,ibrida,"Rattletrap (distanza, gittata 270)",distanza,nessuna etichetta,ibrida: mischia 40% / distanza 60% degli HP truppe
+3,Combatants (Melee),Combatants (Melee),3 di 3,mischia,60,56400,1.0,1.0,0.0,mischia,"Instructor Mathos (mischia, gittata 178)",mischia,concorda,
+4,Voidwalkers (Ranged),Voidwalkers (Ranged),3 di 3,distanza,30,53460,0.0,0.0,1.0,distanza,"Envoy Blackstar (mischia, gittata 178)",mischia,concorda,
+5,Sasquatches (Melee),Sasquatches (Melee),3 di 3,mischia,60,75600,1.0,1.0,0.0,mischia,"Rendclaw the Horrid (mischia, gittata 178)",mischia,concorda,
+6,Boars,Boars,3 di 3,,90,112200,0.667,0.578,0.422,ibrida,"Needler (distanza, gittata 390)",distanza,nessuna etichetta,ibrida: mischia 58% / distanza 42% degli HP truppe
+7,Goblins,Goblins,3 di 3,,120,122100,0.5,0.602,0.398,ibrida,"Big Betty (distanza, gittata 630)",distanza,nessuna etichetta,ibrida: mischia 60% / distanza 40% degli HP truppe
+8,Mur'guls,Mur'guls,3 di 3,,90,163500,0.333,0.413,0.587,ibrida,"Tidecaller Rinx (distanza, gittata 450)",distanza,nessuna etichetta,ibrida: mischia 41% / distanza 59% degli HP truppe
+9,Water Elementals (Ranged),Water Elementals,3 di 3,distanza,60,165000,0.0,0.0,1.0,distanza,"Paragon Aquarius (distanza, gittata 480)",distanza,concorda,l'etichetta (distanza) c'e' nella mappa ma manca nella trascrizione
+10,Mammoths (Melee),Mammoths (Melee),3 di 3,mischia,30,217500,1.0,1.0,0.0,mischia,"Mammoth Patriarch (mischia, gittata 178)",mischia,concorda,
+11,Nether Drakes (Ranged),Nether Drakes (Ranged),3 di 3,distanza,60,231000,0.0,0.0,1.0,distanza,"Anomaly Eraxis (distanza, gittata 540)",distanza,concorda,
+12,Giant Spiders,Giant Spiders,3 di 3,,90,333000,0.667,0.667,0.333,ibrida,"The Giant Stalker (distanza, gittata 570)",distanza,nessuna etichetta,ibrida: mischia 67% / distanza 33% degli HP truppe
+13,Revenants,Revenants,3 di 3,,120,390000,0.25,0.308,0.692,ibrida,"Dethacus (mischia, gittata 178)",mischia,nessuna etichetta,ibrida: mischia 31% / distanza 69% degli HP truppe
+14,Faceless Ones,Faceless Ones,3 di 3,,90,457500,0.333,0.344,0.656,ibrida,"The Apostle (mischia, gittata 178)",mischia,nessuna etichetta,ibrida: mischia 34% / distanza 66% degli HP truppe
+15,War Golems (Melee),War Golems (Melee),3 di 3,mischia,60,484500,1.0,1.0,0.0,mischia,"Greasebeard's Magnum Opus (mischia, gittata 178)",mischia,concorda,
+16,Salamanders (Ranged),Salamanders (Ranged),3 di 3,distanza,30,594000,0.0,0.0,1.0,distanza,"Cinderspine (distanza, gittata 690)",distanza,concorda,
+17,Greater Demons (Melee),Greater Demons (Melee),3 di 3,mischia,60,621000,1.0,1.0,0.0,mischia,"Annihilus (distanza, gittata 720)",distanza,concorda,
+18,Enslaved Orcs,Enslaved Orcs,1 di 1,,93,870000,0.645,0.724,0.276,ibrida,"Agamando the Coward (mischia, gittata 178); Kazragore the Broken (distanza, gittata 600); Mull the Brute (mischia, gittata 178)",distanza/mischia,nessuna etichetta,ibrida: mischia 72% / distanza 28% degli HP truppe
+19,Night Elf Hunters,Night Elf Hunters,1 di 1,,123,1020000,0.488,0.529,0.471,ibrida,"Anaya Orcslayer (mischia, gittata 100)",mischia,nessuna etichetta,ibrida: mischia 53% / distanza 47% degli HP truppe
+20,Arena Organisers,Arena Organisers (boss finale: Lord of the Arena lv30),1 di 1,,90,1200000,0.333,0.4,0.6,ibrida,"Lord of the Arena (mischia, gittata 200)",mischia,nessuna etichetta,ibrida: mischia 40% / distanza 60% degli HP truppe
